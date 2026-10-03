@@ -1,6 +1,6 @@
 # Materials, farming and equipment
 
-Current October 1 coverage: all 42 flavor records link to 22 normalized character/event Prize Pod routes, including spawn hints and world-versus-Arena reset instructions. See [the live per-ID ledger](research-dispositions-2026-10-01.json), particularly BBS-015/016/018/019/020; complete crystal farms and ice-cream predicate certification remain partial.
+Current October 3 coverage: 12 practical crystal routes cover all nine materials, and all 42 flavor records link to 22 normalized character/event Prize Pod routes. Reset and edition-source limits are explicit. See [the live per-ID ledger](research-dispositions-2026-10-01.json), particularly BBS-015/016/018/019/020; fastest farming, complete numeric certification and the three story ice-cream alternatives remain distinct.
 
 ## Crystals and conditional sources
 
@@ -14,7 +14,7 @@ There are nine legacy material entries: seven deterministic ability crystals, Ch
 | Wellspring Crystal | 300; Shop 1, Arena 1 | Scrapper 1.8% at 1–2, 3% at 3–8; Triple Wrecker 10.8% | [Wellspring](https://www.khwiki.com/Wellspring) |
 | Soothing Crystal | 400; Shop 1, Arena 1 | Flood 4% at 1–6, 3.96% at 7–8; Jellyshade 3.2% | [Soothing](https://www.khwiki.com/Soothing) |
 | Hungry Crystal | 350; Shop 1, Arena 1 | Bruiser 6% at 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%; Buckle Bruiser 6% at 5 | [Hungry](https://www.khwiki.com/Hungry) |
-| Abounding Crystal | 400; Shop 4, Arena 1 | Axe Flapper 14.4%; Mandrake 4.8% at 5–6, 7.6% at 7–8 | [Abounding](https://www.khwiki.com/Abounding) |
+| Abounding Crystal | 400; Shop 4, Arena 1 | Axe Flapper 14.4%; Mandrake 4.8% at 4–6, 7.6% at 7–8 | [Abounding](https://www.khwiki.com/Abounding) |
 | Chaos Crystal | 500; Shop 5, Arena 10 | Archraven 0.3% at 7–8; also first Fantastic on Destiny Islands Master in Ice Cream Beat | [Chaos](https://www.khwiki.com/Chaos) |
 | Secret Gem | 1,500; Shop 8, Arena 15 | Flood 0.04% at 7–8; Secret Episode chest is in Lower Zone (resolved by HD route) | [Secret Gem](https://www.khwiki.com/Secret_Gem) |
 
@@ -33,7 +33,7 @@ Ringer Ticket is **250 medals**, Shop Level 1 AND Arena Level 5, for one Dead Ri
 | Acquisition goal | Required event |
 |---|---|
 | [Victory Line](https://www.khwiki.com/Victory_Line) | Castle Circuit first place |
-| [Sweetstack](https://www.khwiki.com/Sweetstack) | Obtain all eligible ice cream kinds for that character |
+| [Sweetstack](https://www.khwiki.com/Sweetstack) | Make each of the eight eligible kinds once; purchased/already-manufactured kinds need no remake; story-award substitutes remain unverified |
 | [Ultima Weapon](https://www.khwiki.com/Ultima_Weapon) | Villains' Vendetta |
 | [Royal Radiance](https://www.khwiki.com/Royal_Radiance) | Peering into Darkness |
 | [Void Gear](https://www.khwiki.com/Void_Gear) | Vanitas Remnant |
@@ -45,6 +45,12 @@ Equipment is a separate collection goal; its rewards do not inflate world chest/
 
 [acquisition-tables.json](acquisition-tables.json) preserves **14 ice cream recipes**, their exact ingredient quantities and character availability, plus a computed ingredient shopping list per character. It also contains **42 flavor entries** with world/event and character leads. Sources: [Ice Cream](https://www.khwiki.com/Ice_cream), [Flavors](https://www.khwiki.com/Flavors).
 
-There are eight eligible recipes per character. Shared entries are Bueno Volcano, Snow Bear, Spark Lemon and Final Mix Daisy Sorbet. The HD name Sugary Skies retains Milky Way as a search alias. The JSON sums one manufacture of each eligible recipe; it must not demand ingredients again for an item already obtained elsewhere.
+There are eight eligible recipes per character. Shared entries are Bueno Volcano, Snow Bear, Spark Lemon and Final Mix Daisy Sorbet. The HD name Sugary Skies retains Milky Way as a search alias. The JSON sums one manufacture of each eligible recipe. Do not require a second manufacture of an already-manufactured kind. Purchase unlocks after manufacture, so bought kinds are already covered. Only the three Million Dreams story awards remain uncertain substitute credit.
 
 [Prize Pod](https://www.khwiki.com/Prize_Pod) location tables were inspected. Example: Terra's Dwarf Woodlands spawn is above the Underground Waterway waterfall near the Courtyard exit; an unwanted Red Hot Chili spawn requires an area reset. Ventus's Mine spawn and Aqua's Flower Glade spawn are different records. All 42 flavor records now join the 22 character/event routes in `research-enrichment.json`; world reset and Arena replay guidance are distinct. Enemy counts that conflict between tables are not used. This closes the normalized flavor-route gap without certifying unrelated crystal farms.
+
+## Practical research boundary (October 3)
+
+Twelve crystal-route records now cover all nine materials: seven standard Twister Trench routes, earlier Aqueduct Abounding, character-specific Chaos/Archraven rooms and the all-character Fountain Court ordinary-Flood Secret Gem loop. Conditions retain the HD/legacy encounter and independent reset-report limits; these are sourced practical routes, not directly observed Steam loops or fastest-yield claims. All nine Medal Shop alternatives remain available. Exhaustive atlases and Lucky Strike formula certification are deferred; no crystal is left with only a generic world name.
+
+Purchased ice cream already implies a prior manufacture and must not trigger repeated ingredient collection. The finite Rockin’ Crunch / Double Crunch / Royalberry story-award alternatives remain BBS-019. See the [critical re-audit](critical-reaudit-2026-10-03.md#bbs-015).

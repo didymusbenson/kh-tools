@@ -1,0 +1,2345 @@
+{
+  "checkedAt": "2026-10-02",
+  "baselineCommit": "d5f588bee5a8a0f9560cc566a6177c241195dbd3",
+  "reason": "User challenged over-broad deferrals; this pass checks actual start/action/scoring directions and every equipment acquisition.",
+  "changedEntryIds": [
+    "kh3.base.toy-box.chest.006",
+    "kh3.base.kingdom-of-corona.chest.002",
+    "kh3.base.arendelle.chest.024",
+    "kh3.base.the-caribbean.chest.016",
+    "kh3.base.the-caribbean.chest.041",
+    "kh3.base.the-caribbean.chest.042",
+    "kh3.base.the-caribbean.chest.043",
+    "kh3.base.the-caribbean.chest.044",
+    "kh3.base.the-caribbean.emblem.009",
+    "kh3.base.san-fransokyo.chest.023",
+    "kh3.base.keyblade-graveyard.chest.003",
+    "kh3.base.keyblade-graveyard.chest.004",
+    "kh3.base.keyblade-graveyard.chest.005",
+    "kh3.challenges.cherry-flan",
+    "kh3.challenges.strawberry-flan",
+    "kh3.challenges.orange-flan",
+    "kh3.challenges.banana-flan",
+    "kh3.challenges.grape-flan",
+    "kh3.challenges.watermelon-flan",
+    "kh3.challenges.honeydew-flan",
+    "kh3.challenges.verum-rex-beat-of-lead",
+    "kh3.challenges.festival-dance",
+    "kh3.challenges.frozen-slider",
+    "kh3.challenges.flash-tracer-a",
+    "kh3.challenges.flash-tracer-b",
+    "kh3.achievement.dreadnought",
+    "kh3.achievement.true-captain",
+    "kh3.equipment.forest-clasp",
+    "kh3.synthesis-history.elven-bandanna",
+    "kh3.synthesis-history.divine-bandanna",
+    "kh3.synthesis-history.petite-ribbon",
+    "kh3.equipment.mage-s-staff",
+    "kh3.equipment.mage-s-staff-plus",
+    "kh3.equipment.warhammer",
+    "kh3.equipment.warhammer-plus",
+    "kh3.equipment.magician-s-wand",
+    "kh3.equipment.magician-s-wand-plus",
+    "kh3.equipment.nirvana",
+    "kh3.equipment.nirvana-plus",
+    "kh3.equipment.astrolabe",
+    "kh3.equipment.astrolabe-plus",
+    "kh3.equipment.heartless-maul",
+    "kh3.equipment.heartless-maul-plus",
+    "kh3.equipment.save-the-queen",
+    "kh3.equipment.save-the-queen-plus",
+    "kh3.equipment.knight-s-shield",
+    "kh3.equipment.knight-s-shield-plus",
+    "kh3.equipment.clockwork-shield",
+    "kh3.equipment.clockwork-shield-plus",
+    "kh3.equipment.star-shield",
+    "kh3.equipment.star-shield-plus",
+    "kh3.equipment.aegis-shield",
+    "kh3.equipment.aegis-shield-plus",
+    "kh3.equipment.storm-anchor",
+    "kh3.equipment.storm-anchor-plus",
+    "kh3.equipment.nobody-guard",
+    "kh3.equipment.nobody-guard-plus",
+    "kh3.equipment.save-the-king",
+    "kh3.equipment.save-the-king-plus",
+    "kh3.equipment.shield-belt",
+    "kh3.equipment.defense-belt",
+    "kh3.equipment.guardian-s-belt",
+    "kh3.equipment.power-band",
+    "kh3.equipment.buster-band",
+    "kh3.equipment.buster-band-plus",
+    "kh3.equipment.cosmic-belt",
+    "kh3.equipment.cosmic-belt-plus",
+    "kh3.equipment.fire-bangle",
+    "kh3.equipment.fira-bangle",
+    "kh3.equipment.firaga-bangle",
+    "kh3.equipment.firaza-bangle",
+    "kh3.equipment.fire-chain",
+    "kh3.equipment.blizzard-choker",
+    "kh3.equipment.blizzara-choker",
+    "kh3.equipment.blizzaga-choker",
+    "kh3.equipment.blizzaza-choker",
+    "kh3.equipment.blizzard-chain",
+    "kh3.equipment.thunder-trinket",
+    "kh3.equipment.thundara-trinket",
+    "kh3.equipment.thundaga-trinket",
+    "kh3.equipment.thundaza-trinket",
+    "kh3.equipment.thunder-chain",
+    "kh3.equipment.shadow-anklet",
+    "kh3.equipment.dark-anklet",
+    "kh3.equipment.midnight-anklet",
+    "kh3.equipment.chaos-anklet",
+    "kh3.equipment.dark-chain",
+    "kh3.equipment.elven-bandanna",
+    "kh3.equipment.divine-bandanna",
+    "kh3.equipment.aqua-chaplet",
+    "kh3.equipment.wind-fan",
+    "kh3.equipment.storm-fan",
+    "kh3.equipment.aero-armlet",
+    "kh3.equipment.abas-chain",
+    "kh3.equipment.aegis-chain",
+    "kh3.equipment.acrisius",
+    "kh3.equipment.acrisius-plus",
+    "kh3.equipment.cosmic-chain",
+    "kh3.equipment.petite-ribbon",
+    "kh3.equipment.ribbon",
+    "kh3.equipment.royal-ribbon",
+    "kh3.equipment.firefighter-rosette",
+    "kh3.equipment.umbrella-rosette",
+    "kh3.equipment.mask-rosette",
+    "kh3.equipment.snowman-rosette",
+    "kh3.equipment.insulator-rosette",
+    "kh3.equipment.hero-s-belt",
+    "kh3.equipment.hero-s-glove",
+    "kh3.equipment.power-weight",
+    "kh3.equipment.magic-weight",
+    "kh3.equipment.master-belt",
+    "kh3.equipment.ability-ring",
+    "kh3.equipment.ability-ring-plus",
+    "kh3.equipment.technician-s-ring",
+    "kh3.equipment.technician-s-ring-plus",
+    "kh3.equipment.skill-ring",
+    "kh3.equipment.skill-ring-plus",
+    "kh3.equipment.expert-s-ring",
+    "kh3.equipment.master-s-ring",
+    "kh3.equipment.cosmic-ring",
+    "kh3.equipment.power-ring",
+    "kh3.equipment.buster-ring",
+    "kh3.equipment.valor-ring",
+    "kh3.equipment.phantom-ring",
+    "kh3.equipment.orichalcum-ring",
+    "kh3.equipment.magic-ring",
+    "kh3.equipment.rune-ring",
+    "kh3.equipment.force-ring",
+    "kh3.equipment.sorcerer-s-ring",
+    "kh3.equipment.wisdom-ring",
+    "kh3.equipment.soldier-s-earring",
+    "kh3.equipment.fencer-s-earring",
+    "kh3.equipment.mage-s-earring",
+    "kh3.equipment.slayer-s-earring",
+    "kh3.equipment.bronze-amulet",
+    "kh3.equipment.silver-amulet",
+    "kh3.equipment.gold-amulet",
+    "kh3.equipment.moon-amulet",
+    "kh3.equipment.star-charm",
+    "kh3.equipment.cosmic-arts",
+    "kh3.equipment.water-cufflink",
+    "kh3.equipment.thunder-cufflink",
+    "kh3.equipment.fire-cufflink",
+    "kh3.equipment.aero-cufflink",
+    "kh3.equipment.blizzard-cufflink",
+    "kh3.equipment.celestriad",
+    "kh3.equipment.yin-yang-cufflink",
+    "kh3.equipment.gourmand-s-ring",
+    "kh3.equipment.draw-ring",
+    "kh3.equipment.lucky-ring",
+    "kh3.equipment.laughter-pin",
+    "kh3.equipment.crystal-regalia",
+    "kh3.equipment.crystal-regalia-plus",
+    "kh3.equipment.mickey-clasp",
+    "kh3.equipment.flanniversary-badge",
+    "kh3.equipment.bronze-necklace",
+    "kh3.equipment.silver-necklace",
+    "kh3.equipment.master-s-necklace",
+    "kh3.equipment.breakthrough",
+    "kh3.naval.leviathan-level-1",
+    "kh3.naval.leviathan-level-2",
+    "kh3.naval.leviathan-level-3",
+    "kh3.naval.leviathan-level-4",
+    "kh3.naval.leviathan-level-5",
+    "kh3.naval.leviathan-level-6",
+    "kh3.naval.leviathan-level-7",
+    "kh3.naval.leviathan-level-8",
+    "kh3.naval.leviathan-level-9",
+    "kh3.naval-rewards.fleet-with-only-normal-ship-small-1",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-2",
+    "kh3.naval-rewards.fleet-with-only-crab-ship-3",
+    "kh3.naval-rewards.ghost-ship-fleet-4",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-1",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-3",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-4",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-5",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-6",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-7",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-8",
+    "kh3.naval-rewards.fleet-including-normal-ship-large-9",
+    "kh3.naval-rewards.treasure-ship-10",
+    "kh3.naval-rewards.black-ship-fleet-11",
+    "kh3.gummi-fragments.srs-01",
+    "kh3.gummi-fragments.srs-02",
+    "kh3.gummi-fragments.srs-03",
+    "kh3.gummi-fragments.srs-04",
+    "kh3.gummi-fragments.srs-05",
+    "kh3.gummi-fragments.srs-06",
+    "kh3.gummi-fragments.srs-07",
+    "kh3.gummi-fragments.srs-08",
+    "kh3.gummi-fragments.srs-09",
+    "kh3.gummi-fragments.srs-10",
+    "kh3.gummi-fragments.srs-11",
+    "kh3.gummi-fragments.srs-12",
+    "kh3.gummi-fragments.srs-13",
+    "kh3.gummi-fragments.srs-14",
+    "kh3.gummi-fragments.srs-15",
+    "kh3.equipment.junior-medal-treasure-magnet",
+    "kh3.equipment.junior-medal-full-mp-blast",
+    "kh3.equipment.junior-medal-burn-protection",
+    "kh3.equipment.junior-medal-cloud-protection",
+    "kh3.equipment.junior-medal-sneeze-protection",
+    "kh3.equipment.junior-medal-freeze-protection",
+    "kh3.equipment.junior-medal-electric-protection",
+    "kh3.equipment.master-medal-fire-boost",
+    "kh3.equipment.master-medal-water-boost",
+    "kh3.equipment.master-medal-defender",
+    "kh3.equipment.master-medal-extra-cast",
+    "kh3.equipment.master-medal-lucky-strike",
+    "kh3.equipment.master-medal-magic-treasure-magnet",
+    "kh3.equipment.master-medal-stun-protection",
+    "kh3.equipment.master-medal-fire-syphon",
+    "kh3.equipment.master-medal-blizzard-syphon",
+    "kh3.equipment.master-medal-thunder-syphon",
+    "kh3.equipment.master-medal-water-syphon",
+    "kh3.equipment.master-medal-aero-syphon",
+    "kh3.equipment.star-medal-thunder-boost",
+    "kh3.equipment.star-medal-blizzard-boost",
+    "kh3.equipment.star-medal-aero-boost",
+    "kh3.equipment.star-medal-second-chance",
+    "kh3.equipment.star-medal-item-boost",
+    "kh3.equipment.star-medal-wizard-s-ruse",
+    "kh3.equipment.star-medal-withstand-combo",
+    "kh3.equipment.star-medal-damage-syphon",
+    "kh3.equipment.star-medal-dark-syphon"
+  ],
+  "flanGuideIds": [
+    "kh3.challenges.cherry-flan",
+    "kh3.challenges.strawberry-flan",
+    "kh3.challenges.orange-flan",
+    "kh3.challenges.banana-flan",
+    "kh3.challenges.grape-flan",
+    "kh3.challenges.watermelon-flan",
+    "kh3.challenges.honeydew-flan"
+  ],
+  "scoreGuideIds": [
+    "kh3.challenges.verum-rex-beat-of-lead",
+    "kh3.challenges.festival-dance",
+    "kh3.challenges.frozen-slider",
+    "kh3.challenges.flash-tracer-a",
+    "kh3.challenges.flash-tracer-b"
+  ],
+  "searchableAliasEntryIds": [
+    "kh3.base.toy-box.chest.006",
+    "kh3.base.kingdom-of-corona.chest.002",
+    "kh3.base.the-caribbean.chest.016",
+    "kh3.base.the-caribbean.chest.041",
+    "kh3.base.the-caribbean.chest.042",
+    "kh3.base.the-caribbean.chest.043",
+    "kh3.base.the-caribbean.chest.044",
+    "kh3.base.the-caribbean.emblem.009",
+    "kh3.base.san-fransokyo.chest.023",
+    "kh3.base.keyblade-graveyard.chest.003",
+    "kh3.base.keyblade-graveyard.chest.004",
+    "kh3.base.keyblade-graveyard.chest.005",
+    "kh3.synthesis-history.elven-bandanna",
+    "kh3.synthesis-history.divine-bandanna",
+    "kh3.synthesis-history.petite-ribbon",
+    "kh3.equipment.elven-bandanna",
+    "kh3.equipment.divine-bandanna",
+    "kh3.equipment.petite-ribbon",
+    "kh3.gummi-fragments.srs-01",
+    "kh3.gummi-fragments.srs-02",
+    "kh3.gummi-fragments.srs-03",
+    "kh3.gummi-fragments.srs-04",
+    "kh3.gummi-fragments.srs-05",
+    "kh3.gummi-fragments.srs-06",
+    "kh3.gummi-fragments.srs-07",
+    "kh3.gummi-fragments.srs-08",
+    "kh3.gummi-fragments.srs-09",
+    "kh3.gummi-fragments.srs-10",
+    "kh3.gummi-fragments.srs-11",
+    "kh3.gummi-fragments.srs-12",
+    "kh3.gummi-fragments.srs-13",
+    "kh3.gummi-fragments.srs-14",
+    "kh3.gummi-fragments.srs-15"
+  ],
+  "equipmentCount": 157,
+  "equipmentMethodCounts": {
+    "missable four-activity reward": 1,
+    "starting equipment": 2,
+    "numbered chest": 66,
+    "Moogle purchase": 11,
+    "Moogle synthesis": 25,
+    "local forge puzzle": 1,
+    "milestone reward": 11,
+    "Battlegate first clear": 2,
+    "five-figure exchange": 1,
+    "story hero rescue": 1,
+    "DLC first-clear reward": 5,
+    "postcard lottery": 1,
+    "story Laugh Power reward": 1,
+    "seven upper Flan rewards": 1,
+    "minigame rank": 28
+  },
+  "equipmentCensus": [
+    {
+      "id": "kh3.equipment.forest-clasp",
+      "name": "Forest Clasp",
+      "method": "missable four-activity reward",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Forest_Clasp",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/walkthrough/kingdom-hearts-iii/kingdom-of-corona",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.youtube.com/watch?v=zVHLAPwzBdw"
+      ]
+    },
+    {
+      "id": "kh3.equipment.mage-s-staff",
+      "name": "Mage's Staff",
+      "method": "starting equipment",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)"
+      ]
+    },
+    {
+      "id": "kh3.equipment.mage-s-staff-plus",
+      "name": "Mage's Staff+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.015"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.warhammer",
+      "name": "Warhammer",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.warhammer-plus",
+      "name": "Warhammer+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.warhammer-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Warhammer",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.magician-s-wand",
+      "name": "Magician's Wand",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.magician-s-wand-plus",
+      "name": "Magician's Wand+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.023"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle"
+      ]
+    },
+    {
+      "id": "kh3.equipment.nirvana",
+      "name": "Nirvana",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.nirvana-plus",
+      "name": "Nirvana+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.019"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.astrolabe",
+      "name": "Astrolabe",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.astrolabe-plus",
+      "name": "Astrolabe+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.astrolabe-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Astrolabe+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.heartless-maul",
+      "name": "Heartless Maul",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.heartless-maul"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Heartless_Maul+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.heartless-maul-plus",
+      "name": "Heartless Maul+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.heartless-maul-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Heartless_Maul+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.save-the-queen",
+      "name": "Save the Queen",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.save-the-queen"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_Queen+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.save-the-queen-plus",
+      "name": "Save the Queen+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.save-the-queen-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_Queen+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.knight-s-shield",
+      "name": "Knight's Shield",
+      "method": "starting equipment",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)"
+      ]
+    },
+    {
+      "id": "kh3.equipment.knight-s-shield-plus",
+      "name": "Knight's Shield+",
+      "method": "local forge puzzle",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.gosunoob.com/kingdom-hearts-3/olympus-forge-puzzle-solution-how-to-get-knights-shield/",
+        "https://www.neoseeker.com/kingdom-hearts-iii/walkthrough/Olympus"
+      ]
+    },
+    {
+      "id": "kh3.equipment.clockwork-shield",
+      "name": "Clockwork Shield",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.clockwork-shield-plus",
+      "name": "Clockwork Shield+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.clockwork-shield-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Clockwork_Shield+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-shield",
+      "name": "Star Shield",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-shield-plus",
+      "name": "Star Shield+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.006"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.aegis-shield",
+      "name": "Aegis Shield",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.aegis-shield-plus",
+      "name": "Aegis Shield+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.aegis-shield-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Aegis_Shield+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.storm-anchor",
+      "name": "Storm Anchor",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.storm-anchor-plus",
+      "name": "Storm Anchor+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.034"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.nobody-guard",
+      "name": "Nobody Guard",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.nobody-guard"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Nobody_Guard+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.nobody-guard-plus",
+      "name": "Nobody Guard+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.nobody-guard-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Nobody_Guard+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.save-the-king",
+      "name": "Save the King",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.save-the-king"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_King+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.save-the-king-plus",
+      "name": "Save the King+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.save-the-king-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_King+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.shield-belt",
+      "name": "Shield Belt",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.olympus.chest.020"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Shield_Belt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.defense-belt",
+      "name": "Defense Belt",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.015"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Defense_Belt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.guardian-s-belt",
+      "name": "Guardian's Belt",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.005"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Guardian's_Belt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.power-band",
+      "name": "Power Band",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Power_Band",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.buster-band",
+      "name": "Buster Band",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.027"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Buster_Band+",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.buster-band-plus",
+      "name": "Buster Band+",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.35-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Buster_Band+",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.cosmic-belt",
+      "name": "Cosmic Belt",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.keyblade-graveyard.chest.002"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Belt+",
+        "https://www.khwiki.com/Game:Keyblade_Graveyard",
+        "https://www.powerpyx.com/kingdom-hearts-3-keyblade-graveyard-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.cosmic-belt-plus",
+      "name": "Cosmic Belt+",
+      "method": "Battlegate first clear",
+      "referenceIds": [
+        "kh3.battlegates.battlegate-02"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Belt+",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games",
+        "https://www.khwiki.com/Lucky_Emblem"
+      ]
+    },
+    {
+      "id": "kh3.equipment.fire-bangle",
+      "name": "Fire Bangle",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.017"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Fire_Bangle",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.fira-bangle",
+      "name": "Fira Bangle",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.016"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Fira_Bangle",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.firaga-bangle",
+      "name": "Firaga Bangle",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.042"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Firaga_Bangle",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.firaza-bangle",
+      "name": "Firaza Bangle",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.firaza-bangle"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Firaza_Bangle",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.fire-chain",
+      "name": "Fire Chain",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.fire-chain"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Fire_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.blizzard-choker",
+      "name": "Blizzard Choker",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.002"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blizzard_Choker",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.blizzara-choker",
+      "name": "Blizzara Choker",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.019"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blizzara_Choker",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.blizzaga-choker",
+      "name": "Blizzaga Choker",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.043"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blizzaga_Choker",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.blizzaza-choker",
+      "name": "Blizzaza Choker",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.blizzaza-choker"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blizzaza_Choker",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.blizzard-chain",
+      "name": "Blizzard Chain",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.blizzard-chain"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blizzard_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.thunder-trinket",
+      "name": "Thunder Trinket",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.025"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Thunder_Trinket",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.thundara-trinket",
+      "name": "Thundara Trinket",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.10-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Thundara_Trinket",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.thundaga-trinket",
+      "name": "Thundaga Trinket",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.012"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Thundaga_Trinket",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.thundaza-trinket",
+      "name": "Thundaza Trinket",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.thundaza-trinket"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Thundaza_Trinket",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.thunder-chain",
+      "name": "Thunder Chain",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.thunder-chain"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Thunder_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.shadow-anklet",
+      "name": "Shadow Anklet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.012"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Shadow_Anklet",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.dark-anklet",
+      "name": "Dark Anklet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.011"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Dark_Anklet",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.midnight-anklet",
+      "name": "Midnight Anklet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.030"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Midnight_Anklet",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/san-fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.chaos-anklet",
+      "name": "Chaos Anklet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.044"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Chaos_Anklet",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.dark-chain",
+      "name": "Dark Chain",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.dark-chain"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Dark_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.elven-bandanna",
+      "name": "Elven Bandanna",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.002"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Elven_Bandanna",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.divine-bandanna",
+      "name": "Divine Bandanna",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.023"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Divine_Bandanna",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.aqua-chaplet",
+      "name": "Aqua Chaplet",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.aqua-chaplet"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Aqua_Chaplet",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.wind-fan",
+      "name": "Wind Fan",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.003"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Wind_Fan",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.storm-fan",
+      "name": "Storm Fan",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.014"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Storm_Fan",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.aero-armlet",
+      "name": "Aero Armlet",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.aero-armlet"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Aero_Armlet",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.abas-chain",
+      "name": "Abas Chain",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.019"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abas_Chain",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.aegis-chain",
+      "name": "Aegis Chain",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.001"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Aegis_Chain",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/san-fransokyo"
+      ]
+    },
+    {
+      "id": "kh3.equipment.acrisius",
+      "name": "Acrisius",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.016"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Acrisius+",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.acrisius-plus",
+      "name": "Acrisius+",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.acrisius-plus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Acrisius+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.cosmic-chain",
+      "name": "Cosmic Chain",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.cosmic-chain"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.petite-ribbon",
+      "name": "Petite Ribbon",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.006"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Petite_Ribbon",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.ribbon",
+      "name": "Ribbon",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.30-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Ribbon",
+        "https://www.khwiki.com/Lucky_Emblem"
+      ]
+    },
+    {
+      "id": "kh3.equipment.royal-ribbon",
+      "name": "Royal Ribbon",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.70-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Royal_Ribbon",
+        "https://www.khwiki.com/Lucky_Emblem"
+      ]
+    },
+    {
+      "id": "kh3.equipment.firefighter-rosette",
+      "name": "Firefighter Rosette",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.015"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Firefighter_Rosette",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.umbrella-rosette",
+      "name": "Umbrella Rosette",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.012"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Umbrella_Rosette",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.mask-rosette",
+      "name": "Mask Rosette",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.001"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Mask_Rosette",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.snowman-rosette",
+      "name": "Snowman Rosette",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.012"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Snowman_Rosette",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.insulator-rosette",
+      "name": "Insulator Rosette",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.023"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Insulator_Rosette",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.hero-s-belt",
+      "name": "Hero's Belt",
+      "method": "five-figure exchange",
+      "referenceIds": [
+        "kh3.herc.figure-1",
+        "kh3.herc.figure-2",
+        "kh3.herc.figure-3",
+        "kh3.herc.figure-4",
+        "kh3.herc.figure-5"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Hero's_Belt",
+        "https://twinfinite.net/guides/kingdom-hearts-3-all-golden-herc-figures-locations/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.hero-s-glove",
+      "name": "Hero's Glove",
+      "method": "story hero rescue",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Hero's_Glove",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/san-fransokyo",
+        "https://www.trueachievements.com/game/kingdom-hearts-3/walkthrough/13"
+      ]
+    },
+    {
+      "id": "kh3.equipment.power-weight",
+      "name": "Power Weight",
+      "method": "DLC first-clear reward",
+      "referenceIds": [
+        "kh3.remind.xemnas-data-battle",
+        "kh3.remind.saix-data-battle",
+        "kh3.remind.dark-riku-data-battle"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Power_Weight",
+        "https://www.khwiki.com/Real_Organization_XIII%27s_Recreated_Data",
+        "https://www.khwiki.com/Game:Xemnas"
+      ]
+    },
+    {
+      "id": "kh3.equipment.magic-weight",
+      "name": "Magic Weight",
+      "method": "DLC first-clear reward",
+      "referenceIds": [
+        "kh3.remind.luxord-data-battle",
+        "kh3.remind.marluxia-data-battle",
+        "kh3.remind.young-xehanort-data-battle"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Magic_Weight",
+        "https://www.khwiki.com/Real_Organization_XIII%27s_Recreated_Data",
+        "https://www.khwiki.com/Game:Luxord"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-belt",
+      "name": "Master Belt",
+      "method": "DLC first-clear reward",
+      "referenceIds": [
+        "kh3.remind.master-xehanort-data-battle"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Belt",
+        "https://www.khwiki.com/Real_Organization_XIII%27s_Recreated_Data",
+        "https://www.khwiki.com/Game:Master_Xehanort"
+      ]
+    },
+    {
+      "id": "kh3.equipment.ability-ring",
+      "name": "Ability Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.olympus.chest.005"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Ability_Ring+",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/olympus"
+      ]
+    },
+    {
+      "id": "kh3.equipment.ability-ring-plus",
+      "name": "Ability Ring+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.020"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Ability_Ring+",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.technician-s-ring",
+      "name": "Technician's Ring",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Technician's_Ring+",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.technician-s-ring-plus",
+      "name": "Technician's Ring+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.003"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Technician's_Ring+",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Technician's_Ring",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.skill-ring",
+      "name": "Skill Ring",
+      "method": "Moogle purchase",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Skill_Ring+",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+      ]
+    },
+    {
+      "id": "kh3.equipment.skill-ring-plus",
+      "name": "Skill Ring+",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.002"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Skill_Ring+",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.expert-s-ring",
+      "name": "Expert's Ring",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.5-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Expert's_Ring",
+        "https://www.khwiki.com/Lucky_Emblem"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-s-ring",
+      "name": "Master's Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.001"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master's_Ring",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.cosmic-ring",
+      "name": "Cosmic Ring",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.cosmic-ring"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Ring",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.power-ring",
+      "name": "Power Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.olympus.chest.001"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Power_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.buster-ring",
+      "name": "Buster Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.023"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Buster_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.valor-ring",
+      "name": "Valor Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.014"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Valor_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.phantom-ring",
+      "name": "Phantom Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.007"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Phantom_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.orichalcum-ring",
+      "name": "Orichalcum Ring",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.60-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Orichalcum_Ring",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.magic-ring",
+      "name": "Magic Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.olympus.chest.018"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Magic_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/olympus"
+      ]
+    },
+    {
+      "id": "kh3.equipment.rune-ring",
+      "name": "Rune Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.027"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Rune_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.force-ring",
+      "name": "Force Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.006"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Force_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle"
+      ]
+    },
+    {
+      "id": "kh3.equipment.sorcerer-s-ring",
+      "name": "Sorcerer's Ring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.048"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Sorcerer's_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.wisdom-ring",
+      "name": "Wisdom Ring",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.50-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Wisdom_Ring",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.soldier-s-earring",
+      "name": "Soldier's Earring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.010"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Soldier's_Earring",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.fencer-s-earring",
+      "name": "Fencer's Earring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.005"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Fencer's_Earring",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.mage-s-earring",
+      "name": "Mage's Earring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.013"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Mage's_Earring",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.slayer-s-earring",
+      "name": "Slayer's Earring",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.024"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Slayer's_Earring",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.bronze-amulet",
+      "name": "Bronze Amulet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.004"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Bronze_Amulet",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.silver-amulet",
+      "name": "Silver Amulet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.022"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Silver_Amulet",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle"
+      ]
+    },
+    {
+      "id": "kh3.equipment.gold-amulet",
+      "name": "Gold Amulet",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.014"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Gold_Amulet",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.moon-amulet",
+      "name": "Moon Amulet",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.15-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Moon_Amulet",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-charm",
+      "name": "Star Charm",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.san-fransokyo.chest.025"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Charm",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.cosmic-arts",
+      "name": "Cosmic Arts",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.007"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Arts",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.water-cufflink",
+      "name": "Water Cufflink",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.olympus.chest.002"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Water_Cufflink",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.thunder-cufflink",
+      "name": "Thunder Cufflink",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.monstropolis.chest.008"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Thunder_Cufflink",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.fire-cufflink",
+      "name": "Fire Cufflink",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.toy-box.chest.026"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Fire_Cufflink",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.aero-cufflink",
+      "name": "Aero Cufflink",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.kingdom-of-corona.chest.014"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Aero_Cufflink",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.blizzard-cufflink",
+      "name": "Blizzard Cufflink",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.arendelle.chest.015"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blizzard_Cufflink",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.celestriad",
+      "name": "Celestriad",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.045"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Celestriad",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.yin-yang-cufflink",
+      "name": "Yin-Yang Cufflink",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.014"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Yin-Yang_Cufflink",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+      ]
+    },
+    {
+      "id": "kh3.equipment.gourmand-s-ring",
+      "name": "Gourmand's Ring",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.bistrot-star-1"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Gourmand's_Ring",
+        "https://www.khwiki.com/Le_Grand_Bistrot"
+      ]
+    },
+    {
+      "id": "kh3.equipment.draw-ring",
+      "name": "Draw Ring",
+      "method": "Moogle synthesis",
+      "referenceIds": [
+        "kh3.synthesis.draw-ring"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Draw_Ring",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.lucky-ring",
+      "name": "Lucky Ring",
+      "method": "postcard lottery",
+      "referenceIds": [
+        "kh3.material-reference.prize-postcard-lottery"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lucky_Ring",
+        "https://www.khwiki.com/Prize_Postcard"
+      ]
+    },
+    {
+      "id": "kh3.equipment.laughter-pin",
+      "name": "Laughter Pin",
+      "method": "story Laugh Power reward",
+      "referenceIds": [],
+      "sources": [
+        "https://www.khwiki.com/Laughter_Pin",
+        "https://www.neoseeker.com/kingdom-hearts-iii/walkthrough/Monstropolis",
+        "https://www.trueachievements.com/game/kingdom-hearts-3/walkthrough/9"
+      ]
+    },
+    {
+      "id": "kh3.equipment.crystal-regalia",
+      "name": "Crystal Regalia",
+      "method": "Battlegate first clear",
+      "referenceIds": [
+        "kh3.battlegates.battlegate-14-dark-inferno"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Crystal_Regalia+",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games",
+        "https://www.khwiki.com/Dark_Inferno"
+      ]
+    },
+    {
+      "id": "kh3.equipment.crystal-regalia-plus",
+      "name": "Crystal Regalia+",
+      "method": "DLC first-clear reward",
+      "referenceIds": [
+        "kh3.remind.yozora"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Crystal_Regalia+",
+        "https://www.khwiki.com/Game:The_Final_World",
+        "https://www.khwiki.com/Game:Yozora"
+      ]
+    },
+    {
+      "id": "kh3.equipment.mickey-clasp",
+      "name": "Mickey Clasp",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.90-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Mickey_Clasp",
+        "https://www.khwiki.com/Lucky_Emblem"
+      ]
+    },
+    {
+      "id": "kh3.equipment.flanniversary-badge",
+      "name": "Flanniversary Badge",
+      "method": "seven upper Flan rewards",
+      "referenceIds": [
+        "kh3.challenges.cherry-flan",
+        "kh3.challenges.strawberry-flan",
+        "kh3.challenges.orange-flan",
+        "kh3.challenges.banana-flan",
+        "kh3.challenges.grape-flan",
+        "kh3.challenges.watermelon-flan",
+        "kh3.challenges.honeydew-flan"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Flanniversary_Badge"
+      ]
+    },
+    {
+      "id": "kh3.equipment.bronze-necklace",
+      "name": "Bronze Necklace",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.olympus.chest.006"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Bronze_Necklace",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.silver-necklace",
+      "name": "Silver Necklace",
+      "method": "numbered chest",
+      "referenceIds": [
+        "kh3.base.the-caribbean.chest.006"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Silver_Necklace",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-s-necklace",
+      "name": "Master's Necklace",
+      "method": "milestone reward",
+      "referenceIds": [
+        "kh3.rewards.45-lucky-emblems"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master's_Necklace",
+        "https://www.khwiki.com/Lucky_Emblem"
+      ]
+    },
+    {
+      "id": "kh3.equipment.breakthrough",
+      "name": "Breakthrough",
+      "method": "DLC first-clear reward",
+      "referenceIds": [
+        "kh3.remind.xion-data-battle"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Breakthrough",
+        "https://www.khwiki.com/Real_Organization_XIII%27s_Recreated_Data",
+        "https://www.khwiki.com/Game:Xion"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-treasure-magnet",
+      "name": "Junior Medal — Treasure Magnet",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.verum-rex-beat-of-lead"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-full-mp-blast",
+      "name": "Junior Medal — Full MP Blast",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.frozen-slider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-burn-protection",
+      "name": "Junior Medal — Burn Protection",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.verum-rex-beat-of-lead"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-cloud-protection",
+      "name": "Junior Medal — Cloud Protection",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.verum-rex-beat-of-lead"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-sneeze-protection",
+      "name": "Junior Medal — Sneeze Protection",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.festival-dance"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-freeze-protection",
+      "name": "Junior Medal — Freeze Protection",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.frozen-slider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.junior-medal-electric-protection",
+      "name": "Junior Medal — Electric Protection",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.festival-dance"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-fire-boost",
+      "name": "Master Medal — Fire Boost",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.verum-rex-beat-of-lead"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-water-boost",
+      "name": "Master Medal — Water Boost",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.festival-dance"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-defender",
+      "name": "Master Medal — Defender",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.verum-rex-beat-of-lead"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-extra-cast",
+      "name": "Master Medal — Extra Cast",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.festival-dance"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-lucky-strike",
+      "name": "Master Medal — Lucky Strike",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.verum-rex-beat-of-lead"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-magic-treasure-magnet",
+      "name": "Master Medal — Magic Treasure Magnet",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.festival-dance"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-stun-protection",
+      "name": "Master Medal — Stun Protection",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-a"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-fire-syphon",
+      "name": "Master Medal — Fire Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-b"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-blizzard-syphon",
+      "name": "Master Medal — Blizzard Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.frozen-slider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-thunder-syphon",
+      "name": "Master Medal — Thunder Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-a"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-water-syphon",
+      "name": "Master Medal — Water Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.festival-dance"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.master-medal-aero-syphon",
+      "name": "Master Medal — Aero Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-b"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-thunder-boost",
+      "name": "Star Medal — Thunder Boost",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-a"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-blizzard-boost",
+      "name": "Star Medal — Blizzard Boost",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.frozen-slider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-aero-boost",
+      "name": "Star Medal — Aero Boost",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-b"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-second-chance",
+      "name": "Star Medal — Second Chance",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-a"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-item-boost",
+      "name": "Star Medal — Item Boost",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-b"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-wizard-s-ruse",
+      "name": "Star Medal — Wizard's Ruse",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.frozen-slider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-withstand-combo",
+      "name": "Star Medal — Withstand Combo",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.frozen-slider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-damage-syphon",
+      "name": "Star Medal — Damage Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-a"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    },
+    {
+      "id": "kh3.equipment.star-medal-dark-syphon",
+      "name": "Star Medal — Dark Syphon",
+      "method": "minigame rank",
+      "referenceIds": [
+        "kh3.challenges.flash-tracer-b"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ]
+    }
+  ],
+  "sourcesRejectedOrLimited": [
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-iii/guide/side-quests/the-flantastic-seven/honeydew-flan",
+      "reason": "Method usable but table incorrectly repeats 28,000; retained 15,000 upper target supported by the same site’s world guide and existing independent tables."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-iii/guide/side-quests/the-flantastic-seven/strawberry-flan",
+      "reason": "Method usable but lower-tier 8,000 differs from supported 8,500; existing thresholds retained."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-iii/guide/side-quests/the-flantastic-seven/watermelon-flan",
+      "reason": "Method usable but lower-tier 10,000 differs from existing 14,000; no threshold correction inferred."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/13",
+      "reason": "Indexed excerpt concatenates course sections and carries a medal-label error; used location/Honeydew mechanics, not its concatenated rank table."
+    }
+  ],
+  "remainingBoundaries": [
+    "Arendelle #24 exact first-visit feasibility remains untested; stronger post-world directions are supplied.",
+    "Normal-large-ship reward pools lack a proven selection rule; pool numbers are not map instances.",
+    "Flan exact equality and medal random weights remain separate optional precision, not missing play methods.",
+    "No in-place Salvager repair is newly claimed."
+  ],
+  "additionalNavalEvidence": {
+    "source": "https://www.khwiki.com/Forum:Notes_54_(KHIII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
+    "outcome": "The Ultimania-derived mechanics notes explicitly state that normal deck rewards vary by fleet, then list the same nine pools without a selector. They do establish a useful boarding window (about 30 seconds after fleet defeat, or 3000 further damage before sinking), now attributed in the normal-ship method."
+  },
+  "validation": {
+    "focused": "25 tests passed in four KH3/shared-schema test files",
+    "aggregate": "npm test passed 149 tests in 16 files",
+    "build": "npm run build passed: content generation, empty Coppermind validation, TypeScript and Vite/PWA; existing chunk-size advisory only",
+    "uiOrGameplayTested": false,
+    "identities": "All 1954 ordered entry IDs and all 286 complete recipe objects unchanged against d5f588b",
+    "whitespace": "git diff --check passed"
+  }
+}

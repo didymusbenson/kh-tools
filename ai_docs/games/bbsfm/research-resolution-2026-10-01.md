@@ -1,5 +1,7 @@
 # BBS research resolution — October 1, 2026
 
+**Current player-goal review (2026-10-02):** all 21 remaining factual families reviewed; 19 optional-precision families deferred and 2 real episode/Steam-award troubleshooting families retained open. Evidence still counts 17 partial and 4 researched-open; deferral is not factual verification. The 12 prior closures and 5 separate limitations remain accounted for. [Complete decisions](practical-review-2026-10-02.md) · [Deferred details and reasons](future-improvements.md).
+
 Historical October 1 checkpoint. The [October 2 follow-up](gap-closure-2026-10-02.md) and updated disposition JSON supersede its remaining-work statements for shops, opponent decks, D-Link actions, recipe corroboration and Arena conjunctions.
 
 All 38 audit IDs have a current researched disposition. This is a completed investigation pass, **not a claim that every gameplay fact is resolved**. 17 partial, 4 researched-open, 12 closed, 2 provenance, 1 implementation, 1 visual, 1 excluded. The machine-readable [per-ID ledger](research-dispositions-2026-10-01.json) records exact consulted sources and residual contradictions/access/evidence limits. Original audit appendices describe `f933ab1`; they are not current inventories.

@@ -1,6 +1,20 @@
 # KH3 inspected sources, coverage and conflicts
 
-## Current status — 2026-10-01
+## Corrected player-value assessment — 2026-10-02
+
+The user challenged the breadth of the deferrals. [The sufficiency re-audit](value-reaudit-2026-10-02.md) found real missing play methods, weak equipment directions, non-searchable aliases and naval actions; those were not optional precision and have now been addressed. It also reconciles Forest Clasp’s first-Shore departure, closing the previously overstated conflict.
+
+Current evidence: **20 resolved / 13 partial / 2 conflicted**. Current research dispositions: **20 resolved / 13 deferred / 2 open**. Open questions are KH3-022’s mapping of nine normal-ship deck reward pools to identifiable encounters, and KH3-029’s already-activated Salvager recovery case. See the updated machine ledger for exact scope. Earlier counts and blanket sufficiency statements below are historical, not the current conclusion.
+
+
+## Earlier practical assessment — superseded by the re-audit
+
+[The player-value review](practical-review-2026-10-02.md) accounts for all 35 families. Evidence remains **19 resolved / 13 partial / 3 conflicted**; actionable research is **19 resolved / 15 deferred / 1 open**. [Future improvements](future-improvements.md) explain every deferral. The one narrow open question is Salvager recovery after permanent Gummi Ship Meister activation without a clean earlier save; safe forward planning does not certify recovery.
+
+Current content remains **1,954 entries and 286 recipe actions**, now with 33 readable Gummi battle approaches, 41 gate material routes and nine field material routes, explicit missable-item steps and achievement/save safety. Historical minimum-access, probability, timer and cross-platform caveats below are evidence boundaries, not additional active requirements. App/UI/device acceptance is separate; Data Jiminy remains empty.
+
+
+## Historical integration status — 2026-10-01
 
 The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1954 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
 
@@ -10,7 +24,7 @@ Accepted product contracts below remain in force. Historical unresolved language
 
 ## Continuation coverage — 2026-10-01
 
-[Every residual follow-up and evidence outcome](research-continuation-2026-10-01.md) is recorded, including unchanged findings. The canonical content now has all 78 ordered Collector Goals, 59 stock rows with unlock conditions, 52 material-to-chest route links and all 45 fragment approaches. STR-13’s sphere VII/η approach is resolved. Current remaining work is the per-finding boundary in the ledger; dated research below is retained as historical evidence.
+[Every residual follow-up and evidence outcome](research-continuation-2026-10-01.md) is recorded, including unchanged findings. The canonical content now has all 78 ordered Collector Goals, 59 stock rows with unlock conditions, 52 material-to-chest route links and all 45 fragment approaches. STR-13’s sphere VII/η approach is resolved. Current actionable work is the researchDisposition field in the ledger; evidence boundaries and dated research remain as history.
 
 ## Historical research — 2026-09-18
 

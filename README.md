@@ -1,5 +1,7 @@
 # Ars Arcanum
 
+**Non-CoM player-purpose review — completed 2026-10-03:** all 65 starting residual KH2/BBS/DDD/KH0.2/KH3 families reviewed: 2 resolved, 52 with optional residual precision deferred, 11 useful questions still open. Practical fixes and exact deferral reasons are in the [final report](ai_docs/research/non-com-practical-review-2026-10-02.md). The initial 61/four count is superseded. KH1 and concurrent CoM work are preserved; app/device acceptance remains separate.
+
 **Data Jiminy status — 2026-10-01:** His game memories have been flushed while research is audited. The Chroma instance, model setup and chat infrastructure remain intact; the shipped knowledge pack is empty. Jiminy displays “under construction,” and the full AI notice opens from **About Data Jiminy**. Research records and player progress are preserved. Earlier populated-pack counts below are historical; see [current Coppermind status](artifacts/copperminds/README.md).
 
 A mobile-first offline Kingdom Hearts completion journal. All seven scoped journals are implemented. The modern **Kingdom Hearts Final Mix** journal includes world collectibles, linked locations, synthesis and optional material inventory, equipment, challenges, and Data Jiminy.

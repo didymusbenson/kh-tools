@@ -1,16 +1,23 @@
 # Kingdom Hearts III readiness
 
-## Current research and implementation status — 2026-10-01
+## Corrected player-value assessment — 2026-10-02
 
-KHIII/Re Mind canonical content now has **1954 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **13 partial, 19 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; all nine spheres now have built-in marker flight approaches. This is not a claim that every acquisition route or platform predicate is ready.
+The user challenged the breadth of the deferrals. [The sufficiency re-audit](../games/kh3/value-reaudit-2026-10-02.md) found real missing play methods, weak equipment directions, non-searchable aliases and naval actions; those were not optional precision and have now been addressed. It also reconciles Forest Clasp’s first-Shore departure, closing the previously overstated conflict.
 
-The coverage matrix below reflects the current canonical content. Product requirements and acceptance contracts remain binding. Jiminy remains empty; shared runtime/UI validation is assessed separately from factual resolution.
+Current evidence: **20 resolved / 13 partial / 2 conflicted**. Current research dispositions: **20 resolved / 13 deferred / 2 open**. Open questions are KH3-022’s mapping of nine normal-ship deck reward pools to identifiable encounters, and KH3-029’s already-activated Salvager recovery case. See the updated machine ledger for exact scope. Earlier counts and blanket sufficiency statements below are historical, not the current conclusion.
+
+
+## Current practical research status — 2026-10-02
+
+KHIII/Re Mind has **1,954 entries + 286 recipe actions**. [All 35 family decisions](../games/kh3/practical-review-2026-10-02.md) separate evidence (**19 resolved / 13 partial / 3 conflicted**) from actionable research (**19 resolved / 15 deferred / 1 open**). [Optional precision and reasons](../games/kh3/future-improvements.md) are not active release requirements. KH3-029 retains a narrow unresolved recovery question for an already-activated Gummi Ship Meister save with Salvager locked and no earlier clean save.
+
+Practical guidance includes 33 Gummi battle approaches, all 60 material acquisition paths (41 gate routes, nine field routes and ten chest/sphere/shop/special-event records), preserved save/episode boundaries and actionable Forest Clasp steps. No recipe or collection IDs changed. App implementation, linked-state behavior, offline/mobile acceptance and empty Data Jiminy remain separate concerns.
 
 ## Current coverage and enduring requirements
 
-Status: **Broad sourced content integrated; specific factual and application gaps remain.** Updated 2026-10-02.
+Status: **Practical routes integrated; 15 residual research families deferred, one conditional recovery question open; application acceptance remains separate.** Updated 2026-10-02.
 
-Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [KH3 research index](../games/kh3/README.md). Apply the [shared readiness/edition policy](README.md) and accepted [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content-validation contract](../testing-and-content-validation.md). All required modules remain MVP; only missing production screenshot/map images are deferred.
+Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [KH3 research index](../games/kh3/README.md). Apply the [shared readiness/edition policy](README.md) and accepted [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content-validation contract](../testing-and-content-validation.md). All required modules remain MVP; the documented optional research precision and missing production screenshot/map images are deferred.
 
 ## Confirmed direction
 
@@ -25,15 +32,15 @@ Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [
 
 ## Evidence and category matrix
 
-| Category | Integrated coverage | Remaining evidence / release gap |
+| Category | Integrated coverage | Evidence boundary / separate acceptance concern |
 |---|---|---|
 | KHTABLES/repository | Prior complete audit found no reusable dedicated KH3 source | Recorded absence is not a fresh audit of every other-game sheet |
 | Base numbered chests | 245 records with numbered pickup directions and provenance | 316 combined chest/emblem IDs lack proven minimum story gates; Arendelle #24 revisit wording differs |
 | Lucky Emblems | 90 pickup/camera landmarks; Toy Box #8 floor conflict corrected | Modern Steam labels and comprehensive earliest access remain incomplete |
-| Extra world collections | Five Golden Herc Figures, ten Slider prize routes, Final World 222/333 rewards | Rescue/copy replay opportunities and naval reset rules remain incomplete |
+| Extra world collections | Five Golden Herc Figures, ten Slider prize routes, Final World 222/333 rewards | Already-claimed reward repetition and complete naval resets are deferred; missed-copy recovery is documented |
 | Re Mind chests | All nine separate Scala routes; console save-lineage guidance | Steam keyboard glyphs and every replay/overwrite/cloud edge remain uncertified |
-| Synthesis/materials | 88 exact recipes/history records, 60 materials, 78 ordered Collector Goals, 20 photo routes; 52 material-to-chest links | Full alternative source quantities, Gummi routes and farm efficiency remain incomplete |
-| Keyblades/equipment | 22 blade property catalogs, 170 applicable forge actions, 129 non-Keyblade items, 30 equipment shop tiers | Medal roll distributions and every alternative acquisition; regional entitlement edges |
+| Synthesis/materials | 88 exact recipes/history records, 60 materials, 78 ordered Collector Goals, 20 photo routes; 52 material-to-chest links | All 60 materials have a practical source; exhaustive alternatives and measured farm efficiency are deferred |
+| Keyblades/equipment | 22 blade property catalogs, 170 applicable forge actions, 157 non-Keyblade items, 30 equipment shop tiers | Deferred medal roll distributions, redundant acquisition paths and non-Steam entitlement edges |
 | Ingredients/cuisine | 59 ingredients, 298 source rows, 28 ingredient shop tiers, 28 recipes, 56 meal variants, four controls | Unique pickup-object coordinates and replenishment timers |
 | Classic Kingdom | 23 controls/acquisitions and registered-result completion rules | No numerical high-score goal is required |
 | Minigames/records | 54 Game Records, 81 adversaries, seven Flan tiers, rank/reward tables and Honey quantities | Flan equality, medal roll probabilities and some Honey rank-label evidence |
@@ -49,7 +56,7 @@ The [continuation report](../games/kh3/research-continuation-2026-10-01.md) acco
 ## Critical corrections
 
 1. 245 base chests + 90 emblems are distinct denominators; Re Mind’s nine chests, Frozen Slider’s ten prizes and Gummi treasure remain separate.
-2. Forest Clasp is missable; the item/world sources disagree on the exact deadline. Use a conservative pre-Shore warning pending test. Photo Mission 20’s Rapunzel photo remains obtainable later.
+2. Forest Clasp is missable; the item/world sources disagree on the exact deadline. Use the four-action pre-Shore route; exact late recovery is deferred, not a user test gate. Photo Mission 20’s Rapunzel photo remains obtainable later.
 3. 80 emblems yields Orichalcum+, while the full set is 90. Grand Chef requires 20 Excellent Classic dishes, whereas the recipe catalogue has 28.
 4. Frozen Slider A rank is 500,000 versus a 600,000 achievement; Festival Dance is 50,000 versus 70,000; Verum Rex is 10 million versus 12 million.
 5. Oathkeeper/Oblivion are free-update acquisitions. Premium Menu and the three Re Mind episodes require the DLC entitlement (bundled on some platforms).

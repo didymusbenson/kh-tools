@@ -1,5 +1,7 @@
 # BBS Final Mix factual gap investigation — October 2, 2026
 
+**Current player-goal review (2026-10-02):** all 21 remaining factual families reviewed; 19 optional-precision families deferred and 2 real episode/Steam-award troubleshooting families retained open. Evidence still counts 17 partial and 4 researched-open; deferral is not factual verification. The 12 prior closures and 5 separate limitations remain accounted for. [Complete decisions](practical-review-2026-10-02.md) · [Deferred details and reasons](future-improvements.md).
+
 Scope: modern Steam HD Final Mix. Starting IDs: BBS-001, BBS-002, BBS-003, BBS-006, BBS-010, BBS-011, BBS-012, BBS-013, BBS-015, BBS-016, BBS-018, BBS-019, BBS-021, BBS-022, BBS-025, BBS-027, BBS-028, BBS-029, BBS-030, BBS-031, BBS-032. Counts remain 17 partial and four researched-open factual families; none is falsely closed. The 12 prior closures and five nonfactual limitations are unchanged. Stable IDs and Data Jiminy exclusion are preserved.
 
 ## Applied subfield improvements

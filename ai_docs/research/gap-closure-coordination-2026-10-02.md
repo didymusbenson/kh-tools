@@ -1,5 +1,7 @@
 # Seven-game gap closure coordination — October 2, 2026 UTC
 
+**Non-CoM player-purpose review — completed 2026-10-03:** all 65 starting residual KH2/BBS/DDD/KH0.2/KH3 families reviewed: 2 resolved, 52 with optional residual precision deferred, 11 useful questions still open. Practical fixes and exact deferral reasons are in the [final report](non-com-practical-review-2026-10-02.md). The initial 61/four count is superseded. KH1 and concurrent CoM work are preserved; app/device acceptance remains separate.
+
 User authorization: research the remaining facts, document evidence, update canonical data and the app, push checkpoints, and merge each game's completed work to `master`. Each game has a dedicated agent at medium reasoning and a separate branch/worktree. All seven agents completed their scoped research passes, with at most three workers running concurrently. The coordinator serializes integration to avoid concurrent writes to `master`.
 
 Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75 partial, 16 unresolved/conflicted, and 14 other limitations. These are issue families, not individual facts. The current game's ledger controls its exact remaining questions. A published checkpoint or passing test does not imply research completion.

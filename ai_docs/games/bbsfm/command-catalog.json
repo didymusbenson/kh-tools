@@ -17,14 +17,14 @@
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: Quick Blitz in the initial deck.",
-        "Terra/Aqua: buy opponent panel: Ventus's Quick Blitz panel on the Keyblade Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Quick Blitz panel on the Keyblade Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Quick Blitz panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Quick Blitz panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Quick Blitz panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Quick Blitz panel on the Skull Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Quick Blitz panel on the Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Quick Blitz panel on the Keyblade Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Quick Blitz panel on the Keyblade Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Quick Blitz panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Quick Blitz panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Quick Blitz panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Quick Blitz panel on the Skull Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Quick Blitz panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -46,6 +46,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Quick Blitz can be bought from the Moogle Shop for 100 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -63,12 +66,12 @@
       "acquisitions": [
         "Ventus: find Blitz in a chest at the Mermaid Lagoon.",
         "Aqua: find Blitz in a chest at the Turo Prison Block.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Blitz panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Blitz panel on the Skull Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Blitz panel on the Secret Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Blitz panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Blitz panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Blitz panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Blitz panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Blitz panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -94,6 +97,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny once eight worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -144,7 +150,10 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 5,
       "slots": 2,
-      "acquisitions": [],
+      "acquisitions": [
+        "Aqua: meld Blitz Lv4 + Zero Graviga Lv4. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions.",
+        "Aqua: meld Barrier Surge Lv3 + Aeroga Lv4. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -185,12 +194,12 @@
       "acquisitions": [
         "Terra: Sliding Dash as one of his initial commands.",
         "Ventus obtains Sliding Dash from a chest on the Mountain Path during the tutorial.[1]",
-        "Terra/Aqua: buy opponent panel: Ventus's Sliding Dash panel on the Keyblade Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Sliding Dash panel on the Keyblade Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Sliding Dash panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Sliding Dash panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Sliding Dash panel on the Skull Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Sliding Dash panel on the Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Sliding Dash panel on the Keyblade Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Sliding Dash panel on the Keyblade Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Sliding Dash panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Sliding Dash panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Sliding Dash panel on the Skull Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Sliding Dash panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -212,6 +221,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Moogle Shop for 100 munny once one world is cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -229,15 +241,15 @@
       "acquisitions": [
         "Terra/Ventus/Aqua: make through Command Melding.",
         "Terra, Ventus, and Aqua reward for achieving a top 3 finish on Disney Drive.[1]",
-        "Terra/Aqua: buy opponent panel: Ventus's Fire Dash panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Fire Dash panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Fire Dash panel on the Skull Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Fire Dash panel on the Secret Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Fire Dash panel on the Secret Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Fire Dash panel on the Secret Board.",
-        "Terra/Ventus/Aqua: Command Shop: obtain Fire Dash elsewhere to unlock a copy. Price and story gate conflict between published tables (150 munny, Shop Level 4) and acquisition prose (450 munny, five worlds). Check the displayed shop price."
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Fire Dash panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Fire Dash panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Fire Dash panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Fire Dash panel on the Secret Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Fire Dash panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Fire Dash panel on the Secret Board.",
+        "Terra/Ventus/Aqua: Command Shop: the preferred table-backed route is 150 munny at Shop Level 4, after clearing Enchanted Dominion, Dwarf Woodlands and Castle of Dreams; prior acquisition also stocks it. Price and story gate conflict: acquisition prose says 450 munny/five worlds, but the stat table and independent FM shop guide support 150. Check the displayed price."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -261,7 +273,11 @@
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 450 munny once five worlds are cleared or the command has already been obtained elsewhere."
       ],
-      "shop_evidence_status": "Fire Dash sources disagree: the Moogle and command stat tables list 150 munny at Shop Level 4, while the command acquisition prose lists 450 munny after five worlds. Check the displayed shop price; neither conflicting number is certified for Steam."
+      "shop_evidence_status": "Fire Dash sources disagree: the Moogle and command stat tables list 150 munny at Shop Level 4, while the command acquisition prose lists 450 munny after five worlds. Check the displayed shop price; neither conflicting number is certified for Steam.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board",
+        "https://kouryakutsushin.com/khbbs/shop.htm"
+      ]
     },
     {
       "name": "Dark Haze",
@@ -316,10 +332,10 @@
       "acquisitions": [
         "Terra/Ventus/Aqua: make through Command Melding.",
         "Terra/Ventus/Aqua: obtain Sonic Blade as the first reward for beating Hercules in the Break the urns mini-game.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Sonic Blade panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Sonic Blade panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Sonic Blade panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Sonic Blade panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 2000 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -347,6 +363,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 2000 munny after the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -402,8 +421,8 @@
       "max_level": 5,
       "slots": 1,
       "acquisitions": [
-        "Terra: buy at Medal Shop for 1000 medals after reaching Shop Level 5 and Arena Level 8.",
-        "Terra: Command Shop: 1700 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
+        "Terra: Command Shop: 1700 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first.",
+        "Terra: Mirage Arena Medal Shop, 1000 medals; Shop Level 5 AND Arena Level 8."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -430,6 +449,13 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra: buy at Command Shop for 1700 munny once five worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra: buy at Medal Shop for 1000 medals after reaching Shop Level 5 and Arena Level 8."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -448,9 +474,9 @@
         "Ventus: Strike Raid as one of his initial commands.",
         "Terra: find Strike Raid in a chest in the Foyer.",
         "Aqua: find Strike Raid in a chest in the Gardens.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Strike Raid panel on the Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Strike Raid panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Strike Raid panel on the Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Strike Raid panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -472,6 +498,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Moogle Shop for 100 munny once five worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -488,9 +517,9 @@
       "slots": 1,
       "acquisitions": [
         "Terra, Ventus, and Aqua receive Freeze Raid after clearing \"Hand in Hand\" on Ice Cream Beat on Beginner mode.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Freeze Raid panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Freeze Raid panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Freeze Raid panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Freeze Raid panel on the Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 200 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -516,6 +545,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Moogle Shop for 200 munny once six worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -649,9 +681,9 @@
         "Ventus: obtain Fire Surge from a chest at the Launch Deck.",
         "Aqua: obtain Fire Surge from a chest at the Ship Hub.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Fire Surge panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Fire Surge panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 650 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -673,6 +705,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy Fire Surge from the Moogle Shop for 650 munny once six worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -688,7 +723,7 @@
       "acquisitions": [
         "Aqua: obtain Barrier Surge from a chest at the Foyer.",
         "Aqua: make through Command Melding.",
-        "Aqua: buy opponent panel: Cinderella's Barrier Surge panel on the Royal Board.",
+        "Aqua: menu Command Board, buy opponent panel: Cinderella's Barrier Surge panel on the Royal Board.",
         "Aqua: Command Shop: 500 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -708,6 +743,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Aqua: buy Barrier Surge from the Moogle Shop for 500 munny once five worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -725,7 +763,7 @@
       "acquisitions": [
         "Terra: obtain Thunder Surge from a chest at the Fountain Court.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 700 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -749,6 +787,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy Thunder Surge from the Moogle Shop for 700 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -767,12 +808,11 @@
         "Terra: obtain Aerial Slam from a chest at Pete's Rec Room.",
         "Ventus: obtain Aerial Slam from a chest at Pete's Rec Room.",
         "Aqua: obtain Aerial Slam from a chest at Pete's Rec Room.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Aerial Slam panel on the Skull Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Aerial Slam panel on the Secret Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Aerial Slam panel on the Secret Board.",
-        "Terra/Ventus/Aqua: start the game with Aerial Slam if a Kingdom Hearts Birth by Sleep save file with the Keyslinger trophy is on the memory stick.[KH BbS FM][1]",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Aerial Slam panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Aerial Slam panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Aerial Slam panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1500 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -796,6 +836,17 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1500 munny once eight worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra/Ventus/Aqua: start the game with Aerial Slam if a Kingdom Hearts Birth by Sleep save file with the Keyslinger trophy is on the memory stick.[KH BbS FM][1]",
+          "reason": "PSP save-transfer bonus; not an HD/Steam acquisition.",
+          "source": "https://www.khwiki.com/Aerial_Slam",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -939,11 +990,11 @@
       "acquisitions": [
         "Terra: find Poison Edge in a chest at the Underground Waterway.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Poison Edge panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Poison Edge panel on the Skull Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Poison Edge panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Poison Edge panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Poison Edge panel on the Skull Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Poison Edge panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -963,6 +1014,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once four worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -977,8 +1031,8 @@
       "slots": 1,
       "acquisitions": [
         "Aqua: make through Command Melding.",
-        "Aqua: obtain Wishing Edge from a bonus on the Royal Board.",
-        "Aqua: buy opponent panel: Cinderella's Wishing Edge panel on the Royal Board.",
+        "Aqua: obtain Wishing Edge from a bonus on the Royal Board. Use the menu Command Board for this acquisition.",
+        "Aqua: menu Command Board, buy opponent panel: Cinderella's Wishing Edge panel on the Royal Board.",
         "Aqua: Command Shop: 550 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -998,6 +1052,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Aqua: buy at Moogle Shop for 500 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1013,9 +1070,9 @@
       "max_level": 3,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Blizzard Edge panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Blizzard Edge panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Blizzard Edge panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Blizzard Edge panel on the Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 200 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1035,6 +1092,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Moogle Shop for 200 munny once four worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1053,11 +1113,11 @@
         "Terra: Stun Edge in his initial Command Deck.",
         "Ventus: chest — Cinderella's Room.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Ventus/Aqua: buy opponent panel: Terra's Stun Edge panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Stun Edge panel on the Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Stun Edge panel on the Spaceship Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Stun Edge panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Stun Edge panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Stun Edge panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Stun Edge panel on the Spaceship Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Stun Edge panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1077,6 +1137,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once four worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1096,7 +1159,7 @@
         "Ventus: obtain Slot Edge from a chest at the Raceway.",
         "Aqua: obtain Slot Edge from a chest at the Raceway.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Slot Edge panel on the Toon Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Slot Edge panel on the Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 700 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1116,6 +1179,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Moogle Shop for 700 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1135,9 +1201,9 @@
         "Ventus: obtain Fire Strike from a chest at the Coliseum Gates.",
         "Aqua: obtain Fire Strike from a chest at the Coliseum Gates.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Fire Strike panel on the Hunny Pot Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Fire Strike panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Fire Strike panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Fire Strike panel on the Hunny Pot Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Fire Strike panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Fire Strike panel on the Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 450 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1157,6 +1223,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 450 munny once five worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1174,11 +1243,11 @@
       "acquisitions": [
         "Aqua: obtain Confusion Strike in a chest at Maleficent's Throne.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Confusion Strike panel on the Royal Board.",
-        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Confusion Strike panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Confusion Strike panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Confusion Strike panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 450 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -1200,6 +1269,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Confusion Strike can be purchased from the Moogle Shop for 450 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1217,14 +1289,14 @@
       "acquisitions": [
         "Ventus: obtain Binding Strike from a chest at the Gardens.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Ventus/Aqua: buy opponent panel: Terra's Binding Strike panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Binding Strike panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Binding Strike panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Binding Strike panel on the Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Binding Strike panel on the Skull Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Binding Strike panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Binding Strike panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Binding Strike panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Binding Strike panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Binding Strike panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Binding Strike panel on the Skull Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Binding Strike panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 400 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1244,6 +1316,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 400 munny once four worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1376,7 +1451,6 @@
       "slots": 2,
       "acquisitions": [
         "Ventus: make through Command Melding.",
-        "Ventus: reward for earning 100 points in the Sticker Album.[KH BbS]",
         "Ventus: reward for earning 110 points in the Sticker Album.[KH BbS FM]"
       ],
       "enemy_drops": [],
@@ -1404,6 +1478,14 @@
         {
           "level": 6,
           "cp": 1100
+        }
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Ventus: reward for earning 100 points in the Sticker Album.[KH BbS]",
+          "reason": "Original BBS Sticker Album threshold; use the separate Final Mix threshold.",
+          "source": "https://www.khwiki.com/Salvation",
+          "reviewed": "2026-10-02"
         }
       ]
     },
@@ -1461,10 +1543,9 @@
       "slots": 1,
       "acquisitions": [
         "Terra: make through Command Melding.",
-        "Terra: reward for earning 60 points in the Sticker Album.[KH BbS]",
         "Terra: reward for earning 70 points in the Sticker Album.[KH BbS FM]",
-        "Terra: bonus panel — Spaceship Board.",
-        "Terra: buy opponent panel: Gantu's Limit Storm panel on the Spaceship Board.",
+        "Terra: menu Command Board bonus panel — Spaceship Board.",
+        "Terra: menu Command Board, buy opponent panel: Gantu's Limit Storm panel on the Spaceship Board.",
         "Terra: Command Shop: 1500 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1492,6 +1573,17 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra: buy at Moogle Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra: reward for earning 60 points in the Sticker Album.[KH BbS]",
+          "reason": "Original BBS Sticker Album threshold; use the separate Final Mix threshold.",
+          "source": "https://www.khwiki.com/Limit_Storm",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1509,10 +1601,9 @@
       "acquisitions": [
         "Terra/Ventus/Aqua: make through Command Melding.",
         "Terra/Ventus/Aqua: enemy drop.",
-        "Ventus: reward for earning 80 points in the Sticker Album.[KH BbS]",
         "Ventus: reward for earning 70 points in the Sticker Album.[KH BbS FM]",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board.",
         "Terra/Ventus/Aqua: Command Shop: 1300 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -1525,6 +1616,17 @@
       },
       "acquisition_history_2026_10_01": [
         "Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Ventus: reward for earning 80 points in the Sticker Album.[KH BbS]",
+          "reason": "Original BBS Sticker Album threshold; use the separate Final Mix threshold.",
+          "source": "https://www.khwiki.com/Collision_Magnet",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1581,8 +1683,8 @@
       "slots": 1,
       "acquisitions": [
         "Terra: make through Command Melding.",
-        "Terra: bonus panel — Hunny Pot Board.",
-        "Terra: buy opponent panel: Tigger's Sacrifice panel on the Hunny Pot Board.",
+        "Terra: menu Command Board bonus panel — Hunny Pot Board.",
+        "Terra: menu Command Board, buy opponent panel: Tigger's Sacrifice panel on the Hunny Pot Board.",
         "Terra: Command Shop: 1500 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1610,6 +1712,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra: buy at Moogle Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1626,8 +1731,7 @@
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: chest — Pete's Rec Room.",
-        "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: start the game with Break Time if a Kingdom Hearts Birth by Sleep save file with the Power Walker trophy is on the memory stick.[KH BbS FM][1]"
+        "Terra/Ventus/Aqua: make through Command Melding."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -1647,6 +1751,14 @@
           "level": 4,
           "cp": 600
         }
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra/Ventus/Aqua: start the game with Break Time if a Kingdom Hearts Birth by Sleep save file with the Power Walker trophy is on the memory stick.[KH BbS FM][1]",
+          "reason": "PSP save-transfer bonus; not an HD/Steam acquisition.",
+          "source": "https://www.khwiki.com/Break_Time",
+          "reviewed": "2026-10-02"
+        }
       ]
     },
     {
@@ -1664,9 +1776,9 @@
       "acquisitions": [
         "Terra/Aqua: chest — Underground Waterway.",
         "Ventus: chest — Cottage Clearing.",
-        "Terra/Ventus: buy opponent panel: Aqua's Fire panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Fire panel on the Skull Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Fire panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Fire panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -1688,6 +1800,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 100 munny after three worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1706,11 +1821,11 @@
         "Terra: chest — Outer Gardens.",
         "Ventus: chest — Aqueduct.",
         "Aqua: obtain Fira from a chest at the Raceway.",
-        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Fira panel on the Hunny Pot Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Fira panel on the Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Fira panel on the Spaceship Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Fira panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Fira panel on the Hunny Pot Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Fira panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Fira panel on the Spaceship Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Fira panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 500 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -1732,6 +1847,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 500 munny after five worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1749,10 +1867,10 @@
       "acquisitions": [
         "Terra/Ventus: obtain Firaga from a chest at the Cliff Path.",
         "Aqua: obtain Firaga from a chest at the Rainbow Falls: Ascent.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Firaga panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Firaga panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Firaga panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Firaga panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -1778,6 +1896,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1836,8 +1957,8 @@
         "Terra: obtain Fission Firaga from a chest at the Courtyard.",
         "Aqua: obtain Fission Firaga from a chest at the Courtyard.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Fission Firaga panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Fission Firaga panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1500 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -1861,6 +1982,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1955,10 +2079,10 @@
         "Aqua: Blizzard in her initial Command Deck.",
         "Terra: chest — Forest Clearing.",
         "Ventus: chest — Wardrobe Room.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Blizzard panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Blizzard panel on the Royal Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Blizzard panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Blizzard panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -1980,6 +2104,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 100 munny after one world has been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -1996,9 +2123,9 @@
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: obtain Blizzara as the prize for getting a \"Fantastic\" score for \"Blast Away!-Gummi Ship II-\" on Master Mode in Ice Cream Beat.[4][5]",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzara panel on the Toon Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Blizzara panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Blizzara panel on the Toon Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Blizzara panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 500 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2020,6 +2147,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 500 munny after six worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2036,7 +2166,7 @@
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4]",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Blizzaga panel on the Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2072,6 +2202,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2127,10 +2260,10 @@
         "Terra: chest — Antechamber.",
         "Ventus: chest — Audience Chamber.",
         "Terra/Ventus/Aqua: obtain Thunder from two chests in the Gizmo Gallery.",
-        "Terra/Ventus: buy opponent panel: Aqua's Thunder panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Thunder panel on the Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Thunder panel on the Spaceship Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Thunder panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Thunder panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Thunder panel on the Spaceship Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -2150,6 +2283,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny after three worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2168,15 +2304,15 @@
         "Terra: chest — Launch Deck.",
         "Ventus: chest — Ship Hub.",
         "Aqua: obtain Thundara from a chest at the Aqueduct.",
-        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Thundara panel on the Hunny Pot Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Thundara panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Thundara panel on the Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Thundara panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Thundara panel on the Secret Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Thundara panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Thundara panel on the Hunny Pot Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Thundara panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Thundara panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Thundara panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Thundara panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Thundara panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2198,6 +2334,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 600 munny after six worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2215,10 +2354,10 @@
       "acquisitions": [
         "Aqua: obtain Thundaga from a chest at the Rainbow Falls: Ascent.",
         "Terra/Ventus/Aqua: reward for attacking the top of the totem pole at the Indian Camp.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Thundaga panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Thundaga panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Thundaga panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Thundaga panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1300 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2244,6 +2383,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after eight worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2298,14 +2440,14 @@
       "acquisitions": [
         "Terra: chest — Mysterious Tower.",
         "Ventus/Aqua: obtain Cure from a chest at the Gates.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Cure panel on the Keyblade Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Cure panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Cure panel on the Toon Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Cure panel on the Secret Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Cure panel on the Secret Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Cure panel on the Keyblade Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Cure panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Cure panel on the Toon Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Cure panel on the Secret Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Cure panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 2: Complete any one of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2327,6 +2469,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny after two worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2343,9 +2488,9 @@
       "slots": 1,
       "acquisitions": [
         "Ventus/Aqua: obtain Cura from a chest at the Coliseum Gates.",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Cura panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Cura panel on the Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Cura panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Cura panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Cura panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Cura panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2367,6 +2512,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 600 munny after six worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2452,7 +2600,7 @@
         "Ventus: obtain Mine Shield from a chest at the Machinery Bay.",
         "Aqua: obtain Mine Shield from a chest at Peter's Hideout.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Mine Shield panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Mine Shield panel on the Spaceship Board.",
         "Terra/Ventus/Aqua: Command Shop: 1000 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2478,6 +2626,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1000 munny once seven worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2496,10 +2647,10 @@
         "Terra: obtain Mine Square from a chest at the Machinery Bay Access.",
         "Aqua: obtain Mine Square from a chest at the Front Doors.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Mine Square panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Mine Square panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Mine Square panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Mine Square panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 1000 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2525,6 +2676,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1000 munny once seven worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2581,10 +2735,10 @@
         "Ventus: chest — Wardrobe Room.",
         "Aqua: chest — Gardens.",
         "Terra/Ventus/Aqua: enemy drop.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Zero Gravity panel on the Keyblade Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Zero Gravity panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Zero Gravity panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Zero Gravity panel on the Keyblade Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Zero Gravity panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Zero Gravity panel on the Royal Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2606,6 +2760,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny after three worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2626,13 +2783,13 @@
         "Aqua: chest — Launch Deck.",
         "Terra/Ventus/Aqua: enemy drop.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Zero Gravira panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Zero Gravira panel on the Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Zero Gravira panel on the Skull Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Zero Gravira panel on the Secret Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Zero Gravira panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Hunny Pot Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Zero Gravira panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Zero Gravira panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Zero Gravira panel on the Skull Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Zero Gravira panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Zero Gravira panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2654,6 +2811,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 600 munny after six worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2673,10 +2833,10 @@
         "Aqua: chest — Middle Zone.[KH BbS FM]",
         "Terra/Ventus/Aqua: enemy drop.",
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Zero Graviga panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Zero Graviga panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1300 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2702,6 +2862,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after the command been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2719,12 +2882,12 @@
       "acquisitions": [
         "Ventus: obtain Magnet from a chest at the Hall.",
         "Aqua: obtain Magnet from a chest at the Vault.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Magnet panel on the Keyblade Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Magnet panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Magnet panel on the Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Magnet panel on the Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Magnet panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Magnet panel on the Keyblade Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Magnet panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Magnet panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Magnet panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Magnet panel on the Spaceship Board.",
         "Terra/Ventus/Aqua: Command Shop: 120 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -2744,6 +2907,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: purchase Magnet at the Command Shop for 120 munny once three worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2760,9 +2926,9 @@
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: reward for beating Chip and Dale in Fruitball for the first time.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Magnera panel on the Secret Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Magnera panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Magnera panel on the Secret Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Magnera panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 550 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2784,6 +2950,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: purchase Magnera at the Command Shop for 550 munny once six worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2801,8 +2970,8 @@
       "acquisitions": [
         "Ventus: obtain Magnega from a chest at the Mysterious Tower.",
         "Aqua: obtain Magnega from a chest at the Mysterious Tower.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1250 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2828,6 +2997,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: purchase Magnega at the Command Shop for 1250 munny once the command has been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2842,7 +3014,7 @@
       "slots": 1,
       "acquisitions": [
         "Aqua: make through Command Melding.",
-        "Aqua: bonus panel — Skull Board.",
+        "Aqua: menu Command Board bonus panel — Skull Board.",
         "Aqua: Command Shop: 800 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -2866,6 +3038,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Aqua: buy at Moogle Shop for 800 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2954,12 +3129,12 @@
       "slots": 1,
       "acquisitions": [
         "Ventus: Aero in his initial Command Deck.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Aero panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Aero panel on the Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Aero panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Aero panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Aero panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Aero panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Aero panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Aero panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -2981,6 +3156,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once three worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -2997,14 +3175,14 @@
       "slots": 1,
       "acquisitions": [
         "Terra, Ventus, and Aqua reward for achieving a top 3 finish on the Grand Spree.[4]",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Aerora panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Aerora panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Aerora panel on the Skull Board.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Aerora panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Aerora panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Experiment 626's Aerora panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Aerora panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Aerora panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3026,6 +3204,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once six worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3043,7 +3224,7 @@
       "acquisitions": [
         "Ventus: find Aeroga in a chest at the Mermaid Lagoon.",
         "Aqua: find Aeroga in a chest at the Twister Trench.",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 1300 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3069,6 +3250,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3123,7 +3307,9 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 6,
       "slots": 2,
-      "acquisitions": [],
+      "acquisitions": [
+        "Ventus: meld Wind Raid Lv5 + Break Time Lv4. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -3167,10 +3353,8 @@
       "slots": 2,
       "acquisitions": [
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Aqua: reward for earning 80 points in the Sticker Album.[KH BbS]",
         "Aqua: reward for earning 110 points in the Sticker Album.[KH BbS FM]",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: start the game with Deep Freeze if a Kingdom Hearts Birth by Sleep save file with the Dairy Devotee trophy is on the memory stick.[KH BbS FM][1]",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 2200 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -3198,6 +3382,23 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 2200 munny after acquiring it elsewhere."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Aqua: reward for earning 80 points in the Sticker Album.[KH BbS]",
+          "reason": "Original BBS Sticker Album threshold; use the separate Final Mix threshold.",
+          "source": "https://www.khwiki.com/Deep_Freeze_(ability)",
+          "reviewed": "2026-10-02"
+        },
+        {
+          "text": "Terra/Ventus/Aqua: start the game with Deep Freeze if a Kingdom Hearts Birth by Sleep save file with the Dairy Devotee trophy is on the memory stick.[KH BbS FM][1]",
+          "reason": "PSP save-transfer bonus; not an HD/Steam acquisition.",
+          "source": "https://www.khwiki.com/Deep_Freeze_(ability)",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3377,7 +3578,9 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 6,
       "slots": 2,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus/Aqua: meld Fission Firaga Lv4 + Crawling Fire Lv4. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -3589,8 +3792,8 @@
         "Ventus: obtain Mini from a chest at the Mine.",
         "Terra/Ventus/Aqua: make through Command Melding.",
         "Terra/Ventus/Aqua: obtain Mini as a reward for beating Monster of the Sea for the first time.[KH BbS FM]",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Mini panel on the Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Mini panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
         "Terra/Ventus/Aqua: Command Shop: 1500 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -3614,6 +3817,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3631,12 +3837,12 @@
       "acquisitions": [
         "Terra: obtain Blackout from a chest at the Aqueduct.",
         "Aqua: chest — Lower Zone.[KH BbS FM]",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Blackout panel on the Toon Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Blackout panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Blackout panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Blackout panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Blackout panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Blackout panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 600 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3658,6 +3864,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once five worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3675,9 +3884,9 @@
       "acquisitions": [
         "Terra/Ventus/Aqua: enemy drop.",
         "Aqua: reward for earning 20 points in the Sticker Album.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Ignite panel on the Spaceship Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Ignite panel on the Skull Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Gantu's Ignite panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Ignite panel on the Skull Board.",
         "Terra/Ventus/Aqua: Command Shop: 600 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3703,6 +3912,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once four worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3718,10 +3930,10 @@
       "max_level": 3,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Confuse panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Confuse panel on the Skull Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Confuse panel on the Secret Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Confuse panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Confuse panel on the Skull Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Confuse panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3743,6 +3955,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 100 munny once one world has been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3760,14 +3975,14 @@
       "acquisitions": [
         "Aqua: obtain Bind from a chest on the Mountain Path.",
         "Terra/Ventus/Aqua: enemy drop.",
-        "Terra/Ventus: buy opponent panel: Aqua's Bind panel on the Keyblade Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Bind panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Bind panel on the Royal Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Bind panel on the Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Bind panel on the Skull Board.",
-        "Terra/Ventus: buy opponent panel: Aqua's Bind panel on the Secret Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Bind panel on the Keyblade Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Bind panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Bind panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Bind panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Peter Pan's Bind panel on the Skull Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Aqua's Bind panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 2: Complete any one of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3789,6 +4004,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once two worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3807,8 +4025,8 @@
         "Ventus: obtain Poison from a chest at the Cottage Clearing.",
         "Aqua: chest — Cottage.",
         "Terra/Ventus/Aqua: enemy drop.",
-        "Ventus/Aqua: buy opponent panel: Terra's Poison panel on the Keyblade Board.",
-        "Ventus/Aqua: buy opponent panel: Terra's Poison panel on the Secret Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Poison panel on the Keyblade Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Poison panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3834,6 +4052,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 100 munny once one world is cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3852,12 +4073,11 @@
         "Terra: obtain Slow from a chest at the Palace Courtyard.",
         "Ventus: obtain Slow from a chest at the Gardens.",
         "Aqua: obtain Slow from a chest at the Palace Courtyard.",
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Slow panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Slow panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Slow panel on the Skull Board.",
-        "Terra/Aqua: buy opponent panel: Ventus's Slow panel on the Secret Board.",
-        "Terra/Ventus/Aqua: start the game with Slow if a Kingdom Hearts Birth by Sleep save file with the Clockwork trophy is on the memory stick.[KH BbS FM][1]",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Slow panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Slow panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Captain Hook's Slow panel on the Skull Board.",
+        "Terra/Aqua: menu Command Board, buy opponent panel: Ventus's Slow panel on the Secret Board.",
         "Terra/Ventus/Aqua: Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3879,6 +4099,17 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once three worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra/Ventus/Aqua: start the game with Slow if a Kingdom Hearts Birth by Sleep save file with the Clockwork trophy is on the memory stick.[KH BbS FM][1]",
+          "reason": "PSP save-transfer bonus; not an HD/Steam acquisition.",
+          "source": "https://www.khwiki.com/Slow",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3896,8 +4127,8 @@
       "acquisitions": [
         "Terra: obtain Stop from a chest on the Mountain Path.",
         "Ventus: obtain Stop from a chest at the Raceway.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Stop panel on the Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Cinderella's Stop panel on the Royal Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3919,6 +4150,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 100 munny after three worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3934,11 +4168,11 @@
       "max_level": 3,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Stopra panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Stopra panel on the Toon Board.",
-        "Ventus/Aqua: buy opponent panel: Captain Justice's Stopra panel on the Toon Board.",
-        "Terra: buy opponent panel: Captain Dark's Stopra panel on the Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's Stopra panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Minnie's Stopra panel on the Toon Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Captain Justice's Stopra panel on the Toon Board.",
+        "Terra: menu Command Board, buy opponent panel: Captain Dark's Stopra panel on the Toon Board.",
         "Terra/Ventus/Aqua: Command Shop: 500 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [
@@ -3960,6 +4194,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 500 munny after five worlds have been cleared or prior acquisition."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -3975,7 +4212,6 @@
       "max_level": 4,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: start the game with Stopga if a Kingdom Hearts Birth by Sleep save file with the Clockwork trophy is on the memory stick.[KH BbS FM][1]",
         "Terra/Ventus/Aqua: Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -3999,6 +4235,14 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra/Ventus/Aqua: start the game with Stopga if a Kingdom Hearts Birth by Sleep save file with the Clockwork trophy is on the memory stick.[KH BbS FM][1]",
+          "reason": "PSP save-transfer bonus; not an HD/Steam acquisition.",
+          "source": "https://www.khwiki.com/Stopga",
+          "reviewed": "2026-10-02"
+        }
       ]
     },
     {
@@ -4018,8 +4262,8 @@
         "Ventus: chest — Tower Room.",
         "Aqua: obtain Sleep from a chest at the Gates",
         "Terra/Ventus/Aqua: obtain Sleep as a enemy drop",
-        "Ventus/Aqua: buy opponent panel: Terra's Sleep panel on the Keyblade Board.",
-        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Sleep panel on the Hunny Pot Board.",
+        "Ventus/Aqua: menu Command Board, buy opponent panel: Terra's Sleep panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Pooh's Sleep panel on the Hunny Pot Board.",
         "Terra/Ventus/Aqua: Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
@@ -4039,6 +4283,9 @@
       ],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 100 munny once one world has been cleared or the command has already been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -4187,11 +4434,17 @@
       "max_level": null,
       "capacity": 2,
       "acquisitions": [
+        "Terra: open a Megalixir chest at Neverland’s Rainbow Falls: Base or Skull Rock: Cavern, or at Keyblade Graveyard’s Twister Trench.",
+        "Ventus: open a Megalixir chest at Neverland’s Rainbow Falls: Base or Cove (after the Hook fight), or at Keyblade Graveyard’s Twister Trench.",
+        "Aqua: open the Megalixir chest outside Mysterious Tower to the right of its entrance, or at Keyblade Graveyard’s Twister Trench. The separate Secret Episode also has one in Upper Zone.",
         "Terra/Ventus/Aqua: Command Shop: 350 munny. No ordinary Shop Level is listed; the exact first-acquisition gate remains unverified."
       ],
       "enemy_drops": [],
       "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
-      "acquisition_history_2026_10_01": []
+      "acquisition_history_2026_10_01": [],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Megalixir"
+      ]
     },
     {
       "name": "Balloon Letter",
@@ -4222,9 +4475,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra: make at the Disney Town Ice Cream Shop using 1 Golden Jam, 1 Bijou Bean, 3 Crystal Sugar. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Honeybunny",
@@ -4236,9 +4495,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Ventus: make at the Disney Town Ice Cream Shop using 3 Honeybunch, 2 Apple Pie. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Fabracadabra",
@@ -4250,9 +4515,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Aqua: make at the Disney Town Ice Cream Shop using 2 Balloon Melon, 2 Heroic Orange, 1 Peach Fantasy. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Bueno Volcano",
@@ -4266,9 +4537,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make at the Disney Town Ice Cream Shop using 5 Prickle Pepper, 3 Toonbasco. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Snow Bear",
@@ -4282,9 +4559,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make at the Disney Town Ice Cream Shop using 3 Open Sesame, 5 Soy Milk. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Spark Lemon",
@@ -4298,9 +4581,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make at the Disney Town Ice Cream Shop using 4 Thundercracker, 2 Rocket Soda, 3 Dancin' Lemon. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Royalberry",
@@ -4313,9 +4602,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Aqua: make at the Disney Town Ice Cream Shop using 7 Gaspberry, 10 Nebula Nectar, 8 Birthday Cake, 7 Rose Honey. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Rockin' Crunch",
@@ -4327,9 +4622,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra: make at the Disney Town Ice Cream Shop using 15 Galactic Caramel, 12 Nutty Nut. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Big Bad Pete",
@@ -4341,9 +4642,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra: make at the Disney Town Ice Cream Shop using 20 Bizarro Bean, 20 Whipped Dream. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Goofy Parfait",
@@ -4355,9 +4662,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Ventus: make at the Disney Town Ice Cream Shop using 7 Moogle Coffee, 6 Jumbo Almond, 5 Chocolate Valentine, 10 Forest Muffin. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Sugary Skies",
@@ -4370,9 +4683,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Ventus/Aqua: make at the Disney Town Ice Cream Shop using 10 Cream Fluff, 8 Rainbow Syrup, 14 Cotton Cloudcandy. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Double Crunch",
@@ -4384,9 +4703,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Ventus: make at the Disney Town Ice Cream Shop using 9 Cherryberry, 5 Merry Dairy, 14 Wedding Cake, 15 Star Syrup. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Donald Fizz",
@@ -4398,9 +4723,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Aqua: make at the Disney Town Ice Cream Shop using 8 Crystal Soda, 13 Mermaid Salt, 15 Fizzy Tizzy, 8 Sky Blue Mousse. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Daisy Sorbet",
@@ -4414,9 +4745,15 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": null,
       "capacity": 3,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make at the Disney Town Ice Cream Shop using 8 Starry Sky Delight, 15 Rich Marshmallow, 10 Merry Mint, 12 Melodious Grape. The Ice Cream recipes and flavor entries show the character-specific Prize Pod routes."
+      ],
       "enemy_drops": [],
-      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page.",
+      "acquisition_sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm"
+      ]
     },
     {
       "name": "Group Cure",
@@ -4431,7 +4768,7 @@
       "max_level": 4,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: buy at Medal Shop in the Mirage Arena for 180 medals."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 180 medals; Shop Level 1 AND Arena Level 1."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4451,6 +4788,13 @@
           "level": 4,
           "cp": 240
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: buy at Medal Shop in the Mirage Arena for 180 medals."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4466,7 +4810,7 @@
       "max_level": 4,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Group Cura at the Medal Shop in the Mirage Arena for 360 medals after reaching Arena Level 5."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 360 medals; Shop Level 1 AND Arena Level 5."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4486,6 +4830,13 @@
           "level": 4,
           "cp": 580
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Group Cura at the Medal Shop in the Mirage Arena for 360 medals after reaching Arena Level 5."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4501,7 +4852,7 @@
       "max_level": 4,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Group Curaga at the Medal Shop in the Mirage Arena for 500 medals after reaching Arena Level 10."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 500 medals; Shop Level 1 AND Arena Level 10."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4521,6 +4872,13 @@
           "level": 4,
           "cp": 730
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Group Curaga at the Medal Shop in the Mirage Arena for 500 medals after reaching Arena Level 10."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4537,7 +4895,7 @@
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: reward for hitting the mailbox at the Main Plaza.",
-        "Terra/Ventus/Aqua: purchase Confetti at the Medal Shop in the Mirage Arena after reaching Shop Level 3."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 150 medals; Shop Level 3 AND Arena Level 1."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4545,6 +4903,13 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Confetti at the Medal Shop in the Mirage Arena after reaching Shop Level 3."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4561,9 +4926,8 @@
       "slots": 1,
       "acquisitions": [
         "Terra: reward for earning 40 points in the Sticker Album.",
-        "Ventus: reward for earning 60 points in the Sticker Album.[KH BbS]",
         "Ventus: reward for earning 40 points in the Sticker Album.[KH BbS FM]",
-        "Terra/Ventus/Aqua: purchase Fireworks at the Medal Shop in the Mirage Arena for 400 medals after reaching Shop Level 4 and Arena Level 5."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 400 medals; Shop Level 4 AND Arena Level 5."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4571,6 +4935,21 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Ventus: reward for earning 60 points in the Sticker Album.[KH BbS]",
+          "reason": "Original BBS Sticker Album threshold; use the separate Final Mix threshold.",
+          "source": "https://www.khwiki.com/Fireworks",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Fireworks at the Medal Shop in the Mirage Arena for 400 medals after reaching Shop Level 4 and Arena Level 5."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4586,7 +4965,7 @@
       "max_level": 1,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Victory Pose at the Medal Shop in the Mirage Arena for 100 medals."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 100 medals; Shop Level 1 AND Arena Level 1."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4594,6 +4973,13 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Victory Pose at the Medal Shop in the Mirage Arena for 100 medals."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4609,7 +4995,7 @@
       "max_level": 1,
       "slots": 1,
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Vanish at the Medal Shop for 750 medals after reaching Shop Level 3 and Arena Level 5."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 750 medals; Shop Level 3 AND Arena Level 5."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4617,6 +5003,13 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Vanish at the Medal Shop for 750 medals after reaching Shop Level 3 and Arena Level 5."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4632,8 +5025,7 @@
       "max_level": 1,
       "slots": 3,
       "acquisitions": [
-        "Terra/Ventus/Aqua: buy at Mirage Arena Medal Shop for 1400 Arena Medals once the player reach an Arena level of 1.",
-        "Terra/Ventus/Aqua: start the game with Trinity Limit if a Kingdom Hearts Birth by Sleep save file with the Trinity Trophy trophy is on the memory stick.[KH BbS FM][3]"
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 1400 medals; Shop Level 3 AND Arena Level 1."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4641,6 +5033,21 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra/Ventus/Aqua: start the game with Trinity Limit if a Kingdom Hearts Birth by Sleep save file with the Trinity Trophy trophy is on the memory stick.[KH BbS FM][3]",
+          "reason": "PSP save-transfer bonus; not an HD/Steam acquisition.",
+          "source": "https://www.khwiki.com/Trinity_Limit",
+          "reviewed": "2026-10-02"
+        }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: buy at Mirage Arena Medal Shop for 1400 Arena Medals once the player reach an Arena level of 1."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4656,7 +5063,7 @@
       "max_level": 1,
       "slots": 3,
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Unison Rush at the Medal Shop for 3000 medals."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 3000 medals; Arena Level 10; the source leaves its additional Shop Level unspecified."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4664,6 +5071,13 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Unison Rush at the Medal Shop for 3000 medals."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4679,8 +5093,8 @@
       "max_level": 1,
       "slots": 3,
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Voltage Stack at the Medal Shop in the Mirage Arena for 1800 medals.",
-        "Terra/Ventus/Aqua: reward for defeating the Element Cluster Unversed Mission in Neverland.[KH BbS FM]"
+        "Terra/Ventus/Aqua: reward for defeating the Element Cluster Unversed Mission in Neverland.[KH BbS FM]",
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 1800 medals; Arena Level 5; the source leaves its additional Shop Level unspecified."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4688,6 +5102,13 @@
           "level": 1,
           "cp": 0
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Voltage Stack at the Medal Shop in the Mirage Arena for 1800 medals."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -4787,7 +5208,9 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 1,
       "slots": 0,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus/Aqua: equipped by default. High Jump can replace it; Jump cannot be sold."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -4813,13 +5236,16 @@
         "Terra: chest — Turo Prison Block.",
         "Ventus obtains High Jump after defeating Vanitas for the first time at the Keyblade Graveyard.",
         "Aqua obtains High Jump after defeating Maleficent's Goons with Prince Philip in Enchanted Dominion.",
-        "Terra/Ventus/Aqua: buy opponent panel: Tigger's High Jump panel on the Hunny Pot Board.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: menu Command Board, buy opponent panel: Tigger's High Jump panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.",
         "Terra/Ventus/Aqua: Command Shop: 500 munny. Obtain this command elsewhere first."
       ],
       "enemy_drops": [],
       "acquisition_history_2026_10_01": [
         "Terra/Ventus/Aqua: buy at Command Shop for 500 munny once it has been obtained elsewhere."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -4869,7 +5295,7 @@
       "max_level": 4,
       "slots": 0,
       "acquisitions": [
-        "Ventus: bonus panel — Hunny Pot Board."
+        "Ventus: menu Command Board bonus panel — Hunny Pot Board."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -4889,6 +5315,9 @@
           "level": 4,
           "cp": 1400
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -5184,7 +5613,10 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 4,
       "slots": 0,
-      "acquisitions": [],
+      "acquisitions": [
+        "Ventus: meld Fire Surge Lv3 + Glide (source gives no level requirement). See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions.",
+        "Ventus: meld Firaga Lv4 + Glide (source gives no level requirement). See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -5314,7 +5746,10 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 3,
       "slots": 0,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus: meld Esuna (source gives no level requirement) + Block Lv1. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions.",
+        "Terra/Ventus: meld Curaga Lv4 + Block Lv1. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -5344,8 +5779,8 @@
       "max_level": 3,
       "slots": 0,
       "acquisitions": [
-        "Terra/Ventus: bonus panel — Royal Board.",
-        "Terra/Ventus: buy opponent panel: Cinderella's Focus Block panel on the Royal Board."
+        "Terra/Ventus: menu Command Board bonus panel — Royal Board.",
+        "Terra/Ventus: menu Command Board, buy opponent panel: Cinderella's Focus Block panel on the Royal Board."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -5361,6 +5796,9 @@
           "level": 3,
           "cp": 550
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -5408,7 +5846,10 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 3,
       "slots": 0,
-      "acquisitions": [],
+      "acquisitions": [
+        "Terra/Ventus: meld Poison Edge Lv3 + Block Lv1. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions.",
+        "Terra/Ventus: meld Poison Lv3 + Block Lv1. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -5438,12 +5879,19 @@
       "slots": 0,
       "acquisitions": [
         "Aqua: Barrier as an initial command.",
-        "Terra/Ventus/Aqua: use Barrier while riding their Keyblade Glider.",
         "Aqua: Command Shop: 200 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       ],
       "enemy_drops": [],
       "acquisition_history_2026_10_01": [
         "Aqua: buy at Command Shop for 200 munny once one world is cleared or the command has already been obtained elsewhere."
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Terra/Ventus/Aqua: use Barrier while riding their Keyblade Glider.",
+          "reason": "Temporary vehicle use; not an acquisition of the persistent deck command.",
+          "source": "https://www.khwiki.com/Barrier",
+          "reviewed": "2026-10-02"
+        }
       ]
     },
     {
@@ -5456,7 +5904,10 @@
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
       "max_level": 3,
       "slots": 0,
-      "acquisitions": [],
+      "acquisitions": [
+        "Aqua: meld Curaga Lv4 + Barrier Lv1. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions.",
+        "Aqua: meld Esuna (source gives no level requirement) + Barrier Lv1. See this command’s producing recipes for outcome chances and already-owned Shotlock exceptions."
+      ],
       "enemy_drops": [],
       "cp_steps": [
         {
@@ -5485,8 +5936,8 @@
       "max_level": 3,
       "slots": 0,
       "acquisitions": [
-        "Aqua: bonus panel — Royal Board.",
-        "Aqua: buy opponent panel: Cinderella's Focus Barrier panel on the Royal Board."
+        "Aqua: menu Command Board bonus panel — Royal Board.",
+        "Aqua: menu Command Board, buy opponent panel: Cinderella's Focus Barrier panel on the Royal Board."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -5502,6 +5953,9 @@
           "level": 3,
           "cp": 550
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -5548,7 +6002,6 @@
       "max_level": 3,
       "slots": 0,
       "acquisitions": [
-        "Aqua: reward for earning 60 points in the Sticker Album.[KH BbS]",
         "Aqua: reward for earning 70 points in the Sticker Album.[KH BbS FM]"
       ],
       "enemy_drops": [],
@@ -5564,6 +6017,14 @@
         {
           "level": 3,
           "cp": 550
+        }
+      ],
+      "excluded_acquisitions": [
+        {
+          "text": "Aqua: reward for earning 60 points in the Sticker Album.[KH BbS]",
+          "reason": "Original BBS Sticker Album threshold; use the separate Final Mix threshold.",
+          "source": "https://www.khwiki.com/Stop_Barrier",
+          "reviewed": "2026-10-02"
         }
       ]
     },
@@ -5839,10 +6300,17 @@
       "max_level": null,
       "slots": 0,
       "acquisitions": [
-        "Terra/Ventus/Aqua: buy at Medal Shop for 320 medals."
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 320 medals; Arena Level 5; the source leaves its additional Shop Level unspecified. The independent PSP-FM shop table gives no Arena-level figure; the HD-aware table lists 5. Earlier availability remains unresolved."
       ],
       "enemy_drops": [],
-      "cp_evidence_status": "Multiple variants or maximum level disagreement; source table requires manual normalization."
+      "cp_evidence_status": "Multiple variants or maximum level disagreement; source table requires manual normalization.",
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: buy at Medal Shop for 320 medals."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+      ]
     },
     {
       "name": "Meteor Shower",
@@ -5859,7 +6327,7 @@
       "acquisition_summary": "Terra/Ventus/Aqua: Rare bonus on the Royal Board, Command Melding.",
       "acquisitions": [
         "Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Royal Board."
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Royal Board."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -5879,6 +6347,9 @@
           "level": 4,
           "cp": 600
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -5897,7 +6368,7 @@
       "acquisitions": [
         "Terra: chest — Vault.",
         "Ventus: Flame Salvo as his default Shotlock.",
-        "Aqua: purchase Flame Salvo at the Mirage Arena Medal Shop for 900 medals."
+        "Aqua: Mirage Arena Medal Shop, 900 medals; Shop Level 1 AND Arena Level 5."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -5917,6 +6388,13 @@
           "level": 4,
           "cp": 350
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Aqua: purchase Flame Salvo at the Mirage Arena Medal Shop for 900 medals."
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -6045,8 +6523,8 @@
       "roster_source": "https://www.khwiki.com/Shotlock",
       "acquisition_summary": "Terra/Ventus/Aqua: Rare bonus on the Keyblade Board and Secret Board.",
       "acquisitions": [
-        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.[3]",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.[3]"
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Keyblade Board.[3]",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.[3]"
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -6066,6 +6544,9 @@
           "level": 4,
           "cp": 600
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -6121,7 +6602,8 @@
       "acquisition_summary": "Terra/Ventus/Aqua: Purchase at the Medal Shop, Command Melding.",
       "acquisitions": [
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: purchase Bio Barrage at the Mirage Arena for 2500 medals at Arena Level 15."
+        "Terra/Ventus/Aqua: purchase Bio Barrage at the Mirage Arena for 2500 medals at Arena Level 15.",
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 2500 medals; Shop Level 5 AND Arena Level 15."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -6141,6 +6623,11 @@
           "level": 4,
           "cp": 900
         }
+      ],
+      "medal_acquisition_history_2026_10_02": [],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
       ]
     },
     {
@@ -6233,8 +6720,8 @@
       "roster_source": "https://www.khwiki.com/Shotlock",
       "acquisition_summary": "Terra/Ventus/Aqua: Special bonus on the Skull Board, purchase from the Medal Shop.",
       "acquisitions": [
-        "Terra/Ventus/Aqua: purchase Photon Charge at the Mirage Arena Medal Shop for 1600 medals.",
-        "Terra/Ventus/Aqua: bonus panel — Skull Board."
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 1600 medals; Shop Level 3 AND Arena Level 10."
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -6254,6 +6741,14 @@
           "level": 4,
           "cp": 750
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+      ],
+      "medal_acquisition_history_2026_10_02": [
+        "Terra/Ventus/Aqua: purchase Photon Charge at the Mirage Arena Medal Shop for 1600 medals."
       ]
     },
     {
@@ -6308,8 +6803,8 @@
       "acquisition_summary": "Terra/Ventus/Aqua: Rare bonus on the Spaceship Board and Secret Board, Command Melding.",
       "acquisitions": [
         "Terra/Ventus/Aqua: make through Command Melding.",
-        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.[1]",
-        "Terra/Ventus/Aqua: bonus panel — Secret Board.[1]"
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Spaceship Board.[1]",
+        "Terra/Ventus/Aqua: menu Command Board bonus panel — Secret Board.[1]"
       ],
       "enemy_drops": [],
       "cp_steps": [
@@ -6329,6 +6824,9 @@
           "level": 4,
           "cp": 900
         }
+      ],
+      "acquisition_sources": [
+        "https://www.khwiki.com/Command_Board"
       ]
     },
     {
@@ -6718,5 +7216,48 @@
       "type": "Shotlock",
       "reason": "temporary-Vanitas-D-Link"
     }
-  ]
+  ],
+  "practical_review_2026_10_02": {
+    "scope": "Every persistent HD command has acquisition text; first acquisition may also use the existing character-scoped melding/ice-cream recipes. Exhaustive alternative routes are not certified.",
+    "previously_empty_acquisitions_filled": [
+      "Magic Hour",
+      "Faith",
+      "Mega Flare",
+      "Vanilla Glitz",
+      "Honeybunny",
+      "Fabracadabra",
+      "Bueno Volcano",
+      "Snow Bear",
+      "Spark Lemon",
+      "Royalberry",
+      "Rockin' Crunch",
+      "Big Bad Pete",
+      "Goofy Parfait",
+      "Sugary Skies",
+      "Double Crunch",
+      "Donald Fizz",
+      "Daisy Sorbet",
+      "Jump",
+      "Fire Glide",
+      "Renewal Block",
+      "Poison Block",
+      "Renewal Barrier"
+    ],
+    "excluded_acquisition_count": 13,
+    "board_routes_mode_qualified": 236,
+    "sources": [
+      "https://www.khwiki.com/Sticker_Album",
+      "https://www.khwiki.com/Command_Board",
+      "https://www.khwiki.com/Jump",
+      "https://www.khwiki.com/Magic_Hour",
+      "https://www.khwiki.com/Faith",
+      "https://www.khwiki.com/Mega_Flare",
+      "https://www.khwiki.com/Fire_Glide",
+      "https://www.khwiki.com/Renewal_Block",
+      "https://www.khwiki.com/Renewal_Barrier",
+      "https://www.khwiki.com/Poison_Block_(KHBBS)",
+      "https://www.khwiki.com/Ice_cream",
+      "https://www.khwiki.com/Trophies"
+    ]
+  }
 }

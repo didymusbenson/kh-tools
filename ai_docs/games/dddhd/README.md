@@ -1,10 +1,11 @@
 # Dream Drop Distance HD research pack
 
+**Critical re-audit:** [Current corrections](critical-reaudit-2026-10-02.md) re-examine three overbroad deferrals, resolve the adapter defect, and add recipe-mode, repeat-farming, concrete bonus and high-score instructions.
 UI references received October 2, 2026: [6 original screenshots and source manifest](../../ui/references/dddhd/README.md). Custom journal implementation remains outstanding.
 
-2026-10-02 follow-up: 11 Grid access actions are integrated, including roof entry, Recognizer passage and isolated Riku landing. Sweet Dreams guidance separates character delivery and provides an HD-documented repeat-cup route, with exact Steam retrigger scope still bounded. Complete published Flick Rush score/rank/prize tables and Rush LV milestones now appear in runtime; Speed Cup time group, spendable Medal yields and Secret Cup minimum unlock remain explicit unknowns/conflicts. Missing base stats were not copied from mods. Current disposition totals remain **7 resolved, 17 partial, 1 blocked**. [Evidence and exact residuals](gap-closure-2026-10-02.md).
+2026-10-02 practical review: **1,285 generated entries, 263 formulas; research disposition 8 resolved / 14 deferred / 3 open.** Evidence accounting remains **8 resolved / 16 partial / 1 blocked**. Added 22 HD portal landmarks, map-based portal hunting, known disposition detours, a complete alternative Faith route, and conservative achievement/recovery advice. All 438 treasure and 346 portal identities remain; Data Jiminy stays empty. [Every-family review](practical-review-2026-10-02.md) · [Deferrals and reasons](future-improvements.md) · [Machine ledger](audit-dispositions.json).
 
-2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md) and [continuation evidence](research-continuation-2026-10-01.md): **7 resolved, 17 partial, 1 blocked**.
+Earlier [gap closure](gap-closure-2026-10-02.md) and [continuation](research-continuation-2026-10-01.md) retain their historical evidence and outcomes. Missing precision is no longer automatically an active release requirement.
 
 Audited 2026-09-18 for Ars Arcanum's collectible/acquisition compendium. The generated runtime is implemented; remaining documentary gaps are scoped by the current ledger.
 
@@ -32,15 +33,14 @@ Use shipped HD mechanics with per-platform controls/achievement applicability; t
 
 The official [2026 Collection page](https://www.jp.square-enix.com/kingdom/collection/) announces HD2.8 for Switch 2, PS5, Xbox Series X|S and Microsoft Store on Windows on **2026-10-08**. Those are announced/unreleased on this audit date; do not claim build/content parity or make their untested mechanics the verified baseline. The same page lists Steam/Epic versions as available. The [official cloud notice](https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4) ends cloud sales on 2026-06-09 and service on 2027-06-09 (23:59 JST); the shared edition policy should own availability handling.
 
-## Highest-priority remaining work
+## Remaining actionable work
 
-1. Verify remaining access/returnability conditions; all 438 pickup landmarks are integrated and the two known HD Reports-number conflicts are resolved.
-2. Add missing approach landmarks and first/repeat delivery distinctions to the extracted portal census.
-3. Resolve Aura Lion/Jestabocky source defects, the 141 remaining unreported formula odds, three breeds’ unknown base stats and five missing interaction body parts.
-4. Resolve Strike Raid reload timing, incomplete Steam input bindings, other-platform identifiers and remaining secret/counter recovery semantics. All 54 Steam keys and the Quick Blitz shop price are now documented.
-5. Exercise offline progress synchronization, migrations, backup and grounded Data Jiminy answers on the verified records.
+1. Research DDD-025’s concrete recovery case: incorrect final answers saved to an HD clear file without a retained pre-finale backup. Establish one usable route; do not require a complete hidden-state matrix. Current initial-unlock guidance and backup precaution are sufficient before the finale.
+2. Resolve DDD-004/006’s specific source/selection questions. DDD-003 is resolved by retaining its explicitly drawn connector, without inferring an in-game locked branch.
+3. Revisit the 14 deferred precision families only for the concrete triggers in [future improvements](future-improvements.md). Aura Lion’s coordinates remain factually conflicted; alternate reward providers mean they do not block current collection goals.
+4. Exercise offline progress synchronization, migrations, backup and grounded Data Jiminy answers separately from research. Empty Data Jiminy remains intentional; no knowledge seeding was performed.
 
-These are data/research/engineering tasks, not requests for new scope decisions. Ordinary character-story manifests and manual gameplay/playthroughs are not release gates. The user plays Steam; validate content from sources and test application behavior, initially on Apple browser/iPhone/iPad, with Android follow-up.
+The user plays Steam; source research does not require a manual playthrough. Shared functional acceptance and journal UI remain separate engineering work. This review does not defer those features or tests.
 
 Crafting is first-class. Optional opt-in inventory shows recipe ingredients as owned/required (x/y), without requiring inventory entry to use the compendium. Follow [synthesis and inventory](../../content/synthesis-and-inventory.md) and [testing/content validation](../../testing-and-content-validation.md).
 

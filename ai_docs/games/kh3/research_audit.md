@@ -1,10 +1,19 @@
 # Kingdom Hearts III + Re Mind research-gap audit
 
+## Corrected player-value assessment — 2026-10-02
+
+The user challenged the breadth of the deferrals. [The sufficiency re-audit](value-reaudit-2026-10-02.md) found real missing play methods, weak equipment directions, non-searchable aliases and naval actions; those were not optional precision and have now been addressed. It also reconciles Forest Clasp’s first-Shore departure, closing the previously overstated conflict.
+
+Current evidence: **20 resolved / 13 partial / 2 conflicted**. Current research dispositions: **20 resolved / 13 deferred / 2 open**. Open questions are KH3-022’s mapping of nine normal-ship deck reward pools to identifiable encounters, and KH3-029’s already-activated Salvager recovery case. See the updated machine ledger for exact scope. Earlier counts and blanket sufficiency statements below are historical, not the current conclusion.
+
+
 Audit date: **2026-10-01**. Repository baseline: **`f933ab1`**, audit branch `research/audit-2026-10-01`. The original sections below are a historical repository-only inventory; live research and implementation dispositions now supersede them. Modern Steam + bundled Re Mind is primary; existing modern-platform distinctions are preserved. Supported corrections are documented in the current ledger.
 
-## Current disposition
+## Earlier practical assessment — superseded by the re-audit
 
-**14 partial, 18 resolved, 3 conflicted (35 total).** See [complete resolution/evidence ledger](audit-resolution-2026-10-01.md) and [structured dispositions](audit-dispositions.json). Current canonical counts: 1926 entries + 286 recipe actions. No finding is considered closed merely because examples were added.
+[The player-value review](practical-review-2026-10-02.md) accounts for all 35 families. Evidence remains **19 resolved / 13 partial / 3 conflicted**; actionable research is **19 resolved / 15 deferred / 1 open**. [Future improvements](future-improvements.md) explain every deferral. The one narrow open question is Salvager recovery after permanent Gummi Ship Meister activation without a clean earlier save; safe forward planning does not certify recovery.
+
+Current content remains **1,954 entries and 286 recipe actions**, now with 33 readable Gummi battle approaches, 41 gate material routes and nine field material routes, explicit missable-item steps and achievement/save safety. Historical minimum-access, probability, timer and cross-platform caveats below are evidence boundaries, not additional active requirements. App/UI/device acceptance is separate; Data Jiminy remains empty.
 
 ## Historical baseline results and scope
 

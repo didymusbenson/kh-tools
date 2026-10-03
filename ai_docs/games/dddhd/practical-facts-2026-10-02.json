@@ -1,0 +1,590 @@
+{
+  "date": "2026-10-02",
+  "edition": "Steam HD target; PS4 HD documentary corroboration explicitly identified",
+  "evidenceBoundary": "Factual excerpts and graph-derived routes, not a gameplay test. Conservative planning recommendations do not resolve hidden counters or unknown source cells.",
+  "sources": [
+    {
+      "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "inspection": "Full PS4 HD v1.05 guide (2019-07-04), sections Golden Egg, Strongest Link, Champions of each world, Daring Diver and command providers, read through web tool on 2026-10-02. Previously restricted direct access did not prevent this inspection.",
+      "supports": "HD portal landmarks, food disposition route, all-14-course score goal, alternate Faith provider. Golden Egg custom formula guarantees ★ rank for either of two outcomes without requiring weather."
+    },
+    {
+      "url": "https://www.playstationtrophies.org/forum/topic/284042-kingdom-hearts-dream-drop-distance-trophy-guide-and-road-map/",
+      "inspection": "Search-index excerpt of the 2017 HD guide inspected; forecast/mini-map procedure displayed in full excerpt. No screenshot inspection claimed.",
+      "supports": "Use forecast plus Reports to narrow areas, then expanded mini-map to find active portals; PS4 touchpad is not a Steam binding."
+    },
+    {
+      "url": "https://www.khwiki.com/Spirit",
+      "inspection": "Full page; disposition table and menu-reset rule inspected.",
+      "supports": "Food changes are probabilistic; purple/yellow/blue/green treat mapping; reopen menu between changes."
+    },
+    {
+      "url": "https://www.khwiki.com/Training_Toy",
+      "inspection": "Full page; treat/HD controls sections inspected.",
+      "supports": "Treat color mapping and existing training effects."
+    },
+    {
+      "url": "https://www.khwiki.com/Flowbermeow",
+      "inspection": "Live page and checked-in complete node/edge graph reconciled.",
+      "supports": "Faith F-6, 300 LP, after level-25 gate; complete 480-LP direct route calculated from graph."
+    },
+    {
+      "url": "https://www.khwiki.com/Another_Guardian_of_Light",
+      "inspection": "Unlock criteria inspected; does not describe wrong-answer save recovery.",
+      "supports": "Initial answer/trophy/credits route only."
+    }
+  ],
+  "portalLandmarks": [
+    {
+      "id": "dddhd:portals:sora-la-cite-des-cloches-special-portal-2",
+      "character": "Sora",
+      "world": "La Cité des Cloches",
+      "number": 2,
+      "expectedArea": "Town",
+      "landmark": "southeast corner",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-la-cite-des-cloches-special-portal-3",
+      "character": "Sora",
+      "world": "La Cité des Cloches",
+      "number": 3,
+      "expectedArea": "Town",
+      "landmark": "central tower",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-la-cite-des-cloches-special-portal-5",
+      "character": "Sora",
+      "world": "La Cité des Cloches",
+      "number": 5,
+      "expectedArea": "Nave",
+      "landmark": "upper level",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-la-cite-des-cloches-special-portal-6",
+      "character": "Sora",
+      "world": "La Cité des Cloches",
+      "number": 6,
+      "expectedArea": "Square",
+      "landmark": "rooftop",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-la-cite-des-cloches-special-portal-2",
+      "character": "Riku",
+      "world": "La Cité des Cloches",
+      "number": 2,
+      "expectedArea": "Town",
+      "landmark": "central area",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-la-cite-des-cloches-special-portal-3",
+      "character": "Riku",
+      "world": "La Cité des Cloches",
+      "number": 3,
+      "expectedArea": "Outskirts",
+      "landmark": "west side",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-la-cite-des-cloches-special-portal-4",
+      "character": "Riku",
+      "world": "La Cité des Cloches",
+      "number": 4,
+      "expectedArea": "Square",
+      "landmark": "ground level",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-la-cite-des-cloches-special-portal-5",
+      "character": "Riku",
+      "world": "La Cité des Cloches",
+      "number": 5,
+      "expectedArea": "Outskirts",
+      "landmark": "southeast corner",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-la-cite-des-cloches-special-portal-6",
+      "character": "Riku",
+      "world": "La Cité des Cloches",
+      "number": 6,
+      "expectedArea": "Nave",
+      "landmark": "upper level",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-the-grid-special-portal-5",
+      "character": "Sora",
+      "world": "The Grid",
+      "number": 5,
+      "expectedArea": "Docks",
+      "landmark": "upper section",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-the-grid-special-portal-5",
+      "character": "Riku",
+      "world": "The Grid",
+      "number": 5,
+      "expectedArea": "Docks",
+      "landmark": "upper section",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-prankster-s-paradise-special-portal-3",
+      "character": "Riku",
+      "world": "Prankster's Paradise",
+      "number": 3,
+      "expectedArea": "Monstro: Cavity (Converted)",
+      "landmark": "inverted Cavity",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-prankster-s-paradise-special-portal-6",
+      "character": "Riku",
+      "world": "Prankster's Paradise",
+      "number": 6,
+      "expectedArea": "Monstro: Cavity",
+      "landmark": "upright Cavity",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-country-of-the-musketeers-special-portal-3",
+      "character": "Riku",
+      "world": "Country of the Musketeers",
+      "number": 3,
+      "expectedArea": "Machine Room",
+      "landmark": "hidden side room reached from the southeast",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-symphony-of-sorcery-special-portal-1",
+      "character": "Sora",
+      "world": "Symphony of Sorcery",
+      "number": 1,
+      "expectedArea": "Cloudwalk",
+      "landmark": "beyond the first rainbow slide",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-symphony-of-sorcery-special-portal-6",
+      "character": "Sora",
+      "world": "Symphony of Sorcery",
+      "number": 6,
+      "expectedArea": "Cloudwalk",
+      "landmark": "north end",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-symphony-of-sorcery-special-portal-2",
+      "character": "Riku",
+      "world": "Symphony of Sorcery",
+      "number": 2,
+      "expectedArea": "Moonlight Wood",
+      "landmark": "east-central area, beside the Zero Graviza chest",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-symphony-of-sorcery-special-portal-3",
+      "character": "Riku",
+      "world": "Symphony of Sorcery",
+      "number": 3,
+      "expectedArea": "Snowgleam Wood",
+      "landmark": "northeast corner",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-symphony-of-sorcery-special-portal-5",
+      "character": "Riku",
+      "world": "Symphony of Sorcery",
+      "number": 5,
+      "expectedArea": "Moonlight Wood",
+      "landmark": "east-central area, near the first Melody Catcher flowers",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:riku-symphony-of-sorcery-special-portal-6",
+      "character": "Riku",
+      "world": "Symphony of Sorcery",
+      "number": 6,
+      "expectedArea": "Snowgleam Wood",
+      "landmark": "south-central large ice sheet",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-the-world-that-never-was-special-portal-1",
+      "character": "Sora",
+      "world": "The World That Never Was",
+      "number": 1,
+      "expectedArea": "Avenue to Dreams",
+      "landmark": "rooftop",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    },
+    {
+      "id": "dddhd:portals:sora-the-world-that-never-was-special-portal-3",
+      "character": "Sora",
+      "world": "The World That Never Was",
+      "number": 3,
+      "expectedArea": "Avenue to Dreams",
+      "landmark": "central streets",
+      "source": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "edition": "PS4 HD",
+      "evidence": "Guide factual location qualifier; no complete entrance-to-portal walking route asserted."
+    }
+  ],
+  "entryPatches": [
+    {
+      "id": "dddhd:commands:faith",
+      "appendInstructions": "Alternative to the disputed Aura Lion secret: on Flowbermeow, follow Start A-6 → Sparkra B-6 (10 LP) → Light Screen C-6 (20 LP) → Reload Boost D-6 (150 LP) → level-25 checkpoint E-6 → Faith F-6 (300 LP). Total for this path from an untouched board: 480 LP. Faith is equipped by Sora.",
+      "sources": [
+        "https://www.khwiki.com/Flowbermeow",
+        "https://www.khwiki.com/Faith"
+      ],
+      "basis": "calculated route through published reciprocal edges; LP sum 10+20+150+300"
+    },
+    {
+      "id": "dddhd:spirits:flowbermeow",
+      "appendInstructions": "Alternative to the disputed Aura Lion secret: on Flowbermeow, follow Start A-6 → Sparkra B-6 (10 LP) → Light Screen C-6 (20 LP) → Reload Boost D-6 (150 LP) → level-25 checkpoint E-6 → Faith F-6 (300 LP). Total for this path from an untouched board: 480 LP. Faith is equipped by Sora.",
+      "sources": [
+        "https://www.khwiki.com/Flowbermeow",
+        "https://www.khwiki.com/Faith"
+      ],
+      "basis": "calculated route through published reciprocal edges; LP sum 10+20+150+300"
+    },
+    {
+      "id": "dddhd:spirits:aura-lion",
+      "appendInstructions": "For the affected rewards without relying on this coordinate conflict, use Flowbermeow for Faith, the Moogle Shop at LV8 for Curaga, and Escarglow for Second Chance; those entries give costs and access routes.",
+      "sources": [
+        "https://www.khwiki.com/Flowbermeow",
+        "https://www.khwiki.com/Curaga",
+        "https://www.khwiki.com/Escarglow"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:abilities:second-chance",
+      "appendInstructions": "An alternative to Aura Lion is Escarglow B-6 (200 LP); follow its connected board route and level/link gates.",
+      "sources": [
+        "https://www.khwiki.com/Escarglow"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:commands:curaga",
+      "appendInstructions": "To avoid the Aura Lion transformation ambiguity, use the LV8 Moogle Shop route (1000 munny, or 800 during Bargain Flurry) or the listed Riku chest.",
+      "sources": [
+        "https://www.khwiki.com/Curaga",
+        "https://www.khwiki.com/Moogle_Shop"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:abilities:magic-boost",
+      "appendInstructions": "To avoid Jestabocky’s disputed A-3 connection, use a different listed provider, such as Meow Wow G-3 in Smart Cookie disposition. Stat Boosts need the provider in the party.",
+      "sources": [
+        "https://www.khwiki.com/Meow_Wow",
+        "https://www.khwiki.com/Spirit"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:spirits:jestabocky",
+      "appendInstructions": "A-3 Magic Boost is reachable from Start A-1 through Balloon A-2. Continue from A-3 to B-3 Thunder Screen using the source’s explicit connector, then follow the displayed C/D branch and disposition conditions. The missing reciprocal A-3 background graphic was an extraction issue; it does not make this an in-game locked branch.",
+      "sources": [
+        "https://www.khwiki.com/Meow_Wow"
+      ],
+      "basis": "Source-backed normalization of an explicit undirected connector; raw graphic asymmetry retained as provenance."
+    },
+    {
+      "id": "dddhd:achievements:strongest-link",
+      "appendInstructions": "One complete board is enough. A practical choice is Meow Wow: raise it to level 25, buy all its nodes, and visit both Stray and Smart Cookie dispositions to expose the hidden branches. Use the Spirit disposition reference if petting is awkward.",
+      "sources": [
+        "https://www.khwiki.com/Meow_Wow",
+        "https://www.khwiki.com/Spirit"
+      ],
+      "basis": "goal condition plus route recommendation based on complete board"
+    },
+    {
+      "id": "dddhd:spirits:beatalike",
+      "appendInstructions": "Known detours around missing direct petting instructions: Passionate → Reaper by rubbing wings, then Reaper → Groovy by rubbing face; Groovy → Reaper by rubbing legs, then Reaper → Passionate by poking tail. Close and reopen the Spirit menu after each successful disposition change; repeat the interaction as needed because changes are probabilistic.",
+      "sources": [
+        "https://www.khwiki.com/Beatalike",
+        "https://www.khwiki.com/Spirit"
+      ],
+      "basis": "two-step reachability derived from already sourced nonblank interaction cells"
+    },
+    {
+      "id": "dddhd:spirits:tubguin-ace",
+      "appendInstructions": "Known detours around missing direct petting instructions: Hot Springs → Spa by rubbing back, then Spa → Whirlpool by rubbing face; Whirlpool → Hot Springs by poking belly, then Hot Springs → Sauna by poking face. Close and reopen the Spirit menu after each successful disposition change; repeat the interaction as needed because changes are probabilistic.",
+      "sources": [
+        "https://www.khwiki.com/Tubguin_Ace",
+        "https://www.khwiki.com/Spirit"
+      ],
+      "basis": "two-step reachability derived from already sourced nonblank interaction cells"
+    },
+    {
+      "id": "dddhd:spirits:woeflower",
+      "appendInstructions": "Known detour from Meddler to Bag of Tricks: rub head to reach Shrinking Violet, then poke leaves to reach Bag of Tricks. Close and reopen the Spirit menu after each successful disposition change; repeat the interaction as needed because changes are probabilistic.",
+      "sources": [
+        "https://www.khwiki.com/Woeflower",
+        "https://www.khwiki.com/Spirit"
+      ],
+      "basis": "two-step reachability derived from already sourced nonblank interaction cells"
+    },
+    {
+      "id": "dddhd:reference:spirit-creation",
+      "appendInstructions": "For the recipe-backed collection route, obtain the named recipe item, then open Create Spirits and choose that Spirit on the Recipes tab. Custom creation is a separate tab and can work without a recipe item; inspect its displayed breed and odds before spending materials. Identical custom inputs are listed for Cyber Yog/Sir Kyroo, Tyranto Rex/Ursa Circus and Jestabocky/Meow Wow, so a named recipe’s guarantee must not be applied to that raw ingredient pair. For Golden Egg, custom-create with 10 Intrepid Figments + 8 Vibrant Figments: either Tama Sheep or Pricklemane is ★ rank. Both base-B outcomes use 5 + 4 pieces; doubling both gives B → A → ★. This guarantees the rank of either outcome, not a selected breed, and needs no Risky Winds. See Golden Egg for the complete route.",
+      "sources": [
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16",
+        "https://www.khwiki.com/Spirit",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Tama_Sheep",
+        "https://www.khwiki.com/Pricklemane"
+      ],
+      "basis": "HD menu-tab distinction plus explicit checked-in ingredient collisions; custom-mode selection remains open."
+    },
+    {
+      "id": "dddhd:commands:strike-raid",
+      "appendInstructions": "Acquisition is unaffected by the reload dispute. For combat, use the command when its deck recharge indicator is ready rather than planning a fixed 22- or 24-second loop.",
+      "sources": [
+        "https://www.khwiki.com/Strike_Raid"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:challenges:secret-cup",
+      "appendInstructions": "Conservative access plan: win every other cup and reach Rush LV17, which satisfies both published thresholds. Check whether the cup opens sooner; LV17 is a planning ceiling for the conflicting requirements, not a newly verified minimum.",
+      "sources": [
+        "https://www.khwiki.com/Flick_Rush",
+        "https://www.khwiki.com/Secret_Cup"
+      ],
+      "basis": "conservative sufficient-condition inference from both published access claims"
+    },
+    {
+      "id": "dddhd:challenges:lord-kyroo",
+      "appendInstructions": "Conservative plan: finish the encounter chain without loading a save between appearances. Let the timed escape carry damage forward; do not leave mid-fight. This avoids depending on the undocumented save/reload behavior.",
+      "sources": [
+        "https://www.khwiki.com/Lord_Kyroo"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:awards:dream-pleaser",
+      "appendInstructions": "Raise one instance of each of the 54 breeds to affinity level 9. Retain those instances on the same save until the Trophy Shelf confirms the award. This avoids relying on released-instance or NG+ flag retention, which remains unverified. This in-game Trophy Shelf goal is separate from the platform achievement for one max-affinity Spirit.",
+      "sources": [
+        "https://www.khwiki.com/Trophies",
+        "https://www.khwiki.com/Spirit",
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:awards:daring-diver",
+      "appendInstructions": "The HD Reports guide identifies this as the sum of the recorded High Scores for Sora and Riku across the ordinary world Dive courses. Improve those course bests until the total exceeds 7,500,000; repeating a course without improving its best is not the documented route. A ranks on all seven courses per character also work toward each Divewing.",
+      "sources": [
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15",
+        "https://www.khwiki.com/Dive_Mode"
+      ],
+      "basis": "Explicit HD guide high-score aggregation, not an inferred either-counter fallback."
+    },
+    {
+      "id": "dddhd:reference:secret-ending",
+      "appendInstructions": "Before the finale, retain a separate save and meet the trophy requirement. Give the three listed answers during the actual ending and check Theater afterward. If you answered incorrectly, a retained pre-finale save lets you repeat that known initial route. Theater credits replay is documented for letters only; recovery from an already-saved wrong answer without that backup remains unverified.",
+      "sources": [
+        "https://www.khwiki.com/Another_Guardian_of_Light"
+      ],
+      "basis": "precaution; does not certify an already-cleared-save retrigger"
+    },
+    {
+      "id": "dddhd:reference:reality-shift",
+      "appendInstructions": "On Steam, follow the configured action prompts; the PS4 button pair above is a labelled reference, not a keyboard binding.",
+      "sources": [
+        "https://www.khwiki.com/Reality_Shift"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:achievements:balloon-master",
+      "appendInstructions": "Use Balloon from the training menu and follow the current on-screen prompts. The HD training controls reference describes the scoring actions; the Balloon acquisition entry lists sources. Confirm the score result and award after the game.",
+      "sources": [
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:achievements:water-barrel-master",
+      "appendInstructions": "Use Water Barrel from the training menu and follow the current on-screen prompts. The HD training controls reference describes the scoring actions; the Water Barrel acquisition entry lists sources. Confirm the score result and award after the game.",
+      "sources": [
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:achievements:candy-goggles-master",
+      "appendInstructions": "Use Candy Goggles from the training menu and follow the current on-screen prompts. The HD training controls reference describes the scoring actions; the Candy Goggles acquisition entry lists sources. Confirm the score result and award after the game.",
+      "sources": [
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:achievements:kindred-spirits",
+      "appendInstructions": "Keep the chosen Spirit in the active party, use affinity-granting toys such as Balloon or Candy Goggles, and use Affinity Gain to improve training. Continue until maximum affinity and the award are shown; no breed-optimal timing formula is needed.",
+      "sources": [
+        "https://www.khwiki.com/Spirit",
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:materials:brilliant-fantasy",
+      "appendInstructions": "Repeatable HD farming route: as Riku, clear The World That Never Was Specials 1 and 2 to unlock Special 3. Stay near Delusive Beginning and check for the Tyranto Rex / Prehistoric fiend forecast. Enter the portal labelled Special, clear it for Brilliant Fantasy, then Drop to Sora and back and check again. Repeat active cycles until your inventory covers the target; the three marked Lord Kyroo, Ryu Dragon and Skelterwild recipes together need five. A cleared portal does not count as a new collectible. This route is supported by PS4 player farming reports; no all-39-clear prerequisite is asserted.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/answers/454624-where-can-i-find-brilliant-malleable-and-wild-fantasys",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74933773",
+        "https://www.khwiki.com/Brilliant"
+      ],
+      "basis": "Edition-labelled HD player farming instructions plus checked-in ingredient totals; no exact Drop-count prediction."
+    },
+    {
+      "id": "dddhd:materials:wild-fantasy",
+      "appendInstructions": "Repeatable HD farming route: use Sora’s The World That Never Was Special 3 in the central streets of Avenue to Dreams (Tyranto Rex / Prehistoric fiend), unlocked after Specials 1 and 2. Check the forecast, clear the active Special, then Drop away and back until it returns. Repeat until you have the required Wild Fantasies; the marked Skelterwild and Sudo Neku recipes together need three.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/answers/454624-where-can-i-find-brilliant-malleable-and-wild-fantasys",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74933773",
+        "https://www.khwiki.com/Wild"
+      ],
+      "basis": "Edition-labelled HD player farming instructions plus checked-in ingredient totals; no exact Drop-count prediction."
+    },
+    {
+      "id": "dddhd:achievements:brave-challengers",
+      "appendInstructions": "Concrete Special Portal examples for all seven types: no more than two hits — Sora, Traverse Town #1, Post Office (Heavyweight hulk; access: Default); no deck commands — Sora, Traverse Town #2, Fourth District (Doggish cat-thing; access: Default); three blocks — Sora, Traverse Town #3, Garden (Heavyweight hulk; access: Default); three counters — Sora, Traverse Town #4, Second District (Zippy zap-meister; access: Second Visit); three Flowmotion attacks — Sora, La Cité des Cloches #4, Court of Miracles (Snouted lout; access: Complete La Cité des Cloches); timed victory — Sora, La Cité des Cloches #3, Town (Snouted lout; access: Default); ten linked hits — Sora, The Grid #1, Rectifier 1F (Deft deadeye; access: Default). Match the current forecast, locate the Special on the expanded map, and complete its displayed bonus before finishing the fight. For ten linked hits, fill a Spirit’s Link Gauge before entry. Timed variants are one objective type.",
+      "sources": [
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://www.khwiki.com/Game:The_Grid"
+      ],
+      "basis": "Seven exact examples selected from existing canonical objective/forecast/unlock rows; no new portal location invented."
+    },
+    {
+      "id": "dddhd:achievements:record-keeper",
+      "appendInstructions": "Complete the Combat, Story and Items completion-rate sections, then fill Game Records: use each Link Attack and Link Style; defeat an enemy with each Reality Shift (including both final-world variants) and each Flowmotion attack; complete each ordinary Dive; record scores in Light Cycle and the three training minigames; use a Friendship Portal; and clear all Special and Secret Portals. Check the Reports completion marks rather than the Trophy Shelf, which is a separate set of goals.",
+      "sources": [
+        "https://www.playstationtrophies.org/game/kingdom-hearts-dream-drop-distance/trophy/165866-record-keeper.html",
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:star-combatant",
+      "appendInstructions": "Clear all Special and Secret Portals as both characters, reach Flick Rush level20, and complete the Nightmare entries by encountering normal and applicable rare variants. Rare variants occur in the listed Special Portals.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:storyteller",
+      "appendInstructions": "Complete the story and create one of every Spirit breed to fill the Story completion-rate section. Recipe-item ownership alone does not count as creating the Spirit.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:item-collector",
+      "appendInstructions": "Collect every Dream Piece, training toy, key item (the54 recipes and the story Stage Gadget), command, and treasure chest. Use the Items completion-rate display to check completion; current Keyblade ownership and Trophy Shelf completion are separate goals.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:command-collector",
+      "appendInstructions": "Obtain all124 command types across Attack, Magic, Item, Movement, Defense, Reprisal and Flowmotion. Use each command entry’s chest/shop/board/default routes; Sora and Riku share the command collection, while equip eligibility can differ. Historical acquisition is the goal, not owning every duplicate simultaneously.",
+      "sources": [
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/17"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:golden-egg",
+      "appendInstructions": "Golden Egg route (PS4 HD guide): in Create Spirits, use the custom-creation tab with 10 Intrepid Figments and 8 Vibrant Figments. This produces either Tama Sheep or Pricklemane at ★ rank; the guaranteed part is the rank of either outcome, not a particular breed. No named recipe item, command donation or Risky Winds is needed. Gather the pieces from Traverse Town Nightmares or the listed Moogle stock (Intrepid Figment: stock LV2; Vibrant Figment: LV1). Check that the creation preview shows ★ before confirming. Rank reasoning: both outcomes start at B for 5 Intrepid + 4 Vibrant; doubling both quantities gives +2 ranks, B → A → ★ (the source calls ★ rank S). A created Spirit cannot improve its rank afterward.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Spirit",
+        "https://www.khwiki.com/Tama_Sheep",
+        "https://www.khwiki.com/Pricklemane",
+        "https://www.khwiki.com/Moogle_Shop"
+      ],
+      "basis": "Direct PS4 HD Golden Egg recipe corroborated by both checked-in base-B outcomes and the extra-material +2 threshold. Rank guarantee is distinct from breed selection."
+    }
+  ],
+  "newReferences": [
+    {
+      "name": "Spirit disposition routes",
+      "summary": "Treats and known two-step petting routes avoid missing interaction cells.",
+      "instructions": "Feed Confetti Candy for purple eyes, Ice Dream Cone for yellow, Shield Cookie for blue, or Block-it Chocolate for green. Repeat as needed: a single treat does not guarantee a change. After a successful change, close and reopen the Spirit menu before trying another. Check the displayed disposition and then its Ability Link branch. Beatalike, Tubguin Ace and Woeflower entries include known two-step petting alternatives; no missing body part is guessed.",
+      "sources": [
+        "https://www.khwiki.com/Spirit",
+        "https://www.khwiki.com/Training_Toy",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      ]
+    },
+    {
+      "name": "Portal hunting",
+      "summary": "Use forecast, Reports and the expanded map to find active portals.",
+      "instructions": "Choose the correct character and world. Match the forecast enemy to the portal entries, then compare the still-needed numbers in Reports → Game Records → Link Portals. One enemy can describe several candidate areas, so inspect each matching area and its expanded mini-map. Use your configured map control on Steam; the HD guide labels the PS4 touchpad. Portal configurations change when you Drop, so an absent portal is not proof it was collected. Complete the earlier Specials to unlock that world’s last one. Bonus-objective rewards and first-clear rewards are separate; do not count a repeated clear as a new portal.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284042-kingdom-hearts-dream-drop-distance-trophy-guide-and-road-map/",
+        "https://www.khwiki.com/Portal"
+      ]
+    }
+  ]
+}

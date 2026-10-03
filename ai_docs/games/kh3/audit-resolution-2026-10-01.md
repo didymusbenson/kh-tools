@@ -1,10 +1,19 @@
 # KH3 / Re Mind current audit resolution
 
+## Corrected player-value assessment — 2026-10-02
+
+The user challenged the breadth of the deferrals. [The sufficiency re-audit](value-reaudit-2026-10-02.md) found real missing play methods, weak equipment directions, non-searchable aliases and naval actions; those were not optional precision and have now been addressed. It also reconciles Forest Clasp’s first-Shore departure, closing the previously overstated conflict.
+
+Current evidence: **20 resolved / 13 partial / 2 conflicted**. Current research dispositions: **20 resolved / 13 deferred / 2 open**. Open questions are KH3-022’s mapping of nine normal-ship deck reward pools to identifiable encounters, and KH3-029’s already-activated Salvager recovery case. See the updated machine ledger for exact scope. Earlier counts and blanket sufficiency statements below are historical, not the current conclusion.
+
+
 Updated 2026-10-02. Canonical lineage: `src/games/kh3/content.json` → `src/games/kh3.ts` → runtime. Directly maintained JSON: **1954 entries + 286 recipe actions**. All prior stable IDs remain; 245/90/9 physical world denominators are unchanged. Data Jiminy remains empty.
 
-Current dispositions: **13 partial, 19 resolved, 3 conflicted**. This is not blanket factual closure. [Latest gap report](gap-closure-2026-10-02.md) records evidence and precise limitations; the [previous continuation](research-continuation-2026-10-01.md) remains historical.
+Evidence dispositions: **13 partial, 19 resolved, 3 conflicted**. Actionable research: **19 resolved, 15 deferred, 1 open**. See [the practical review](practical-review-2026-10-02.md) and [reasoned deferrals](future-improvements.md). Remaining evidence below is not automatically active work. This is not blanket factual closure. [Latest gap report](gap-closure-2026-10-02.md) records evidence and precise limitations; the [previous continuation](research-continuation-2026-10-01.md) remains historical.
 
 ## KH3-001 — partial
+
+**Current research disposition: deferred.** The value re-audit expands Arendelle #24 to a Foothills transition, southern-wall and two-platform cleanup route. It can be attempted after this world’s story, without waiting for the end of the full game; minimum first-visit access is still not claimed. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Systematically reconciled all 335 base records with eleven complete numbered PowerPyx world guides and targeted GamerGuides checks. Added directions to 64 empty records and four reward-only Classic Kingdom records; 82 directions added/expanded/corrected overall, including the two San Fransokyo eastern-tower corrections. All 245 chests and 90 emblems have pickup landmarks, stable IDs and per-record guide provenance. Added post-clear recovery, explicit camera/night/story gates and Sandbar lagoon approach.
 
@@ -49,6 +58,8 @@ Sources:
 
 ## KH3-002 — partial
 
+**Current research disposition: deferred.** Corrected the earlier unsupported “searchable aliases” claim: the shared renderer excludes aliases/instructions from search. All 33 known alias-bearing records now expose missing aliases in their KH3 summaries, including complete Elven/Divine Bandana phrases, so the existing search actually matches them without changing the shared renderer. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 Preserved stable IDs and searchable Trial/Trail, Horseshoe Isle/Island, Petit/Petite and Bandana/Bandanna aliases; corrected source typographical material/equipment names.
 
 **Remaining boundary:** The community tables establish aliases, not a captured modern English Steam label authority. Strength/Power and all regional ingredient aliases are not completely reconciled; no bulk rename was inferred.
@@ -69,6 +80,8 @@ Sources:
 
 ## KH3-003 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 Independent guides agree: use the 3F bench to reach the hanging red-and-white UFO and photograph its hatch. Replaced the conflicting runtime floor note.
 
 **Remaining boundary:** None within this finding; full-world route audit remains KH3-001.
@@ -80,6 +93,8 @@ Sources:
 - https://www.khwiki.com/Game:Toy_Box
 
 ## KH3-004 — partial
+
+**Current research disposition: deferred.** Added Steam input-independent Load instructions and explicit original-base/Scala save retention; no guessed PC key or destructive recovery promise. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 All nine Re Mind chest routes integrated. Added separate-episode save guidance, console alternate-load controls, same-DLC-save base progression and warning to preserve Re Mind Scala before Limitcut overwrite.
 
@@ -99,7 +114,13 @@ Sources:
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3449383733
 - https://gamefaqs.gamespot.com/ps4/265933-kingdom-hearts-iii-re-mind/faqs/78287/controls
 
-## KH3-005 — conflicted
+## KH3-005 — resolved
+
+**Current research disposition: resolved.** All four actions and the first-Shore deadline are established by convergent published guides. The world page’s Rapunzel-leaves wording refers to the first departure following the Shore reward scene, as explicitly located by the narrative guide; it is not evidence of a later recovery window. Runtime gives the task methods, pre-Shore save, reward check and missed-item consequence.
+
+**Remaining boundary:** No supported post-Shore recovery exists in the inspected evidence; the explicit item guide says the item is no longer obtainable after Shore. This resolves the named wording conflict at guide-evidence level, not an internal event-flag or installed-Steam experiment.
+
+### Earlier conflict assessment (superseded)
 
 Retained four activities and conservative completion before first Shore visit, distinct from the nonmissable Rapunzel photo. Forest Clasp stats integrated.
 
@@ -118,6 +139,8 @@ Sources:
 
 ## KH3-006 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 Added ten individually checkable Slider prize routes. Completion of the run retains prizes; ten cannot all be collected in one run. Corrected translated reward names to Orichalcum+ and Master Treasure Magnet.
 
 **Remaining boundary:** None for the ten-prize scope.
@@ -130,6 +153,8 @@ Sources:
 
 ## KH3-007 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 All 20 unlock milestones and actionable target/save-point approaches; camera acknowledgment, success notification, twelve teammate identities, Zeus statue alternative, day/night and Demon Tower gate constraints. Corrected preliminary robot/cactuar floor assignments against the independent guide.
 
 **Remaining boundary:** No pixel-perfect acceptance measurement is required to supply an actionable source-grounded camera predicate.
@@ -140,6 +165,8 @@ Sources:
 - https://www.powerpyx.com/kingdom-hearts-3-moogle-photo-missions-locations/
 
 ## KH3-008 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Full 88-output recipe catalog, exact quantities and unlocks, explicit + variants, 88 separate synthesis-history records. Recipe materials resolve to canonical entries. Corrected Hungry Shield typo to Hungry Shard and Acrisis to Acrisius.
 
@@ -154,6 +181,8 @@ Sources:
 - https://www.khwiki.com/Acrisius
 
 ## KH3-009 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 All 78 numbered Collector Goals: 24 recipe unlocks, 24 direct item rewards and 30 material shop unlocks, with reward type and menu order. Includes first-material Ether item reward, cumulative/rarity/family rewards and Sinister shop thresholds.
 
@@ -180,6 +209,8 @@ Sources:
 - https://docs.google.com/spreadsheets/d/1PtTOi7YBRb-jLPmpjlXyJgNMzu3TuXYHIov31HKijb8/edit
 
 ## KH3-010 — partial
+
+**Current research disposition: deferred.** Added 41 exact-enemy gate associations and nine field routes. All 60 materials now have a practical gate, field, chest, sphere, shop or special-event acquisition path; no fastest-farm claim. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 All 60 material identities and KHIII acquisition/drop data; ordinary Orichalcum has a separate ID, retaining the old Orichalcum+ ID. Added shop thresholds and selected gate farm approaches.
 
@@ -216,6 +247,8 @@ Sources:
 
 ## KH3-011 — partial
 
+**Current research disposition: deferred.** Added repeat encounter guidance and removed superseded missing-farm warnings; timers and optimization remain unmeasured. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim.
 
 **Remaining boundary:** Ordinary asteroid world re-entry is guide-supported and sphere loot is explicitly one-time. Other colored-crystal reset conditions, timing and measured comparative farming efficiency remain unestablished.
@@ -236,6 +269,8 @@ Sources:
 
 ## KH3-012 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 22 blade catalogs: initial level, all eleven STR/MAG levels, abilities/forms/shotlocks and 220 source transitions. 160 ordinary Steam forge actions plus ten distinct NG+ Ultima actions; other-platform keys are reference-only.
 
 **Remaining boundary:** None for currently applicable blades. Future Long Night is outside the shipped 2026-10-01 denominator.
@@ -251,6 +286,8 @@ Sources:
 - https://www.khwiki.com/Dead_of_Night
 
 ## KH3-013 — partial
+
+**Current research disposition: deferred.** Audited all 157 obtainable equipment records individually, not just the 104 originally linked records. Added operational acquisition text, five DLC equipment links, five-figure exchange directions, mailbox steps, story Scream Strike instructions, and the existing Petit/Petite chest association. The 157-row method/evidence census is in value-reaudit-2026-10-02.json. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 128 new non-Keyblade equipment records plus existing Forest Clasp with stats/acquisition; 25 encounter/party weapon references separated from collectable ownership.
 
@@ -274,6 +311,8 @@ Sources:
 
 ## KH3-014 — partial
 
+**Current research disposition: deferred.** Compared the stated residual against the existing canonical instructions and the current player objective; no additional fact extraction is needed for the supported route. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 Steam Dead of Night is included; five other shipped platform-exclusive blades have full properties and reference-only eligibility. PS5/Xbox Series changes are explicitly future on audit date.
 
 **Remaining boundary:** Regional historical preorder/storefront entitlement availability is not established for every country/account. The forthcoming native editions are not shipped evidence. Do not fold all exclusive keys into Steam collection.
@@ -295,6 +334,8 @@ Sources:
 - https://www.square-enix.com/asia/newsportal/en/sg/kingdom-hearts-iii/
 
 ## KH3-015 — partial
+
+**Current research disposition: deferred.** Removed stale physical-pickup warnings from eight minigame-only ingredients; all 59 already have route groups. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained. All 59 individual ingredient guides are inspected, with 172 supported landmark route groups in the app.
 
@@ -373,6 +414,8 @@ Reprocessed 298 world ingredient rows, preserving alternate yields and quantitie
 
 ## KH3-016 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 56 normal/+ dish effects, five course assignments, six cumulative full-course bonus pools/durations, four original cooking-control guides and ingredient consumption/Chef Extraordinaire behavior. Existing 28 recipes retained.
 
 **Remaining boundary:** None for the meal-effect/control scope.
@@ -383,6 +426,8 @@ Sources:
 - https://www.khwiki.com/Le_Grand_Bistrot
 
 ## KH3-017 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Four cooking methods identified and documented: chopping, egg cracking, flambé and pepper grinding. Five is the number of meal courses, not cooking controls.
 
@@ -395,6 +440,8 @@ Sources:
 - https://www.khwiki.com/Synthesis
 
 ## KH3-018 — conflicted
+
+**Current research disposition: deferred.** Reopened the missing play-method subproblem: all seven Flans now have start/interaction directions and actual scoring tactics. Exact equality alone remains deferred. Erroneous Honeydew/Strawberry/Watermelon numbers in individual guide pages were not adopted. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 All seven lower/upper reward tiers, routes, post-world access, first-time abilities and repeat fruit; safe aim-above wording remains.
 
@@ -413,6 +460,8 @@ Sources:
 
 ## KH3-019 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 23 original controls/play descriptions, any registered result rather than an invented high-score target, golf lower-is-better distinction, completion-stamp check. Acquisition stays joined to 18 chest IDs plus five Twilight records.
 
 **Remaining boundary:** None for the scoped acquisition/record rules; no arbitrary numerical target imposed.
@@ -423,6 +472,8 @@ Sources:
 - https://www.xboxachievements.com/game/kingdom-hearts-3-x1/achievement/165280-classically-trained.html
 
 ## KH3-020 — partial
+
+**Current research disposition: deferred.** Reopened start/scoring omissions in Verum Rex, Festival Dance, Frozen Slider and both Flash Tracer courses. Each now has a specific terminal or NPC, world/area/time access and an actionable score-building plan. Rank/medal tables alone were insufficient. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Full published five-course rank/reward tables, two harvest rank/quantity tables, independent Hunny 20k/40k/60k honey quantities and all eight score-record units.
 
@@ -450,6 +501,8 @@ Sources:
 
 ## KH3-021 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 81 base adversaries and complete 54 Game Records: 29 shotlocks, five attractions, five links, seven Flan results and eight other minigames. Corrected Munny Popcat typo; omitted source prose incorrectly conflating shotlocks with formchange gauge.
 
 **Remaining boundary:** None for base journal scope; DLC bosses remain separately categorized.
@@ -461,6 +514,8 @@ Sources:
 - https://www.khwiki.com/Weapons_(KHIII)
 
 ## KH3-022 — partial
+
+**Current research disposition: open.** Reopened actual naval directions: added a Confinement Isle crab/reload loop, Dreadnought/True Captain help, special-fleet approaches and explicit boarding versus sinking reward methods. A specific repeat-reward targeting gap remains: the source lists nine large-normal-ship deck pools without identifying which encounter selects each. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 222/333 Sora copy +5 HP rewards, Olympus rescue rewards, nine Leviathan levels with cumulative white-crab requirements, Black Pearl access and 14 naval fleet reward rows.
 
@@ -483,6 +538,8 @@ Sources:
 
 ## KH3-023 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 All 15 gate approaches, level/difficulty/enemy counts, first-clear vs repeat drops, infinite adds for gates 2/8/11, selfie thresholds and original Dark Inferno defensive/punish guide.
 
 **Remaining boundary:** None for scoped gate inventory/guidance; broader farm-efficiency research is KH3-011.
@@ -494,6 +551,8 @@ Sources:
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games
 
 ## KH3-024 — resolved
+
+**Current research disposition: resolved.** Added first-visit approaches and readable first-clear/A/B/C reward instructions to all 33 Gummi battles. Kept the original source table; rejected an indexed Speed Skirmish 5 B-rank typo and exposed the separate Comet Crawler speed disagreement under KH3-027. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/η landmark. A wrong-zone STR-04 overview image is explicitly rejected. All nine spheres now have an actionable built-in map-marker flight approach.
 
@@ -519,6 +578,8 @@ Sources:
 
 ## KH3-025 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 All 46 Gummi mission identities with predicates/rewards. Nine constellation records reused, avoiding duplicate collection units. Completionist requires all other 45 missions.
 
 **Remaining boundary:** None for the mission menu; broader physical Gummi catalog remains KH3-024.
@@ -529,6 +590,8 @@ Sources:
 - https://www.neoseeker.com/kingdom-hearts-iii/gummiship/Gummi_Missions
 
 ## KH3-026 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Nine constellation flight landmarks and camera framing guidance, joined to mission completion/blueprint rewards. Omega supplemented because the first guide omits its text section.
 
@@ -542,6 +605,8 @@ Sources:
 - https://www.powerpyx.com/kingdom-hearts-3-constellation-photograph-locations/
 
 ## KH3-027 — partial
+
+**Current research disposition: deferred.** Added editor-displayed budget guidance instead of an interpolated calculator; disclosed 100/200 Comet Crawler speed disagreement with conservative 200 option. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 19 Gummi abilities, 374 part properties, all 13 special weapons with damage/recharge/effects/unlocks, Teeny block-sharing guidance and level 99 base cost 1,000. First-clear guidance and a separately identified community-supported A-rank Schwarzgeist replay route are integrated.
 
@@ -567,6 +632,8 @@ Sources:
 - https://www.reddit.com/r/KingdomHearts/comments/am0e6d/kh3_has_anyone_learned_about_gummi_ship_cost_limit/
 
 ## KH3-028 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 14 encounter-specific original defensive/opening guides, 11→13 unlock order and rewards, temporary character equipment references; Data Greeting/Slideshow access and Secret-clear Quadratum unlock kept non-collectible.
 
@@ -594,6 +661,8 @@ Sources:
 
 ## KH3-029 — partial
 
+**Current research disposition: open.** Added a current-Steam-specific Salvager warning, safe save planning, merit configuration and an explicit no-verified-in-place-repair boundary. New Game/New Game Plus is community advice, not a verified recovery procedure. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 All 28 code effects, all 9 merit predicates and explicit unlock stages, Gummi Meister permanence and 34 PRO boss scores are integrated. EZ menu access need only be unlocked; no active EZ code is required except Survival, which requires Survival on and other EZ battle codes off.
 
 **Remaining boundary:** Consulted Premium Menu and guide describe restrictions but do not establish a modern Steam per-achievement code eligibility matrix or persistence for every previously activated code. Community Steam replies contradict each other and even mention a nonexistent Critical achievement; those claims were rejected.
@@ -615,6 +684,8 @@ Sources:
 
 ## KH3-030 — conflicted
 
+**Current research disposition: deferred.** Added direct A-rank/single-save planning and attributed best-single-score replay advice without resolving B or inventing a save-state calculator. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 All 34 boss base/max scores and 13 rank references, maximum 530,000, A 364,125 corroborated by Steam guide; uncertainty explicit for B.
 
 **Remaining boundary:** KHWiki annotates B at 320,000 with uncertainty, TrueAchievements indexed walkthrough says 325,000. Direct walkthrough 403. Best-score replay replacement/eligibility is not fully established; no calculator assumes disputed rank or unsupported overwrite logic. Rounding is not a gap for listed integer-star/base-score combinations.
@@ -633,6 +704,8 @@ Sources:
 
 ## KH3-031 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 All seven hidden Steam achievement predicates populated from independently readable Steam community guide, with explicit description provenance.
 
 **Remaining boundary:** Official public global page hides them; community provenance is visible, not represented as official API extraction.
@@ -643,6 +716,8 @@ Sources:
 - https://steamcommunity.com/stats/2552450/achievements
 
 ## KH3-032 — partial
+
+**Current research disposition: deferred.** Compared the stated residual against the existing canonical instructions and the current player objective; no additional fact extraction is needed for the supported route. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Steam/Xbox 51 versus PlayStation 52 including platinum distinction; modern Steam bundle and future 2026-10-08 release/cloud sunset facts are dated.
 
@@ -663,6 +738,8 @@ Sources:
 
 ## KH3-033 — resolved
 
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
+
 Crafted-history checkmarks were added in patch 1.04; separate synthesized history is now represented for all 88 recipes. Removed old absence claim from active status.
 
 **Remaining boundary:** Historical absence claim is stale; no user playthrough gate is required.
@@ -673,6 +750,8 @@ Sources:
 - https://www.khinsider.com/news/KH3-Critical-Mode-adds-various-QOL-updates-including-save-carry-over-more-photo-slots-15162
 
 ## KH3-034 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 NG+ keys, proofs, selfie poses and six post-clear abilities, level-zero carryover, ordinary newly synthesized Ultima level10 versus NG+ Ultima level0 and its separate ten-step ladder.
 
@@ -686,6 +765,8 @@ Sources:
 - https://www.khwiki.com/Kingdom_Hearts_III
 
 ## KH3-035 — resolved
+
+**Current research disposition: resolved.** Existing resolved scope retained after checking its recorded evidence and canonical coverage; this is not a new Steam gameplay certification. See [the sufficiency re-audit](value-reaudit-2026-10-02.md) and machine ledger for current boundaries.
 
 Integrated 18 Lucky Emblem rewards, four difficulty-specific secret-movie rules, five Bistrot star rewards, three gate selfie milestones, complete Gummi mission goals and six free-update abilities.
 

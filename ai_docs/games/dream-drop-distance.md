@@ -1,10 +1,13 @@
 # Kingdom Hearts Dream Drop Distance HD Specification
 
-2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](dddhd/audit-dispositions.md).
+**Critical re-audit:** [Current corrections](dddhd/critical-reaudit-2026-10-02.md) re-examine three overbroad deferrals, resolve the adapter defect, and add recipe-mode, repeat-farming, concrete bonus and high-score instructions.
+**2026-10-02 practical review:** 1,285 entries / 263 formulas. Research disposition: 8 resolved, 14 deferred, 3 open; evidence: 8 resolved, 16 partial, 1 blocked. [Current player-goal review](dddhd/practical-review-2026-10-02.md) and [deferral reasons](dddhd/future-improvements.md) supersede older exhaustive-research task lists below. The Jestabocky connector is normalized from explicit source evidence; open questions cover Aura Lion’s red secret, colliding custom recipes and saved wrong-answer ending recovery. Stable IDs and empty Data Jiminy remain preserved; application/UI acceptance is separate.
+
+2026-10-01 historical checkpoint: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](dddhd/audit-dispositions.md).
 
 ## Status
 
-Updated 2026-10-01. Generated runtime is integrated; the current audit has 7 resolved, 17 partial and 1 blocked finding. The actual **KH3D DATABASE PROJECT** remains a historical mixed-edition prototype; its omissions are distinguished from current integrated data in the [research pack](dddhd/README.md) and [readiness audit](../readiness/dream-drop-distance.md).
+Updated 2026-10-02. Generated runtime is integrated; 8 research families are resolved, 14 precision families are deferred, and DDD-004/006/025 remain open. Evidence statuses independently remain 8 resolved, 16 partial and 1 blocked. The actual **KH3D DATABASE PROJECT** remains a historical mixed-edition prototype; its omissions are distinguished from current integrated data in the [research pack](dddhd/README.md) and [readiness audit](../readiness/dream-drop-distance.md).
 
 ## Product objective
 
@@ -112,7 +115,7 @@ The legacy workbook does not cover:
 
 Research now supplies all 438 chest pickup landmarks (Sora 225, Riku 213), 346 portal identities including 78 Special / 11 Secret portals, 14 ordinary Dives, ten Flick Rush cups and a 15-type Keyblade acquisition catalog. The known final-world order conflict is resolved: Riku’s Curaga is HD Reports #2 and Doubleflight #3; historical guide numbers and stable IDs are retained. Chest earliest-access, minimum-movement and returnability coverage remains incomplete. Portal approach and first/repeat reward semantics retain specific residuals. Follow [worlds](dddhd/worlds-and-collectibles.md), [Spirits/commands](dddhd/spirits-and-commands.md), [portals/challenges](dddhd/portals-and-challenges.md), and [rewards/achievements](dddhd/rewards-and-achievements.md).
 
-All 54 DDD Steam achievement names are now mapped to independently observed native API keys in [canonical key provenance](dddhd/steam-key-provenance.json). Checklist IDs stay separate and unchanged. Other-platform native IDs and undocumented internal unlock counters remain open. API identifiers and source reconciliation belong in centralized provenance, not player instructions.
+All 54 DDD Steam achievement names are now mapped to independently observed native API keys in [canonical key provenance](dddhd/steam-key-provenance.json). Checklist IDs stay separate and unchanged. Other-platform native IDs and undocumented internal unlock counters remain unverified and deferred for the current manual Steam checklist. API identifiers and source reconciliation belong in centralized provenance, not player instructions.
 
 ## Data model additions
 
@@ -157,9 +160,9 @@ The app is spoilerific. No spoiler warnings, hidden content or reveal controls. 
 
 ## Release acceptance criteria
 
-A user must be able to locate collectibles, plan Spirit creation, navigate every Ability Link board, understand Link pairings, find every verified acquisition route and track scoped progress without needing another guide. Acceptance validates sources, formulas and application behavior; it does not require the user to perform a manual gameplay/playthrough gate.
+A user must be able to locate collectibles, plan Spirit creation, use source-backed Ability Link paths and explicit reward detours where a board is disputed, understand Link pairings, find every verified acquisition route and track scoped progress without needing another guide. Acceptance validates sources, formulas and application behavior; it does not require the user to perform a manual gameplay/playthrough gate.
 
-All specified features remain MVP. Only absent production screenshot/map images are deferred; complete text directions, media fields/support and fallback tests remain required.
+All specified feature modules remain MVP. The 14 factual-precision deferrals in the practical review are now optional research, alongside absent production screenshot/map assets. Usable text acquisition guidance, media fields/support and fallback tests remain required; a deferral must not fabricate a missing fact or hide a player-blocking question.
 
 ## Linked collectible state and counting
 

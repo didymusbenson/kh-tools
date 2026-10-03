@@ -4,7 +4,7 @@ Current follow-up (2026-10-01): all 60 album placement landmarks, all 374 main c
 
 ## Measured chest inventory
 
-These are counts of numbered rows in the inspected community world tables, restricted to the Terra/Ventus/Aqua tabs. They are source-extraction totals; independent Reports reconciliation remains open.
+These are counts of numbered rows in the inspected community world tables, restricted to the Terra/Ventus/Aqua tabs. They are source-extraction totals; independent exact Reports-slot reconciliation remains unverified and is deferred under BBS-002. The supported lookup uses character, world, room and reward.
 
 | World source | Terra | Ventus | Aqua |
 |---|---:|---:|---:|
@@ -21,7 +21,7 @@ These are counts of numbered rows in the inspected community world tables, restr
 | [Keyblade Graveyard](https://www.khwiki.com/Game:Keyblade_Graveyard) | 7 | 9 | 7 |
 | **Main-episode total** | **122** | **130** | **122** |
 
-The [Realm of Darkness BBS table](https://www.khwiki.com/Game:Realm_of_Darkness) adds eight Aqua **Secret Episode** chests in a separate episode scope. Its later 0.2 table is excluded. Ventus's tutorial Sliding Dash chest at Mountain Path is unnumbered and explicitly absent from Reports; retain it as an acquisition lead outside the Reports-style world denominator. Land of Departure access changes with story progress; its late revisit/Unknown access must be validated before labeling its four Terra/Aqua chests permanently missable. [Land of Departure source](https://www.khwiki.com/Game:Land_of_Departure).
+The [Realm of Darkness BBS table](https://www.khwiki.com/Game:Realm_of_Darkness) adds eight Aqua **Secret Episode** chests in a separate episode scope. Its later 0.2 table is excluded. Ventus's tutorial Sliding Dash chest at Mountain Path is unnumbered and explicitly absent from Reports; retain it as an acquisition lead outside the Reports-style world denominator. Later editions including HD retain ruined Land of Departure for main-save return; the original-Japanese permanent-loss warning does not apply. Aqua’s separate Final Episode cannot enter it. Complete its Terra/Aqua chests on their main saves; do not treat the main-save chests as permanently missable. [Land of Departure source](https://www.khwiki.com/Game:Land_of_Departure).
 
 ## One record, many views
 
@@ -76,3 +76,7 @@ Thirteen acquisitions comprise the Letter plus Reports I–XII. Source: [Xehanor
 October 1: Terra’s Flying Balloon Sticker in Passage belongs to Castle of Dreams; its historical ID is retained for save compatibility. The generator now counts all eight Secret chests, for 442 total world collectibles.
 
 Remaining work: complete save-point paths where the source gives only relative landmarks; earliest collectible access and save/episode returnability; independent repeated-chest/Reports-order reconciliation; minimum movement levels and alternatives. All 374 main source rows and 60 album placement landmarks are integrated. Counts and source URLs alone do not satisfy those gates.
+
+## Practical research boundary (October 2)
+
+The October 3 census separately audited all 60 pickup locators, found 26 weak notes and integrated map/guide corrections. All 39 weak chest rows were also corrected. Pickup and placement are distinct audits. Full save-point scripts, earliest-visit/minimum-movement routing and exact Reports slot numbers are deferred optional precision, not certified facts. Return with the indicated movement commands leveled when needed. A concrete inaccessible or unlocatable record reopens that item. See [BBS-001/002/003 decisions](critical-reaudit-2026-10-03.md#bbs-001).

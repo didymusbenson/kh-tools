@@ -1,10 +1,17 @@
 # Kingdom Hearts III Specification
 
-## Current research and implementation status — 2026-10-01
+## Corrected player-value assessment — 2026-10-02
 
-KHIII/Re Mind canonical content now has **1954 entries + 286 recipe actions**. The [current per-ID ledger](kh3/audit-resolution-2026-10-01.md) records **13 partial, 19 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; all nine spheres now have built-in marker flight approaches. This is not a claim that every acquisition route or platform predicate is ready.
+The user challenged the breadth of the deferrals. [The sufficiency re-audit](kh3/value-reaudit-2026-10-02.md) found real missing play methods, weak equipment directions, non-searchable aliases and naval actions; those were not optional precision and have now been addressed. It also reconciles Forest Clasp’s first-Shore departure, closing the previously overstated conflict.
 
-Current scope and acceptance requirements below remain binding. Jiminy remains empty; shared runtime/UI validation is assessed separately from factual resolution.
+Current evidence: **20 resolved / 13 partial / 2 conflicted**. Current research dispositions: **20 resolved / 13 deferred / 2 open**. Open questions are KH3-022’s mapping of nine normal-ship deck reward pools to identifiable encounters, and KH3-029’s already-activated Salvager recovery case. See the updated machine ledger for exact scope. Earlier counts and blanket sufficiency statements below are historical, not the current conclusion.
+
+
+## Current practical research status — 2026-10-02
+
+KHIII/Re Mind has **1,954 entries + 286 recipe actions**. [All 35 family decisions](kh3/practical-review-2026-10-02.md) separate evidence (**19 resolved / 13 partial / 3 conflicted**) from actionable research (**19 resolved / 15 deferred / 1 open**). [Optional precision and reasons](kh3/future-improvements.md) are not active release requirements. KH3-029 retains a narrow unresolved recovery question for an already-activated Gummi Ship Meister save with Salvager locked and no earlier clean save.
+
+Practical guidance includes 33 Gummi battle approaches, all 60 material acquisition paths (41 gate routes, nine field routes and ten chest/sphere/shop/special-event records), preserved save/episode boundaries and actionable Forest Clasp steps. No recipe or collection IDs changed. App implementation, linked-state behavior, offline/mobile acceptance and empty Data Jiminy remain separate concerns.
 
 ## Historical baseline and enduring requirements
 
@@ -22,7 +29,7 @@ World percentages count applicable collectibles only, not plot, biographies or o
 
 Inventory is optional and opt-in. When enabled, show owned/required ingredient quantities as x/y, with tested game-specific synthesis and forging formulas. Inventory and first-crafted history are distinct. Synthesis remains a first-class module.
 
-React offline PWA, local persistence, bundled SLM/per-game Coppermind, text directions and media support remain MVP. Only missing production screenshot/map images are deferred. Initial functionality testing targets Apple browsers/iPhone/iPad; Android follows. User gameplay or a complete user playthrough is not a release gate.
+React offline PWA, local persistence, bundled SLM/per-game Coppermind, text directions and media support remain MVP. The documented optional research precision and missing production screenshot/map images are deferred. Initial functionality testing targets Apple browsers/iPhone/iPad; Android follows. User gameplay or a complete user playthrough is not a release gate.
 
 ## Required completion modules
 

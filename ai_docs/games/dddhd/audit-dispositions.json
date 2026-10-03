@@ -43,7 +43,21 @@
           "https://tamaki-game.com/kh3d-riku-grid",
           "https://github.com/LuxMake/Archipelago-KHDDD/blob/859db185a6729c77eb8f92ec3a95eed2a3cb215c/worlds/khddd/Rules.py"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Collect the 438 HD treasures and their rewards.",
+      "sufficientGuidance": "All 438 item/character/Reports identities have pickup landmarks, 51 additional source notes, and 11 Grid action improvements. Known exceptional access instructions remain on their specific entries.",
+      "deferredDetails": [
+        "Exhaustive earliest-story-event, minimum-movement and returnability fields for every chest; 437 route rows lack an explicit earliest-access statement."
+      ],
+      "deferralReason": "The current checklist supports finding each pickup, and no specific remaining inaccessible chest has been identified. An exhaustive access matrix would support a progression-gating feature that is explicitly outside the current app, rather than fix a known failed collection route.",
+      "reopenWhen": "A player cannot reach a listed chest using its route, or a documented missable/restricted-access exception is found.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:portal-hunting",
+        "dddhd:treasure:sora:the-grid:037"
+      ]
     },
     {
       "id": "DDD-002",
@@ -71,13 +85,22 @@
         "outcome": "Resolved the known Curaga/Doubleflight order disagreement: Curaga is HD Reports2, Doubleflight3. Preserve legacy source3/2, current saved IDs and all edition replacements; remove only the outdated order caveat. This is documentary corroboration of the disputed pair, not a claim to have438 Reports screenshots.",
         "inspection": "Tamaki table2ケアルガ/3ダブルフライト and its HD map screenshot agree with current IDs; author explicitly defines Reports ordering.",
         "followup": "No known edition/order disagreement remains; future source changes must preserve the historical crosswalk."
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 438 legacy location rows reconciled to current HD item/area identities: 400 exact joins, 20 quantity-notation normalizations, 16 explicit replacements (14 Treasure→Candy Goggles plus La Cité Tunnels #35/#36), and two uniquely identified Curaga/Doubleflight number remaps. Existing stable IDs and HD table order retained. Explicit HD Spirit formula selection is also integrated. Resolved the known Curaga/Doubleflight order disagreement: Curaga is HD Reports2, Doubleflight3. Preserve legacy source3/2, current saved IDs and all edition replacements; remove only the outdated order caveat. This is documentary corroboration of the disputed pair, not a claim to have438 Reports screenshots.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-003",
-      "status": "partial",
-      "integrated": "All 54 boards extracted: 1,144 nodes with reciprocal edges, quotas, costs, conditional transformations and disposition references. Live Cyber Yog nodes classify both Thunder Screens as Stat abilities; legacy import remains historical.",
-      "remaining": "Jestabocky B-3 Left reaches existing A-3 Magic Boost, but A-3 lacks reciprocal Right. Aura Lion C-7/D-7 remains separately blocked.3DS corroboration cannot certify HD.",
+      "status": "resolved",
+      "integrated": "All54 boards and1144 nodes extracted. Corrected the reciprocal-only parser to retain the explicit undirected B-3/A-3 Jestabocky connector; all source-reported boards are now connected. The missing reciprocal background graphic remains recorded as source provenance. Aura Lion’s separate transformation conflict remains DDD-004.",
+      "remaining": "No remaining identified connector-extraction defect. The asymmetric source graphic remains a disclosed provenance issue, not an invented in-game gate. Aura Lion remains separately open under DDD-004.",
       "consultedSources": [
         "https://www.khwiki.com/Aura_Lion",
         "https://www.khwiki.com/Beatalike",
@@ -156,6 +179,31 @@
           "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
           "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use Jestabocky’s actual board, including its B/C/D stat branch.",
+      "sufficientGuidance": "Jestabocky’s published B-3 Left connector to A-3 is now in the canonical and generated board path. A-3 already has its ordinary A-2 approach; the B/C/D branch is reachable in the normalized source graph. No alternate Spirit is needed to explain the connector.",
+      "deferredDetails": [],
+      "deferralReason": "Resolved the actual model error by preserving an explicitly declared source path. Further binary or independent Steam-diagram proof is not required to normalize an undirected connector already in the source.",
+      "reopenWhen": "New contradictory source evidence or an actual player report shows the published connector/board guidance is wrong.",
+      "practicalRuntimeEntries": [
+        "dddhd:spirits:jestabocky",
+        "dddhd:abilities:magic-boost",
+        "dddhd:achievements:strongest-link"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "Jestabocky’s published B-3 Left connector to A-3 is now in the canonical and generated board path. A-3 already has its ordinary A-2 approach; the B/C/D branch is reachable in the normalized source graph. No alternate Spirit is needed to explain the connector.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": false
+      },
+      "previousPracticalDecision": {
+        "date": "2026-10-02",
+        "researchDisposition": "deferred",
+        "reason": "An uncertified extra edge is not required to obtain Magic Boost or complete a board for the achievement. It remains omitted; no false connection or node is added.",
+        "supersededBy": "critical re-audit after user challenged breadth of deferrals"
       }
     },
     {
@@ -187,7 +235,35 @@
           "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
           "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "open",
+      "playerGoal": "Unlock Aura Lion’s red-secret transformation and use its existing board.",
+      "sufficientGuidance": "The table identifies Red Secret C-7 (250 LP), Green Secret E-6 and a separate level-30 gate at D-7; the footnote disagrees. Flowbermeow remains a workaround for Faith, not closure of Aura Lion’s route.",
+      "deferredDetails": [],
+      "deferralReason": "Reopened: alternate providers help global collection, but do not settle the supported Aura Lion-specific board question.",
+      "reopenWhen": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required.",
+      "practicalRuntimeEntries": [
+        "dddhd:spirits:aura-lion",
+        "dddhd:spirits:flowbermeow",
+        "dddhd:commands:faith",
+        "dddhd:commands:curaga",
+        "dddhd:abilities:second-chance"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "The table identifies Red Secret C-7 (250 LP), Green Secret E-6 and a separate level-30 gate at D-7; the footnote disagrees. Flowbermeow remains a workaround for Faith, not closure of Aura Lion’s route.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
+      },
+      "previousPracticalDecision": {
+        "date": "2026-10-02",
+        "researchDisposition": "deferred",
+        "reason": "The source conflict stays blocked as evidence, but alternate acquisition paths meet the player goals. Coordinate certification is only necessary for an Aura-Lion-specific route or board solver.",
+        "supersededBy": "critical re-audit after user challenged breadth of deferrals"
+      },
+      "openQuestion": "Confirm which HD red-secret node changes Curaga C-2 to Faith, distinguishing the secret purchase from the level-30 checkpoint."
     },
     {
       "id": "DDD-005",
@@ -274,13 +350,36 @@
           "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Items/Spirits.lua",
           "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/btlparam.md"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Create the HD-only Spirits and unlock their useful disposition branches.",
+      "sufficientGuidance": "Recipes, costs, board rewards and known interactions are present. Five missing direct transitions now have explicit two-step alternatives through known cells. A sourced treat-color route also avoids petting precision.",
+      "deferredDetails": [
+        "15 base-stat values for Beatalike/Catanuki/Tubguin Ace and five direct-interaction body-part cells."
+      ],
+      "deferralReason": "Base-stat comparison is an optimization issue, not a prerequisite to creation or board rewards. The five missing interactions are not unreachable dispositions: all can be reached through sourced alternatives. Unknown cells remain unknown.",
+      "reopenWhen": "A stat calculator is approved, an actual combat choice depends on missing values, or a documented interaction detour fails.",
+      "practicalRuntimeEntries": [
+        "dddhd:spirits:beatalike",
+        "dddhd:spirits:catanuki",
+        "dddhd:spirits:tubguin-ace",
+        "dddhd:spirits:woeflower",
+        "dddhd:reference:spirit-disposition-routes"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "Recipes, costs, board rewards and known interactions are present. Five missing direct transitions now have explicit two-step alternatives through known cells. A sourced treat-color route also avoids petting precision.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
       "id": "DDD-006",
       "status": "partial",
-      "integrated": "263 formulas retained; 37 shared ingredient events cross-linked. The 54 marked recipe-item formulas receive the explicit 100% rule; nulls are never defaulted wholesale.",
-      "remaining": "141 unmarked formulas retain unreported odds. SynthKH3D has no probability default establishing 100%; absence of chance/success fields is not proof. Risky Winds wording is separately ambiguous (DDD-007).",
+      "integrated": "263 formulas retained; 37 shared ingredient events cross-linked. All 54 named recipe items have acquisition routes. The HD menu distinction is integrated and three raw-input collisions are explicit; generic recipe guarantee language is no longer applied unconditionally to custom creation.",
+      "remaining": "Determine HD custom-creation selection/outcome semantics for Noble Fancy×3 + Grim Figment×4 (Cyber Yog/Sir Kyroo), Epic Fantasy×1 + Intrepid Fantasy×3 (Tyranto Rex/Ursa Circus), and Rampant Figment×4 + Vibrant Fancy×3 (Jestabocky/Meow Wow). The 141 unmarked source probabilities remain unknown; the 54 marked entries are recipe-mode routes, not unconditional raw-input guarantees.",
       "consultedSources": [
         "https://www.khwiki.com/Aura_Lion",
         "https://www.khwiki.com/Beatalike",
@@ -357,19 +456,48 @@
           "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/",
           "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/itemdata.md"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "open",
+      "playerGoal": "Create the intended Spirit using the selected recipe mode, including colliding custom ingredient combinations.",
+      "sufficientGuidance": "The HD menu guide distinguishes an owned Recipes tab from custom creation. Runtime now says to obtain/select the named recipe for its documented recipe route and to inspect custom preview odds. Two double-marked pairs and a third marked/unmarked collision are recorded explicitly; unconditional raw-input 100% text was removed.",
+      "deferredDetails": [
+        "Probabilities of unrelated unmarked alternatives beyond the three colliding creation events; exact expected-cost optimization."
+      ],
+      "deferralReason": "Reopened: contradictory 100% raw-input guidance could spend a player’s ingredients on the wrong intended breed. A recipe-backed fallback is useful, but does not verify the displayed custom formulas.",
+      "reopenWhen": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:spirit-creation"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "The HD menu guide distinguishes an owned Recipes tab from custom creation. Runtime now says to obtain/select the named recipe for its documented recipe route and to inspect custom preview odds. Two double-marked pairs and a third marked/unmarked collision are recorded explicitly; unconditional raw-input 100% text was removed.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
+      },
+      "previousPracticalDecision": {
+        "date": "2026-10-02",
+        "researchDisposition": "deferred",
+        "reason": "A player can collect each breed without choosing an unknown-probability alternative. Exact alternative odds matter for expected-cost optimization; the planner continues to represent one attempt and never defaults null odds to 100%.",
+        "supersededBy": "critical re-audit after user challenged breadth of deferrals"
+      },
+      "openQuestion": "Determine HD custom-creation selection/outcome semantics for Noble Fancy×3 + Grim Figment×4 (Cyber Yog/Sir Kyroo), Epic Fantasy×1 + Intrepid Fantasy×3 (Tyranto Rex/Ursa Circus), and Rampant Figment×4 + Vibrant Fancy×3 (Jestabocky/Meow Wow)."
     },
     {
       "id": "DDD-007",
       "status": "partial",
-      "integrated": "Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details.",
+      "integrated": "Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details. Golden Egg now has an HD-sourced either-breed ★-rank custom-creation route, corroborated by base-B quantities and +2 rank thresholds.",
       "remaining": "Spirit initial-level table has average-level 20→27 and malformed 30–01 row; its Risky Winds 50% wording does not distinguish relative versus percentage-point shifts. These prevent certified initial-level/odds optimization; no optimality inferred from legacy BEST BASE.",
       "consultedSources": [
         "https://www.khwiki.com/Spirit",
         "https://www.khwiki.com/Drop_System",
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
         "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/63989167",
-        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320"
+        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Tama_Sheep",
+        "https://www.khwiki.com/Pricklemane"
       ],
       "continuation": {
         "date": "2026-10-01",
@@ -386,7 +514,40 @@
           "https://www.khwiki.com/Spirit",
           "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Create useful ranks, earn Golden Egg and train Spirits for board level gates.",
+      "sufficientGuidance": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Golden Egg now has a PS4 HD route: custom-create with 10 Intrepid Figments + 8 Vibrant Figments for either Tama Sheep or Pricklemane at ★. Both base-B outcomes receive +2 ranks from doubling both ingredients; no weather or specific-breed guarantee is needed. Use the preview and train afterward; the malformed starting-level table and weather probability arithmetic are not required.",
+      "deferredDetails": [
+        "Two malformed starting-level cells and relative-versus-percentage-point interpretation of Risky Winds odds."
+      ],
+      "deferralReason": "The concrete ★-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations.",
+      "reopenWhen": "A supported route needs a precise starting-level threshold or a weather/expected-cost optimizer is approved.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:spirit-creation",
+        "dddhd:achievements:golden-egg"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Golden Egg now has a PS4 HD route: custom-create with 10 Intrepid Figments + 8 Vibrant Figments for either Tama Sheep or Pricklemane at ★. Both base-B outcomes receive +2 ranks from doubling both ingredients; no weather or specific-breed guarantee is needed. Use the preview and train afterward; the malformed starting-level table and weather probability arithmetic are not required.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
+      },
+      "practicalSubquestions": [
+        {
+          "question": "A workable Golden Egg ★-rank creation route",
+          "researchDisposition": "resolved",
+          "answer": "Custom creation: Intrepid Figment ×10 + Vibrant Figment ×8; either Tama Sheep or Pricklemane is ★ rank. No weather requirement or selected-breed guarantee.",
+          "evidenceFile": "practical-reaudit-evidence-2026-10-02.json"
+        },
+        {
+          "question": "Malformed starting-level cells and Risky Winds odds arithmetic",
+          "researchDisposition": "deferred",
+          "reason": "The concrete ★-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations."
+        }
+      ]
     },
     {
       "id": "DDD-008",
@@ -407,7 +568,16 @@
         "outcome": "Quick Blitz now costs100munny,80during Bargain Flurry,ShopLV1. Preserve the conflicting400/320 historical article extraction and apply an explicit correction layer. No other command/shop price conflict is detected. Recipe ownership and formula availability remain separate.",
         "inspection": "The Quick Blitz DDD infobox100/80 agrees with Moogle stock and independent GamerGuides shop table. PS4 answer465557 indexed excerpt also says80instead100, but full access was blocked. No measured Steam claim.",
         "followup": "No known stock-price conflict remains; retain source override assertion to force re-review when raw acquisition prose changes."
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "54 independent recipe-item ownership goals plus 176 Moogle/Medal stock rows; all finite chest joins. Frootz/Kab LV7 500/400; R&R LV2 200/160; Beatalike LV8 1000/800; Tubguin LV2 200/160. Quick Blitz now costs100munny,80during Bargain Flurry,ShopLV1. Preserve the conflicting400/320 historical article extraction and apply an explicit correction layer. No other command/shop price conflict is detected. Recipe ownership and formula availability remain separate.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-009",
@@ -514,6 +684,27 @@
           "https://openkh.dev/ddd/file/dropprm.html",
           "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74939821"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Obtain every Dream Piece and gather ingredients for Spirit creation.",
+      "sufficientGuidance": "All 37 materials have sourced enemy/portal routes and chest/shop joins. Rare and ordinary forms stay separate; newly added portal landmarks also propagate into material sources. The re-audit added a repeatable PS4-documented Riku TWTNW Special3 farming loop sufficient to gather the five Brilliant Fantasies used by the three marked formulas, plus the Sora Wild Fantasy counterpart.",
+      "deferredDetails": [
+        "Every ordinary enemy room/spawn loop, exact expiration quantities, earliest possible replay gate and exhaustive payout transitions outside the documented Brilliant/Wild repeat-farm route."
+      ],
+      "deferralReason": "Room-by-room optimal farming and expiration quantities remain optional after adding an actual rotating repeat-farm action for the scarce materials. The former existence-of-routes-only rationale was insufficient; the new loop tells players how to obtain more than their first clear.",
+      "reopenWhen": "A required material cannot be obtained by its listed routes, or a demonstrated farm needs room-level/repeat-reward correction.",
+      "practicalRuntimeEntries": [
+        "dddhd:materials:brilliant-fantasy",
+        "dddhd:materials:wild-fantasy",
+        "dddhd:reference:portal-hunting"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "All 37 materials have sourced enemy/portal routes and chest/shop joins. Rare and ordinary forms stay separate; newly added portal landmarks also propagate into material sources. The re-audit added a repeatable PS4-documented Riku TWTNW Special3 farming loop sufficient to gather the five Brilliant Fantasies used by the three marked formulas, plus the Sora Wild Fantasy counterpart.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -576,13 +767,22 @@
         "https://www.khwiki.com/Woeflower",
         "https://www.khwiki.com/Yoggy_Ram",
         "https://www.khwiki.com/Zolephant"
-      ]
+      ],
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 19 rare-form records now use DDDRworlds, never DDDNworlds. Spirit-only forms are excluded. Runtime Dream Piece parsing does not import 3DS Treasure Goggles toy text.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-011",
       "status": "partial",
       "integrated": "All 124 commands audited for mechanics extraction: all 88 Attack/Magic/Item slot/use fields, 78 of 79 applicable Attack/Magic reloads, all player acquisition/default assertions, complete chest/shop/54-board joins and donation bonuses. The other 45 commands are consumables or non-reloading movement/defense/reprisal/Flowmotion actions, not missing reload values. Exact-tier Fire 12/18/26, Cure 20/24/30, Thunder 12/18/26, Balloon 12/18/26 and Spark 12/20/36 now survive generation; Spark Dive is 22 seconds and one slot.",
-      "remaining": "Strike Raid is the sole unresolved applicable reload: the same DDD source infobox says 22 seconds while its DDD prose says 24. Quick Blitz retains the independent 100-versus-400 shop-price conflict. Shared tier-page reloads were parser omissions, now corrected; they are not research blockers.",
+      "remaining": "Strike Raid is the sole unresolved applicable reload: the same DDD source reports 22 and 24 seconds. Quick Blitz shop pricing was already resolved at 100 munny (80 during Bargain Flurry); the prior residual sentence was stale.",
       "consultedSources": [
         "https://www.khwiki.com/Deck_Command_(KH3D)",
         "https://www.khwiki.com/Moogle_Shop",
@@ -733,6 +933,26 @@
           "https://www.reddit.com/r/KingdomHearts/comments/1fhs14e/all_commands_links_in_ddd/",
           "https://docs.google.com/spreadsheets/d/1PYjCdblr2vUda8eQayPE73ZmRmY4BzP448__Fvq2AjM/edit?usp=sharing"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Acquire commands and use Strike Raid in combat.",
+      "sufficientGuidance": "All 124 acquisition/default routes, slots/uses and 78 of 79 applicable reloads are documented. Strike Raid acquisition is unaffected; its recharge indicator supplies the actionable readiness cue. Quick Blitz is already corrected to 100 munny (80 on sale).",
+      "deferredDetails": [
+        "Strike Raid exact base reload, 22 versus 24 seconds."
+      ],
+      "deferralReason": "The two-second disagreement does not prevent collection or ordinary use. The app has no certified frame/timing optimizer that needs a fabricated single value.",
+      "reopenWhen": "A cooldown simulator or exact combat rotation is approved, or a source-labelled HD measurement resolves the discrepancy.",
+      "practicalRuntimeEntries": [
+        "dddhd:commands:strike-raid",
+        "dddhd:commands:quick-blitz"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "All 124 acquisition/default routes, slots/uses and 78 of 79 applicable reloads are documented. Strike Raid acquisition is unaffected; its recharge indicator supplies the actionable readiness cue. Quick Blitz is already corrected to 100 munny (80 on sale).",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -797,7 +1017,16 @@
         "https://www.khwiki.com/Woeflower",
         "https://www.khwiki.com/Yoggy_Ram",
         "https://www.khwiki.com/Zolephant"
-      ]
+      ],
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 43 maximum stacks sourced from live Abilities table and all 54 board providers rebuilt. Scan/EXP Zero defaults and Proud/Critical-only EXP Zero integrated. Ability Ace requires enabled Support/Spirit stacks including EXP Zero, then leaving menu; Stat abilities excluded.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-013",
@@ -868,6 +1097,25 @@
           "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue",
           "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Activate required Links and complete Link-related goals.",
+      "sufficientGuidance": "All 43 Link entries, provider/pair rules and gauge requirements are present. Entries now direct Steam players to their configured on-screen action prompts and visible gauge.",
+      "deferredDetails": [
+        "A fixed keyboard/controller binding crosswalk and every exact Link duration."
+      ],
+      "deferralReason": "Bindings can be remapped and the game shows the current prompt and gauge. Recording every default device label and timing constant is not necessary to activate a documented pair.",
+      "reopenWhen": "A specific Link cannot be executed from its prompts or a control scheme requires missing action guidance.",
+      "practicalRuntimeEntries": [
+        "dddhd:links:whomperstomp"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "All 43 Link entries, provider/pair rules and gauge requirements are present. Entries now direct Steam players to their configured on-screen action prompts and visible gauge.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -903,6 +1151,26 @@
         "sources": [
           "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Find and clear all 78 Specials and 11 Secrets for End of Pain, Unbound and portal achievements.",
+      "sufficientGuidance": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method. Re-audit adds the required scarce-material repeat loop and explains that already-cleared Specials can be farm targets; exact forecast/location examples remain character-specific.",
+      "deferredDetails": [
+        "Exhaustive entrance-to-portal walking atlas and unrelated first/repeat/bonus transitions; documented Brilliant/Wild repeat farming is now integrated rather than deferred."
+      ],
+      "deferralReason": "HD map-based hunting plus 22 useful qualifiers supplies practical navigation. Repeat farming is no longer waived as part of a giant state matrix: the needed supply loop was researched and integrated separately. Reopen any specific portal that still lacks a usable approach.",
+      "reopenWhen": "A particular required portal still cannot be located, or a listed reward route fails on a repeat.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:portal-hunting",
+        "dddhd:portals:riku-country-of-the-musketeers-special-portal-3"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method. Re-audit adds the required scarce-material repeat loop and explains that already-cleared Specials can be farm targets; exact forecast/location examples remain character-specific.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -940,6 +1208,26 @@
           "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html",
           "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/DDDAPConnector.lua"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Use built-in Battle/Friendship portals and complete the seven bonus-objective types.",
+      "sufficientGuidance": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types. Brave Challengers now names seven exact Special Portal examples, one for each bonus type, with character, world, area, forecast and unlock condition.",
+      "deferredDetails": [
+        "Exact landmarks for every built-in portal and certification of source-number suffixes as Journal numbering."
+      ],
+      "deferralReason": "The seven required bonus goals now have concrete places to attempt them. Detailed routes to every optional built-in portal and cosmetic source numbering can remain deferred; a list of objective names alone was not the sufficiency test.",
+      "reopenWhen": "A specific needed bonus type cannot be found or a duplicate identity causes incorrect user progress.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:portal-hunting",
+        "dddhd:achievements:brave-challengers"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types. Brave Challengers now names seven exact Special Portal examples, one for each bonus type, with character, world, area, forecast and unlock condition.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -951,7 +1239,16 @@
         "https://www.khwiki.com/Dive_Mode",
         "https://www.khwiki.com/Game:The_Grid",
         "https://www.khwiki.com/Divewing"
-      ]
+      ],
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "The Grid HD Dive reward is Candy Goggles. World A-rank prize is awarded once when either character first earns A; seven-course Divewing requirement remains per character. All 14 course thresholds preserved.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-017",
@@ -992,6 +1289,27 @@
           "https://www.khwiki.com/Secret_Cup",
           "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Unlock Secret Cup, earn Sweet Dreams and complete Flick Rush rank/medal goals.",
+      "sufficientGuidance": "Ten cups, 27 lineups, all available published scoring/prize tables and 19 Rush milestones exist. Conservative access advice now says clear the other cups and reach LV17, satisfying both disputed thresholds; actual result screens confirm rank/medals.",
+      "deferredDetails": [
+        "Minimum Secret Cup LV15-versus-LV17 threshold, Speed Cup time-group assignment, exact HD score equivalence and spendable Medal payout matrix."
+      ],
+      "deferralReason": "The LV17 plan reaches the goal without deciding the minimum; score-improvement tactics and visible results avoid needing a predictive medal/time optimizer. No missing score group or fixed earnings estimate is invented.",
+      "reopenWhen": "Secret Cup remains locked after the conservative requirements, a rank guide demonstrably fails, or a medal-budget optimizer is approved.",
+      "practicalRuntimeEntries": [
+        "dddhd:challenges:secret-cup",
+        "dddhd:challenges:speed-cup",
+        "dddhd:achievements:flick-rush-fever"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "Ten cups, 27 lineups, all available published scoring/prize tables and 19 Rush milestones exist. Conservative access advice now says clear the other cups and reach LV17, satisfying both disputed thresholds; actual result screens confirm rank/medals.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -1032,6 +1350,31 @@
           "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
           "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Use toys/Reality Shifts, train affinity and earn their score awards.",
+      "sufficientGuidance": "24 item acquisition entries and HD action/scoring references are present. The toy achievements now point to the appropriate acquisition and control references; current Steam prompts handle remapped inputs. Treat-color and two-step interaction routes provide workable training.",
+      "deferredDetails": [
+        "Every Steam input device binding, breed-optimal training/size formula and exact toy efficiency model."
+      ],
+      "deferralReason": "The goal is successful actions and threshold scores, not a globally optimal breed-by-breed training schedule. Known toy effects and prompt-based controls are sufficient without asserting unknown numerical efficiencies.",
+      "reopenWhen": "A concrete toy/action cannot be executed or a score threshold cannot be reached with current guidance.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:hd-training-controls",
+        "dddhd:reference:reality-shift",
+        "dddhd:reference:spirit-disposition-routes",
+        "dddhd:achievements:kindred-spirits",
+        "dddhd:achievements:balloon-master",
+        "dddhd:achievements:water-barrel-master",
+        "dddhd:achievements:candy-goggles-master"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "24 item acquisition entries and HD action/scoring references are present. The toy achievements now point to the appropriate acquisition and control references; current Steam prompts handle remapped inputs. Treat-color and two-step interaction routes provide workable training.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -1060,6 +1403,25 @@
         "sources": [
           "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Locations/LocationHandler.lua"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Defeat Lord Kyroo and obtain the recipe/finishing-character reward.",
+      "sufficientGuidance": "The encounter sequence, 70-second escape, retained damage, mid-room-exit reset and finishing-character reward are documented. A conservative no-reload chain is now explicit.",
+      "deferredDetails": [
+        "Boss HP persistence across saving/loading."
+      ],
+      "deferralReason": "Completing the chain in one session avoids dependence on the unknown transition. There is no need to inspect save bytes to follow that documented route.",
+      "reopenWhen": "A player needs to resume an interrupted hunt or encounters a reproducible reset inconsistent with the current advice.",
+      "practicalRuntimeEntries": [
+        "dddhd:challenges:lord-kyroo"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "The encounter sequence, 70-second escape, retained damage, mid-room-exit reset and finishing-character reward are documented. A conservative no-reload chain is now explicit.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     },
     {
@@ -1102,13 +1464,27 @@
           "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
           "https://www.khwiki.com/Sweet_Dreams"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Own every eligible Keyblade on both characters.",
+      "sufficientGuidance": "All 15 types and 13-per-character eligibility are retained. HD sources support Sweet Dreams delivery to the clearing character and a full Secret Cup replay for the other; instructions require separate ownership checks.",
+      "deferredDetails": [
+        "Whether replaying only the final match is sufficient and exact Steam event retrigger implementation."
+      ],
+      "deferralReason": "The complete-cup route already tells a player how to get the second copy. Shortening that replay and reverse-engineering its flag are optional until the conservative route fails.",
+      "reopenWhen": "A Steam player finishes a second full cup without the Keyblade or needs a verified minimum-replay shortcut.",
+      "practicalRuntimeEntries": [
+        "dddhd:keyblades:sweet-dreams",
+        "dddhd:challenges:secret-cup"
+      ]
     },
     {
       "id": "DDD-021",
       "status": "partial",
       "integrated": "All 18 HD trophy rows reconciled. Stat Builder exact 5/3/3/3 simultaneous party stacks; Ribbit Reaper ordinary or boss form; Keyblade Conqueror both characters.",
-      "remaining": "Dream Pleaser partial/released-instance flags and Daring Diver best-score versus repeat-score accumulation are not unambiguously established. KHWiki text and cumulative HD guide wording do not resolve every internal counter; no total catalog closed from Stat Builder alone.",
+      "remaining": "Dream Pleaser released/NG+ instance retention remains unverified. Daring Diver high-score aggregation is now explicitly documented by an HD Reports guide and is no longer an unresolved counter alternative.",
       "consultedSources": [
         "https://www.khwiki.com/Trophies",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
@@ -1134,7 +1510,46 @@
           "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md",
           "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Earn the 18 in-game trophies, including Dream Pleaser and Daring Diver.",
+      "sufficientGuidance": "Daring Diver now directs players to exceed 7,500,000 in the sum of retained world/character high scores, based on an explicit HD guide, rather than a conservative either-counter guess. Dream Pleaser explicitly calls for one instance of each of 54 breeds at affinity level9; retained-instance advice remains a precaution, not a release/recovery rule.",
+      "deferredDetails": [
+        "Dream Pleaser released-instance/NG+ retention and internal implementation; an actual already-released or failed-award case must be investigated rather than declared solved by retaining future instances."
+      ],
+      "deferralReason": "The ordinary trophy actions are now concrete and Daring Diver’s useful aggregation question was researched, not deferred. Only unneeded internal persistence precision is deferred. Existing-save recovery is not claimed covered.",
+      "reopenWhen": "A player has released or transferred trained Spirits and needs to establish retained credit, or the award fails after the documented normal requirements.",
+      "practicalRuntimeEntries": [
+        "dddhd:awards:dream-pleaser",
+        "dddhd:awards:daring-diver"
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "Daring Diver now directs players to exceed 7,500,000 in the sum of retained world/character high scores, based on an explicit HD guide, rather than a conservative either-counter guess. Dream Pleaser explicitly calls for one instance of each of 54 breeds at affinity level9; retained-instance advice remains a precaution, not a release/recovery rule.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
+      },
+      "practicalSubquestions": [
+        {
+          "question": "Daring Diver score aggregation",
+          "disposition": "resolved",
+          "answer": "HD guide: sum of High Scores for both characters in the worlds.",
+          "source": "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15"
+        },
+        {
+          "question": "Dream Pleaser ordinary goal",
+          "disposition": "resolved",
+          "answer": "Train one of each of the54 breeds to affinity9; preserve trained instances until award.",
+          "source": "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15"
+        },
+        {
+          "question": "Dream Pleaser released/NG+ instance flag retention",
+          "disposition": "deferred",
+          "answer": "Unknown. Future-instance retention advice does not certify recovery of previously released progress."
+        }
+      ]
     },
     {
       "id": "DDD-022",
@@ -1163,7 +1578,20 @@
           "https://steamcommunity.com/stats/2552440/achievements/?l=english",
           "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/"
         ]
-      }
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Track and earn the 54 Steam DDD achievements.",
+      "sufficientGuidance": "All 54 public names/requirements and observed native Steam keys are mapped; manual stable checklist IDs are preserved. Difficulty constraints such as Ability Ace remain visible.",
+      "deferredDetails": [
+        "Hidden Steam counter implementation and PSN/Xbox/Epic native identifier schemas."
+      ],
+      "deferralReason": "The app tracks manually and does not read native saves or other-platform achievements. Alternate-platform IDs and implementation flags do not help the present Steam checklist unless a concrete award problem occurs.",
+      "reopenWhen": "A reproducible Steam unlock issue needs diagnosis or a separately approved platform integration needs native IDs.",
+      "practicalRuntimeEntries": [
+        "dddhd:achievements:ability-ace"
+      ]
     },
     {
       "id": "DDD-023",
@@ -1175,7 +1603,16 @@
         "https://www.khwiki.com/Beatalike",
         "https://www.khwiki.com/Tubguin_Ace",
         "https://www.khwiki.com/Abilities_(KH3D)"
-      ]
+      ],
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "Catanuki Spark Raid/Vanish, Beatalike Ars Arcanum and Tubguin Dark Firaga now appear in reverse providers from complete boards. Scan/EXP Zero show defaults; Defense commands show acquisition.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-024",
@@ -1250,13 +1687,22 @@
         "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
         "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/7",
         "https://www.khwiki.com/Kingdom_Hearts_Dream_Drop_Distance_HD"
-      ]
+      ],
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 438 pickup landmarks, all 51 world notes, separate rare worlds, all board conditions and per-record world/command/recipe sources survive generation. Explicit HD formula selector and source hashes are retained. Source manifest records inspected factual evidence without storing guide prose.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "practicalRuntimeEntries": []
     },
     {
       "id": "DDD-025",
       "status": "partial",
       "integrated": "All 15 Keyblade stat rows and secret-ending criteria/replay reference integrated. Clear-data/NG+ state rules added.",
-      "remaining": "Another Guardian of Light is DDD/DHD tagged but does not independently document every HD re-trigger path after wrong final answers. Published trophy counts and replayable letters are not proof of every recovery combination.",
+      "remaining": "A verified HD recovery route from a clear save with wrong answers and no retained pre-finale backup. No Theater-only fix or irreversible-missability claim is made.",
       "consultedSources": [
         "https://www.khwiki.com/Another_Guardian_of_Light",
         "https://www.khwiki.com/Game_Clear_Data",
@@ -1281,7 +1727,43 @@
           "https://www.cheatcc.com/articles/kingdom-hearts-hd-2-8-final-chapter-prologue-cheats-codes-cheat-codes-walkthrough-guide-faq-unlockables-for-playstation-4-ps4-ps4/",
           "https://www.kh13.com/forums/topic/39388-then-end-part-with-riku-spoilers/"
         ]
+      },
+      "practicalReviewDate": "2026-10-02",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "open",
+      "playerGoal": "Unlock Another Guardian of Light, including recovery after choosing wrong final answers.",
+      "sufficientGuidance": "The initial trophy/answers/credits route is documented. A separate pre-finale save is now recommended; Theater replay is documented only for credits letters.",
+      "deferredDetails": [],
+      "deferralReason": "Not deferred: a player in this state could be unable to unlock the ending using the current guide. Research should establish one workable recovery route, not every theoretical flag combination.",
+      "reopenWhen": "Resolve when edition-labelled HD evidence demonstrates a successful wrong-answer recovery path or the inability to recover.",
+      "practicalRuntimeEntries": [
+        "dddhd:reference:secret-ending"
+      ],
+      "openQuestion": "A verified HD recovery route from a clear save with wrong answers and no retained pre-finale backup.",
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "The initial trophy/answers/credits route is documented. A separate pre-finale save is now recommended; Theater replay is documented only for credits letters.",
+        "evidenceFile": "practical-facts-2026-10-02.json",
+        "evidenceStatusUnchanged": true
       }
     }
-  ]
+  ],
+  "practicalReview": {
+    "date": "2026-10-02",
+    "scope": "All 25 families, including all 18 previously nonresolved families. User-directed practical-goal review.",
+    "report": "practical-review-2026-10-02.md",
+    "futureImprovements": "future-improvements.md",
+    "evidenceCounts": {
+      "partial": 16,
+      "resolved": 8,
+      "blocked": 1
+    },
+    "researchDispositionCounts": {
+      "deferred": 14,
+      "resolved": 8,
+      "open": 3
+    },
+    "warning": "Evidence and actionable scope differ. The first17 deferrals were too broad. DDD-003 was re-examined and resolved as an adapter defect; DDD-004 and006 remain reopened. Daring Diver high scores and necessary farming/bonus actions were researched and integrated.",
+    "criticalReaudit": "critical-reaudit-2026-10-02.md"
+  }
 }

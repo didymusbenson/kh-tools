@@ -117,10 +117,42 @@
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
       "playerGoal": "Open all Forest chests for the area objective and Treasure Hunter.",
-      "sufficientGuidance": "The save-point ivy chest is physically located irrespective of Ether/Mega-Ether naming. The northern record now also offers Destiny Islands chest-8 black-thorn dead-end search directions, with explicit uncertainty about its cross-source join and Steam Hi-Potion label. All ten ordinary Forest route records remain available.",
-      "deferredDetails": "Definitive modern item-popup identity for save-point Ether/Mega-Ether and independent binding of northern Potion versus northwest-thicket Hi-Potion.",
-      "deferralReason": "For opening chests, the physical alcove/search route is actionable without deciding the consumable label. The candidate join is not silently certified, no duplicate chest is added, and the 55-find denominator stays unchanged. Exact content naming is optional precision unless it prevents matching a remaining chest.",
-      "reopenWhen": "A player has an unlocatable Forest chest or the candidate search route duplicates another record; then treat identity as a concrete blocker."
+      "sufficientGuidance": "Fresh PS4 HD evidence identifies the left-descending thicket dead end as Potion, separately from the ring crevasse. Its starting point and fork agree with Destiny Islands and PSU, so the record now has a direct route rather than a candidate-only search. The save-point ivy chest is already physically located. Both item-label disagreements remain visible.",
+      "deferredDetails": "Current Steam item-popup confirmation of save-point Ether versus Mega-Ether and northern-thicket Potion versus Hi-Potion; physical routes are now integrated.",
+      "deferralReason": "After researching the practical physical locator, only two ordinary-consumable labels remain disputed. The route lets players open and match each chest without assuming the reward label. This deferral does not establish the Steam contents; reopen if a location cannot be matched or a particular consumable matters to the player.",
+      "reopenWhen": "A player cannot uniquely match the thicket dead-end or save-point chest, or item-specific collection guidance requires verified Steam contents.",
+      "practicalReassessment": {
+        "date": "2026-10-02",
+        "finding": "Candidate route alone is insufficient to certify the northern physical-chest join. Reopened after direct review against the player-goal standard.",
+        "newSourceInspections": [
+          {
+            "url": "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+            "result": "Chest8 is a short left fork past the three Darksides; Chest9 separately lies in the ring drop-down. Text does not name chest8 contents."
+          },
+          {
+            "url": "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
+            "result": "Chest8 is Potion on the descending black-thorn branch; compared all ten ordinary Forest rows. Steam guide instead labels its northwest-thicket chest Hi-Potion."
+          },
+          {
+            "url": "https://guiding-key.tumblr.com/kh0.2-locations",
+            "result": "Same staircase/black-thorn route, without item names; wording overlaps Destiny Islands, so not independent item proof."
+          },
+          {
+            "url": "https://samurai-gamers.com/kingdom-hearts-3/dark-side-chapter-3-walkthrough/",
+            "result": "2017 map table names items but does not provide an unambiguous matching north-chest row in retrieved text."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kG8r3tEJwBk",
+            "result": "Video metadata/title visible in cloud browser; player stayed on loading spinner after one reload. No gameplay frame inspected, so it is not acquisition-popup evidence."
+          },
+          {
+            "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+            "result": "Indexed full objective44 text inspected: item2 Ether by Rocky Path save point; item7 Potion on descending-left thicket path; item8 separate ring crevasse. PS4 HD v1.05 July4 2019, not Steam capture."
+          }
+        ],
+        "decision": "Physical-route subset resolved from explicit HD text; only current-Steam item-label confirmation remains deferred.",
+        "resolution": "The PS4 HD Thundaka guide v1.05 objective44 item7 explicitly pairs Potion with the short descending path on the left at thicket entry, and separately identifies item8 as the ring-path crevasse. This supplies the physical locator missing from the first pass. Source-backed mapping is adopted; no Steam popup evidence claimed."
+      }
     },
     {
       "id": "KH02-006",
@@ -220,7 +252,7 @@
       "id": "KH02-011",
       "status": "partial",
       "integrated": "All seven named objectives reviewed:18 streak;26 three combat mirrors;31 story Phantom Finish without final blow;36 final blow;41 third-story no damage;47 orb Darkside;50 Wayfinder active. Combat/replay caveats propagate to cosmetics.",
-      "remaining": "31 Zodiac substitution, 50 strict event predicate, and pre-unlock partial-counter behavior for objectives 18/26/31/36/41/47/50 remain. Conservative story/Finish guidance retained.",
+      "remaining": "Objective31 recovery is source-backed through explicit HD guide and video-description text. Exact Steam minimal objective50 predicate and pre-unlock partial-counter semantics remain unverified.",
       "consultedSources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
@@ -251,10 +283,31 @@
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
       "playerGoal": "Complete the seven counter/encounter objectives and their wardrobe rewards.",
-      "sufficientGuidance": "Objectives 18/26/31/36/41/47/50 now explicitly advise attempting them after they are visible. Specified story encounters, pre-encounter saves, the third Phantom for 31/41, Spellweaver final blow for 36 and a conservative Wayfinder Finish route for 50 are documented.",
-      "deferredDetails": "Zodiac substitution for objective 31, minimal active-versus-Finish predicate for 50, and pre-unlock partial counter retroactivity.",
-      "deferralReason": "The supported live-story route works without relying on rematch substitution or retroactive progress. Extra trigger archaeology could remove a repeat or relax an input, but is not needed to complete the objective using the stated conservative method.",
-      "reopenWhen": "An objective fails after its documented visible/live-story method, or a concrete save cannot regain the required encounter."
+      "sufficientGuidance": "Named story conditions, visible-objective timing and conservative Wayfinder Finish guidance are integrated. Objective31 now includes the explicitly published HD Zodiac boss-rush recovery route; objective41 remains third-story-only. The two objectives are no longer conflated.",
+      "deferredDetails": "Objective50 minimal active-versus-Finish predicate and pre-unlock partial counter retroactivity; the published objective31 recovery action is now integrated.",
+      "deferralReason": "The actual encounter/recovery actions are now supplied, including the post-clear route that avoids an unnecessary new run for objective31. Only the stricter minimal Finish event and speculative earlier partial-counter credit remain optional precision.",
+      "reopenWhen": "An objective fails after its documented visible/live-story method, or a concrete save cannot regain the required encounter.",
+      "practicalReassessment": {
+        "sourceFindings": [
+          {
+            "url": "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/",
+            "finding": "Explicitly includes the Secret Boss Rush Phantom for objective31."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nc0yavtz1W4",
+            "finding": "Valizy 2017 objective31 video description explicitly recommends postgame boss-rush Phantom if struggling; metadata/description inspected, not frames."
+          },
+          {
+            "url": "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+            "finding": "Any Phantom fight; third recommended for sufficient HP, not declared a unique event predicate."
+          },
+          {
+            "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+            "finding": "Third-fight advice is justified by HP/gauge duration in PS4 controls; it does not establish that the Zodiac event cannot qualify."
+          }
+        ],
+        "decision": "Integrate explicitly attributed HD post-clear recovery; retain Steam control note and no frame/binary verification claim."
+      }
     },
     {
       "id": "KH02-012",
@@ -290,12 +343,22 @@
       },
       "evidenceStatus": "partial",
       "practicalReviewReport": "practical-review-2026-10-02.md",
-      "researchDisposition": "deferred",
+      "researchDisposition": "open",
       "playerGoal": "Earn Treasure Hunter without losing chest progress.",
       "sufficientGuidance": "All 41 physical chests including Main Road and the twelve post-clear Zodiac chests are listed. The achievement directs a full collection sweep on one retained cleared save before NG+, consistent with HD trophy guides.",
-      "deferredDetails": "Steam achievement evaluation of ordinary and retained Zodiac chest flags after entering NG+; current-run versus lineage/global union.",
-      "deferralReason": "The same-cleared-save method avoids the disputed transfer path and already supplies the whole collection route. Internal flag unions are unnecessary for this recommended route. No cross-run guarantee is added.",
-      "reopenWhen": "A completed same-save 41-chest sweep fails to award, or a specific transferred save needs recovery without an available source save."
+      "deferredDetails": "Complete low-level save-bit layout and every theoretical lineage combination beyond an actionable NG+ award/recovery rule.",
+      "deferralReason": "The full same-cleared-save route is useful forward planning, but does not answer a player already in NG+ without their old clear save. That practical completion question is open; only exhaustive internal storage details are deferred.",
+      "reopenWhen": "Resolve with a supported Steam NG+ award/recovery route for retained Zodiac chests. Do not infer guaranteed success or permanent loss from the existing source tables.",
+      "openQuestion": "Can a Steam NG+ file with already-retained/open Zodiac chests earn Treasure Hunter after collecting its remaining ordinary chests, and what is a supported recovery if it cannot?",
+      "nextEvidence": "An edition-labelled successful NG+ award account with retained Zodiac state or authoritative achievement-evaluation guidance; no full flag-layout reverse engineering required.",
+      "practicalReassessment": {
+        "result": "Fresh focused searches reaffirm Zodiac chests stay open in NG+ and general HD guides recommend a full collection run, but do not establish the retained-Zodiac Steam trigger. Reclassified as an active practical question rather than assuming a safe earlier save answers recovery.",
+        "sources": [
+          "https://www.khwiki.com/Zodiac_symbols",
+          "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19",
+          "https://www.destinyislands.com/kh-02-bbs/collectables/playstation-collectables/"
+        ]
+      }
     },
     {
       "id": "KH02-013",
@@ -459,8 +522,8 @@
   "practicalReviewDate": "2026-10-02",
   "practicalDispositionCounts": {
     "resolved": 11,
-    "deferred": 7,
-    "open": 0,
+    "deferred": 6,
+    "open": 1,
     "other-limitation": 0
   }
 }

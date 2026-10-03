@@ -11,6 +11,9 @@ chars=['Terra','Ventus','Aqua']; entries=[]; recipes=[]
 acq=json.loads((DATA/'acquisition-tables.json').read_text()); meld=json.loads((DATA/'melding-reference.json').read_text())
 enrichment=json.loads((DATA/'research-enrichment.json').read_text())
 command_catalog=json.loads((DATA/'command-catalog.json').read_text())['commands']
+research_ledger=json.loads((DATA/'research-dispositions-2026-10-01.json').read_text())
+research_counts=Counter(f['researchDisposition'] for f in research_ledger['findings'])
+research_summary=f"Critical player-goal re-audit: {research_counts['resolved']} resolved, {research_counts['deferred']} deferred optional-precision families, {research_counts['open']} open practical families and {research_counts['other-limitation']} separate limitations. See the current per-family ledger for exact unresolved records."
 inv=readcsv('collectible-inventory.csv')
 worlds=list(dict.fromkeys(r['world'] for r in inv))+['Mirage Arena','Destiny Islands']
 for i,r in enumerate(inv):
@@ -46,7 +49,7 @@ for r in acq['flavors']['rows']:
   material(c,r['name'],'; '.join(route['world']+' — '+route['area'] for route in routes),' '.join(route['world']+' — '+route['area']+': '+route['instructions'] for route in routes)+' '+(enrichment['prize_pod_arena_reset'] if all(route['world']=='Mirage Arena' for route in routes) else enrichment['prize_pod_reset'])+' Used in '+r['used_in']+'.',[acq['flavors']['source'],'https://www.khwiki.com/Prize_Pod'],drops=[dict(enemy='Prize Pod',rate='Per hit',location=route['world']+' — '+route['area'],details=route['instructions']+' '+(enrichment['prize_pod_arena_reset'] if route['world']=='Mirage Arena' else enrichment['prize_pod_reset'])) for route in routes])
 for r in acq['ice_cream']['recipes']:
  for c in r['characters']:
-  recipes.append(dict(id=ident(c,'ice-cream',r['name']),name=r['name'],group='Ice cream',character=c,instructions='Make at the ice cream shop in Disney Town. Each character has eight eligible kinds; make all eight at this shop for the documented Sweetstack route. Purchase/story-award substitutes are not verified for every completion flag. These quantities make one ice cream.',ingredients=[dict(id=ident(c,'material',x['name']),quantity=x['quantity']) for x in r['ingredients']]))
+  recipes.append(dict(id=ident(c,'ice-cream',r['name']),name=r['name'],group='Ice cream',character=c,instructions=acq['ice_cream']['practical_completion_2026_10_03']['guidance']+' These quantities make one ice cream.',ingredients=[dict(id=ident(c,'material',x['name']),quantity=x['quantity']) for x in r['ingredients']]))
 # Quarantine entire ambiguous input groups so no partial probability distribution is presented.
 def pair(r): return tuple(sorted([(r['command_1'],r['command_1_level']),(r['command_2'],r['command_2_level'])]))
 bad={pair(meld['recipes'][i]) for i in meld['audit']['conflict_rows_zero_based']}
@@ -65,7 +68,7 @@ for (c,p),outcomes in groups.items():
   if s: routes.append(s['instructions'])
   routes += [f"Chest: {r['world']} — {r['area']}" for r in chest]
   material(c,name,'; '.join(routes) or 'Meld / command acquisition', '; '.join(routes) or 'An input command; exact acquisition route is not yet documented in this guide.',[acq['command_shop']['source'],meld['source']])
-  requirements.append(f'{name} level {level}')
+  requirements.append(f'{name} level {level}' if level is not None else f'{name} (source gives no level requirement)')
  counts=Counter(n for n,l in p)
  instructions=' + '.join(requirements)+'. One attempt consumes both inputs; keep an extra copy of movement/defense commands. '
  instructions+='Outcomes: '+ '; '.join(f"{r['result']} {rate}%" for r,rate in outcomes)+'. '
@@ -78,7 +81,7 @@ for (c,p),outcomes in groups.items():
 # All command-shop inventory, including inputs absent from the surviving meld set.
 for (c,name),r in shop.items():
  entries.append(dict(id=ident(c,'command',name),category='commands',name=name,character=c,summary=f"Command Shop · {r['munny']} munny",instructions=r['instructions'],sources=[acq['command_shop']['source']]))
-crystals=[('Shimmering',300,1,1,'Blobmob 12%; Archraven 2.4% at shop 1–4, 3% at 5–6.'),('Fleeting',350,1,1,'Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8.'),('Pulsing',300,1,1,'Wild Bruiser 21.6%; other enemy rates vary by shop level.'),('Wellspring',300,1,1,'Scrapper 1.8% at shop 1–2, 3% at 3–8; Triple Wrecker 10.8%.'),('Soothing',400,1,1,'Flood 4% at shop 1–6, 3.96% at 7–8; Jellyshade 3.2%.'),('Hungry',350,1,1,'Bruiser 6% at shop 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%.'),('Abounding',400,4,1,'Axe Flapper 14.4%; Mandrake 4.8% at shop 5–6, 7.6% at 7–8.'),('Chaos',500,5,10,'Archraven 0.3% at shop 7–8. Attaches a random ability.'),('Secret Gem',1500,8,15,'Flood 0.04% at shop 7–8. Random ability and maximizes result level.')]
+crystals=[('Shimmering',300,1,1,'Blobmob 12%; Archraven 2.4% at shop 1–4, 3% at 5–6.'),('Fleeting',350,1,1,'Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8.'),('Pulsing',300,1,1,'Wild Bruiser 21.6%; other enemy rates vary by shop level.'),('Wellspring',300,1,1,'Scrapper 1.8% at shop 1–2, 3% at 3–8; Triple Wrecker 10.8%.'),('Soothing',400,1,1,'Flood 4% at shop 1–6, 3.96% at 7–8; Jellyshade 3.2%.'),('Hungry',350,1,1,'Bruiser 6% at shop 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%.'),('Abounding',400,4,1,'Axe Flapper 14.4%; Mandrake 4.8% at shop 4–6, 7.6% at 7–8.'),('Chaos',500,5,10,'Archraven 0.3% at shop 7–8. Attaches a random ability.'),('Secret Gem',1500,8,15,'Flood 0.04% at shop 7–8. Random ability and maximizes result level.')]
 crystal_sources=json.loads((ROOT/'src/games/bbsfm/crystal-sources.json').read_text())
 spiderchest=next(r for r in crystal_sources if r['enemy']=='Spiderchest' and r['crystal']=='Fleeting Crystal')
 for c in chars:
@@ -87,8 +90,17 @@ for c in chars:
   extra_sources=[spiderchest['source']] if name==spiderchest['crystal'] else []
   extra_drops=[dict(enemy=spiderchest['enemy'],rate=spiderchest['rate'],location='Character-specific route not indexed',details=spiderchest['conditions'])] if extra_sources else []
   if extra_sources: detail+=f" Spiderchest {spiderchest['rate']}. {spiderchest['conditions']}"
-  material(c,name,f'Mirage Arena · {cost} medals',f"Medal shop: shop level {shoplv}, Arena level {arena}. {detail} Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",list(dict.fromkeys(['https://www.khwiki.com/Game:Mirage_Arena']+[r['source'] for r in crystal_sources if r['crystal']==name])),world='Mirage Arena',drops=[dict(enemy='Medal shop',rate='Conditional',location='Mirage Arena',details=f'{cost} medals; shop level {shoplv}, Arena level {arena}.')]+extra_drops)
+  material(c,name,f'Mirage Arena · {cost} medals',f"Medal shop: shop level {shoplv}, Arena level {arena}. {detail} Rates refer to shop level, not enemy level. Documented farm routes and their remaining limitations are listed separately below.",list(dict.fromkeys(['https://www.khwiki.com/Game:Mirage_Arena']+[r['source'] for r in crystal_sources if r['crystal']==name])),world='Mirage Arena',drops=[dict(enemy='Medal shop',rate='Conditional',location='Mirage Arena',details=f'{cost} medals; shop level {shoplv}, Arena level {arena}.')]+extra_drops)
 # Report chest aliases retain the original check identity across both categories.
+for e in entries:
+ if e['category']!='materials':continue
+ farms=[f for f in enrichment.get('crystal_farm_routes',[]) if f['crystal']==e['name'] and e.get('character') in f['characters']]
+ for farm in farms:
+  e['instructions']+=' Farm route: '+farm['world']+' — '+farm['area']+'. Enemies: '+farm['enemies']+'. '+farm['instructions']+' '+farm['repeat']+' '+farm['conditions']
+  e['sources']=list(dict.fromkeys(e['sources']+farm['sources']))
+ for gap in enrichment.get('crystal_farm_open_routes',[]):
+  if gap['crystal']==e['name']:
+   e['instructions']+=' '+gap['finding'];e['sources']=list(dict.fromkeys(e['sources']+gap['sources']))
 report_rows=[('Letter','Ventus','Land of Departure','Leave Land of Departure'),('I','Ventus','Deep Space','Launch Deck chest'),('II','Terra','Radiant Garden','Defeat Braig'),('III','Aqua','Radiant Garden',"Merlin’s House chest"),('IV','Aqua','Mysterious Tower','Speak with Yen Sid'),('V','Terra','Mirage Arena','Clear Sinister Sentinel'),('VI','Aqua','Enchanted Dominion','Defeat Maleficent'),('VII','Aqua','Keyblade Graveyard','Defeat Ventus-Vanitas'),('VIII','Terra','Land of Departure','Defeat Eraqus'),('IX','Ventus','Destiny Islands','Leave Destiny Islands'),('X','Ventus','Keyblade Graveyard','Defeat Vanitas'),('XI','Terra','Keyblade Graveyard','Defeat Terra-Xehanort'),('XII','Ventus','Keyblade Graveyard','Seat of War chest')]
 for num,c,w,how in report_rows:
  name='Xehanort’s Letter' if num=='Letter' else f'Xehanort’s Report {num}'
@@ -164,6 +176,9 @@ for enemy,drops in sorted(enemy_drops.items()):
 
 # Integrate individually sourced research without changing existing check identities.
 for e in entries:
+ if e['category']=='finishers' and e.get('prerequisites')!='Initial finish command.':
+  e['instructions']+=' '+enrichment['practical_guidance']['finish_progress']
+  e['sources'].append(enrichment['practical_guidance']['finish_source'])
  patch=enrichment['collectible_overrides'].get(e['id'])
  if patch:
   e['sources']=list(dict.fromkeys(e.get('sources',[])+patch.get('sources',[])))
@@ -176,6 +191,7 @@ for e in entries:
    e['rankBands']=info['ranks']
    e['instructions']='Published rank bands: '+ '; '.join(k+' star: '+v for k,v in info['ranks'].items())+'. '+info['strategy']+' '+info['characters'][e['character']]
    if info.get('boundary_note'):e['uncertainty']=info['boundary_note']
+   e['instructions']+=' '+enrichment['practical_guidance']['mission_targets'].get(mission_name,'')
  if e['category']=='minigames' and ' — Ice Cream Beat' in e['name']:
   song=next(r for r in enrichment['ice_cream_beat']['songs'] if r['name']==e['name'].split(' — ')[0])
   e['rankRewards']=song
@@ -195,7 +211,7 @@ for e in entries:
   board=next((b for b in enrichment['command_boards']['boards'] if e['name']==b['name'].replace(' Board',' Command Board')),None)
   if board:
    e['instructions']+=' '+enrichment['command_boards']['rules']+' Bonus panels (map key: normal; limited; Arena): '+'; '.join(str(p['key'])+': '+p['normal']+'; '+p['limited']+'; '+p['arena'] for p in board['panels'])+'.'
-   e['instructions']+=' Opponent decks (command level × quantity; ? = unspecified): '+'; '.join(deck['opponent']+': '+', '.join(card['command']+' Lv '+str(card['level'])+' × '+(str(card['quantity']) if card['quantity'] is not None else '?') for card in deck['cards']) for deck in board.get('opponent_decks',[]))+'. '+enrichment['command_boards']['opponent_deck_evidence']
+   e['instructions']+=' Opponent decks (command level × quantity; ? = unspecified): '+'; '.join(deck['opponent']+(' (opponent for '+ '/'.join(deck['characters'])+')' if deck.get('characters') else '')+': '+', '.join(card['command']+' Lv '+str(card['level'])+' × '+(str(card['quantity']) if card['quantity'] is not None else '?')+(' ['+card['scope_note']+']' if card.get('scope_note') else '') for card in deck['cards']) for deck in board.get('opponent_decks',[]))+'. '+enrichment['command_boards']['opponent_deck_evidence']
    e['sources'].append(board['source'])
    e['uncertainty']=enrichment['command_boards']['remaining']
  if e['category']=='abilities':
@@ -228,10 +244,13 @@ for c in chars:
   if r.get('max_level'):facts.append('Catalog maximum level '+str(r['max_level'])+'.')
   if curve and any(p['level']>1 for p in curve):facts.append('CP required per level step: '+', '.join(str(p['level'])+': '+str(p['cp']) for p in curve if p['level']>1)+'.')
   if r.get('cp_evidence_status'):facts.append(r['cp_evidence_status'])
+  if r['type']!='Item' and (r.get('max_level') or 0)>1 and (not curve or r.get('cp_evidence_status')):facts.append(enrichment['practical_guidance']['command_mastery'])
+  if r['type']=='Shotlock':facts.append(enrichment['practical_guidance']['reports_hit_counts'])
   if routes:e['instructions']=' '.join(routes)
   e['instructions']+=' '+' '.join(facts)
   if r.get('enemy_drops'):e['instructions']+=' World drops: '+'; '.join(r['enemy_drops'])+'. Exact character rooms/reset routes remain unverified.'
-  e['sources']=list(dict.fromkeys(e['sources']+[r['source'],r['roster_source']]))
+  e['sources']=list(dict.fromkeys(e['sources']+[r['source'],r['roster_source']]+r.get('acquisition_sources',[])))
+  if r['type']=='Shotlock':e['sources']=list(dict.fromkeys(e['sources']+enrichment['practical_guidance']['reports_hit_count_sources']))
   material_entry=next((m for m in entries if m['id']==ident(c,'material',r['name'])),None)
   if material_entry and 'exact acquisition route is not yet documented' in material_entry['instructions']:
    if routes:material_entry['instructions']=' '.join(routes);material_entry['summary']='Sourced command acquisition'
@@ -257,23 +276,36 @@ for e in entries:
  if e['category']!='achievements':continue
  r=steam_metadata[e['name']]
  e['sources'].append(r['source'])
+ if e['name']=='Collector':
+  e['instructions']=enrichment['practical_guidance']['collector']
+  e['sources'].append(enrichment['practical_guidance']['collector_source'])
+ if e['name'].startswith('The Adventurer:'):
+  e['instructions']+=' '+enrichment['practical_guidance']['reports_hit_counts']
+  e['sources']+=enrichment['practical_guidance']['reports_hit_count_sources']
+for e in entries:
+ if e['id']=='bbsfm:secret-episode:unlock':
+  e['instructions']+=' '+enrichment['practical_guidance']['secret_episode']
+  e['sources']=list(dict.fromkeys(e['sources']+enrichment['practical_guidance']['secret_sources']))
 families=json.loads((DATA/'command-families.json').read_text())
 for kind in ['styles','dlinks']:
  for r in families[kind]:
   for c in r['characters']:
    detail=('Trigger: '+r['triggers']+'. '+('A level-two style requires an active first-tier style.' if r['level']=='LV 2' else '')) if kind=='styles' else families['dlink_progression']+' First emblem: '+r['first_emblem']+'. Second emblem: '+r['second_emblem']+'.'
-   sources=[r['source']]
+   sources=[r['source']]+r.get('additional_sources',[])
    if kind=='dlinks':
     detail+=' '+ ' '.join(a['name']+': '+a['instructions'] for a in r.get('finisher_actions',[]))
     sources += [a['source'] for a in r.get('finisher_actions',[])]
+    sources += [s for a in r.get('finisher_actions',[]) for s in a.get('supporting_sources',[])]
     decks=[[cmd for cmd in deck if not (r['name']=='Stitch' and c!='Aqua' and cmd=='Thundaga Shot')] for deck in r['deck_by_emblems']]
     detail+=' '+families['usage']+' Linked decks by 0/1/2 emblems: '+' / '.join(', '.join(deck) for deck in decks)+'. Finishers by 0/1/2 emblems: '+' / '.join(', '.join(deck) for deck in r['finish_by_emblems'])+'. Emblem drop chances by current 0/1/2 emblems: '+' / '.join('unknown' if p is None else str(p)+'%' for p in r['emblem_chance_percent'])+'. Attack gauge multiplier: '+r['gauge_attack_multiplier']+'. Gauge bonus: '+r['gauge_bonus']['condition']+' '+r['gauge_bonus']['amount']+'.'
     sources.append(r['mechanics_source'])
+    detail+=' '+enrichment['practical_guidance']['reports_hit_counts']
+    sources+=enrichment['practical_guidance']['reports_hit_count_sources']
    entries.append(dict(id=ident(c,kind,r['name']),category=kind,character=c,name=r['name'],summary='Command Style' if kind=='styles' else 'D-Link',instructions=r['acquisition']+'. '+detail,sources=sources))
 # Keep generated content reviewable and reproducible.
 for boss in enrichment['boss_encounters']:
  for c in boss['characters']:
   entries.append(dict(id=ident(c,'boss-reference',boss['name']),category='bestiary',character=c,world=boss['world'],area=boss['area'],name=boss['name'],summary='Encounter reference',prerequisites=boss['access'],instructions=boss['instructions'],reward=boss['reward'],uncertainty='Sourced encounter overview; complete per-character attack/stat/recovery coverage remains unverified.',checkable=False,collectible=False,sources=[boss['source']]))
-guide=dict(id='bbsfm',name='Birth by Sleep',edition='Final Mix',accent='blue',craftingLabel='Melding & Ice Cream',categories=[dict(id=i,label=l,icon=k) for i,l,k in [('bestiary','Bestiary','monster'),('treasures','Treasures','chest'),('stickers','Stickers','spark'),('reports','Xehanort Reports','scroll'),('keyblades','Keyblades','sword'),('commands','Command Shop','wand'),('styles','Command Styles','spark'),('dlinks','D-Links','heart'),('abilities','Abilities','leaf'),('finishers','Finish Commands','heart'),('album','Sticker Album Rewards','book'),('challenges','Unversed Missions','medal'),('arena','Mirage Arena','cup'),('minigames','Minigames','trinity'),('episodes','Episodes','torn-page'),('achievements','Steam Achievements','medal')]],worlds=[dict(name=w,summary=('Aqua’s Secret Episode; separate from the standalone 0.2 game.' if w=='Realm of Darkness' else 'Solo Arena battles, medal shop and character-specific rewards.' if w=='Mirage Arena' else 'Character-specific treasure and sticker records; use collection links to filter this world.')) for w in worlds],entries=entries,recipes=recipes,coverage='Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. The Steam overlay includes 45 BBS goals; all 45 API IDs are mapped; exact save aggregation, raw hidden flags and build-specific glitch behavior remain incomplete. Bestiary is a partial crystal-drop reference; 187 persistent HD command identities are indexed with edition exclusions; acquisition routes, CP curves and challenge/enemy coverage retain specific evidence gaps.')
+guide=dict(id='bbsfm',name='Birth by Sleep',edition='Final Mix',accent='blue',craftingLabel='Melding & Ice Cream',categories=[dict(id=i,label=l,icon=k) for i,l,k in [('bestiary','Bestiary','monster'),('treasures','Treasures','chest'),('stickers','Stickers','spark'),('reports','Xehanort Reports','scroll'),('keyblades','Keyblades','sword'),('commands','Command Shop','wand'),('styles','Command Styles','spark'),('dlinks','D-Links','heart'),('abilities','Abilities','leaf'),('finishers','Finish Commands','heart'),('album','Sticker Album Rewards','book'),('challenges','Unversed Missions','medal'),('arena','Mirage Arena','cup'),('minigames','Minigames','trinity'),('episodes','Episodes','torn-page'),('achievements','Steam Achievements','medal')]],worlds=[dict(name=w,summary=('Aqua’s Secret Episode; separate from the standalone 0.2 game.' if w=='Realm of Darkness' else 'Solo Arena battles, medal shop and character-specific rewards.' if w=='Mirage Arena' else 'Character-specific treasure and sticker records; use collection links to filter this world.')) for w in worlds],entries=entries,recipes=recipes,coverage='Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Within-room pickup locators and practical farming loops are supplied with explicit evidence limits. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. The Steam overlay includes 45 BBS goals; all 45 API IDs are mapped; exact save aggregation, raw hidden flags and build-specific glitch behavior remain incomplete. Bestiary is a partial crystal-drop reference; all 187 persistent HD commands have acquisition guidance with edition exclusions. Deferral does not verify missing CP, drop, timing or Reports-order evidence. '+research_summary)
 (ROOT/'src/games/bbsfm/content.json').write_text(json.dumps(guide,ensure_ascii=False,indent=2)+'\n')
 print('entries',len(entries),'recipes',len(recipes),'meld groups',len(groups))

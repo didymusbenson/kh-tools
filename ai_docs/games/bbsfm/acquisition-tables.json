@@ -443,7 +443,21 @@
         "Melodious Grape": 12
       }
     },
-    "notes": "Recipe quantities summed arithmetically. These are manufacture totals, not required inventory if some ice cream was obtained elsewhere. Sugary Skies is the HD name; Milky Way is an alias. Daisy Sorbet is Final Mix."
+    "notes": "Recipe quantities are the arithmetic cost of one manufacture of each eligible kind. Subtract kinds already manufactured, including purchasable/bought kinds; do not automatically subtract story awards while their completion credit is unresolved. Sugary Skies is the HD name; Milky Way is an alias. Daisy Sorbet is Final Mix.",
+    "practical_completion_2026_10_03": {
+      "guidance": "Manufacture each of the eight eligible kinds once for the documented Sweetstack/Pâtissier route. A kind becomes purchasable only after manufacture, so a bought/already-manufactured kind does not require another manufacture or more ingredients. Do not subtract a Million Dreams story award solely because it was received: story-award substitute credit remains unresolved.",
+      "unresolved_story_awards": {
+        "Terra": "Rockin’ Crunch",
+        "Ventus": "Double Crunch",
+        "Aqua": "Royalberry"
+      },
+      "sources": [
+        "https://www.khwiki.com/Ice_cream",
+        "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/75",
+        "https://www.khwiki.com/Sweetstack"
+      ]
+    }
   },
   "flavors": {
     "source": "https://www.khwiki.com/Flavors",
@@ -1634,11 +1648,14 @@
           "prior_acquisition_supported": true,
           "sources": [
             "https://www.khwiki.com/Moogle_Shop",
-            "https://www.khwiki.com/Fire_Dash"
+            "https://www.khwiki.com/Fire_Dash",
+            "https://kouryakutsushin.com/khbbs/shop.htm"
           ]
         },
         "uncertainty": "Fire Dash sources disagree: the Moogle and command stat tables list 150 munny at Shop Level 4, while the command acquisition prose lists 450 munny after five worlds. Check the displayed shop price; neither conflicting number is certified for Steam.",
-        "instructions": "Command Shop: obtain Fire Dash elsewhere to unlock a copy. Price and story gate conflict between published tables (150 munny, Shop Level 4) and acquisition prose (450 munny, five worlds). Check the displayed shop price."
+        "instructions": "Command Shop: the preferred table-backed route is 150 munny at Shop Level 4, after clearing Enchanted Dominion, Dwarf Woodlands and Castle of Dreams; prior acquisition also stocks it. Price and story gate conflict: acquisition prose says 450 munny/five worlds, but the stat table and independent FM shop guide support 150. Check the displayed price.",
+        "instructions_history_2026_10_02": "Command Shop: obtain Fire Dash elsewhere to unlock a copy. Price and story gate conflict between published tables (150 munny, Shop Level 4) and acquisition prose (450 munny, five worlds). Check the displayed shop price.",
+        "evidence_preference": "Use the specific item/shop tables for the practical route; retain conflicting generic acquisition prose as provenance. This is a source-weighted guide conclusion, not binary certification."
       },
       {
         "name": "Fire",
@@ -4234,5 +4251,262 @@
     "flavors": 42,
     "finish_character_predicates": 42,
     "command_shop_rows": 108
+  },
+  "medal_shop": {
+    "reviewed": "2026-10-02",
+    "rows": [
+      {
+        "name": "Zantetsuken",
+        "cost": 1000,
+        "currency": "medals",
+        "shop_level": 5,
+        "arena_level": 8,
+        "characters": [
+          "Terra"
+        ],
+        "instructions": "Terra: Mirage Arena Medal Shop, 1000 medals; Shop Level 5 AND Arena Level 8.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Group Cure",
+        "cost": 180,
+        "currency": "medals",
+        "shop_level": 1,
+        "arena_level": 1,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 180 medals; Shop Level 1 AND Arena Level 1.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Group Cura",
+        "cost": 360,
+        "currency": "medals",
+        "shop_level": 1,
+        "arena_level": 5,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 360 medals; Shop Level 1 AND Arena Level 5.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Group Curaga",
+        "cost": 500,
+        "currency": "medals",
+        "shop_level": 1,
+        "arena_level": 10,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 500 medals; Shop Level 1 AND Arena Level 10.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Confetti",
+        "cost": 150,
+        "currency": "medals",
+        "shop_level": 3,
+        "arena_level": 1,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 150 medals; Shop Level 3 AND Arena Level 1.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Fireworks",
+        "cost": 400,
+        "currency": "medals",
+        "shop_level": 4,
+        "arena_level": 5,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 400 medals; Shop Level 4 AND Arena Level 5.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Victory Pose",
+        "cost": 100,
+        "currency": "medals",
+        "shop_level": 1,
+        "arena_level": 1,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 100 medals; Shop Level 1 AND Arena Level 1.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Vanish",
+        "cost": 750,
+        "currency": "medals",
+        "shop_level": 3,
+        "arena_level": 5,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 750 medals; Shop Level 3 AND Arena Level 5.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Trinity Limit",
+        "cost": 1400,
+        "currency": "medals",
+        "shop_level": 3,
+        "arena_level": 1,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 1400 medals; Shop Level 3 AND Arena Level 1.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Voltage Stack",
+        "cost": 1800,
+        "currency": "medals",
+        "shop_level": null,
+        "arena_level": 5,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 1800 medals; Arena Level 5; the source leaves its additional Shop Level unspecified.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Unison Rush",
+        "cost": 3000,
+        "currency": "medals",
+        "shop_level": null,
+        "arena_level": 10,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 3000 medals; Arena Level 10; the source leaves its additional Shop Level unspecified.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Aerial Recovery",
+        "cost": 320,
+        "currency": "medals",
+        "shop_level": null,
+        "arena_level": 5,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 320 medals; Arena Level 5; the source leaves its additional Shop Level unspecified. The independent PSP-FM shop table gives no Arena-level figure; the HD-aware table lists 5. Earlier availability remains unresolved.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Flame Salvo",
+        "cost": 900,
+        "currency": "medals",
+        "shop_level": 1,
+        "arena_level": 5,
+        "characters": [
+          "Aqua"
+        ],
+        "instructions": "Aqua: Mirage Arena Medal Shop, 900 medals; Shop Level 1 AND Arena Level 5.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Bio Barrage",
+        "cost": 2500,
+        "currency": "medals",
+        "shop_level": 5,
+        "arena_level": 15,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 2500 medals; Shop Level 5 AND Arena Level 15.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      },
+      {
+        "name": "Photon Charge",
+        "cost": 1600,
+        "currency": "medals",
+        "shop_level": 3,
+        "arena_level": 10,
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "instructions": "Terra/Ventus/Aqua: Mirage Arena Medal Shop, 1600 medals; Shop Level 3 AND Arena Level 10.",
+        "sources": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://kouryakutsushin.com/khbbs/medal-shop.htm"
+        ]
+      }
+    ],
+    "remaining": "Shop levels for Voltage Stack, Unison Rush and Aerial Recovery are unspecified in the main table; Aerial Recovery earlier Arena availability also differs between the two sources. Null is not Arena/Shop level zero."
   }
 }

@@ -43,1248 +43,2412 @@
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-002",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-003",
       "game": "kh2fm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "playerGoal": "Collect the three remaining upper-Mineshaft crowns and finish Sunset.",
+      "sufficientGuidance": "Each of Sunset 32/36/40 gives the Engine Chamber/Magic Boost/white-orb starting point and complete Glide LV3 pipe sweep to the far landing. All three physical crowns and the solved Sunset board are covered.",
+      "deferredDetails": "Independent binding of each pipe/landing to board slots 32, 36 and 40; not the three-crown route itself.",
+      "deferralReason": "The shared sweep collects the entire small group. Certifying a per-pipe slot would shorten an already localized search, but is not needed to obtain the crowns or finish the board. Existing uncertainty is retained.",
+      "reopenWhen": "A player cannot find a remaining crown with the sweep, or a requested missing-slot-only locator needs exact mapping.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH2-004",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-005",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-006",
       "game": "kh2fm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "playerGoal": "Find and buy equipment, including avoiding Dark Anklet missability.",
+      "sufficientGuidance": "All 131 equipment records have acquisition text; named vendor/loot/reward/recipe paths are present. Dark Anklet specifically explains visiting Disney Castle Mogjiro before the Lingering Will portal cutoff and the later Twilight Town/Radiant Garden stock sharing.",
+      "deferredDetails": "Every retail shop stock event flag, intermediate story-phase and room-spawn predicate, plus Steam binary parity.",
+      "deferralReason": "No equipment record is left without an acquisition route. Exhaustive early-access vendor availability would support an earliest-purchase optimizer that the current journal does not offer; it is not required for the listed completion routes. The known permanent cutoff remains prominent.",
+      "reopenWhen": "An actual listed vendor route fails in an identified story state, or an earliest-purchase planner is approved.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH2-007",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-008",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-009",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-010",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-011",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-012",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-013",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-014",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-015",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-016",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-017",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-018",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-019",
       "game": "kh2fm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "playerGoal": "Meet Mushroom Journal targets and obtain challenge rewards.",
+      "sufficientGuidance": "All twelve scored challenges have targets, rank/reward tables and strategies. The script-derived HP-floor warning and XII warp-specific Thunder protection are integrated. XIII is a reward event after the first twelve, with Look Up and Ready, Go! actions.",
+      "deferredDetails": "Complete Mushroom AI control-flow and external initialization, XIII combat-sheet mapping, every effective phase stat and Steam byte parity.",
+      "deferralReason": "The missing internal model does not change the supplied challenge route or reward action. XIII does not require defeating a hypothetical HP bar. A complete combat simulator or frame-perfect optimizer is beyond this acquisition guide.",
+      "reopenWhen": "A published tactic fails because of a specific phase rule or a separately requested simulator needs exact effective values.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH2-020",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-021",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-022",
       "game": "kh2fm",
       "baselineEvidenceStatus": "other limitation",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "implementation",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "KH2-023",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-024",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-025",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-026",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-027",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-028",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-029",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-030",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-031",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-032",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-033",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-034",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-035",
       "game": "kh2fm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH2-036",
       "game": "kh2fm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "provenance",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "KH2-037",
       "game": "kh2fm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "confidence",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "KH2-038",
       "game": "kh2fm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "platform",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "KH2-039",
       "game": "kh2fm",
       "baselineEvidenceStatus": "other limitation",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "implementation",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "KH2-040",
       "game": "kh2fm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "excluded",
+      "report": "ai_docs/games/kh2fm/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "BBS-001",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-001",
+      "playerGoal": "Find the remaining chest or sticker and complete the character collection.",
+      "sufficientGuidance": "All 374 main chest rows and eight Secret Episode rows retain approach guidance. The 39 specifically weak chest rows have inspected locators, including paired-chest directions. The complete 60-row sticker census now has 60 useful within-room locators after correcting 26 weak notes. All 60 album placements remain separate and intact.",
+      "deferredDetails": "Uniform save-point-to-pickup scripts, exact minimum movement and earliest access, and single-chest reward assignment where opening the documented adjacent pair suffices.",
+      "deferralReason": "After actually correcting the 39 weak chest rows and 26 weak sticker notes, current landmarks identify the collection target. A complete repeat walkthrough adds precision without changing that action. Mere existence of 60 notes was not accepted as evidence of sufficiency.",
+      "reopenWhen": "A named collectible remains unlocatable with its supplied landmark/approach, or a requested route needs a specific earlier or restricted movement solution.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-002",
       "game": "bbsfm",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "researched-open",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-002",
+      "playerGoal": "Match a missing in-game treasure to a collectible without losing saved checks.",
+      "sufficientGuidance": "The guide keeps 374 main chests, eight Secret Episode chests and 60 stickers separate from the tutorial, with stable character/world/room/reward identities. Source positions are explicitly not official Reports slots.",
+      "deferredDetails": "A 374-record reconciliation against exact Steam Reports slot numbers and retail ITB report bytes.",
+      "deferralReason": "Players can collect by location and reward without an exact Reports-slot lookup. The current feature does not promise that lookup; binary extraction would add optional indexing rather than a missing acquisition.",
+      "reopenWhen": "An in-game Reports-slot lookup is approved or a concrete duplicate/missing chest cannot be disambiguated by current location evidence.",
+      "normalizedEvidenceStatus": "unresolved/conflicted"
     },
     {
       "id": "BBS-003",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-003",
+      "playerGoal": "Reach collectibles and avoid mistakenly abandoning late cleanup.",
+      "sufficientGuidance": "Known movement prerequisites, post-Mad-Treant return timing and HD main-save Land of Departure revisit are documented. Aqua Final Episode remains distinct. Cleanup can wait until the character has learned and leveled the indicated movement commands.",
+      "deferredDetails": "Globally earliest visits, exact minimum movement levels and every shortcut/alternate jump.",
+      "deferralReason": "Completion does not require collecting each item at its earliest possible moment. Higher-level movement and later main-save cleanup provide the documented route; minimum-level routing is optional optimization.",
+      "reopenWhen": "A named collectible remains unreachable with the described commands, or a restricted/earliest-visit route is requested.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-004",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-004",
+      "playerGoal": "Place all stickers for 140 points and album rewards.",
+      "sufficientGuidance": "All 60 album placement regions are integrated. Visually inspected all three completed KHRealm album images and authored the missing 28 placement landmarks, including all 20 Ventus. Placement is independent from pickup; seven-point feedback verifies the chosen spot.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-005",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-005",
+      "playerGoal": "Find Secret Episode’s Secret Gem in the correct area.",
+      "sufficientGuidance": "Secret Gem is in Lower Zone: climb the raised pillars before proceeding to Upper Zone. Corrected generated instructions and retained separate Secret Episode context.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-006",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-006",
+      "playerGoal": "Meld Mine Square and obtain its attached ability without using the wrong recipe.",
+      "sufficientGuidance": "Aerora Lv3 + Ignite Lv3 is an integrated working recipe with valid outcome/ability mappings. The disputed Lv1–2 eligibility is explicitly not promised.",
+      "deferredDetails": "The lowest Ignite input level, 1 versus 3, in the retail Steam command-charge data.",
+      "deferralReason": "Using the supported Lv3 input accomplishes the same command/ability goal. Proving that a lower-level shortcut also works would save leveling time but does not unblock the meld.",
+      "reopenWhen": "The supported Lv3 recipe fails, or a precise minimum-level melding optimization is needed.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-007",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-007",
+      "playerGoal": "Meld Magnet Spiral with correct chances and abilities.",
+      "sufficientGuidance": "Magnet Spiral 20% / Collision Magnet 80%, Stun Edge Lv3 + Magnera Lv3, all characters and crystal mappings integrated.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-008",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-008",
+      "playerGoal": "Find Confusion Strike consistently by its BBS name.",
+      "sufficientGuidance": "Confusion Strike is the BBS identity; historical Confusing Strike spelling remains correction provenance only.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-009",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-009",
+      "playerGoal": "Know which persistent commands each HD character can obtain.",
+      "sufficientGuidance": "Canonical persistent HD catalog now has 187 identities with independently table-backed types and character eligibility: 40 Attack, 57 Magic, 23 Item, 15 Friendship, 17 Movement, 10 Defense, 8 Reprisal, 17 Shotlock. Exclusion records distinguish temporary, multiplayer and HD-removed commands.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-010",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-010",
+      "playerGoal": "Obtain every persistent command needed for a build or Reports completion.",
+      "sufficientGuidance": "All 187 persistent command identities have acquisition text. The 108 normal shops use named-world progression, 15 Medal Shop command rows state known gates, and Megalixir has chest alternatives. Three Medal Shop records still cannot explain an absent item at the stated Arena level.",
+      "deferredDetails": "Exhaustive alternate acquisitions, 13 unspecified prior-acquisition shop alternatives, and Fire Dash conflicting price/story prose where non-shop acquisition is already supplied.",
+      "deferralReason": "Those alternatives are optional after a usable acquisition is supplied; the three missing Medal Shop gates remain active because stock absence can block the chosen route.",
+      "reopenWhen": "A supplied alternative fails for a named character, or an unlisted route is required; close the three active shop-gate records when applicable evidence is found.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "Unison Rush and Aerial Recovery are shop-only in the inspected catalog, and their Shop Level cells remain unspecified. Voltage Stack has the same unknown purchase field but also the Element Cluster reward route. Aerial Recovery Arena 5 versus the PSP-FM required-Arena dash remains an HD first-availability question. Do not fill unknown Shop Level cells with zero or one.",
+      "nextEvidence": "An applicable HD/FM shop table or illustrated guide giving Unison Rush, Aerial Recovery and Voltage Stack stock prerequisites, and resolving Aerial Recovery’s first availability; no binary extraction is required."
     },
     {
       "id": "BBS-011",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-011",
+      "playerGoal": "Get a desired command without relying on an unidentified enemy farm.",
+      "sufficientGuidance": "Thirty-eight command drop records retain enemy/rate/shop-band evidence, while command acquisition and character-scoped melding offer non-drop routes. The source distinguishes world drops from acquisition guarantees.",
+      "deferredDetails": "Every enemy-room-character drop join, reset loop and nested retail drop-table value.",
+      "deferralReason": "Command ownership goals already have acquisition routes that do not need random world drops. An exhaustive drop atlas would optimize optional farming, rather than supply a missing command.",
+      "reopenWhen": "A command is shown to lack a practical non-drop path, or a requested farming tool needs a specific missing encounter.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-012",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-012",
+      "playerGoal": "Level commands, master abilities and satisfy melding level requirements.",
+      "sufficientGuidance": "Published maximum levels and 152 CP curves are available; conflicted/incomplete curves are flagged. Players can equip a command, gain CP until its in-game maximum, and use the displayed level for the recipe without knowing its exact remaining CP total.",
+      "deferredDetails": "Missing retail CP rows/curves for Collision Magnet, Homing Slide, High Jump, Barrier and five Illusions, plus unresolved curve exceptions.",
+      "deferralReason": "Exact CP scheduling is not required to master the command or check a recipe level. Do not invent numbers or treat a partial curve as a different maximum.",
+      "reopenWhen": "A quantitative CP planner is approved, or an observed mastery/recipe boundary contradicts the current maximum.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-013",
       "game": "bbsfm",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "researched-open",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-013",
+      "playerGoal": "Learn a specific permanent ability reliably.",
+      "sufficientGuidance": "The 112 standard crystal/type relationships and character-specific recipes let players target the ability directly. No-crystal attachment chance is separate; Chaos/Secret Gem outcomes remain described as random without invented weights.",
+      "deferredDetails": "Ability-identity probability weights and selection logic for no-crystal, Chaos Crystal and Secret Gem outcomes.",
+      "deferralReason": "Random-ability optimization is unnecessary when the standard crystal route can produce the desired ability. Uniform distributions and expected-attempt calculators would be unsupported.",
+      "reopenWhen": "A random-outcome probability feature is requested or an ability cannot be obtained with the current deterministic mappings.",
+      "normalizedEvidenceStatus": "unresolved/conflicted"
     },
     {
       "id": "BBS-014",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-014",
+      "playerGoal": "See each ability’s effect, acquisition and enabled stack cap.",
+      "sufficientGuidance": "All 30 ability effects, stack references and permanent-learning rules are integrated. Scan and Critical-only Zero EXP starting-command acquisition is visible even without meld recipes; modern Zero EXP CP/damage note is sourced.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-015",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-015",
+      "playerGoal": "Collect crystals for ability melding.",
+      "sufficientGuidance": "Twelve route records cover all nine crystals: seven standard Twister Trench routes, early Aqueduct Abounding, three character-specific Chaos/Archraven routes and the all-character Fountain Court ordinary-Flood Secret Gem loop. Conditions give Shop bands, reset steps, Aqua main-save restriction and source limitations. All nine Medal Shop alternatives remain visible.",
+      "deferredDetails": "Direct HD/Steam replication of the published encounter/reset syntheses; exhaustive enemy-room-character atlas, timed yields, fastest-route ranking and optimized reset timers.",
+      "deferralReason": "Each material now has a concrete character-scoped room/enemy/drop-band/repeat route and a shop alternative. Exact replication evidence and an exhaustive or fastest atlas would strengthen provenance or optimization, but are not a missing player action. The former Chaos/Secret room gaps were researched before deferral.",
+      "reopenWhen": "The named enemies or repeat step fail in the applicable HD room, a source establishes a changed edition condition, or a requested earlier/efficient route is unsupported.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-016",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-016",
+      "playerGoal": "Improve useful drop odds while farming.",
+      "sufficientGuidance": "Lucky Strike has a five-stack cap and a labeled community formula. Enabled stacks are separate from learned copies; Prize Pod flavor hits are not modeled as ordinary prize-box rolls.",
+      "deferredDetails": "Independent Steam proof of the exact per-stack transformation, caps/rounding and nested drop application.",
+      "deferralReason": "Players can enable available Lucky Strike stacks without calculating an exact expected yield. The current app makes no certified time-to-drop or fastest-farm claim.",
+      "reopenWhen": "A probability/expected-time calculator is approved, or observed behavior exposes a practical drop advice error.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-017",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-017",
+      "playerGoal": "Use the correct Fleeting Crystal enemy/shop-level relationship.",
+      "sufficientGuidance": "Spiderchest Fleeting Crystal is 3.6% at Shop 1–2 only; source relationship is integrated in both generators and detail views.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-018",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-018",
+      "playerGoal": "Choose and collect character-appropriate Keyblades.",
+      "sufficientGuidance": "The 24 weapon forms, 48 character/episode records, acquisition conditions, Strength/Magic values, reach evidence and Royal Radiance passive are available. Brightcrest and Master’s Defender retain episode scope.",
+      "deferredDetails": "The Pixie Petal critical multiplier dispute (1.35 versus 1.5) and independent retail reach/stat certification.",
+      "deferralReason": "These values do not change where the weapon is obtained or whether it completes a collection goal. Exact damage optimization is optional; the disagreement is retained rather than selected arbitrarily.",
+      "reopenWhen": "A damage optimizer is approved, or a weapon recommendation demonstrably changes because of the disputed value.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-019",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-019",
+      "playerGoal": "Make ice cream, unlock Sweetstack and satisfy manufacture goals.",
+      "sufficientGuidance": "Fourteen recipe quantities, eight eligible kinds per character, 42 flavors and 22 farming routes are integrated. Make each eligible kind once for the documented Sweetstack/Pâtissier route. Purchase only unlocks after manufacture, so bought/already-manufactured kinds need no repeat work. The three Million Dreams story awards remain distinct because avoidable ingredient farming matters.",
+      "deferredDetails": "",
+      "deferralReason": "Not deferred: whether the three story awards count can avoid unnecessary ingredient farming. Bought kinds are resolved because purchase follows prior manufacture; that does not establish story-award credit.",
+      "reopenWhen": "Applicable HD/FM completion guidance that distinguishes story ownership from first manufacture can settle the remaining three cases.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "Determine whether the Million Dreams story-awarded Rockin’ Crunch (Terra), Double Crunch (Ventus) and Royalberry (Aqua) satisfy Sweetstack manufacture completion, and distinguish Reports ownership from that reward predicate. Do not prescribe repeat manufacture for an already-made kind.",
+      "nextEvidence": "Applicable HD/FM completion guidance that distinguishes story ownership from first manufacture can settle the remaining three cases."
     },
     {
       "id": "BBS-020",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-020",
+      "playerGoal": "Farm the required ice-cream flavors in the correct character/event.",
+      "sufficientGuidance": "All 42 flavor records now join character-scoped room/event routes across 22 Prize Pod route records. Spawn-wave/interaction notes and world reset guidance are integrated; Arena replay reset is kept separate.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-021",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-021",
+      "playerGoal": "Unlock Mirage Arena battles and their rewards.",
+      "sufficientGuidance": "Twenty-nine Arena level conditions and all six priced tickets remain integrated. A Time to Chill now gives the actual Aqua versus Terra/Ventus conditions. Legally purchased Threat/Chill tickets have explicit gates; those documented purchases already satisfy the relevant story condition.",
+      "deferredDetails": "Hypothetical tickets obtained before their documented shop story gates; exact unrelated numeric reward values remain BBS-022.",
+      "deferralReason": "No normal acquisition route supplies the hypothetical pre-story ticket, so that speculative state does not block using the documented ticket.",
+      "reopenWhen": "A legal earlier ticket source is established; close the separate Combined Threat cross-clear dispute with applicable guidance.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "Combined Threat: resolve the finite early-entry/other-character-clear alternative disputed by the HD Japanese guidance and KHWiki. Normal Arena 7 plus Radiant Garden and the purchased Threat Ticket path remain usable, but the potentially cheaper progression alternative should not be buried in optional precision.",
+      "nextEvidence": "Applicable HD/FM instructions that distinguish Combined Threat’s normal Arena/world route from the other-character-clear alternative and identify which character/save condition grants entry."
     },
     {
       "id": "BBS-022",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-022",
+      "playerGoal": "Clear the correct battle to obtain its reward and Arena progress.",
+      "sufficientGuidance": "Character reward identities, important Shotlocks/Keyblades, Mini, HP bonuses and Sky Climber are documented; the two disputed HP amounts remain visible.",
+      "deferredDetails": "Exact modern HP increases for A Time to Chill (+5/+10) and Light’s Lessons (+10/+15).",
+      "deferralReason": "Both disputed amounts point to the same battle and positive HP reward. Collection and Arena-clear goals do not require an exact HP budget; preserve uncertainty rather than choose a number.",
+      "reopenWhen": "A precise HP progression planner is approved or a battle reward observation resolves the conflicting value.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-023",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-023",
+      "playerGoal": "Buy the correct Arena ticket at its actual documented cost/gates.",
+      "sufficientGuidance": "Ringer Ticket costs 250 medals; Shop Level 1 AND Arena Level 5, one Dead Ringer entry. All six tickets are structured and displayed.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-024",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-024",
+      "playerGoal": "Understand the normalized Arena level and completion conditions.",
+      "sufficientGuidance": "All 29 FM Arena level predicates are structured: six cumulative-medal thresholds, 15 battle clears, four five-lap course times and four board-win counts. Existing battles/races plus 30 scoped medal/board check records cover the predicates.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-025",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-025",
+      "playerGoal": "Earn three stars and collect each Unversed Mission reward.",
+      "sufficientGuidance": "All nine complete rank tables and 27 character tactics are present. Conservative scoring guidance aims beyond the disputed boundary and uses the game’s awarded star rank to confirm success.",
+      "deferredDetails": "Exact Steam equality comparators for five published score/survival thresholds.",
+      "deferralReason": "A score above the disputed lower limit meets either interpretation. It avoids turning a one-point/one-second boundary into an unnecessary binary investigation.",
+      "reopenWhen": "The conservative target fails, or a score-tracking feature must distinguish an exact-boundary result.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-026",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-026",
+      "playerGoal": "Meet minigame rewards and score/time conditions.",
+      "sufficientGuidance": "Integrated all five Final Mix Ice Cream Beat songs with Beginner/Master Good/Cool/Fantastic scores, first/repeat prizes and controls; Fruitball opponent first/repeat rewards and tactics; all four race rewards/route guides. Original Japanese Special mode and three/nine-lap targets are explicitly excluded from HD rules.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "BBS-027",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-027",
+      "playerGoal": "Acquire board-exclusive commands, unlock Pete and earn Arena board wins.",
+      "sufficientGuidance": "All seven boards, 45 bonus panels and 17 opponent inventories (288 command-level rows) are indexed. All 16 published character/mode footnotes are integrated. Use menu games for purchases, complete the game to keep them, and respect normal/limited and character eligibility. Arena win goals are separate.",
+      "deferredDetails": "Thirty-nine unspecified Skull card multiplicities, AI purchase behavior, card draw probabilities and an exhaustive proof of all exceptions.",
+      "deferralReason": "Players can acquire documented commands using known panel, ownership, character and menu-mode rules without knowing AI draw probabilities or exact opponent multiplicities. Missing acquisition conditions were integrated before deferring the rest.",
+      "reopenWhen": "A named acquisition is absent in the advised mode, or an approved board simulator needs quantities/AI logic.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-028",
       "game": "bbsfm",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "researched-open",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-028",
+      "playerGoal": "Unlock every branch of the finish-command tree without wasting progress.",
+      "sufficientGuidance": "The 46 nodes identify eligible equipped parent, metric, target and style. Practical guidance now says to keep an eligible parent equipped until the desired child unlocks.",
+      "deferredDetails": "Whether switching away and back pauses or resets partial finisher progress.",
+      "deferralReason": "Staying on the eligible parent avoids the unknown transition entirely. A save-counter reverse-engineering project would answer an optional switching question without changing the safe unlock route.",
+      "reopenWhen": "A player needs to recover progress after switching, or a save-inspection/progress-migration feature is approved.",
+      "normalizedEvidenceStatus": "unresolved/conflicted"
     },
     {
       "id": "BBS-029",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-029",
+      "playerGoal": "Unlock and use styles, D-Links and Shotlocks, including usage achievements.",
+      "sufficientGuidance": "Fifteen styles, thirteen persistent D-Links, seventeen Shotlocks, 39 decks/finisher lists and 22 finisher action summaries are supplied. Pete’s Rumble Rave is now usable from its explicit inputs; Reports guidance requires a nonzero hit count for each listed finisher/Shotlock, including Base and Enhanced variants.",
+      "deferredDetails": "Pete’s exact emblem/gauge probabilities and complete finisher/Shotlock damage, duration and frame tables.",
+      "deferralReason": "The player can activate and steer the finisher and verify a nonzero Reports hit count without these optimization numbers. Missing controls or completion actions are not deferred.",
+      "reopenWhen": "A specific link/action cannot be performed from existing guidance, or a timing/damage simulator needs the missing values.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-030",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-030",
+      "playerGoal": "Defeat the optional bosses and finish the Secret Episode.",
+      "sufficientGuidance": "Six encounter overviews give access, reward, defensive openings, healing cautions and FM/HD distinctions. Unknown now explicitly recommends Second Chance/Once More, mobile healing windows and character-specific evasions; Vanitas Remnant retains the Cure-heals-boss warning.",
+      "deferredDetails": "Exhaustive per-character attack/recovery tables, exact frame/damage/stat fields and all challenge-run exceptions.",
+      "deferralReason": "Ordinary completion has usable tactics and preparation without a frame-perfect strategy encyclopedia. No guarantee that a build wins every attempt is claimed.",
+      "reopenWhen": "A concrete attack repeatedly blocks a player using the current advice, or an approved challenge-run/damage feature needs precise mechanics.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "BBS-031",
       "game": "bbsfm",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "researched-open",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-031",
+      "playerGoal": "Unlock Final/Secret Episode after the main stories, especially with mixed-difficulty saves.",
+      "sufficientGuidance": "Letter plus Reports I–XII, all three clear files, distinct Aqua episode saves and the difficulty table support ordinary progression. Keep original main clear saves; check required in-game Trinity trophies. Existing guidance does not settle failed or mixed-difficulty unlocks.",
+      "deferredDetails": "",
+      "deferralReason": "Not deferred: a wrong save-selection/aggregation rule can block story content or cause unnecessary replay. Keep this practical exception open.",
+      "reopenWhen": "Applicable edition-aware completion/troubleshooting guidance, implementation evidence or a reproducible observation resolves the stated exception; a user playthrough is not required.",
+      "normalizedEvidenceStatus": "unresolved/conflicted",
+      "openQuestion": "How do mixed-difficulty or problematic main clear-file combinations affect Final/Secret Episode availability, and what non-destructive action works for an affected Steam save?",
+      "nextEvidence": "Edition-labelled successful unlock/recovery guidance explaining the clear files and difficulty combination, or authoritative selection logic. A useful guide can suffice; a complete binary/flag matrix is not required."
     },
     {
       "id": "BBS-032",
       "game": "bbsfm",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-032",
+      "playerGoal": "Earn and correctly diagnose the 45 Steam achievements.",
+      "sufficientGuidance": "All 45 BBS API IDs/goals are mapped; no PlayStation platinum is added. Manual award checks remain distinct from item/album completion. The 2024 Steam Collector anecdote confirms a reported failure, not its cause or a safe remedy.",
+      "deferredDetails": "Raw hidden-flag booleans and purely presentational metadata beyond the 45 named goals.",
+      "deferralReason": "Hidden booleans do not change how the player earns a visible named goal, so that subfield is deferred. Save aggregation and current-build Collector failure diagnosis remain open because they can prevent an award.",
+      "reopenWhen": "Applicable edition-aware completion/troubleshooting guidance, implementation evidence or a reproducible observation resolves the stated exception; a user playthrough is not required.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "What non-destructive diagnosis or recovery is supported when Steam Collector remains locked despite apparently completed character collections?",
+      "nextEvidence": "Applicable successful recovery guidance or official information that distinguishes the missing completion action from a save-aggregation failure; a single failure anecdote does not establish the cause."
     },
     {
       "id": "BBS-033",
       "game": "bbsfm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "provenance",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-033",
+      "playerGoal": "Understand the edition and confidence of the guide.",
+      "sufficientGuidance": "Sources, dates, edition distinctions and community-versus-retail provenance are explicit. Fresh page inspections are not gameplay/build certification.",
+      "deferredDetails": "An exact executable/depot provenance stamp for otherwise usable guidance.",
+      "deferralReason": "Binary provenance alone would not improve a known player action. It remains an evidence limitation, with targeted build checks required if a version-dependent problem appears.",
+      "reopenWhen": "A concrete version-dependent discrepancy requires the original retail values.",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "BBS-034",
       "game": "bbsfm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "provenance",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-034",
+      "playerGoal": "Use a functioning melding reference with traceable input data.",
+      "sufficientGuidance": "The 296-outcome source, historical workbook ranges, blank acquisition cells and repository tool lineage are preserved; current generators and solver behavior can be tested independently.",
+      "deferredDetails": "Reconstructing an absent historical workbook/application UI or behavior.",
+      "deferralReason": "Recovering an unavailable predecessor does not change the current player-facing recipe/ability routes. This is a provenance limitation, not an unknown game rule.",
+      "reopenWhen": "The original artifact is supplied, or a concrete legacy behavior must be recovered.",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "BBS-035",
       "game": "bbsfm",
       "baselineEvidenceStatus": "other limitation",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "implementation",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-035",
+      "playerGoal": "Trust persistent progress, inventory changes and offline/mobile use.",
+      "sufficientGuidance": "Existing implementation and tests are documented; atomic consume/undo and full mobile/offline acceptance remain engineering work. Data Jiminy stays empty.",
+      "deferredDetails": "",
+      "deferralReason": "Not deferred as game research and not marked complete: software acceptance requires its own implementation/QA work.",
+      "reopenWhen": "The separately tracked engineering acceptance work is undertaken.",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "BBS-036",
       "game": "bbsfm",
       "baselineEvidenceStatus": "other limitation",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "visual",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-036",
+      "playerGoal": "Use a faithful, readable BBS journal interface.",
+      "sufficientGuidance": "Reference assets and prototype context exist; production art, animation/weapon integration and device fidelity remain visual/engineering acceptance.",
+      "deferredDetails": "",
+      "deferralReason": "Not converted into a gameplay research requirement or silently removed from app scope.",
+      "reopenWhen": "The separately tracked visual/device acceptance work is undertaken.",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "BBS-037",
       "game": "bbsfm",
       "baselineEvidenceStatus": "other limitation",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "other-limitation",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "excluded",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-037",
+      "playerGoal": "Follow Steam HD acquisition rules without PSP or KH0.2 requirements.",
+      "sufficientGuidance": "PSP multiplayer/transfer, standalone KH0.2 and tutorial Reports counting stay excluded. Thirteen legacy/temporary acquisition statements are now explicitly excluded from active command guidance.",
+      "deferredDetails": "",
+      "deferralReason": "Settled scope exclusions are not unanswered mechanics; broader Reports achievements retain their separate requirements.",
+      "reopenWhen": "The user explicitly changes supported edition/game scope.",
+      "normalizedEvidenceStatus": "other limitation"
     },
     {
       "id": "BBS-038",
       "game": "bbsfm",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "report": "ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md#bbs-038",
+      "playerGoal": "Use no-crystal attachment chances without invalid-level calculator errors.",
+      "sufficientGuidance": "Calculator displays no-crystal ability chances 10/20/30/40/50% by combined levels, keeps Shotlocks ability-free, and rejects invalid/fractional input levels.",
+      "deferredDetails": "",
+      "deferralReason": "",
+      "reopenWhen": "A concrete contrary observation changes the supported guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-001",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Collect the 438 HD treasures and their rewards.",
+      "sufficientGuidance": "All 438 item/character/Reports identities have pickup landmarks, 51 additional source notes, and 11 Grid action improvements. Known exceptional access instructions remain on their specific entries.",
+      "deferredDetails": [
+        "Exhaustive earliest-story-event, minimum-movement and returnability fields for every chest; 437 route rows lack an explicit earliest-access statement."
+      ],
+      "deferralReason": "The current checklist supports finding each pickup, and no specific remaining inaccessible chest has been identified. An exhaustive access matrix would support a progression-gating feature that is explicitly outside the current app, rather than fix a known failed collection route.",
+      "reopenWhen": "A player cannot reach a listed chest using its route, or a documented missable/restricted-access exception is found.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-002",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 438 legacy location rows reconciled to current HD item/area identities: 400 exact joins, 20 quantity-notation normalizations, 16 explicit replacements (14 Treasure→Candy Goggles plus La Cité Tunnels #35/#36), and two uniquely identified Curaga/Doubleflight number remaps. Existing stable IDs and HD table order retained. Explicit HD Spirit formula selection is also integrated. Resolved the known Curaga/Doubleflight order disagreement: Curaga is HD Reports2, Doubleflight3. Preserve legacy source3/2, current saved IDs and all edition replacements; remove only the outdated order caveat. This is documentary corroboration of the disputed pair, not a claim to have438 Reports screenshots.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-003",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use Jestabocky’s actual board, including its B/C/D stat branch.",
+      "sufficientGuidance": "Jestabocky’s published B-3 Left connector to A-3 is now in the canonical and generated board path. A-3 already has its ordinary A-2 approach; the B/C/D branch is reachable in the normalized source graph. No alternate Spirit is needed to explain the connector.",
+      "deferredDetails": [],
+      "deferralReason": "Resolved the actual model error by preserving an explicitly declared source path. Further binary or independent Steam-diagram proof is not required to normalize an undirected connector already in the source.",
+      "reopenWhen": "New contradictory source evidence or an actual player report shows the published connector/board guidance is wrong.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-004",
       "game": "dddhd",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "blocked",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Unlock Aura Lion’s red-secret transformation and use its existing board.",
+      "sufficientGuidance": "The table identifies Red Secret C-7 (250 LP), Green Secret E-6 and a separate level-30 gate at D-7; the footnote disagrees. Flowbermeow remains a workaround for Faith, not closure of Aura Lion’s route.",
+      "deferredDetails": [],
+      "deferralReason": "Reopened: alternate providers help global collection, but do not settle the supported Aura Lion-specific board question.",
+      "reopenWhen": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required.",
+      "normalizedEvidenceStatus": "unresolved/conflicted",
+      "openQuestion": "Confirm which HD red-secret node changes Curaga C-2 to Faith, distinguishing the secret purchase from the level-30 checkpoint.",
+      "nextEvidence": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required."
     },
     {
       "id": "DDD-005",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Create the HD-only Spirits and unlock their useful disposition branches.",
+      "sufficientGuidance": "Recipes, costs, board rewards and known interactions are present. Five missing direct transitions now have explicit two-step alternatives through known cells. A sourced treat-color route also avoids petting precision.",
+      "deferredDetails": [
+        "15 base-stat values for Beatalike/Catanuki/Tubguin Ace and five direct-interaction body-part cells."
+      ],
+      "deferralReason": "Base-stat comparison is an optimization issue, not a prerequisite to creation or board rewards. The five missing interactions are not unreachable dispositions: all can be reached through sourced alternatives. Unknown cells remain unknown.",
+      "reopenWhen": "A stat calculator is approved, an actual combat choice depends on missing values, or a documented interaction detour fails.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-006",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Create the intended Spirit using the selected recipe mode, including colliding custom ingredient combinations.",
+      "sufficientGuidance": "The HD menu guide distinguishes an owned Recipes tab from custom creation. Runtime now says to obtain/select the named recipe for its documented recipe route and to inspect custom preview odds. Two double-marked pairs and a third marked/unmarked collision are recorded explicitly; unconditional raw-input 100% text was removed.",
+      "deferredDetails": [
+        "Probabilities of unrelated unmarked alternatives beyond the three colliding creation events; exact expected-cost optimization."
+      ],
+      "deferralReason": "Reopened: contradictory 100% raw-input guidance could spend a player’s ingredients on the wrong intended breed. A recipe-backed fallback is useful, but does not verify the displayed custom formulas.",
+      "reopenWhen": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "Determine HD custom-creation selection/outcome semantics for Noble Fancy×3 + Grim Figment×4 (Cyber Yog/Sir Kyroo), Epic Fantasy×1 + Intrepid Fantasy×3 (Tyranto Rex/Ursa Circus), and Rampant Figment×4 + Vibrant Fancy×3 (Jestabocky/Meow Wow).",
+      "nextEvidence": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required."
     },
     {
       "id": "DDD-007",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Create useful ranks, earn Golden Egg and train Spirits for board level gates.",
+      "sufficientGuidance": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Golden Egg now has a PS4 HD route: custom-create with 10 Intrepid Figments + 8 Vibrant Figments for either Tama Sheep or Pricklemane at ★. Both base-B outcomes receive +2 ranks from doubling both ingredients; no weather or specific-breed guarantee is needed. Use the preview and train afterward; the malformed starting-level table and weather probability arithmetic are not required.",
+      "deferredDetails": [
+        "Two malformed starting-level cells and relative-versus-percentage-point interpretation of Risky Winds odds."
+      ],
+      "deferralReason": "The concrete ★-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations.",
+      "reopenWhen": "A supported route needs a precise starting-level threshold or a weather/expected-cost optimizer is approved.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-008",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "54 independent recipe-item ownership goals plus 176 Moogle/Medal stock rows; all finite chest joins. Frootz/Kab LV7 500/400; R&R LV2 200/160; Beatalike LV8 1000/800; Tubguin LV2 200/160. Quick Blitz now costs100munny,80during Bargain Flurry,ShopLV1. Preserve the conflicting400/320 historical article extraction and apply an explicit correction layer. No other command/shop price conflict is detected. Recipe ownership and formula availability remain separate.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-009",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Obtain every Dream Piece and gather ingredients for Spirit creation.",
+      "sufficientGuidance": "All 37 materials have sourced enemy/portal routes and chest/shop joins. Rare and ordinary forms stay separate; newly added portal landmarks also propagate into material sources. The re-audit added a repeatable PS4-documented Riku TWTNW Special3 farming loop sufficient to gather the five Brilliant Fantasies used by the three marked formulas, plus the Sora Wild Fantasy counterpart.",
+      "deferredDetails": [
+        "Every ordinary enemy room/spawn loop, exact expiration quantities, earliest possible replay gate and exhaustive payout transitions outside the documented Brilliant/Wild repeat-farm route."
+      ],
+      "deferralReason": "Room-by-room optimal farming and expiration quantities remain optional after adding an actual rotating repeat-farm action for the scarce materials. The former existence-of-routes-only rationale was insufficient; the new loop tells players how to obtain more than their first clear.",
+      "reopenWhen": "A required material cannot be obtained by its listed routes, or a demonstrated farm needs room-level/repeat-reward correction.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-010",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 19 rare-form records now use DDDRworlds, never DDDNworlds. Spirit-only forms are excluded. Runtime Dream Piece parsing does not import 3DS Treasure Goggles toy text.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-011",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Acquire commands and use Strike Raid in combat.",
+      "sufficientGuidance": "All 124 acquisition/default routes, slots/uses and 78 of 79 applicable reloads are documented. Strike Raid acquisition is unaffected; its recharge indicator supplies the actionable readiness cue. Quick Blitz is already corrected to 100 munny (80 on sale).",
+      "deferredDetails": [
+        "Strike Raid exact base reload, 22 versus 24 seconds."
+      ],
+      "deferralReason": "The two-second disagreement does not prevent collection or ordinary use. The app has no certified frame/timing optimizer that needs a fabricated single value.",
+      "reopenWhen": "A cooldown simulator or exact combat rotation is approved, or a source-labelled HD measurement resolves the discrepancy.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-012",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 43 maximum stacks sourced from live Abilities table and all 54 board providers rebuilt. Scan/EXP Zero defaults and Proud/Critical-only EXP Zero integrated. Ability Ace requires enabled Support/Spirit stacks including EXP Zero, then leaving menu; Stat abilities excluded.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-013",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Activate required Links and complete Link-related goals.",
+      "sufficientGuidance": "All 43 Link entries, provider/pair rules and gauge requirements are present. Entries now direct Steam players to their configured on-screen action prompts and visible gauge.",
+      "deferredDetails": [
+        "A fixed keyboard/controller binding crosswalk and every exact Link duration."
+      ],
+      "deferralReason": "Bindings can be remapped and the game shows the current prompt and gauge. Recording every default device label and timing constant is not necessary to activate a documented pair.",
+      "reopenWhen": "A specific Link cannot be executed from its prompts or a control scheme requires missing action guidance.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-014",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Find and clear all 78 Specials and 11 Secrets for End of Pain, Unbound and portal achievements.",
+      "sufficientGuidance": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method. Re-audit adds the required scarce-material repeat loop and explains that already-cleared Specials can be farm targets; exact forecast/location examples remain character-specific.",
+      "deferredDetails": [
+        "Exhaustive entrance-to-portal walking atlas and unrelated first/repeat/bonus transitions; documented Brilliant/Wild repeat farming is now integrated rather than deferred."
+      ],
+      "deferralReason": "HD map-based hunting plus 22 useful qualifiers supplies practical navigation. Repeat farming is no longer waived as part of a giant state matrix: the needed supply loop was researched and integrated separately. Reopen any specific portal that still lacks a usable approach.",
+      "reopenWhen": "A particular required portal still cannot be located, or a listed reward route fails on a repeat.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-015",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use built-in Battle/Friendship portals and complete the seven bonus-objective types.",
+      "sufficientGuidance": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types. Brave Challengers now names seven exact Special Portal examples, one for each bonus type, with character, world, area, forecast and unlock condition.",
+      "deferredDetails": [
+        "Exact landmarks for every built-in portal and certification of source-number suffixes as Journal numbering."
+      ],
+      "deferralReason": "The seven required bonus goals now have concrete places to attempt them. Detailed routes to every optional built-in portal and cosmetic source numbering can remain deferred; a list of objective names alone was not the sufficiency test.",
+      "reopenWhen": "A specific needed bonus type cannot be found or a duplicate identity causes incorrect user progress.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-016",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "The Grid HD Dive reward is Candy Goggles. World A-rank prize is awarded once when either character first earns A; seven-course Divewing requirement remains per character. All 14 course thresholds preserved.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-017",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Unlock Secret Cup, earn Sweet Dreams and complete Flick Rush rank/medal goals.",
+      "sufficientGuidance": "Ten cups, 27 lineups, all available published scoring/prize tables and 19 Rush milestones exist. Conservative access advice now says clear the other cups and reach LV17, satisfying both disputed thresholds; actual result screens confirm rank/medals.",
+      "deferredDetails": [
+        "Minimum Secret Cup LV15-versus-LV17 threshold, Speed Cup time-group assignment, exact HD score equivalence and spendable Medal payout matrix."
+      ],
+      "deferralReason": "The LV17 plan reaches the goal without deciding the minimum; score-improvement tactics and visible results avoid needing a predictive medal/time optimizer. No missing score group or fixed earnings estimate is invented.",
+      "reopenWhen": "Secret Cup remains locked after the conservative requirements, a rank guide demonstrably fails, or a medal-budget optimizer is approved.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-018",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use toys/Reality Shifts, train affinity and earn their score awards.",
+      "sufficientGuidance": "24 item acquisition entries and HD action/scoring references are present. The toy achievements now point to the appropriate acquisition and control references; current Steam prompts handle remapped inputs. Treat-color and two-step interaction routes provide workable training.",
+      "deferredDetails": [
+        "Every Steam input device binding, breed-optimal training/size formula and exact toy efficiency model."
+      ],
+      "deferralReason": "The goal is successful actions and threshold scores, not a globally optimal breed-by-breed training schedule. Known toy effects and prompt-based controls are sufficient without asserting unknown numerical efficiencies.",
+      "reopenWhen": "A concrete toy/action cannot be executed or a score threshold cannot be reached with current guidance.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-019",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Defeat Lord Kyroo and obtain the recipe/finishing-character reward.",
+      "sufficientGuidance": "The encounter sequence, 70-second escape, retained damage, mid-room-exit reset and finishing-character reward are documented. A conservative no-reload chain is now explicit.",
+      "deferredDetails": [
+        "Boss HP persistence across saving/loading."
+      ],
+      "deferralReason": "Completing the chain in one session avoids dependence on the unknown transition. There is no need to inspect save bytes to follow that documented route.",
+      "reopenWhen": "A player needs to resume an interrupted hunt or encounters a reproducible reset inconsistent with the current advice.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-020",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Own every eligible Keyblade on both characters.",
+      "sufficientGuidance": "All 15 types and 13-per-character eligibility are retained. HD sources support Sweet Dreams delivery to the clearing character and a full Secret Cup replay for the other; instructions require separate ownership checks.",
+      "deferredDetails": [
+        "Whether replaying only the final match is sufficient and exact Steam event retrigger implementation."
+      ],
+      "deferralReason": "The complete-cup route already tells a player how to get the second copy. Shortening that replay and reverse-engineering its flag are optional until the conservative route fails.",
+      "reopenWhen": "A Steam player finishes a second full cup without the Keyblade or needs a verified minimum-replay shortcut.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-021",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Earn the 18 in-game trophies, including Dream Pleaser and Daring Diver.",
+      "sufficientGuidance": "Daring Diver now directs players to exceed 7,500,000 in the sum of retained world/character high scores, based on an explicit HD guide, rather than a conservative either-counter guess. Dream Pleaser explicitly calls for one instance of each of 54 breeds at affinity level9; retained-instance advice remains a precaution, not a release/recovery rule.",
+      "deferredDetails": [
+        "Dream Pleaser released-instance/NG+ retention and internal implementation; an actual already-released or failed-award case must be investigated rather than declared solved by retaining future instances."
+      ],
+      "deferralReason": "The ordinary trophy actions are now concrete and Daring Diver’s useful aggregation question was researched, not deferred. Only unneeded internal persistence precision is deferred. Existing-save recovery is not claimed covered.",
+      "reopenWhen": "A player has released or transferred trained Spirits and needs to establish retained credit, or the award fails after the documented normal requirements.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-022",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Track and earn the 54 Steam DDD achievements.",
+      "sufficientGuidance": "All 54 public names/requirements and observed native Steam keys are mapped; manual stable checklist IDs are preserved. Difficulty constraints such as Ability Ace remain visible.",
+      "deferredDetails": [
+        "Hidden Steam counter implementation and PSN/Xbox/Epic native identifier schemas."
+      ],
+      "deferralReason": "The app tracks manually and does not read native saves or other-platform achievements. Alternate-platform IDs and implementation flags do not help the present Steam checklist unless a concrete award problem occurs.",
+      "reopenWhen": "A reproducible Steam unlock issue needs diagnosis or a separately approved platform integration needs native IDs.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "DDD-023",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "Catanuki Spark Raid/Vanish, Beatalike Ars Arcanum and Tubguin Dark Firaga now appear in reverse providers from complete boards. Scan/EXP Zero show defaults; Defense commands show acquisition.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-024",
       "game": "dddhd",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Use the sourced DDD catalog for progression and completion.",
+      "sufficientGuidance": "All 438 pickup landmarks, all 51 world notes, separate rare worlds, all board conditions and per-record world/command/recipe sources survive generation. Explicit HD formula selector and source hashes are retained. Source manifest records inspected factual evidence without storing guide prose.",
+      "deferredDetails": [],
+      "deferralReason": "No remaining identified research question in this already-resolved family.",
+      "reopenWhen": "New contradictory edition-specific evidence or a concrete player issue.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "DDD-025",
       "game": "dddhd",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
+      "playerGoal": "Unlock Another Guardian of Light, including recovery after choosing wrong final answers.",
+      "sufficientGuidance": "The initial trophy/answers/credits route is documented. A separate pre-finale save is now recommended; Theater replay is documented only for credits letters.",
+      "deferredDetails": [],
+      "deferralReason": "Not deferred: a player in this state could be unable to unlock the ending using the current guide. Research should establish one workable recovery route, not every theoretical flag combination.",
+      "reopenWhen": "Resolve when edition-labelled HD evidence demonstrates a successful wrong-answer recovery path or the inability to recover.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "A verified HD recovery route from a clear save with wrong answers and no retained pre-finale backup.",
+      "nextEvidence": "Resolve when edition-labelled HD evidence demonstrates a successful wrong-answer recovery path or the inability to recover."
     },
     {
       "id": "KH02-001",
       "game": "kh02",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "blocked",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Complete Master of Lightning and receive Mystic Pauldron.",
+      "sufficientGuidance": "Objective and wardrobe instructions now tell players to finish Heartless with Thundaga, budget for 50 defeats, and stop as soon as the game awards completion. The 30/50 conflict remains explicit.",
+      "deferredDetails": "Whether the current Steam threshold is exactly 30 or 50 and its underlying event counter.",
+      "deferralReason": "The conservative route satisfies both published counts and supplies an observable stopping condition. Resolving the minimum would save at most the difference in kills, not unlock a currently blocked activity. This is a pragmatic deferral, not a factual resolution of the contradiction.",
+      "reopenWhen": "The objective does not award after the conservative lightning-final-blow route, or precise minimal-kill routing becomes necessary.",
+      "normalizedEvidenceStatus": "unresolved/conflicted"
     },
     {
       "id": "KH02-002",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-003",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-004",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-005",
       "game": "kh02",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Open all Forest chests for the area objective and Treasure Hunter.",
+      "sufficientGuidance": "Fresh PS4 HD evidence identifies the left-descending thicket dead end as Potion, separately from the ring crevasse. Its starting point and fork agree with Destiny Islands and PSU, so the record now has a direct route rather than a candidate-only search. The save-point ivy chest is already physically located. Both item-label disagreements remain visible.",
+      "deferredDetails": "Current Steam item-popup confirmation of save-point Ether versus Mega-Ether and northern-thicket Potion versus Hi-Potion; physical routes are now integrated.",
+      "deferralReason": "After researching the practical physical locator, only two ordinary-consumable labels remain disputed. The route lets players open and match each chest without assuming the reward label. This deferral does not establish the Steam contents; reopen if a location cannot be matched or a particular consumable matters to the player.",
+      "reopenWhen": "A player cannot uniquely match the thicket dead-end or save-point chest, or item-specific collection guidance requires verified Steam contents.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH02-006",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-007",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-008",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-009",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-010",
       "game": "kh02",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Keep earned collection progress while completing post-clear objectives and moving to Critical NG+.",
+      "sufficientGuidance": "Replay guidance now recommends all seven gems in one visit, all four memories and the complete chest sweep on the retained clear save, keeping that save separate before NG+. Known completed-objective/wardrobe and Zodiac retention remains documented.",
+      "deferredDetails": "Per-asset partial gem/memory copy/reset behavior and ordinary-chest flags across Steam NG+ lineage.",
+      "deferralReason": "Completing each set on the retained source save avoids relying on unproved transfer behavior. The app is a manual checklist, not a save-file importer; reverse-engineering every copied bit would not improve this safe route.",
+      "reopenWhen": "A concrete recovery case cannot be completed from its retained source save, or a save-inspection feature is requested.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH02-011",
       "game": "kh02",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the seven counter/encounter objectives and their wardrobe rewards.",
+      "sufficientGuidance": "Named story conditions, visible-objective timing and conservative Wayfinder Finish guidance are integrated. Objective31 now includes the explicitly published HD Zodiac boss-rush recovery route; objective41 remains third-story-only. The two objectives are no longer conflated.",
+      "deferredDetails": "Objective50 minimal active-versus-Finish predicate and pre-unlock partial counter retroactivity; the published objective31 recovery action is now integrated.",
+      "deferralReason": "The actual encounter/recovery actions are now supplied, including the post-clear route that avoids an unnecessary new run for objective31. Only the stricter minimal Finish event and speculative earlier partial-counter credit remain optional precision.",
+      "reopenWhen": "An objective fails after its documented visible/live-story method, or a concrete save cannot regain the required encounter.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH02-012",
       "game": "kh02",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Earn Treasure Hunter without losing chest progress.",
+      "sufficientGuidance": "All 41 physical chests including Main Road and the twelve post-clear Zodiac chests are listed. The achievement directs a full collection sweep on one retained cleared save before NG+, consistent with HD trophy guides.",
+      "deferredDetails": "Complete low-level save-bit layout and every theoretical lineage combination beyond an actionable NG+ award/recovery rule.",
+      "deferralReason": "The full same-cleared-save route is useful forward planning, but does not answer a player already in NG+ without their old clear save. That practical completion question is open; only exhaustive internal storage details are deferred.",
+      "reopenWhen": "Resolve with a supported Steam NG+ award/recovery route for retained Zodiac chests. Do not infer guaranteed success or permanent loss from the existing source tables.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": "Can a Steam NG+ file with already-retained/open Zodiac chests earn Treasure Hunter after collecting its remaining ordinary chests, and what is a supported recovery if it cannot?",
+      "nextEvidence": "An edition-labelled successful NG+ award account with retained Zodiac state or authoritative achievement-evaluation guidance; no full flag-layout reverse engineering required."
     },
     {
       "id": "KH02-013",
       "game": "kh02",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Earn A Magical Finale.",
+      "sufficientGuidance": "The entry names Firaja, Blizzaja and Thundaja, explains offering them with matching magic, and now advises using all three on one save before NG+. If the used set is uncertain, repeat all three there.",
+      "deferredDetails": "Partial three-command achievement-set accumulation across separate runs, saves or NG+.",
+      "deferralReason": "All three actions can be repeated on the same save. The safe route removes any need to rely on cross-save accumulation, so per-command bit decoding adds no necessary completion step.",
+      "reopenWhen": "All three same-save commands fail to award, or a specific save-recovery report contradicts this method.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH02-014",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-015",
       "game": "kh02",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "playerGoal": "Defeat enhanced Phantom Aqua and finish the Zodiac Mirror.",
+      "sufficientGuidance": "The app provides the five-round context, restart-on-leaving rule and practical block/dodge/opening advice, with story-versus-Zodiac identity clearly distinguished.",
+      "deferredDetails": "Certified Steam boss HP/strength/defense, difficulty-scaled damage and complete parameter tables.",
+      "deferralReason": "The existing tactics explain how to survive and punish the encounter without a damage calculator. Source numbers remain research-only rather than being promoted to false exact build-specific facts.",
+      "reopenWhen": "A concrete tactic is insufficient because of an unmodeled attack or a requested damage-planning feature requires exact parameters.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH02-016",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-017",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH02-018",
       "game": "kh02",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh02/practical-review-2026-10-02.md",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-001",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Find all base chests and Lucky Emblems without losing collection progress.",
+      "sufficientGuidance": "All 335 numbered pickups have landmarks. Arendelle #24 now has an explicit after-Arendelle route from Foothills through the southern transition to the two rock platforms. Earliest-access timing does not substitute for these actual directions.",
+      "deferredDetails": [
+        "Exhaustive minimum story gates for 316 records",
+        "a save-point-to-every-item narrative",
+        "exact first-visit availability of Arendelle #24",
+        "independent Steam capture of every route."
+      ],
+      "deferralReason": "The specific pickup route is now usable immediately after its world clear. A universal minimum-story gate graph and 335 redundant travel narratives are additional scope; they should not be used to hide a concrete unclear landmark, which remains worth fixing.",
+      "reopenWhen": "Reopen for a specific failed pickup route, a genuinely missable item report, or an explicitly approved earliest-access feature.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-002",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Recognize an item or place despite spelling differences in guides.",
+      "sufficientGuidance": "Known Trial/Trail, Horseshoe Isle/Island, Petit/Petite, Bandana/Bandanna and SRS/SXT correspondences now appear in searchable summaries for all 33 affected records. Stable IDs and canonical labels are preserved.",
+      "deferredDetails": [
+        "An exhaustive regional-language/Steam UI label concordance, including historical Strength/Power terminology and every ingredient alias."
+      ],
+      "deferralReason": "Only unreported regional/label census work is deferred. Known alternate names that prevent a user finding a record were a real integration defect and have now been fixed and tested against the renderer’s actual search fields.",
+      "reopenWhen": "Reopen when a concrete search failure or in-game label mismatch prevents a player identifying an existing record.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-003",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Toy Box emblem 8 goal using the existing sourced instructions.",
+      "sufficientGuidance": "Independent guides agree: use the 3F bench to reach the hanging red-and-white UFO and photograph its hatch. Replaced the conflicting runtime floor note.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-004",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Collect the nine Re Mind chests and return to base content without overwriting the only useful save.",
+      "sufficientGuidance": "All nine chest routes and semantic base/DLC Load choices exist. The runtime now explicitly directs Steam players to their displayed input prompt and keeps the original cleared base file plus a separate Scala file before Limitcut.",
+      "deferredDetails": [
+        "Every keyboard/controller glyph, destructive overwrite/replay combination, regional cloud-transfer path and binary save-lineage edge."
+      ],
+      "deferralReason": "Separate retained episode saves avoid relying on uncertain destructive edges. Exact glyphs vary with input; following the displayed semantic prompt is sufficient for the supported route.",
+      "reopenWhen": "Reopen for a specific current Steam Load or episode-access failure. Do not infer that the documented safe route repairs an already overwritten save.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-005",
       "game": "kh3",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Obtain the missable Forest Clasp and its HP Walker ability on the current playthrough.",
+      "sufficientGuidance": "Complete all four activities before sliding to Shore. Rapunzel’s first departure follows this reward scene. If the scene passed without the Clasp, use a pre-Shore save or acquire it in another run; late Festival Dance does not award it.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "A concrete post-Shore recovery report or edition-specific failure contradicts the published missable boundary.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-006",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Frozen Slider prizes goal using the existing sourced instructions.",
+      "sufficientGuidance": "Added ten individually checkable Slider prize routes. Completion of the run retains prizes; ten cannot all be collected in one run. Corrected translated reward names to Orichalcum+ and Master Treasure Magnet.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-007",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Photo Missions goal using the existing sourced instructions.",
+      "sufficientGuidance": "All 20 unlock milestones and actionable target/save-point approaches; camera acknowledgment, success notification, twelve teammate identities, Zeus statue alternative, day/night and Demon Tower gate constraints. Corrected preliminary robot/cactuar floor assignments against the independent guide.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-008",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Synthesis recipes goal using the existing sourced instructions.",
+      "sufficientGuidance": "Full 88-output recipe catalog, exact quantities and unlocks, explicit + variants, 88 separate synthesis-history records. Recipe materials resolve to canonical entries. Corrected Hungry Shield typo to Hungry Shard and Acrisis to Acrisius.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-009",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Collector Goals goal using the existing sourced instructions.",
+      "sufficientGuidance": "All 78 numbered Collector Goals: 24 recipe unlocks, 24 direct item rewards and 30 material shop unlocks, with reward type and menu order. Includes first-material Ether item reward, cumulative/rarity/family rewards and Sinister shop thresholds.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-010",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Obtain the materials needed for synthesis, Keyblade upgrades and Collector Goals.",
+      "sufficientGuidance": "All 60 materials have acquisition sources. This pass adds 41 exact-enemy Battlegate routes and nine field routes for Frost/Sinister/Hungry materials; the remaining ten material records have chest, sphere, shop or special-event routes. Existing 52 chest links and 12 sphere quantities remain.",
+      "deferredDetails": [
+        "Every alternative destructible-object yield, every earliest enemy-spawn flag and timed fastest-farm comparison."
+      ],
+      "deferralReason": "One workable route with the correct enemy/body part or reward and prerequisite is enough to acquire a material. Alternative-source completeness and efficiency rankings are not prerequisites to use the 88 recipes.",
+      "reopenWhen": "Reopen for a material with no workable current route, a wrong source/body-part report or an approved optimizer requiring measured yield.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-011",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Repeat material acquisition efficiently enough without confusing one-time prizes with farms.",
+      "sufficientGuidance": "Enemy-drop routes now cover 41 materials via gates and nine via field enemies. Lucky Strike, ordinary asteroid world re-entry, one-time sphere rewards and the postcard mailbox lottery are separately described.",
+      "deferredDetails": [
+        "Exact reset timers and conditions for every colored crystal, every modifier interaction, and statistically measured route efficiency."
+      ],
+      "deferralReason": "The journal supplies repeatable enemy options and clear one-time warnings. A universal timer or fastest-route claim would add precision beyond completing upgrades and synthesis.",
+      "reopenWhen": "Reopen when a stated repeat route demonstrably does not repopulate or a requested time-budget comparison needs measurements.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-012",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Keyblade properties and forge goal using the existing sourced instructions.",
+      "sufficientGuidance": "22 blade catalogs: initial level, all eleven STR/MAG levels, abilities/forms/shotlocks and 220 source transitions. 160 ordinary Steam forge actions plus ten distinct NG+ Ultima actions; other-platform keys are reference-only.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-013",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Acquire and choose equipment, including medals, without mistaking party-only gear for collectible inventory.",
+      "sufficientGuidance": "Every one of 157 equipment records has a reviewed operational acquisition method: 66 chest-first, 25 synthesis-first, 11 shop-first, 28 minigame-rank, 11 milestone, two Battlegate-first-clear, five DLC reward and nine starting/story/puzzle/quest/lottery methods. Chest and milestone cards now include the actual action instead of only an unclickable instruction to consult another record.",
+      "deferredDetails": [
+        "Random medal roll weights.",
+        "Exhaustive redundant acquisition alternatives only where the per-item census already supplies a concrete method."
+      ],
+      "deferralReason": "The previous 104-link count did not establish sufficiency. After the 157-item action audit and corrections, no item relies solely on a missing acquisition action. Medal start/scoring methods are also supplied; unknown probabilities do not block repeating the correct activity.",
+      "reopenWhen": "Reopen if an item’s named method is insufficient to acquire it, or a measured medal-odds feature is approved.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-014",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Know which Keyblades can actually be collected in the user’s Steam edition.",
+      "sufficientGuidance": "Dead of Night has official Steam entitlement evidence; other-platform exclusives are separate reference-only entries, not required Steam collection marks.",
+      "deferredDetails": [
+        "Every historical preorder code, country/account eligibility edge and entitlement rule for announced future editions."
+      ],
+      "deferralReason": "Those entitlements do not change current Steam completion. Researching expired or unowned storefront offers would not help acquire a Steam item.",
+      "reopenWhen": "Reopen if the player switches edition or asks about a specific owned/redeemable entitlement.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-015",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Find all ingredient types and collect enough for Excellent cuisine.",
+      "sufficientGuidance": "All 59 ingredients have 172 source-supported route groups, the 298 source rows and 28 shop tiers. Removed stale “unmapped pickup” warnings from eight reward-only ingredients; their minigame routes already exist.",
+      "deferredDetails": [
+        "An exhaustive physical node census, controlled base yields and spawn probabilities, universal timed replenishment, and exact Flan equality (KH3-018)."
+      ],
+      "deferralReason": "Landmarks, shop alternatives and repeatable minigame rewards let players obtain every ingredient. A coordinate census or spawn model is not needed for cooking the known recipes.",
+      "reopenWhen": "Reopen for a route that fails to supply its ingredient or an approved quantitative harvest planner.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-016",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Cuisine effects goal using the existing sourced instructions.",
+      "sufficientGuidance": "56 normal/+ dish effects, five course assignments, six cumulative full-course bonus pools/durations, four original cooking-control guides and ingredient consumption/Chef Extraordinaire behavior. Existing 28 recipes retained.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-017",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Cooking controls goal using the existing sourced instructions.",
+      "sufficientGuidance": "Four cooking methods identified and documented: chopping, egg cracking, flambé and pepper grinding. Five is the number of meal courses, not cooking controls.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-018",
       "game": "kh3",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "conflicted",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Earn the seven top-tier Flan rewards, their Orichalcum+ and repeat fruit.",
+      "sufficientGuidance": "All seven Flans now provide start routes, core controls/actions, failure avoidance and score-building methods, alongside the existing upper/lower rewards. Orange includes seven photograph opportunities; the others explain shield steering, stack/ceiling management, crowd attacks, reflected ice, cannon/bell timing and sparkle transfers.",
+      "deferredDetails": [
+        "Whether an exactly equal score qualifies at each lower and upper threshold for all seven minigames."
+      ],
+      "deferralReason": "Aiming above the boundary only addresses equality; it was not sufficient for teaching the challenges. The missing methods are now researched and integrated. Only exact-score equality remains optional because exceeding the target earns the reward under both published interpretations.",
+      "reopenWhen": "Reopen for an actual exact-score reward mismatch or an approved exact-score eligibility feature.",
+      "normalizedEvidenceStatus": "unresolved/conflicted"
     },
     {
       "id": "KH3-019",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Classic Kingdom goal using the existing sourced instructions.",
+      "sufficientGuidance": "23 original controls/play descriptions, any registered result rather than an invented high-score target, golf lower-is-better distinction, completion-stamp check. Acquisition stays joined to 18 chest IDs plus five Twilight records.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-020",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Reach the appropriate minigame reward or achievement target and repeat for Honey or medals.",
+      "sufficientGuidance": "All five achievement-score challenges now identify their start point/NPC, practical scoring actions and failure/time/chain management; their existing achievement targets and medal pools remain. Honey already includes its flower-sign start and repeat quantity targets.",
+      "deferredDetails": [
+        "Medal probability weights and the complete displayed letter-rank labeling of Honey outcomes."
+      ],
+      "deferralReason": "The lack of directions or scoring methods was not optional and is corrected. Only medal random weights and unneeded Honey letter labels remain deferred; players can now actually find and play the right challenge, not merely read its target score.",
+      "reopenWhen": "Reopen for a score/reward mismatch or a requested expected-attempt/medal probability calculator.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-021",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Adversaries and Game Records goal using the existing sourced instructions.",
+      "sufficientGuidance": "81 base adversaries and complete 54 Game Records: 29 shotlocks, five attractions, five links, seven Flan results and eight other minigames. Corrected Munny Popcat typo; omitted source prose incorrectly conflating shotlocks with formchange gauge.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-022",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Collect optional HP rewards and advance the Leviathan/naval goals.",
+      "sufficientGuidance": "Players can now gather 1,700 crabs, distinguish ship types, locate the special fleets and perform the required boarding or sinking action. Every equipment item also has an individually reviewed acquisition method. The nine normal-ship pool rows are explicitly not presented as map coordinates or guaranteed rewards.",
+      "deferredDetails": [
+        "Already-claimed copy HP bonus repetition and rescued-NPC repeat quantities.",
+        "Exhaustive fleet respawn timers and measured farming efficiency."
+      ],
+      "deferralReason": "Repeat-stat exploitation and full reset/efficiency models are optional after the progression route is supplied. In contrast, selecting the right normal-ship reward pool can save a player repeated wrong encounters and remains a bounded open question.",
+      "reopenWhen": "The pool-to-encounter selection mapping remains active; expand timer/efficiency research only for a concrete failed route or requested optimization.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": [
+        "Which identifiable normal-large-ship encounter or condition selects each of the nine published deck-battle reward pools?"
+      ],
+      "nextEvidence": "The pool-to-encounter selection mapping remains active; expand timer/efficiency research only for a concrete failed route or requested optimization."
     },
     {
       "id": "KH3-023",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Battlegates and Reports goal using the existing sourced instructions.",
+      "sufficientGuidance": "All 15 gate approaches, level/difficulty/enemy counts, first-clear vs repeat drops, infinite adds for gates 2/8/11, selfie thresholds and original Dark Inferno defensive/punish guide.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-024",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Gummi battle/sphere/fragment catalog goal using the existing sourced instructions.",
+      "sufficientGuidance": "33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/η landmark. A wrong-zone STR-04 overview image is explicitly rejected. All nine spheres now have an actionable built-in map-marker flight approach.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-025",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Gummi Missions goal using the existing sourced instructions.",
+      "sufficientGuidance": "All 46 Gummi mission identities with predicates/rewards. Nine constellation records reused, avoiding duplicate collection units. Completionist requires all other 45 missions.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-026",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Constellations goal using the existing sourced instructions.",
+      "sufficientGuidance": "Nine constellation flight landmarks and camera framing guidance, joined to mission completion/blueprint rewards. Omega supplemented because the first guide omits its text section.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-027",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Build a usable Gummi ship and clear optional battles without exceeding its actual limits.",
+      "sufficientGuidance": "Parts, abilities, special weapons, constellation Special Blueprints and first-clear/replay options exist. The in-game editor’s displayed main/Teeny/AP limits are now the practical authority; the 99-level published table stays explicitly combined. All 33 battle approaches are added.",
+      "deferredDetails": [
+        "Separate per-level main/Teeny/AP curves",
+        "a controlled Steam budget calculator",
+        "exact Comet Crawler minimum where sources say 100 versus 200 Speed."
+      ],
+      "deferralReason": "Players can use displayed allowances or a Special Blueprint and an attainable 200-Speed option. Neither interpolating budget curves nor testing the lowest possible speed is needed to complete the battles.",
+      "reopenWhen": "Reopen for a build that cannot be equipped despite the guidance, an approved automated build calculator, or a reproducible speed-gate failure.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-028",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the DLC encounters and creative modes goal using the existing sourced instructions.",
+      "sufficientGuidance": "14 encounter-specific original defensive/opening guides, 11→13 unlock order and rewards, temporary character equipment references; Data Greeting/Slideshow access and Secret-clear Quadratum unlock kept non-collectible.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-029",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "open",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Earn Premium merits and ordinary Steam achievements without permanently losing an eligibility path.",
+      "sufficientGuidance": "All 28 codes and nine merit predicates/unlocks exist. New achievement instructions distinguish EZ access, Survival’s required configuration, PRO scoring and safe clean saves. A November 2024 Steam report specifically corroborates missing Salvager after Gummi Ship Meister. This is sufficient for forward planning, not proof of in-place recovery.",
+      "deferredDetails": [
+        "A full 51-achievement-by-code matrix for every historical activation/toggle and cross-platform persistence combination."
+      ],
+      "deferralReason": "The exhaustive matrix is unnecessary for a clean-save route. However, a player who already activated the irreversible Gummi code with Salvager still locked may face extra playtime; that concrete recovery question stays open instead of being hidden by the safe-planning advice.",
+      "reopenWhen": "Reopen the deferred matrix only for a specific affected achievement; the narrow already-activated Salvager recovery case remains active.",
+      "normalizedEvidenceStatus": "partial",
+      "openQuestion": [
+        "What supported recovery path restores an opportunity to earn locked Salvager after permanent Gummi Ship Meister activation when no older clean save exists?"
+      ],
+      "nextEvidence": "An edition-identified successful recovery account or official guidance stating whether a fresh run/NG+ is sufficient and which state is reset."
     },
     {
       "id": "KH3-030",
       "game": "kh3",
       "baselineEvidenceStatus": "unresolved/conflicted",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "conflicted",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Reach the PRO rank that awards Risk-taker and avoid counting replayed boss points twice.",
+      "sufficientGuidance": "The A-rank target is 364,125; all 34 boss score records exist. Added single-save score planning and explicitly attributed best-single-attempt replay guidance. The app directs players to the game’s displayed total.",
+      "deferredDetails": [
+        "The B-rank minimum (320,000 versus 325,000), controlled replay/save-boundary matrix and automated score-replacement calculator."
+      ],
+      "deferralReason": "Risk-taker requires A, so B’s exact lower cutoff does not alter the target. Reading the game’s total avoids depending on an unsupported calculator; no repeated-score farming is promised.",
+      "reopenWhen": "Reopen for a demonstrated score-total discrepancy or an approved calculated merit tracker. Related irreversible EZ eligibility remains KH3-029.",
+      "normalizedEvidenceStatus": "unresolved/conflicted"
     },
     {
       "id": "KH3-031",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Hidden Steam achievements goal using the existing sourced instructions.",
+      "sufficientGuidance": "All seven hidden Steam achievement predicates populated from independently readable Steam community guide, with explicit description provenance.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-032",
       "game": "kh3",
       "baselineEvidenceStatus": "partial",
       "track": "game-factual-research",
-      "decision": "pending-review",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "deferred",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "partial",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Follow the correct achievement set and edition-specific acquisition rules for current Steam KH3 + Re Mind.",
+      "sufficientGuidance": "All 51 Steam achievements, hidden-description provenance, bundled-DLC scope and public SteamDB build metadata are recorded with their respective authority limits.",
+      "deferredDetails": [
+        "Installed executable/binary certification, exhaustive Epic/console predicate equivalence, and future native-edition/cloud-transfer procedures."
+      ],
+      "deferralReason": "Those facts do not change the current Steam acquisition routes. Mirror metadata is sufficient provenance for this reference, not a claim about the player’s installed binary.",
+      "reopenWhen": "Reopen for a reproducible version-dependent defect, an actual platform switch, or a requested supported transfer.",
+      "normalizedEvidenceStatus": "partial"
     },
     {
       "id": "KH3-033",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Synthesis history markers goal using the existing sourced instructions.",
+      "sufficientGuidance": "Crafted-history checkmarks were added in patch 1.04; separate synthesized history is now represented for all 88 recipes. Removed old absence claim from active status.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-034",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "game-factual-research",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the New Game Plus carryover goal using the existing sourced instructions.",
+      "sufficientGuidance": "NG+ keys, proofs, selfie poses and six post-clear abilities, level-zero carryover, ordinary newly synthesized Ultima level10 versus NG+ Ultima level0 and its separate ten-step ladder.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     },
     {
       "id": "KH3-035",
       "game": "kh3",
       "baselineEvidenceStatus": "closed",
       "track": "app-development",
-      "decision": "preserve-existing-status",
-      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+      "decision": "resolved",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+      "evidenceStatus": "resolved",
+      "report": "ai_docs/games/kh3/practical-review-2026-10-02.md",
+      "playerGoal": "Complete the Milestone reward integration goal using the existing sourced instructions.",
+      "sufficientGuidance": "Integrated 18 Lucky Emblem rewards, four difficulty-specific secret-movie rules, five Bistrot star rewards, three gate selfie milestones, complete Gummi mission goals and six free-update abilities.",
+      "deferredDetails": [],
+      "deferralReason": null,
+      "reopenWhen": "Reopen only if new evidence identifies a concrete error in the scoped guidance.",
+      "normalizedEvidenceStatus": "closed"
     }
+  ],
+  "reviewState": "Completed strict player-purpose reassessment; useful unresolved questions remain explicitly open.",
+  "practicalCounts": {
+    "resolved": 82,
+    "deferred": 52,
+    "other-limitation": 11,
+    "open": 11
+  },
+  "perGamePracticalCounts": {
+    "kh2fm": {
+      "resolved": 31,
+      "deferred": 3,
+      "other-limitation": 6
+    },
+    "bbsfm": {
+      "deferred": 16,
+      "resolved": 12,
+      "open": 5,
+      "other-limitation": 5
+    },
+    "dddhd": {
+      "deferred": 14,
+      "resolved": 8,
+      "open": 3
+    },
+    "kh02": {
+      "deferred": 6,
+      "resolved": 11,
+      "open": 1
+    },
+    "kh3": {
+      "deferred": 13,
+      "resolved": 20,
+      "open": 2
+    }
+  },
+  "reviewedResidualFamilies": 65,
+  "evidenceStatusesChanged": true,
+  "excludedGames": {
+    "kh1fm": "Completed prior decisions preserved.",
+    "recom": "Concurrent separate research; no records or files modified."
+  },
+  "publication": {
+    "branch": "research/non-com-practical-closure-2026-10-02",
+    "branchUrl": "https://github.com/didymusbenson/kh-tools/tree/research/non-com-practical-closure-2026-10-02",
+    "scope": "Feature branch only; no merge or deployment. Exact verified remote checkpoint and CI outcome are supplied in the delivery handoff."
+  },
+  "reassessmentReport": "ai_docs/research/practical-review-reassessment-2026-10-02.md",
+  "completedAt": "2026-10-03",
+  "currentEvidenceCounts": {
+    "closed": 82,
+    "partial": 55,
+    "other limitation": 11,
+    "unresolved/conflicted": 8
+  },
+  "residualDispositionCounts": {
+    "deferred": 52,
+    "open": 11,
+    "resolved": 2
+  },
+  "evidenceClosures": [
+    "DDD-003",
+    "KH3-005"
   ]
 }

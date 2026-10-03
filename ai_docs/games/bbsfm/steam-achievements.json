@@ -408,5 +408,12 @@
       "query": "site:steamdb.info/app/2552430/stats/ \"ACH_197\"",
       "requirement_paraphrase": "Clear the named Arena battle."
     }
-  ]
+  ],
+  "practical_review_2026_10_02": {
+    "roster": "45 BBS Steam goals; the PlayStation Birth by Sleep Master platinum is not a missing Steam goal.",
+    "deferred": "Raw hidden booleans are presentational metadata; published positive labels and unknown values remain unchanged.",
+    "open": "Mixed-save aggregation and current-build Collector award failure diagnosis remain unverified; no replay/deletion remedy is certified.",
+    "source_scope_correction": "https://steamcommunity.com/app/2552430/discussions/0/732500746974528477/ is a platinum-availability discussion, not proof of aggregation.",
+    "report": "practical-review-2026-10-02.md#bbs-032"
+  }
 }

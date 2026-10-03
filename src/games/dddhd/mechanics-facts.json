@@ -2,10 +2,11 @@
   {
     "name": "Spirit creation",
     "summary": "Extra materials improve creation rank and level; created ranks remain fixed.",
-    "instructions": "For a base ingredient quantity q, rank boosts +1/+2/+3/+4 require ceil(1.5q), 2q, 3q and 5q of that ingredient. For q=1, two pieces already give +2, three or four give +3, five give +4. Apply the smaller boost of the two ingredients; Risky Winds adds one further rank, capped at ★. Total materials grant ceil(total/3) bonus starting levels, capped at 20. Marked recipe-item formulas guarantee their intended breed. A donated command is consumed; Movement/Defense donations require retaining another copy. Exact command bonuses are recorded in the factual catalog.",
+    "instructions": "For a base ingredient quantity q, rank boosts +1/+2/+3/+4 require ceil(1.5q), 2q, 3q and 5q of that ingredient. For q=1, two pieces already give +2, three or four give +3, five give +4. Apply the smaller boost of the two ingredients; Risky Winds adds one further rank, capped at ★. Total materials grant ceil(total/3) bonus starting levels, capped at 20. The source describes the named recipe route as guaranteeing its intended breed: obtain the recipe item and select it on Create Spirits → Recipes. Custom creation has its own preview and must not inherit that guarantee merely because the ingredients match. A donated command is consumed; Movement/Defense donations require retaining another copy. Exact command bonuses are recorded in the factual catalog.",
     "sources": [
       "https://www.khwiki.com/Spirit",
-      "https://www.khwiki.com/Drop_System"
+      "https://www.khwiki.com/Drop_System",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16"
     ],
     "uncertainty": "The source initial-level table contains inconsistent cells (average level 20 → 27; 30–01 range). Risky Winds describes a 50% odds change without clarifying relative versus percentage-point arithmetic. These defects prevent a certified level/odds optimizer."
   },

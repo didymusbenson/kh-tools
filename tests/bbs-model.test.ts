@@ -122,8 +122,8 @@ it('uses named-world shop milestones and preserves unresolved Fire Dash prices',
   const link=guide.entries.find(e=>e.category==='dlinks'&&e.name==='Donald Duck')!;
   expect(link.instructions).toContain('Cosmic Donald:');
   expect(link.sources).toContain('https://www.khwiki.com/Cosmic_Donald');
-  expect(guide.recipes?.find(r=>r.group==='Ice cream')?.instructions).toContain('Purchase/story-award substitutes are not verified');
+  expect(guide.recipes?.find(r=>r.group==='Ice cream')?.instructions).toContain('bought/already-manufactured kind does not require another manufacture');
   const battle=guide.entries.find(e=>e.category==='arena'&&e.name==='Combined Threat')!;
-  expect(battle.prerequisites).toContain('Arena Level 7 and clearing Radiant Garden');
+  expect(battle.prerequisites).toContain('reach Arena Level 7 and clear Radiant Garden');
   expect(battle.prerequisites).toContain('whether it bypasses the story requirement is not established');
  });

@@ -1,10 +1,13 @@
 # Dream Drop Distance HD readiness
 
-2026-10-02 follow-up: 11 Grid access actions are integrated, including roof entry, Recognizer passage and isolated Riku landing. Sweet Dreams guidance separates character delivery and provides an HD-documented repeat-cup route, with exact Steam retrigger scope still bounded. Complete published Flick Rush score/rank/prize tables and Rush LV milestones now appear in runtime; Speed Cup time group, spendable Medal yields and Secret Cup minimum unlock remain explicit unknowns/conflicts. Missing base stats were not copied from mods. Current disposition totals remain **7 resolved, 17 partial, 1 blocked**. [Evidence and exact residuals](../games/dddhd/gap-closure-2026-10-02.md).
+**Critical re-audit:** [Current corrections](../games/dddhd/critical-reaudit-2026-10-02.md) re-examine three overbroad deferrals, resolve the adapter defect, and add recipe-mode, repeat-farming, concrete bonus and high-score instructions.
+**2026-10-02 practical review:** 1,285 entries / 263 formulas. Research disposition: 8 resolved, 14 deferred, 3 open; evidence: 8 resolved, 16 partial, 1 blocked. [Current player-goal review](../games/dddhd/practical-review-2026-10-02.md) and [deferral reasons](../games/dddhd/future-improvements.md) supersede older exhaustive-research task lists below. The Jestabocky connector is normalized from explicit source evidence; open questions cover Aura Lion’s red secret, colliding custom recipes and saved wrong-answer ending recovery. Stable IDs and empty Data Jiminy remain preserved; application/UI acceptance is separate.
 
-2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](../games/dddhd/audit-dispositions.md).
+2026-10-02 follow-up: 11 Grid access actions are integrated, including roof entry, Recognizer passage and isolated Riku landing. Sweet Dreams guidance separates character delivery and provides an HD-documented repeat-cup route, with exact Steam retrigger scope still bounded. Complete published Flick Rush score/rank/prize tables and Rush LV milestones now appear in runtime; Speed Cup time group, spendable Medal yields and Secret Cup minimum unlock remain explicit unknowns/conflicts. Missing base stats were not copied from mods. Current disposition totals remain **8 resolved, 16 partial, 1 blocked**. [Evidence and exact residuals](../games/dddhd/gap-closure-2026-10-02.md).
 
-Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 7 resolved, 17 partial and 1 blocked finding. Shared application acceptance remains root-owned.
+2026-10-01 historical checkpoint: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](../games/dddhd/audit-dispositions.md).
+
+Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 8 resolved, 16 partial and 1 blocked finding. Shared application acceptance remains root-owned.
 
 [Specification](../games/dream-drop-distance.md) · [Research pack](../games/dddhd/README.md) · [Inspected sources](../games/dddhd/sources.md)
 
@@ -28,7 +31,7 @@ Apply the [shared readiness method](README.md), [linked-view contract](../conten
 |---|---|---|
 | Chests | 438 pickup landmarks, 51 restored source notes; 16 HD replacements reconciled; Curaga #2 / Doubleflight #3 corroborated by an independent HD Reports-order guide | Comprehensive earliest access, movement minima and returnability remain unestablished |
 | Spirits/boards | 54 breeds, 1,144 nodes, dispositions and form fields | Aura Lion C-7/D-7 conflict; Jestabocky A-3 exists but lacks the reciprocal Right connection to B-3; 15 unknown base-stat fields and 5 missing body-part instructions |
-| Creation | 263 formulas, 37 shared events, 54 marked 100% combinations, 105 donation rows | 141 unreported probabilities; malformed initial-level table; Risky Winds odds wording |
+| Creation | 263 formulas, 37 shared events, 54 named recipe-menu routes (custom mode is separate), 105 donation rows | 141 unreported probabilities; malformed initial-level table; Risky Winds odds wording |
 | Materials/shops | 37 materials, 54 recipe-item goals, 176 shop rows, 17 family pages; Quick Blitz corrected to 100 munny / 80 during Bargain Flurry at Shop LV 1 | Ordinary room routes and expiration quantities remain incomplete; no known shop-price conflict remains |
 | Commands/abilities/Links | 124 commands, 43 ability stacks/providers, 43 Link entries | Strike Raid 22/24-second source conflict and complete Steam input mapping |
 | Portals/Dives/Flick | 346 source-number portal identities, 14 Dives, 27 cup lineups | Portal approaches/first-repeat semantics; missing spendable Medal yields and Speed Cup time group; Secret Cup unlock source conflict |
@@ -38,7 +41,7 @@ Apply the [shared readiness method](README.md), [linked-view contract](../conten
 
 ## Proven source defects
 
-See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions; master/recipe/unlock tables do not agree. 175/243 recipe probabilities are blank, BEST BASE is incomplete, item uses are mislabeled slots, Cyber Yog Thunder Screen rows are classified as commands, and transformed board rewards lose their gates. These describe historical workbook defects. Current source boards correct classification/gates and command uses; only the exact residuals in the current ledger remain active.
+See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions; master/recipe/unlock tables do not agree. 175/243 recipe probabilities are blank, BEST BASE is incomplete, item uses are mislabeled slots, Cyber Yog Thunder Screen rows are classified as commands, and transformed board rewards lose their gates. These describe historical workbook defects. Current source boards correct classification/gates and command uses; the current ledger separates factual residuals from deferred precision and the three scoped open questions.
 
 [World source coverage](../games/dddhd/worlds-and-collectibles.md) explicitly distinguishes an area label from complete text directions. [Source manifest](../games/dddhd/sources.md) records restricted/redirected leads without claiming they were read. No production media was added and no playtest was performed; the independent HD map screenshot was inspected as documentary evidence.
 
@@ -60,7 +63,7 @@ No permission is required to continue research, source reconciliation or reversi
 2. World/character scope uses the correct fixed count; remaining-only filters do not change it. A ten-item chest counts once. Narrative flags never enter the denominator.
 3. Crafting handles opt-in inventory, x/y quantities, alternate recipes/outcomes, rank/forecast/difficulty rules and consumed resources. Null probability is unknown. Beginner cannot be given a Risky Winds plan.
 4. Frootz Cat/Kab Kannon/R & R Seal default to HD formulas. AR/StreetPass is never the proposed HD acquisition.
-5. “Faith for 10 LP” explains Aura Lion's transformed node and prerequisites, and records the coordinate disagreement. Duplicate Spirit instances retain separate board states; shared breed acquisition counts once.
+5. “Faith for 10 LP” explains Aura Lion's transformed node and prerequisites, records the coordinate disagreement, and offers the 480-LP/level-25 Flowbermeow route. Duplicate Spirit instances retain separate board states; shared breed acquisition counts once.
 6. Stat-provider removal changes active Stats abilities without erasing permanent Support/Spirit unlocks. EXP Zero applicability is mode-aware.
 7. Cleared portal state survives rotation references; repetitions do not inflate totals. Lord Kyroo is one shared encounter chain with character-sensitive HP reward.
 8. The Steam 2.8 Treasure Hunter entry is not mapped to DDD chests. Platform awards and in-game trophies/secret-ending counters remain separate.
@@ -69,8 +72,9 @@ No permission is required to continue research, source reconciliation or reversi
 
 ## Remaining work after this pass
 
-- Resolve the exact source defects and missing factual statements in the 17 partial and 1 blocked finding; preserve the 7 resolved findings and their evidence.
-- Expand chest walking routes/access verification and complete portal approaches and room-level enemy routes without changing stable IDs.
+- DDD-025 remains open: establish one reliable HD wrong-answer recovery route for an already-cleared save without a pre-finale backup. Do not promise Theater-only repair.
+- Fourteen formerly nonresolved families retain scoped precision deferrals with specific usable routes and reopening triggers in the practical review. Missing facts remain partial/blocked as evidence, not mandatory research tasks.
+- Portal guidance now includes 22 HD landmarks and map-based search. Faith, Magic Boost, Second Chance and the missing petting transitions have practical alternatives; no uncertain board edge or base statistic was invented.
 - Root integration owns application builds/tests and shared contracts.
 - Data Jiminy remains empty by the current task instruction.
 

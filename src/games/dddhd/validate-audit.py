@@ -3,7 +3,7 @@ import json,pathlib,collections,re,subprocess
 root=pathlib.Path(__file__).resolve().parents[3];folder=pathlib.Path(__file__).parent
 read=lambda n:json.loads((folder/n).read_text())
 c=read('content.json');s=read('spirit-facts.json');w=read('world-facts.json');f=read('catalog-facts.json');idx={e['id']:e for e in c['entries']}
-assert len(idx)==len(c['entries'])==1283
+assert len(idx)==len(c['entries'])==1285
 assert len(c['recipes'])==263
 assert len(s)==54 and sum(len(x['board']['nodes']) for x in s)==1144
 assert sum(len(x['board']['unmatchedSourceDirections']) for x in s)==1
@@ -96,3 +96,20 @@ for cup in f['cups']:
 assert 'LV 15 and LV 17' in idx['dddhd:challenges:secret-cup']['prerequisites']
 assert all(next(s for s in read('spirit-facts.json') if s['name']==name)['baseStats']['hp']=='???' for name in ['Catanuki','Beatalike','Tubguin Ace'])
 print('DDD follow-up: route propagation, separate character delivery, score/prize boundaries and unknown vanilla stats passed.')
+
+import importlib.util
+spec=importlib.util.spec_from_file_location('source_utils',folder/'source-utils.py')
+u=importlib.util.module_from_spec(spec);spec.loader.exec_module(u)
+for spirit in s:
+ edges,mismatches=u.ability_edges(spirit['board']['nodes'])
+ assert edges==spirit['board']['edges']
+ assert mismatches==spirit['board']['unmatchedSourceDirections']
+ reached={n['coordinate'] for n in spirit['board']['nodes'] if n['kind']=='start'}
+ while True:
+  before=set(reached)
+  for a,b in edges:
+   if a in reached or b in reached:reached.update([a,b])
+  if before==reached:break
+ assert reached=={n['coordinate'] for n in spirit['board']['nodes']},spirit['name']
+assert u.ability_edges([{'coordinate':'A-1','directions':['Right']}])==([],[['A-1','Right','B-1']])
+print('DDD source connector normalization: all54 boards connected, missing endpoints never invented.')

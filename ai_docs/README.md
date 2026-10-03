@@ -1,12 +1,14 @@
 # Ars Arcanum Design and Implementation Documentation
 
+**Non-CoM player-purpose review — completed 2026-10-03:** all 65 starting residual KH2/BBS/DDD/KH0.2/KH3 families reviewed: 2 resolved, 52 with optional residual precision deferred, 11 useful questions still open. Practical fixes and exact deferral reasons are in the [final report](research/non-com-practical-review-2026-10-02.md). The initial 61/four count is superseded. KH1 and concurrent CoM work are preserved; app/device acceptance remains separate.
+
 **KH1 research — 2026-10-02:** practical needs met; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families are deferred and one dropped; none remain active in the reviewed research scope. [Current decisions and evidence](games/kh1fm/research-integration-2026-10-02.md). This does not certify UI/device release acceptance or authorize reseeding Data Jiminy.
 
 This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanum**, a mobile-first React Progressive Web App presented through faithful, game-specific journals.
 
 ## Current phase
 
-The seven-game research pass is integrated: every game had a medium-reasoning agent and its own branch, with reviewed merges to master. The [gap-closure coordination log](./research/gap-closure-coordination-2026-10-02.md) records the changes, validation and exact remaining scope: 106 closed, 73 partial, 15 unresolved/conflicted and 14 other limitations. The [October 1 resolution report](./research/research-resolution-2026-10-01.md) records the prior audit follow-through, and the [recovery/continuation log](./research/research-recovery-2026-10-01.md) preserves its remaining questions, updated documentation and git checkpoints. Game ledgers take precedence over old planning tables for current data gaps. Data Jiminy remains flushed while research continues. The [game-research/app-development split](./research/gap-closure-coordination-2026-10-02.md#game-factual-research-versus-app-development) classifies all 208 families: 189 game facts/evidence/scope and 19 app development/integration; it keeps their completion states separate.
+The non-CoM player-purpose research pass is integrated on its feature branch. The [final report](./research/non-com-practical-review-2026-10-02.md) accounts for all 156 scoped families and the 65 starting residuals: 2 resolved, 52 with optional precision deferred, and 11 still open. Practical acquisition, progression and achievement instructions were improved before residual precision was deferred. The [workstream register](./research/research-workstreams-2026-10-02.json) preserves all 208 seven-game families and the separate app-development classification. KH1 decisions and the concurrently owned CoM work are unchanged. Earlier [gap-closure](./research/gap-closure-coordination-2026-10-02.md), [October 1 resolution](./research/research-resolution-2026-10-01.md), and [recovery](./research/research-recovery-2026-10-01.md) reports are historical checkpoints; current game ledgers take precedence. Data Jiminy remains empty. No master merge or deployment is implied.
 
 ## Journal implementation context
 

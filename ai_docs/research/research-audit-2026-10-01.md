@@ -1,5 +1,7 @@
 # Research audit — October 1, 2026
 
+**Non-CoM player-purpose review — completed 2026-10-03:** all 65 starting residual KH2/BBS/DDD/KH0.2/KH3 families reviewed: 2 resolved, 52 with optional residual precision deferred, 11 useful questions still open. Practical fixes and exact deferral reasons are in the [final report](non-com-practical-review-2026-10-02.md). The initial 61/four count is superseded. KH1 and concurrent CoM work are preserved; app/device acceptance remains separate.
+
 **Status boundary:** counts and open-work statements below describe the dated checkpoint, not today’s backlog. KH1 now has 14 closed and 6 partial evidence families (five deferred, one dropped), with no active research family in the reviewed scope. See [current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md) and [current cross-game accounting](gap-closure-coordination-2026-10-02.md).
 
 The user requested an exhaustive scan for incomplete, unverified, unresearched, hedged and disputed game data. Six high-reasoning agents audited all seven games against repository baseline **`f933ab1`**, with separate per-game deliverables. These are audits of the existing repository evidence, not new external research or certifications of game facts.

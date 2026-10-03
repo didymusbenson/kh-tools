@@ -1,10 +1,16 @@
 # Birth by Sleep Final Mix research audit
 
+**Current critical re-audit (2026-10-03): 12 resolved, 16 deferred, 5 open and 5 separate limitations across all 38 families.** The prior 19-deferral / 2-open review over-deferred practical gaps and is superseded. Evidence counts remain 12 closed, 17 partial and 4 researched-open; a practical deferral does not verify an unknown fact. [All 38 current decisions](critical-reaudit-2026-10-03.md) · [Exact deferrals and reasons](future-improvements.md).
+
+Integrated corrections: 39 weak chest rows; a complete 60-sticker census with 26 corrected locators; 12 crystal-farm routes covering all nine materials; 15 Medal Shop command rows; 16 Command Board mode/character footnotes; Aqua-specific A Time to Chill access; D-Link/Shotlock actual-hit requirements; and no repeat manufacture for bought ice cream. Source/edition limits remain visible.
+
+Open practical families: missing command purchase gates (BBS-010), three story-awarded ice-cream completion alternatives (BBS-019), Combined Threat cross-clear access (BBS-021), mixed-save episode unlocks (BBS-031), and Collector award recovery (BBS-032). Exact affected record IDs are in the critical re-audit and ledger.
+
 Audit date: 2026-10-01. Repository baseline: `f933ab1` on `research/audit-2026-10-01`. This is an audit of repository evidence, not new external research or certification. The original audit changed only this report; subsequent status updates are dated separately below.
 
 Scope: Steam HD Final Mix; Terra, Ventus, Aqua main stories; Aqua’s **Final Episode** and **Secret Episode** as separate save/acquisition contexts. The BBS Secret Episode is included; the standalone **KH0.2** is excluded. Shared enemy/command definitions never imply shared character progress. “Unknown acquisition” does not mean unobtainable. No user playthrough is a prerequisite: `ai_docs/testing-and-content-validation.md:5–9` requires sourced edition-correct facts and app validation separately.
 
-## Current resolution status
+## Evidence resolution status (unchanged by practical deferrals)
 
 All 38 findings now have researched dispositions: **17 partial**, **4 researched-open**, **12 closed**, **2 provenance**, **1 implementation**, **1 visual**, **1 excluded**. See the [live resolution log](research-resolution-2026-10-01.md) and [complete per-ID ledger](research-dispositions-2026-10-01.json). These supersede baseline statuses, counts and claims below. Closed scopes are BBS-004/005/007/008/009/014/017/020/023/024/026/038; partial catalogs are not described as complete.
 

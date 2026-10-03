@@ -1050,7 +1050,7 @@
       ],
       "first_emblem": "Munny Plus",
       "second_emblem": "Steal",
-      "acquisition": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated ",
+      "acquisition": "After visiting Disney Town, play the Royal Board from the main menu. Land on Special Panels until Captain Justice or Captain Dark appears, then finish the board game to receive Pete’s D-Link. Arena sessions do not unlock it; a Royal Board game has only Cinderella as an opponent.",
       "source": "https://www.khwiki.com/Dimension_Link",
       "deck_by_emblems": [
         [
@@ -1112,10 +1112,19 @@
         },
         {
           "name": "Rumble Rave",
-          "instructions": "Drive the spinning kart into enemies. Exact inputs, hit count, power, and timing remain undocumented on the source page.",
-          "source": "https://www.khwiki.com/Rumble_Rave",
-          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+          "instructions": "Collect two Pete emblems, select his Enhanced D-Link, fill its Command Gauge, and activate Finish. Steer the spinning kart with the left stick into an enemy; register at least one hit for Reports. Exact damage and duration are not needed for registration.",
+          "source": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/89",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified.",
+          "supporting_sources": [
+            "https://www.khwiki.com/Rumble_Rave",
+            "https://www.khwiki.com/Dimension_Link",
+            "https://www.playstationtrophies.org/forum/topic/251866-kingdom-hearts-birth-by-sleep-report-guide/page/3/"
+          ]
         }
+      ],
+      "additional_sources": [
+        "https://www.khwiki.com/Royal_Board",
+        "https://www.khwiki.com/Dimension_Link"
       ]
     }
   ],
@@ -1124,5 +1133,10 @@
     "PSP wireless custom D-Links",
     "Vanitas: temporary final battle D-Link, not ordinary persistent acquisition"
   ],
-  "usage": "Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles."
+  "usage": "Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Fill the Command Gauge while linked, then activate the displayed Finish command. After two emblems, the D-Links menu lets you select Base or Enhanced; use both versions for their separate Reports hit records.",
+  "report_usage_source": "https://www.khwiki.com/Dimension_Link",
+  "practical_recheck_2026_10_02": {
+    "finding": "Rumble Rave steering and Base/Enhanced switching are documented in accessible HD guidance; missing practical inputs must not be deferred together with damage/timing precision. Reports hit registration is now explicit.",
+    "access": "TrueAchievements and PlayStationTrophies direct fetches returned 403; the targeted search index returned the actual relevant walkthrough/author text. No video frames or Steam build test claimed."
+  }
 }

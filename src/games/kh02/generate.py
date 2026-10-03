@@ -18,9 +18,9 @@ def add(id,cat,name,summary,**kw):
 for sec,c in rows('collectibles.md'):
  if sec.startswith('Ordinary chests') and c[0].startswith(('ct-','ww-','ft-','dd-')):
   e=add(c[0],'treasures',c[2]+' · '+c[1],c[3],world=worlds[c[0][:2]],area=c[1],reward=c[2],instructions='Open the chest.',sources=[chestsource])
-  route_sources={'C':chestsource,'L':'https://guiding-key.tumblr.com/kh0.2-locations','W':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/','F':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/','D':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/','S':steam,'I':'https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/'}
+  route_sources={'C':chestsource,'L':'https://guiding-key.tumblr.com/kh0.2-locations','W':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/','F':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/','D':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/','S':steam,'I':'https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/','T':thundaka}
   e['sources']=[route_sources[x.strip()] for x in c[4].split(',')]
-  conflicts={'ft-save-ether':'KHWiki and Destiny Islands say Ether; the Steam guide says Mega-Ether at the same save-point ivy.','ft-north-potion':'KHWiki Potion cannot be uniquely joined to the Steam guide’s northwest-thicket Hi-Potion.'}
+  conflicts={'ft-save-ether':'KHWiki and Destiny Islands say Ether; the Steam guide says Mega-Ether at the same save-point ivy.','ft-north-potion':'The physical thicket dead-end route is supported by the PS4 HD guide and Destiny Islands. Both identify Potion; the Steam community guide calls the corresponding northwest-thicket chest Hi-Potion. No Steam item-popup verification is claimed.'}
   if c[0] in conflicts:e['uncertainty']=conflicts[c[0]];e['sources'].append(steam)
   if 'pending' in c[3] or 'validation' in c[3]:e['uncertainty']='Contents-to-landmark identification needs further documentary verification.'
  if sec.startswith('Zodiac chests') and c[0].startswith(('ct-','ww-','ft-','dd-')):
@@ -44,7 +44,7 @@ extra={
 14:'At Castle Town’s bridge, walk downhill from the save point to the barrier, face uphill toward the arch, cast Blizzaga along the bridge and ride its ice rail uphill.',
 15:'Gather five Shadows, freeze them together with Blizzaga, and hit all five at once with Thundaga.',
 26:'Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement.',
-31:'Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt.',
+31:'Use Spellweaver Finish against Phantom Aqua; it need not be the killing blow. The third story fight is convenient because she has more HP. If you missed it, the HD Destiny Islands guide and Valizy objective guide also give the post-clear Zodiac boss-rush Phantom as a recovery route. This is objective 31, not objective 41, which explicitly targets the third story fight.',
 18:'Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts.',
 24:'After restoring the floating platforms with all five gears, use Doubleflight and Air Slide. From the north of the hub, climb the broken arch and rising left ledges to the highest floating structure.',
 25:'Reach the town summit by the north-side broken arch and rising ledges, then look upward at the meteor shower; wait briefly if necessary.',
@@ -73,6 +73,7 @@ for _,c in rows('objectives-and-wardrobe.md'):
  if n in [13,14,15,18,26,31,36,41,47,50]:e['sources'] += [steam,thundaka]
  if n in [18,26,31,36,41,47,50]:e['instructions']+=' For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.'
  if n==13:e['sources'].append('https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s')
+ if n==31:e['sources']+=['https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/','https://www.youtube.com/watch?v=nc0yavtz1W4']
  if n==50:e['sources'].append('https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness')
  if n==8:e['instructions']='Astral Ornament is also called Divine Back in an older guide; these are the same reward, not two cosmetics.'
  if n==42:e['categories']=['challenges']

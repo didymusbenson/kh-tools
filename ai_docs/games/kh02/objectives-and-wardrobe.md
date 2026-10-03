@@ -98,3 +98,7 @@ The reward join produces **12 Head + 9 Arms + 9 Back + 21 Pattern = 51 earned co
 | KH02-R06 | “Long distance” in #14 has no numeric threshold in inspected sources | Castle Town bridge uphill Blizzaga route is integrated; hidden numeric distance is unnecessary. |
 
 See [replay and achievements](./replay-challenges-achievements.md) for post-clear and encounter constraints. No production screenshot assets were collected.
+
+## October2 practical reassessment
+
+Objective31 now includes the explicitly published HD post-clear Zodiac Phantom recovery route, supported by Destiny Islands and Valizy’s objective guide description. Third-story advice is a convenient HP/gauge route, not proof of an exclusive event flag. Objective41 remains specifically third-story no-damage. Exact objective50 minimal event and pre-unlock counter retroactivity remain optional precision; see [current decisions](practical-review-2026-10-02.md).

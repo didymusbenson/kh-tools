@@ -26,7 +26,12 @@ def enrich(entries,recipes,root):
   e['instructions']='Ability Link nodes: '+'. '.join(bits)+'. Connections: '+', '.join(a+' ↔ '+b for a,b in s['board']['edges'])+'. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route.'
   e['uncertainty']='Source board topology and gates are extracted; disposition-dependent nodes remain conditional.'
   if s['name']=='Aura Lion':e['uncertainty']='Source conflict: the grid/table places Red Secret at C-7 (250 LP) and the level-30 checkpoint at D-7, but the Curaga→Faith footnote names D-7. Do not substitute the level gate for the secret purchase.'
-  if s['board']['unmatchedSourceDirections']:e['uncertainty']+=' The source draws a leftward path from B-3 toward the existing A-3 Magic Boost node, but A-3 lacks the reciprocal Right direction. That connection is not confirmed; no node is missing.'
+  if s['board']['unmatchedSourceDirections']:
+   e['uncertainty']+=' The source B-3 background draws a Left connector to A-3, but A-3 lacks the reciprocal Right graphic. This one-sided connector is reported separately; the adapter omission is not proof of an in-game locked branch.'
+   reported=[]
+   for origin,direction,target in s['board']['unmatchedSourceDirections']:
+    if any(n['coordinate']==target for n in nodes):reported.append(target+' ↔ '+origin+' (explicit '+origin+' '+direction+' graphic; reciprocal field absent)')
+   if reported:append(e,'Additional source-reported connectors: '+', '.join(reported)+'. These are qualified source connections, not independently inspected HD screenshots.')
   stats='; '.join(k+' '+str(v) for k,v in s['baseStats'].items() if v and v!='???')
   if stats:append(e,'Base values: '+stats+'.')
   disp=[]
@@ -97,7 +102,7 @@ def enrich(entries,recipes,root):
   for stock in facts['shopStock']:
    if slug(stock['name'])!=slug(name):continue
    if name=='Balloon' and ((e['category']=='commands') != (stock.get('kind')=='Magic')):continue
-   append(e,stock['shop']+': '+str(stock['price'])+(' munny; Bargain Flurry '+str(stock['bargainPrice']) if stock['shop']=='Moogle Shop' else ' medals')+'; '+('Bargain Flurry only; ' if '(B)' in stock['level'] else '')+'stock level '+stock['level'].replace(' (B)','')+'.');sources(e,stock['source'])
+   append(e,stock['shop']+': '+str(stock['price'])+(' munny; Bargain Flurry '+str(stock['bargainPrice']) if stock['shop']=='Moogle Shop' else ' medals')+'; '+('Bargain Flurry only; ' if '(B)' in stock['level'] else '')+('stock level '+stock['level'].replace(' (B)','') if stock['level'] else 'see the stated unlock condition')+'.');sources(e,stock['source'])
  for e in [x for x in entries if x['category'] in ['commands','materials']]:
   acquisition_joins(e,e['name'])
   if e['category']=='commands':
@@ -125,7 +130,7 @@ def enrich(entries,recipes,root):
  # Recipe items are independent ownership goals; formulas are not ownership.
  hdprices={'Frootz Cat':(7,500),'Kab Kannon':(7,500),'R & R Seal':(2,200),'Beatalike':(8,1000),'Tubguin Ace':(2,200)}
  for f in facts['recipeItems']:
-  e=add('recipe-items',f['name'],'Recipe-item ownership for '+f['breed']+'.',instructions=' '.join(f['routes'])+'. The formula can be used without owning this item.',sources=[f['source']]);acquisition_joins(e,f['name'])
+  e=add('recipe-items',f['name'],'Recipe-item ownership for '+f['breed']+'.',instructions=' '.join(f['routes'])+'. Obtain this item to select the named Spirit on the Create Spirits Recipes tab. Custom creation is separate and can work without a recipe item; inspect the displayed breed and odds before confirming.',sources=[f['source'],'https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16']);acquisition_joins(e,f['name'])
   if f['breed'] in hdprices:
    level,price=hdprices[f['breed']];append(e,'HD Moogle Shop: LV '+str(level)+', '+str(price)+' munny ('+str(int(price*.8))+' during Bargain Flurry).');sources(e,wiki('Talk:Recipe'),'https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/')
  # Preserve special IDs, and collapse repeated built-in configurations to a single physical portal identity.
@@ -139,18 +144,20 @@ def enrich(entries,recipes,root):
  objectives=sorted({p['objective'] for p in worlds['portals']+worlds['builtInPortalConfigurations'] if p['objective']})
  # Time-limit variants belong to one bonus type, not separate achievement requirements.
  record('achievements','Brave Challengers')['instructions']='Complete these seven bonus types: timed victory; victory without deck commands; three Flowmotion attacks; three blocks; three counters; ten attacks while linked; no more than two hits taken. Thresholds for the timed type vary by portal.'
- # Formula probabilities are only filled for the 54 marked recipe-item combinations, per the explicit mechanics rule.
+ # A named Recipes-tab route is not an unconditional raw-input probability. Preserve null source odds.
  events=collections.defaultdict(list)
  for s in spirits:
   for i,f in enumerate(s['formulas']):events[tuple(sorted((n,q) for n,q in f['ingredients']))].append((s['name'],f))
  for r in recipes:
   s=next(x for x in spirits if x['name']==r['group']);key=tuple(sorted((i['id'].removeprefix('dddhd:materials:'),i['quantity']) for i in r['ingredients']))
   f=next(f for f in s['formulas'] if tuple(sorted((slug(n),q) for n,q in f['ingredients']))==key)
-  if f['recipeItemFormula']:r['instructions']=r['instructions'].replace('Success probability is not explicitly recorded.','Success: 100% for the marked recipe-item formula (Spirit mechanics rule).')
+  if f['recipeItemFormula']:
+   r['instructions']=r['instructions'].replace('Success probability is not explicitly recorded.','Named recipe route: obtain the '+s['name']+' Recipe and select it on Create Spirits → Recipes. The mechanics source describes this selected recipe route as guaranteeing the intended breed; this is not a 100% claim for custom ingredient selection.')
+  r['instructions']=r['instructions'].replace('Owning a recipe item is not required.','Custom creation can work without a recipe item; named Recipes-tab selection requires the item. Check the displayed breed and odds before spending ingredients.').replace('No optimization or guaranteed-result claim is made.','No rank or custom-creation guarantee is made.')
   peers=events[tuple(sorted((n,q) for n,q in f['ingredients']))]
   if len(peers)>1:r['instructions']+=' Shared ingredient event: '+', '.join(n+' base '+f2['rank']+(' '+f2['probability'] if f2['probability'] else ' probability unreported') for n,f2 in peers)+'.'
-  r['sources']=[s['source'],wiki('Spirit'),wiki('Template:SynthKH3D')]
- for name,text in [('Ribbit Reaper','Defeating either the roaming boss or an ordinary Lord Kyroo enemy qualifies.'),('Keyblade Conqueror','Obtain every eligible Keyblade on both characters, including both copies of shared types.'),('Dream Pleaser','Raise every available Spirit breed to maximum affinity. Sources do not establish whether released or NG+ instances retain every partial award flag.'),('Daring Diver','Exceed 7,500,000 total Dive points. The source description does not specify whether repeat-run totals or retained course bests supply the counter.')]:
+  r['sources']=[s['source'],wiki('Spirit'),wiki('Template:SynthKH3D'),'https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16']
+ for name,text in [('Ribbit Reaper','Defeating either the roaming boss or an ordinary Lord Kyroo enemy qualifies.'),('Keyblade Conqueror','Obtain every eligible Keyblade on both characters, including both copies of shared types.'),('Dream Pleaser','Raise every available Spirit breed to maximum affinity. Sources do not establish whether released or NG+ instances retain every partial award flag.'),('Daring Diver','Exceed 7,500,000 points in the combined recorded course high scores.')]:
   record('awards',name)['instructions']=text
  # Full manifest: 69 collection entries minus the independently matched 15 0.2 goals.
  for a in json.loads((folder/'platform-facts.json').read_text())['achievements']:
@@ -216,6 +223,27 @@ def enrich(entries,recipes,root):
   e=add('reference',fact['name'],fact['summary'],instructions=fact['instructions'],sources=fact['sources'],checkable=False,collectible=False)
   if fact.get('uncertainty'):e['uncertainty']=fact['uncertainty']
  for r in recipes:append(r,'Extra-material rank thresholds and command donation rules are described in the Spirit creation reference.')
+ # Player-goal review: retain unresolved facts, but expose usable alternatives.
+ practical=json.loads((root/'ai_docs/games/dddhd/practical-facts-2026-10-02.json').read_text())
+ for fact in practical['newReferences']:
+  add('reference',fact['name'],fact['summary'],instructions=fact['instructions'],sources=fact['sources'],checkable=False,collectible=False)
+ for route in practical['portalLandmarks']:
+  e=index[route['id']]
+  assert (e['character'],e['world'],e['area'])==(route['character'],route['world'],route['expectedArea']), 'Reconcile portal identity before applying landmark'
+  append(e,'HD guide landmark: '+route['landmark']+'. Use the expanded mini-map to find the active portal.');sources(e,route['source'])
+  e['uncertainty']='Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.'
+  for material in [x for x in entries if x['category']=='materials']:
+   for drop in material.get('drops',[]):
+    if drop['enemy']==route['character']+' Special Portal '+str(route['number']) and drop['location'].startswith(route['world']+' · '):
+     drop['details']+=' HD guide landmark: '+route['landmark']+'.';sources(material,route['source'])
+ for patch in practical['entryPatches']:
+  assert patch['id'] in index, patch['id']
+  append(index[patch['id']],patch['appendInstructions']);sources(index[patch['id']],*patch['sources'])
+ for ident in ['spirits:aura-lion','commands:faith','commands:curaga']:
+  e=index['dddhd:'+ident]
+  e['instructions']=e['instructions'].replace('Changes to Faith after Secret: Red at D-7 is unlocked.','Changes to Faith after the Red Secret is unlocked; source grid C-7 and footnote D-7 conflict.')
+ for e in [x for x in entries if x['category']=='links']:
+  append(e,'Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.')
  for e in entries:
   if e.get('uncertainty')=='':e.pop('uncertainty',None)
  return entries,recipes

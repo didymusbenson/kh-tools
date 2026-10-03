@@ -246,7 +246,7 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:ft-north-potion",
     "category": "treasures",
     "name": "Potion · Forest of Thorns",
-    "summary": "Northern alcove off the broad combat area. Search route from Destiny Islands chest 8: from the paired stairways beyond the second Darkside, follow the right stairs over the rise; at the next fork take the descending path through black thorns to its dead end. The exact join to this record and the Steam guide's northwest-thicket Hi-Potion remains uncertain; match by the physical location, not the item name alone.",
+    "summary": "Beyond the optional Darksides, enter the vine thicket and take the short descending side path on the left to its dead end. From the paired stairways, this is the black-thorn branch after following the right stairs over the rise. This is separate from the lower crevasse on the ring-shaped path. HD guides identify this chest as Potion; the Steam community guide calls it Hi-Potion.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Forest of Thorns",
@@ -256,9 +256,10 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ],
-    "uncertainty": "KHWiki Potion cannot be uniquely joined to the Steam guide’s northwest-thicket Hi-Potion."
+    "uncertainty": "The physical thicket dead-end route is supported by the PS4 HD guide and Destiny Islands. Both identify Potion; the Steam community guide calls the corresponding northwest-thicket chest Hi-Potion. No Steam item-popup verification is claimed."
   },
   {
     "id": "kh02:ft-ring-potion",
@@ -1919,10 +1920,12 @@ export const entries: CollectionEntry[] = [
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/",
+      "https://www.youtube.com/watch?v=nc0yavtz1W4",
       "https://www.khwiki.com/Spellweaver"
     ],
     "world": "The World Within",
-    "instructions": "Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
+    "instructions": "Use Spellweaver Finish against Phantom Aqua; it need not be the killing blow. The third story fight is convenient because she has more HP. If you missed it, the HD Destiny Islands guide and Valizy objective guide also give the post-clear Zodiac boss-rush Phantom as a recovery route. This is objective 31, not objective 41, which explicitly targets the third story fight. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
   },
   {
     "id": "kh02:wardrobe:royal-tiara",
@@ -1931,7 +1934,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 31: Queen of the Rink.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 31: Use Spellweaver Finish during the third story Phantom Aqua encounter. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
+    "instructions": "Complete objective 31: Use Spellweaver Finish during the third story Phantom Aqua encounter. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish against Phantom Aqua; it need not be the killing blow. The third story fight is convenient because she has more HP. If you missed it, the HD Destiny Islands guide and Valizy objective guide also give the post-clear Zodiac boss-rush Phantom as a recovery route. This is objective 31, not objective 41, which explicitly targets the third story fight. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "First Phantom mirror",
     "collectible": false,
     "order": 31,
@@ -1940,6 +1943,8 @@ export const entries: CollectionEntry[] = [
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/",
+      "https://www.youtube.com/watch?v=nc0yavtz1W4",
       "https://www.khwiki.com/Spellweaver"
     ],
     "world": "The World Within"

@@ -1,6 +1,6 @@
 # KH0.2 practical research review — 2026-10-02
 
-Reviewed all 7 remaining families against their actual canonical and runtime guidance. **7 deferred; 0 active practical blockers.** Evidence statuses are preserved: deferral does not certify the missing fact. Existing closed work and other limitations are separately accounted for below.
+Reviewed all 7 remaining families against their actual canonical and runtime guidance. **6 families with deferred precision; 1 active practical question (KH02-012).** Evidence statuses are preserved: deferral does not certify the missing fact. Existing closed work and other limitations are separately accounted for below.
 
 The user authorized deferral when extra precision does not help progression, collection or achievements. Reopen a deferred question only for its named concrete need, not merely because a numeric/source field is still unknown. UI/device acceptance and empty Data Jiminy are unaffected.
 
@@ -19,13 +19,27 @@ The user authorized deferral when extra precision does not help progression, col
 | KH02-009 | resolved | resolved |
 | KH02-010 | partial | deferred |
 | KH02-011 | partial | deferred |
-| KH02-012 | partial | deferred |
+| KH02-012 | partial | open |
 | KH02-013 | partial | deferred |
 | KH02-014 | resolved | resolved |
 | KH02-015 | partial | deferred |
 | KH02-016 | resolved | resolved |
 | KH02-017 | resolved | resolved |
 | KH02-018 | resolved | resolved |
+
+## Corrective research: KH02-005
+
+The first practical pass treated a candidate search route as sufficient. That was reopened because matching a final missing chest needs a definite physical locator. A new targeted read of [Thundaka’s PS4 HD trophy guide, v1.05, objective 44](https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497) supplies it: item 7 is the Potion at the end of the short descending-left branch on entering the thicket; item 8 is separately in the ring-path crevasse. This matches the previously inspected Destiny Islands black-thorn branch and PSU left fork after the optional Darksides.
+
+The runtime now gives that concrete route and distinguishes the two nearby chests. The original stable ID is retained. Steam community text still labels the dead-end chest Hi-Potion, and the save-point chest Mega-Ether rather than Ether. Those consumable-label disputes remain explicit. No Steam item popup or gameplay frame was inspected. The route question is resolved documentary work; the residual item-name confirmation is the narrower deferral below.
+
+## Active question: KH02-012
+
+The same-cleared-save chest sweep is useful forward planning. It does not establish the award behavior for a player who has already started NG+ with some Zodiac relics retained and their chests already open, especially without a retained old save. That finite Steam award/recovery question remains open. The full bit layout and every theoretical lineage variant are not required: one supported completion rule or successful edition-labelled recovery account would suffice. No guaranteed success or permanent lockout is invented.
+
+## Corrective research: objective31 recovery
+
+[Destiny Islands](https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/) explicitly includes the Secret Boss Rush Phantom for Queen of the Rink. [Valizy’s 2017 guide description](https://www.youtube.com/watch?v=nc0yavtz1W4) independently recommends that postgame route. The older third-fight recommendation rests on HP and PS4 gauge duration; it is not evidence of an exclusive event flag. The app now gives the post-clear recovery action while keeping objective41 third-story-only. Video description was inspected, not frames; the Steam immediate-Finish difference remains separately documented.
 
 ## Deferred research and reasoning
 
@@ -40,10 +54,10 @@ The user authorized deferral when extra precision does not help progression, col
 ### KH02-005
 
 - **Player goal:** Open all Forest chests for the area objective and Treasure Hunter.
-- **Already sufficient / integrated now:** The save-point ivy chest is physically located irrespective of Ether/Mega-Ether naming. The northern record now also offers Destiny Islands chest-8 black-thorn dead-end search directions, with explicit uncertainty about its cross-source join and Steam Hi-Potion label. All ten ordinary Forest route records remain available.
-- **Deferred precision:** Definitive modern item-popup identity for save-point Ether/Mega-Ether and independent binding of northern Potion versus northwest-thicket Hi-Potion.
-- **Why defer:** For opening chests, the physical alcove/search route is actionable without deciding the consumable label. The candidate join is not silently certified, no duplicate chest is added, and the 55-find denominator stays unchanged. Exact content naming is optional precision unless it prevents matching a remaining chest.
-- **Reopen when:** A player has an unlocatable Forest chest or the candidate search route duplicates another record; then treat identity as a concrete blocker.
+- **Sufficient guidance after corrective research:** Fresh PS4 HD evidence identifies the left-descending thicket dead end as Potion, separately from the ring crevasse. Its starting point and fork agree with Destiny Islands and PSU, so the record now has a direct route rather than a candidate-only search. The save-point ivy chest is already physically located. Both item-label disagreements remain visible.
+- **Deferred precision:** Current Steam item-popup confirmation of save-point Ether versus Mega-Ether and northern-thicket Potion versus Hi-Potion; physical routes are now integrated.
+- **Why defer:** After researching the practical physical locator, only two ordinary-consumable labels remain disputed. The route lets players open and match each chest without assuming the reward label. This deferral does not establish the Steam contents; reopen if a location cannot be matched or a particular consumable matters to the player.
+- **Reopen when:** A player cannot uniquely match the thicket dead-end or save-point chest, or item-specific collection guidance requires verified Steam contents.
 
 ### KH02-010
 
@@ -56,18 +70,10 @@ The user authorized deferral when extra precision does not help progression, col
 ### KH02-011
 
 - **Player goal:** Complete the seven counter/encounter objectives and their wardrobe rewards.
-- **Already sufficient / integrated now:** Objectives 18/26/31/36/41/47/50 now explicitly advise attempting them after they are visible. Specified story encounters, pre-encounter saves, the third Phantom for 31/41, Spellweaver final blow for 36 and a conservative Wayfinder Finish route for 50 are documented.
-- **Deferred precision:** Zodiac substitution for objective 31, minimal active-versus-Finish predicate for 50, and pre-unlock partial counter retroactivity.
-- **Why defer:** The supported live-story route works without relying on rematch substitution or retroactive progress. Extra trigger archaeology could remove a repeat or relax an input, but is not needed to complete the objective using the stated conservative method.
+- **Sufficient guidance after research:** Named story conditions, visible-objective timing and conservative Wayfinder Finish guidance are integrated. Objective31 now includes the explicitly published HD Zodiac boss-rush recovery route; objective41 remains third-story-only. The two objectives are no longer conflated.
+- **Deferred precision:** Objective50 minimal active-versus-Finish predicate and pre-unlock partial counter retroactivity; the published objective31 recovery action is now integrated.
+- **Why defer:** The actual encounter/recovery actions are now supplied, including the post-clear route that avoids an unnecessary new run for objective31. Only the stricter minimal Finish event and speculative earlier partial-counter credit remain optional precision.
 - **Reopen when:** An objective fails after its documented visible/live-story method, or a concrete save cannot regain the required encounter.
-
-### KH02-012
-
-- **Player goal:** Earn Treasure Hunter without losing chest progress.
-- **Already sufficient / integrated now:** All 41 physical chests including Main Road and the twelve post-clear Zodiac chests are listed. The achievement directs a full collection sweep on one retained cleared save before NG+, consistent with HD trophy guides.
-- **Deferred precision:** Steam achievement evaluation of ordinary and retained Zodiac chest flags after entering NG+; current-run versus lineage/global union.
-- **Why defer:** The same-cleared-save method avoids the disputed transfer path and already supplies the whole collection route. Internal flag unions are unnecessary for this recommended route. No cross-run guarantee is added.
-- **Reopen when:** A completed same-save 41-chest sweep fails to award, or a specific transferred save needs recovery without an available source save.
 
 ### KH02-013
 
