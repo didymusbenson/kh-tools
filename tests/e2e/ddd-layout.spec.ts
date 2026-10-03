@@ -38,8 +38,9 @@ test('entry capacity grows with height and Back restores selection after resizin
  await page.setViewportSize({width:1280,height:1000});
  await expect.poll(()=>rows.count()).toBeGreaterThan(short);await fit(page);
  await page.getByRole('link',{name:'Next index page'}).click();
- const entry=rows.nth(1).getByRole('link'),id=await entry.getAttribute('data-entry-id');
- await entry.click();
+ await expect(page.getByRole('navigation',{name:'Index pages'}).locator('span')).toHaveText(/^2 \//);
+ const id=await rows.nth(1).getByRole('link').getAttribute('data-entry-id');
+ await page.locator(`[data-entry-id="${id}"]`).click();
  await page.setViewportSize({width:1280,height:720});
  await page.getByRole('navigation',{name:'Report location'}).getByRole('link').click();
  await expect(page.locator(`[data-entry-id="${id}"]`)).toBeFocused();await fit(page);
