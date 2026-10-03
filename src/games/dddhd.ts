@@ -34,6 +34,6 @@ const guide: GameGuide = {
   ],
   entries: content.entries,
   recipes: content.recipes,
-  coverage: '438 chests with pickup landmarks and 51 additional source notes; 54 Spirit boards and recipe items; 124 commands, 43 abilities and Links; 346 portal identities; 54 Steam achievements. 22 HD portal landmarks and practical board/training alternatives are integrated. Missing precision remains identified; optional deep research is separated from the open ending-recovery question.',
+  coverage: '438 chests with pickup landmarks and 51 additional source notes; 54 Spirit boards and recipe items; 124 commands, 43 abilities and Links; 346 portal identities; 54 Steam achievements. 22 HD portal landmarks and practical board/training alternatives are integrated. Missing precision remains identified; optional deep research is separated from scoped board, custom-recipe and ending-recovery questions.',
 };
 export default guide;

@@ -1,8 +1,9 @@
 # DDD HD inspected-source manifest
 
-**Current practical scope, 2026-10-02:** [Every-family review](practical-review-2026-10-02.md) separates 17 optional precision deferrals from one active HD ending-recovery question. Evidence uncertainty below remains valid, but historical demands for exhaustive matrices are no longer active by default. Runtime now has 1,285 entries / 263 formulas; Data Jiminy remains empty.
+**Critical re-audit:** [Current corrections](critical-reaudit-2026-10-02.md) re-examine three overbroad deferrals, resolve the adapter defect, and add recipe-mode, repeat-farming, concrete bonus and high-score instructions.
+**Current practical scope, 2026-10-02:** [Every-family review](practical-review-2026-10-02.md) separates 14 optional precision families from three scoped open questions. Evidence uncertainty below remains valid, but historical demands for exhaustive matrices are no longer active by default. Runtime now has 1,285 entries / 263 formulas; Data Jiminy remains empty.
 
-2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+2026-10-01 historical checkpoint: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
 
 Audit: 2026-09-18. This records **what was inspected**, not blanket endorsement or in-game verification. Source classes: USER = user's legacy source, REPO = existing implementation/planning, PRIMARY = publisher/platform, COMMUNITY = third-party reference. All directions in planning prose are concise original summaries.
 
@@ -27,7 +28,7 @@ Workbook metadata grid sizes: Spirit/common_lookup/Deck_Command/spirit recipe ha
 | [Square Enix Collection](https://www.jp.square-enix.com/kingdom/collection/) | HD2.8 product section, platforms, announcement date | 2026-10-08 ports are announced, not shipped at audit |
 | [Square Enix cloud notice](https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4) | Service/sales notice | Cloud lifecycle; no gameplay parity inference |
 
-## Community sources inspected
+## Community sources inspected (historical initial coverage)
 
 All KHWiki sources below are secondary/community. Some contain cleanup tags, unknown values and original-3DS mechanics. They are evidence for candidate facts, not a substitute for independent HD checks.
 
@@ -64,7 +65,7 @@ All KHWiki sources below are secondary/community. Some contain cleanup tags, unk
 
 Individual Keyblade pages inspected (DDD acquisition/stat sections): [Kingdom Key](https://www.khwiki.com/Kingdom_Key), [Way to the Dawn](https://www.khwiki.com/Way_to_the_Dawn), [Skull Noise](https://www.khwiki.com/Skull_Noise), [Guardian Bell](https://www.khwiki.com/Guardian_Bell), [Dual Disc](https://www.khwiki.com/Dual_Disc), [Ferris Gear](https://www.khwiki.com/Ferris_Gear), [Ocean's Rage](https://www.khwiki.com/Ocean%27s_Rage), [Knockout Punch](https://www.khwiki.com/Knockout_Punch), [All for One](https://www.khwiki.com/All_for_One), [Counterpoint](https://www.khwiki.com/Counterpoint), [Sweet Dreams](https://www.khwiki.com/Sweet_Dreams), [Divewing](https://www.khwiki.com/Divewing), [End of Pain](https://www.khwiki.com/End_of_Pain), [Unbound](https://www.khwiki.com/Unbound), [Ultima Weapon](https://www.khwiki.com/Ultima_Weapon). Only DDD acquisition/stat facts are promoted; other games' synthesis requirements are excluded.
 
-## Failed or non-evidence leads
+## Failed or non-evidence leads (historical attempts; not current access guarantees)
 
 - Legacy EXTRA's GameFAQs guide 64749: connector/web retrieval was restricted; not claimed read.
 - TrueAchievements walkthrough endpoint: inaccessible through web retrieval; not claimed read.
@@ -85,3 +86,7 @@ The complete 438-row KH13 treasure list and independent GamerGuides final-world 
 
 
 2026-10-02: [Full-scope follow-up](gap-closure-2026-10-02.md) and [per-family inspection outcomes](gap-evidence-2026-10-02.json) distinguish full HD pages, indexed-only player reports, inaccessible images/spreadsheets, generic binary schemas and mod-only values. OpenKH is pinned to `7a3b945c538d32c6a285128c98aefba093f52ceb`; Steam AP to `aae4da6f2658154866f9e88dde14506c9a576de8`. AP explicitly substitutes missing breed stats and writes encounter events, so it is excluded as vanilla proof for those fields.
+
+## Practical-review inspections (2026-10-02)
+
+The PS4 HD Thundaka guide 77497 was successfully read through the web tool in this pass. Its 22 useful portal location qualifiers now reach runtime; this does not claim that the historically restricted 3DS guide 64749 became available. The 2017 PlayStationTrophies portal-search procedure was inspected as a substantial indexed excerpt, not as screenshots. Spirit/Training Toy pages independently corroborate the probabilistic food route and menu reset. Flowbermeow’s existing reciprocal graph supports the calculated alternate Faith path. Exact URLs, edition labels and limitations are in [practical facts](practical-facts-2026-10-02.json).

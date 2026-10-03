@@ -43,3 +43,20 @@ def template(raw,name):
 
 def params(raw):
  return {k:v.strip() for k,v in re.findall(r'(?:^|\n)\s*\|\s*([A-Za-z][A-Za-z0-9]*)=(.*?)(?=\n\s*\||\n}}|$)',raw,re.S)}
+
+def ability_edges(nodes):
+ """Normalize explicit connector graphics as undirected paths; keep asymmetry provenance.
+
+ An adjacent connector declared at either end is source evidence for the path.
+ Requiring both background SVGs to repeat it previously dropped Jestabocky's
+ B-3 Left -> A-3 connector. Never invent an endpoint absent from the source.
+ """
+ positions={n['coordinate']:n for n in nodes};edges=set();mismatch=[]
+ dirs={'Up':(0,-1,'Down'),'Down':(0,1,'Up'),'Left':(-1,0,'Right'),'Right':(1,0,'Left')}
+ for node in nodes:
+  c,r=node['coordinate'].split('-')
+  for direction in node['directions']:
+   dx,dy,back=dirs[direction];target=chr(ord(c)+dx)+'-'+str(int(r)+dy)
+   if target in positions:edges.add(tuple(sorted([node['coordinate'],target])))
+   if target not in positions or back not in positions[target]['directions']:mismatch.append([node['coordinate'],direction,target])
+ return [list(edge) for edge in sorted(edges)],mismatch

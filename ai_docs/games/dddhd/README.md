@@ -1,8 +1,9 @@
 # Dream Drop Distance HD research pack
 
+**Critical re-audit:** [Current corrections](critical-reaudit-2026-10-02.md) re-examine three overbroad deferrals, resolve the adapter defect, and add recipe-mode, repeat-farming, concrete bonus and high-score instructions.
 UI references received October 2, 2026: [6 original screenshots and source manifest](../../ui/references/dddhd/README.md). Custom journal implementation remains outstanding.
 
-2026-10-02 practical review: **1,285 generated entries, 263 formulas; research disposition 7 resolved / 17 deferred / 1 open.** Evidence accounting remains **7 resolved / 17 partial / 1 blocked**. Added 22 HD portal landmarks, map-based portal hunting, known disposition detours, a complete alternative Faith route, and conservative achievement/recovery advice. All 438 treasure and 346 portal identities remain; Data Jiminy stays empty. [Every-family review](practical-review-2026-10-02.md) · [Deferrals and reasons](future-improvements.md) · [Machine ledger](audit-dispositions.json).
+2026-10-02 practical review: **1,285 generated entries, 263 formulas; research disposition 8 resolved / 14 deferred / 3 open.** Evidence accounting remains **8 resolved / 16 partial / 1 blocked**. Added 22 HD portal landmarks, map-based portal hunting, known disposition detours, a complete alternative Faith route, and conservative achievement/recovery advice. All 438 treasure and 346 portal identities remain; Data Jiminy stays empty. [Every-family review](practical-review-2026-10-02.md) · [Deferrals and reasons](future-improvements.md) · [Machine ledger](audit-dispositions.json).
 
 Earlier [gap closure](gap-closure-2026-10-02.md) and [continuation](research-continuation-2026-10-01.md) retain their historical evidence and outcomes. Missing precision is no longer automatically an active release requirement.
 
@@ -35,8 +36,9 @@ The official [2026 Collection page](https://www.jp.square-enix.com/kingdom/colle
 ## Remaining actionable work
 
 1. Research DDD-025’s concrete recovery case: incorrect final answers saved to an HD clear file without a retained pre-finale backup. Establish one usable route; do not require a complete hidden-state matrix. Current initial-unlock guidance and backup precaution are sufficient before the finale.
-2. Revisit the 17 deferred precision families only for the concrete triggers in [future improvements](future-improvements.md). Aura Lion’s coordinates remain factually conflicted; alternate reward providers mean they do not block current collection goals.
-3. Exercise offline progress synchronization, migrations, backup and grounded Data Jiminy answers separately from research. Empty Data Jiminy remains intentional; no knowledge seeding was performed.
+2. Resolve DDD-004/006’s specific source/selection questions. DDD-003 is resolved by retaining its explicitly drawn connector, without inferring an in-game locked branch.
+3. Revisit the 14 deferred precision families only for the concrete triggers in [future improvements](future-improvements.md). Aura Lion’s coordinates remain factually conflicted; alternate reward providers mean they do not block current collection goals.
+4. Exercise offline progress synchronization, migrations, backup and grounded Data Jiminy answers separately from research. Empty Data Jiminy remains intentional; no knowledge seeding was performed.
 
 The user plays Steam; source research does not require a manual playthrough. Shared functional acceptance and journal UI remain separate engineering work. This review does not defer those features or tests.
 

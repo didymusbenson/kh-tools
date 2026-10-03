@@ -34,14 +34,7 @@ def fetch(name):
   # The source Base SVG is a four-way cross (File:Ability_Link_(Base).svg).
   if directions==['Base']:directions=['Up','Down','Left','Right']
   nodes.append({'coordinate':coord[0]+'-'+coord[1:],'name':u.clean(text) or ('Start' if 'Start' in image else 'Path'),'kind':u.clean(board.get(coord+'type','')) or ('start' if 'Start' in image else 'path'),'cost':u.clean(board.get(coord+'lp','')),'conditions':list(dict.fromkeys(conditions)),'directions':[d for d in directions if d in ['Up','Down','Left','Right']]})
- positions={n['coordinate']:n for n in nodes};edges=set();mismatch=[]
- dirs={'Up':(0,-1,'Down'),'Down':(0,1,'Up'),'Left':(-1,0,'Right'),'Right':(1,0,'Left')}
- for node in nodes:
-  c,r=node['coordinate'].split('-')
-  for direction in node['directions']:
-   dx,dy,back=dirs[direction];target=chr(ord(c)+dx)+'-'+str(int(r)+dy)
-   if target in positions and back in positions[target]['directions']:edges.add(tuple(sorted([node['coordinate'],target])))
-   else:mismatch.append([node['coordinate'],direction,target])
+ edges,mismatch=u.ability_edges(nodes)
  dispositions=[]
  for i,a in enumerate('abcd',1):
   interactions=[]
@@ -50,7 +43,7 @@ def fetch(name):
    body=basic.get('DDDdisp'+a+b,'')
    interactions.append({'to':basic.get('DDDdisp'+str(j),''),'action':'rub' if j in [2,4] else 'poke','bodyPart':u.clean(body) or None})
   dispositions.append({'name':basic.get('DDDdisp'+str(i),''),'interactions':interactions})
- return {'name':name,'source':u.source(name),'sourceSha256':hashlib.sha256(raw.encode()).hexdigest(),'formulaSelection':selection,'formulas':out,'normalDrops':basic.get('DDDNrewards',''),'rareDrops':basic.get('DDDRrewards',''),'worlds':basic.get('DDDNworlds',''),'rareWorlds':basic.get('DDDRworlds',''),'nightmareForm':'DDDNrewards' in basic,'rareNightmareForm':'DDDRrewards' in basic,'link':basic.get('DDDlink',''),'attribute':basic.get('DDDatt',''),'style':basic.get('DDDstyle',''),'baseStats':{k:basic.get('DDDS'+v) for k,v in [('hp','HP'),('strength','STR'),('magic','MAG'),('defense','DEF'),('expModifier','EXP')]},'dispositions':dispositions,'board':{'nodes':nodes,'edges':[list(e) for e in sorted(edges)],'unmatchedSourceDirections':mismatch}}
+ return {'name':name,'source':u.source(name),'sourceSha256':hashlib.sha256(raw.encode()).hexdigest(),'formulaSelection':selection,'formulas':out,'normalDrops':basic.get('DDDNrewards',''),'rareDrops':basic.get('DDDRrewards',''),'worlds':basic.get('DDDNworlds',''),'rareWorlds':basic.get('DDDRworlds',''),'nightmareForm':'DDDNrewards' in basic,'rareNightmareForm':'DDDRrewards' in basic,'link':basic.get('DDDlink',''),'attribute':basic.get('DDDatt',''),'style':basic.get('DDDstyle',''),'baseStats':{k:basic.get('DDDS'+v) for k,v in [('hp','HP'),('strength','STR'),('magic','MAG'),('defense','DEF'),('expModifier','EXP')]},'dispositions':dispositions,'board':{'nodes':nodes,'edges':edges,'unmatchedSourceDirections':mismatch}}
 results=list(concurrent.futures.ThreadPoolExecutor(max_workers=6).map(fetch,names))
 assert len(results)==54 and all(r['formulas'] and r['board']['nodes'] for r in results)
 (folder/'spirit-facts.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')

@@ -98,9 +98,9 @@
     },
     {
       "id": "DDD-003",
-      "status": "partial",
-      "integrated": "All 54 boards extracted: 1,144 nodes with reciprocal edges, quotas, costs, conditional transformations and disposition references. Live Cyber Yog nodes classify both Thunder Screens as Stat abilities; legacy import remains historical.",
-      "remaining": "Jestabocky B-3 Left reaches existing A-3 Magic Boost, but A-3 lacks reciprocal Right. Aura Lion C-7/D-7 remains separately blocked.3DS corroboration cannot certify HD.",
+      "status": "resolved",
+      "integrated": "All54 boards and1144 nodes extracted. Corrected the reciprocal-only parser to retain the explicit undirected B-3/A-3 Jestabocky connector; all source-reported boards are now connected. The missing reciprocal background graphic remains recorded as source provenance. Aura Lion’s separate transformation conflict remains DDD-004.",
+      "remaining": "No remaining identified connector-extraction defect. The asymmetric source graphic remains a disclosed provenance issue, not an invented in-game gate. Aura Lion remains separately open under DDD-004.",
       "consultedSources": [
         "https://www.khwiki.com/Aura_Lion",
         "https://www.khwiki.com/Beatalike",
@@ -182,14 +182,12 @@
       },
       "practicalReviewDate": "2026-10-02",
       "practicalReviewReport": "practical-review-2026-10-02.md",
-      "researchDisposition": "deferred",
-      "playerGoal": "Learn useful rewards and earn Strongest Link.",
-      "sufficientGuidance": "All 54 boards and reverse reward providers exist. Meow Wow provides a complete alternate board for Strongest Link and a known Magic Boost node; these detours are now explicit.",
-      "deferredDetails": [
-        "The reciprocal Jestabocky A-3/B-3 source edge and exact HD checkpoint comparison."
-      ],
-      "deferralReason": "An uncertified extra edge is not required to obtain Magic Boost or complete a board for the achievement. It remains omitted; no false connection or node is added.",
-      "reopenWhen": "A player specifically needs Jestabocky A-3, or an automated complete-board pathfinder is approved.",
+      "researchDisposition": "resolved",
+      "playerGoal": "Use Jestabocky’s actual board, including its B/C/D stat branch.",
+      "sufficientGuidance": "Jestabocky’s published B-3 Left connector to A-3 is now in the canonical and generated board path. A-3 already has its ordinary A-2 approach; the B/C/D branch is reachable in the normalized source graph. No alternate Spirit is needed to explain the connector.",
+      "deferredDetails": [],
+      "deferralReason": "Resolved the actual model error by preserving an explicitly declared source path. Further binary or independent Steam-diagram proof is not required to normalize an undirected connector already in the source.",
+      "reopenWhen": "New contradictory source evidence or an actual player report shows the published connector/board guidance is wrong.",
       "practicalRuntimeEntries": [
         "dddhd:spirits:jestabocky",
         "dddhd:abilities:magic-boost",
@@ -197,9 +195,15 @@
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "All 54 boards and reverse reward providers exist. Meow Wow provides a complete alternate board for Strongest Link and a known Magic Boost node; these detours are now explicit.",
-        "evidenceFile": "practical-facts-2026-10-02.json",
-        "evidenceStatusUnchanged": true
+        "result": "Jestabocky’s published B-3 Left connector to A-3 is now in the canonical and generated board path. A-3 already has its ordinary A-2 approach; the B/C/D branch is reachable in the normalized source graph. No alternate Spirit is needed to explain the connector.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": false
+      },
+      "previousPracticalDecision": {
+        "date": "2026-10-02",
+        "researchDisposition": "deferred",
+        "reason": "An uncertified extra edge is not required to obtain Magic Boost or complete a board for the achievement. It remains omitted; no false connection or node is added.",
+        "supersededBy": "critical re-audit after user challenged breadth of deferrals"
       }
     },
     {
@@ -234,14 +238,12 @@
       },
       "practicalReviewDate": "2026-10-02",
       "practicalReviewReport": "practical-review-2026-10-02.md",
-      "researchDisposition": "deferred",
-      "playerGoal": "Obtain Faith, Curaga and Second Chance without getting stuck on Aura Lion.",
-      "sufficientGuidance": "Faith now has a complete Flowbermeow route: 480 LP and level 25. Curaga has a shop/chest route; Second Chance has Escarglow and other documented providers.",
-      "deferredDetails": [
-        "Aura Lion Red Secret C-7 versus transformation-footnote D-7, including the relation to the level-30 gate."
-      ],
-      "deferralReason": "The source conflict stays blocked as evidence, but alternate acquisition paths meet the player goals. Coordinate certification is only necessary for an Aura-Lion-specific route or board solver.",
-      "reopenWhen": "An Aura Lion-specific problem is reported, or a labelled unmodified HD board image/data row becomes available.",
+      "researchDisposition": "open",
+      "playerGoal": "Unlock Aura Lion’s red-secret transformation and use its existing board.",
+      "sufficientGuidance": "The table identifies Red Secret C-7 (250 LP), Green Secret E-6 and a separate level-30 gate at D-7; the footnote disagrees. Flowbermeow remains a workaround for Faith, not closure of Aura Lion’s route.",
+      "deferredDetails": [],
+      "deferralReason": "Reopened: alternate providers help global collection, but do not settle the supported Aura Lion-specific board question.",
+      "reopenWhen": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required.",
       "practicalRuntimeEntries": [
         "dddhd:spirits:aura-lion",
         "dddhd:spirits:flowbermeow",
@@ -251,10 +253,17 @@
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "Faith now has a complete Flowbermeow route: 480 LP and level 25. Curaga has a shop/chest route; Second Chance has Escarglow and other documented providers.",
-        "evidenceFile": "practical-facts-2026-10-02.json",
+        "result": "The table identifies Red Secret C-7 (250 LP), Green Secret E-6 and a separate level-30 gate at D-7; the footnote disagrees. Flowbermeow remains a workaround for Faith, not closure of Aura Lion’s route.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
         "evidenceStatusUnchanged": true
-      }
+      },
+      "previousPracticalDecision": {
+        "date": "2026-10-02",
+        "researchDisposition": "deferred",
+        "reason": "The source conflict stays blocked as evidence, but alternate acquisition paths meet the player goals. Coordinate certification is only necessary for an Aura-Lion-specific route or board solver.",
+        "supersededBy": "critical re-audit after user challenged breadth of deferrals"
+      },
+      "openQuestion": "Confirm which HD red-secret node changes Curaga C-2 to Faith, distinguishing the secret purchase from the level-30 checkpoint."
     },
     {
       "id": "DDD-005",
@@ -369,8 +378,8 @@
     {
       "id": "DDD-006",
       "status": "partial",
-      "integrated": "263 formulas retained; 37 shared ingredient events cross-linked. The 54 marked recipe-item formulas receive the explicit 100% rule; nulls are never defaulted wholesale.",
-      "remaining": "141 unmarked formulas retain unreported odds. SynthKH3D has no probability default establishing 100%; absence of chance/success fields is not proof. Risky Winds wording is separately ambiguous (DDD-007).",
+      "integrated": "263 formulas retained; 37 shared ingredient events cross-linked. All 54 named recipe items have acquisition routes. The HD menu distinction is integrated and three raw-input collisions are explicit; generic recipe guarantee language is no longer applied unconditionally to custom creation.",
+      "remaining": "Determine HD custom-creation selection/outcome semantics for Noble Fancy×3 + Grim Figment×4 (Cyber Yog/Sir Kyroo), Epic Fantasy×1 + Intrepid Fantasy×3 (Tyranto Rex/Ursa Circus), and Rampant Figment×4 + Vibrant Fancy×3 (Jestabocky/Meow Wow). The 141 unmarked source probabilities remain unknown; the 54 marked entries are recipe-mode routes, not unconditional raw-input guarantees.",
       "consultedSources": [
         "https://www.khwiki.com/Aura_Lion",
         "https://www.khwiki.com/Beatalike",
@@ -450,35 +459,45 @@
       },
       "practicalReviewDate": "2026-10-02",
       "practicalReviewReport": "practical-review-2026-10-02.md",
-      "researchDisposition": "deferred",
-      "playerGoal": "Create every Spirit breed while budgeting Dream Pieces.",
-      "sufficientGuidance": "All 263 formulas are retained; all 54 breeds have one explicitly marked recipe-item formula with the documented intended-breed guarantee. The creation guide now recommends that route when an alternative probability is unreported.",
+      "researchDisposition": "open",
+      "playerGoal": "Create the intended Spirit using the selected recipe mode, including colliding custom ingredient combinations.",
+      "sufficientGuidance": "The HD menu guide distinguishes an owned Recipes tab from custom creation. Runtime now says to obtain/select the named recipe for its documented recipe route and to inspect custom preview odds. Two double-marked pairs and a third marked/unmarked collision are recorded explicitly; unconditional raw-input 100% text was removed.",
       "deferredDetails": [
-        "Probabilities of 141 unmarked formulas."
+        "Probabilities of unrelated unmarked alternatives beyond the three colliding creation events; exact expected-cost optimization."
       ],
-      "deferralReason": "A player can collect each breed without choosing an unknown-probability alternative. Exact alternative odds matter for expected-cost optimization; the planner continues to represent one attempt and never defaults null odds to 100%.",
-      "reopenWhen": "A breed lacks a usable marked formula, a player needs a scarce-material alternative, or an expected-cost optimizer is approved.",
+      "deferralReason": "Reopened: contradictory 100% raw-input guidance could spend a player’s ingredients on the wrong intended breed. A recipe-backed fallback is useful, but does not verify the displayed custom formulas.",
+      "reopenWhen": "Close only when the stated practical question has source-backed guidance; an independent HD guide or image is sufficient and no binary proof is required.",
       "practicalRuntimeEntries": [
         "dddhd:reference:spirit-creation"
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "All 263 formulas are retained; all 54 breeds have one explicitly marked recipe-item formula with the documented intended-breed guarantee. The creation guide now recommends that route when an alternative probability is unreported.",
-        "evidenceFile": "practical-facts-2026-10-02.json",
+        "result": "The HD menu guide distinguishes an owned Recipes tab from custom creation. Runtime now says to obtain/select the named recipe for its documented recipe route and to inspect custom preview odds. Two double-marked pairs and a third marked/unmarked collision are recorded explicitly; unconditional raw-input 100% text was removed.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
         "evidenceStatusUnchanged": true
-      }
+      },
+      "previousPracticalDecision": {
+        "date": "2026-10-02",
+        "researchDisposition": "deferred",
+        "reason": "A player can collect each breed without choosing an unknown-probability alternative. Exact alternative odds matter for expected-cost optimization; the planner continues to represent one attempt and never defaults null odds to 100%.",
+        "supersededBy": "critical re-audit after user challenged breadth of deferrals"
+      },
+      "openQuestion": "Determine HD custom-creation selection/outcome semantics for Noble Fancy×3 + Grim Figment×4 (Cyber Yog/Sir Kyroo), Epic Fantasy×1 + Intrepid Fantasy×3 (Tyranto Rex/Ursa Circus), and Rampant Figment×4 + Vibrant Fancy×3 (Jestabocky/Meow Wow)."
     },
     {
       "id": "DDD-007",
       "status": "partial",
-      "integrated": "Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details.",
+      "integrated": "Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details. Golden Egg now has an HD-sourced either-breed ★-rank custom-creation route, corroborated by base-B quantities and +2 rank thresholds.",
       "remaining": "Spirit initial-level table has average-level 20→27 and malformed 30–01 row; its Risky Winds 50% wording does not distinguish relative versus percentage-point shifts. These prevent certified initial-level/odds optimization; no optimality inferred from legacy BEST BASE.",
       "consultedSources": [
         "https://www.khwiki.com/Spirit",
         "https://www.khwiki.com/Drop_System",
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
         "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/63989167",
-        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320"
+        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Tama_Sheep",
+        "https://www.khwiki.com/Pricklemane"
       ],
       "continuation": {
         "date": "2026-10-01",
@@ -499,22 +518,36 @@
       "practicalReviewDate": "2026-10-02",
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
-      "playerGoal": "Create useful ranks and train Spirits for board level gates.",
-      "sufficientGuidance": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Use the creation preview and train afterward; do not rely on the malformed starting-level table or weather probability arithmetic.",
+      "playerGoal": "Create useful ranks, earn Golden Egg and train Spirits for board level gates.",
+      "sufficientGuidance": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Golden Egg now has a PS4 HD route: custom-create with 10 Intrepid Figments + 8 Vibrant Figments for either Tama Sheep or Pricklemane at ★. Both base-B outcomes receive +2 ranks from doubling both ingredients; no weather or specific-breed guarantee is needed. Use the preview and train afterward; the malformed starting-level table and weather probability arithmetic are not required.",
       "deferredDetails": [
         "Two malformed starting-level cells and relative-versus-percentage-point interpretation of Risky Winds odds."
       ],
-      "deferralReason": "Exact initial-level/weather optimization is unnecessary for creating and leveling a breed. Keeping the unknown arithmetic out of calculations prevents misleading guarantees.",
+      "deferralReason": "The concrete ★-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations.",
       "reopenWhen": "A supported route needs a precise starting-level threshold or a weather/expected-cost optimizer is approved.",
       "practicalRuntimeEntries": [
-        "dddhd:reference:spirit-creation"
+        "dddhd:reference:spirit-creation",
+        "dddhd:achievements:golden-egg"
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Use the creation preview and train afterward; do not rely on the malformed starting-level table or weather probability arithmetic.",
+        "result": "Material rank thresholds, the weaker-ingredient rule and donation bonuses are documented. Golden Egg now has a PS4 HD route: custom-create with 10 Intrepid Figments + 8 Vibrant Figments for either Tama Sheep or Pricklemane at ★. Both base-B outcomes receive +2 ranks from doubling both ingredients; no weather or specific-breed guarantee is needed. Use the preview and train afterward; the malformed starting-level table and weather probability arithmetic are not required.",
         "evidenceFile": "practical-facts-2026-10-02.json",
         "evidenceStatusUnchanged": true
-      }
+      },
+      "practicalSubquestions": [
+        {
+          "question": "A workable Golden Egg ★-rank creation route",
+          "researchDisposition": "resolved",
+          "answer": "Custom creation: Intrepid Figment ×10 + Vibrant Figment ×8; either Tama Sheep or Pricklemane is ★ rank. No weather requirement or selected-breed guarantee.",
+          "evidenceFile": "practical-reaudit-evidence-2026-10-02.json"
+        },
+        {
+          "question": "Malformed starting-level cells and Risky Winds odds arithmetic",
+          "researchDisposition": "deferred",
+          "reason": "The concrete ★-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations."
+        }
+      ]
     },
     {
       "id": "DDD-008",
@@ -656,17 +689,23 @@
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
       "playerGoal": "Obtain every Dream Piece and gather ingredients for Spirit creation.",
-      "sufficientGuidance": "All 37 materials have sourced enemy/portal routes and chest/shop joins. Rare and ordinary forms stay separate; newly added portal landmarks also propagate into material sources.",
+      "sufficientGuidance": "All 37 materials have sourced enemy/portal routes and chest/shop joins. Rare and ordinary forms stay separate; newly added portal landmarks also propagate into material sources. The re-audit added a repeatable PS4-documented Riku TWTNW Special3 farming loop sufficient to gather the five Brilliant Fantasies used by the three marked formulas, plus the Sora Wild Fantasy counterpart.",
       "deferredDetails": [
-        "Every ordinary enemy room/spawn loop, exact Spirit-expiration quantities and exhaustive repeat/bonus payout transitions."
+        "Every ordinary enemy room/spawn loop, exact expiration quantities, earliest possible replay gate and exhaustive payout transitions outside the documented Brilliant/Wild repeat-farm route."
       ],
-      "deferralReason": "The catalog offers acquisition routes without sacrificing trained Spirits or claiming a fastest loop. Expiration yields and spawn optimization are optional when known enemies, shops or portals already supply the material.",
+      "deferralReason": "Room-by-room optimal farming and expiration quantities remain optional after adding an actual rotating repeat-farm action for the scarce materials. The former existence-of-routes-only rationale was insufficient; the new loop tells players how to obtain more than their first clear.",
       "reopenWhen": "A required material cannot be obtained by its listed routes, or a demonstrated farm needs room-level/repeat-reward correction.",
       "practicalRuntimeEntries": [
         "dddhd:materials:brilliant-fantasy",
         "dddhd:materials:wild-fantasy",
         "dddhd:reference:portal-hunting"
-      ]
+      ],
+      "practicalIntegration": {
+        "date": "2026-10-02",
+        "result": "All 37 materials have sourced enemy/portal routes and chest/shop joins. Rare and ordinary forms stay separate; newly added portal landmarks also propagate into material sources. The re-audit added a repeatable PS4-documented Riku TWTNW Special3 farming loop sufficient to gather the five Brilliant Fantasies used by the three marked formulas, plus the Sora Wild Fantasy counterpart.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
+        "evidenceStatusUnchanged": true
+      }
     },
     {
       "id": "DDD-010",
@@ -1117,11 +1156,11 @@
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
       "playerGoal": "Find and clear all 78 Specials and 11 Secrets for End of Pain, Unbound and portal achievements.",
-      "sufficientGuidance": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method.",
+      "sufficientGuidance": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method. Re-audit adds the required scarce-material repeat loop and explains that already-cleared Specials can be farm targets; exact forecast/location examples remain character-specific.",
       "deferredDetails": [
-        "An exhaustive entrance-to-portal atlas and every first/repeat/bonus item transition."
+        "Exhaustive entrance-to-portal walking atlas and unrelated first/repeat/bonus transitions; documented Brilliant/Wild repeat farming is now integrated rather than deferred."
       ],
-      "deferralReason": "The area plus active in-game map gives a practical locator; the most useful published location qualifiers are now integrated. Completion and material sources do not require a complete reward-state implementation matrix.",
+      "deferralReason": "HD map-based hunting plus 22 useful qualifiers supplies practical navigation. Repeat farming is no longer waived as part of a giant state matrix: the needed supply loop was researched and integrated separately. Reopen any specific portal that still lacks a usable approach.",
       "reopenWhen": "A particular required portal still cannot be located, or a listed reward route fails on a repeat.",
       "practicalRuntimeEntries": [
         "dddhd:reference:portal-hunting",
@@ -1129,8 +1168,8 @@
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method.",
-        "evidenceFile": "practical-facts-2026-10-02.json",
+        "result": "All character/world/area/forecast/unlock rows remain. Added 22 HD location qualifiers for ambiguous levels, corners and duplicate areas, plus a forecast/Reports/expanded-map hunting method. Re-audit adds the required scarce-material repeat loop and explains that already-cleared Specials can be farm targets; exact forecast/location examples remain character-specific.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
         "evidenceStatusUnchanged": true
       }
     },
@@ -1174,11 +1213,11 @@
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
       "playerGoal": "Use built-in Battle/Friendship portals and complete the seven bonus-objective types.",
-      "sufficientGuidance": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types.",
+      "sufficientGuidance": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types. Brave Challengers now names seven exact Special Portal examples, one for each bonus type, with character, world, area, forecast and unlock condition.",
       "deferredDetails": [
         "Exact landmarks for every built-in portal and certification of source-number suffixes as Journal numbering."
       ],
-      "deferralReason": "Players need a matching challenge type, not a unique completion award for all 257 optional portal identities. The source labels are already kept separate from authoritative Report numbering.",
+      "deferralReason": "The seven required bonus goals now have concrete places to attempt them. Detailed routes to every optional built-in portal and cosmetic source numbering can remain deferred; a list of objective names alone was not the sufficiency test.",
       "reopenWhen": "A specific needed bonus type cannot be found or a duplicate identity causes incorrect user progress.",
       "practicalRuntimeEntries": [
         "dddhd:reference:portal-hunting",
@@ -1186,8 +1225,8 @@
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types.",
-        "evidenceFile": "practical-facts-2026-10-02.json",
+        "result": "257 built-in identities cover all 316 configurations; area/forecast/objective rows are searchable. The expanded map locates active portals, and Brave Challengers explicitly lists seven types. Brave Challengers now names seven exact Special Portal examples, one for each bonus type, with character, world, area, forecast and unlock condition.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
         "evidenceStatusUnchanged": true
       }
     },
@@ -1445,7 +1484,7 @@
       "id": "DDD-021",
       "status": "partial",
       "integrated": "All 18 HD trophy rows reconciled. Stat Builder exact 5/3/3/3 simultaneous party stacks; Ribbit Reaper ordinary or boss form; Keyblade Conqueror both characters.",
-      "remaining": "Dream Pleaser partial/released-instance flags and Daring Diver best-score versus repeat-score accumulation are not unambiguously established. KHWiki text and cumulative HD guide wording do not resolve every internal counter; no total catalog closed from Stat Builder alone.",
+      "remaining": "Dream Pleaser released/NG+ instance retention remains unverified. Daring Diver high-score aggregation is now explicitly documented by an HD Reports guide and is no longer an unresolved counter alternative.",
       "consultedSources": [
         "https://www.khwiki.com/Trophies",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
@@ -1476,22 +1515,41 @@
       "practicalReviewReport": "practical-review-2026-10-02.md",
       "researchDisposition": "deferred",
       "playerGoal": "Earn the 18 in-game trophies, including Dream Pleaser and Daring Diver.",
-      "sufficientGuidance": "All requirements exist. New conservative advice keeps one trained instance per breed until the award and targets more than 7.5 million across all 14 recorded Dive scores rather than repeatedly farming one low score.",
+      "sufficientGuidance": "Daring Diver now directs players to exceed 7,500,000 in the sum of retained world/character high scores, based on an explicit HD guide, rather than a conservative either-counter guess. Dream Pleaser explicitly calls for one instance of each of 54 breeds at affinity level9; retained-instance advice remains a precaution, not a release/recovery rule.",
       "deferredDetails": [
-        "Released/NG+ instance retention and course-best-versus-repeat-run internal counters."
+        "Dream Pleaser released-instance/NG+ retention and internal implementation; an actual already-released or failed-award case must be investigated rather than declared solved by retaining future instances."
       ],
-      "deferralReason": "Keeping instances and satisfying the stronger recorded-course target avoids both ambiguous shortcuts. The advice is explicitly a conservative plan, not proof of the hidden state model.",
-      "reopenWhen": "An award fails after the conservative requirements or an already-released/NG+ recovery case needs diagnosis.",
+      "deferralReason": "The ordinary trophy actions are now concrete and Daring Diver’s useful aggregation question was researched, not deferred. Only unneeded internal persistence precision is deferred. Existing-save recovery is not claimed covered.",
+      "reopenWhen": "A player has released or transferred trained Spirits and needs to establish retained credit, or the award fails after the documented normal requirements.",
       "practicalRuntimeEntries": [
         "dddhd:awards:dream-pleaser",
         "dddhd:awards:daring-diver"
       ],
       "practicalIntegration": {
         "date": "2026-10-02",
-        "result": "All requirements exist. New conservative advice keeps one trained instance per breed until the award and targets more than 7.5 million across all 14 recorded Dive scores rather than repeatedly farming one low score.",
-        "evidenceFile": "practical-facts-2026-10-02.json",
+        "result": "Daring Diver now directs players to exceed 7,500,000 in the sum of retained world/character high scores, based on an explicit HD guide, rather than a conservative either-counter guess. Dream Pleaser explicitly calls for one instance of each of 54 breeds at affinity level9; retained-instance advice remains a precaution, not a release/recovery rule.",
+        "evidenceFile": "practical-reaudit-evidence-2026-10-02.json",
         "evidenceStatusUnchanged": true
-      }
+      },
+      "practicalSubquestions": [
+        {
+          "question": "Daring Diver score aggregation",
+          "disposition": "resolved",
+          "answer": "HD guide: sum of High Scores for both characters in the worlds.",
+          "source": "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15"
+        },
+        {
+          "question": "Dream Pleaser ordinary goal",
+          "disposition": "resolved",
+          "answer": "Train one of each of the54 breeds to affinity9; preserve trained instances until award.",
+          "source": "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15"
+        },
+        {
+          "question": "Dream Pleaser released/NG+ instance flag retention",
+          "disposition": "deferred",
+          "answer": "Unknown. Future-instance retention advice does not certify recovery of previously released progress."
+        }
+      ]
     },
     {
       "id": "DDD-022",
@@ -1696,15 +1754,16 @@
     "report": "practical-review-2026-10-02.md",
     "futureImprovements": "future-improvements.md",
     "evidenceCounts": {
-      "partial": 17,
-      "resolved": 7,
+      "partial": 16,
+      "resolved": 8,
       "blocked": 1
     },
     "researchDispositionCounts": {
-      "deferred": 17,
-      "resolved": 7,
-      "open": 1
+      "deferred": 14,
+      "resolved": 8,
+      "open": 3
     },
-    "warning": "Evidence status and research disposition are separate. Deferred does not mean verified; blocked Aura Lion coordinates remain factually blocked while practical acquisition alternatives are usable."
+    "warning": "Evidence and actionable scope differ. The first17 deferrals were too broad. DDD-003 was re-examined and resolved as an adapter defect; DDD-004 and006 remain reopened. Daring Diver high scores and necessary farming/bonus actions were researched and integrated.",
+    "criticalReaudit": "critical-reaudit-2026-10-02.md"
   }
 }

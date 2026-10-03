@@ -5,8 +5,8 @@
   "sources": [
     {
       "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
-      "inspection": "Full PS4 HD v1.05 guide (2019-07-04), sections Strongest Link, Champions of each world, Daring Diver and command providers, read through web tool on 2026-10-02. Previously restricted direct access did not prevent this inspection.",
-      "supports": "HD portal landmarks, food disposition route, all-14-course score goal, alternate Faith provider."
+      "inspection": "Full PS4 HD v1.05 guide (2019-07-04), sections Golden Egg, Strongest Link, Champions of each world, Daring Diver and command providers, read through web tool on 2026-10-02. Previously restricted direct access did not prevent this inspection.",
+      "supports": "HD portal landmarks, food disposition route, all-14-course score goal, alternate Faith provider. Golden Egg custom formula guarantees ★ rank for either of two outcomes without requiring weather."
     },
     {
       "url": "https://www.playstationtrophies.org/forum/topic/284042-kingdom-hearts-dream-drop-distance-trophy-guide-and-road-map/",
@@ -335,11 +335,11 @@
     },
     {
       "id": "dddhd:spirits:jestabocky",
-      "appendInstructions": "The uncertain A-3 edge need not hold up Magic Boost: Meow Wow G-3 (Smart Cookie) is an alternative. For Strongest Link, complete another fully connected board such as Meow Wow.",
+      "appendInstructions": "A-3 Magic Boost is reachable from Start A-1 through Balloon A-2. Continue from A-3 to B-3 Thunder Screen using the source’s explicit connector, then follow the displayed C/D branch and disposition conditions. The missing reciprocal A-3 background graphic was an extraction issue; it does not make this an in-game locked branch.",
       "sources": [
         "https://www.khwiki.com/Meow_Wow"
       ],
-      "basis": "practical recommendation"
+      "basis": "Source-backed normalization of an explicit undirected connector; raw graphic asymmetry retained as provenance."
     },
     {
       "id": "dddhd:achievements:strongest-link",
@@ -379,11 +379,15 @@
     },
     {
       "id": "dddhd:reference:spirit-creation",
-      "appendInstructions": "For collecting a breed, prefer its marked recipe-item formula, whose intended-breed success is documented, rather than assuming an unreported alternative has 100% odds. Extra rank is useful but is not required just to own the breed. Check the creation preview before spending materials; train the created Spirit normally instead of relying on the malformed starting-level cells.",
+      "appendInstructions": "For the recipe-backed collection route, obtain the named recipe item, then open Create Spirits and choose that Spirit on the Recipes tab. Custom creation is a separate tab and can work without a recipe item; inspect its displayed breed and odds before spending materials. Identical custom inputs are listed for Cyber Yog/Sir Kyroo, Tyranto Rex/Ursa Circus and Jestabocky/Meow Wow, so a named recipe’s guarantee must not be applied to that raw ingredient pair. For Golden Egg, custom-create with 10 Intrepid Figments + 8 Vibrant Figments: either Tama Sheep or Pricklemane is ★ rank. Both base-B outcomes use 5 + 4 pieces; doubling both gives B → A → ★. This guarantees the rank of either outcome, not a selected breed, and needs no Risky Winds. See Golden Egg for the complete route.",
       "sources": [
-        "https://www.khwiki.com/Spirit"
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16",
+        "https://www.khwiki.com/Spirit",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Tama_Sheep",
+        "https://www.khwiki.com/Pricklemane"
       ],
-      "basis": "practical recommendation"
+      "basis": "HD menu-tab distinction plus explicit checked-in ingredient collisions; custom-mode selection remains open."
     },
     {
       "id": "dddhd:commands:strike-raid",
@@ -412,21 +416,22 @@
     },
     {
       "id": "dddhd:awards:dream-pleaser",
-      "appendInstructions": "Conservative plan: keep one instance of every breed on the same save, train each to its maximum affinity, and keep the trained instances until the award is visible. This avoids relying on released-instance or NG+ flag retention; it is not a claim that release necessarily erases progress.",
+      "appendInstructions": "Raise one instance of each of the 54 breeds to affinity level 9. Retain those instances on the same save until the Trophy Shelf confirms the award. This avoids relying on released-instance or NG+ flag retention, which remains unverified. This in-game Trophy Shelf goal is separate from the platform achievement for one max-affinity Spirit.",
       "sources": [
         "https://www.khwiki.com/Trophies",
-        "https://www.khwiki.com/Spirit"
+        "https://www.khwiki.com/Spirit",
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15"
       ],
       "basis": "practical recommendation"
     },
     {
       "id": "dddhd:awards:daring-diver",
-      "appendInstructions": "Conservative target: improve the recorded scores across all 14 ordinary Sora/Riku Dive courses until their sum exceeds 7,500,000, then check the Trophy Shelf. Do not depend on replaying one easy course without improving its best. This approach covers both candidate interpretations; the hidden aggregation rule remains unverified.",
+      "appendInstructions": "The HD Reports guide identifies this as the sum of the recorded High Scores for Sora and Riku across the ordinary world Dive courses. Improve those course bests until the total exceeds 7,500,000; repeating a course without improving its best is not the documented route. A ranks on all seven courses per character also work toward each Divewing.",
       "sources": [
-        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15",
         "https://www.khwiki.com/Dive_Mode"
       ],
-      "basis": "conservative sufficient-condition reasoning; not verification of internal counter"
+      "basis": "Explicit HD guide high-score aggregation, not an inferred either-counter fallback."
     },
     {
       "id": "dddhd:reference:secret-ending",
@@ -476,6 +481,89 @@
         "https://www.khwiki.com/Training_Toy"
       ],
       "basis": "practical recommendation"
+    },
+    {
+      "id": "dddhd:materials:brilliant-fantasy",
+      "appendInstructions": "Repeatable HD farming route: as Riku, clear The World That Never Was Specials 1 and 2 to unlock Special 3. Stay near Delusive Beginning and check for the Tyranto Rex / Prehistoric fiend forecast. Enter the portal labelled Special, clear it for Brilliant Fantasy, then Drop to Sora and back and check again. Repeat active cycles until your inventory covers the target; the three marked Lord Kyroo, Ryu Dragon and Skelterwild recipes together need five. A cleared portal does not count as a new collectible. This route is supported by PS4 player farming reports; no all-39-clear prerequisite is asserted.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/answers/454624-where-can-i-find-brilliant-malleable-and-wild-fantasys",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74933773",
+        "https://www.khwiki.com/Brilliant"
+      ],
+      "basis": "Edition-labelled HD player farming instructions plus checked-in ingredient totals; no exact Drop-count prediction."
+    },
+    {
+      "id": "dddhd:materials:wild-fantasy",
+      "appendInstructions": "Repeatable HD farming route: use Sora’s The World That Never Was Special 3 in the central streets of Avenue to Dreams (Tyranto Rex / Prehistoric fiend), unlocked after Specials 1 and 2. Check the forecast, clear the active Special, then Drop away and back until it returns. Repeat until you have the required Wild Fantasies; the marked Skelterwild and Sudo Neku recipes together need three.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/answers/454624-where-can-i-find-brilliant-malleable-and-wild-fantasys",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74933773",
+        "https://www.khwiki.com/Wild"
+      ],
+      "basis": "Edition-labelled HD player farming instructions plus checked-in ingredient totals; no exact Drop-count prediction."
+    },
+    {
+      "id": "dddhd:achievements:brave-challengers",
+      "appendInstructions": "Concrete Special Portal examples for all seven types: no more than two hits — Sora, Traverse Town #1, Post Office (Heavyweight hulk; access: Default); no deck commands — Sora, Traverse Town #2, Fourth District (Doggish cat-thing; access: Default); three blocks — Sora, Traverse Town #3, Garden (Heavyweight hulk; access: Default); three counters — Sora, Traverse Town #4, Second District (Zippy zap-meister; access: Second Visit); three Flowmotion attacks — Sora, La Cité des Cloches #4, Court of Miracles (Snouted lout; access: Complete La Cité des Cloches); timed victory — Sora, La Cité des Cloches #3, Town (Snouted lout; access: Default); ten linked hits — Sora, The Grid #1, Rectifier 1F (Deft deadeye; access: Default). Match the current forecast, locate the Special on the expanded map, and complete its displayed bonus before finishing the fight. For ten linked hits, fill a Spirit’s Link Gauge before entry. Timed variants are one objective type.",
+      "sources": [
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://www.khwiki.com/Game:The_Grid"
+      ],
+      "basis": "Seven exact examples selected from existing canonical objective/forecast/unlock rows; no new portal location invented."
+    },
+    {
+      "id": "dddhd:achievements:record-keeper",
+      "appendInstructions": "Complete the Combat, Story and Items completion-rate sections, then fill Game Records: use each Link Attack and Link Style; defeat an enemy with each Reality Shift (including both final-world variants) and each Flowmotion attack; complete each ordinary Dive; record scores in Light Cycle and the three training minigames; use a Friendship Portal; and clear all Special and Secret Portals. Check the Reports completion marks rather than the Trophy Shelf, which is a separate set of goals.",
+      "sources": [
+        "https://www.playstationtrophies.org/game/kingdom-hearts-dream-drop-distance/trophy/165866-record-keeper.html",
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:star-combatant",
+      "appendInstructions": "Clear all Special and Secret Portals as both characters, reach Flick Rush level20, and complete the Nightmare entries by encountering normal and applicable rare variants. Rare variants occur in the listed Special Portals.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:storyteller",
+      "appendInstructions": "Complete the story and create one of every Spirit breed to fill the Story completion-rate section. Recipe-item ownership alone does not count as creating the Spirit.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:item-collector",
+      "appendInstructions": "Collect every Dream Piece, training toy, key item (the54 recipes and the story Stage Gadget), command, and treasure chest. Use the Items completion-rate display to check completion; current Keyblade ownership and Trophy Shelf completion are separate goals.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:command-collector",
+      "appendInstructions": "Obtain all124 command types across Attack, Magic, Item, Movement, Defense, Reprisal and Flowmotion. Use each command entry’s chest/shop/board/default routes; Sora and Riku share the command collection, while equip eligibility can differ. Historical acquisition is the goal, not owning every duplicate simultaneously.",
+      "sources": [
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/17"
+      ],
+      "basis": "Concrete HD completion guidance; replaces reliance on public one-line achievement descriptions."
+    },
+    {
+      "id": "dddhd:achievements:golden-egg",
+      "appendInstructions": "Golden Egg route (PS4 HD guide): in Create Spirits, use the custom-creation tab with 10 Intrepid Figments and 8 Vibrant Figments. This produces either Tama Sheep or Pricklemane at ★ rank; the guaranteed part is the rank of either outcome, not a particular breed. No named recipe item, command donation or Risky Winds is needed. Gather the pieces from Traverse Town Nightmares or the listed Moogle stock (Intrepid Figment: stock LV2; Vibrant Figment: LV1). Check that the creation preview shows ★ before confirming. Rank reasoning: both outcomes start at B for 5 Intrepid + 4 Vibrant; doubling both quantities gives +2 ranks, B → A → ★ (the source calls ★ rank S). A created Spirit cannot improve its rank afterward.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Spirit",
+        "https://www.khwiki.com/Tama_Sheep",
+        "https://www.khwiki.com/Pricklemane",
+        "https://www.khwiki.com/Moogle_Shop"
+      ],
+      "basis": "Direct PS4 HD Golden Egg recipe corroborated by both checked-in base-B outcomes and the extra-material +2 threshold. Rank guarantee is distinct from breed selection."
     }
   ],
   "newReferences": [

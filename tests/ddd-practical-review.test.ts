@@ -15,8 +15,8 @@ const entry = (id: string) => {
 describe('DDD player-goal research dispositions', () => {
   it('separates evidence from deferred work and preserves the genuine recovery question', () => {
     expect(ledger.findings).toHaveLength(25);
-    expect(ledger.practicalReview.evidenceCounts).toEqual({ partial: 17, resolved: 7, blocked: 1 });
-    expect(ledger.practicalReview.researchDispositionCounts).toEqual({ deferred: 17, resolved: 7, open: 1 });
+    expect(ledger.practicalReview.evidenceCounts).toEqual({ partial: 16, resolved: 8, blocked: 1 });
+    expect(ledger.practicalReview.researchDispositionCounts).toEqual({ deferred: 14, resolved: 8, open: 3 });
     for (const finding of ledger.findings) {
       for (const field of ['playerGoal', 'sufficientGuidance', 'deferralReason', 'reopenWhen', 'practicalReviewReport']) {
         expect(finding[field]?.length, `${finding.id}: ${field}`).toBeGreaterThan(0);
@@ -24,8 +24,8 @@ describe('DDD player-goal research dispositions', () => {
       for (const id of finding.practicalRuntimeEntries) entry(id);
       if (finding.researchDisposition === 'deferred') expect(finding.deferredDetails.length).toBeGreaterThan(0);
     }
-    expect(ledger.findings.find((f: any) => f.id === 'DDD-004')).toMatchObject({ status: 'blocked', researchDisposition: 'deferred' });
-    expect(ledger.findings.find((f: any) => f.researchDisposition === 'open')).toMatchObject({ id: 'DDD-025', status: 'partial' });
+    expect(ledger.findings.find((f: any) => f.id === 'DDD-004')).toMatchObject({ status: 'blocked', researchDisposition: 'open' });
+    expect(ledger.findings.find((f: any) => f.id === 'DDD-025')).toMatchObject({ id: 'DDD-025', status: 'partial' });
     expect(entry('dddhd:reference:secret-ending').instructions).toContain('without that backup remains unverified');
   });
 
@@ -104,10 +104,86 @@ describe('DDD player-goal research dispositions', () => {
 
   it('keeps conservative completion advice separate from missing timing and counter evidence', () => {
     expect(entry('dddhd:challenges:secret-cup').instructions).toContain('not a newly verified minimum');
-    expect(entry('dddhd:awards:daring-diver').instructions).toContain('hidden aggregation rule remains unverified');
-    expect(entry('dddhd:awards:dream-pleaser').instructions).toContain('not a claim that release necessarily erases');
+    expect(entry('dddhd:awards:daring-diver').instructions).toContain('recorded High Scores');
+    expect(entry('dddhd:awards:daring-diver').instructions).not.toContain('either');
+    expect(entry('dddhd:awards:dream-pleaser').instructions).toContain('affinity level 9');
+    expect(entry('dddhd:awards:dream-pleaser').instructions).toContain('remains unverified');
     expect(entry('dddhd:challenges:lord-kyroo').instructions).toContain('without loading a save');
     expect(entry('dddhd:commands:strike-raid').uncertainty).toContain('22, 24 seconds');
     expect(spirits.flatMap((s: any) => s.formulas).filter((f: any) => f.probability === null && !f.recipeItemFormula)).toHaveLength(141);
+  });
+});
+
+
+describe('DDD critical sufficiency re-audit', () => {
+  const review = read('ai_docs/games/dddhd/practical-reaudit-evidence-2026-10-02.json');
+  it('does not attach a raw 100-percent guarantee to colliding custom ingredients', () => {
+    expect(review.recipeInputCollisions).toHaveLength(3);
+    const pairs = review.recipeInputCollisions.map((x: any) => x.outcomes.map((o: any) => o.breed).sort());
+    expect(pairs).toContainEqual(['Cyber Yog', 'Sir Kyroo']);
+    expect(pairs).toContainEqual(['Tyranto Rex', 'Ursa Circus']);
+    expect(pairs).toContainEqual(['Jestabocky', 'Meow Wow']);
+    expect(ddd.recipes!.filter(r => r.instructions.includes('Named recipe route:'))).toHaveLength(54);
+    for (const recipe of ddd.recipes!) {
+      expect(recipe.instructions).not.toContain('Success: 100% for the marked recipe-item formula');
+      expect(recipe.instructions).toContain('named Recipes-tab selection requires the item');
+    }
+    expect(entry('dddhd:recipe-items:ursa-circus-recipe').instructions).toContain('Obtain this item to select');
+    expect(entry('dddhd:recipe-items:ursa-circus-recipe').instructions).not.toContain('stock level .');
+    expect(entry('dddhd:reference:spirit-creation').instructions).toContain('Custom creation is a separate tab');
+  });
+  it('distinguishes the strict adapter graph from the source-reported connector', () => {
+    const board = spirits.find((s: any) => s.name === 'Jestabocky').board;
+    const reachable = (edges: string[][]) => {
+      const seen = new Set<string>(['A-1']);
+      let changed = true;
+      while (changed) {
+        changed = false;
+        for (const [a, b] of edges) {
+          if (seen.has(a) && !seen.has(b)) { seen.add(b); changed = true; }
+          if (seen.has(b) && !seen.has(a)) { seen.add(a); changed = true; }
+        }
+      }
+      return seen;
+    };
+    const strictEdges = board.edges.filter((edge: string[]) => !(edge.includes('A-3') && edge.includes('B-3')));
+    expect(board.nodes.length - reachable(strictEdges).size).toBe(9);
+    expect(reachable(board.edges).size).toBe(board.nodes.length);
+    expect(reachable([...board.edges, review.boardAdapterFinding.reportedUndirectedConnector]).size).toBe(board.nodes.length);
+    expect(board.unmatchedSourceDirections).toEqual([['B-3', 'Left', 'A-3']]);
+    expect(entry('dddhd:spirits:jestabocky').instructions).toContain('Additional source-reported connectors: A-3 ↔ B-3');
+    expect(entry('dddhd:spirits:jestabocky').uncertainty).toContain('not proof of an in-game locked branch');
+  });
+  it('supplies a repeat loop for the five required Brilliant Fantasies', () => {
+    const budget = spirits.flatMap((s: any) => s.formulas.filter((f: any) => f.recipeItemFormula).flatMap((f: any) => f.ingredients.filter((i: any) => i[0] === 'Brilliant Fantasy').map((i: any) => i[1]))).reduce((a: number, b: number) => a + b, 0);
+    expect(budget).toBe(5);
+    const route = entry('dddhd:materials:brilliant-fantasy').instructions!;
+    for (const text of ['Delusive Beginning', 'Tyranto Rex', 'Drop to Sora and back', 'five', 'no all-39-clear prerequisite']) expect(route).toContain(text);
+    expect(entry('dddhd:materials:wild-fantasy').instructions).toContain('Drop away and back');
+  });
+  it('gives seven concrete bonus examples and aggregate completion actions', () => {
+    expect(review.bonusExamples).toHaveLength(7);
+    expect(new Set(review.bonusExamples.map((x: any) => x.type)).size).toBe(7);
+    const worlds = read('src/games/dddhd/world-facts.json');
+    for (const example of review.bonusExamples) {
+      const actual = worlds.portals.find((p: any) => p.character === example.character && p.world === example.world && p.number === example.number);
+      expect(actual).toMatchObject({ objective: example.objective, area: example.area, forecast: example.forecast, unlock: example.unlock });
+      expect(entry('dddhd:achievements:brave-challengers').instructions).toContain(example.area);
+    }
+    for (const id of ['record-keeper', 'star-combatant', 'storyteller', 'item-collector', 'command-collector']) expect(entry(`dddhd:achievements:${id}`).instructions!.length).toBeGreaterThan(120);
+  });
+});
+
+
+describe('Golden Egg practical rank route', () => {
+  it('distinguishes a guaranteed star rank from selecting one particular breed', () => {
+    const guide = read('src/games/dddhd/content.json');
+    const target = guide.entries.find((e: any) => e.id === 'dddhd:achievements:golden-egg');
+    for (const phrase of ['10 Intrepid Figments', '8 Vibrant Figments', 'either Tama Sheep or Pricklemane', 'not a particular breed', 'B → A → ★']) expect(target.instructions).toContain(phrase);
+    const inputs = [{id:'dddhd:materials:intrepid-figment',quantity:5},{id:'dddhd:materials:vibrant-figment',quantity:4}];
+    const pair = guide.recipes.filter((r: any) => ['Tama Sheep', 'Pricklemane'].includes(r.group) && JSON.stringify(r.ingredients) === JSON.stringify(inputs));
+    expect(pair).toHaveLength(2);
+    for (const recipe of pair) expect(recipe.name).toContain('base rank B');
+    expect(target.sources).toContain('https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497');
   });
 });

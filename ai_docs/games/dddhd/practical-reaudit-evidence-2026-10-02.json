@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-02",
+  "reason": "User challenged whether broad family deferrals hid practical gaps. Reassess the actual action a player must take, not merely the existence of an alternative provider.",
+  "recipeInputCollisions": [
+    {
+      "ingredients": [
+        [
+          "Grim Figment",
+          4
+        ],
+        [
+          "Noble Fancy",
+          3
+        ]
+      ],
+      "outcomes": [
+        {
+          "breed": "Cyber Yog",
+          "markedRecipe": true
+        },
+        {
+          "breed": "Sir Kyroo",
+          "markedRecipe": true
+        }
+      ]
+    },
+    {
+      "ingredients": [
+        [
+          "Rampant Figment",
+          4
+        ],
+        [
+          "Vibrant Fancy",
+          3
+        ]
+      ],
+      "outcomes": [
+        {
+          "breed": "Jestabocky",
+          "markedRecipe": true
+        },
+        {
+          "breed": "Meow Wow",
+          "markedRecipe": false
+        }
+      ]
+    },
+    {
+      "ingredients": [
+        [
+          "Epic Fantasy",
+          1
+        ],
+        [
+          "Intrepid Fantasy",
+          3
+        ]
+      ],
+      "outcomes": [
+        {
+          "breed": "Tyranto Rex",
+          "markedRecipe": true
+        },
+        {
+          "breed": "Ursa Circus",
+          "markedRecipe": true
+        }
+      ]
+    }
+  ],
+  "recipeModeSources": [
+    "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16",
+    "https://www.khwiki.com/Spirit"
+  ],
+  "recipeModeConclusion": "HD guide distinguishes an owned Recipes tab from custom creation. Named-recipe guidance now requires obtaining and selecting the recipe item. No raw ingredient event receives an unconditional 100% guarantee; custom-selection semantics for the three colliding events remain open.",
+  "boardAdapterFinding": {
+    "breed": "Jestabocky",
+    "sourceFrom": "B-3",
+    "sourceDirection": "Left",
+    "sourceTarget": "A-3",
+    "missingReciprocalField": "A-3 Right",
+    "reportedUndirectedConnector": [
+      "A-3",
+      "B-3"
+    ],
+    "reciprocalGraphDisconnectedNodes": [
+      "B-3",
+      "B-6",
+      "B-7",
+      "C-3",
+      "C-4",
+      "C-5",
+      "C-6",
+      "D-5",
+      "D-6"
+    ],
+    "interpretation": "The disconnection comes from our reciprocal-only adapter, not proof of a locked in-game branch. Expose the explicit one-sided source connector separately and preserve its evidence limit. A-3 Magic Boost is already reachable from A-2.",
+    "sources": [
+      "https://www.khwiki.com/Jestabocky",
+      "https://www.khwiki.com/Spirit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/16"
+    ],
+    "hdImageInspection": "Cloud browser remained on Cloudflare security verification after one reload; no board image inspected. HD indexed LP totals agree (Jestabocky1080, AuraLion1940), but totals alone do not establish the exact connector/coordinate.",
+    "resolution": "Resolved source-backed extraction defect: source connectors are undirected adjacency, so an explicit B-3 Left connector is sufficient to include A-3/B-3. Normalize it while retaining the missing reciprocal graphic. All54 source-reported boards are connected; this does not certify Aura Lion’s separate transformation footnote."
+  },
+  "daringDiver": {
+    "status": "resolved documentary HD rule",
+    "aggregation": "Sum of retained high scores across both characters/world courses, not lifetime sum of repeat runs.",
+    "source": "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/15",
+    "inspection": "Indexed HD Reports section explicitly specifies total High Score for both characters on each World. Full site browser blocked; no claimed Steam measurement."
+  },
+  "portalFarming": {
+    "sources": [
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/answers/454624-where-can-i-find-brilliant-malleable-and-wild-fantasys",
+      "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74933773",
+      "https://www.khwiki.com/Brilliant"
+    ],
+    "inspection": "Indexed full PS4 Q&A answers and 2017 HD board thread posts4,7,10 inspected. Independent player instructions describe staying by the target portal and dropping away/back for repeated material clears; post7 explicitly is not postgame.",
+    "route": "Riku, TWTNW Special3, Delusive Beginning, Tyranto Rex / Prehistoric fiend. Unlock with Specials1 and2, then cycle Drops and repeat the active Special for Brilliant Fantasy. Sora’s Special3 in Avenue to Dreams supplies Wild Fantasy.",
+    "supplyCheck": {
+      "markedRecipeBrilliantRequirement": 5,
+      "targets": {
+        "Lord Kyroo": 2,
+        "Ryu Dragon": 2,
+        "Skelterwild": 1
+      },
+      "basis": "Arithmetic from the three checked-in marked formulas. Farm until inventory covers the target; no finite first-clear-only assumption."
+    },
+    "conflict": "Earlier guide wording suggests all Specials must be cleared before revisiting. HD repeated-farming reports do not impose that gate; do not promote an all39 prerequisite. Exact earliest replay gate and every other payout state remain unverified."
+  },
+  "bonusExamples": [
+    {
+      "type": "no more than two hits",
+      "character": "Sora",
+      "world": "Traverse Town",
+      "number": 1,
+      "area": "Post Office",
+      "forecast": "Heavyweight hulk",
+      "unlock": "Default",
+      "objective": "Take damage no more than two times!",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "type": "no deck commands",
+      "character": "Sora",
+      "world": "Traverse Town",
+      "number": 2,
+      "area": "Fourth District",
+      "forecast": "Doggish cat-thing",
+      "unlock": "Default",
+      "objective": "Achieve victory without using deck commands!",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "type": "three blocks",
+      "character": "Sora",
+      "world": "Traverse Town",
+      "number": 3,
+      "area": "Garden",
+      "forecast": "Heavyweight hulk",
+      "unlock": "Default",
+      "objective": "Block at least three enemy attacks!",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "type": "three counters",
+      "character": "Sora",
+      "world": "Traverse Town",
+      "number": 4,
+      "area": "Second District",
+      "forecast": "Zippy zap-meister",
+      "unlock": "Second Visit",
+      "objective": "Pull off at least three successful counters!",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "type": "three Flowmotion attacks",
+      "character": "Sora",
+      "world": "La Cité des Cloches",
+      "number": 4,
+      "area": "Court of Miracles",
+      "forecast": "Snouted lout",
+      "unlock": "Complete La Cité des Cloches",
+      "objective": "Pull off at least three Flowmotion Attacks!",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "type": "timed victory",
+      "character": "Sora",
+      "world": "La Cité des Cloches",
+      "number": 3,
+      "area": "Town",
+      "forecast": "Snouted lout",
+      "unlock": "Default",
+      "objective": "Achieve victory in 20 seconds or less!",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "type": "ten linked hits",
+      "character": "Sora",
+      "world": "The Grid",
+      "number": 1,
+      "area": "Rectifier 1F",
+      "forecast": "Deft deadeye",
+      "unlock": "Default",
+      "objective": "Land at least 10 attacks while linked!",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    }
+  ],
+  "goldenEgg": {
+    "achievement": "dddhd:achievements:golden-egg",
+    "edition": "PS4 HD guidance applied to the Steam HD target; not a manual gameplay test",
+    "mode": "custom creation",
+    "ingredients": [
+      [
+        "Intrepid Figment",
+        10
+      ],
+      [
+        "Vibrant Figment",
+        8
+      ]
+    ],
+    "baseIngredients": [
+      [
+        "Intrepid Figment",
+        5
+      ],
+      [
+        "Vibrant Figment",
+        4
+      ]
+    ],
+    "outcomes": [
+      {
+        "breed": "Tama Sheep",
+        "baseRank": "B",
+        "ordinaryProbability": "60%"
+      },
+      {
+        "breed": "Pricklemane",
+        "baseRank": "B",
+        "ordinaryProbability": "40%"
+      }
+    ],
+    "rankOrder": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "★"
+    ],
+    "sourceRankAlias": {
+      "S": "★"
+    },
+    "derivedRankBoost": 2,
+    "resultRank": "★",
+    "guarantee": "Either outcome has ★ rank; no particular breed is guaranteed. This does not resolve the three separate custom-input selection conflicts in DDD-006.",
+    "weatherRequired": false,
+    "derivation": "Both ingredient totals are twice their base quantities, so the lesser-ingredient rule still grants +2 ranks. B → A → ★; S is the source name for the star rank, not an additional intermediate rank.",
+    "sources": [
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.khwiki.com/Spirit",
+      "https://www.khwiki.com/Tama_Sheep",
+      "https://www.khwiki.com/Pricklemane"
+    ],
+    "inspection": "PS4 HD v1.05 guide Golden Egg section inspected in full through web tool on 2026-10-02. Live Spirit rank/extra-material rules and canonical breed formula rows corroborate the result."
+  }
+}
