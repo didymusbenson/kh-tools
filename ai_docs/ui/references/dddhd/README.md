@@ -24,3 +24,5 @@ Exact capture platform is not independently established. Review used the uploade
 ## October 3 research refinement
 
 All six originals were inspected again. The native Reports book has a broad single reading leaf with outside-left binding, rather than the equal facing pages used by KH1/KH2. Story/Glossary/Character Files are visual hierarchy evidence, not requested new narrative tracking. The Help screenshot is a distinct menu family. Do not interpret its cyan/violet palette as Reports styling, or the Dream Eaters summary bars as demonstrated tab controls. Precise HD Treasures, Game Records, Dream Eater details and Spirit Creation interaction captures remain listed in the [research report](../../dddhd-journal-design-research.md#7-assets-and-remaining-reference-work).
+
+The [functional implementation and validation record](../../../implementation/dddhd-faithful-reports.md) documents the resulting journal, precise adaptations and visual evidence. The reference pack remains unchanged research input, not proof of final user visual acceptance.

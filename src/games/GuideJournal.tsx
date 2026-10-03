@@ -24,6 +24,7 @@ import {
   type GuideProfile,
 } from "./profile";
 import "./guides.css";
+const DddJournal = lazy(() => import("../journal/DddJournal").then(m => ({default: m.DddJournal})));
 const RecomJournal = lazy(() => import("../journal/RecomJournal").then(m => ({default: m.RecomJournal})));
 
 export default function GuideJournal({
@@ -82,7 +83,7 @@ export default function GuideJournal({
   const world = new URLSearchParams(search).get("world") || "all";
   const selectedWorld =
     section === "worlds" && parts[2]
-      ? decodeURIComponent(parts.slice(2).join("/"))
+      ? (() => { try { return decodeURIComponent(parts.slice(2).join("/")); } catch { return parts.slice(2).join("/"); } })()
       : null;
   const href = (page: string) => `#/${guide.id}/${page}`;
   useEffect(() => {
@@ -512,6 +513,7 @@ export default function GuideJournal({
   }
   function progressPage() { return (
               <>
+                {guide.id !== "dddhd" && <>
                 <h2>Guide coverage</h2>
                 <p>{guide.coverage}</p>
                 {guide.id === "kh2fm" && <p><a href={`${import.meta.env.BASE_URL}kh2-content-sources.html`}>Sources & attribution</a></p>}
@@ -531,6 +533,7 @@ export default function GuideJournal({
                     </div>
                   ))}
                 </dl>
+                </>}
                 <h2>Backups</h2>
                 <p>
                   Backups contain this game's checks, owned stock and farming
@@ -608,6 +611,12 @@ export default function GuideJournal({
   const materials = entries
     .filter((e) => ["material", "materials"].includes(e.category))
     .sort(sortMaterials);
+  if (guide.id === "dddhd") return <Suspense fallback={<div className="loading-page">Opening your reports…</div>}><DddJournal
+    guide={guide} route={route} profile={profile} ready={ready}
+    error={error} notice={notice} updateNotice={updateNotice}
+    update={update} progressPage={progressPage()}
+    retry={()=>{void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError("");}).catch(e=>setError(e.message));}}
+  /></Suspense>;
   if (guide.id === "recom") return <Suspense fallback={<div className="loading-page">Opening your journal…</div>}><RecomJournal
     guide={guide} route={route} profile={profile} ready={ready}
     error={error} notice={notice} updateNotice={updateNotice}

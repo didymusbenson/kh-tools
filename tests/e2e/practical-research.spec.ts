@@ -7,6 +7,12 @@ for (const item of [
   {game:'kh3', category:'keyblades', id:'kh3.equipment.forest-clasp', text:'Shore'},
 ]) {
   test(`${item.game} practical guidance reaches ${item.id}`, async ({page}) => {
+    if(item.game==='dddhd'){
+      await page.goto(`./#/${item.game}/${item.category}?entry=${encodeURIComponent(item.id)}`);
+      await expect(page.locator('.ddd-detail')).toContainText(item.text);
+      expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+      return;
+    }
     await page.goto(`./#/${item.game}/${item.category}`);
     const row=page.locator(`[id="entry-${item.id}"]`);
     await row.locator('.guide-expand').click();

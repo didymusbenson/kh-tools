@@ -1,6 +1,8 @@
 # DDD HD faithful Reports — implementation plan
 
-**Revision 0.1 · 2026-10-03 · User-authorized implementation.**
+**Revision 0.2 · 2026-10-03 · Implemented on the feature branch; visual review remains open.**
+
+[Implementation and validation record](../implementation/dddhd-faithful-reports.md).
 
 The user requested research followed by implementation, explicitly requiring near parity with the native style, subject to the established other-game journal constraints. This is a functional replacement of DDD's generic presentation, not a static mockup or a palette-only reskin. [Research and native evidence](dddhd-journal-design-research.md) · [Original images](references/dddhd/README.md).
 
@@ -9,7 +11,7 @@ The user requested research followed by implementation, explicitly requiring nea
 - Charcoal/silver Reports frame; outside-left metallic rings; black cover with art and gray section menu; glossy magenta hierarchy plaques; one broad cool-white ruled leaf; quiet gray title panel; hand-selection gutter; contextual gray footer.
 - Do not force the KH1/KH2 two-leaf spread into DDD. Do not use Help's cyan/violet treatment as Reports.
 - Keep the outside frame/book fixed across sections, tools, search and save/settings. Measure compact top-aligned list capacity. Long instructions use numbered continuations. Use separate labels for entry navigation and note-page navigation.
-- Preserve hover/focus geometry, logical browser history, return selection, canonical deep links, touch/keyboard semantics, 44px targets, readable phone text and reduced motion. Reflow rather than scale a desktop screenshot down.
+- Preserve hover/focus geometry, logical browser history, return selection, canonical deep links, touch/keyboard semantics, 44px primary targets on normal-height phones, readable phone text and reduced motion. Very short/zoom-equivalent layouts use documented compact control exceptions to preserve usable reading space. Reflow rather than scale a desktop screenshot down.
 - Maintain every real DDD catalogue and first-class Spirit Creation/material/farming workflow. No empty Story, Character Files or lore transcript placeholders. No invented plot tracking, Available Now gates or spoiler hiding.
 - Keep progress truthful: one canonical chest per character/world/source identity; shared Spirit facts; individual recipe items/formulas/commands/material stock remain separate. Search and filters do not shrink declared completion denominators.
 - Preserve existing persistence, import/export/recovery and empty Data Jiminy behavior. Do not change catalog IDs or backup schema for a presentation refactor.
@@ -29,13 +31,13 @@ This is the companion's navigation mapping, not a claim that every label below i
 | Completion / Trophy Shelf | Scoped truthful app summary and award index | In-game awards distinct from Steam achievements; no simulated Play Time or official Reports percentage |
 | Search / Save & Settings | Same fixed leaf, measured pages and context footer | Existing search, backup/restore/recovery and status controls |
 
-Exact grouped root labels should be recorded alongside the implementation once the real component is in place. Keep useful categories directly reachable within their logical family; do not hide the whole guide behind a generic Guide Notes catch-all.
+The implemented root is Worlds & Treasures, Dream Eaters, Game Records, Spirit Creation, Collection, Mechanics, Trophy Shelf and Completion. Keep useful categories directly reachable within their logical family; do not hide the whole guide behind a generic Guide Notes catch-all.
 
 ## Reuse boundary
 
 Implement a DDD-specific journal and CSS alongside existing journals, routed through the existing `GuideJournal` ownership of profile state. Reuse `useIndexCapacity`, `JournalNotePages`, entry presentation and canonical recipe/material calculations. Keep DDD styles scoped. Existing DDD hash routes and saved routes continue working; a fresh profile may open a Reports cover without breaking saved-world/category links.
 
-Current data baseline: 1,285 entries / 263 formulas on `083dd13`. A parallel factual-research task is finalizing documentation independently; do not overwrite its generated files or reports. Validate identity sets against baseline before final handoff.
+Current data baseline: 1,285 entries / 263 formulas on `083dd13`, unchanged in the final factual-research checkpoint `2cfc0ff`. The UI branch is based on that published final checkpoint; do not overwrite its generated files or reports. Validate identity sets against baseline before final handoff.
 
 ## Asset boundary
 

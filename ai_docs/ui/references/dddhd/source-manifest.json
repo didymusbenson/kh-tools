@@ -50,7 +50,7 @@
     },
     {
       "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105143-31738.jpg",
-      "description": "Dream Eaters: Nightmares/Spirits tabs, icons, completion percentages and ruled rows.",
+      "description": "Dream Eaters: paired Nightmares/Spirits summary bars, type-icon columns, completion percentages and one combined ruled species list; interactivity of the bars is not established by the still.",
       "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105143-31738.jpg",
       "source_url_basis": "User supplied exact URL",
       "received_date": "2026-10-02",
@@ -70,5 +70,7 @@
       "width": 1920,
       "height": 1080
     }
-  ]
+  ],
+  "review_date": "2026-10-03",
+  "research_report": "../../dddhd-journal-design-research.md"
 }

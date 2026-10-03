@@ -10,6 +10,19 @@ for (const [game, category] of guides)
   test(`${game} collections persist and fit`, async ({ page }) => {
     await page.goto(`./#/${game}/${category}`);
     await expect(page.getByRole("main")).toBeVisible();
+    if(game==='dddhd'){
+      const first=page.locator('.ddd-index-row').first();
+      const check=first.getByRole('checkbox');
+      const label=await check.getAttribute('aria-label');
+      await expect(check).toBeEnabled();await check.check();
+      await expect(page.locator('.ddd-save')).toContainText('Record saved.');
+      await first.getByRole('link').click();
+      await expect(page.locator('.ddd-detail')).toBeVisible();
+      await page.reload();await expect(page.getByRole('checkbox',{name:label!,exact:true})).toBeChecked();
+      expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+      await page.screenshot({path:`test-results/${test.info().project.name}-dddhd-guide.png`});
+      return;
+    }
     const check = page.locator(".guide-check input").first();
     await expect(check).toBeEnabled();
     const rowId = await page.locator(".guide-row").first().getAttribute("id");
@@ -99,8 +112,8 @@ test('new journals can reopen cached content offline',async({page,context})=>{
  await page.waitForFunction(()=>!!navigator.serviceWorker.controller);
  await context.setOffline(true);
  await page.goto('./#/dddhd/spirits');
- await expect(page.getByRole('heading',{name:'Spirits',exact:true})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'Dream Eaters',exact:true})).toBeVisible();
  await page.reload();
- await expect(page.locator('.guide-row').first()).toBeVisible();
+ await expect(page.locator('.ddd-index-row').first()).toBeVisible();
  await context.setOffline(false);
 });

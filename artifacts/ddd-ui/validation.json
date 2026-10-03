@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-03",
+  "scope": "DDD HD faithful Reports presentation; final feature branch, no merge or deployment",
+  "factual_base": "2cfc0ffc617d7b90c3adc8cb466b2e8fc77dc486",
+  "browser": "Chromium 153.0.8010.0 from installed @sparticuz/chromium",
+  "playwright": "1.63.0",
+  "unit_tests": {
+    "command": "npm test",
+    "passed": 180,
+    "failed": 0,
+    "files": 21
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "passed",
+    "includes": [
+      "canonical content generation",
+      "empty Coppermind pack check",
+      "TypeScript compilation",
+      "Vite production/PWA build"
+    ]
+  },
+  "selected_browser_tests": {
+    "passed": 88,
+    "failed": 0,
+    "projects": [
+      "desktop-chromium",
+      "mobile-chromium (iPhone 13 emulation)"
+    ],
+    "commands": [
+      "ARS_TEST_CHROMIUM=/tmp/chromium npx playwright test tests/e2e/ddd-layout.spec.ts tests/e2e/ddd-reports-regression.spec.ts tests/e2e/practical-research.spec.ts tests/e2e/recom-ux.spec.ts tests/e2e/bbs-ux.spec.ts tests/e2e/bbs-research.spec.ts tests/e2e/research-expansion.spec.ts --workers=2 --reporter=line --output=/tmp/ddd-parent-final-results",
+      "ARS_TEST_CHROMIUM=/tmp/chromium npx playwright test tests/e2e/multi-game.spec.ts --grep 'dddhd|new journals' --workers=2 --reporter=line --output=/tmp/ddd-multi-final-results"
+    ],
+    "split": [
+      84,
+      4
+    ],
+    "scope_note": "Selected current DDD and cross-journal suites; not a claim that all legacy E2E tests pass."
+  },
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1280,
+      1000
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      568
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      640,
+      360
+    ]
+  ],
+  "geometry": {
+    "desktop_book_1920x1080": {
+      "x": 220.8,
+      "y": 146,
+      "width": 1478.4,
+      "height": 795
+    },
+    "source_book_approximate": {
+      "left": 220,
+      "top": 147,
+      "right": 1704,
+      "bottom": 944
+    },
+    "note": "Visual coordinate comparison, not pixel-equality certification; 640x360 is a narrow/short zoom-equivalent CSS viewport, not a physical-device browser-zoom test."
+  },
+  "regression_fixes": [
+    "material stock/target drafts keyed by record identity",
+    "failed-write state rolls back visibly",
+    "malformed encoded world routes recover",
+    "page-two mobile Open section/Details use visible selection",
+    "compact notes/index content remains accessible",
+    "world summary does not silently clip",
+    "empty farming plan fits fixed page",
+    "normal-height phone primary targets 44px and editable fields 16px"
+  ],
+  "invariants": {
+    "original_reference_files_sha256_unchanged": 6,
+    "ddd_content_unchanged": true,
+    "entries": 1285,
+    "recipes": 263,
+    "treasures": 438,
+    "portals": 346,
+    "spirit_breeds": 54,
+    "dream_pieces": 37,
+    "data_jiminy_seeded": false
+  },
+  "preexisting_full_ci_baseline": {
+    "commit": "2e9c4ee38d9ceeaa63666e3613eb848b7f13f100",
+    "url": "https://github.com/didymusbenson/kh-tools/actions/runs/37086668533",
+    "browser_passed": 72,
+    "browser_failed": 50,
+    "unit_passed": 176,
+    "build": "passed",
+    "note": "Documentation-only checkpoint before DDD runtime implementation; existing legacy KH1/KH2 browser failures remain outside this presentation change."
+  },
+  "earlier_run_notes": [
+    "System /usr/bin/chromium could not launch in the sandbox; successful runs used the installed headless binary.",
+    "An earlier broad run exposed one existing Re:CoM Remaining-row check timing failure; its unchanged test passed in the clean final run.",
+    "Intermediate DDD fit and data-entry issues were fixed and rerun; no failing DDD case is represented as passed without a later successful check."
+  ],
+  "fidelity_limits": [
+    "existing falling Sora/Riku/Mickey artwork differs from native seated cover portrait; no screenshot artwork extracted",
+    "existing Chakra Petch and Itim substitute fonts",
+    "code-rendered ornaments/emblems and truthful app progress/navigation adaptations",
+    "native HD Treasures, Game Records detail and Spirit Creation layouts not fully visually established",
+    "compact-height control sizing exceptions; no physical Safari/iPhone or game-playthrough claim"
+  ],
+  "screenshots": [
+    {
+      "file": "desktop-completion.jpg",
+      "bytes": 209833,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "31115a9d6a03308df598381e587cd4f76c053fb14194b41dbab85af85b282a5e"
+    },
+    {
+      "file": "desktop-cover.jpg",
+      "bytes": 218449,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6a603695b5e15d823051a86cf04a0fdf96c8eaea3648ebf2d548198cdf0505c0"
+    },
+    {
+      "file": "desktop-creation-detail.jpg",
+      "bytes": 247071,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a4034dcead01207ba76e56098af3b811d5d8ce0136bc3508e829c6af9d6c21c6"
+    },
+    {
+      "file": "desktop-spirits.jpg",
+      "bytes": 183544,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f586f2682a25561bbe3b9416e5d935a683213a50e9e8772613926b2e2715a389"
+    },
+    {
+      "file": "landscape-material.jpg",
+      "bytes": 57087,
+      "width": 844,
+      "height": 390,
+      "sha256": "0b37a0382353319e96f407c98d456019be6655ba5158bb9f876179164b786769"
+    },
+    {
+      "file": "phone-cover.jpg",
+      "bytes": 58026,
+      "width": 390,
+      "height": 844,
+      "sha256": "b9bdd7778d82eae86daecdf643c6e74d5c1d0ff243cc589d14406747a0cdb898"
+    },
+    {
+      "file": "phone-creation-detail.jpg",
+      "bytes": 64396,
+      "width": 390,
+      "height": 844,
+      "sha256": "857891f021c53a16bfde92c333f54ab229e3fb00343fe8a5efeb90ba27edeee1"
+    },
+    {
+      "file": "phone-spirit-detail.jpg",
+      "bytes": 74867,
+      "width": 390,
+      "height": 844,
+      "sha256": "65b1cee4ebfcf5a850d71af57b80152b66c1be880aa0bce77652bda3bd0cb1d5"
+    },
+    {
+      "file": "phone-treasures.jpg",
+      "bytes": 59179,
+      "width": 390,
+      "height": 844,
+      "sha256": "599fb5d69ee7082ff70a9a96364f9d936cfb522d158d2255442e2da54fade43c"
+    },
+    {
+      "file": "small-phone-world.jpg",
+      "bytes": 39252,
+      "width": 320,
+      "height": 568,
+      "sha256": "bf7a0b9f0d639028b0455c11e1ecfdc2bd3b107d0c696c046dc306457ab68937"
+    },
+    {
+      "file": "zoom-equivalent-treasures.jpg",
+      "bytes": 36939,
+      "width": 640,
+      "height": 360,
+      "sha256": "872a944ad52ba774d2cd5051d33fb6093a11ea49f67afb8533d8524f410786fe"
+    }
+  ],
+  "local_runtime_checkpoint": "d3fc68285906c0d4c2dbe7a2290bc395b8b6e056",
+  "runtime_file_sha256": {
+    "src/journal/DddJournal.tsx": "b946fb8b7e81a2eeb6b4ca6f1f1a77a7cce21d94cf7807a987d887776fa428c1",
+    "src/journal/ddd-journal.css": "b20055a39fc900746c906700e99a6ce07d7600bd28e293fee979ebdc7355ae3d",
+    "src/games/GuideJournal.tsx": "de6a37c8e60c804483c022ebd8a3b1b01d34d66767d29592279d59c4c98842c6",
+    "src/games/profile.ts": "9acd0efa510db57826426db81ef23db9865ad06836a39b1252fb3f4a4d985144"
+  },
+  "publication_note": "Git-data publication preserves the verified source tree; the final remote commit hash is reported in the handoff."
+}

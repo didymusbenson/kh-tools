@@ -1,7 +1,7 @@
 # Dream Drop Distance HD — Reports interface research
 
 **Research date:** 2026-10-03 · **Baseline inspected:** `083dd13`  
-**Scope:** DDD HD, with Steam as the user's gameplay edition. Research and implementation were requested; the implementation is being developed on `research/ddd-journal-interface-2026-10-03`. This document distinguishes native visual evidence, existing product requirements and deliberate web adaptations.
+**Scope:** DDD HD, with Steam as the user's gameplay edition. Research and implementation were requested; the implementation is available on `research/ddd-journal-interface-2026-10-03`, with its checks and explicit fidelity limits recorded in the [implementation report](../implementation/dddhd-faithful-reports.md). This document distinguishes native visual evidence, existing product requirements and deliberate web adaptations.
 
 [Original reference inventory](references/dddhd/README.md) · [Source manifest](references/dddhd/source-manifest.json) · [Implementation plan](dddhd-new-ui-plan.md) · [Current game specification](../games/dream-drop-distance.md)
 

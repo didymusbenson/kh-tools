@@ -8,7 +8,7 @@ export interface GuideProfile {
   route: string;
 }
 export const journalStartRoute = (game: string) =>
-  `${game}/${game === "bbsfm" ? "home" : game === "recom" || game === "kh1fm" || game === "kh2fm" ? "contents" : "worlds"}`;
+  `${game}/${game === "bbsfm" ? "home" : game === "recom" || game === "kh1fm" || game === "kh2fm" || game === "dddhd" ? "contents" : "worlds"}`;
 
 export const emptyProfile = (game: string): GuideProfile => ({
   version: 1,
