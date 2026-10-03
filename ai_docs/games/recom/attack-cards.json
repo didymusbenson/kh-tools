@@ -43,7 +43,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 10,
@@ -65,6 +67,12 @@
         "Bounty": {
           "Traverse Town": 17.5
         }
+      },
+      "shopRates": {
+        "Grass": 20,
+        "Brown": 0,
+        "Black": 0,
+        "Mog": 0
       }
     },
     {
@@ -94,7 +102,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Three_Wishes",
-        "https://www.khwiki.com/Game:Agrabah"
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 15,
@@ -105,6 +115,12 @@
         "Bounty": {
           "Agrabah": 17.5
         }
+      },
+      "shopRates": {
+        "Grass": 16,
+        "Brown": 8,
+        "Black": 0,
+        "Mog": 0
       }
     },
     {
@@ -134,7 +150,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Crabclaw",
-        "https://www.khwiki.com/Game:Atlantica"
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -145,6 +163,12 @@
         "Bounty": {
           "Atlantica": 12.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 10,
+        "Black": 9,
+        "Mog": 3
       }
     },
     {
@@ -174,7 +198,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Pumpkinhead",
-        "https://www.khwiki.com/Game:Halloween_Town"
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 15,
@@ -185,6 +211,12 @@
         "Bounty": {
           "Halloween Town": 24.5
         }
+      },
+      "shopRates": {
+        "Grass": 16,
+        "Brown": 8,
+        "Black": 0,
+        "Mog": 0
       }
     },
     {
@@ -214,7 +246,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Fairy_Harp",
-        "https://www.khwiki.com/Game:Neverland"
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -225,6 +259,12 @@
         "Bounty": {
           "Neverland": 7.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 10,
+        "Black": 9,
+        "Mog": 3
       }
     },
     {
@@ -255,7 +295,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Wishing_Star",
         "https://www.khwiki.com/Game:Monstro",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 15,
@@ -267,6 +309,12 @@
         "Bounty": {
           "Monstro": 11.3
         }
+      },
+      "shopRates": {
+        "Grass": 16,
+        "Brown": 8,
+        "Black": 0,
+        "Mog": 0
       }
     },
     {
@@ -300,7 +348,9 @@
         "https://www.khwiki.com/Game:Neverland",
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -319,6 +369,12 @@
           "Twilight Town": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 10,
+        "Black": 9,
+        "Mog": 3
       }
     },
     {
@@ -353,7 +409,9 @@
         "https://www.khwiki.com/Game:Neverland",
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -370,6 +428,12 @@
           "Olympus Coliseum": 10.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 10,
+        "Black": 9,
+        "Mog": 3
       }
     },
     {
@@ -404,7 +468,9 @@
         "https://www.khwiki.com/Game:Neverland",
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 15,
@@ -420,6 +486,12 @@
         "Bounty": {
           "Olympus Coliseum": 21.0
         }
+      },
+      "shopRates": {
+        "Grass": 16,
+        "Brown": 8,
+        "Black": 0,
+        "Mog": 0
       }
     },
     {
@@ -454,7 +526,9 @@
         "https://www.khwiki.com/Game:Neverland",
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -475,6 +549,12 @@
           "Twilight Town": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 10,
+        "Black": 9,
+        "Mog": 3
       }
     },
     {
@@ -504,7 +584,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Lady_Luck",
-        "https://www.khwiki.com/Game:Wonderland"
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 15,
@@ -515,6 +597,12 @@
         "Bounty": {
           "Wonderland": 21.0
         }
+      },
+      "shopRates": {
+        "Grass": 16,
+        "Brown": 8,
+        "Black": 0,
+        "Mog": 0
       }
     },
     {
@@ -544,7 +632,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Divine_Rose",
-        "https://www.khwiki.com/Game:Hollow_Bastion"
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -555,6 +645,12 @@
         "Bounty": {
           "Hollow Bastion": 8.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 10,
+        "Black": 9,
+        "Mog": 3
       }
     },
     {
@@ -584,7 +680,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Oathkeeper",
-        "https://www.khwiki.com/Game:Destiny_Islands"
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 25,
@@ -595,6 +693,12 @@
         "Bounty": {
           "Destiny Islands": 20.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 9,
+        "Mog": 11
       }
     },
     {
@@ -624,7 +728,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Oblivion",
-        "https://www.khwiki.com/Game:Destiny_Islands"
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 25,
@@ -635,6 +741,12 @@
         "Bounty": {
           "Destiny Islands": 20.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 9,
+        "Mog": 11
       }
     },
     {
@@ -675,7 +787,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 30,
@@ -708,6 +822,12 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 0,
+        "Mog": 4
       }
     },
     {
@@ -737,7 +857,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Diamond_Dust",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 25,
@@ -748,6 +870,12 @@
         "Bounty": {
           "Castle Oblivion": 10.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 9,
+        "Mog": 11
       }
     },
     {
@@ -777,7 +905,9 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/One-Winged_Angel",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 25,
@@ -788,6 +918,12 @@
         "Bounty": {
           "Twilight Town": 15.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 9,
+        "Mog": 11
       }
     },
     {
@@ -828,7 +964,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 15,
@@ -858,6 +996,12 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 2,
+        "Mog": 6
       }
     },
     {
@@ -898,7 +1042,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 25,
@@ -928,6 +1074,12 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 0,
+        "Mog": 4
       }
     },
     {
@@ -968,7 +1120,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -998,6 +1152,12 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 2,
+        "Mog": 6
       }
     },
     {
@@ -1038,7 +1198,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -1069,6 +1231,12 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 2,
+        "Mog": 6
       }
     },
     {
@@ -1109,7 +1277,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -1140,6 +1310,12 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 2,
+        "Mog": 6
       }
     },
     {
@@ -1180,7 +1356,9 @@
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:Destiny_Islands",
-        "https://www.khwiki.com/Game:Castle_Oblivion"
+        "https://www.khwiki.com/Game:Castle_Oblivion",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop"
       ],
       "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
       "premiumCp": 20,
@@ -1211,7 +1389,14 @@
           "Destiny Islands": 5.0,
           "Castle Oblivion": 5.0
         }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 2,
+        "Mog": 6
       }
     }
-  ]
+  ],
+  "followUpDate": "2026-10-02"
 }

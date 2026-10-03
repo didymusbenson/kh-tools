@@ -4,12 +4,16 @@ Run after updating the shared review register from per-game ledgers. This checks
 complete scope, honest decision fields and excluded game identity preservation.
 It does not prove that a route is sufficient or a source claim is correct.
 """
-import collections,json,subprocess,sys
+import argparse,collections,json,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 REGISTER=ROOT/'ai_docs/research/non-com-practical-review-2026-10-02.json'
 GAMES={'kh2fm':40,'bbsfm':38,'dddhd':25,'kh02':18,'kh3':35}
 register=json.loads(REGISTER.read_text())
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('output',nargs='?')
+parser.add_argument('--excluded-baseline',default=register['baselineCommit'],help='Commit containing the independently authorized KH1/CoM state to preserve; defaults to the original non-CoM baseline.')
+args=parser.parse_args()
 records=register['records'];assert len(records)==156
 assert len({r['id'] for r in records})==156
 assert sum(r['baselineEvidenceStatus'] in ['partial','unresolved/conflicted'] for r in records)==65
@@ -32,13 +36,13 @@ counts=dict(collections.Counter(r['decision'] for r in records))
 if register.get('practicalCounts')!=counts:errors.append('shared counts mismatch')
 # These scoped games/artifacts may not be changed by this non-CoM pass.
 excluded=['src/games/kh1fm','ai_docs/games/kh1fm','ai_docs/games/recom','src/games/recom','data/kh1fm','public/data/kh1fm.json','artifacts/copperminds']
-changed=subprocess.check_output(['git','diff','--name-only',register['baselineCommit'],'--',*excluded],cwd=ROOT,text=True).splitlines()
+changed=subprocess.check_output(['git','diff','--name-only',args.excluded_baseline,'--',*excluded],cwd=ROOT,text=True).splitlines()
 if changed:errors.append('excluded paths changed: '+', '.join(changed))
 workstream_path='ai_docs/research/research-workstreams-2026-10-02.json'
-base_workstreams=json.loads(subprocess.check_output(['git','show',register['baselineCommit']+':'+workstream_path],cwd=ROOT,text=True))
+base_workstreams=json.loads(subprocess.check_output(['git','show',args.excluded_baseline+':'+workstream_path],cwd=ROOT,text=True))
 current_workstreams=json.loads((ROOT/workstream_path).read_text())
 for game in ['kh1fm','recom']:
  if [r for r in base_workstreams['records'] if r['game']==game]!=[r for r in current_workstreams['records'] if r['game']==game]:errors.append(game+': excluded shared-register records changed')
 report={'scope':'156 families; 65 starting residuals; practical disposition consistency only','counts':counts,'errors':errors,'passed':not errors}
-if len(sys.argv)>1:Path(sys.argv[1]).write_text(json.dumps(report,indent=2)+'\n')
+if args.output:Path(args.output).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2));sys.exit(bool(errors))

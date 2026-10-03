@@ -7,14 +7,14 @@
     "Mixed families get one primary assignment to prevent double counting. Their original disposition and linked factual dependencies remain visible; classification does not close or reopen findings.",
     "Game save/counter behavior and Steam game controls are game research; our app persistence and UI controls are app development.",
     "Evidence limitations and exclusions are not eight new unknown mechanics or eight automatically actionable tasks.",
-    "Evidence counts retain optional deferrals and unresolved practical questions. The strict non-CoM review covers all 65 starting residual families: 2 resolved, 52 with optional residual precision deferred, and 11 open. KH1 decisions and concurrent CoM records are unchanged; practical disposition is separate from evidence status."
+    "Evidence counts retain optional deferrals and unresolved practical questions. The strict non-CoM review covers all 65 starting residual families: 2 resolved, 52 with optional residual precision deferred, and 11 open. KH1 decisions are preserved; concurrent CoM records are integrated through cdbc462. Practical disposition is separate from evidence status."
   ],
   "counts": {
     "game-factual-research": {
-      "closed": 98,
-      "partial": 72,
-      "unresolved/conflicted": 11,
-      "other limitation": 8
+      "closed": 102,
+      "partial": 71,
+      "other limitation": 8,
+      "unresolved/conflicted": 8
     },
     "app-development": {
       "closed": 13,
@@ -193,7 +193,7 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Partial — practical guidance integrated; depth deferred",
+      "originalStatus": "Partial \u2014 practical guidance integrated; depth deferred",
       "normalizedStatus": "partial",
       "topic": null,
       "currentDisposition": "All four courses now include the shared platform route, finish ivy landmark and course-specific prompt/hazard advice. Exact modern per-vine layouts remain unverified and deferred to future improvements.",
@@ -207,7 +207,7 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Closed — practical needs met",
+      "originalStatus": "Closed \u2014 practical needs met",
       "normalizedStatus": "closed",
       "topic": null,
       "currentDisposition": "User accepted guaranteed matching answer positions on 2026-10-02: first for Dawn, middle for Midday, third for Dead of Night (Dusk); confirm the result and back out/reselect if needed. User-supplied FAQ 67842 excerpt. Mixed-answer edge cases are outside scope, not independently verified or queued for future research.",
@@ -245,7 +245,7 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Partial — practical guidance integrated; depth deferred",
+      "originalStatus": "Partial \u2014 practical guidance integrated; depth deferred",
       "normalizedStatus": "partial",
       "topic": null,
       "currentDisposition": "MP Haste statistics omitted by user judgement call. Berserk now gives reported thresholds: below 20% with max HP above 40, or 8 HP or less below 40; exact max HP 40 is unspecified. Further formula/boundary verification is deferred.",
@@ -275,7 +275,7 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Partial — route questions resolved; provenance deferred",
+      "originalStatus": "Partial \u2014 route questions resolved; provenance deferred",
       "normalizedStatus": "partial",
       "topic": null,
       "currentDisposition": "All three Trinity qualifiers adjudicated: Merlin save station accepted; Queen wording corrected to trial/tower battle; Grand Hall corrected to Entrance Hall with descent and Beast alternative supplied. Only inspected Steam build provenance remains deferred.",
@@ -290,11 +290,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Open, investigated",
-      "normalizedStatus": "unresolved/conflicted",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Recovered Prima probability rows conflict with selected remake values; HD attack/assorted identity, value/Premium odds and locked-pool behavior remain unproved. Existing prices, stock and eight magic/item identity pools remain closed.",
+      "currentDisposition": "Pack choice, unlocked identity/value weights, eligible Premium odds and assorted selection are supported. Per user scope decision, exact locked-pool algorithms are optional research, not a journal gap.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, product scope"
     },
     {
       "id": "COM-002",
@@ -302,11 +303,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Partial",
-      "normalizedStatus": "partial",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved.",
+      "currentDisposition": "Twelve presets, corridor applicability, boss retention and Dark Mode inventory guidance meet the player need. Exact scripted inventories and insertion order are optional research per user scope decision.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, product scope"
     },
     {
       "id": "COM-003",
@@ -314,11 +316,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Partial",
-      "normalizedStatus": "partial",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Both encounter footnotes are resolved and propagated across all 30 farm references. Steam save/reload guidance now reaches all 30 farms, with three detailed optional RNG routes. Full spawn compositions and scripted exceptions remain incomplete.",
+      "currentDisposition": "All 30 Sora targets have a sourced world/room, encounter hint, finish condition, retry path and fallback in runtime. Special rooms, props, later waves and Soldier conflict are handled. Exhaustive spawn tables are optional research.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, practical coverage"
     },
     {
       "id": "COM-004",
@@ -338,11 +341,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Open, investigated",
-      "normalizedStatus": "unresolved/conflicted",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration.",
+      "currentDisposition": "All 30 base rates match directly inspected Final Mix+ Ultimania pp. 367\u2013370; p. 380 confirms final-target selection and the 2.5\u00d7 room multiplier. Published-baseline corroboration is complete; no Steam probability measurement or executable extraction is claimed.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, published remake evidence"
     },
     {
       "id": "COM-006",
@@ -350,11 +354,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Open, investigated",
-      "normalizedStatus": "unresolved/conflicted",
+      "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; all 83 ordinary names also match an inspected Steam-aware mod catalog, but native order and vanilla Steam membership/denominator remain unestablished.",
+      "currentDisposition": "All 83 ordinary Sora names and their order match the printed remake Status list and a Steam community checklist. Original remake order is supported; unmodded Steam menu capture, exact achievement predicate and Riku native ordering remain unestablished.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Partial"
     },
     {
       "id": "COM-007",
@@ -364,9 +369,10 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. Three-card-over-two-card priority now reaches all two-card moves. Arbitrary slot/overlap matching remains unknown.",
+      "currentDisposition": "Primary remake guidance supports unordered pure-Attack ingredients, five Trinity Limit orders versus Wild Crush, a spare card before two Cures, and a third card after Goofy + Attack. Existing three-card priority remains; middle-slot insertion and general competing-pair evaluation remain unproved.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Partial"
     },
     {
       "id": "COM-008",
@@ -484,7 +490,7 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Dumbo base/Splash Lv2 durations, Splash Lv3 power and Bambi orb quantities added. Exact Bambi/Goofy base durations and unlisted higher-tier durations remain unproved.",
+      "currentDisposition": "Published approximate durations recovered for Stop, Splash, Twinkle, Flare Breath, Goofy Tornado and Hummingbird at all tiers. Bambi corrected to three hops plus final landing/four orb releases. Exact timing boundaries and Bambi elapsed seconds remain unstated; no Steam measurement claimed.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
     },
@@ -722,7 +728,7 @@
       "originalStatus": "closed",
       "normalizedStatus": "closed",
       "topic": "Visual puzzle assembly",
-      "currentDisposition": "All six actual gameplay puzzle grids were visually inspected: four 3-column×4-row boards and two 6×8 boards. Awakening/Daylight are placement-only; Heart/Duality/Frontier/Sunset permit rotation. Canonical records supply row-major tile placement, upright artwork landmarks and solved-image references. Starting rotations depend on saved board state and are not a fixed factual input sequence.",
+      "currentDisposition": "All six actual gameplay puzzle grids were visually inspected: four 3-column\u00d74-row boards and two 6\u00d78 boards. Awakening/Daylight are placement-only; Heart/Duality/Frontier/Sunset permit rotation. Canonical records supply row-major tile placement, upright artwork landmarks and solved-image references. Starting rotations depend on saved board state and are not a fixed factual input sequence.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
       "researchDisposition": "resolved",
@@ -858,7 +864,7 @@
       "originalStatus": "closed",
       "normalizedStatus": "closed",
       "topic": "Mushroom gates and tactics",
-      "currentDisposition": "VII appears after the late Twilight Town story episode ending with Axel’s passage into TWTNW; XII after the Oathkeeper/Limit Form visit, except during the later mansion episode. Japanese EP1/EP2 naming is mapped to named events using FM/HD guides and integrated into prerequisites.",
+      "currentDisposition": "VII appears after the late Twilight Town story episode ending with Axel\u2019s passage into TWTNW; XII after the Oathkeeper/Limit Form visit, except during the later mansion episode. Japanese EP1/EP2 naming is mapped to named events using FM/HD guides and integrated into prerequisites.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
       "researchDisposition": "resolved",
@@ -948,7 +954,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": "Bestiary census and combat values",
-      "currentDisposition": "All 127 groups/227 contexts and I–XII base sheets remain integrated. A complete callsite census of all 14 numbered Mushroom scripts (including VI_SU) verifies HP floors and XII Thunder override; runtime explains these. XIII fall_down writes element 6 rate 0; object fixture ID2354/NeoStatus 1059 has no established ENMP mapping. Full effective control-flow/external initialization and Steam parity remain uncertified.",
+      "currentDisposition": "All 127 groups/227 contexts and I\u2013XII base sheets remain integrated. A complete callsite census of all 14 numbered Mushroom scripts (including VI_SU) verifies HP floors and XII Thunder override; runtime explains these. XIII fall_down writes element 6 rate 0; object fixture ID2354/NeoStatus 1059 has no established ENMP mapping. Full effective control-flow/external initialization and Steam parity remain uncertified.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
       "researchDisposition": "deferred",
@@ -1434,7 +1440,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6–8; UI now consumes the catalog rather than two hardcoded examples. October 2: Inspected EPD, PRIZEBOXDATA and room-format leads; outer drop chance and inner reward percentages are separate data. Randomizer resources list assets but do not supply vanilla tables.",
+      "currentDisposition": "Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6\u20138; UI now consumes the catalog rather than two hardcoded examples. October 2: Inspected EPD, PRIZEBOXDATA and room-format leads; outer drop chance and inner reward percentages are separate data. Randomizer resources list assets but do not supply vanilla tables.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
       "researchDisposition": "deferred",
@@ -1497,7 +1503,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1–4, and retained Spiderchest Fleeting relationship. October 2: Japanese material guide recommends Trench for ordinary crystals; it is not a full character/room/reset or timed yield comparison. EPD and PRIZEBOXDATA identify the missing nested drop joins. Critical re-audit: seven standard crystals now share an actionable late-story Twister Trench clear/world-reset loop; Abounding additionally has the earlier all-character Aqueduct Mandrake route and Shop 4–6/7–8 drop bands. Published legacy reset scope is explicit. Ordinary Flood rates are not transferred to giant trench Floods. October 3: HD walkthroughs establish Terra Waterside and Ventus/Aqua Deep Woods Archraven routes. The authored legacy guide identifies ordinary entrance-path Floods in Fountain Court for all three characters; room names/topology are corroborated. Four new route records combine these encounters with drop bands and explicit FM/legacy reset evidence limits. All nine materials now have a character-scoped repeatable route, alongside Medal Shop alternatives.",
+      "currentDisposition": "Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1\u20134, and retained Spiderchest Fleeting relationship. October 2: Japanese material guide recommends Trench for ordinary crystals; it is not a full character/room/reset or timed yield comparison. EPD and PRIZEBOXDATA identify the missing nested drop joins. Critical re-audit: seven standard crystals now share an actionable late-story Twister Trench clear/world-reset loop; Abounding additionally has the earlier all-character Aqueduct Mandrake route and Shop 4\u20136/7\u20138 drop bands. Published legacy reset scope is explicit. Ordinary Flood rates are not transferred to giant trench Floods. October 3: HD walkthroughs establish Terra Waterside and Ventus/Aqua Deep Woods Archraven routes. The authored legacy guide identifies ordinary entrance-path Floods in Fountain Court for all three characters; room names/topology are corroborated. Four new route records combine these encounters with drop bands and explicit FM/legacy reset evidence limits. All nine materials now have a character-scoped repeatable route, alongside Medal Shop alternatives.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
       "researchDisposition": "deferred",
@@ -1513,7 +1519,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Recorded community formula base_rate × (1 + 0.3 × enabled Lucky Strike stacks), maximum five. October 2: Inspected nested drop formats; neither EPD nor PRIZEBOXDATA documentation identifies the runtime Lucky Strike transformation. Randomizer/mod writes cannot establish it.",
+      "currentDisposition": "Recorded community formula base_rate \u00d7 (1 + 0.3 \u00d7 enabled Lucky Strike stacks), maximum five. October 2: Inspected nested drop formats; neither EPD nor PRIZEBOXDATA documentation identifies the runtime Lucky Strike transformation. Randomizer/mod writes cannot establish it.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
       "researchDisposition": "deferred",
@@ -1529,7 +1535,7 @@
       "originalStatus": "closed",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Spiderchest Fleeting Crystal is 3.6% at Shop 1–2 only; source relationship is integrated in both generators and detail views.",
+      "currentDisposition": "Spiderchest Fleeting Crystal is 3.6% at Shop 1\u20132 only; source relationship is integrated in both generators and detail views.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
       "researchDisposition": "resolved",
@@ -1560,7 +1566,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides. October 2: Independently reconciled all 14 ingredient quantity lists with Japanese FM guide and retained source name per recipe. Corrected runtime Sweetstack wording to make all eight eligible recipes rather than equating every obtain route. OpenKH iceShop exposes createCount but no achievement predicate. October 3: KHWiki and the independent starrk walkthrough both state purchase unlocks after making the kind. A bought kind therefore needs no repeat manufacture. The HD completion guide supports making each of eight kinds for Sweetstack/Pâtissier. Only story-award substitution remains unresolved.",
+      "currentDisposition": "Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides. October 2: Independently reconciled all 14 ingredient quantity lists with Japanese FM guide and retained source name per recipe. Corrected runtime Sweetstack wording to make all eight eligible recipes rather than equating every obtain route. OpenKH iceShop exposes createCount but no achievement predicate. October 3: KHWiki and the independent starrk walkthrough both state purchase unlocks after making the kind. A bought kind therefore needs no repeat manufacture. The HD completion guide supports making each of eight kinds for Sweetstack/P\u00e2tissier. Only story-award substitution remains unresolved.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
       "researchDisposition": "open",
@@ -1591,7 +1597,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates. October 2: Independent guide explicitly distinguishes HD/PSP columns and states story requirements supplement Arena Level. Normal Combined Threat now requires Level 7 plus Radiant Garden; Time to Chill retains published Level 13 and Aqua clear-data condition. Inspected ArenaData format and a mod that forces Arena 30; neither supplies original cross-file logic. Critical re-audit: Aqua’s A Time to Chill normal route is Olympus Coliseum clear AND Arena 13; Terra/Ventus require Aqua clear data AND Arena 13. Aqua-only purchased Chill Ticket requires Shop 7 and Arena 5, already implying Olympus/Deep Space. Purchased Threat Ticket requires Shop 5 and Arena 5, already implying Radiant Garden; no invented pre-story ticket bypass is necessary.",
+      "currentDisposition": "Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates. October 2: Independent guide explicitly distinguishes HD/PSP columns and states story requirements supplement Arena Level. Normal Combined Threat now requires Level 7 plus Radiant Garden; Time to Chill retains published Level 13 and Aqua clear-data condition. Inspected ArenaData format and a mod that forces Arena 30; neither supplies original cross-file logic. Critical re-audit: Aqua\u2019s A Time to Chill normal route is Olympus Coliseum clear AND Arena 13; Terra/Ventus require Aqua clear data AND Arena 13. Aqua-only purchased Chill Ticket requires Shop 7 and Arena 5, already implying Olympus/Deep Space. Purchased Threat Ticket requires Shop 5 and Arena 5, already implying Radiant Garden; no invented pre-story ticket bypass is necessary.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
       "researchDisposition": "open",
@@ -1891,7 +1897,7 @@
       "originalStatus": "resolved",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "All 438 legacy location rows reconciled to current HD item/area identities: 400 exact joins, 20 quantity-notation normalizations, 16 explicit replacements (14 Treasure→Candy Goggles plus La Cité Tunnels #35/#36), and two uniquely identified Curaga/Doubleflight number remaps. Existing stable IDs and HD table order retained. Explicit HD Spirit formula selection is also integrated. Resolved the known Curaga/Doubleflight order disagreement: Curaga is HD Reports2, Doubleflight3. Preserve legacy source3/2, current saved IDs and all edition replacements; remove only the outdated order caveat. This is documentary corroboration of the disputed pair, not a claim to have438 Reports screenshots.",
+      "currentDisposition": "All 438 legacy location rows reconciled to current HD item/area identities: 400 exact joins, 20 quantity-notation normalizations, 16 explicit replacements (14 Treasure\u2192Candy Goggles plus La Cit\u00e9 Tunnels #35/#36), and two uniquely identified Curaga/Doubleflight number remaps. Existing stable IDs and HD table order retained. Explicit HD Spirit formula selection is also integrated. Resolved the known Curaga/Doubleflight order disagreement: Curaga is HD Reports2, Doubleflight3. Preserve legacy source3/2, current saved IDs and all edition replacements; remove only the outdated order caveat. This is documentary corroboration of the disputed pair, not a claim to have438 Reports screenshots.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
       "researchDisposition": "resolved",
@@ -1907,7 +1913,7 @@
       "originalStatus": "resolved",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "All54 boards and1144 nodes extracted. Corrected the reciprocal-only parser to retain the explicit undirected B-3/A-3 Jestabocky connector; all source-reported boards are now connected. The missing reciprocal background graphic remains recorded as source provenance. Aura Lion’s separate transformation conflict remains DDD-004.",
+      "currentDisposition": "All54 boards and1144 nodes extracted. Corrected the reciprocal-only parser to retain the explicit undirected B-3/A-3 Jestabocky connector; all source-reported boards are now connected. The missing reciprocal background graphic remains recorded as source provenance. Aura Lion\u2019s separate transformation conflict remains DDD-004.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
       "researchDisposition": "resolved",
@@ -1961,7 +1967,7 @@
       "researchDisposition": "open",
       "furtherResearch": "active practical question",
       "practicalReview": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
-      "practicalRationale": "Reopened: contradictory 100% raw-input guidance could spend a player’s ingredients on the wrong intended breed. A recipe-backed fallback is useful, but does not verify the displayed custom formulas."
+      "practicalRationale": "Reopened: contradictory 100% raw-input guidance could spend a player\u2019s ingredients on the wrong intended breed. A recipe-backed fallback is useful, but does not verify the displayed custom formulas."
     },
     {
       "id": "DDD-007",
@@ -1971,13 +1977,13 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details. Golden Egg now has an HD-sourced either-breed ★-rank custom-creation route, corroborated by base-B quantities and +2 rank thresholds.",
+      "currentDisposition": "Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details. Golden Egg now has an HD-sourced either-breed \u2605-rank custom-creation route, corroborated by base-B quantities and +2 rank thresholds.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
       "researchDisposition": "deferred",
       "furtherResearch": "deferred optional precision",
       "practicalReview": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
-      "practicalRationale": "The concrete ★-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations."
+      "practicalRationale": "The concrete \u2605-rank achievement route is supplied and does not depend on uncertain weather arithmetic. Exact initial-level/weather optimization remains unnecessary for creating and leveling a breed; unknown arithmetic stays out of calculations."
     },
     {
       "id": "DDD-008",
@@ -2163,7 +2169,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Lord Kyroo 70-second escape, shared retained HP, Riku→Sora→Riku loop, room-exit reset, skipped Nave alternative and finishing-character HP reward integrated; Julius location/clear-data entry and character rewards retained.",
+      "currentDisposition": "Lord Kyroo 70-second escape, shared retained HP, Riku\u2192Sora\u2192Riku loop, room-exit reset, skipped Nave alternative and finishing-character HP reward integrated; Julius location/clear-data entry and character rewards retained.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
       "researchDisposition": "deferred",
@@ -2201,7 +2207,7 @@
       "researchDisposition": "deferred",
       "furtherResearch": "deferred optional precision",
       "practicalReview": "ai_docs/games/dddhd/practical-review-2026-10-02.md",
-      "practicalRationale": "The ordinary trophy actions are now concrete and Daring Diver’s useful aggregation question was researched, not deferred. Only unneeded internal persistence precision is deferred. Existing-save recovery is not claimed covered."
+      "practicalRationale": "The ordinary trophy actions are now concrete and Daring Diver\u2019s useful aggregation question was researched, not deferred. Only unneeded internal persistence precision is deferred. Existing-save recovery is not claimed covered."
     },
     {
       "id": "DDD-022",
@@ -2574,7 +2580,7 @@
       "researchDisposition": "deferred",
       "furtherResearch": "deferred optional precision",
       "practicalReview": "ai_docs/games/kh3/practical-review-2026-10-02.md",
-      "practicalRationale": "Only unreported regional/label census work is deferred. Known alternate names that prevent a user finding a record were a real integration defect and have now been fixed and tested against the renderer’s actual search fields."
+      "practicalRationale": "Only unreported regional/label census work is deferred. Known alternate names that prevent a user finding a record were a real integration defect and have now been fixed and tested against the renderer\u2019s actual search fields."
     },
     {
       "id": "KH3-003",
@@ -2615,7 +2621,7 @@
       "originalStatus": "resolved",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "All four actions and the first-Shore deadline are established by convergent published guides. The world page’s Rapunzel-leaves wording refers to the first departure following the Shore reward scene, as explicitly located by the narrative guide; it is not evidence of a later recovery window. Runtime gives the task methods, pre-Shore save, reward check and missed-item consequence.",
+      "currentDisposition": "All four actions and the first-Shore deadline are established by convergent published guides. The world page\u2019s Rapunzel-leaves wording refers to the first departure following the Shore reward scene, as explicitly located by the narrative guide; it is not evidence of a later recovery window. Runtime gives the task methods, pre-Shore save, reward check and missed-item consequence.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh3/audit-dispositions.json",
       "researchDisposition": "resolved",
@@ -2706,7 +2712,7 @@
       "originalStatus": "partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim.",
+      "currentDisposition": "Lucky Strike multiplier 1 + 0.3 \u00d7 active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh3/audit-dispositions.json",
       "researchDisposition": "deferred",
@@ -2800,7 +2806,7 @@
       "originalStatus": "resolved",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Four cooking methods identified and documented: chopping, egg cracking, flambé and pepper grinding. Five is the number of meal courses, not cooking controls.",
+      "currentDisposition": "Four cooking methods identified and documented: chopping, egg cracking, flamb\u00e9 and pepper grinding. Five is the number of meal courses, not cooking controls.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh3/audit-dispositions.json",
       "researchDisposition": "resolved",
@@ -2908,7 +2914,7 @@
       "originalStatus": "resolved",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/η landmark. A wrong-zone STR-04 overview image is explicitly rejected. All nine spheres now have an actionable built-in map-marker flight approach. Practical review adds all 33 first-visit battle approaches and separates readable score thresholds from first-clear and rank item rewards.",
+      "currentDisposition": "33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/\u03b7 landmark. A wrong-zone STR-04 overview image is explicitly rejected. All nine spheres now have an actionable built-in map-marker flight approach. Practical review adds all 33 first-visit battle approaches and separates readable score thresholds from first-clear and rank item rewards.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh3/audit-dispositions.json",
       "researchDisposition": "resolved",
@@ -2969,7 +2975,7 @@
       "originalStatus": "resolved",
       "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "14 encounter-specific original defensive/opening guides, 11→13 unlock order and rewards, temporary character equipment references; Data Greeting/Slideshow access and Secret-clear Quadratum unlock kept non-collectible.",
+      "currentDisposition": "14 encounter-specific original defensive/opening guides, 11\u219213 unlock order and rewards, temporary character equipment references; Data Greeting/Slideshow access and Secret-clear Quadratum unlock kept non-collectible.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh3/audit-dispositions.json",
       "researchDisposition": "resolved",
@@ -3006,7 +3012,7 @@
       "researchDisposition": "deferred",
       "furtherResearch": "deferred optional precision",
       "practicalReview": "ai_docs/games/kh3/practical-review-2026-10-02.md",
-      "practicalRationale": "Risk-taker requires A, so B’s exact lower cutoff does not alter the target. Reading the game’s total avoids depending on an unsupported calculator; no repeated-score farming is promised."
+      "practicalRationale": "Risk-taker requires A, so B\u2019s exact lower cutoff does not alter the target. Reading the game\u2019s total avoids depending on an unsupported calculator; no repeated-score farming is promised."
     },
     {
       "id": "KH3-031",
@@ -3037,7 +3043,7 @@
       "researchDisposition": "deferred",
       "furtherResearch": "deferred optional precision",
       "practicalReview": "ai_docs/games/kh3/practical-review-2026-10-02.md",
-      "practicalRationale": "Those facts do not change the current Steam acquisition routes. Mirror metadata is sufficient provenance for this reference, not a claim about the player’s installed binary."
+      "practicalRationale": "Those facts do not change the current Steam acquisition routes. Mirror metadata is sufficient provenance for this reference, not a claim about the player\u2019s installed binary."
     },
     {
       "id": "KH3-033",

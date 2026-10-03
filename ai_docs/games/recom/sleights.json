@@ -2,8 +2,8 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "Runtime source data; no game execution; recipe precedence and menu membership remain bounded research questions",
-  "notes": "83 normal-combat Sora candidate names, 2 Bumble-Rumble-only names, 13 Riku names. These are extracted source counts, not certified native menu or achievement denominators. Attack illustrations normalize to Attack; explicit same/different type constraints remain in reference text. Individual-card recipe illustrations followed by a generic clause are examples, not extra constraints. All 92 stock recipes now have ordered alternatives and explicit constraints; six duels have activation conditions. The documented three-card-over-two-card priority is integrated; arbitrary slot/overlap matching remains unverified.",
+  "status": "Published remake Sora roster/order corroborated; exact Steam achievement predicate and general stock solver remain unverified",
+  "notes": "83 ordinary Sora sleights match the printed remake Status order and a Steam community completion checklist (one checklist naming typo: Wild Crash means Wild Crush). Two Bumble-Rumble-only names and 13 Riku names remain separate. The 83 is a supported completion-reference count, not a decoded Steam achievement denominator. All 92 stock recipes and six duel activations remain normalized; documented stock examples do not certify arbitrary extra-card matching.",
   "records": [
     {
       "id": "recom-sleight-sora-sliding-dash",
@@ -12,7 +12,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (10-15) Three attack cards of the same type.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 2",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -29,7 +29,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -42,7 +42,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Dashes into a distant target.",
-      "effectSource": "https://www.khwiki.com/Sliding_Dash"
+      "effectSource": "https://www.khwiki.com/Sliding_Dash",
+      "referenceOrder": {
+        "position": 1,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      ]
     },
     {
       "id": "recom-sleight-sora-stun-impact",
@@ -51,7 +60,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (20-23) Three attack cards of the same type.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 7",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -68,7 +77,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -81,7 +90,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Damages and stuns nearby enemies.",
-      "effectSource": "https://www.khwiki.com/Stun_Impact"
+      "effectSource": "https://www.khwiki.com/Stun_Impact",
+      "referenceOrder": {
+        "position": 2,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      ]
     },
     {
       "id": "recom-sleight-sora-strike-raid",
@@ -90,7 +108,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (24-26)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 12",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -107,7 +125,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -119,7 +137,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Throws the Keyblade through enemies, damaging and stunning them.",
-      "effectSource": "https://www.khwiki.com/Strike_Raid"
+      "effectSource": "https://www.khwiki.com/Strike_Raid",
+      "referenceOrder": {
+        "position": 3,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      ]
     },
     {
       "id": "recom-sleight-sora-blitz",
@@ -128,7 +155,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (10-15) Three attack cards of differing types.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 17",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -145,7 +172,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -158,7 +185,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Up to three jumping strikes; follow the reaction prompts.",
-      "effectSource": "https://www.khwiki.com/Blitz"
+      "effectSource": "https://www.khwiki.com/Blitz",
+      "referenceOrder": {
+        "position": 4,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      ]
     },
     {
       "id": "recom-sleight-sora-zantetsuken",
@@ -167,7 +203,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (0/27)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 22",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -184,7 +220,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "one-of",
             "values": [
@@ -196,7 +232,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A card broken by this attack cannot reload for that battle.",
-      "effectSource": "https://www.khwiki.com/Zantetsuken"
+      "effectSource": "https://www.khwiki.com/Zantetsuken",
+      "referenceOrder": {
+        "position": 5,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/"
+      ]
     },
     {
       "id": "recom-sleight-sora-sonic-blade",
@@ -205,7 +250,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (20-23) Three attack cards of differing types.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 27",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -222,7 +267,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -235,7 +280,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Up to seven targeted rushes; missed rushes or mistimed prompts end the chain.",
-      "effectSource": "https://www.khwiki.com/Sonic_Blade"
+      "effectSource": "https://www.khwiki.com/Sonic_Blade",
+      "referenceOrder": {
+        "position": 6,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      ]
     },
     {
       "id": "recom-sleight-sora-ars-arcanum",
@@ -244,7 +298,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (1-6)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 42",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -261,7 +315,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -273,7 +327,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Up to thirteen strikes using timed follow-ups.",
-      "effectSource": "https://www.khwiki.com/Ars_Arcanum"
+      "effectSource": "https://www.khwiki.com/Ars_Arcanum",
+      "referenceOrder": {
+        "position": 7,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      ]
     },
     {
       "id": "recom-sleight-sora-ragnarok",
@@ -282,7 +345,7 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (7-9)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 52",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -299,7 +362,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -311,7 +374,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Fires steerable energy rays; early release reduces the ray count.",
-      "effectSource": "https://www.khwiki.com/Ragnarok"
+      "effectSource": "https://www.khwiki.com/Ragnarok",
+      "referenceOrder": {
+        "position": 8,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      ]
     },
     {
       "id": "recom-sleight-sora-trinity-limit",
@@ -320,7 +392,7 @@
       "family": "attack",
       "combinationReference": "Attack + Donald Duck + Goofy OR Attack + Goofy + Donald Duck OR Donald Duck + Attack + Goofy OR Donald Duck + Goofy + Attack OR Goofy + Attack + Donald Duck. Goofy + Donald Duck + Attack is GBA-only for Trinity Limit; Re:CoM uses Wild Crush.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Enter Castle Oblivion.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -398,7 +470,18 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Damages enemies across the battlefield.",
-      "effectSource": "https://www.khwiki.com/Trinity_Limit"
+      "effectSource": "https://www.khwiki.com/Trinity_Limit",
+      "referenceOrder": {
+        "position": 9,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      ],
+      "stockMatchingNote": "Use one Attack card, Donald and Goofy. The five orders other than Goofy + Donald + Attack make Trinity Limit; that excluded order makes Wild Crush."
     },
     {
       "id": "recom-sleight-sora-fira",
@@ -407,7 +490,7 @@
       "family": "magic",
       "combinationReference": "Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Fire.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -430,8 +513,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      ],
+      "referenceOrder": {
+        "position": 10,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      }
     },
     {
       "id": "recom-sleight-sora-firaga",
@@ -440,7 +530,7 @@
       "family": "magic",
       "combinationReference": "Fire + Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Fire.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -462,7 +552,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals fire damage; base power multiplier 15×.",
-      "effectSource": "https://www.khwiki.com/Firaga"
+      "effectSource": "https://www.khwiki.com/Firaga",
+      "referenceOrder": {
+        "position": 11,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      ]
     },
     {
       "id": "recom-sleight-sora-blizzara",
@@ -471,7 +570,7 @@
       "family": "magic",
       "combinationReference": "Blizzard + Blizzard",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -494,8 +593,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      ],
+      "referenceOrder": {
+        "position": 12,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      }
     },
     {
       "id": "recom-sleight-sora-blizzaga",
@@ -504,7 +610,7 @@
       "family": "magic",
       "combinationReference": "Blizzard + Blizzard + Blizzard",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -526,7 +632,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals ice damage; base power multiplier 11×.",
-      "effectSource": "https://www.khwiki.com/Blizzaga"
+      "effectSource": "https://www.khwiki.com/Blizzaga",
+      "referenceOrder": {
+        "position": 13,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/"
+      ]
     },
     {
       "id": "recom-sleight-sora-thundara",
@@ -535,7 +650,7 @@
       "family": "magic",
       "combinationReference": "Thunder + Thunder",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Thunder.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -558,8 +673,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      ],
+      "referenceOrder": {
+        "position": 14,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      }
     },
     {
       "id": "recom-sleight-sora-thundaga",
@@ -568,7 +690,7 @@
       "family": "magic",
       "combinationReference": "Thunder + Thunder + Thunder",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Thunder.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -590,7 +712,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals lightning damage; base power multiplier 9×.",
-      "effectSource": "https://www.khwiki.com/Thundaga"
+      "effectSource": "https://www.khwiki.com/Thundaga",
+      "referenceOrder": {
+        "position": 15,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      ]
     },
     {
       "id": "recom-sleight-sora-cura",
@@ -599,7 +730,7 @@
       "family": "magic",
       "combinationReference": "Cure + Cure",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -628,10 +759,18 @@
       },
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
       ],
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
-      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "referenceOrder": {
+        "position": 16,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      },
+      "stockMatchingNote": "To preserve both Cure cards for normal reload, stock a non-Cure card first, then Cure + Cure. A third Cure instead makes Curaga. Cure + Cure + an Item also works; putting a card between the Cures is not established by these examples."
     },
     {
       "id": "recom-sleight-sora-curaga",
@@ -640,7 +779,7 @@
       "family": "magic",
       "combinationReference": "Cure + Cure + Cure",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -662,7 +801,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Restores 300 HP before modifiers.",
-      "effectSource": "https://www.khwiki.com/Curaga"
+      "effectSource": "https://www.khwiki.com/Curaga",
+      "referenceOrder": {
+        "position": 17,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      ]
     },
     {
       "id": "recom-sleight-sora-gravira",
@@ -671,7 +819,7 @@
       "family": "magic",
       "combinationReference": "Gravity + Gravity",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Gravity.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -694,8 +842,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      ],
+      "referenceOrder": {
+        "position": 18,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      }
     },
     {
       "id": "recom-sleight-sora-graviga",
@@ -704,7 +859,7 @@
       "family": "magic",
       "combinationReference": "Gravity + Gravity + Gravity",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Gravity.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -726,7 +881,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Base damage is 70% of the target’s remaining HP, subject to resistance.",
-      "effectSource": "https://www.khwiki.com/Graviga"
+      "effectSource": "https://www.khwiki.com/Graviga",
+      "referenceOrder": {
+        "position": 19,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/"
+      ]
     },
     {
       "id": "recom-sleight-sora-stopra",
@@ -735,7 +899,7 @@
       "family": "magic",
       "combinationReference": "Stop + Stop",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Stop.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -753,13 +917,24 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Stops susceptible targets for 5 seconds before modifiers.",
+      "effect": "Stops susceptible targets for about 5 seconds before modifiers.",
       "effectSource": "https://www.khwiki.com/Stopra",
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      ],
+      "referenceOrder": {
+        "position": 20,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      },
+      "durationSeconds": 5,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
     },
     {
       "id": "recom-sleight-sora-stopga",
@@ -768,7 +943,7 @@
       "family": "magic",
       "combinationReference": "Stop + Stop + Stop",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Stop.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -789,8 +964,21 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Stops susceptible targets for 7 seconds before modifiers.",
-      "effectSource": "https://www.khwiki.com/Stopga"
+      "effect": "Stops susceptible targets for about 7 seconds before modifiers.",
+      "effectSource": "https://www.khwiki.com/Stopga",
+      "referenceOrder": {
+        "position": 21,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      ],
+      "durationSeconds": 7,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
     },
     {
       "id": "recom-sleight-sora-aerora",
@@ -799,7 +987,7 @@
       "family": "magic",
       "combinationReference": "Aero + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Aero.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -822,8 +1010,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      ],
+      "referenceOrder": {
+        "position": 22,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      }
     },
     {
       "id": "recom-sleight-sora-aeroga",
@@ -832,7 +1027,7 @@
       "family": "magic",
       "combinationReference": "Aero + Aero + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Aero.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -854,7 +1049,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals neutral damage; base power multiplier 9×.",
-      "effectSource": "https://www.khwiki.com/Aeroga"
+      "effectSource": "https://www.khwiki.com/Aeroga",
+      "referenceOrder": {
+        "position": 23,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      ]
     },
     {
       "id": "recom-sleight-sora-warpinator",
@@ -863,7 +1067,7 @@
       "family": "magic",
       "combinationReference": "Stop + Gravity + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Twilight Town Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -885,7 +1089,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Attempts to remove the nearest enemy.",
-      "effectSource": "https://www.khwiki.com/Warpinator"
+      "effectSource": "https://www.khwiki.com/Warpinator",
+      "referenceOrder": {
+        "position": 24,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      ]
     },
     {
       "id": "recom-sleight-sora-warp",
@@ -894,7 +1107,7 @@
       "family": "magic",
       "combinationReference": "Stop + Aero + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Agrabah Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -916,7 +1129,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Attempts to remove visible enemies; no EXP, but the battle-end map/enemy card can still appear.",
-      "effectSource": "https://www.khwiki.com/Warp"
+      "effectSource": "https://www.khwiki.com/Warp",
+      "referenceOrder": {
+        "position": 25,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
+      ]
     },
     {
       "id": "recom-sleight-sora-blizzard-raid",
@@ -925,7 +1147,7 @@
       "family": "magic",
       "combinationReference": "Blizzard + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Olympus Coliseum Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -947,7 +1169,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A thrown Keyblade deals ice damage.",
-      "effectSource": "https://www.khwiki.com/Blizzard_Raid"
+      "effectSource": "https://www.khwiki.com/Blizzard_Raid",
+      "referenceOrder": {
+        "position": 26,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-synchro",
@@ -956,7 +1187,7 @@
       "family": "magic",
       "combinationReference": "Cure + Gravity + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Wonderland Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -978,7 +1209,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Lowers other enemies’ HP to the target’s lower remaining HP; ineffective against a lone target or boss parts.",
-      "effectSource": "https://www.khwiki.com/Synchro"
+      "effectSource": "https://www.khwiki.com/Synchro",
+      "referenceOrder": {
+        "position": 27,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-fire-raid",
@@ -987,7 +1227,7 @@
       "family": "magic",
       "combinationReference": "Fire + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Monstro Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1009,7 +1249,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A thrown Keyblade deals fire damage.",
-      "effectSource": "https://www.khwiki.com/Fire_Raid"
+      "effectSource": "https://www.khwiki.com/Fire_Raid",
+      "referenceOrder": {
+        "position": 28,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-aqua-splash",
@@ -1018,7 +1267,7 @@
       "family": "magic",
       "combinationReference": "Blizzard + Fire + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Monstro Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1040,7 +1289,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "An aimed stream deals repeated ice damage.",
-      "effectSource": "https://www.khwiki.com/Aqua_Splash"
+      "effectSource": "https://www.khwiki.com/Aqua_Splash",
+      "referenceOrder": {
+        "position": 29,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-terror",
@@ -1049,7 +1307,7 @@
       "family": "magic",
       "combinationReference": "Summon + Summon + Jack OR Simba + Mushu + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Enter Halloween Town.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1085,7 +1343,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Frightens enemies away from Sora.",
-      "effectSource": "https://www.khwiki.com/Terror"
+      "effectSource": "https://www.khwiki.com/Terror",
+      "referenceOrder": {
+        "position": 30,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-gifted-miracle",
@@ -1094,7 +1361,7 @@
       "family": "magic",
       "combinationReference": "Summon + Magic + Jack OR Bambi + Blizzard + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Halloween Town Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1130,7 +1397,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Heals Sora and enemies, reloads cards and resets the reload counter.",
-      "effectSource": "https://www.khwiki.com/Gifted_Miracle"
+      "effectSource": "https://www.khwiki.com/Gifted_Miracle",
+      "referenceOrder": {
+        "position": 31,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-bind",
@@ -1139,7 +1415,7 @@
       "family": "magic",
       "combinationReference": "Gravity + Stop + Magic",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Halloween Town Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1161,7 +1437,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Restrains enemies in place.",
-      "effectSource": "https://www.khwiki.com/Bind"
+      "effectSource": "https://www.khwiki.com/Bind",
+      "referenceOrder": {
+        "position": 32,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-shock-impact",
@@ -1170,7 +1455,7 @@
       "family": "magic",
       "combinationReference": "Simba + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Atlantica Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1192,7 +1477,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Damages and knocks away nearby enemies.",
-      "effectSource": "https://www.khwiki.com/Shock_Impact"
+      "effectSource": "https://www.khwiki.com/Shock_Impact",
+      "referenceOrder": {
+        "position": 33,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/"
+      ]
     },
     {
       "id": "recom-sleight-sora-homing-blizzara",
@@ -1201,7 +1495,7 @@
       "family": "magic",
       "combinationReference": "Aero + Blizzard + Magic",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Atlantica Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1223,7 +1517,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Launches homing ice magic.",
-      "effectSource": "https://www.khwiki.com/Homing_Blizzara"
+      "effectSource": "https://www.khwiki.com/Homing_Blizzara",
+      "referenceOrder": {
+        "position": 34,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-quake",
@@ -1232,7 +1535,7 @@
       "family": "magic",
       "combinationReference": "Gravity + Simba + Magic",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Atlantica Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1254,7 +1557,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Damages grounded enemies around Sora.",
-      "effectSource": "https://www.khwiki.com/Quake"
+      "effectSource": "https://www.khwiki.com/Quake",
+      "referenceOrder": {
+        "position": 35,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-teleport",
@@ -1263,7 +1575,7 @@
       "family": "magic",
       "combinationReference": "Magic + Magic + Peter Pan OR Stop + Aero + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Neverland Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1299,7 +1611,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Moves Sora behind the targeted enemy.",
-      "effectSource": "https://www.khwiki.com/Teleport"
+      "effectSource": "https://www.khwiki.com/Teleport",
+      "referenceOrder": {
+        "position": 36,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-thunder-raid",
@@ -1308,7 +1629,7 @@
       "family": "magic",
       "combinationReference": "Thunder + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Neverland Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1330,7 +1651,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A thrown Keyblade deals lightning damage.",
-      "effectSource": "https://www.khwiki.com/Thunder_Raid"
+      "effectSource": "https://www.khwiki.com/Thunder_Raid",
+      "referenceOrder": {
+        "position": 37,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-confuse",
@@ -1339,7 +1669,7 @@
       "family": "magic",
       "combinationReference": "Genie + Tinker Bell + Summon",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Find Piglet.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1361,7 +1691,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Confuses enemies.",
-      "effectSource": "https://www.khwiki.com/Confuse"
+      "effectSource": "https://www.khwiki.com/Confuse",
+      "referenceOrder": {
+        "position": 38,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-firaga-burst",
@@ -1370,7 +1709,7 @@
       "family": "magic",
       "combinationReference": "Fire + Fire + Gravity",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Clear Balloon Glider.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1392,7 +1731,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Launches a large fireball that releases smaller fire projectiles.",
-      "effectSource": "https://www.khwiki.com/Firaga_Burst"
+      "effectSource": "https://www.khwiki.com/Firaga_Burst",
+      "referenceOrder": {
+        "position": 39,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-reflect-raid",
@@ -1401,7 +1749,7 @@
       "family": "magic",
       "combinationReference": "Cloud + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Hollow Bastion Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1423,7 +1771,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A thrown Keyblade ricochets between enemies.",
-      "effectSource": "https://www.khwiki.com/Reflect_Raid"
+      "effectSource": "https://www.khwiki.com/Reflect_Raid",
+      "referenceOrder": {
+        "position": 40,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-magnet-spiral",
@@ -1432,7 +1789,7 @@
       "family": "magic",
       "combinationReference": "Gravity + Gravity + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Defeat Riku Replica on the 8th floor.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1454,7 +1811,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Draws enemies inward before striking.",
-      "effectSource": "https://www.khwiki.com/Magnet_Spiral"
+      "effectSource": "https://www.khwiki.com/Magnet_Spiral",
+      "referenceOrder": {
+        "position": 41,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/"
+      ]
     },
     {
       "id": "recom-sleight-sora-lethal-frame",
@@ -1463,7 +1829,7 @@
       "family": "magic",
       "combinationReference": "Stop + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 32",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1485,7 +1851,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Stops enemies and lands repeated strikes.",
-      "effectSource": "https://www.khwiki.com/Lethal_Frame"
+      "effectSource": "https://www.khwiki.com/Lethal_Frame",
+      "referenceOrder": {
+        "position": 42,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-tornado",
@@ -1494,7 +1869,7 @@
       "family": "magic",
       "combinationReference": "Aero + Gravity + Summon",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 37",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1516,7 +1891,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A steerable tornado damages and stuns enemies.",
-      "effectSource": "https://www.khwiki.com/Tornado"
+      "effectSource": "https://www.khwiki.com/Tornado",
+      "referenceOrder": {
+        "position": 43,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-freeze",
@@ -1525,7 +1909,7 @@
       "family": "magic",
       "combinationReference": "Blizzard + Blizzard + Stop",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Defeat Vexen on the 10th floor.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1547,7 +1931,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Freezes nearby enemies for 7 seconds. A hit breaks the freeze and adds damage equivalent to a ×10 power attack; casting Freeze again does not break it.",
-      "effectSource": "https://www.khwiki.com/Freeze_(ability)"
+      "effectSource": "https://www.khwiki.com/Freeze_(ability)",
+      "referenceOrder": {
+        "position": 44,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-judgment",
@@ -1556,7 +1949,7 @@
       "family": "magic",
       "combinationReference": "Aero + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Destiny Islands Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1578,7 +1971,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Throws the Keyblade for repeated hits.",
-      "effectSource": "https://www.khwiki.com/Judgment_(ability)"
+      "effectSource": "https://www.khwiki.com/Judgment_(ability)",
+      "referenceOrder": {
+        "position": 45,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-holy",
@@ -1587,7 +1989,7 @@
       "family": "magic",
       "combinationReference": "Mega-Ether + Megalixir + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 47",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1609,7 +2011,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Damages enemies with pillars of light.",
-      "effectSource": "https://www.khwiki.com/Holy"
+      "effectSource": "https://www.khwiki.com/Holy",
+      "referenceOrder": {
+        "position": 46,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-raging-storm",
@@ -1618,7 +2029,7 @@
       "family": "magic",
       "combinationReference": "Aero + Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Castle Oblivion Bounty",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1640,7 +2051,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Three fire pillars surround Sora and damage enemies.",
-      "effectSource": "https://www.khwiki.com/Raging_Storm"
+      "effectSource": "https://www.khwiki.com/Raging_Storm",
+      "referenceOrder": {
+        "position": 47,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-mega-flare",
@@ -1649,7 +2069,7 @@
       "family": "magic",
       "combinationReference": "Mushu + Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Level 57",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1671,7 +2091,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals fire damage throughout the battlefield.",
-      "effectSource": "https://www.khwiki.com/Mega_Flare"
+      "effectSource": "https://www.khwiki.com/Mega_Flare",
+      "referenceOrder": {
+        "position": 48,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/"
+      ]
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv2",
@@ -1680,7 +2109,7 @@
       "family": "summon",
       "combinationReference": "Simba + Simba",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Simba",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1709,10 +2138,17 @@
       },
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
       ],
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
-      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "referenceOrder": {
+        "position": 49,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      }
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv3",
@@ -1721,7 +2157,7 @@
       "family": "summon",
       "combinationReference": "Simba + Simba + Simba",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Simba",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1743,7 +2179,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Simba’s forward roar damages and stuns.",
-      "effectSource": "https://www.khwiki.com/Proud_Roar_Lv3"
+      "effectSource": "https://www.khwiki.com/Proud_Roar_Lv3",
+      "referenceOrder": {
+        "position": 50,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      ]
     },
     {
       "id": "recom-sleight-sora-showtime-lv2",
@@ -1752,7 +2197,7 @@
       "family": "summon",
       "combinationReference": "Genie + Genie",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Genie",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1775,8 +2220,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      ],
+      "referenceOrder": {
+        "position": 51,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      }
     },
     {
       "id": "recom-sleight-sora-showtime-lv3",
@@ -1785,7 +2237,7 @@
       "family": "summon",
       "combinationReference": "Genie + Genie + Genie",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Genie",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1807,7 +2259,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Genie casts random Thundara, Gravira or Stopra spells. Casts 3 spells; Stopra lasts 8 seconds before resistance.",
-      "effectSource": "https://www.khwiki.com/Showtime_Lv3"
+      "effectSource": "https://www.khwiki.com/Showtime_Lv3",
+      "referenceOrder": {
+        "position": 52,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      ]
     },
     {
       "id": "recom-sleight-sora-cross-slash",
@@ -1816,7 +2277,7 @@
       "family": "summon",
       "combinationReference": "Cloud + Cloud",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Cloud",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1839,8 +2300,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      ],
+      "referenceOrder": {
+        "position": 53,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/"
+      }
     },
     {
       "id": "recom-sleight-sora-cross-slash-plus",
@@ -1849,7 +2317,7 @@
       "family": "summon",
       "combinationReference": "Cloud + Stop + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Clear Veggie Panic",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1871,7 +2339,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Cloud focuses successive sword strikes on one target.",
-      "effectSource": "https://www.khwiki.com/Cross-slash%2B"
+      "effectSource": "https://www.khwiki.com/Cross-slash%2B",
+      "referenceOrder": {
+        "position": 54,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      ]
     },
     {
       "id": "recom-sleight-sora-omnislash",
@@ -1880,7 +2357,7 @@
       "family": "summon",
       "combinationReference": "Cloud + Cloud + Cloud",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Cloud",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1902,7 +2379,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Cloud repeatedly flies between targets and slashes.",
-      "effectSource": "https://www.khwiki.com/Omnislash"
+      "effectSource": "https://www.khwiki.com/Omnislash",
+      "referenceOrder": {
+        "position": 55,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      ]
     },
     {
       "id": "recom-sleight-sora-splash-lv2",
@@ -1911,7 +2397,7 @@
       "family": "summon",
       "combinationReference": "Dumbo + Dumbo",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Dumbo",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1929,15 +2415,25 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Dumbo sprays an aimed ice-element stream for 10 seconds.",
+      "effect": "Dumbo sprays an aimed ice-element stream for about 10 seconds.",
       "effectSource": "https://www.khwiki.com/Splash_Lv2",
       "durationSeconds": 10,
       "sources": [
         "https://kingdomhearts.fandom.com/wiki/Summon_cards",
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
       ],
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
-      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "referenceOrder": {
+        "position": 56,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      },
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
     },
     {
       "id": "recom-sleight-sora-splash-lv3",
@@ -1946,7 +2442,7 @@
       "family": "summon",
       "combinationReference": "Dumbo + Dumbo + Dumbo",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Dumbo",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1967,11 +2463,22 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Dumbo sprays a larger aimed ice-element stream, with power 2× per hit.",
+      "effect": "Dumbo sprays an aimed ice-element stream for about 10 seconds, flying higher and dealing power 2× per hit. Its range matches Lv2.",
       "effectSource": "https://www.khwiki.com/Splash_Lv3",
       "sources": [
-        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
-      ]
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      ],
+      "referenceOrder": {
+        "position": 57,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      },
+      "durationSeconds": 10,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
     },
     {
       "id": "recom-sleight-sora-twinkle-lv2",
@@ -1980,7 +2487,7 @@
       "family": "summon",
       "combinationReference": "Tinker Bell + Tinker Bell",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Tinker Bell",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -1998,13 +2505,24 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 4 seconds; base heal 13% max HP plus 1% per added input.",
+      "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts about 4 seconds; base heal 13% max HP plus 1% per added input.",
       "effectSource": "https://www.khwiki.com/Twinkle_Lv2",
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      ],
+      "referenceOrder": {
+        "position": 58,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      },
+      "durationSeconds": 4,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
     },
     {
       "id": "recom-sleight-sora-twinkle-lv3",
@@ -2013,7 +2531,7 @@
       "family": "summon",
       "combinationReference": "Tinker Bell + Tinker Bell + Tinker Bell",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Tinker Bell",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2034,8 +2552,21 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 5 seconds; base heal 22% max HP plus 1.5% per added input.",
-      "effectSource": "https://www.khwiki.com/Twinkle_Lv3"
+      "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts about 5 seconds; base heal 22% max HP plus 1.5% per added input.",
+      "effectSource": "https://www.khwiki.com/Twinkle_Lv3",
+      "referenceOrder": {
+        "position": 59,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
+      ],
+      "durationSeconds": 5,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
     },
     {
       "id": "recom-sleight-sora-paradise-lv2",
@@ -2044,7 +2575,7 @@
       "family": "summon",
       "combinationReference": "Bambi + Bambi",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Bambi",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2062,13 +2593,20 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Bambi drops large healing orbs.",
+      "effect": "Bambi drops 12 large healing orbs across three hops and a final landing (3 orbs per release).",
       "effectSource": "https://www.khwiki.com/Paradise_Lv2",
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      ],
+      "referenceOrder": {
+        "position": 60,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      }
     },
     {
       "id": "recom-sleight-sora-paradise-lv3",
@@ -2077,7 +2615,7 @@
       "family": "summon",
       "combinationReference": "Bambi + Bambi + Bambi",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Bambi",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2098,8 +2636,17 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Bambi drops large healing orbs. Also stuns enemies.",
-      "effectSource": "https://www.khwiki.com/Paradise_Lv3"
+      "effect": "Bambi drops 12 large healing orbs across three hops and a final landing (3 orbs per release). Also stuns enemies he tramples.",
+      "effectSource": "https://www.khwiki.com/Paradise_Lv3",
+      "referenceOrder": {
+        "position": 61,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      ]
     },
     {
       "id": "recom-sleight-sora-idyll-romp",
@@ -2108,7 +2655,7 @@
       "family": "summon",
       "combinationReference": "Bambi + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Clear Tigger's Jump-a-Thon",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2130,7 +2677,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Bambi rushes across the field and confuses enemies.",
-      "effectSource": "https://www.khwiki.com/Idyll_Romp"
+      "effectSource": "https://www.khwiki.com/Idyll_Romp",
+      "referenceOrder": {
+        "position": 62,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      ]
     },
     {
       "id": "recom-sleight-sora-flare-breath-lv2",
@@ -2139,7 +2695,7 @@
       "family": "summon",
       "combinationReference": "Mushu + Mushu",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Mushu",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2157,13 +2713,24 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs.",
+      "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at about 11 seconds or 23 fireballs.",
       "effectSource": "https://www.khwiki.com/Flare_Breath_Lv2",
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      ],
+      "referenceOrder": {
+        "position": 63,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      },
+      "durationSeconds": 11,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
     },
     {
       "id": "recom-sleight-sora-flare-breath-lv3",
@@ -2172,7 +2739,7 @@
       "family": "summon",
       "combinationReference": "Mushu + Mushu + Mushu",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Mushu",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2193,8 +2760,21 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 35 fireballs.",
-      "effectSource": "https://www.khwiki.com/Flare_Breath_Lv3"
+      "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at about 11 seconds or 35 fireballs.",
+      "effectSource": "https://www.khwiki.com/Flare_Breath_Lv3",
+      "referenceOrder": {
+        "position": 64,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
+      ],
+      "durationSeconds": 11,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
     },
     {
       "id": "recom-sleight-sora-magic-lv2",
@@ -2203,7 +2783,7 @@
       "family": "friend",
       "combinationReference": "Donald Duck + Donald Duck",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2226,8 +2806,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      ],
+      "referenceOrder": {
+        "position": 65,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      }
     },
     {
       "id": "recom-sleight-sora-magic-lv3",
@@ -2236,7 +2823,7 @@
       "family": "friend",
       "combinationReference": "Donald Duck + Donald Duck + Donald Duck",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2258,7 +2845,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Donald casts two random spells of the matching tier.",
-      "effectSource": "https://www.khwiki.com/Magic_Lv3"
+      "effectSource": "https://www.khwiki.com/Magic_Lv3",
+      "referenceOrder": {
+        "position": 66,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      ]
     },
     {
       "id": "recom-sleight-sora-stardust-blitz",
@@ -2267,7 +2863,7 @@
       "family": "friend",
       "combinationReference": "Donald Duck + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Twilight Town Room of Rewards",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2296,10 +2892,17 @@
       },
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
       ],
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
-      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "referenceOrder": {
+        "position": 67,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      }
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv2",
@@ -2308,7 +2911,7 @@
       "family": "friend",
       "combinationReference": "Goofy + Goofy",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2326,13 +2929,24 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Goofy spins around Sora, striking nearby enemies.",
+      "effect": "Goofy spins around Sora, striking nearby enemies. Lasts about 5 seconds.",
       "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv2",
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      ],
+      "referenceOrder": {
+        "position": 68,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      },
+      "durationSeconds": 5,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv3",
@@ -2341,7 +2955,7 @@
       "family": "friend",
       "combinationReference": "Goofy + Goofy + Goofy",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning.",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2362,8 +2976,21 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Goofy spins around Sora, striking nearby enemies.",
-      "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv3"
+      "effect": "Goofy spins around Sora, striking nearby enemies. Lasts about 7 seconds.",
+      "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv3",
+      "referenceOrder": {
+        "position": 69,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      ],
+      "durationSeconds": 7,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
     },
     {
       "id": "recom-sleight-sora-goofy-smash",
@@ -2372,7 +2999,7 @@
       "family": "friend",
       "combinationReference": "Goofy + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2395,8 +3022,17 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
+      ],
+      "referenceOrder": {
+        "position": 70,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      },
+      "stockMatchingNote": "Stock Goofy + an Attack card. The remake guide also permits adding another card after that pair to raise the total value."
     },
     {
       "id": "recom-sleight-sora-wild-crush",
@@ -2405,7 +3041,7 @@
       "family": "friend",
       "combinationReference": "Goofy + Donald Duck + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Available from the beginning",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2427,7 +3063,18 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Sora and Donald carry Goofy in a steerable rushing attack.",
-      "effectSource": "https://www.khwiki.com/Wild_Crush"
+      "effectSource": "https://www.khwiki.com/Wild_Crush",
+      "referenceOrder": {
+        "position": 71,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/"
+      ],
+      "stockMatchingNote": "Stock Goofy + Donald + an Attack card, in that order. Rearranging these three cards selects Trinity Limit instead, if learned."
     },
     {
       "id": "recom-sleight-sora-lucky-bounty-lv2",
@@ -2436,7 +3083,7 @@
       "family": "friend",
       "combinationReference": "Pluto + Pluto",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Traverse Town Room of Beginnings",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2459,8 +3106,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      ],
+      "referenceOrder": {
+        "position": 72,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      }
     },
     {
       "id": "recom-sleight-sora-lucky-bounty-lv3",
@@ -2469,7 +3123,7 @@
       "family": "friend",
       "combinationReference": "Pluto + Pluto + Pluto",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Traverse Town Room of Beginnings",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2491,7 +3145,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Pluto digs up cards or prizes; a bone or nothing is also possible. Recovers up to 9 spent cards, or 10 large HP and Moogle Point orbs each.",
-      "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv3"
+      "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv3",
+      "referenceOrder": {
+        "position": 73,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      ]
     },
     {
       "id": "recom-sleight-sora-sandstorm-lv2",
@@ -2500,7 +3163,7 @@
       "family": "friend",
       "combinationReference": "Aladdin + Aladdin",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Aladdin",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2523,8 +3186,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      ],
+      "referenceOrder": {
+        "position": 74,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      }
     },
     {
       "id": "recom-sleight-sora-sandstorm-lv3",
@@ -2533,7 +3203,7 @@
       "family": "friend",
       "combinationReference": "Aladdin + Aladdin + Aladdin",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Aladdin",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2555,7 +3225,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Aladdin slashes, stuns enemies and drops Moogle Points. Lasts 10 seconds.",
-      "effectSource": "https://www.khwiki.com/Sandstorm_Lv3"
+      "effectSource": "https://www.khwiki.com/Sandstorm_Lv3",
+      "referenceOrder": {
+        "position": 75,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+      ]
     },
     {
       "id": "recom-sleight-sora-surprise-lv2",
@@ -2564,7 +3243,7 @@
       "family": "friend",
       "combinationReference": "Jack + Jack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Jack",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2587,8 +3266,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      ],
+      "referenceOrder": {
+        "position": 76,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      }
     },
     {
       "id": "recom-sleight-sora-surprise-lv3",
@@ -2597,7 +3283,7 @@
       "family": "friend",
       "combinationReference": "Jack + Jack + Jack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Jack",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2619,7 +3305,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Jack casts random elemental or Gravity spells. Up to 3 exchanges/spells.",
-      "effectSource": "https://www.khwiki.com/Surprise!_Lv3"
+      "effectSource": "https://www.khwiki.com/Surprise!_Lv3",
+      "referenceOrder": {
+        "position": 77,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      ]
     },
     {
       "id": "recom-sleight-sora-spiral-wave-lv2",
@@ -2628,7 +3323,7 @@
       "family": "friend",
       "combinationReference": "Ariel + Ariel",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Ariel",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2651,8 +3346,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      ],
+      "referenceOrder": {
+        "position": 78,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      }
     },
     {
       "id": "recom-sleight-sora-spiral-wave-lv3",
@@ -2661,7 +3363,7 @@
       "family": "friend",
       "combinationReference": "Ariel + Ariel + Ariel",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Ariel",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2683,7 +3385,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Ariel charges and finishes with a kick; follow the reaction prompts.",
-      "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv3"
+      "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv3",
+      "referenceOrder": {
+        "position": 79,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      ]
     },
     {
       "id": "recom-sleight-sora-hummingbird-lv2",
@@ -2692,7 +3403,7 @@
       "family": "friend",
       "combinationReference": "Peter Pan + Peter Pan",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Peter Pan",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2710,13 +3421,24 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 9 seconds.",
+      "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts about 9 seconds.",
       "effectSource": "https://www.khwiki.com/Hummingbird_Lv2",
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      ],
+      "referenceOrder": {
+        "position": 80,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      },
+      "durationSeconds": 9,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
     },
     {
       "id": "recom-sleight-sora-hummingbird-lv3",
@@ -2725,7 +3447,7 @@
       "family": "friend",
       "combinationReference": "Peter Pan + Peter Pan + Peter Pan",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Peter Pan",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2746,8 +3468,21 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 11 seconds.",
-      "effectSource": "https://www.khwiki.com/Hummingbird_Lv3"
+      "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts about 11 seconds.",
+      "effectSource": "https://www.khwiki.com/Hummingbird_Lv3",
+      "referenceOrder": {
+        "position": 81,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
+      ],
+      "durationSeconds": 11,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
     },
     {
       "id": "recom-sleight-sora-furious-volley-lv2",
@@ -2756,7 +3491,7 @@
       "family": "friend",
       "combinationReference": "Beast + Beast",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Beast",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2779,8 +3514,15 @@
       "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
       "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
       "sources": [
-        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
-      ]
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/"
+      ],
+      "referenceOrder": {
+        "position": 82,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/"
+      }
     },
     {
       "id": "recom-sleight-sora-furious-volley-lv3",
@@ -2789,7 +3531,7 @@
       "family": "friend",
       "combinationReference": "Beast + Beast + Beast",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
+      "verification": "Recipe/effect references normalized; ordinary Sora identity and order cross-checked against the remake Ultimania and Steam community checklist. Exact Steam achievement predicate and arbitrary extra-card matching are not established.",
       "acquisition": "Obtain Beast",
       "normalCombat": true,
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
@@ -2811,7 +3553,16 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Beast knocks enemies toward Sora for timed return hits. Up to 3 exchanges/spells.",
-      "effectSource": "https://www.khwiki.com/Furious_Volley_Lv3"
+      "effectSource": "https://www.khwiki.com/Furious_Volley_Lv3",
+      "referenceOrder": {
+        "position": 83,
+        "edition": "Japanese PS2 remake Status stock-technique order",
+        "source": "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/"
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/"
+      ]
     },
     {
       "id": "recom-sleight-sora-honey-storm",
@@ -3276,7 +4027,7 @@
       "effectSource": "https://www.khwiki.com/Dark_Barrage"
     }
   ],
-  "followUpDate": "2026-10-01",
+  "followUpDate": "2026-10-02",
   "stockPriority": {
     "rule": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight.",
     "source": "https://www.khwiki.com/Sleight",
@@ -3286,5 +4037,27 @@
     "source": "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
     "accessed": "2026-10-02",
     "basis": "Original Steam questioner confirms keyboard combination after advice to press both card-cycling controls. This is input behavior, not arbitrary third-card matching."
+  },
+  "rosterEvidence": {
+    "report": "research-com-005-007-2026-10-02.md",
+    "orderBasis": "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+    "steamCommunityChecklist": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vTyOa8FzY1hzZsjv5ECd-TiZlfa37z6JP04iG8IDqvFvTkpfGugnNQxcwzvh6DHyIOJslMQa86PWS9u/pubhtml/sheet?headers=false&gid=1301848277",
+    "ordinarySoraCount": 83,
+    "steamNativeMenuCaptured": false,
+    "steamAchievementPredicateDecoded": false,
+    "rikuOrder": "No new native-order certification; the book separately groups normal and Dark duel moves."
+  },
+  "matchingEvidence": {
+    "sources": [
+      "https://www.kh13.com/gallery/image/18519-kh2fm_ultimania_269/",
+      "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+      "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
+      "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
+      "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
+      "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/"
+    ],
+    "attackOrder": "Pure Attack recipes use identity constraints and total; ingredient order is immaterial. Mixed-card recipes retain their specified order, subject to explicit alternatives.",
+    "twoCardRule": "The printed remake guide allows an additional card with two-card sleights; specific prepend/append examples are recorded without inventing a full permutation algorithm.",
+    "remaining": "Middle-slot insertion, competing two-card subsequences, and a general algorithm for every stock remain uncertified. No solver or arbitrary priority rank is introduced."
   }
 }

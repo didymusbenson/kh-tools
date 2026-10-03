@@ -1,5 +1,7 @@
 # Re:CoM residual research continuation — October 1, 2026
 
+**Historical pass:** current COM-001–003 dispositions are in [the practical closure](farm-coverage-closure-2026-10-02.md), and COM-005–007 results are superseded by [the primary-reference pass](research-com-005-007-2026-10-02.md).
+
 Continues checkpoint `2fd2927` and the [first resolution pass](research-resolution-2026-10-01.md). Every residual finding was challenged: **COM-001, 002, 003, 005, 006, 007, 008, 009, 010, 011, 012, 014, 015, 017 and 020**. Search excerpts count only for text actually returned, never as a full-page inspection. PS2, PS3 HD, PS4 HD and Steam evidence are distinguished below. No game execution or user playthrough is required or claimed.
 
 Result: **COM-010 closes with all 47 explicitly observed Steam key associations**. Six other findings gain narrower evidence/content (002/007/008/012/014/017); the others retain a documented no-change outcome. Current register: **15 closed, 11 partial, three open, three non-factual limitations**. No existing collectible or progress ID changed.

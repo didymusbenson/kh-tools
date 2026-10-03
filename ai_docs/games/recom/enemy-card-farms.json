@@ -3,7 +3,7 @@
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
   "status": "Source-backed implemented journal reference; not independently gameplay-verified",
-  "notes": "Source-reported remake rates, not an independently corroborated 30-row probability table. World eligibility is separate from encounter composition. Shared Steam-reported save/reload route is integrated; complete spawn compositions remain unresolved.",
+  "notes": "All 30 Sora farm targets have a suggested world/room, encounter entry, finish condition, retry path and fallback. These are source-backed routes, not guaranteed drops or a complete spawn database. All 30 rates match the original remake Ultimania tables; Steam probabilities have not been measured or extracted.",
   "records": [
     {
       "id": "recom-farm-shadow",
@@ -19,18 +19,48 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Shadow",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterExceptions": [
         {
           "world": "Atlantica",
           "condition": "Bottomless Darkness rooms only"
         }
+      ],
+      "farmRoute": {
+        "world": "Halloween Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Shadow encounter; check the battle for Shadow.",
+        "finish": "Defeat other species first, then finish with Shadow as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Halloween Town; inspect battles for Shadow and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Shadow",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ]
     },
     {
       "id": "recom-farm-soldier",
       "enemy": "Soldier",
-      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town; Neverland only when summoned by a Crescendo",
+      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town",
       "basePercent": 3.0,
       "boostedPercent": 7.5,
       "boostRooms": [
@@ -41,13 +71,51 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Soldier",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterExceptions": [
         {
           "world": "Neverland",
-          "condition": "Only when summoned by a Crescendo"
+          "condition": "Disputed: Soldier infobox lists Crescendo summoning; remake Crescendo description instead restricts summons to the current battle roster. Not a recommended farm.",
+          "status": "conflicting-sources"
         }
-      ]
+      ],
+      "guidance": [
+        {
+          "title": "Finding Soldiers",
+          "text": "Use Traverse Town, Wonderland or Twilight Town and defeat a Soldier last."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Soldier",
+        "https://www.khwiki.com/Crescendo",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Traverse Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Soldier",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Soldier encounter; check the battle for Soldier.",
+        "finish": "Defeat other species first, then finish with Soldier as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Traverse Town; inspect battles for Soldier and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Soldier",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-powerwild",
@@ -63,7 +131,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Powerwild",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Olympus Coliseum",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower right",
+        "encounter": "Look for the lower right Shadow encounter; check the battle for Powerwild.",
+        "finish": "Defeat other species first, then finish with Powerwild as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Olympus Coliseum; inspect battles for Powerwild and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Powerwild",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-bouncywild",
@@ -79,7 +177,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Bouncywild",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Olympus Coliseum",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower right",
+        "encounter": "Look for the lower right Shadow encounter; check the battle for Bouncywild.",
+        "finish": "Defeat other species first, then finish with Bouncywild as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Olympus Coliseum; inspect battles for Bouncywild and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Bouncywild",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-large-body",
@@ -95,7 +223,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Large_Body",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Large Body",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Large Body encounter; check the battle for Large Body.",
+        "finish": "Defeat other species first, then finish with Large Body as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Monstro; inspect battles for Large Body and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Large_Body",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-fat-bandit",
@@ -111,7 +269,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Fat_Bandit",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Agrabah",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Fat Bandit",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Fat Bandit encounter; check the battle for Fat Bandit.",
+        "finish": "Defeat other species first, then finish with Fat Bandit as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Fat Bandit and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Fat_Bandit",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-sea-neon",
@@ -127,7 +315,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Sea_Neon",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Atlantica",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Sea Neon",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Sea Neon encounter; check the battle for Sea Neon.",
+        "finish": "Defeat other species first, then finish with Sea Neon as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Atlantica; inspect battles for Sea Neon and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Sea_Neon",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-bandit",
@@ -143,7 +361,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Bandit",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Agrabah",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower center",
+        "encounter": "Look for the lower center Shadow encounter; check the battle for Bandit.",
+        "finish": "Defeat other species first, then finish with Bandit as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Bandit and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Bandit",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-pirate",
@@ -159,7 +407,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Pirate",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Neverland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Neverland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower right",
+        "encounter": "Look for the lower right Shadow encounter; check the battle for Pirate.",
+        "finish": "Defeat other species first, then finish with Pirate as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Neverland; inspect battles for Pirate and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Pirate",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-red-nocturne",
@@ -175,7 +461,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Red_Nocturne",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Traverse Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Red Nocturne",
+        "positionHint": "left",
+        "encounter": "Look for the left Red Nocturne encounter; check the battle for Red Nocturne.",
+        "finish": "Defeat other species first, then finish with Red Nocturne as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Traverse Town; inspect battles for Red Nocturne and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Red_Nocturne",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-blue-rhapsody",
@@ -191,7 +507,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Blue_Rhapsody",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Traverse Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Soldier",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Traverse Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Soldier",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Soldier encounter; check the battle for Blue Rhapsody.",
+        "finish": "Defeat other species first, then finish with Blue Rhapsody as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Traverse Town; inspect battles for Blue Rhapsody and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Blue_Rhapsody",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-yellow-opera",
@@ -207,7 +561,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Yellow_Opera",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Agrabah",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Yellow Opera",
+        "positionHint": null,
+        "encounter": "Look for the Yellow Opera encounter; check the battle for Yellow Opera.",
+        "finish": "Defeat other species first, then finish with Yellow Opera as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Yellow Opera and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Yellow_Opera",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-green-requiem",
@@ -223,7 +607,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Green_Requiem",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Agrabah",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower center",
+        "encounter": "Look for the lower center Shadow encounter; check the battle for Green Requiem.",
+        "finish": "Defeat other species first, then finish with Green Requiem as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Green Requiem and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Green_Requiem",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-wizard",
@@ -239,7 +653,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wizard",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Castle Oblivion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Red Nocturne",
+        "positionHint": "upper right",
+        "encounter": "Look for the upper right Red Nocturne encounter; check the battle for Wizard.",
+        "finish": "Defeat other species first, then finish with Wizard as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Castle Oblivion; inspect battles for Wizard and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Wizard",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-air-soldier",
@@ -255,7 +699,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Soldier",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Large Body",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Large Body",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Large Body encounter; check the battle for Air Soldier.",
+        "finish": "Defeat other species first, then finish with Air Soldier as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Monstro; inspect battles for Air Soldier and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Air_Soldier",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-barrel-spider",
@@ -271,7 +753,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Barrel_Spider",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "rngRoute": {
         "world": "Monstro",
         "room": "Sleeping Darkness",
@@ -281,7 +763,42 @@
         "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
         "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
         "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
-      }
+      },
+      "guidance": [
+        {
+          "title": "Barrel encounters",
+          "text": "Save while the barrels are intact. Leaving and re-entering a room does not restore broken barrels in Re:CoM; reload the earlier save or synthesize a fresh room. Defeat the Spider before it self-destructs, which gives no card prize."
+        }
+      ],
+      "farmRoute": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": null,
+        "positionHint": "barrels",
+        "encounter": "Break intact barrels to enter a Barrel Spider battle.",
+        "finish": "Leave a Barrel Spider for last, then defeat it before self-destruction. An explosion does not award its card.",
+        "retry": "Save with the barrels intact before trying. After failure, reload that save or synthesize a fresh room; walking out and back does not restore broken barrels. Save after receiving the card.",
+        "fallback": "Use fresh barrel-bearing rooms in Monstro, Olympus Coliseum or Agrabah. Preserve a save before breaking props; inspect the resulting battle and defeat a Spider last.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Barrel_Spider",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-wight-knight",
@@ -297,7 +814,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wight_Knight",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Halloween Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": null,
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left encounter; check the battle for Wight Knight.",
+        "finish": "Defeat other species first, then finish with Wight Knight as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Halloween Town; inspect battles for Wight Knight and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Wight_Knight",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-air-pirate",
@@ -313,7 +860,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Pirate",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Neverland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Darkball",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Neverland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Darkball",
+        "positionHint": "left",
+        "encounter": "Look for the left Darkball encounter; check the battle for Air Pirate.",
+        "finish": "Defeat other species first, then finish with Air Pirate as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Neverland; inspect battles for Air Pirate and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Air_Pirate",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-gargoyle",
@@ -329,7 +914,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Gargoyle",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Halloween Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": null,
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left encounter; check the battle for Gargoyle.",
+        "finish": "Defeat other species first, then finish with Gargoyle as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Halloween Town; inspect battles for Gargoyle and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Gargoyle",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-search-ghost",
@@ -345,7 +960,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Search_Ghost",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "right",
+        "encounter": "Look for the right Shadow encounter; check the battle for Search Ghost.",
+        "finish": "Defeat other species first, then finish with Search Ghost as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Monstro; inspect battles for Search Ghost and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Search_Ghost",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-aquatank",
@@ -361,7 +1014,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Aquatank",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Atlantica",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": null,
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left encounter; check the battle for Aquatank.",
+        "finish": "Defeat other species first, then finish with Aquatank as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. Avoid Thunder: Aquatank absorbs lightning.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Atlantica; inspect battles for Aquatank and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Aquatank",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-screwdiver",
@@ -377,7 +1060,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Screwdiver",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Atlantica",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": null,
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left encounter; check the battle for Screwdiver.",
+        "finish": "Defeat other species first, then finish with Screwdiver as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Atlantica; inspect battles for Screwdiver and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Screwdiver",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-wyvern",
@@ -393,7 +1106,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wyvern",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Hollow Bastion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Hollow Bastion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Shadow encounter; check the battle for Wyvern.",
+        "finish": "Defeat other species first, then finish with Wyvern as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. The reported Shadow encounter can contain Defender or Wyvern; check which appeared before committing to the last kill.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Hollow Bastion; inspect battles for Wyvern and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Wyvern",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-defender",
@@ -409,7 +1160,45 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Defender",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Hollow Bastion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Hollow Bastion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Shadow encounter; check the battle for Defender.",
+        "finish": "Defeat other species first, then finish with Defender as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. The reported Shadow encounter can contain Defender or Wyvern; check which appeared before committing to the last kill.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Hollow Bastion; inspect battles for Defender and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Defender",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-white-mushroom",
@@ -421,7 +1210,7 @@
       "specialRoom": "White Room",
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/White_Mushroom",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "successRule": "Create a White Room. Complete three requested Fire, Blizzard or Thunder casts on a mushroom, or use Warp to remove it. Finish the encounter with White Mushroom as the last defeated enemy for its card roll. Darkness-room multipliers do not apply.",
       "successSources": [
         "https://www.khwiki.com/White_Mushroom",
@@ -438,7 +1227,38 @@
         "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
         "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
         "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
-      }
+      },
+      "farmRoute": {
+        "world": "Traverse Town",
+        "room": "White Room",
+        "fieldEnemy": "White Mushroom",
+        "positionHint": null,
+        "encounter": "Enter a White Mushroom encounter in its dedicated room.",
+        "finish": "Create a White Room. Complete three requested Fire, Blizzard or Thunder casts on a mushroom, or use Warp to remove it. Finish the encounter with White Mushroom as the last defeated enemy for its card roll. Darkness-room multipliers do not apply.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "Create another White Room in Traverse Town when encounters run out. Its special-room rule takes priority over Darkness bonuses.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/White_Mushroom",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+          "https://www.khwiki.com/Warp"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-black-fungus",
@@ -450,13 +1270,43 @@
       "specialRoom": "Black Room",
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Black_Fungus",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "successRule": "Create a Black Room and defeat Black Fungus last. Strike it before entering battle to delay invulnerability; attack when vulnerable. Its card roll replaces the map-card reward. Darkness-room multipliers do not apply; no KH1 combo-finish condition is used.",
       "successSources": [
         "https://www.khwiki.com/Black_Fungus",
         "https://www.khwiki.com/Enemy_Card"
       ],
-      "successVerification": "Source-backed CoM/Re:CoM shared rules, explicit remake room/rate rows; Warp route corroborated by HD guide indexed passage. Not a guaranteed card drop."
+      "successVerification": "Source-backed CoM/Re:CoM shared rules, explicit remake room/rate rows; Warp route corroborated by HD guide indexed passage. Not a guaranteed card drop.",
+      "farmRoute": {
+        "world": "Traverse Town",
+        "room": "Black Room",
+        "fieldEnemy": "Black Fungus",
+        "positionHint": null,
+        "encounter": "Enter a Black Fungus encounter in its dedicated room.",
+        "finish": "Create a Black Room and defeat Black Fungus last. Strike it before entering battle to delay invulnerability; attack when vulnerable. Its card roll replaces the map-card reward. Darkness-room multipliers do not apply; no KH1 combo-finish condition is used.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "Create another Black Room in Traverse Town when encounters run out. Its special-room rule takes priority over Darkness bonuses.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Black_Fungus",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-creeper-plant",
@@ -472,7 +1322,37 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Creeper_Plant",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "farmRoute": {
+        "world": "Wonderland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower center",
+        "encounter": "Look for the lower center Shadow encounter; check the battle for Creeper Plant.",
+        "finish": "Defeat other species first, then finish with Creeper Plant as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Wonderland; inspect battles for Creeper Plant and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Creeper_Plant",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-tornado-step",
@@ -488,7 +1368,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Tornado_Step",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "rngRoute": {
         "world": "Hollow Bastion",
         "room": "Strong Initiative",
@@ -498,7 +1378,37 @@
         "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
         "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
         "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
-      }
+      },
+      "farmRoute": {
+        "world": "Destiny Islands",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Tornado Step",
+        "positionHint": "lower center",
+        "encounter": "Look for the lower center Tornado Step encounter; check the battle for Tornado Step.",
+        "finish": "Defeat other species first, then finish with Tornado Step as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Destiny Islands; inspect battles for Tornado Step and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Tornado_Step",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-crescendo",
@@ -514,7 +1424,43 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Crescendo",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 370, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "guidance": [
+        {
+          "title": "Summoned enemies",
+          "text": "In Re:CoM, Crescendo summons a non-Crescendo enemy from the current battle roster. Defeat the summoned enemies first if farming Crescendo itself."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Crescendo",
+        "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Destiny Islands",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "positionHint": "lower left",
+        "encounter": "Look for the lower left Shadow encounter; check the battle for Crescendo.",
+        "finish": "Defeat other species first, then finish with Crescendo as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. Remove its summoned enemies before the last Crescendo.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Destiny Islands; inspect battles for Crescendo and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Crescendo",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "page": 370,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     },
     {
       "id": "recom-farm-neoshadow",
@@ -530,14 +1476,73 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Neoshadow",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 370, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
+      "encounterLead": {
+        "world": "Castle Oblivion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Red Nocturne",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ],
+      "farmRoute": {
+        "world": "Castle Oblivion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Red Nocturne",
+        "positionHint": "upper right",
+        "encounter": "Look for the upper right Red Nocturne encounter; check the battle for Neoshadow.",
+        "finish": "Defeat other species first, then finish with Neoshadow as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. Wait for the later wave to appear before the finishing attack.",
+        "retry": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room.",
+        "fallback": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Castle Oblivion; inspect battles for Neoshadow and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted.",
+        "requiresRngManipulation": false,
+        "evidence": "Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate.",
+        "sources": [
+          "https://www.khwiki.com/Neoshadow",
+          "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+          "https://www.khwiki.com/Enemy_Card",
+          "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "page": 370,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      }
     }
   ],
-  "followUpDate": "2026-10-01",
+  "followUpDate": "2026-10-02",
   "repeatRoute": {
     "instructions": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing.",
     "evidence": "Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt.",
     "source": "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
     "accessed": "2026-10-02"
+  },
+  "routeConventions": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species.",
+  "productCoverage": {
+    "status": "closed",
+    "date": "2026-10-02",
+    "criterion": "A practical source-backed farm route and fallback for every one of the 30 Sora random enemy-card targets.",
+    "coveredTargets": 30,
+    "optionalResearch": [
+      "Exhaustive room formation tables and spawn probabilities",
+      "Disputed Neverland Soldier summon; not required by recommended routes",
+      "Per-recipe Steam determinism"
+    ],
+    "notClaimed": "No independent game execution or fixed attempt count."
+  },
+  "rateCorroboration": {
+    "date": "2026-10-02",
+    "status": "Published remake baseline corroborated for all 30 rows",
+    "report": "research-com-005-007-2026-10-02.md",
+    "multiplier": 2.5,
+    "multiplierSource": "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
+    "independenceBoundary": "Direct inspection of the primary published table, not another wiki copy. The wiki may derive from the same book; this is not independent experimental measurement. The book predates HD/Steam."
   }
 }

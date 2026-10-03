@@ -42,7 +42,7 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 
 - KH3 / Re Mind branch endpoint `6d7e3faf91d9dbca1aab2fef65ca989cfde0f737`: all 59 ingredient pages reviewed and 172 route groups integrated, 28 obtainable medal variants added, nine sphere routes completed, 151 acquisition associations across 104 equipment records, 12 sphere/material quantity links and copy-recovery corrections. Full published 99-level combined Main + Teeny budget table retained with its edition/unit caveats. KH3-024 newly closed; totals 19 closed, 13 partial, 3 conflicted. [KH3 pass report](../games/kh3/gap-closure-2026-10-02.md). All 139 application tests and the full production build passed.
 
-## Current factual totals
+## Historical seven-game integration totals
 
 After the seven-game integrations and KH1 follow-up resolutions (001, 002 and 015): **109 closed, 73 partial, 12 unresolved/conflicted, 14 other limitations**. The original integration checkpoint below had 106 closed; the three additional closures are the user-selected +4 Defense, the reconciled Unknown unlock and the accepted guaranteed departure choices. None claims new gameplay verification. Every one of the 91 starting partial/unresolved findings received a research pass. Three whole families newly closed (KH1-004, KH02-016, KH3-024); many other subclauses improved while their families remain partial. This completes the assigned seven-agent investigation and integration pass, not every remaining factual gap.
 
@@ -76,11 +76,11 @@ This classification covers **all 208 existing audit families**, including closed
 
 | Primary work | Closed | Partial | Unresolved/conflicted | Other limitations | Total |
 |---|---:|---:|---:|---:|---:|
-| Game factual research and supporting evidence | 96 | 73 | 12 | 8 | 189 |
+| Game factual research and supporting evidence | 102 | 71 | 8 | 8 | 189 |
 | App development, content integration, design and acceptance | 13 | 0 | 0 | 6 | 19 |
-| Total | 109 | 73 | 12 | 14 | 208 |
+| Total | 115 | 71 | 8 | 14 | 208 |
 
-The game side contains **85 partial/unresolved evidence families** (five KH1 families deferred and one dropped, leaving 79 active families outside KH1), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 109 closed count.
+The game side contains **79 partial/unresolved evidence families** (five KH1 families deferred and one dropped; the strict non-CoM review separately identifies optional deferrals and 11 useful open questions), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 109 closed count.
 
 Mixed families have one primary assignment based on the question being resolved; the original wording and related factual IDs remain in the register. This does not split one family into multiple counted tasks or change any factual disposition. Game save behavior, achievement counters and native Steam controls stay under game research; our app saved state, controls and acceptance stay under app development.
 
@@ -123,3 +123,7 @@ Evidence/provenance/platform records: `BBS-033`, `BBS-034`, `COM-029`, `KH2-036`
 KH1-015 subsequently closed for practical needs by user decision on 2026-10-02: guaranteed matching answer sets plus departure confirmation suffice; mixed-answer edge cases are outside scope. Current totals include this scope closure, not new verification of the mixed-answer table.
 
 KH1-002 is now closed with first-cutscene unlock evidence. Practical integration of 014/018/020 is complete, with residual precision/provenance deferred. [Current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md).
+
+October 2 Re:CoM checkpoint reconciliation: COM-001–003 closure and [COM-005–007 primary evidence](../games/recom/research-com-005-007-2026-10-02.md) are reflected in the classification totals. Original statuses remain historical in the JSON register.
+
+October 3 master consolidation: the non-CoM review and Re:CoM cdbc462 are now combined. Current classification totals above are recomputed from all 208 records in the shared register: 102 closed factual families, 71 partial, 8 unresolved/conflicted, 8 factual limitations; 13 closed app families and 6 app limitations. Historical checkpoint totals elsewhere in this report remain historical.

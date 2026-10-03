@@ -16,7 +16,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "1": 2,
         "2–6": 4,
@@ -26,7 +26,58 @@
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 2,
+        "1": 15,
+        "2": 20,
+        "3": 20,
+        "4": 15,
+        "5": 15,
+        "6": 5,
+        "7": 3,
+        "8": 3,
+        "9": 2
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "cardRates": {
+        "Kingdom Key": 20,
+        "Three Wishes": 16,
+        "Pumpkinhead": 16,
+        "Wishing Star": 16,
+        "Olympia": 16,
+        "Lady Luck": 16,
+        "Crabclaw": 0,
+        "Fairy Harp": 0,
+        "Spellbinder": 0,
+        "Metal Chocobo": 0,
+        "Lionheart": 0,
+        "Divine Rose": 0,
+        "Oathkeeper": 0,
+        "Oblivion": 0,
+        "Diamond Dust": 0,
+        "One-Winged Angel": 0,
+        "Ultima Weapon": 0,
+        "Bond of Flame": 0,
+        "Star Seeker": 0,
+        "Total Eclipse": 0,
+        "Midnight Roar": 0,
+        "Maverick Flare": 0,
+        "Two Become One": 0
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -40,7 +91,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "1": 2,
         "2–6": 4,
@@ -64,7 +115,11 @@
         "https://www.khwiki.com/Dumbo",
         "https://www.khwiki.com/Tinker_Bell",
         "https://www.khwiki.com/Mushu",
-        "https://www.khwiki.com/Cloud"
+        "https://www.khwiki.com/Cloud",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Fire": 20.0,
@@ -81,7 +136,29 @@
         "Tinker Bell": 0,
         "Mushu": 0,
         "Cloud": 0
-      }
+      },
+      "valueOdds": {
+        "0": 2,
+        "1": 15,
+        "2": 20,
+        "3": 20,
+        "4": 15,
+        "5": 15,
+        "6": 5,
+        "7": 3,
+        "8": 3,
+        "9": 2
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-grass-item",
@@ -94,7 +171,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "1": 2,
         "2–6": 4,
@@ -111,7 +188,11 @@
         "https://www.khwiki.com/Ether",
         "https://www.khwiki.com/Mega-Ether",
         "https://www.khwiki.com/Elixir",
-        "https://www.khwiki.com/Megalixir"
+        "https://www.khwiki.com/Megalixir",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Potion": 50.0,
@@ -121,7 +202,29 @@
         "Mega-Ether": 0,
         "Elixir": 0,
         "Megalixir": 0
-      }
+      },
+      "valueOdds": {
+        "0": 2,
+        "1": 15,
+        "2": 20,
+        "3": 20,
+        "4": 15,
+        "5": 15,
+        "6": 5,
+        "7": 3,
+        "8": 3,
+        "9": 2
+      },
+      "premiumFrequency": {
+        "percent": 0,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-grass-assorted",
@@ -134,7 +237,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "1": 2,
         "2–6": 4,
@@ -144,7 +247,50 @@
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 2,
+        "1": 15,
+        "2": 20,
+        "3": 20,
+        "4": 15,
+        "5": 15,
+        "6": 5,
+        "7": 3,
+        "8": 3,
+        "9": 2
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "categorySelection": {
+        "attack": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-grass-attack"
+        },
+        "magic": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-grass-magic"
+        },
+        "item": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-grass-item"
+        }
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -158,7 +304,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 2,
         "11–13": 1
@@ -166,7 +312,58 @@
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 4,
+        "1": 5,
+        "2": 5,
+        "3": 10,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 7,
+        "8": 5,
+        "9": 4
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "cardRates": {
+        "Kingdom Key": 0,
+        "Three Wishes": 8,
+        "Pumpkinhead": 8,
+        "Wishing Star": 8,
+        "Olympia": 8,
+        "Lady Luck": 8,
+        "Crabclaw": 10,
+        "Fairy Harp": 10,
+        "Spellbinder": 10,
+        "Metal Chocobo": 10,
+        "Lionheart": 10,
+        "Divine Rose": 10,
+        "Oathkeeper": 0,
+        "Oblivion": 0,
+        "Diamond Dust": 0,
+        "One-Winged Angel": 0,
+        "Ultima Weapon": 0,
+        "Bond of Flame": 0,
+        "Star Seeker": 0,
+        "Total Eclipse": 0,
+        "Midnight Roar": 0,
+        "Maverick Flare": 0,
+        "Two Become One": 0
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -180,7 +377,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 2,
         "11–13": 1
@@ -202,7 +399,11 @@
         "https://www.khwiki.com/Dumbo",
         "https://www.khwiki.com/Tinker_Bell",
         "https://www.khwiki.com/Mushu",
-        "https://www.khwiki.com/Cloud"
+        "https://www.khwiki.com/Cloud",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Fire": 7.0,
@@ -219,7 +420,29 @@
         "Tinker Bell": 0,
         "Mushu": 0,
         "Cloud": 6.0
-      }
+      },
+      "valueOdds": {
+        "0": 4,
+        "1": 5,
+        "2": 5,
+        "3": 10,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 7,
+        "8": 5,
+        "9": 4
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-brown-item",
@@ -232,7 +455,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 2,
         "11–13": 1
@@ -247,7 +470,11 @@
         "https://www.khwiki.com/Ether",
         "https://www.khwiki.com/Mega-Ether",
         "https://www.khwiki.com/Elixir",
-        "https://www.khwiki.com/Megalixir"
+        "https://www.khwiki.com/Megalixir",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Potion": 30.0,
@@ -257,7 +484,29 @@
         "Mega-Ether": 20.0,
         "Elixir": 0,
         "Megalixir": 0
-      }
+      },
+      "valueOdds": {
+        "0": 4,
+        "1": 5,
+        "2": 5,
+        "3": 10,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 7,
+        "8": 5,
+        "9": 4
+      },
+      "premiumFrequency": {
+        "percent": 0,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-brown-assorted",
@@ -270,7 +519,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 2,
         "11–13": 1
@@ -278,7 +527,50 @@
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 4,
+        "1": 5,
+        "2": 5,
+        "3": 10,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 7,
+        "8": 5,
+        "9": 4
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "categorySelection": {
+        "attack": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-brown-attack"
+        },
+        "magic": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-brown-magic"
+        },
+        "item": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-brown-item"
+        }
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -292,7 +584,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 1,
         "11–13": 1
@@ -300,7 +592,58 @@
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 10,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 10,
+        "6": 20,
+        "7": 20,
+        "8": 10,
+        "9": 10
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "cardRates": {
+        "Kingdom Key": 0,
+        "Three Wishes": 0,
+        "Pumpkinhead": 0,
+        "Wishing Star": 0,
+        "Olympia": 0,
+        "Lady Luck": 0,
+        "Crabclaw": 9,
+        "Fairy Harp": 9,
+        "Spellbinder": 9,
+        "Metal Chocobo": 9,
+        "Lionheart": 9,
+        "Divine Rose": 9,
+        "Oathkeeper": 9,
+        "Oblivion": 9,
+        "Diamond Dust": 9,
+        "One-Winged Angel": 9,
+        "Ultima Weapon": 0,
+        "Bond of Flame": 0,
+        "Star Seeker": 2,
+        "Total Eclipse": 2,
+        "Midnight Roar": 2,
+        "Maverick Flare": 2,
+        "Two Become One": 2
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -314,7 +657,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 1,
         "11–13": 1
@@ -336,7 +679,11 @@
         "https://www.khwiki.com/Dumbo",
         "https://www.khwiki.com/Tinker_Bell",
         "https://www.khwiki.com/Mushu",
-        "https://www.khwiki.com/Cloud"
+        "https://www.khwiki.com/Cloud",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Fire": 5.0,
@@ -353,7 +700,29 @@
         "Tinker Bell": 10.0,
         "Mushu": 10.0,
         "Cloud": 10.0
-      }
+      },
+      "valueOdds": {
+        "0": 10,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 10,
+        "6": 20,
+        "7": 20,
+        "8": 10,
+        "9": 10
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-black-item",
@@ -366,7 +735,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 1,
         "11–13": 1
@@ -381,7 +750,11 @@
         "https://www.khwiki.com/Ether",
         "https://www.khwiki.com/Mega-Ether",
         "https://www.khwiki.com/Elixir",
-        "https://www.khwiki.com/Megalixir"
+        "https://www.khwiki.com/Megalixir",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Potion": 10.0,
@@ -391,7 +764,29 @@
         "Mega-Ether": 25.0,
         "Elixir": 15.0,
         "Megalixir": 0
-      }
+      },
+      "valueOdds": {
+        "0": 10,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 10,
+        "6": 20,
+        "7": 20,
+        "8": 10,
+        "9": 10
+      },
+      "premiumFrequency": {
+        "percent": 0,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-black-assorted",
@@ -404,7 +799,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "7–10": 1,
         "11–13": 1
@@ -412,7 +807,50 @@
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 10,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 10,
+        "6": 20,
+        "7": 20,
+        "8": 10,
+        "9": 10
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "categorySelection": {
+        "attack": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-black-attack"
+        },
+        "magic": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-black-magic"
+        },
+        "item": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-black-item"
+        }
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -426,14 +864,65 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "11–13": 1
       },
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 20,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 15,
+        "8": 15,
+        "9": 20
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "cardRates": {
+        "Kingdom Key": 0,
+        "Three Wishes": 0,
+        "Pumpkinhead": 0,
+        "Wishing Star": 0,
+        "Olympia": 0,
+        "Lady Luck": 0,
+        "Crabclaw": 3,
+        "Fairy Harp": 3,
+        "Spellbinder": 3,
+        "Metal Chocobo": 3,
+        "Lionheart": 3,
+        "Divine Rose": 3,
+        "Oathkeeper": 11,
+        "Oblivion": 11,
+        "Diamond Dust": 11,
+        "One-Winged Angel": 11,
+        "Ultima Weapon": 4,
+        "Bond of Flame": 4,
+        "Star Seeker": 6,
+        "Total Eclipse": 6,
+        "Midnight Roar": 6,
+        "Maverick Flare": 6,
+        "Two Become One": 6
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     },
     {
@@ -447,7 +936,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "11–13": 1
       },
@@ -468,7 +957,11 @@
         "https://www.khwiki.com/Dumbo",
         "https://www.khwiki.com/Tinker_Bell",
         "https://www.khwiki.com/Mushu",
-        "https://www.khwiki.com/Cloud"
+        "https://www.khwiki.com/Cloud",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Fire": 2.0,
@@ -485,7 +978,29 @@
         "Tinker Bell": 16.0,
         "Mushu": 16.0,
         "Cloud": 16.0
-      }
+      },
+      "valueOdds": {
+        "0": 20,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 15,
+        "8": 15,
+        "9": 20
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-mog-item",
@@ -498,7 +1013,7 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "11–13": 1
       },
@@ -512,7 +1027,11 @@
         "https://www.khwiki.com/Ether",
         "https://www.khwiki.com/Mega-Ether",
         "https://www.khwiki.com/Elixir",
-        "https://www.khwiki.com/Megalixir"
+        "https://www.khwiki.com/Megalixir",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
       ],
       "cardRates": {
         "Potion": 0,
@@ -522,7 +1041,29 @@
         "Mega-Ether": 25.0,
         "Elixir": 20.0,
         "Megalixir": 10.0
-      }
+      },
+      "valueOdds": {
+        "0": 20,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 15,
+        "8": 15,
+        "9": 20
+      },
+      "premiumFrequency": {
+        "percent": 0,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
+      ]
     },
     {
       "id": "recom-shop-mog-assorted",
@@ -535,15 +1076,60 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "verification": "Ultimania Re:CoM pp.382–383 checked against edition-separated community table; HD identity substitutions applied; Steam behavior not independently measured.",
       "stockByFloor": {
         "11–13": 1
       },
       "sources": [
         "https://www.khwiki.com/Moogle_Shop",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+        "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+        "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+        "https://www.khwiki.com/Battle_Card"
+      ],
+      "valueOdds": {
+        "0": 20,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 15,
+        "8": 15,
+        "9": 20
+      },
+      "premiumFrequency": {
+        "percent": 10,
+        "scope": "Eligible attack/magic cards only; items cannot be Premium."
+      },
+      "categorySelection": {
+        "attack": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-mog-attack"
+        },
+        "magic": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-mog-magic"
+        },
+        "item": {
+          "numerator": 1,
+          "denominator": 3,
+          "poolId": "recom-shop-mog-item"
+        }
+      },
+      "guidance": [
+        {
+          "title": "Locked cards",
+          "text": "Unlock a card before shopping for copies. Published identity weights describe the complete pool; do not use them to predict exact odds while cards are still locked."
+        }
       ]
     }
-  ]
+  ],
+  "followUpDate": "2026-10-02",
+  "probabilityScope": "Published remake full-pool weights, with HD card substitutions. Locked identities are excluded; rejection/renormalization/fallback algorithm is not established. No Steam executable was tested."
 }

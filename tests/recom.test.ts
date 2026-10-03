@@ -12,6 +12,7 @@ import progression from '../ai_docs/games/recom/progression.json';
 import combat from '../ai_docs/games/recom/combat-reference.json';
 import minigames from '../ai_docs/games/recom/minigames.json';
 import rikuDecks from '../ai_docs/games/recom/riku-decks.json';
+import farms from '../ai_docs/games/recom/enemy-card-farms.json';
 
 describe('Re:Chain of Memories data and campaign progress',()=>{
  it('has unique, sourced IDs and excludes original-edition bonus cards',()=>{
@@ -36,6 +37,48 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
    expect(entry.notes?.some(n=>n.title==='Stock priority')??false,recipe.id).toBe(twoCard);
    if(recipe.recipeAlternatives?.length)expect(entry.thirdCardPrecedence,recipe.id).toBeNull();
   }
+ });
+ it('gives every Sora farm an actionable route and keeps special encounters safe',()=>{
+  expect(farms.records).toHaveLength(30);
+  for(const farm of farms.records){
+   const route=farm.farmRoute;
+   expect(farm.worldsSourceText,farm.enemy).toContain(route.world);
+   for(const value of [route.room,route.encounter,route.finish,route.retry,route.fallback])expect(value,farm.enemy).toBeTruthy();
+   expect(route.requiresRngManipulation).toBe(false);
+   const entry=recomEntries.find(e=>e.name===farm.enemy&&e.campaign==='sora')!;
+   expect(entry.notes?.find(n=>n.title==='Suggested farm')?.text).toContain(route.world);
+   expect(entry.notes?.find(n=>n.title==='Alternative farm')?.text).toBe(route.fallback);
+   for(const source of route.sources)expect(entry.sources).toContain(source);
+   expect(route.retry).not.toMatch(/escape/i);
+  }
+  expect(recomEntries.filter(e=>e.notes?.some(n=>n.title==='Suggested farm'))).toHaveLength(30);
+  for(const [enemy,room] of [['White Mushroom','White Room'],['Black Fungus','Black Room']])expect(farms.records.find(r=>r.enemy===enemy)!.farmRoute.room).toBe(room);
+  expect(farms.records.find(r=>r.enemy==='Soldier')!.farmRoute.world).toBe('Traverse Town');
+  expect(farms.records.find(r=>r.enemy==='Barrel Spider')!.farmRoute.retry).toContain('barrels intact');
+  expect(farms.records.find(r=>r.enemy==='Aquatank')!.farmRoute.finish).toContain('Avoid Thunder');
+  // The source does not identify the field species for these positional encounters.
+  for(const name of ['Screwdiver','Aquatank','Wight Knight','Gargoyle'])expect(farms.records.find(r=>r.enemy===name)!.farmRoute.fieldEnemy).toBeNull();
+ });
+ it('preserves published pack distributions without treating locked pools or items as Premium',()=>{
+  for(const p of packs.records){
+   expect(Object.values(p.valueOdds).reduce((a,b)=>a+b,0),p.id).toBe(100);
+   expect(p.premiumFrequency.percent).toBe(p.kind==='item'?0:10);
+   const entry=recomEntries.find(e=>e.id===p.id)!;
+   expect(entry.notes?.some(n=>n.title==='Locked cards')).toBe(true);
+   if(p.kind==='assorted'){
+    for(const category of Object.values(p.categorySelection!)){
+     expect(category).toMatchObject({numerator:1,denominator:3});
+     expect(packs.records.some(pool=>pool.id===category.poolId&&pool.tier===p.tier)).toBe(true);
+    }
+   }
+  }
+  expect(attacks.records.find(r=>r.name==='Kingdom Key')!.shopRates).toEqual({Grass:20,Brown:0,Black:0,Mog:0});
+  expect(attacks.records.find(r=>r.name==='Total Eclipse')!.shopRates).toEqual({Grass:0,Brown:0,Black:2,Mog:6});
+  expect(recomEntries.find(e=>e.id==='recom-sora-enemy-soldier')!.drops?.[0].location).not.toContain('Neverland');
+  const castle=recomEntries.find(e=>e.id==='recom-riku-deck-castle-oblivion')!;
+  expect(castle.cards).toHaveLength(27);
+  expect(castle.notes?.find(n=>n.title==='Castle corridor battles')?.text).toContain('Lexaeus');
+  expect(castle.notes?.find(n=>n.title==='Dark Mode inventory')?.text).toContain('next reload');
  });
  it('does not give Riku Sora shops, minigames or editable-deck categories',()=>{
   const riku=recomEntries.filter(e=>inCampaign(e,'riku'));
@@ -94,7 +137,7 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   expect(packs.records.find(p=>p.tier==='Black'&&p.kind==='magic')!.priceMooglePoints).toBe(350);
   expect(packs.records.find(p=>p.tier==='Mog'&&p.kind==='magic')!.priceMooglePoints).toBe(400);
   const withRates=packs.records.filter(p=>'cardRates' in p);
-  expect(withRates).toHaveLength(8);
+  expect(withRates).toHaveLength(12);
   for(const p of withRates)expect(Object.values(p.cardRates!).reduce((sum,rate)=>sum+(rate??0),0)).toBeCloseTo(100);
   const dust=attacks.records.find(c=>c.name==='Diamond Dust')!;
   const angel=attacks.records.find(c=>c.name==='One-Winged Angel')!;
@@ -126,12 +169,26 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   expect(sleights.records.filter(r=>r.recipeAlternatives.length)).toHaveLength(92);
   expect(byName('Zantetsuken').recipeAlternatives[0]).toMatchObject({valueTotal:{comparison:'one-of',values:[0,27]}});
   expect(byName('Sliding Dash').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-same'});
-  expect(byName('Blitz').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-different'});
+  expect(byName('Blitz').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-different',ordered:false});
   expect(byName('Stardust Blitz').recipeAlternatives[0].slots).toEqual([{card:'Donald Duck'},{card:'Fire'}]);
   expect(byName('Trinity Limit').recipeAlternatives).toHaveLength(5);
+  const wildOrder=[{card:'Goofy'},{card:'Donald Duck'},{family:'attack'}];
+  expect(byName('Wild Crush').recipeAlternatives[0].slots).toEqual(wildOrder);
+  expect(byName('Trinity Limit').recipeAlternatives.map(a=>a.slots)).not.toContainEqual(wildOrder);
+  expect(recomEntries.find(e=>e.name==='Cura')!.notes?.find(n=>n.title==='Card order')?.text).toContain('non-Cure card first');
   expect(recomEntries.find(e=>e.name==='Trinity Limit')!.recipeAlternatives).toEqual(byName('Trinity Limit').recipeAlternatives);
   expect(byName('Impulse')).toMatchObject({activation:{kind:'duel-victory',breakCount:3},recipeAlternatives:[]});
   for(const r of sleights.records){expect(r.effect,r.id).toBeTruthy();if(r.recipeAlternatives.length)expect(r.thirdCardPrecedence).toBeNull();}
+ });
+ it('keeps published duration qualifications and finite summon limits in runtime',()=>{
+  const entry=(name:string)=>recomEntries.find(e=>e.name===name)!;
+  expect(entry('Mushu').notes?.find(n=>n.title==='Battle effect')?.text).toContain('shot allowance');
+  expect(entry('Splash Lv3').notes?.find(n=>n.title==='Effect')?.text).toContain('about 10 seconds');
+  expect(entry('Bambi').notes?.find(n=>n.title==='Use details')?.text).toContain('three hops plus a final landing');
+  expect(otherCards.records.find(r=>r.name==='Bambi')!.orbOutput).toMatchObject({hops:3,releaseEvents:4,orbsPerRelease:3});
+  const timed=[...otherCards.records,...sleights.records].filter(r=>'durationSeconds' in r);
+  expect(timed).toHaveLength(18);
+  for(const r of timed)expect(r).toMatchObject({durationPrecision:'approximate',durationEdition:'Japanese PS2 remake publication; not Steam measured'});
  });
  it('keeps complete progression caps, deferred-choice opportunities and EXP boundaries',()=>{
   expect(progression.records).toHaveLength(99);
@@ -156,7 +213,7 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   expect(recomEntries.find(e=>e.name==='Goofy')!.instructions).toContain('Larxene');
  });
  it('preserves farm exceptions and mushroom card-drop conditions in player guidance',()=>{
-  for(const [name,condition] of [['Shadow','Bottomless Darkness'],['Soldier','Crescendo']]){
+  for(const [name,condition] of [['Shadow','Bottomless Darkness'],['Soldier','Traverse Town']]){
    const e=recomEntries.find(e=>e.name===name&&e.campaign==='sora')!;
    expect(e.instructions).toContain(condition);expect(e.drops?.[0].location).toContain(condition);
   }

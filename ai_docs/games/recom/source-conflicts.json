@@ -96,5 +96,17 @@
       "resolution": "Use aggregateCp: corroborated by both mk_spirit Card Collection Guide and falconesque Re:CoM reference E.1.3. Contrary infobox values match legacy CoM lists. This is source reconciliation, not a new HD gameplay measurement.",
       "resolvedCp": 30
     }
+  ],
+  "encounterConflicts": [
+    {
+      "id": "soldier-neverland-summon",
+      "sources": [
+        "https://www.khwiki.com/Soldier",
+        "https://www.khwiki.com/Crescendo"
+      ],
+      "observed": "Soldier KHRECOM infobox explicitly retains Neverland/Crescendo footnote; Crescendo remake ability permits only current-battle species. This is an actual source conflict, not merely a GBA-tab extraction error.",
+      "resolution": "Keep the footnote as disputed evidence; recommend Traverse Town, Wonderland and Twilight Town. No assertion that Neverland is impossible.",
+      "accessed": "2026-10-02"
+    }
   ]
 }
