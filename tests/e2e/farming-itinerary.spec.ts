@@ -95,10 +95,13 @@ async function revealMaterial(page: Page, material: Material) {
 async function edit(input: Locator, value: string) {
   await input.fill(value);
   await input.press('Tab');
+  // The field stays disabled until its asynchronous IndexedDB commit settles.
+  // A successful zero-target save may remove the field altogether.
+  await expect.poll(async () => !await input.count() || await input.isEnabled()).toBe(true);
 }
 
-async function savedStock(page: Page, game: string, id: string) {
-  return page.evaluate(async ({ game, id }) => {
+async function savedStock(page: Page, game: string, id: string, field: 'owned' | 'targets' = 'owned') {
+  return page.evaluate(async ({ game, id, field }) => {
     const open = indexedDB.open(game === 'kh1fm' ? 'ars-arcanum-player' : 'ars-arcanum-guides', 1);
     const db = await new Promise<IDBDatabase>((resolve, reject) => {
       open.onsuccess = () => resolve(open.result);
@@ -110,8 +113,8 @@ async function savedStock(page: Page, game: string, id: string) {
       get.onerror = () => reject(get.error);
     });
     db.close();
-    return game === 'kh1fm' ? result.state.inventory[id] : result.owned[id];
-  }, { game, id });
+    return game === 'kh1fm' ? result.state[field === 'owned' ? 'inventory' : 'farmPlan'][id] : result[field][id];
+  }, { game, id, field });
 }
 
 async function visibleSource(page: Page) {
@@ -318,6 +321,7 @@ test('BBS keeps character targets and owned counts separate across switching and
   await expect(row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true })).toHaveValue('9');
   await expect(row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true })).toHaveValue('7');
   await edit(row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true }), '11');
+  await expect.poll(() => savedStock(page, plan.game, aqua, 'targets')).toBe(11);
   await page.reload();
   await expect(row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true })).toHaveValue('11');
   await page.getByRole('button', { name: 'Terra', exact: true }).click();
@@ -380,6 +384,7 @@ for (const plan of plans.filter(plan => ['kh1fm', 'kh2fm'].includes(plan.game)))
   await page.reload();
   await expect(input).toHaveValue('5');
   await edit(input, '9');
+  await expect.poll(() => savedStock(page, plan.game, material.id, 'targets')).toBe(9);
   await page.reload();
   await expect(input).toHaveValue('9');
  });
