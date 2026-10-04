@@ -23,3 +23,22 @@
 .bbs-native,.bbs-modal{font-synthesis:weight style}
 .bbs-header h1,.bbs-story>strong{font-weight:700}
 .bbs-quantity-status{min-height:1em;font-size:11px;color:inherit;opacity:.8}
+/* Keep material editing on the index leaf and source options on the right. */
+.bbs-screen-plan .bbs-reading{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+.bbs-screen-plan .bbs-plan-help{font-size:12px;line-height:1.35;margin:0 0 10px;flex:none}
+.bbs-screen-plan .bbs-plan-material-list{padding:0 2px 0 0}
+.bbs-screen-plan .farming-material-row{border-color:#adbfca}
+.bbs-screen-plan .farming-itinerary>h2{margin-bottom:8px}
+.bbs-screen-plan .farming-itinerary .kh1-note-flow{font:16px/1.45 BbsMenu,Arial,sans-serif}
+.bbs-screen-plan .farming-itinerary .kh1-note-window{background:none}
+@media(max-width:850px){.bbs-screen-plan .bbs-index-leaf{padding-right:13px}.bbs-screen-plan .bbs-detail-leaf{padding-left:15px}}
+@media(max-width:600px){.bbs-screen-plan .bbs-index-leaf,.bbs-screen-plan .bbs-detail-leaf{padding:0}.bbs-screen-plan .bbs-plan-help{font-size:11px;margin-bottom:7px}.bbs-screen-plan .bbs-book-filters{margin-bottom:8px}.bbs-screen-plan .bbs-leaf-switch button{min-height:40px}.bbs-screen-plan .bbs-pagination a{display:grid;place-items:center;min-height:44px;min-width:44px}.bbs-screen-plan .bbs-pagination{padding-top:0}}
+@media(max-height:500px){
+ .bbs-native.bbs-screen-plan{min-height:0;padding:4px 8px;gap:3px;grid-template-rows:22px minmax(0,1fr) 16px}
+ .bbs-screen-plan .bbs-header{height:52px;min-height:52px}.bbs-screen-plan .bbs-header h1{font-size:22px;top:1px}.bbs-screen-plan .bbs-location{bottom:4px;max-width:58%;left:10px}.bbs-screen-plan .bbs-location a,.bbs-screen-plan .bbs-location>span{font-size:11px;padding:2px 6px;min-width:0}.bbs-screen-plan .bbs-header>.bbs-character-pills{left:auto;right:8px;bottom:3px}.bbs-screen-plan .bbs-pill{min-height:30px;padding:4px 10px}.bbs-screen-plan .bbs-pill[aria-pressed=true]{padding:3px 9px}
+ .bbs-screen-plan .bbs-footer{min-height:31px;padding:2px 12px;font-size:11px}.bbs-screen-plan .bbs-footer>span{padding:2px 7px}
+ .bbs-screen-plan .bbs-leaf-switch{display:flex;gap:5px;padding:3px 6% 0}.bbs-screen-plan .bbs-leaf-switch button{min-height:28px;padding:3px 12px;font-size:12px;border:1px solid #bed4e8;background:#17365e;color:white}.bbs-screen-plan .bbs-leaf-switch button[aria-pressed=true]{background:#edf0df;color:#244766}
+ .bbs-screen-plan .bbs-reading{display:flex;margin-top:5px;margin-bottom:7px;padding:7px 20px 5px 28px}.bbs-screen-plan .bbs-index-leaf,.bbs-screen-plan .bbs-detail-leaf{flex:1;width:100%;padding:0;border:0}.bbs-screen-plan.bbs-leaf-index .bbs-detail-leaf,.bbs-screen-plan.bbs-leaf-details .bbs-index-leaf{display:none}
+ .bbs-screen-plan .bbs-index-leaf>h2,.bbs-screen-plan .bbs-collection-count,.bbs-screen-plan .bbs-plan-help{display:none}.bbs-screen-plan .bbs-book-filters{margin-bottom:3px;max-width:650px}.bbs-screen-plan .bbs-book-filters label{font-size:0;gap:0}.bbs-screen-plan .bbs-book-filters input{font-size:14px;min-height:30px}.bbs-screen-plan .bbs-book-filters button{min-height:30px}.bbs-screen-plan .bbs-pagination{padding-top:0;min-height:30px}.bbs-screen-plan .bbs-pagination a{min-height:30px;min-width:36px;display:grid;place-items:center}
+ .bbs-screen-plan .farming-material-row{padding:3px 0 5px}.bbs-screen-plan .farming-material-heading,.bbs-screen-plan .farming-remove{min-height:34px}.bbs-screen-plan .farming-quantity input{min-height:34px}.bbs-screen-plan .farming-itinerary>h2{font-size:20px;margin-bottom:3px}.bbs-screen-plan .farming-itinerary>.farming-route-help{font-size:11px;margin-bottom:4px}.bbs-screen-plan .farming-itinerary .kh1-note-pagination{height:32px;min-height:32px}.bbs-screen-plan .farming-itinerary .kh1-note-pagination button{height:32px;min-height:32px}
+}

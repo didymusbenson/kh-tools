@@ -7,6 +7,8 @@ import { chestReference, entryTitle } from '../domain/entryPresentation';
 import { inWorld, sortMaterials } from '../games/presentation';
 import { useIndexCapacity } from './useIndexCapacity';
 import { JournalNotePages } from './JournalNotePages';
+import { FarmingMaterialRow, FarmingItinerary } from './FarmingPlan';
+import { buildGuideFarmingPlan } from '../games/farmingPlan';
 import { Icon, type IconName } from '../components/Icon';
 import './ddd-journal.css';
 
@@ -83,6 +85,7 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
   const section=parts[1]||'contents', params=new URLSearchParams(query);
   const workshop=section==='workshop';
   const tab=workshop&&['materials','plan'].includes(parts[2])?parts[2]:'recipes';
+  const planMode=workshop&&tab==='plan', planLeaf=params.get('view')==='route'?'route':'materials';
   const rawWorld=section==='worlds'&&parts[2]?decode(parts.slice(2).join('/')):params.get('world')||'';
   const world=rawWorld==='all'?'':rawWorld;
   const character=['Sora','Riku'].includes(params.get('character')||'')?params.get('character')!:'all';
@@ -116,7 +119,9 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
     if(changes.character==='all')return `#/dddhd/${destination}${Object.keys(next).filter(k=>k!=='character').length?'?'+new URLSearchParams(Object.fromEntries(Object.entries(next).filter(([k])=>k!=='character'))):''}`;
     return href(destination,next);
   }
-  const matches=(e:CollectionEntry)=>scope(e)&&(!world||inWorld(e,world))&&(!q||[e.name,e.world,e.area,e.summary,e.instructions].join(' ').toLowerCase().includes(q.toLowerCase()))&&(!status||status==='all'||e.id===selectedId||(e.checkable!==false&&(status==='done'?!!profile.checks[e.id]:!profile.checks[e.id])));
+  const matches=(e:CollectionEntry)=>scope(e)&&(planMode?(!q||e.name.toLowerCase().includes(q.toLowerCase())):(!world||inWorld(e,world))&&(!q||[e.name,e.world,e.area,e.summary,e.instructions].join(' ').toLowerCase().includes(q.toLowerCase()))&&(!status||status==='all'||e.id===selectedId||(e.checkable!==false&&(status==='done'?!!profile.checks[e.id]:!profile.checks[e.id]))));
+  const plannedMaterials=materials.filter(e=>scope(e)&&(profile.targets[e.id]||0)>0);
+  const farmingPlan=buildGuideFarmingPlan(guide,plannedMaterials,profile.owned,profile.targets,{character});
   const sourceEntries=workshop?materials:section==='search'?entries:entries.filter(e=>e.category===section||e.categories?.includes(section));
   const matchingEntries=sourceEntries.filter(e=>matches(e)&&(!workshop||tab!=='plan'||(profile.targets[e.id]||0)>0));
   const matchingRecipes=(guide.recipes||[]).filter(r=>scope(r)&&(!q||[r.name,r.group].join(' ').toLowerCase().includes(q.toLowerCase()))&&(!status||status==='all'||r.id===selectedId||(status==='done'?!!profile.checks[r.id]:!profile.checks[r.id])));
@@ -132,19 +137,19 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
     if(section==='collection')items.unshift({id:'worlds',name:'Browse by World',href:href('worlds')},{id:'workshop',name:'Spirit Creation',href:href('workshop/recipes')});
   }else if(workshop&&tab==='recipes')items=matchingRecipes.map(r=>({id:r.id,name:r.name,meta:r.group,href:changed({entry:r.id}),checkId:r.id}));
   else items=matchingEntries.map(e=>({id:e.id,name:entryTitle(e),meta:section==='spirits'?'':[e.character&&e.character!=='Both'?e.character:'',e.world!==world?e.world:'',e.area,chestReference(e)].filter(Boolean).join(' · '),href:changed({entry:e.id}),checkId:!workshop&&e.checkable!==false?e.id:undefined,character:e.character}));
-  const {ref:indexRef,capacity}=useIndexCapacity(`${section}:${tab}:${world}:${character}:${q}:${status}:${!!selectedId}`,root?44:section==='completion'?88:50);
+  const {ref:indexRef,capacity}=useIndexCapacity(`${section}:${tab}:${world}:${character}:${q}:${status}:${!!selectedId}`,planMode?116:root?44:section==='completion'?88:50);
   const pages=Math.max(1,Math.ceil(items.length/capacity));
   const returnPosition=items.findIndex(e=>e.id===params.get('focus'));
   const page=Math.max(0,Math.min(pages-1,returnPosition>=0?Math.floor(returnPosition/capacity):Math.floor(Number(params.get('page')))||0));
   const shown=items.slice(page*capacity,(page+1)*capacity);
   const visibleSelection=shown.find(item=>item.id===activeId)||shown[0];
   const listBack=changed({entry:'',item:'',focus:selectedId});
-  const parent=selectedId?listBack:worldHub?href('worlds'):world?href(`worlds/${encodeURIComponent(world)}`):root?'#/':href('contents');
-  const title=selectedRecipe?.name||selectedEntry&&entryTitle(selectedEntry)||heading;
-  const parentLabel=selectedId?heading:worldHub?'Worlds':world?world:'Reports';
+  const parent=!planMode&&selectedId?listBack:worldHub?href('worlds'):world?href(`worlds/${encodeURIComponent(world)}`):root?'#/':href('contents');
+  const title=planMode?'Farming Plan':selectedRecipe?.name||selectedEntry&&entryTitle(selectedEntry)||heading;
+  const parentLabel=!planMode&&selectedId?heading:worldHub?'Worlds':world?world:'Reports';
   useEffect(()=>{
     setSearch(q);setMessage('');setActiveId('');setFiltersOpen(false);
-    setHelp(root?rootSections[0][2]:selectedId?'Read the entry, record discoveries and turn the notes.':workshop?'Choose a recipe or look up Dream Pieces.':'Choose an entry to view its details.');
+    setHelp(planMode?'Edit material totals, then follow the world route.':root?rootSections[0][2]:selectedId?'Read the entry, record discoveries and turn the notes.':workshop?'Choose a recipe or look up Dream Pieces.':'Choose an entry to view its details.');
     document.title=`${heading} · Dream Drop Distance HD`;
     const frame=requestAnimationFrame(()=>{
       if(hasTreasureBoard(guide.id,route))return;
@@ -196,17 +201,18 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
     return <><nav ref={indexRef} className={`ddd-index ${root?'ddd-root-index':''} ${section==='completion'?'ddd-completion-index':''}`} aria-label={root?'Report sections':`${heading} entries`}>{shown.map(item=><div className="ddd-index-row" key={item.id}><a data-entry-id={item.id} data-active={(activeId||shown[0]?.id)===item.id} href={item.href} onFocus={()=>{setActiveId(item.id);setHelp(root?item.meta||'':`View ${item.name}.`);}} onMouseEnter={()=>{setActiveId(item.id);setHelp(root?item.meta||'':`View ${item.name}.`);}}>{section==='completion'&&<span className="ddd-completion-icon"><Icon name={(guide.categories.find(c=>c.id===item.id)?.icon||'book') as IconName} size={35}/></span>}{section==='spirits'&&<SpiritMark/>}<span>{item.name}{!root&&!directory&&!worldList&&item.meta&&<small>{item.meta}</small>}</span>{(directory||worldList)&&item.meta&&<small className="ddd-count">{item.meta}</small>}</a>{item.checkId&&check(item.checkId,byId.get(item.id)?.name||item.name,item.character)}</div>)}</nav>{!items.length&&<div className="ddd-empty"><h2>{workshop&&tab==='plan'?'Your farming plan is empty':'No matching entries'}</h2><p>{workshop&&tab==='plan'?'Add recipe ingredients or Dream Pieces.':'Try another name, character or world.'}</p></div>}{(!root||pages>1)&&pagination}</>;
   }
   const treasureMode=hasTreasureBoard(guide.id,route);
-  return <div className="ddd-native">
+  return <div className={`ddd-native ${planMode?`ddd-plan ddd-plan-show-${planLeaf}`:''}`}>
     <a className="skip-link" href="#ddd-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to reports</a>
     <div className="ddd-outer"><a href="#/">‹ Games</a><span>DREAM DROP DISTANCE HD</span><label className="ddd-character">Character<select aria-label="Filter by character" value={character} onChange={e=>{location.hash=treasureMode?treasureCharacterHref(guide.id,e.target.value):changed({character:e.target.value,entry:'',item:'',page:'',focus:''});}}><option value="all">Both</option><option>Sora</option><option>Riku</option></select></label><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div>
     <section className="ddd-volume" aria-label="Dream Drop Distance Reports">
-      <header className="ddd-header"><nav className={`ddd-ribbons ${parentLabel==='Reports'?'ddd-top-level':''}`} aria-label="Report location">{!root&&parentLabel!=='Reports'&&<a href={parent}>{parentLabel}</a>}{!root&&<h1 title={title}>{selectedId?title:heading}</h1>}{root&&<h1 className="ddd-sr">Reports</h1>}</nav><a className="ddd-wordmark" href={href('contents')} aria-label="Reports contents">REPORTS</a></header>
+      <header className="ddd-header"><nav className={`ddd-ribbons ${parentLabel==='Reports'?'ddd-top-level':''}`} aria-label="Report location">{!root&&parentLabel!=='Reports'&&<a href={parent}>{parentLabel}</a>}{!root&&<h1 title={title}>{planMode?'Farming Plan':selectedId?title:heading}</h1>}{root&&<h1 className="ddd-sr">Reports</h1>}</nav><a className="ddd-wordmark" href={href('contents')} aria-label="Reports contents">REPORTS</a></header>
       {updateNotice}{error&&<div className="ddd-error" role="alert">{error}<button onClick={retry}>Retry saved progress</button></div>}
-      <nav className="ddd-leaf-picker" aria-label="Report pages">{treasureMode?<><a href={changed({view:'grid'})} aria-current={params.get('view')==='grid'||(params.get('view')!=='notes'&&!selectedId)?'page':undefined}>Grid</a><a href={selectedId||world?changed({view:'notes'}):undefined} aria-disabled={!selectedId&&!world} aria-current={params.get('view')==='notes'||(params.get('view')!=='grid'&&!!selectedId)?'page':undefined}>Notes</a></>:<><a href={root?href('contents'):selectedId?listBack:changed({entry:'',item:''})} aria-current={!selectedId?'page':undefined}>{root?'Reports':'Index'}</a><a aria-current={selectedId?'page':undefined} aria-disabled={!selectedId&&!visibleSelection} href={selectedId?changed({}):visibleSelection?.href}>{root?'Open section':'Details'}</a></>}</nav>
+      <nav className="ddd-leaf-picker" aria-label="Report pages">{planMode?<><a href={changed({view:'materials',entry:'',item:''})} aria-current={planLeaf==='materials'?'page':undefined}>Materials</a><a href={changed({view:'route',entry:'',item:''})} aria-current={planLeaf==='route'?'page':undefined}>World route</a></>:treasureMode?<><a href={changed({view:'grid'})} aria-current={params.get('view')==='grid'||(params.get('view')!=='notes'&&!selectedId)?'page':undefined}>Grid</a><a href={selectedId||world?changed({view:'notes'}):undefined} aria-disabled={!selectedId&&!world} aria-current={params.get('view')==='notes'||(params.get('view')!=='grid'&&!!selectedId)?'page':undefined}>Notes</a></>:<><a href={root?href('contents'):selectedId?listBack:changed({entry:'',item:''})} aria-current={!selectedId?'page':undefined}>{root?'Reports':'Index'}</a><a aria-current={selectedId?'page':undefined} aria-disabled={!selectedId&&!visibleSelection} href={selectedId?changed({}):visibleSelection?.href}>{root?'Open section':'Details'}</a></>}</nav>
       <main ref={main} id="ddd-reading" tabIndex={-1} className={`ddd-book ${root?'ddd-cover':''}`}>
         <div className="ddd-rings" aria-hidden="true">{Array.from({length:13},(_,i)=><i key={i}/>)}</div>
         {['tl','tr','bl','br'].map(c=><Ornament key={c} corner={c}/>)}{!root&&<Crown/>}
         {treasureMode?<div className="ddd-page treasure-host"><TreasureBoard game={guide.id} route={route} entries={guide.entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})}/></div>:root?<div className="ddd-root-spread"><div className="ddd-cover-art"><img src={`${import.meta.env.BASE_URL}assets/ddd.png`} alt="Sora, Riku and Mickey in the sleeping worlds"/></div><div className="ddd-cover-menu">{index()}</div></div>
+        :planMode?<div className="ddd-page ddd-plan-page">{workshopTabs}<div className="ddd-plan-spread"><section className="ddd-plan-materials" aria-label="Planned materials"><h2>Materials</h2><p className="ddd-plan-help">Targets are total stock. Blank owned stock is unknown.</p><form className="ddd-filters ddd-plan-filters" onSubmit={e=>{e.preventDefault();location.hash=changed({q:search,page:'',entry:'',item:'',world:'',status:''});}}><label className="ddd-search"><span>Find a planned material</span><input type="search" aria-label="Find a planned material" placeholder="Material name…" value={search} onChange={e=>setSearch(e.target.value)}/></label><button type="submit">Find</button>{q&&<a href={changed({q:'',page:''})}>Clear</a>}</form><p className="ddd-plan-help">Search filters materials only; the route covers the full plan{character!=='all'?` for ${character}`:''}.</p><nav ref={indexRef} className="ddd-plan-material-list" aria-label="Planned material counts">{shown.map(item=><FarmingMaterialRow key={item.id} id={item.id} name={item.name} owned={profile.owned[item.id]} target={profile.targets[item.id]} ready={ready} saveOwned={n=>saveQuantity('owned',item.id,n)} saveTarget={n=>saveQuantity('targets',item.id,n)} remove={()=>saveQuantity('targets',item.id,undefined)}/>)}</nav>{!shown.length&&<p className="ddd-plan-empty">{plannedMaterials.length?'No planned materials match this name.':'Your farming plan is empty. Add recipe ingredients or Dream Pieces.'}</p>}{pagination}</section><section className="ddd-plan-route" aria-label="Farming world route"><FarmingItinerary plan={farmingPlan} scopeLabel={character==='all'?'Sora and Riku':character}/></section></div></div>
         :<div className={`ddd-page ${selectedId?'ddd-reading':''}`}>
           {!known?<div className="ddd-empty"><h2>Page not found</h2><a href={href('contents')}>Return to Reports</a></div>
           :section==='progress'?<div className="ddd-settings"><h2>Save & Settings</h2><JournalNotePages>{progressPage}</JournalNotePages></div>

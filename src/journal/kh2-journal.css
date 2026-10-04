@@ -143,3 +143,27 @@
 .kh2-ingredients li{padding:5px 0}
 @media(max-width:650px){.kh2-workshop-filters:has(select){grid-template-columns:minmax(0,1fr) auto}.kh2-workshop-filters:has(select) label:last-child{grid-column:1/-1}}
 @media(max-width:650px){.kh2-cover .kh2-index-row>a{padding-left:3px}}
+.kh2-farming .farming-counts,.kh2-farming .farming-plan-help,.kh2-farming .farming-route-help{font-family:KH2Menu}
+.kh2-farming .farming-plan-help{font-size:11px;margin-top:6px}
+@media(max-height:500px) and (min-width:651px){
+ .kh2-farming{grid-template-rows:18px minmax(0,1fr) 16px;padding:4px 8px;gap:3px}
+ .kh2-farming .kh2-header{height:58px;min-height:58px;padding:4px 5%}
+ .kh2-farming .kh2-header-controls>a,.kh2-farming .kh2-header-controls>h1{font-size:13px;padding-top:1px;padding-bottom:1px}
+ .kh2-farming .kh2-ribbons>a,.kh2-farming .kh2-ribbons>span{font-size:11px;min-width:0}
+ .kh2-farming .kh2-watermark{display:none}
+ .kh2-farming .kh2-book{margin:5px 5%;min-height:0}
+ .kh2-farming .kh2-leaf{padding:8px 20px;min-height:0}
+ .kh2-farming .kh2-left>h2{display:none}
+ .kh2-farming .kh2-workshop-tabs{font-size:12px;margin-bottom:5px;gap:10px}
+ .kh2-farming .kh2-filters{margin-bottom:3px}
+ .kh2-farming .kh2-filters label>span{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
+ .kh2-farming .kh2-filters input{min-height:28px;height:28px}
+ .kh2-farming .kh2-filters button{min-height:28px;padding:2px 10px}
+ .kh2-farming .farming-plan-help{font-size:10px;line-height:1.2;margin:3px 0}
+ .kh2-farming .kh2-pagination{min-height:30px;margin-top:0;font-size:12px}
+ .kh2-farming .kh2-pagination a{height:30px;width:44px}
+ .kh2-farming .kh2-footer{height:30px;min-height:30px;font-size:12px;padding:0 5%;border-top-width:3px}
+ .kh2-farming .kh2-footer img{height:25px;width:20px}.kh2-farming .kh2-footer>span{font-size:12px}
+ .kh2-farming .kh2-rings i:nth-child(even){display:none}
+}
+@media(max-height:500px) and (min-width:651px){.kh2-farming .kh2-left{padding-right:30px}.kh2-farming .kh2-right{padding-left:30px}}

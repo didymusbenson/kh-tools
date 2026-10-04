@@ -1,3 +1,6 @@
+import { FarmingMaterialRow, FarmingItinerary } from '../journal/FarmingPlan';
+import { useIndexCapacity } from '../journal/useIndexCapacity';
+import { buildGuideFarmingPlan } from './farmingPlan';
 import {TreasureBoard} from '../journal/TreasureBoard';
 import {hasTreasureBoard,normalizeTreasureRoute} from './treasureModel';
 import { BbsJournal } from '../journal/BbsJournal';
@@ -83,7 +86,18 @@ export default function GuideJournal({
     parts = path.split("/");
   const section = parts[1] || "worlds",
     tab = parts[2] || "recipes";
-  const world = new URLSearchParams(search).get("world") || "all";
+  const routeParams = new URLSearchParams(search);
+  const world = routeParams.get("world") || "all";
+  const planQuery = routeParams.get('q') || '';
+  const planLeaf = routeParams.get('view') === 'route' ? 'route' : 'materials';
+  const [planDraft, setPlanDraft] = useState(planQuery);
+  useEffect(() => { setPlanDraft(planQuery); }, [planQuery]);
+  const {ref: planIndexRef, capacity: planCapacity} = useIndexCapacity(`${guide.id}:plan:${planQuery}`, 116);
+  function planHref(changes:Record<string,string>) {
+    const next = new URLSearchParams(search);
+    for (const [key,value] of Object.entries(changes)) value ? next.set(key,value) : next.delete(key);
+    return `#/${guide.id}/workshop/plan${next.size?'?'+next:''}`;
+  }
   const selectedWorld =
     section === "worlds" && parts[2]
       ? (() => { try { return decodeURIComponent(parts.slice(2).join("/")); } catch { return parts.slice(2).join("/"); } })()
@@ -614,6 +628,12 @@ export default function GuideJournal({
   const materials = entries
     .filter((e) => ["material", "materials"].includes(e.category))
     .sort(sortMaterials);
+  const plannedMaterials = materials.filter(e => (profile.targets[e.id] || 0) > 0 && (!isBbs || scope(e)));
+  const filteredPlan = plannedMaterials.filter(e => !planQuery || e.name.toLowerCase().includes(planQuery.toLowerCase()));
+  const planPages = Math.max(1, Math.ceil(filteredPlan.length / planCapacity));
+  const planPage = Math.max(0, Math.min(planPages - 1, Math.floor(Number(routeParams.get('page'))) || 0));
+  const shownPlan = filteredPlan.slice(planPage * planCapacity, (planPage + 1) * planCapacity);
+  const farmingPlan = buildGuideFarmingPlan(guide, plannedMaterials, profile.owned, profile.targets);
   if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><div className="digital-outer"><a href="#/">‹ Games</a><span>{guide.name} · {guide.edition}</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage">{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span></footer></div>;
   if (guide.id === "dddhd") return <Suspense fallback={<div className="loading-page">Opening your reports…</div>}><DddJournal
     guide={guide} route={route} profile={profile} ready={ready}
@@ -1085,94 +1105,30 @@ export default function GuideJournal({
                   </>
                 )}
                 {tab === "plan" && (
-                  <>
-                    <p>
-                      Targets are total stock to have. Blank owned stock means
-                      unknown.
-                    </p>
-                    {!entries.some(
-                      (e) =>
-                        (profile.targets[e.id] || 0) > 0 &&
-                        (!isBbs || scope(e)),
-                    ) && (
-                      <p>
-                        Your farming plan is empty. Add materials or a recipe to
-                        set targets.
-                      </p>
-                    )}
-                    {entries
-                      .filter(
-                        (e) =>
-                          (profile.targets[e.id] || 0) > 0 &&
-                          (!isBbs || scope(e)),
-                      )
-                      .sort(sortMaterials)
-                      .map((e) => (
-                        <article className="guide-row" key={e.id}>
-                          <div className="guide-row-head">
-                            <h2>
-                              {e.name}
-                              {e.character && (
-                                <small className="guide-character">
-                                  {e.character}
-                                </small>
-                              )}
-                            </h2>
-                            <button
-                              className="icon-button"
-                              aria-label={`Remove ${e.name}`}
-                              onClick={() =>
-                                void update((p) => {
-                                  const targets = { ...p.targets };
-                                  delete targets[e.id];
-                                  return { ...p, targets };
-                                })
-                              }
-                            >
-                              <Icon name="close" />
-                            </button>
-                          </div>
-                          {drops(e)}
-                          <div className="guide-farm-fields">
-                            <label className="guide-quantity">
-                              Target
-                              <input
-                                aria-label={`Target ${e.name}`}
-                                type="number"
-                                min="0"
-                                max="999999"
-                                value={profile.targets[e.id]}
-                                onChange={(ev) =>
-                                  quantity("targets", e.id, ev.target.value)
-                                }
-                              />
-                            </label>
-                            {stock(e)}
-                            <span>
-                              Remaining{" "}
-                              <strong>
-                                {profile.owned[e.id] === undefined
-                                  ? "?"
-                                  : Math.max(
-                                      0,
-                                      profile.targets[e.id] -
-                                        profile.owned[e.id],
-                                    )}
-                              </strong>
-                            </span>
-                          </div>
-                          <button
-                            className="guide-expand more-info"
-                            aria-expanded={open.has(e.id)}
-                            onClick={() => expand(e.id)}
-                          >
-                            More info
-                            <Icon name={open.has(e.id) ? "minus" : "plus"} />
-                          </button>
-                          {open.has(e.id) && details(e)}
-                        </article>
-                      ))}
-                  </>
+                  <div className={`guide-farming-plan guide-plan-show-${planLeaf}`}>
+                    <nav className="guide-plan-switch" aria-label="Farming plan panels">
+                      <a href={planHref({view:'materials'})} aria-current={planLeaf==='materials'?'page':undefined}>Materials</a>
+                      <a href={planHref({view:'route'})} aria-current={planLeaf==='route'?'page':undefined}>World route</a>
+                    </nav>
+                    <div className="guide-plan-spread">
+                      <section className="guide-plan-materials" aria-label="Planned materials">
+                        <h2>Materials</h2>
+                        <p className="farming-plan-help">Targets are total stock. Blank owned stock is unknown.</p>
+                        <form className="guide-plan-search" onSubmit={e=>{e.preventDefault();location.hash=planHref({q:planDraft,page:'',world:'',status:''});}}>
+                          <label>Find a planned material<input type="search" value={planDraft} onChange={e=>setPlanDraft(e.target.value)} placeholder="Material name…"/></label>
+                          <button type="submit">Find</button>
+                          {planQuery&&<a href={planHref({q:'',page:''})}>Clear</a>}
+                        </form>
+                        <p className="farming-plan-help">Search filters materials only; the route covers the full plan.</p>
+                        <nav ref={planIndexRef} className="guide-plan-material-list" aria-label="Planned material counts">
+                          {shownPlan.map(e=><FarmingMaterialRow key={e.id} id={e.id} name={e.name} owned={profile.owned[e.id]} target={profile.targets[e.id]} ready={ready} saveOwned={n=>update(p=>{const owned={...p.owned};if(n===undefined)delete owned[e.id];else owned[e.id]=n;return {...p,owned};})} saveTarget={n=>update(p=>{const targets={...p.targets};if(n===undefined)delete targets[e.id];else targets[e.id]=n;return {...p,targets};})} remove={()=>update(p=>{const targets={...p.targets};delete targets[e.id];return {...p,targets};})}/>) }
+                        </nav>
+                        {!shownPlan.length&&<p>{plannedMaterials.length?'No planned materials match this name.':'Your farming plan is empty. Add materials or recipe ingredients to set targets.'}</p>}
+                        <nav className="guide-plan-pagination" aria-label="Material pages"><a aria-label="Previous material page" aria-disabled={planPage===0} tabIndex={planPage===0?-1:undefined} href={planPage>0?planHref({page:String(planPage-1)}):undefined}>◀</a><span>{planPage+1} / {planPages}</span><a aria-label="Next material page" aria-disabled={planPage+1>=planPages} tabIndex={planPage+1>=planPages?-1:undefined} href={planPage+1<planPages?planHref({page:String(planPage+1)}):undefined}>▶</a></nav>
+                      </section>
+                      <section className="guide-plan-route" aria-label="Farming world route"><FarmingItinerary plan={farmingPlan}/></section>
+                    </div>
+                  </div>
                 )}
               </>
             )}

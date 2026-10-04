@@ -111,7 +111,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const progress=collectibleProgress(scopeEntries,player.state.checks);
   const count=collectionScope?progress.total:scopeEntries.filter(e=>e.checkable).length;
   const done=collectionScope?progress.completed:scopeEntries.filter(e=>e.checkable&&player.state.checks[e.id]).length;
-  return <div className={`kh1-native ${synthesis?'kh1-with-synthesis':''} kh1-show-${leaf}`}>
+  return <div className={`kh1-native ${synthesis?'kh1-with-synthesis':''} ${synthesis&&parts[2]==='plan'?'kh1-farming':''} kh1-show-${leaf}`}>
     <a className="skip-link" href="#kh1-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
     <div className="kh1-outer"><a href="#/">‹ Games</a><span>KINGDOM HEARTS · FINAL MIX</span><span className="kh1-pass">Journal MVP</span></div>
     <section className="kh1-volume" aria-label="Kingdom Hearts Final Mix journal">
@@ -122,7 +122,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       </header>
       {updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}
-      <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?'Index':'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?'Details':'Notes'}</button></nav>
+      <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>
       <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
         {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>

@@ -172,3 +172,24 @@
  .kh1-entry-spread>.kh1-leaf-left,.kh1-synthesis-spread>.kh1-leaf-left{padding-left:34px;padding-right:43px}
  .kh1-entry-spread>.kh1-leaf-right,.kh1-synthesis-spread>.kh1-leaf-right{padding-left:43px;padding-right:34px}
 }
+/* The plan keeps editable quantities on the index leaf and source routes opposite. */
+.kh1-synthesis-index.kh1-farming-index .kh1-index{flex:1;min-height:0}
+.kh1-farming-index .farming-material-row{border-color:#83939080}
+.kh1-synthesis-spread .farming-material-heading>strong{font-family:KH1Hand}
+.kh1-farming-index .farming-counts,.kh1-farming-index .farming-plan-help{font-family:KH1Menu}
+.kh1-farming-index .kh1-page-controls{margin-top:0;padding-top:0}
+.kh1-farming-index .farming-plan-help{margin-top:6px;font-size:11px}
+.kh1-synthesis-detail:has(.farming-itinerary){font-family:KH1Hand}
+@media(max-height:650px) and (min-width:651px){.kh1-farming-index .kh1-entry-category{display:none}.kh1-farming-index .farming-plan-help{font-size:10px}.kh1-farming-index .farming-material-row{padding-top:0;padding-bottom:3px}}
+@media(max-height:500px) and (min-width:651px){
+ .kh1-farming{grid-template-rows:18px minmax(0,1fr) 18px;padding:4px 8px;gap:3px}
+ .kh1-farming .kh1-heading{height:62px;min-height:62px;padding:4px 5%;grid-template-columns:100px minmax(0,1fr) max-content;gap:18px}
+ .kh1-farming .kh1-heading h1{font-size:20px}.kh1-farming .kh1-heading-menu>span{display:none}.kh1-farming .kh1-heading-menu>a{font-size:16px}.kh1-farming .kh1-help{display:none}.kh1-farming .kh1-utilities{font-size:11px;gap:2px}
+ .kh1-farming .kh1-volume>.kh1-spread{margin:5px 5%}.kh1-farming .kh1-spread>.kh1-leaf-left,.kh1-farming .kh1-spread>.kh1-leaf-right{padding:8px 20px}
+ .kh1-farming .kh1-book-tabs{font-size:12px;margin-bottom:4px;padding-bottom:4px}.kh1-farming .kh1-entry-category{display:none}
+ .kh1-farming .kh1-filters{margin-bottom:3px}.kh1-farming .kh1-filters input{min-height:28px;height:28px}.kh1-farming .kh1-book-action{min-height:28px;padding:3px 10px}
+ .kh1-farming .kh1-farming-index>.kh1-small{display:none}.kh1-farming .farming-plan-help{font-size:10px;line-height:1.2;margin:3px 0}
+ .kh1-farming .kh1-page-controls{font-size:12px;height:30px}.kh1-farming .kh1-page-controls a{height:30px;width:44px}
+ .kh1-farming .kh1-bottom{height:28px;min-height:28px;font-size:12px;padding:2px 5%}.kh1-farming .kh1-bottom>a{font-size:12px}
+ .kh1-farming .kh1-spiral i:nth-child(even){display:none}
+}

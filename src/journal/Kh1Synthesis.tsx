@@ -3,6 +3,8 @@ import type { GameData } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
 import { useIndexCapacity } from './useIndexCapacity';
 import { JournalNotePages } from './JournalNotePages';
+import { FarmingMaterialRow, FarmingItinerary } from './FarmingPlan';
+import { buildKh1FarmingPlan } from '../games/farmingPlan';
 import { EntryDetails } from '../components/EntryDetails';
 
 function Stock({value, label, save}: {value?:number; label:string; save:(n:number|undefined)=>Promise<void>}) {
@@ -27,7 +29,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
   const materials=data.entries.filter(e=>e.category==='material').sort((a,b)=>a.name.localeCompare(b.name));
   const recipes=data.recipes.filter(r=>(!set||r.set===Number(set))&&(!params.has('remaining')||!state.checks[r.entryId]));
   const items=(tab==='recipes'?recipes.map(r=>data.entries.find(e=>e.id===r.entryId)!).filter(Boolean):tab==='plan'?materials.filter(e=>(state.farmPlan?.[e.id]||0)>0):materials).filter(e=>e.name.toLowerCase().includes(query.toLowerCase()));
-  const {ref:indexRef,capacity:pageSize}=useIndexCapacity(`${tab}:${query}:${set}:${params.has('remaining')}`,36);
+  const {ref:indexRef,capacity:pageSize}=useIndexCapacity(`${tab}:${query}:${set}:${params.has('remaining')}`,tab==='plan'?116:36);
   const pages=Math.max(1,Math.ceil(items.length/pageSize));
   const requested=params.get('item')||params.get('entry');
   const requestedPage=Math.floor(Math.max(0,items.findIndex(e=>e.id===requested))/pageSize);
@@ -37,21 +39,25 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
   const recipe=tab==='recipes'?data.recipes.find(r=>r.entryId===selected?.id):undefined;
   function link(changes:Record<string,string>) {const next=new URLSearchParams(params);next.delete('entry');for(const [key,value] of Object.entries(changes))value?next.set(key,value):next.delete(key);return `#/kh1fm/synthesis/${tab}${next.size?'?'+next:''}`;}
   async function act(action:()=>Promise<void>,message:string) {setBusy(true);try{await action();setNotice(message);}catch{setNotice('Could not save the change. Please try again.');}finally{setBusy(false);}}
+  async function save(action:()=>Promise<void>) {try {await action();return true;}catch{return false;}}
+  const farmingPlan=buildKh1FarmingPlan(data,materials,state.inventory,state.farmPlan||{});
   return <>
-    <aside className="kh1-leaf-left kh1-paper kh1-synthesis-index" aria-label="Synthesis index">
+    <aside className={`kh1-leaf-left kh1-paper kh1-synthesis-index ${tab==='plan'?'kh1-farming-index':''}`} aria-label="Synthesis index">
       <p className="kh1-entry-category">Moogle’s workshop</p>
       <nav className="kh1-book-tabs" aria-label="Synthesis workspace">{[['recipes','Recipes'],['materials','Materials'],['plan','Farming Plan']].map(([id,label])=><a key={id} href={`#/kh1fm/synthesis/${id}`} aria-current={tab===id?'page':undefined}>{label}</a>)}</nav>
       <form className="kh1-filters" onSubmit={e=>{e.preventDefault();location.hash=link({q:search,page:'',item:''});}}><label>Find {tab==='recipes'?'a recipe':'a material'}<input type="search" value={search} onChange={e=>setSearch(e.target.value)}/></label>
       {tab==='recipes'&&<label>Set<select value={set} onChange={e=>{location.hash=link({set:e.target.value,page:'',item:''});}}><option value="">All sets</option>{[...new Set(data.recipes.map(r=>r.set))].sort((a,b)=>a-b).map(n=><option key={n}>{n}</option>)}</select></label>}<button className="kh1-book-action" type="submit">Find</button></form>
       {tab==='recipes'&&<label className="kh1-remaining"><input type="checkbox" checked={params.has('remaining')} onChange={e=>{location.hash=link({remaining:e.target.checked?'1':'',page:'',item:''});}}/> Not yet crafted</label>}
-      <nav ref={indexRef} className="kh1-index" aria-label={`${tab} index`}>{shown.map(e=><a key={e.id} href={link({item:e.id})} aria-current={selected?.id===e.id?'true':undefined}><span>{e.name}</span><span aria-hidden="true">{tab==='recipes'&&state.checks[e.id]?'✓':'›'}</span></a>)}</nav>
-      {!items.length&&<p className="kh1-small">{tab==='plan'?'Add recipe ingredients or a material to begin your farming plan.':'No matching entries.'}</p>}
+      <nav ref={indexRef} className="kh1-index" aria-label={`${tab} index`}>{shown.map(e=>tab==='plan'?<FarmingMaterialRow key={e.id} id={e.id} name={e.name} owned={state.inventory[e.id]} target={state.farmPlan?.[e.id]||0} ready={player.ready} max={9999} saveOwned={n=>save(()=>player.setInventory(e.id,n??null))} saveTarget={n=>save(()=>player.setFarmTarget(e.id,n||0))} remove={()=>save(()=>player.setFarmTarget(e.id,0))}/>:<a key={e.id} href={link({item:e.id})} aria-current={selected?.id===e.id?'true':undefined}><span>{e.name}</span><span aria-hidden="true">{tab==='recipes'&&state.checks[e.id]?'✓':'›'}</span></a>)}</nav>
+      {!items.length&&<p className="kh1-small">{tab==='plan'?(query?'No planned materials match this name.':'Add recipe ingredients or a material to begin your farming plan.'):'No matching entries.'}</p>}
+      {tab==='plan'&&<p className="farming-plan-help">Target = total stock to have. Blank Owned = unknown. Changes save on leaving the field. Search filters this list only.</p>}
       <div className="kh1-page-controls"><span>{page>0&&<a aria-label="Previous index page" href={link({page:String(page-1),item:''})}>◀</a>}</span><span>{page+1} / {pages}</span><span>{page+1<pages&&<a aria-label="Next index page" href={link({page:String(page+1),item:''})}>▶</a>}</span></div>
       <p className="kh1-small">{tab==='recipes'?`${data.recipes.filter(r=>state.checks[r.entryId]).length} / ${data.recipes.length} crafted`:`${items.length} materials`}</p>
     </aside>
-    <section key={selected?.id||tab} className="kh1-leaf-right kh1-paper kh1-synthesis-detail" aria-label="Synthesis notes">
-      <p className="kh1-entry-category">{recipe?`Synthesis · Set ${recipe.set}`:tab==='plan'?'Farming notes':'Material notes'}</p>
-      <h2>{selected?.name||(tab==='plan'?'Your farming plan':'No matching entries')}</h2>
+    <section key={tab==='plan'?'plan':selected?.id||tab} className="kh1-leaf-right kh1-paper kh1-synthesis-detail" aria-label="Synthesis notes">
+      {tab==='plan'?<FarmingItinerary plan={farmingPlan}/>:<>
+      <p className="kh1-entry-category">{recipe?`Synthesis · Set ${recipe.set}`:'Material notes'}</p>
+      <h2>{selected?.name||'No matching entries'}</h2>
       {selected?<>
         {recipe?<>
           <label className="kh1-acquired"><input type="checkbox" checked={!!state.checks[selected.id]} disabled={!player.ready||busy} onChange={()=>void act(()=>player.toggleCheck(selected.id),'Crafting record saved.')}/>Crafted</label>
@@ -59,9 +65,9 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
           <button className="kh1-book-action" disabled={busy} onClick={()=>void act(()=>player.addRecipeToFarmPlan(recipe.id),'Ingredients added to your farming plan.')}>Add ingredients to farming plan</button>
         </>:<>
           <div className="kh1-stock-fields"><Stock key={selected.id+'owned'} label={`${selected.name} owned`} value={state.inventory[selected.id]} save={n=>player.setInventory(selected.id,n??null)}/>
-          {tab==='plan'&&<><Stock key={selected.id+'target'} label={`${selected.name} target`} value={state.farmPlan?.[selected.id]} save={n=>player.setFarmTarget(selected.id,n||0)}/><p className="kh1-small">Remaining: {state.inventory[selected.id]===undefined?'?':Math.max(0,(state.farmPlan?.[selected.id]||0)-state.inventory[selected.id])}</p></>}</div>
-          <p className="kh1-small">Blank stock means unknown. Changes save when you leave the field.{tab==='plan'?' Target is the total stock to have.':''}</p>
-          <button className="kh1-book-action" disabled={busy||(tab!=='plan'&&(state.farmPlan?.[selected.id]||0)>0)} onClick={()=>void act(()=>tab==='plan'?player.setFarmTarget(selected.id,0):player.addMaterialToFarmPlan(selected.id),tab==='plan'?'Material removed from the plan.':'Material added to your farming plan.')}>{tab==='plan'?'Remove from farming plan':(state.farmPlan?.[selected.id]||0)>0?'In farming plan':'Add to farming plan'}</button>
+</div>
+          <p className="kh1-small">Blank stock means unknown. Changes save when you leave the field.</p>
+          <button className="kh1-book-action" disabled={busy||(state.farmPlan?.[selected.id]||0)>0} onClick={()=>void act(()=>player.addMaterialToFarmPlan(selected.id),'Material added to your farming plan.')}>{(state.farmPlan?.[selected.id]||0)>0?'In farming plan':'Add to farming plan'}</button>
         </>}
         <div role="status" className="kh1-synthesis-notice">{notice}</div>
         <JournalNotePages key={selected.id+tab}>{recipe?<div className="kh1-recipe-notes">
@@ -71,7 +77,8 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
           <p><strong>Makes:</strong> {recipe.name} ×{recipe.outputQuantity}</p>
           {(recipe.uncertainty||selected.uncertainty)&&<p>{recipe.uncertainty||selected.uncertainty}</p>}
         </div>:<EntryDetails data={data} state={state} entry={selected} compactMaterial/>}</JournalNotePages>
-      </>:<p className="kh1-summary">{tab==='plan'?'Choose ingredients from Recipes or Materials to start gathering.':'Try another search or filter to find an entry.'}</p>}
+      </>:<p className="kh1-summary">Try another search or filter to find an entry.</p>}
+      </>}
     </section>
   </>;
 }

@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 
 /** Flow long notes onto facing-book-sized pages instead of a scrollable leaf. */
-export function JournalNotePages({children}: {children:ReactNode}) {
+export function JournalNotePages({children, label='Notes'}: {children:ReactNode; label?:string}) {
   const windowRef=useRef<HTMLDivElement>(null);
   const flowRef=useRef<HTMLDivElement>(null);
   const [layout,setLayout]=useState({width:0,pages:1});
@@ -37,10 +37,10 @@ export function JournalNotePages({children}: {children:ReactNode}) {
     }}>
       <div ref={flowRef} className="kh1-note-flow" style={{transform:`translateX(-${page*(layout.width+24)}px)`}}>{children}</div>
     </div>
-    <nav className="kh1-note-pagination" aria-label="Notes pages">
-      <button aria-label="Previous notes page" disabled={page===0} onClick={()=>setPage(p=>p-1)}>◀</button>
-      <span aria-live="polite">Notes {page+1} / {layout.pages}</span>
-      <button aria-label="Next notes page" disabled={page+1>=layout.pages} onClick={()=>setPage(p=>p+1)}>▶</button>
+    <nav className="kh1-note-pagination" aria-label={`${label} pages`}>
+      <button aria-label={`Previous ${label.toLowerCase()} page`} disabled={page===0} onClick={()=>setPage(p=>p-1)}>◀</button>
+      <span aria-live="polite">{label} {page+1} / {layout.pages}</span>
+      <button aria-label={`Next ${label.toLowerCase()} page`} disabled={page+1>=layout.pages} onClick={()=>setPage(p=>p+1)}>▶</button>
     </nav>
   </div>;
 }
