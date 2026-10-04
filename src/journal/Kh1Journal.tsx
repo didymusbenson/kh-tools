@@ -1,3 +1,5 @@
+import {TreasureBoard} from './TreasureBoard';
+import {hasTreasureBoard} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { GameData, GuideEntry } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
@@ -60,6 +62,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     `${section}:${world}:${query}:${params.get('status')||''}`, index||worldIndex?44:58);
   const [leaf,setLeaf]=useState('left');
   const synthesis=section==='synthesis';
+  const treasureMode=hasTreasureBoard('kh1fm',route);
   const tool=section==='progress'&&!entry;
   const known=!!titles[section]||section==='entry';
   const worlds=[...new Set(data.entries.filter(e=>e.world).map(e=>e.world!))];
@@ -70,6 +73,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     : section==='minigames'?e.category==='minigame'
     : section==='equipment'?['weapon','accessory','item','ability','summon'].includes(e.category)
     : categories?categories.includes(e.category):section==='reference');
+  if(params.get('list')==='postcards')entries=entries.filter(e=>e.category==='postcard');
   const sectionWorlds=[...new Set(entries.filter(e=>e.world).map(e=>e.world!))];
   if(world&&section!=='worlds')entries=entries.filter(e=>e.world===world);
   const scopeEntries=entries;
@@ -117,10 +121,10 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       </header>
       {updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}
-      <nav style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?'Index':'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?'Details':'Notes'}</button></nav>
-      <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''}`}>
+      <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?'Index':'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?'Details':'Notes'}</button></nav>
+      <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
-        {synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
+        {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{if(expected!==undefined)await player.undo();else await player.setCheck(id,value);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
           {entry?<JournalNotePages key={entry.id}>
             <p className="kh1-entry-category">{entry.world||entry.category.replaceAll('-',' ')}</p><h2>{entryTitle(entry)}</h2>

@@ -1,3 +1,5 @@
+import {TreasureBoard} from '../journal/TreasureBoard';
+import {hasTreasureBoard} from './treasureModel';
 import { BbsJournal } from '../journal/BbsJournal';
 import { Kh2Journal } from "../journal/Kh2Journal";
 import { bbsCampaigns, bbsScope, bbsRecipeSummary } from "./bbsPresentation";
@@ -229,7 +231,7 @@ export default function GuideJournal({
     (e) => e.collectible && e.checkable !== false && scope(e),
   );
   const count = (list: CollectionEntry[]) => {
-    const c = list.filter((e) => e.checkable !== false);
+    const c = list.filter((e) => e.checkable !== false && (!isBbs || e.category !== "treasures" || e.collectible !== false));
     if (isBbs && !c.length)
       return list.length ? `${list.length} entries` : "World guide";
     return `${c.filter((e) => profile.checks[e.id]).length}/${c.length}`;
@@ -611,6 +613,7 @@ export default function GuideJournal({
   const materials = entries
     .filter((e) => ["material", "materials"].includes(e.category))
     .sort(sortMaterials);
+  if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><div className="digital-outer"><a href="#/">‹ Games</a><span>{guide.name} · {guide.edition}</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage">{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span></footer></div>;
   if (guide.id === "dddhd") return <Suspense fallback={<div className="loading-page">Opening your reports…</div>}><DddJournal
     guide={guide} route={route} profile={profile} ready={ready}
     error={error} notice={notice} updateNotice={updateNotice}

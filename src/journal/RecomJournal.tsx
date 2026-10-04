@@ -1,3 +1,5 @@
+import {TreasureBoard,TreasureDirections} from './TreasureBoard';
+import {hasTreasureBoard} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { GameGuide } from '../games/types';
 import type { GuideProfile } from '../games/profile';
@@ -109,6 +111,7 @@ export function RecomJournal({guide,route,profile,ready,error,notice,updateNotic
     </article>;
   }
   const rootEntries=[['collection','Card Collection'],['cards','Card Index'],...(campaign==='sora'?[['minigames','Mini-games']]:[])];
+  const treasureMode=hasTreasureBoard(guide.id,route);
   return <div className={`com-native com-${campaign} ${system?'com-system':''}`}>
     <a className="skip-link" href="#com-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
     <div className="com-outer"><a href="#/">‹ Games</a><span>RE:CHAIN OF MEMORIES · HD 1.5 ReMIX</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div>
@@ -122,7 +125,7 @@ export function RecomJournal({guide,route,profile,ready,error,notice,updateNotic
       {updateNotice}{error&&<div className="com-error" role="alert">{error}<button onClick={retry}>Retry saved progress</button></div>}
       <main id="com-reading" ref={main} tabIndex={-1} className={`com-book ${root?'com-cover':''}`}>
         <div className="com-rings" aria-hidden="true">{Array.from({length:15},(_,i)=><i key={i}/>)}</div>
-        {root?<div className="com-root-spread"><div className="com-jiminy">{campaign==='sora'?<><p>Choose an entry.</p><img src={asset+'jiminy-official.png'} alt="Jiminy Cricket"/></>:<div className="com-riku-inscription"><span>REVERSE / REBIRTH</span><p>A record of the journey.</p></div>}</div><div className="com-root-index"><h2>{campaign==='sora'?'Jiminy’s Journal':'D-Report'}</h2><nav aria-label="Report sections">{rootEntries.map(([s,label])=><a key={s} href={href(s)} onFocus={()=>setHelp(`Open ${label}.`)} onMouseEnter={()=>setHelp(`Open ${label}.`)}><span>{label}</span><small>{s==='minigames'?count(scoped.filter(e=>e.category==='minigames')):s==='collection'?`${cardCount.done} / ${cardCount.total}`:'›'}</small></a>)}</nav></div></div>
+        {treasureMode?<TreasureBoard game={guide.id} route={route} entries={guide.entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This reward changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=><><TreasureDirections entry={e}/>{recomEntries.find(r=>r.id===e.id)?.notes?.map((n,i)=><section key={i}><h3>{n.title}</h3><p>{n.text}</p></section>)}</>}/>:root?<div className="com-root-spread"><div className="com-jiminy">{campaign==='sora'?<><p>Choose an entry.</p><img src={asset+'jiminy-official.png'} alt="Jiminy Cricket"/></>:<div className="com-riku-inscription"><span>REVERSE / REBIRTH</span><p>A record of the journey.</p></div>}</div><div className="com-root-index"><h2>{campaign==='sora'?'Jiminy’s Journal':'D-Report'}</h2><nav aria-label="Report sections">{rootEntries.map(([s,label])=><a key={s} href={href(s)} onFocus={()=>setHelp(`Open ${label}.`)} onMouseEnter={()=>setHelp(`Open ${label}.`)}><span>{label}</span><small>{s==='minigames'?count(scoped.filter(e=>e.category==='minigames')):s==='collection'?`${cardCount.done} / ${cardCount.total}`:'›'}</small></a>)}</nav></div></div>
         :!known?<div className="com-empty"><h2>Page not found</h2><a href={href('contents')}>Return to the journal</a></div>
         :section==='progress'?<div className="com-settings"><JournalNotePages>{progressPage}</JournalNotePages></div>
         :unavailable?<div className="com-empty"><h2>{heading}</h2><p>This section belongs to Sora’s journey.</p><a href={recomHref(section,'sora')}>Open Sora’s {heading}</a></div>

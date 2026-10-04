@@ -1,3 +1,5 @@
+import {TreasureBoard} from './TreasureBoard';
+import {hasTreasureBoard} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { CollectionEntry, CollectionRecipe, GameGuide } from '../games/types';
 import { addTargets, type GuideProfile } from '../games/profile';
@@ -57,6 +59,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   const selectedId=params.get('entry')||params.get('item');
   const {ref:indexRef,capacity}=useIndexCapacity(`${section}:${tab}:${world}:${q}:${status}`,44);
   const entries=guide.entries;
+  const treasureMode=hasTreasureBoard(guide.id,route);
   const byId=new Map(entries.map(e=>[e.id,e]));
   const materials=entries.filter(e=>['material','materials'].includes(e.category)).sort(sortMaterials);
   const known=worlds||cover||collection||progress||workshop||section==='search'||!!category;
@@ -125,9 +128,10 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
       <header className="kh2-header"><nav className="kh2-header-controls" aria-label="Journal navigation"><a href={href('worlds')}>Select World</a><h1>{world||'Jiminy’s Journal'}</h1><a href={href('contents')}>Collection</a></nav><span className="kh2-watermark" aria-hidden="true">JIMINY’S JOURNAL</span><nav className="kh2-ribbons" aria-label="Journal location">{!collection&&<a href={back} aria-label={`Back to ${parentLabel}`}>{parentLabel}</a>}<span aria-current="page">{currentBookmark}</span></nav></header>
       {updateNotice}
       {error&&<div className="kh2-error" role="alert">{error}<button onClick={retry}>Retry loading saved progress</button></div>}
-      <nav className="kh2-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{worlds?'Worlds':cover?'Sections':'Index'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{worlds||cover?'Overview':progress?'Backups':'Notes'}</button></nav>
-      <main ref={main} id="kh2-reading" tabIndex={-1} className={`kh2-book ${cover?'kh2-cover':''}`}>
+      <nav hidden={treasureMode} className="kh2-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{worlds?'Worlds':cover?'Sections':'Index'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{worlds||cover?'Overview':progress?'Backups':'Notes'}</button></nav>
+      <main ref={main} id="kh2-reading" tabIndex={-1} className={`kh2-book ${cover?'kh2-cover':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh2-rings" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
+        {treasureMode?<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>renderDetails(byId.get(e.id)!)}/>:<>
         <section className="kh2-leaf kh2-left" aria-label={`${title} index`}>
           {cover?<div className="kh2-world-title">{world==='Port Royal'?<img src={asset+'port-royal-logo.png'} alt="Port Royal"/>:<h2>{world}</h2>}</div>:<h2>{title}</h2>}
           {workshop&&<nav className="kh2-workshop-tabs" aria-label="Synthesis sections">{[['recipes','Recipes'],['materials','Materials'],['plan','Farming Plan']].map(([id,label])=><a key={id} href={href(`workshop/${id}`)} aria-current={tab===id?'page':undefined}>{label}</a>)}</nav>}
@@ -161,6 +165,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
             <JournalNotePages key={record.id}>{!!record.drops?.length&&<><h3>Material sources</h3><ul className="kh2-drops">{record.drops.map((d,i)=><li key={i}><strong>{d.enemy}</strong> · {d.rate}{d.location&&<p>{d.location}</p>}</li>)}</ul></>}{renderDetails(record)}</JournalNotePages>
           </>:<><h2>{workshop&&tab==='plan'?'Your farming plan':'Journal notes'}</h2><p>{selectedId?'This entry is not in the current selection. Clear the filters to find it.':'Choose an entry from the index.'}</p></>}
         </section>
+        </>}
       </main>
       <footer className="kh2-footer"><a href={back}>‹ Back</a><img src={asset+'jiminy-portrait-kh2.png'} alt=""/><span>{help}</span><a href={href('contents')}>Collection</a></footer>
     </section>
