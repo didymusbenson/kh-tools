@@ -97,7 +97,7 @@ async function edit(input: Locator, value: string) {
   await input.press('Tab');
   // The field stays disabled until its asynchronous IndexedDB commit settles.
   // A successful zero-target save may remove the field altogether.
-  await expect.poll(async () => !await input.count() || await input.isEnabled()).toBe(true);
+  await expect.poll(() => input.evaluateAll(nodes => nodes.length === 0 || !(nodes[0] as HTMLInputElement).disabled)).toBe(true);
 }
 
 async function savedStock(page: Page, game: string, id: string, field: 'owned' | 'targets' = 'owned') {

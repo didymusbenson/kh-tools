@@ -116,7 +116,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     <a className="skip-link" href="#kh1-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
     <JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX"/>
     <section className="kh1-volume" aria-label="Kingdom Hearts Final Mix journal">
-      <header className="kh1-heading">
+      <header className={`kh1-heading ${world?'kh1-world-context':''}`}>
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>
         <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span>{help}</span></div><h1>{entry?titles[section]||'Journal entry':title}</h1></div>
         <nav className="kh1-utilities" aria-label="Journal tools"><a href="#/kh1fm/search">Search</a><a href="#/kh1fm/progress">Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>

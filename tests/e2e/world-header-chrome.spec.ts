@@ -21,7 +21,7 @@ for (const [game, route] of worldRoutes) {
     await page.evaluate(() => document.fonts.ready);
     const bounds = await bar.evaluate(el => {
       const rect = el.getBoundingClientRect();
-      return { top: rect.top, bottom: rect.bottom, links: [...el.querySelectorAll('a,select')].map(link => {
+      return { top: rect.top, bottom: rect.bottom, links: [...el.querySelectorAll('a,select')].filter(link=>link.getBoundingClientRect().height>0).map(link => {
         const r = link.getBoundingClientRect();
         return {top: r.top, bottom: r.bottom, height: r.height};
       }) };
@@ -39,6 +39,7 @@ for (const [game, route] of worldRoutes) {
 test('long world plaques keep the whole title and native context on narrow phones', async ({ page }) => {
   await page.setViewportSize({width:320,height:740});
   for (const [route, selector, title] of [
+    ['kh1fm/worlds/End%20of%20the%20World', '.kh1-heading h1', 'End of the World'],
     ['kh2fm/worlds/The%20World%20That%20Never%20Was', '.kh2-header h1', 'The World That Never Was'],
     ['dddhd/worlds/Country%20of%20the%20Musketeers', '.ddd-ribbons h1', 'Country of the Musketeers'],
   ]) {
@@ -97,4 +98,25 @@ test('digital treasure skip link lands on the reading panel', async ({ page }) =
   await skip.focus();
   await page.keyboard.press('Enter');
   await expect(page.locator('#digital-main')).toBeFocused();
+});
+
+
+test('short world headers never cover their own navigation', async ({ page }) => {
+  for (const [game, route, selector] of [
+    ['kh2fm', 'worlds/The%20World%20That%20Never%20Was', '.kh2-header-controls a'],
+    ['dddhd', 'worlds/Country%20of%20the%20Musketeers', '.ddd-wordmark,.ddd-compact-reports,.ddd-ribbons a'],
+  ]) {
+    for (const viewport of [{width:320,height:640},{width:640,height:500},{width:844,height:390}]) {
+      await page.setViewportSize(viewport);
+      await page.goto(`./#/${game}/${route}`);
+      await expect(page.locator('.journal-utility-bar')).toBeVisible();
+      await page.evaluate(()=>document.fonts.ready);
+      const covered=await page.locator(selector).evaluateAll(links=>links.filter(link=>{
+        const r=link.getBoundingClientRect();
+        return r.height>0 && !link.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));
+      }).map(link=>link.textContent));
+      expect(covered).toEqual([]);
+      if(game==='dddhd')await expect(page.getByRole('link',{name:'Reports contents',exact:true})).toBeVisible();
+    }
+  }
 });
