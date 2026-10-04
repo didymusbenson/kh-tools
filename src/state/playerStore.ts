@@ -273,6 +273,8 @@ export interface PlayerStore {
   getSnapshot(): PlayerSnapshot;
   subscribe(listener: () => void): () => void;
   setCheck(id: string, value: boolean): Promise<void>;
+  /** Strict desired-state save for controls that announce transaction success. */
+  setCheckConfirmed(id: string, value: boolean, expected?: boolean): Promise<void>;
   toggleCheck(id: string): Promise<void>;
   setInventory(id: string, quantity: number | null): Promise<void>;
   setInventoryEnabled(enabled: boolean): Promise<void>;
@@ -460,6 +462,20 @@ export function createPlayerStore(data: GameData): PlayerStore {
       return () => {
         listeners.delete(listener);
       };
+    },
+    async setCheckConfirmed(id, value, expected) {
+      if (!checkIds.has(id) || typeof value !== "boolean")
+        throw new Error("This entry cannot be checked.");
+      const ids = linkedChecks.get(id) ?? [id];
+      const patches: Patch[] = ids.map(key => ({field: "checks", key, value}));
+      const priorFailure = failed;
+      await enqueue({kind: "patch", patches, undoable: expected === undefined,
+        expected: expected === undefined ? undefined : ids.map(key => ({
+          patch: {field: "checks", key, value: expected},
+          before: {field: "checks", key, value},
+        })),
+      }, true);
+      if (failed === priorFailure) { failed = null; emit(pending.length ? "saving" : "saved", null); }
     },
     setCheck(id, value) {
       if (!checkIds.has(id) || typeof value !== "boolean")

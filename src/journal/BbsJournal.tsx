@@ -1,5 +1,5 @@
 import {TreasureBoard} from './TreasureBoard';
-import {hasTreasureBoard} from '../games/treasureModel';
+import {hasTreasureBoard,treasureCharacterHref} from '../games/treasureModel';
 import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import type { CollectionEntry, GameGuide } from '../games/types';
 import { type GuideProfile, addTargets } from '../games/profile';
@@ -42,7 +42,7 @@ export function BbsJournal({guide,route,profile,ready,error,notice,updateNotice,
  function href(destination:string,more:Record<string,string|undefined>={}){return bbsHref(destination,{character:scope,...more})}
  function changed(changes:Record<string,string>,destination=section){const next=Object.fromEntries(params);Object.entries(changes).forEach(([k,v])=>v?next[k]=v:delete next[k]);return bbsHref(destination,{...next,character:scope});}
  const scopeHref=(c:string)=>bbsHref(section==='contents'?'contents':section==='episodes'?'contents':section,{...Object.fromEntries(params),character:c,entry:undefined,page:undefined,world:undefined});
- function chooseCharacter(c:BbsCharacter){onCharacter(c);location.hash=scopeHref(c);}
+ function chooseCharacter(c:BbsCharacter){onCharacter(c);location.hash=treasureMode?treasureCharacterHref(guide.id,c):scopeHref(c);}
  function openEntry(e:CollectionEntry){const dest=e.category==='materials'?'materials':e.category;location.hash=bbsHref(dest,{character:normalizeScope(e.character)||scope,entry:e.id});}
  useEffect(()=>{if(requested&&validScope(requested)&&requested!==storedCharacter)onCharacter(requested)},[requested,storedCharacter,onCharacter]);
  useEffect(()=>{setDraft(q);setLeaf(selectedId?'details':'index');setHelp(melding?'Choose a command, crystal or ability.':contents?'Choose a section of this character’s Reports.':home?'Choose a story or a shared guide.':'Select a record to read its details.');document.title=`${title} · Birth by Sleep`;},[route]);

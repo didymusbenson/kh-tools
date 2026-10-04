@@ -50,9 +50,15 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  }
  function go(changes:Record<string,string|undefined>) {location.hash=link(changes);}
  function select(cell:TreasureCell,nextView=view) {go({entry:cell.entry.id,board:undefined,world:cell.metadata.world,character:cell.metadata.character,scope:cell.metadata.scope,view:nextView,page:undefined});}
- function focusSelected() {requestAnimationFrame(()=>gridRef.current?.querySelector<HTMLButtonElement>(`[data-treasure-id="${CSS.escape(selected?.entry.id||'')}"]`)?.focus({preventScroll:true}));}
+ function focusSelected() {requestAnimationFrame(()=>{const active=document.activeElement;if(active?.matches('input,select,textarea,button:not([data-treasure-id])'))return;gridRef.current?.querySelector<HTMLButtonElement>(`[data-treasure-id="${CSS.escape(selected?.entry.id||'')}"]`)?.focus({preventScroll:true});});}
  useEffect(()=>{setDraft(q);},[q]);
- useEffect(()=>{if(view==='grid'&&selectedId)focusSelected();},[route]);
+ useEffect(()=>{
+   if(view!=='grid'||!selectedId)return;
+   // Run after both native-shell effects and the hash navigation's default focus.
+   let frame=0;
+   const first=requestAnimationFrame(()=>{frame=requestAnimationFrame(()=>focusSelected());});
+   return()=>{cancelAnimationFrame(first);cancelAnimationFrame(frame);};
+ },[route,view,selectedId,geometry.columns,geometry.rows]);
  useEffect(()=>{
    if(!partition||!selected)return;
    try{localStorage.setItem(`ars-treasure-view:${game}:${partition.character}`,JSON.stringify({entry:selected.entry.id,world:partition.world,scope:partition.scope}));}catch{}
@@ -112,7 +118,7 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  </div>;
  return <div className={`treasure-layout treasure-${game} treasure-view-${view} ${single?'treasure-single':''}`} data-testid="treasure-board" data-partition={partition.id}>
  <section className="treasure-leaf treasure-grid-leaf" aria-label="Treasure grid">
-   <div className="treasure-heading"><h2>{partition.world}</h2><a href={link({world:undefined,board:undefined,entry:undefined,view:undefined,page:undefined,q:undefined,area:undefined,group:undefined})} aria-label="All treasure worlds">Worlds</a></div>
+   <div className="treasure-heading"><h2>{partition.world}</h2><button className="treasure-compact-filter" aria-label="Find & filter" aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Filter</button><a href={link({world:undefined,board:undefined,entry:undefined,view:undefined,page:undefined,q:undefined,area:undefined,group:undefined})} aria-label="All treasure worlds">Worlds</a></div>
    <div className="treasure-caption"><span>{[partition.character,scopeLabel(partition.scope),partition.group].filter(Boolean).join(' · ')}</span><strong data-testid="treasure-count">{cells.filter(c=>checks[c.entry.id]).length} / {cells.length} {unit}</strong></div>
    <div className="treasure-toolbar"><button aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Find & filter</button><span>{matches.length} matches</span><button disabled={!matches.length} aria-label="Previous matching treasure" onClick={()=>moveMatch(-1)}>‹ Match</button><button disabled={!matches.length} aria-label="Next matching treasure" onClick={()=>moveMatch(1)}>Match ›</button></div>
    {filtersOpen&&<form id="treasure-filters" className="treasure-filters" onSubmit={e=>{e.preventDefault();go({q:draft});setFiltersOpen(false);}}>
@@ -120,6 +126,7 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
      <label>Show<select aria-label="Treasure status" value={status} onChange={e=>go({status:e.target.value})}><option value="">All</option><option value="remaining">Remaining</option><option value="done">Collected</option></select></label>
      <label>Area<select aria-label="Treasure area" value={area} onChange={e=>go({area:e.target.value})}><option value="">All areas</option>{[...new Set(cells.map(c=>c.entry.area).filter(Boolean))].map(a=><option key={a}>{a}</option>)}</select></label>
      {cells.some(c=>c.metadata.group)&&<label>Group<select value={group} onChange={e=>go({group:e.target.value})}><option value="">All groups</option>{[...new Set(cells.map(c=>c.metadata.group).filter(Boolean))].map(g=><option key={g}>{g}</option>)}</select></label>}
+     <div className="treasure-filter-matches"><span>{matches.length} matches</span><button type="button" disabled={!matches.length} onClick={()=>{moveMatch(-1);setFiltersOpen(false);}}>‹ Match</button><button type="button" disabled={!matches.length} onClick={()=>{moveMatch(1);setFiltersOpen(false);}}>Match ›</button></div>
      <button type="button" onClick={()=>{go({q:undefined,area:undefined,status:undefined,group:undefined});setFiltersOpen(false);}}>Clear</button><button type="button" onClick={()=>setFiltersOpen(false)}>Close filters</button>
    </form>}
    <div className="treasure-order">{orderText}{canonicalColumns?geometry.columns===canonicalColumns?' · 8-column layout':' · Compact numbered layout':' · Adaptive numbered layout'}</div>

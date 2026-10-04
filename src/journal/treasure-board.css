@@ -38,3 +38,35 @@
 .treasure-grouped{padding:0 8%;font-size:14px}.treasure-world-groups{flex:1;min-height:0}.treasure-world-groups>section{height:104px;padding-top:5px}.treasure-world-groups>section>div{display:flex;gap:20px;align-items:center;justify-content:space-between;max-width:472px;height:32px;font-size:17px}.treasure-world-groups strong{color:#987000;font:14px KH2Menu}.treasure-group-row{display:grid;gap:8px;list-style:none;padding:0;margin:0}.treasure-group-row button{width:52px;height:52px;position:relative;border:1px solid #879ea9;border-radius:0;background:#edf3f966;color:#698890;font:bold 25px Arial}.treasure-group-row small{position:absolute;bottom:2px;right:4px;font:11px Arial}.treasure-group-row button:hover{outline:3px solid #00bce9}.treasure-group-row li{height:52px}@media(max-width:650px){.treasure-grouped{padding:0}.treasure-grouped .treasure-heading>strong{font-size:11px}.treasure-world-groups>section>div{font-size:15px}}
 
 .kh2-native:has(.treasure-layout)>.kh2-save,.bbs-native:has(.treasure-layout)>.bbs-save-status,.ddd-native:has(.treasure-layout)>.ddd-save,.com-native:has(.treasure-layout)>.com-save,.kh1-native:has(.treasure-layout)>.kh1-save-line{visibility:hidden}
+
+.treasure-preview>a{min-width:44px;justify-content:center}.digital-treasure{grid-template-columns:minmax(0,1fr)}.digital-treasure>*{min-width:0}.digital-outer>span{min-width:0;overflow-wrap:anywhere}.digital-header{min-width:0}.digital-header h1{min-width:0}.digital-header small{min-width:0}
+@media(max-width:350px) and (min-height:511px){.treasure-recom .treasure-grid-leaf{padding-bottom:0!important}.treasure-recom .treasure-heading{min-height:36px}.treasure-recom .treasure-order{min-height:16px}.treasure-recom .treasure-selection-hint{display:none}.treasure-recom .treasure-save{min-height:32px}.treasure-recom .treasure-preview{min-height:48px}.treasure-recom .treasure-caption{min-height:24px}.digital-outer>span{font-size:9px;max-width:230px}.digital-header h1{font-size:23px}.digital-header small{font-size:8px;margin-left:8px}}
+/* On the smallest portrait, spend the redundant utility/wordmark rows on the leaf.
+   Chapters remain reachable through Contents; all active controls retain 44px targets. */
+@media(max-width:350px) and (min-height:511px) and (max-height:650px){
+ .com-native:has(.treasure-layout){grid-template-rows:32px minmax(0,1fr) 16px}
+ .com-native:has(.treasure-layout) .com-utilities{display:none}
+ .com-native:has(.treasure-layout) .com-header{height:88px;grid-template-rows:44px 38px;gap:1px}
+ .com-native:has(.treasure-layout) .com-wordmark{display:none}
+ .com-native:has(.treasure-layout) .com-ribbons{grid-row:2}
+}
+@media(max-width:350px) and (min-height:511px) and (max-height:650px){
+ .com-native:has(.treasure-layout) .com-book{margin-top:4px;margin-bottom:4px;padding-top:6px;padding-bottom:6px}
+ .treasure-recom .treasure-save{min-height:44px}
+ .treasure-recom .treasure-order{display:none}
+ .treasure-recom .treasure-grid-leaf>.treasure-caption>span::after{content:' · Guide order'}
+}
+
+.treasure-compact-filter{display:none}.treasure-filter-matches{display:flex;align-items:center;justify-content:space-between;gap:8px;grid-column:1/-1}
+@media(max-width:350px) and (min-height:511px) and (max-height:650px){
+ .treasure-compact-filter{display:block;min-width:44px;padding:3px 5px!important;font-size:10px!important;flex:none}
+ .treasure-grid-leaf>.treasure-toolbar,.treasure-grid-leaf>.treasure-order,.treasure-grid-leaf>.treasure-selection-hint{display:none}
+ .treasure-grid-leaf>.treasure-heading{gap:4px}.treasure-grid-leaf>.treasure-heading>h2{font-size:20px!important;flex:1}
+ .treasure-grid-leaf>.treasure-heading>a{padding:0 3px;font-size:11px;min-width:44px}
+ .treasure-grid-leaf>.treasure-save{min-height:56px}
+ .treasure-grid-leaf>.treasure-caption{margin-bottom:4px}
+ .treasure-filters{top:75px}
+}
+@media(max-width:350px) and (min-height:511px) and (max-height:650px){
+ .treasure-kh02 .treasure-filters{top:50px;max-height:calc(100dvh - 200px);overflow-y:auto}
+}

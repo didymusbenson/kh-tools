@@ -50,3 +50,24 @@ export function hasTreasureBoard(game:string, route:string) {
   return section==='treasures';
 }
 export function scopeLabel(scope:string) {return ({main:'Main story',prologue:'Prologue guide',secret:'Secret Episode',remind:'Re Mind'} as Record<string,string>)[scope]||scope;}
+/** Native character controls share the board's ID-based presentation memory. */
+export function treasureCharacterHref(game:string,character:string) {
+  const params=new URLSearchParams();
+  if(character)params.set('character',character);
+  try {
+    const saved=JSON.parse(localStorage.getItem(`ars-treasure-view:${game}:${character}`)||'{}');
+    const record=treasureMap(game)?.records.find(m=>m.id===saved.entry&&m.included&&m.character===character);
+    if(record){params.set('entry',record.id);params.set('world',record.world);params.set('scope',record.scope);params.set('view','grid');}
+  }catch{/* Presentation memory is optional and never blocks saved progress. */}
+  return `#/${game}/${game==='recom'?'rewards':'treasures'}?${params}`;
+}
+/** Old category/search/path links resolve to one canonical board and native header scope. */
+export function normalizeTreasureRoute(game:string,route:string) {
+  const [path,query='']=route.split('?'),params=new URLSearchParams(query);
+  const id=params.get('entry')||params.get('item')||(path.split('/')[1]==='entry'?safeDecode(path.split('/').slice(2).join('/')):'');
+  const record=treasureMap(game)?.records.find(m=>m.id===id&&m.included);
+  if(!record)return route;
+  params.set('entry',record.id);params.delete('item');params.set('world',record.world);params.set('scope',record.scope);
+  if(record.character)params.set('character',record.character);
+  return `${game}/${game==='recom'?'rewards':'treasures'}?${params}`;
+}

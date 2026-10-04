@@ -18,6 +18,7 @@ export function usePlayerState(data: GameData) {
   return {
     ...snapshot,
     setCheck: store.setCheck,
+    setCheckConfirmed: store.setCheckConfirmed,
     toggleCheck: store.toggleCheck,
     setInventory: store.setInventory,
     setInventoryEnabled: store.setInventoryEnabled,

@@ -1,5 +1,5 @@
 import {TreasureBoard} from '../journal/TreasureBoard';
-import {hasTreasureBoard} from './treasureModel';
+import {hasTreasureBoard,normalizeTreasureRoute} from './treasureModel';
 import { BbsJournal } from '../journal/BbsJournal';
 import { Kh2Journal } from "../journal/Kh2Journal";
 import { bbsCampaigns, bbsScope, bbsRecipeSummary } from "./bbsPresentation";
@@ -31,13 +31,14 @@ const RecomJournal = lazy(() => import("../journal/RecomJournal").then(m => ({de
 
 export default function GuideJournal({
   guide,
-  route,
+  route: requestedRoute,
   updateNotice,
 }: {
   guide: GameGuide;
   route: string;
   updateNotice: ReactNode;
 }) {
+  const route=normalizeTreasureRoute(guide.id,requestedRoute);
   const [profile, setProfile] = useState(() => emptyProfile(guide.id));
   const [ready, setReady] = useState(false),
     [error, setError] = useState(""),

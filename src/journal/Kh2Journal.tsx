@@ -106,7 +106,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
     setMessage('');
     setHelp(cover?'Choose a section of this world’s journal.':worlds?'Choose a world to open its journal.':collection?'Browse by world or choose a collection.':'Choose a record on the left to read its notes.');
     document.title=`${title} · KH2FM Journal`;
-    main.current?.focus({preventScroll:true});
+    if(!treasureMode)main.current?.focus({preventScroll:true});
   },[route]);
   async function act(change:(p:GuideProfile)=>GuideProfile,text:string) {
     setBusy(true);

@@ -1,5 +1,5 @@
 import {TreasureBoard} from './TreasureBoard';
-import {hasTreasureBoard} from '../games/treasureModel';
+import {hasTreasureBoard,treasureCharacterHref} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { CollectionEntry, CollectionRecipe, GameGuide } from '../games/types';
 import { addTargets, type GuideProfile } from '../games/profile';
@@ -147,6 +147,7 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
     setHelp(root?rootSections[0][2]:selectedId?'Read the entry, record discoveries and turn the notes.':workshop?'Choose a recipe or look up Dream Pieces.':'Choose an entry to view its details.');
     document.title=`${heading} · Dream Drop Distance HD`;
     const frame=requestAnimationFrame(()=>{
+      if(hasTreasureBoard(guide.id,route))return;
       const returnId=params.get('focus')||lastEntry.current;
       const link=!selectedId&&returnId?main.current?.querySelector<HTMLAnchorElement>(`[data-entry-id="${CSS.escape(returnId)}"]`):null;
       if(link)link.focus({preventScroll:true});else main.current?.focus({preventScroll:true});
@@ -197,7 +198,7 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
   const treasureMode=hasTreasureBoard(guide.id,route);
   return <div className="ddd-native">
     <a className="skip-link" href="#ddd-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to reports</a>
-    <div className="ddd-outer"><a href="#/">‹ Games</a><span>DREAM DROP DISTANCE HD</span><label className="ddd-character">Character<select aria-label="Filter by character" value={character} onChange={e=>{location.hash=changed({character:e.target.value,entry:'',item:'',page:'',focus:''});}}><option value="all">Both</option><option>Sora</option><option>Riku</option></select></label><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div>
+    <div className="ddd-outer"><a href="#/">‹ Games</a><span>DREAM DROP DISTANCE HD</span><label className="ddd-character">Character<select aria-label="Filter by character" value={character} onChange={e=>{location.hash=treasureMode?treasureCharacterHref(guide.id,e.target.value):changed({character:e.target.value,entry:'',item:'',page:'',focus:''});}}><option value="all">Both</option><option>Sora</option><option>Riku</option></select></label><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div>
     <section className="ddd-volume" aria-label="Dream Drop Distance Reports">
       <header className="ddd-header"><nav className={`ddd-ribbons ${parentLabel==='Reports'?'ddd-top-level':''}`} aria-label="Report location">{!root&&parentLabel!=='Reports'&&<a href={parent}>{parentLabel}</a>}{!root&&<h1 title={title}>{selectedId?title:heading}</h1>}{root&&<h1 className="ddd-sr">Reports</h1>}</nav><a className="ddd-wordmark" href={href('contents')} aria-label="Reports contents">REPORTS</a></header>
       {updateNotice}{error&&<div className="ddd-error" role="alert">{error}<button onClick={retry}>Retry saved progress</button></div>}

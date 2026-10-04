@@ -1,5 +1,5 @@
 import {TreasureBoard} from './TreasureBoard';
-import {hasTreasureBoard} from '../games/treasureModel';
+import {hasTreasureBoard,normalizeTreasureRoute} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { GameData, GuideEntry } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
@@ -42,8 +42,8 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   renderTool:(section:string, tab?:string)=>ReactNode; updateNotice:ReactNode;
 }) {
   // Keep saved links to the retired submenu useful.
-  const route=requestedRoute.replace(/^kh1fm\/notes(?:\?.*)?$/, 'kh1fm/contents');
-  useEffect(()=>{if(route!==requestedRoute)location.replace('#/'+route);},[route,requestedRoute]);
+  const route=normalizeTreasureRoute('kh1fm',requestedRoute.replace(/^kh1fm\/notes(?:\?.*)?$/, 'kh1fm/contents'));
+  useEffect(()=>{if(requestedRoute.startsWith('kh1fm/notes'))location.replace('#/'+route);},[route,requestedRoute]);
   const parts=route.split('?')[0].split('/');
   const section=parts[1]||'contents';
   const params=new URLSearchParams(route.split('?')[1]||'');
@@ -99,6 +99,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     if(player.ready) void player.rememberRoute('#/'+route);
     document.title=`${title} · KH1FM Journal`;
     const frame=requestAnimationFrame(()=>{
+      if(treasureMode)return;
       if(!entry&&lastEntry.current){const link=main.current?.querySelector<HTMLAnchorElement>(`[data-record-id="${CSS.escape(lastEntry.current)}"]`);if(link){link.focus();return;}}
       window.scrollTo({top:0,behavior:"instant"});
       main.current?.focus({preventScroll:true});
@@ -124,7 +125,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?'Index':'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?'Details':'Notes'}</button></nav>
       <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
-        {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{if(expected!==undefined)await player.undo();else await player.setCheck(id,value);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
+        {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
           {entry?<JournalNotePages key={entry.id}>
             <p className="kh1-entry-category">{entry.world||entry.category.replaceAll('-',' ')}</p><h2>{entryTitle(entry)}</h2>
