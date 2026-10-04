@@ -29,7 +29,10 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  const pendingRef=useRef(false),gridRef=useRef<HTMLOListElement>(null),summaryRef=useRef<HTMLDivElement>(null);
  const [geometry,setGeometry]=useState({columns:5,rows:3}),[summaryCapacity,setSummaryCapacity]=useState(5);
  const canonicalColumns=game==='kh3'&&partition?.scope==='main'?8:undefined;
- const q=params.get('q')||'',area=params.get('area')||'',status=params.get('status')||'',group=params.get('group')||'';
+ // KH1 world boards are already scoped by the world directory. Ignore legacy
+ // filter parameters as well as removing their controls, so no invisible filter remains.
+ const worldFilters=game!=='kh1fm';
+ const q=worldFilters?params.get('q')||'':'',area=worldFilters?params.get('area')||'':'',status=worldFilters?params.get('status')||'':'',group=worldFilters?params.get('group')||'':'';
  const matches=cells.filter(c=>treasureMatches(c,checks,{q,area,status,group}));
  const capacity=geometry.columns*geometry.rows;
  const index=Math.max(0,cells.findIndex(c=>c.entry.id===selected?.entry.id));
@@ -119,10 +122,10 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  </div>;
  return <div className={`treasure-layout treasure-${game} treasure-view-${view} ${single?'treasure-single':''}`} data-testid="treasure-board" data-partition={partition.id}>
  <section className="treasure-leaf treasure-grid-leaf" aria-label="Treasure grid">
-   <div className="treasure-heading"><h2>{partition.world}</h2><button className="treasure-compact-filter" aria-label="Find & filter" aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Filter</button><a href={link({world:undefined,board:undefined,entry:undefined,view:undefined,page:undefined,q:undefined,area:undefined,group:undefined})} aria-label="All treasure worlds">Worlds</a></div>
+   <div className="treasure-heading"><h2>{partition.world}</h2>{worldFilters&&<button className="treasure-compact-filter" aria-label="Find & filter" aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Filter</button>}<a href={link({world:undefined,board:undefined,entry:undefined,view:undefined,page:undefined,q:undefined,area:undefined,group:undefined})} aria-label={game==='kh1fm'?'Back to Worlds':'All treasure worlds'}>{game==='kh1fm'?'‹ Worlds':'Worlds'}</a></div>
    <div className="treasure-caption"><span>{[partition.character,scopeLabel(partition.scope),partition.group].filter(Boolean).join(' · ')}</span><strong data-testid="treasure-count">{cells.filter(c=>checks[c.entry.id]).length} / {cells.length} {unit}</strong></div>
-   <div className="treasure-toolbar"><button aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Find & filter</button><span>{matches.length} matches</span><button disabled={!matches.length} aria-label="Previous matching treasure" onClick={()=>moveMatch(-1)}>‹ Match</button><button disabled={!matches.length} aria-label="Next matching treasure" onClick={()=>moveMatch(1)}>Match ›</button></div>
-   {filtersOpen&&<form id="treasure-filters" className="treasure-filters" onSubmit={e=>{e.preventDefault();go({q:draft});setFiltersOpen(false);}}>
+   {worldFilters&&<div className="treasure-toolbar"><button aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Find & filter</button><span>{matches.length} matches</span><button disabled={!matches.length} aria-label="Previous matching treasure" onClick={()=>moveMatch(-1)}>‹ Match</button><button disabled={!matches.length} aria-label="Next matching treasure" onClick={()=>moveMatch(1)}>Match ›</button></div>}
+   {worldFilters&&filtersOpen&&<form id="treasure-filters" className="treasure-filters" onSubmit={e=>{e.preventDefault();go({q:draft});setFiltersOpen(false);}}>
      <label>Find a treasure<input type="search" value={draft} onChange={e=>setDraft(e.target.value)}/></label><button>Find</button>
      <label>Show<select aria-label="Treasure status" value={status} onChange={e=>go({status:e.target.value})}><option value="">All</option><option value="remaining">Remaining</option><option value="done">Collected</option></select></label>
      <label>Area<select aria-label="Treasure area" value={area} onChange={e=>go({area:e.target.value})}><option value="">All areas</option>{[...new Set(cells.map(c=>c.entry.area).filter(Boolean))].map(a=><option key={a}>{a}</option>)}</select></label>

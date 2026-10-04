@@ -42,21 +42,24 @@ async function expectTargetsAndBounds(page:Page){
 }
 
 for(const game of games){
- test(`${game}: selection, remaining, mark/unmark and Undo preserve slot identity`,async({page})=>{
+ test(`${game}: selection${game==='kh1fm'?'':', remaining'}, mark/unmark and Undo preserve slot identity`,async({page})=>{
   await open(page,game);
   const initial=await identity(page),count=await page.getByTestId('treasure-count').innerText();
   expect(initial.length).toBeGreaterThan(0);
   const second=tiles(page).nth(Math.min(1,initial.length-1));const id=(await second.getAttribute('data-treasure-id'))!;
   await second.click();await expectSelected(page,id);await expect(check(page)).not.toBeChecked();
   expect((await profile(page,game))?.checks?.[id]).not.toBe(true);
-  await page.getByRole('button',{name:'Find & filter',exact:true}).click();
-  await page.getByRole('combobox',{name:'Treasure status',exact:true}).selectOption('remaining');
-  await page.getByRole('button',{name:'Close filters',exact:true}).click();
+  if(game!=='kh1fm'){
+   await page.getByRole('button',{name:'Find & filter',exact:true}).click();
+   await page.getByRole('combobox',{name:'Treasure status',exact:true}).selectOption('remaining');
+   await page.getByRole('button',{name:'Close filters',exact:true}).click();
+  }else await expect(page.getByRole('button',{name:'Find & filter',exact:true})).toHaveCount(0);
   const before=await boxes(page);expect(await identity(page)).toEqual(initial);
   await check(page).click();await expect(saved(page)).toContainText('Marked collected.');
   await expectSelected(page,id);await expect(check(page)).toBeChecked();
   expect(await identity(page)).toEqual(initial);expect(await boxes(page)).toEqual(before);
-  await expect(page.locator('.treasure-selection-hint:visible')).toContainText('no longer matches');
+  if(game!=='kh1fm')await expect(page.locator('.treasure-selection-hint:visible')).toContainText('no longer matches');
+  else await expect(page.locator('.treasure-grid .treasure-muted')).toHaveCount(0);
   expect((await page.getByTestId('treasure-count').innerText()).split('/')[1]).toBe(count.split('/')[1]);
   await saved(page).getByRole('button',{name:'Undo',exact:true}).click();
   await expect(saved(page)).toContainText('undone');await expect(check(page)).not.toBeChecked();await expectSelected(page,id);
@@ -263,7 +266,7 @@ test('marking and undo keep the current acquisition note continuation page',asyn
 
 test('compact portrait filters keep every control reachable without outer-page scrolling',async({page})=>{
  test.setTimeout(120_000);await page.setViewportSize({width:320,height:568});
- for(const game of games){
+ for(const game of games.filter(game=>game!=='kh1fm')){
   await open(page,game);await page.getByRole('button',{name:'Find & filter',exact:true}).click();
   const controls=page.locator('.treasure-filters').locator('button,input,select');
   for(let i=0;i<await controls.count();i++){
