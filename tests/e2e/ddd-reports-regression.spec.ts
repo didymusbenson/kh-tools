@@ -78,13 +78,14 @@ test('DDD recipe targets add, unknown stock differs from zero, and creating spen
  await page.goto(path('workshop/plan',{entry:material.id}));
  const owned=page.getByRole('spinbutton',{name:`Owned ${material.name}`,exact:true});
  await expect(owned).toHaveValue('');
- await expect(page.locator('.ddd-stock')).toContainText('Remaining ?');
+ const remaining=page.locator(`[data-material-id="${material.id}"] .farming-remaining strong`);
+ await expect(remaining).toHaveText('?');
  await owned.fill('0');await owned.press('Tab');
  await expect.poll(async()=> (await profile(page)).owned[material.id]).toBe(0);
- await expect(page.locator('.ddd-stock')).toContainText('Remaining 6');
+ await expect(remaining).toHaveText('6');
  await owned.fill('9');await owned.press('Tab');
  await expect.poll(async()=> (await profile(page)).owned[material.id]).toBe(9);
- await expect(page.locator('.ddd-stock')).toContainText('Remaining 0');
+ await expect(remaining).toHaveText('0');
  await page.goto(path('workshop/recipes',{entry:recipe.id}));
  await checkbox(page,recipe).check();
  await expect.poll(async()=> (await profile(page)).checks[recipe.id]).toBe(true);
@@ -148,7 +149,7 @@ test('DDD installed journal reopens offline with saved state and supplied guidan
 test('DDD compact portrait and landscape leave usable reading space without overlapping rows',async({page})=>{
  for(const viewport of [{width:320,height:568},{width:844,height:390},{width:640,height:360}]){
   await page.setViewportSize(viewport);
-  for(const route of ['contents','worlds/Traverse%20Town','treasures',`workshop/recipes?entry=${recipe.id}`,`workshop/materials?entry=${material.id}`,`workshop/plan?entry=${material.id}`,'progress']){
+  for(const route of ['contents','worlds/Traverse%20Town','treasures',`workshop/recipes?entry=${recipe.id}`,`workshop/materials?entry=${material.id}`,`workshop/plan?entry=${material.id}&view=route`,'progress']){
    await page.goto(path(route));await expect(page.locator('.ddd-book')).toBeVisible();await page.evaluate(()=>document.fonts.ready);
    await expect.poll(()=>page.evaluate(()=>{
     const index=document.querySelector('.ddd-index'),note=document.querySelector('.kh1-note-window'),overview=document.querySelector('.ddd-world-summary');

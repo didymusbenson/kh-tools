@@ -24,7 +24,7 @@ test('BBS abilities reverse lookup, crystal source modal and independent plans',
  await page.locator('.bbs-recipe .bbs-target-ability button').first().click();await expect(page.getByRole('dialog')).toContainText('Wild Bruiser');await expect(page.getByRole('dialog')).toContainText('Neverland');
  await page.getByRole('button',{name:'Close dialog'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);
  await page.getByRole('button',{name:'Plan commands',exact:true}).first().click();await expect(page.getByRole('status').filter({hasText:'Ingredients added'})).toBeVisible();
- await page.getByRole('link',{name:'Farming plan ›',exact:true}).click();await expect(page.locator('.bbs-record-row').first()).toBeVisible();
+ await page.getByRole('link',{name:'Farming plan ›',exact:true}).click();await expect(page.locator('.farming-material-row').first()).toBeVisible();
  await page.getByRole('button',{name:'Terra',exact:true}).click();await expect(page.getByText('Your farming plan is empty for this character.')).toBeVisible();
  await page.goto('./#/bbsfm/melding?character=Aqua&tab=crystals&item=Fleeting%20Crystal');await page.getByRole('button',{name:'Fleeting Crystal',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Sonic Blaster');await expect(page.getByRole('dialog')).toContainText('Deep Space');await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);
 });

@@ -136,7 +136,7 @@ test('phone section and Details controls open the active visible page item',asyn
 test('compact and zoom-equivalent viewports preserve useful reading space and complete world summaries',async({page})=>{
  for(const [width,height] of [[844,390],[320,568],[640,360]]){
   await page.setViewportSize({width,height});
-  for(const route of ['treasures','worlds/Traverse%20Town','workshop/recipes?entry=dddhd:recipe:aura-lion:source-1','workshop/plan?entry=dddhd:materials:brilliant-fantasy']){
+  for(const route of ['treasures','worlds/Traverse%20Town','workshop/recipes?entry=dddhd:recipe:aura-lion:source-1','workshop/plan?entry=dddhd:materials:brilliant-fantasy&view=route']){
    await page.goto(`./#/dddhd/${route}`);await fit(page);
    const notes=page.locator('.kh1-note-window');
    if(await notes.count())expect((await notes.boundingBox())!.height).toBeGreaterThan(50);

@@ -42,3 +42,13 @@
  .bbs-screen-plan .bbs-index-leaf>h2,.bbs-screen-plan .bbs-collection-count,.bbs-screen-plan .bbs-plan-help{display:none}.bbs-screen-plan .bbs-book-filters{margin-bottom:3px;max-width:650px}.bbs-screen-plan .bbs-book-filters label{font-size:0;gap:0}.bbs-screen-plan .bbs-book-filters input{font-size:14px;min-height:30px}.bbs-screen-plan .bbs-book-filters button{min-height:30px}.bbs-screen-plan .bbs-pagination{padding-top:0;min-height:30px}.bbs-screen-plan .bbs-pagination a{min-height:30px;min-width:36px;display:grid;place-items:center}
  .bbs-screen-plan .farming-material-row{padding:3px 0 5px}.bbs-screen-plan .farming-material-heading,.bbs-screen-plan .farming-remove{min-height:34px}.bbs-screen-plan .farming-quantity input{min-height:34px}.bbs-screen-plan .farming-itinerary>h2{font-size:20px;margin-bottom:3px}.bbs-screen-plan .farming-itinerary>.farming-route-help{font-size:11px;margin-bottom:4px}.bbs-screen-plan .farming-itinerary .kh1-note-pagination{height:32px;min-height:32px}.bbs-screen-plan .farming-itinerary .kh1-note-pagination button{height:32px;min-height:32px}
 }
+@media(max-width:600px) and (min-height:501px) and (max-height:700px){
+ .bbs-screen-plan .bbs-index-leaf>h2,.bbs-screen-plan .bbs-collection-count{display:none}
+ .bbs-screen-plan .bbs-plan-help{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .bbs-screen-plan .bbs-reading{padding-top:11px;padding-bottom:9px}
+ .bbs-screen-plan .bbs-book-filters{margin-bottom:7px}
+ .bbs-screen-plan .farming-itinerary>h2{font-size:22px;margin-bottom:5px}
+ .bbs-screen-plan .farming-itinerary>.farming-route-help{font-size:11px;margin-bottom:6px}
+}
+.bbs-screen-plan .bbs-volume{position:relative}
+.bbs-screen-plan .bbs-error{position:absolute;z-index:15;inset:0 0 auto;max-height:90px;overflow:auto;font-size:12px;line-height:1.35}

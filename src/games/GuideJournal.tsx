@@ -92,7 +92,7 @@ export default function GuideJournal({
   const planLeaf = routeParams.get('view') === 'route' ? 'route' : 'materials';
   const [planDraft, setPlanDraft] = useState(planQuery);
   useEffect(() => { setPlanDraft(planQuery); }, [planQuery]);
-  const {ref: planIndexRef, capacity: planCapacity} = useIndexCapacity(`${guide.id}:plan:${planQuery}`, 116);
+  const {ref: planIndexRef, capacity: planCapacity, anchorId: planAnchor, clearAnchor: clearPlanAnchor} = useIndexCapacity(`${guide.id}:plan:${planQuery}`, 116, false, route);
   function planHref(changes:Record<string,string>) {
     const next = new URLSearchParams(search);
     for (const [key,value] of Object.entries(changes)) value ? next.set(key,value) : next.delete(key);
@@ -631,7 +631,8 @@ export default function GuideJournal({
   const plannedMaterials = materials.filter(e => (profile.targets[e.id] || 0) > 0 && (!isBbs || scope(e)));
   const filteredPlan = plannedMaterials.filter(e => !planQuery || e.name.toLowerCase().includes(planQuery.toLowerCase()));
   const planPages = Math.max(1, Math.ceil(filteredPlan.length / planCapacity));
-  const planPage = Math.max(0, Math.min(planPages - 1, Math.floor(Number(routeParams.get('page'))) || 0));
+  const planAnchorIndex = filteredPlan.findIndex(e => e.id === planAnchor);
+  const planPage = Math.max(0, Math.min(planPages - 1, planAnchorIndex >= 0 ? Math.floor(planAnchorIndex / planCapacity) : Math.floor(Number(routeParams.get('page'))) || 0));
   const shownPlan = filteredPlan.slice(planPage * planCapacity, (planPage + 1) * planCapacity);
   const farmingPlan = buildGuideFarmingPlan(guide, plannedMaterials, profile.owned, profile.targets);
   if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><div className="digital-outer"><a href="#/">‹ Games</a><span>{guide.name} · {guide.edition}</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage">{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span></footer></div>;
@@ -1124,7 +1125,7 @@ export default function GuideJournal({
                           {shownPlan.map(e=><FarmingMaterialRow key={e.id} id={e.id} name={e.name} owned={profile.owned[e.id]} target={profile.targets[e.id]} ready={ready} saveOwned={n=>update(p=>{const owned={...p.owned};if(n===undefined)delete owned[e.id];else owned[e.id]=n;return {...p,owned};})} saveTarget={n=>update(p=>{const targets={...p.targets};if(n===undefined)delete targets[e.id];else targets[e.id]=n;return {...p,targets};})} remove={()=>update(p=>{const targets={...p.targets};delete targets[e.id];return {...p,targets};})}/>) }
                         </nav>
                         {!shownPlan.length&&<p>{plannedMaterials.length?'No planned materials match this name.':'Your farming plan is empty. Add materials or recipe ingredients to set targets.'}</p>}
-                        <nav className="guide-plan-pagination" aria-label="Material pages"><a aria-label="Previous material page" aria-disabled={planPage===0} tabIndex={planPage===0?-1:undefined} href={planPage>0?planHref({page:String(planPage-1)}):undefined}>◀</a><span>{planPage+1} / {planPages}</span><a aria-label="Next material page" aria-disabled={planPage+1>=planPages} tabIndex={planPage+1>=planPages?-1:undefined} href={planPage+1<planPages?planHref({page:String(planPage+1)}):undefined}>▶</a></nav>
+                        <nav className="guide-plan-pagination" aria-label="Material pages" onClick={e=>{if((e.target as Element).closest('a[href]'))clearPlanAnchor();}}><a aria-label="Previous material page" aria-disabled={planPage===0} tabIndex={planPage===0?-1:undefined} href={planPage>0?planHref({page:String(planPage-1)}):undefined}>‹</a><span>{planPage+1} / {planPages}</span><a aria-label="Next material page" aria-disabled={planPage+1>=planPages} tabIndex={planPage+1>=planPages?-1:undefined} href={planPage+1<planPages?planHref({page:String(planPage+1)}):undefined}>›</a></nav>
                       </section>
                       <section className="guide-plan-route" aria-label="Farming world route"><FarmingItinerary plan={farmingPlan}/></section>
                     </div>

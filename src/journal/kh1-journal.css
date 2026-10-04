@@ -193,3 +193,21 @@
  .kh1-farming .kh1-bottom{height:28px;min-height:28px;font-size:12px;padding:2px 5%}.kh1-farming .kh1-bottom>a{font-size:12px}
  .kh1-farming .kh1-spiral i:nth-child(even){display:none}
 }
+@media(max-width:650px) and (max-height:700px){
+ .kh1-farming .kh1-heading{height:64px;min-height:64px;grid-template-columns:minmax(0,1fr) max-content;gap:8px;padding:5px 14px}
+ .kh1-farming .kh1-heading-menu{display:none}.kh1-farming .kh1-heading h1{font-size:20px}.kh1-farming .kh1-utilities{font-size:10px;gap:2px;padding:0}
+ .kh1-farming .kh1-spread>.kh1-leaf-left,.kh1-farming .kh1-spread>.kh1-leaf-right{padding:10px 15px}
+ .kh1-farming .kh1-entry-category{display:none}.kh1-farming .kh1-book-tabs{font-size:12px;margin-bottom:5px;padding-bottom:5px;gap:10px}
+ .kh1-farming .kh1-farming-index>.kh1-small{display:none}.kh1-farming .farming-plan-help{font-size:10px;line-height:1.2;margin:4px 0}
+ .kh1-farming .kh1-page-controls{height:34px;padding:0;font-size:13px;margin-top:0}
+ .kh1-farming .farming-material-row{padding-top:2px;padding-bottom:5px}
+}
+@media(max-height:500px) and (min-width:651px){
+ .kh1-farming .kh1-heading{height:50px;min-height:50px}
+ .kh1-farming .kh1-utilities{font-size:10px;line-height:1.1}
+ .kh1-farming .kh1-filters label>span{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
+ .kh1-farming .kh1-filters label{gap:0}
+}
+/* A failed-save notice must not evict the count field being repaired. */
+.kh1-farming .kh1-volume{position:relative}
+.kh1-farming .kh1-save-error{position:absolute;z-index:15;inset:0 0 auto;padding:8px 4%;max-height:90px;overflow:auto;font-size:12px;line-height:1.35}

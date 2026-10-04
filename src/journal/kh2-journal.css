@@ -167,3 +167,21 @@
  .kh2-farming .kh2-rings i:nth-child(even){display:none}
 }
 @media(max-height:500px) and (min-width:651px){.kh2-farming .kh2-left{padding-right:30px}.kh2-farming .kh2-right{padding-left:30px}}
+@media(max-width:650px) and (max-height:700px){
+ .kh2-farming .kh2-header{height:60px;min-height:60px;padding:5px 9px}
+ .kh2-farming .kh2-header-controls>a,.kh2-farming .kh2-header-controls>h1{font-size:11px;padding:3px 7px}
+ .kh2-farming .kh2-ribbons>a,.kh2-farming .kh2-ribbons>span{font-size:11px;padding:1px 8px}
+ .kh2-farming .kh2-watermark{display:none}
+ .kh2-farming .kh2-leaf{padding:10px 15px}
+ .kh2-farming .kh2-left>h2{display:none}
+ .kh2-farming .kh2-workshop-tabs{font-size:12px;gap:8px;flex-wrap:nowrap;margin-bottom:6px}
+ .kh2-farming .kh2-filters{margin-bottom:4px}
+ .kh2-farming .kh2-filters label>span{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
+ .kh2-farming .farming-plan-help{font-size:10px;line-height:1.2;margin:4px 0}
+ .kh2-farming .kh2-pagination{min-height:34px;margin-top:0;font-size:13px}
+ .kh2-farming .kh2-pagination a{width:44px;height:34px}
+}
+@media(max-height:500px) and (min-width:651px){
+ .kh2-farming .kh2-header{height:46px;min-height:46px;padding-top:2px;padding-bottom:2px}
+ .kh2-farming .kh2-leaf{padding-top:5px;padding-bottom:5px}
+}

@@ -1,13 +1,19 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 
 /** Keep compact rows, and spend the available leaf height on more entries. */
-export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = false) {
+export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = false, navigationKey = scope) {
   const ref = useRef<HTMLElement>(null);
   const [capacity, setCapacity] = useState(5);
+  const [anchorId, setAnchorId] = useState('');
+  useLayoutEffect(() => setAnchorId(''), [navigationKey]);
   const measured = useRef({scope: '', width: 0, height: 0, row: minimumRowHeight});
   useLayoutEffect(() => {
     const node = ref.current;
     if (!node) return;
+    // Error messages can change a count row's height. Keep the material being
+    // edited on the resulting page rather than unmounting its unsaved draft.
+    const anchor = (event: Event) => setAnchorId((event as CustomEvent<string>).detail);
+    node.addEventListener('farming-material-activity', anchor);
     let disposed = false;
     const measure = () => {
       if (disposed || !node.clientHeight || !node.clientWidth) return;
@@ -29,7 +35,7 @@ export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = fa
     for (const child of node.children) observer.observe(child);
     measure();
     void document.fonts.ready.then(measure);
-    return () => { disposed = true; observer.disconnect(); };
+    return () => { disposed = true; observer.disconnect(); node.removeEventListener('farming-material-activity', anchor); };
   });
-  return {ref, capacity};
+  return {ref, capacity, anchorId, clearAnchor: () => setAnchorId('')};
 }

@@ -59,7 +59,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   const [leaf,setLeaf]=useState('left');
   const main=useRef<HTMLElement>(null);
   const selectedId=params.get('entry')||params.get('item');
-  const {ref:indexRef,capacity}=useIndexCapacity(`${section}:${tab}:${world}:${q}:${status}`,workshop&&tab==='plan'?116:44);
+  const {ref:indexRef,capacity,anchorId,clearAnchor}=useIndexCapacity(`${section}:${tab}:${world}:${q}:${status}`,workshop&&tab==='plan'?116:44,false,route);
   const entries=guide.entries;
   const treasureMode=hasTreasureBoard(guide.id,route);
   const byId=new Map(entries.map(e=>[e.id,e]));
@@ -94,7 +94,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   }
   const farmingPlan=buildGuideFarmingPlan(guide,materials,profile.owned,profile.targets);
   const pages=Math.max(1,Math.ceil(indexItems.length/capacity));
-  const selectedIndex=indexItems.findIndex(e=>e.id===selectedId);
+  const selectedIndex=indexItems.findIndex(e=>e.id===((workshop&&tab==='plan'&&anchorId)||selectedId));
   const page=Math.min(pages-1,Math.max(0,selectedIndex>=0?Math.floor(selectedIndex/capacity):Math.floor(Number(params.get('page')))||0));
   const shown=indexItems.slice(page*capacity,(page+1)*capacity);
   const selected=shown.find(e=>e.id===selectedId)||shown[0];
@@ -120,7 +120,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
     return update(p=>{const values={...p[field]};if(value===undefined)delete values[id];else values[id]=value;return {...p,[field]:values};});
   }
   const currentBookmark=workshop?`Synthesis · ${{recipes:'Recipes',materials:'Materials',plan:'Farming Plan'}[tab]}`:title;
-  const pageControls=<nav className="kh2-pagination" aria-label="Index pages"><a aria-label="Previous index page" aria-disabled={page===0} tabIndex={page===0?-1:undefined} href={page===0?undefined:withParams({page:String(page-1),entry:'',item:''})}>◀</a><span>{page+1} / {pages}</span><a aria-label="Next index page" aria-disabled={page+1>=pages} tabIndex={page+1>=pages?-1:undefined} href={page+1>=pages?undefined:withParams({page:String(page+1),entry:'',item:''})}>▶</a></nav>;
+  const pageControls=<nav className="kh2-pagination" aria-label="Index pages" onClick={e=>{if((e.target as Element).closest('a[href]'))clearAnchor();}}><a aria-label="Previous index page" aria-disabled={page===0} tabIndex={page===0?-1:undefined} href={page===0?undefined:withParams({page:String(page-1),entry:'',item:''})}>◀</a><span>{page+1} / {pages}</span><a aria-label="Next index page" aria-disabled={page+1>=pages} tabIndex={page+1>=pages?-1:undefined} href={page+1>=pages?undefined:withParams({page:String(page+1),entry:'',item:''})}>▶</a></nav>;
   function worldArt() {
     return <div className={`kh2-world-picture ${worldPreview?.name==='Port Royal'?'':'kh2-world-emblem'}`}><img src={asset+(worldPreview?.name==='Port Royal'?'port-royal-world.png':'gold-crown.png')} alt={worldPreview?.name==='Port Royal'?'Port Royal':''}/>{worldPreview?.name!=='Port Royal'&&<span>{worldPreview?.name||'Jiminy’s Journal'}</span>}</div>;
   }
@@ -139,7 +139,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
           {cover?<div className="kh2-world-title">{world==='Port Royal'?<img src={asset+'port-royal-logo.png'} alt="Port Royal"/>:<h2>{world}</h2>}</div>:<h2>{title}</h2>}
           {workshop&&<nav className="kh2-workshop-tabs" aria-label="Synthesis sections">{[['recipes','Recipes'],['materials','Materials'],['plan','Farming Plan']].map(([id,label])=><a key={id} href={href(`workshop/${id}`)} aria-current={tab===id?'page':undefined}>{label}</a>)}</nav>}
           {!worlds&&!collection&&!cover&&!progress&&known&&<form className={`kh2-filters ${workshop?'kh2-workshop-filters':''}`} onSubmit={e=>{e.preventDefault();location.hash=withParams({q:search,page:'',entry:'',item:''});}}>
-            <label className="kh2-search-label"><span>Find {workshop&&tab==='recipes'?'a recipe':'an entry'}</span><input type="search" value={search} onChange={e=>setSearch(e.target.value)}/></label><button type="submit">Find</button>
+            <label className="kh2-search-label"><span>Find {workshop&&tab==='recipes'?'a recipe':'an entry'}</span><input type="search" placeholder={workshop&&tab==='plan'?'Material name…':undefined} value={search} onChange={e=>setSearch(e.target.value)}/></label><button type="submit">Find</button>
             {(!workshop||tab==='materials')&&<label>World<select value={world} onChange={e=>{location.hash=withParams({world:e.target.value,page:'',entry:''});}}><option value="">All worlds</option>{guide.worlds.map(w=><option key={w.name}>{w.name}</option>)}</select></label>}
             {(!workshop||tab==='recipes')&&<label>Show<select value={status} onChange={e=>{location.hash=withParams({status:e.target.value,page:'',entry:''});}}><option value="">All entries</option><option value="remaining">Remaining</option><option value="done">Completed</option></select></label>}
           </form>}
