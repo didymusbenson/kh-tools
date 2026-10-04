@@ -16,9 +16,9 @@ Authorized implementation of the seven-game [approved direction](../ui/treasure-
 ## Final local validation
 
 - Production content/pack validation, TypeScript and Vite/PWA build passed.
-- All **230 unit tests** passed, including 38 new mapping/backup, 6 projection/route and 3 strict save-acknowledgment tests.
+- All **231 unit tests** passed, including 38 new mapping/backup, 7 projection/route and 3 strict save-acknowledgment tests.
 - Python pack **7/7** and seed **2/2** passed. The pinned Chroma dependency was installed in a temporary test environment; no dependency changes were required.
-- The complete focused production browser suite passed **60/60** across desktop and mobile Chromium emulation, with offline enabled. Includes 320×568 marked/Undo/filter bounds, short landscape reflow, keyboard/reduced motion, ID-only deep links, Back/Forward/focus, native character restoration, cross-tab and failed storage.
+- The complete combined production browser run passed **92/92** across desktop and mobile Chromium emulation, with offline enabled automatically under `CI=1`: 60 feature cases and 32 existing DDD regression cases migrated to the approved board interactions. Fixed native-frame and summary no-scroll assertions were preserved; a genuine 44px frame shift was repaired. Includes 320×568 marked/Undo/filter bounds, short landscape reflow, keyboard/reduced motion, ID-only deep links, Back/Forward/focus, native character restoration, cross-tab and failed storage.
 - BBS/DDD and KH1/KH2/KH3 deterministic metadata checks passed. All checkable original IDs remain in their original catalogues; old backup maps preserve true/false and excluded tutorial records.
 - Representative desktop screenshots for all seven games plus KH2 phone and Re:CoM 320px were visually reviewed. Native references informed the framing; this does not certify unverified slot geometry or art parity.
 - `git diff --check` passed.
@@ -34,3 +34,5 @@ Known inherited baseline: full browser suite had 50 legacy failures and 2 skips 
 - KH1/Re:CoM/0.2 boards are companion additions. KH1 numbering stays stable across physical/other acquisition subsets. KH2 geometry is adaptive, not asserted as native. KH3 eight-column base geometry is supported; Re Mind geometry remains unverified.
 - A scoped KH3 treasure panel was implemented, not the unrelated full Gummiphone UI plan. No new artwork rights, gameplay verification, controller testing or physical iPhone acceptance is claimed.
 - Changes are on a feature branch. Master merge, Pages deployment and live-release verification require the separate release decision.
+
+The final entry-flow check also verifies that Re:CoM’s native Worlds & Rewards index opens finite Sora world boards directly. Riku and 100 Acre Wood remain in their original tracks.

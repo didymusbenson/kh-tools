@@ -46,7 +46,7 @@ export function hasTreasureBoard(game:string, route:string) {
   if(game==='kh1fm'&&params.get('list')==='postcards')return false;
   const selected=params.get('entry')||params.get('item')||(section==='entry'?safeDecode(path.split('/').slice(2).join('/')):'');
   if(selected)return !!treasureMap(game)?.records.some(m=>m.id===selected&&m.included);
-  if(game==='recom')return section==='rewards'&&params.get('campaign')!=='riku';
+  if(game==='recom')return params.get('campaign')!=='riku'&&(section==='rewards'||(section==='worlds'&&!!params.get('world')&&!!treasureMap(game)?.records.some(m=>m.included&&m.world===params.get('world'))));
   return section==='treasures';
 }
 export function scopeLabel(scope:string) {return ({main:'Main story',prologue:'Prologue guide',secret:'Secret Episode',remind:'Re Mind'} as Record<string,string>)[scope]||scope;}

@@ -123,7 +123,10 @@ test('a failed write is announced and cannot claim collection success',async({pa
 });
 
 test('Re:CoM reward claims never mark card discovery or add a Riku reward board',async({page})=>{
- const reward=first('recom');await open(page,'recom',reward.id);
+ const reward=first('recom');
+ await page.goto('./#/recom/worlds?campaign=sora');
+ await page.getByRole('navigation',{name:'Worlds',exact:true}).getByRole('link',{name:/^Traverse Town/}).click();
+ await expect(board(page)).toBeVisible();await expectSelected(page,reward.id);await expect(check(page)).toBeEnabled();
  await check(page).click();await expect(saved(page)).toContainText('Marked collected.');
  const card='recom-sora-card-attack-lionheart';
  expect((await profile(page,'recom')).checks[card]).not.toBe(true);
@@ -178,7 +181,7 @@ test('short landscape reflow keeps controls and complete note pagination reachab
 });
 
 test('production bundles reopen all seven treasure grids offline with saved checks @offline',async({page,context})=>{
- test.skip(process.env.ARS_TEST_OFFLINE!=='1','Requires the freshly built production preview and explicit ARS_TEST_OFFLINE=1.');
+ test.skip(!process.env.CI&&process.env.ARS_TEST_OFFLINE!=='1','Requires the freshly built production preview: CI or explicit ARS_TEST_OFFLINE=1.');
  test.setTimeout(120_000);
  for(const game of games){await open(page,game);await check(page).click();await expect(saved(page)).toContainText('Marked collected.');}
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;});await page.reload();

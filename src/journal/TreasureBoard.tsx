@@ -105,7 +105,7 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  const scopeChoices=[...new Set(partitions.filter(p=>!character||character==='all'||p.character===character).map(p=>p.scope))];
  function moveMatch(direction:number){const at=matches.findIndex(c=>c.entry.id===selected?.entry.id);const target=matches[(at+direction+matches.length)%matches.length];if(target)select(target,'grid');}
  const controls=<div className="treasure-selectors">
-   {characters.length>1&&<label>Character<select aria-label="Treasure character" value={character} onChange={e=>changeCharacter(e.target.value)}><option value="">All characters</option>{characters.map(c=><option key={c}>{c}</option>)}</select></label>}
+   {characters.length>1&&game!=='dddhd'&&<label>Character<select aria-label="Treasure character" value={character} onChange={e=>changeCharacter(e.target.value)}><option value="">All characters</option>{characters.map(c=><option key={c}>{c}</option>)}</select></label>}
    {scopeChoices.length>1&&<label>Story<select aria-label="Treasure story" value={scope} onChange={e=>go({scope:e.target.value,world:undefined,entry:undefined,board:undefined,page:undefined})}><option value="">All stories</option>{scopeChoices.map(s=><option value={s} key={s}>{scopeLabel(s)}</option>)}</select></label>}
  </div>;
  if(!partition&&game==='kh3'&&params.get('overview')!=='list')return <TreasureGroupedOverview partitions={scoped} checks={checks} header={<><div className="treasure-heading"><h2>Treasures</h2><strong>{done} / {total} {unit}</strong><a href={link({overview:'list'})}>World list</a></div>{controls}</>} open={cell=>select(cell,'grid')}/>;

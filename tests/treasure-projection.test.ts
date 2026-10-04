@@ -39,6 +39,11 @@ describe('treasure presentation projections',()=>{
   expect(treasureMatches(cell,{}, {q:'no-such-treasure-name'})).toBe(false);
   expect(p.cells.map(c=>c.entry.id)).toEqual(ids);
  });
+ it('opens finite ReCoM world claims from native Worlds navigation without fabricating Riku rewards',()=>{
+  expect(hasTreasureBoard('recom','recom/worlds?campaign=sora&world=Traverse%20Town')).toBe(true);
+  expect(hasTreasureBoard('recom','recom/worlds?campaign=riku&world=Traverse%20Town')).toBe(false);
+  expect(hasTreasureBoard('recom','recom/worlds?campaign=sora&world=100%20Acre%20Wood')).toBe(false);
+ });
  it('normalizes selected deep links into the owner, world and canonical treasure section',()=>{
   const cell=treasurePartitions('bbsfm',bbs.entries).find(p=>p.character==='Aqua')!.cells[0];
   const route=normalizeTreasureRoute('bbsfm',`bbsfm/entry/${encodeURIComponent(cell.entry.id)}`);

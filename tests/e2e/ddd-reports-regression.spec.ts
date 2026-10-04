@@ -1,5 +1,6 @@
 import {test, expect, type Page, type Locator} from '@playwright/test';
 import {readFileSync} from 'node:fs';
+import {entryTitle} from '../../src/domain/entryPresentation';
 
 const guide=JSON.parse(readFileSync('src/games/dddhd/content.json','utf8'));
 const sora=guide.entries.find((e:any)=>e.category==='treasures'&&e.character==='Sora');
@@ -7,7 +8,9 @@ const riku=guide.entries.find((e:any)=>e.category==='treasures'&&e.character==='
 const recipe=guide.recipes.find((r:any)=>r.id==='dddhd:recipe:aura-lion:source-1');
 const material=guide.entries.find((e:any)=>e.id===recipe.ingredients[0].id);
 const path=(section:string,values:Record<string,string>={})=>`./#/dddhd/${section}${Object.keys(values).length?'?'+new URLSearchParams(values):''}`;
-const checkbox=(page:Page,e:any)=>page.getByRole('checkbox',{name:`Complete ${e.name}${e.character?` (${e.character})`:''}`,exact:true});
+const checkbox=(page:Page,e:any)=>page.getByRole('checkbox',{name:e.category==='treasures'?`Collected ${entryTitle(e)}`:`Complete ${e.name}${e.character?` (${e.character})`:''}`,exact:true});
+const treasureSave=(page:Page)=>page.locator('.treasure-save:visible');
+const treasureTotal=(page:Page)=>page.getByTestId('treasure-summary').locator('.treasure-heading > span');
 async function profile(page:Page){
  return page.evaluate(()=>new Promise<any>((resolve,reject)=>{
   const request=indexedDB.open('ars-arcanum-guides',1);
@@ -28,8 +31,8 @@ async function revealNote(page:Page,target:Locator){
 test('DDD character-scoped records sync through search, history, reload and another tab',async({page,context})=>{
  await page.goto(path('treasures',{character:'Sora',entry:sora.id}));
  await expect(checkbox(page,sora)).toBeEnabled();
- await checkbox(page,sora).check();
- await expect(page.locator('.ddd-save')).toContainText('Record saved.');
+ await checkbox(page,sora).click();
+ await expect(treasureSave(page)).toContainText('Marked collected.');
  await page.reload();await expect(checkbox(page,sora)).toBeChecked();
  await page.goto(path('search',{q:sora.reward,entry:sora.id}));
  await expect(checkbox(page,sora)).toBeChecked();
@@ -38,23 +41,29 @@ test('DDD character-scoped records sync through search, history, reload and anot
  await page.goBack();await expect(checkbox(page,sora)).toBeChecked();
  const other=await context.newPage();await other.goto(path('treasures',{entry:sora.id}));
  await expect(checkbox(other,sora)).toBeChecked();
- await checkbox(page,sora).uncheck();
+ await checkbox(page,sora).click();
  await expect(checkbox(other,sora)).not.toBeChecked();
  await other.close();
 });
 
 test('DDD displayed treasure totals do not shrink with search or completion filters',async({page})=>{
  await page.goto(path('treasures',{character:'Sora'}));
- const total=page.getByTestId('ddd-category-progress');
- await expect(total).toContainText('225');
- const full=await total.innerText();
- await page.getByRole('searchbox',{name:'Find an entry'}).fill(sora.reward);
+ await expect(treasureTotal(page)).toHaveText('0 / 225 chests');
+ const full=await treasureTotal(page).innerText();
+ await page.getByTestId('treasure-summary').getByRole('link',{name:new RegExp(sora.world)}).click();
+ const worldTotal=page.getByTestId('treasure-count'),worldFull=await worldTotal.innerText();
+ await page.getByRole('button',{name:'Find & filter',exact:true}).click();
+ await page.getByRole('searchbox',{name:'Find a treasure',exact:true}).fill(sora.reward);
  await page.getByRole('button',{name:'Find',exact:true}).click();
- await expect(total).toHaveText(full);
- await page.getByRole('combobox',{name:'Completion',exact:true}).selectOption('remaining');
- await expect(total).toHaveText(full);
+ await expect(worldTotal).toHaveText(worldFull);
+ await page.getByRole('button',{name:'Find & filter',exact:true}).click();
+ await page.getByRole('combobox',{name:'Treasure status',exact:true}).selectOption('remaining');
+ await page.getByRole('button',{name:'Close filters',exact:true}).click();
+ await expect(worldTotal).toHaveText(worldFull);
+ await page.getByRole('link',{name:'All treasure worlds',exact:true}).click();
+ await expect(treasureTotal(page)).toHaveText(full);
  await page.getByRole('combobox',{name:'Filter by character',exact:true}).selectOption('Riku');
- await expect(total).toContainText('213');
+ await expect(treasureTotal(page)).toHaveText('0 / 213 chests');
 });
 
 test('DDD recipe targets add, unknown stock differs from zero, and creating spends nothing',async({page})=>{
@@ -91,8 +100,8 @@ test('DDD recipe targets add, unknown stock differs from zero, and creating spen
 });
 
 test('DDD backup export, import and recovery preserve canonical progress',async({page})=>{
- await page.goto(path('treasures',{entry:sora.id}));await checkbox(page,sora).check();
- await expect(page.locator('.ddd-save')).toContainText('Record saved.');
+ await page.goto(path('treasures',{entry:sora.id}));await checkbox(page,sora).click();
+ await expect(treasureSave(page)).toContainText('Marked collected.');
  await page.goto(path('progress'));
  const exported=page.waitForEvent('download');
  await page.getByRole('button',{name:'Export backup'}).click();
@@ -117,14 +126,15 @@ test('DDD failed writes remain visibly unsuccessful and do not change persisted 
   };
  },{id:sora.id});
  await page.goto(path('treasures',{entry:sora.id}));await checkbox(page,sora).click();
- await expect(page.getByRole('alert')).toContainText('Test storage is full');
+ await expect(page.locator('.ddd-error[role=alert]')).toContainText('Test storage is full');
+ await expect(page.locator('.treasure-save-error:visible')).toContainText('Could not save');
  await expect(checkbox(page,sora)).not.toBeChecked();
  expect((await profile(page)).checks[sora.id]).not.toBe(true);
 });
 
 test('DDD installed journal reopens offline with saved state and supplied guidance',async({page,context})=>{
- await page.goto(path('treasures',{entry:sora.id}));await checkbox(page,sora).check();
- await expect(page.locator('.ddd-save')).toContainText('Record saved.');
+ await page.goto(path('treasures',{entry:sora.id}));await checkbox(page,sora).click();
+ await expect(treasureSave(page)).toContainText('Marked collected.');
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
  await page.reload();await expect.poll(()=>page.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);
  await context.setOffline(true);await page.reload();
