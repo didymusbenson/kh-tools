@@ -1,0 +1,4487 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-10-04",
+  "repository": "didymusbenson/kh-tools",
+  "baselineCommit": "9f5b5e1550483cc5c8c9ded2ba98f9a8ee19b950",
+  "purpose": "Research inventory for per-world treasure grids and acquisition-detail views. Documentation only; no runtime implementation or progress migration.",
+  "evidenceDefinitions": {
+    "directlyCorroborated": "An inspected game image identifies an exact selected reward/position. Only the observed pair/state is corroborated; capture platform/build may still be unknown.",
+    "sourceSupportedNativeOrder": "A source explicitly describes journal order, with identity cross-check. Not hands-on target-edition gameplay verification.",
+    "sourceNumberCandidate": "A number from a canonical extraction/source table. It must not be presented as an official journal slot without order evidence and a scoped identity join.",
+    "appDefined": "Companion ordering for scope without a native treasure sequence; never claim Journal slot numbering."
+  },
+  "countingWarning": "Game counts have different units/scopes and must not be summed into one chest total. No explicit typed journalSlot field exists in any current runtime schema; some generic order fields are extraction order.",
+  "games": {
+    "kh1fm": {
+      "recommendation": "Explicit app-only Treasures and World Rewards chapter in KH1 green/purple/ruled-paper visual language. A per-world square tracker may be offered as guide order, never native Journal order. Separate rewards from physical containers before selecting chest icons.",
+      "nativeTreasureJournal": false,
+      "nativeTreasureJournalConfidence": "High: native section roster excludes treasures; repository UI plan explicitly categorizes guide/tool additions as no native counterpart. Existing inspected images are Report index and Character detail only.",
+      "runtime": "public/data/kh1fm.json",
+      "authoring": "data/kh1fm/collectibles.json",
+      "generator": "tools/content/import-collectibles.py",
+      "runtimeTreasureCategoryCount": 306,
+      "worlds": [
+        {
+          "world": "Destiny Islands",
+          "total": 4,
+          "containerOrOneTimeReward": 1,
+          "oneTimeReward": 3
+        },
+        {
+          "world": "Traverse Town",
+          "total": 33,
+          "containerOrOneTimeReward": 14,
+          "oneTimeReward": 19
+        },
+        {
+          "world": "Wonderland",
+          "total": 23,
+          "containerOrOneTimeReward": 22,
+          "oneTimeReward": 1
+        },
+        {
+          "world": "Olympus Coliseum",
+          "total": 18,
+          "containerOrOneTimeReward": 7,
+          "oneTimeReward": 11
+        },
+        {
+          "world": "Deep Jungle",
+          "total": 30,
+          "containerOrOneTimeReward": 15,
+          "oneTimeReward": 15
+        },
+        {
+          "world": "Agrabah",
+          "total": 34,
+          "containerOrOneTimeReward": 32,
+          "oneTimeReward": 2
+        },
+        {
+          "world": "Monstro",
+          "total": 16,
+          "containerOrOneTimeReward": 16,
+          "oneTimeReward": 0
+        },
+        {
+          "world": "Atlantica",
+          "total": 25,
+          "containerOrOneTimeReward": 24,
+          "oneTimeReward": 1
+        },
+        {
+          "world": "Halloween Town",
+          "total": 16,
+          "containerOrOneTimeReward": 15,
+          "oneTimeReward": 1
+        },
+        {
+          "world": "Neverland",
+          "total": 21,
+          "containerOrOneTimeReward": 19,
+          "oneTimeReward": 2
+        },
+        {
+          "world": "100 Acre Wood",
+          "total": 23,
+          "containerOrOneTimeReward": 13,
+          "oneTimeReward": 10
+        },
+        {
+          "world": "Hollow Bastion",
+          "total": 37,
+          "containerOrOneTimeReward": 34,
+          "oneTimeReward": 3
+        },
+        {
+          "world": "End of the World",
+          "total": 26,
+          "containerOrOneTimeReward": 26,
+          "oneTimeReward": 0
+        }
+      ],
+      "countingUnitPartition": {
+        "containerOrOnceOnlyReward": 238,
+        "oneTimeReward": 68
+      },
+      "nativeSlotMapping": {
+        "certified": 0,
+        "sourceSupported": 0,
+        "notApplicable": 306
+      },
+      "semanticExamplesWithin238": {
+        "clamRecordsExplicitInRuntimeProse": 16,
+        "seaUrchinShellRecords": 1,
+        "timedClockTowerDoorRecordsWithClockHourMetadata": 12,
+        "remainingRowsNotPhysicallyClassifiedByThisAudit": 209,
+        "warning": "These are mutually distinct identifiable groups, not a complete chest/container taxonomy. Remaining 209 must not be called confirmed chests."
+      },
+      "independentPhysicalInventory": {
+        "path": "tools/content/import-collectibles.sources.json",
+        "source": "https://github.com/ArchipelagoMW/Archipelago/blob/1322ce866eddb1ccf0ca042db93ceef8789d6029/worlds/kh1/Locations.py",
+        "count": 216,
+        "runtimeCrosswalkExists": false,
+        "caveat": "Vanilla chest locations used by the Final Mix PC randomizer; not randomized reward contents. Atlantica clam/static rewards and other static acquisitions are not typed Chest. Temporary story containers may be included. The 216 count spans distinct scope and cannot replace 306, 238, or a chest-grid denominator."
+      },
+      "otherChestBackedCategories": "33 puppy-group records, postcards, torn pages, and conditional/Trinity-related acquisitions use other canonical identities. A physical chest-only screen needs an explicit cross-category acquisition map, with one saved identity per acquisition.",
+      "ordering": "order is assigned from len(E) at import-collectibles.py:16; id suffix derives from source-table index n+1 at line 141. Neither is a native Journal index. Kh1Journal.tsx preserves array order except puppy sort.",
+      "sources": [
+        "https://www.khwiki.com/Jiminy%27s_Journal",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland"
+      ],
+      "blockers": [
+        "Decide companion-only square tracker versus retaining the native-style chapter index. Native treasure replication is not a valid KH1 target.",
+        "Define a finite chest/container/gift schema and canonical acquisition crosswalk before claiming a physical chest denominator.",
+        "Preserve the 68 reward entries and specialist collections; never discard them to fit chest geometry."
+      ]
+    },
+    "recom": {
+      "game": "recom",
+      "runtimePath": "src/games/recom/ui-data.json",
+      "sourcePath": "ai_docs/games/recom/worlds-and-rewards.json",
+      "recordCount": 41,
+      "countedAcquisitions": 41,
+      "nativeTreasureSlotOrder": "not-applicable",
+      "explicitRuntimeJournalSlots": 0,
+      "sourceSupportedBountyPriorities": 17,
+      "certifiedNativeTreasureSlots": 0,
+      "partitions": [
+        {
+          "world": "Traverse Town",
+          "Sora": 3
+        },
+        {
+          "world": "Wonderland",
+          "Sora": 3
+        },
+        {
+          "world": "Olympus Coliseum",
+          "Sora": 3
+        },
+        {
+          "world": "Agrabah",
+          "Sora": 3
+        },
+        {
+          "world": "Halloween Town",
+          "Sora": 3
+        },
+        {
+          "world": "Monstro",
+          "Sora": 3
+        },
+        {
+          "world": "Atlantica",
+          "Sora": 4
+        },
+        {
+          "world": "Neverland",
+          "Sora": 3
+        },
+        {
+          "world": "Hollow Bastion",
+          "Sora": 3
+        },
+        {
+          "world": "Twilight Town",
+          "Sora": 4
+        },
+        {
+          "world": "Destiny Islands",
+          "Sora": 4
+        },
+        {
+          "world": "Castle Oblivion",
+          "Sora": 5
+        }
+      ],
+      "rewardMethods": {
+        "room-of-rewards-base": 12,
+        "room-of-rewards-days": 12,
+        "bounty": 17
+      },
+      "boundaries": [
+        "Sora only; Riku has no World Rewards collection",
+        "100 Acre Wood has no scoped reward-room/bounty records, not missing chest slots",
+        "Finite claims, not generated physical rooms or repeat/random chests",
+        "Base and Days are two distinct claims per applicable world; bounty priority is not native journal position",
+        "Card Collection is separately tracked: Sora 152, Riku 59; no automatic linking of checks is proposed"
+      ],
+      "pixelReferences": [
+        "ai_docs/ui/references/recom/sora-journal-root-0010.png",
+        "ai_docs/ui/references/recom/sora-card-collection-0520.png"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=10s",
+        "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=320s",
+        "https://www.khwiki.com/Map_Card#Room_of_Rewards",
+        "https://www.khwiki.com/World_Cards"
+      ]
+    },
+    "kh2fm": {
+      "runtime": "src/games/kh2fm/catalog.ts",
+      "schema": "src/games/types.ts:1-20",
+      "generator": "src/games/kh2fm/generate.py:19-28",
+      "numberSource": "ai_docs/games/kh2fm/treasure-candidates.md",
+      "routeResearch": "ai_docs/games/kh2fm/treasure-locations.json",
+      "recommendation": "Per-world fixed-slot square Treasures grid in the KH2 book, selected acquisition detail on the facing page. Keep all native slots in place during completion filters; emphasize remaining slots instead of collapsing positions. Use source-supported Journal numbers explicitly separated from persistence IDs.",
+      "numberedSoraTreasures": 301,
+      "worldCounts": {
+        "Twilight Town": 39,
+        "Radiant Garden": 46,
+        "Beast's Castle": 21,
+        "Olympus Coliseum": 20,
+        "Agrabah": 26,
+        "The Land of Dragons": 21,
+        "100 Acre Wood": 20,
+        "Pride Lands": 25,
+        "Disney Castle": 8,
+        "Timeless River": 7,
+        "Halloween Town": 14,
+        "Port Royal": 21,
+        "Space Paranoids": 14,
+        "The World That Never Was": 19
+      },
+      "atlanticaNumberedTreasures": 0,
+      "allWorldOrdersContiguous": true,
+      "mappingPartition": {
+        "certifiedNativeVisual": 0,
+        "currentSecondaryExplicitMatchedReward": 188,
+        "currentSecondaryExplicitRewardConflict": 1,
+        "otherPriorSourceSupported": 112,
+        "total": 301
+      },
+      "coverageInterpretation": "All 301 have checked-in source-supported numbered rows and route review; this pass independently matched 188 item identities to explicitly declared Journal numbers. One current source reward conflict is already resolved by repo research. No complete native screenshot/video slot sweep has been performed.",
+      "khguidesCoverage": {
+        "url": "https://www.khguides.com/kh2/collectibles/treasures/",
+        "soraRows": 189,
+        "exactRewardStrings": 187,
+        "punctuationOnlyAliases": 1,
+        "rewardConflicts": [
+          {
+            "entryId": "kh2fm.treasure.disney-castle.07",
+            "world": "Disney Castle",
+            "nativeSlotNumberClaim": 7,
+            "runtimeReward": "Mythril Shard",
+            "sourceReward": "Blazing Shard",
+            "sourceArea": "Courtyard",
+            "basis": "KHGuides explicitly says its numbers follow Jiminy left-to-right, top-to-bottom; not game-pixel verification."
+          }
+        ],
+        "caveats": [
+          "The title says KH2FM but the table is incomplete: TT stops at 22, Hollow Bastion at 14, no Cavern, no 100 Acre Wood, no TWTNW.",
+          "Roxas section shows 14 naturally encountered chests, excluding two Dive to Heart chests; its page expressly says Roxas numbering is not Journal numbering.",
+          "Do not replace canonical Disney Castle #7 Mythril Shard with this source’s Blazing Shard."
+        ],
+        "matchedEntryIds": [
+          "kh2fm.treasure.twilight-town.01",
+          "kh2fm.treasure.twilight-town.02",
+          "kh2fm.treasure.twilight-town.03",
+          "kh2fm.treasure.twilight-town.04",
+          "kh2fm.treasure.twilight-town.05",
+          "kh2fm.treasure.twilight-town.06",
+          "kh2fm.treasure.twilight-town.07",
+          "kh2fm.treasure.twilight-town.08",
+          "kh2fm.treasure.twilight-town.09",
+          "kh2fm.treasure.twilight-town.10",
+          "kh2fm.treasure.twilight-town.11",
+          "kh2fm.treasure.twilight-town.12",
+          "kh2fm.treasure.twilight-town.13",
+          "kh2fm.treasure.twilight-town.14",
+          "kh2fm.treasure.twilight-town.15",
+          "kh2fm.treasure.twilight-town.16",
+          "kh2fm.treasure.twilight-town.17",
+          "kh2fm.treasure.twilight-town.18",
+          "kh2fm.treasure.twilight-town.19",
+          "kh2fm.treasure.twilight-town.20",
+          "kh2fm.treasure.twilight-town.21",
+          "kh2fm.treasure.twilight-town.22",
+          "kh2fm.treasure.radiant-garden.01",
+          "kh2fm.treasure.radiant-garden.02",
+          "kh2fm.treasure.radiant-garden.03",
+          "kh2fm.treasure.radiant-garden.04",
+          "kh2fm.treasure.radiant-garden.05",
+          "kh2fm.treasure.radiant-garden.06",
+          "kh2fm.treasure.radiant-garden.07",
+          "kh2fm.treasure.radiant-garden.08",
+          "kh2fm.treasure.radiant-garden.09",
+          "kh2fm.treasure.radiant-garden.10",
+          "kh2fm.treasure.radiant-garden.11",
+          "kh2fm.treasure.radiant-garden.12",
+          "kh2fm.treasure.radiant-garden.13",
+          "kh2fm.treasure.radiant-garden.14",
+          "kh2fm.treasure.space-paranoids.01",
+          "kh2fm.treasure.space-paranoids.02",
+          "kh2fm.treasure.space-paranoids.03",
+          "kh2fm.treasure.space-paranoids.04",
+          "kh2fm.treasure.space-paranoids.05",
+          "kh2fm.treasure.space-paranoids.06",
+          "kh2fm.treasure.space-paranoids.07",
+          "kh2fm.treasure.space-paranoids.08",
+          "kh2fm.treasure.space-paranoids.09",
+          "kh2fm.treasure.space-paranoids.10",
+          "kh2fm.treasure.the-land-of-dragons.01",
+          "kh2fm.treasure.the-land-of-dragons.02",
+          "kh2fm.treasure.the-land-of-dragons.03",
+          "kh2fm.treasure.the-land-of-dragons.04",
+          "kh2fm.treasure.the-land-of-dragons.05",
+          "kh2fm.treasure.the-land-of-dragons.06",
+          "kh2fm.treasure.the-land-of-dragons.07",
+          "kh2fm.treasure.the-land-of-dragons.08",
+          "kh2fm.treasure.the-land-of-dragons.09",
+          "kh2fm.treasure.the-land-of-dragons.10",
+          "kh2fm.treasure.the-land-of-dragons.11",
+          "kh2fm.treasure.the-land-of-dragons.12",
+          "kh2fm.treasure.the-land-of-dragons.13",
+          "kh2fm.treasure.beast-s-castle.04",
+          "kh2fm.treasure.beast-s-castle.05",
+          "kh2fm.treasure.beast-s-castle.06",
+          "kh2fm.treasure.beast-s-castle.07",
+          "kh2fm.treasure.beast-s-castle.08",
+          "kh2fm.treasure.beast-s-castle.09",
+          "kh2fm.treasure.beast-s-castle.10",
+          "kh2fm.treasure.beast-s-castle.11",
+          "kh2fm.treasure.beast-s-castle.12",
+          "kh2fm.treasure.beast-s-castle.13",
+          "kh2fm.treasure.beast-s-castle.14",
+          "kh2fm.treasure.beast-s-castle.15",
+          "kh2fm.treasure.beast-s-castle.16",
+          "kh2fm.treasure.beast-s-castle.17",
+          "kh2fm.treasure.beast-s-castle.18",
+          "kh2fm.treasure.beast-s-castle.19",
+          "kh2fm.treasure.beast-s-castle.20",
+          "kh2fm.treasure.beast-s-castle.21",
+          "kh2fm.treasure.olympus-coliseum.01",
+          "kh2fm.treasure.olympus-coliseum.02",
+          "kh2fm.treasure.olympus-coliseum.03",
+          "kh2fm.treasure.olympus-coliseum.04",
+          "kh2fm.treasure.olympus-coliseum.05",
+          "kh2fm.treasure.olympus-coliseum.06",
+          "kh2fm.treasure.olympus-coliseum.07",
+          "kh2fm.treasure.olympus-coliseum.08",
+          "kh2fm.treasure.olympus-coliseum.09",
+          "kh2fm.treasure.olympus-coliseum.10",
+          "kh2fm.treasure.olympus-coliseum.11",
+          "kh2fm.treasure.olympus-coliseum.12",
+          "kh2fm.treasure.olympus-coliseum.13",
+          "kh2fm.treasure.olympus-coliseum.14",
+          "kh2fm.treasure.olympus-coliseum.15",
+          "kh2fm.treasure.olympus-coliseum.16",
+          "kh2fm.treasure.olympus-coliseum.17",
+          "kh2fm.treasure.olympus-coliseum.18",
+          "kh2fm.treasure.olympus-coliseum.19",
+          "kh2fm.treasure.olympus-coliseum.20",
+          "kh2fm.treasure.disney-castle.01",
+          "kh2fm.treasure.disney-castle.02",
+          "kh2fm.treasure.disney-castle.03",
+          "kh2fm.treasure.disney-castle.04",
+          "kh2fm.treasure.disney-castle.05",
+          "kh2fm.treasure.disney-castle.06",
+          "kh2fm.treasure.disney-castle.08",
+          "kh2fm.treasure.timeless-river.01",
+          "kh2fm.treasure.timeless-river.02",
+          "kh2fm.treasure.timeless-river.03",
+          "kh2fm.treasure.timeless-river.04",
+          "kh2fm.treasure.timeless-river.05",
+          "kh2fm.treasure.timeless-river.06",
+          "kh2fm.treasure.timeless-river.07",
+          "kh2fm.treasure.port-royal.01",
+          "kh2fm.treasure.port-royal.02",
+          "kh2fm.treasure.port-royal.03",
+          "kh2fm.treasure.port-royal.04",
+          "kh2fm.treasure.port-royal.05",
+          "kh2fm.treasure.port-royal.06",
+          "kh2fm.treasure.port-royal.07",
+          "kh2fm.treasure.port-royal.08",
+          "kh2fm.treasure.port-royal.09",
+          "kh2fm.treasure.port-royal.10",
+          "kh2fm.treasure.port-royal.11",
+          "kh2fm.treasure.port-royal.12",
+          "kh2fm.treasure.port-royal.13",
+          "kh2fm.treasure.port-royal.14",
+          "kh2fm.treasure.agrabah.01",
+          "kh2fm.treasure.agrabah.02",
+          "kh2fm.treasure.agrabah.03",
+          "kh2fm.treasure.agrabah.04",
+          "kh2fm.treasure.agrabah.05",
+          "kh2fm.treasure.agrabah.06",
+          "kh2fm.treasure.agrabah.07",
+          "kh2fm.treasure.agrabah.08",
+          "kh2fm.treasure.agrabah.09",
+          "kh2fm.treasure.agrabah.10",
+          "kh2fm.treasure.agrabah.11",
+          "kh2fm.treasure.agrabah.12",
+          "kh2fm.treasure.agrabah.13",
+          "kh2fm.treasure.agrabah.14",
+          "kh2fm.treasure.agrabah.15",
+          "kh2fm.treasure.agrabah.16",
+          "kh2fm.treasure.agrabah.17",
+          "kh2fm.treasure.agrabah.18",
+          "kh2fm.treasure.agrabah.19",
+          "kh2fm.treasure.agrabah.20",
+          "kh2fm.treasure.agrabah.21",
+          "kh2fm.treasure.agrabah.22",
+          "kh2fm.treasure.agrabah.23",
+          "kh2fm.treasure.agrabah.24",
+          "kh2fm.treasure.halloween-town.01",
+          "kh2fm.treasure.halloween-town.02",
+          "kh2fm.treasure.halloween-town.03",
+          "kh2fm.treasure.halloween-town.04",
+          "kh2fm.treasure.halloween-town.05",
+          "kh2fm.treasure.halloween-town.06",
+          "kh2fm.treasure.halloween-town.07",
+          "kh2fm.treasure.halloween-town.08",
+          "kh2fm.treasure.halloween-town.09",
+          "kh2fm.treasure.halloween-town.10",
+          "kh2fm.treasure.halloween-town.11",
+          "kh2fm.treasure.halloween-town.12",
+          "kh2fm.treasure.halloween-town.13",
+          "kh2fm.treasure.halloween-town.14",
+          "kh2fm.treasure.pride-lands.01",
+          "kh2fm.treasure.pride-lands.02",
+          "kh2fm.treasure.pride-lands.03",
+          "kh2fm.treasure.pride-lands.04",
+          "kh2fm.treasure.pride-lands.05",
+          "kh2fm.treasure.pride-lands.06",
+          "kh2fm.treasure.pride-lands.07",
+          "kh2fm.treasure.pride-lands.08",
+          "kh2fm.treasure.pride-lands.09",
+          "kh2fm.treasure.pride-lands.10",
+          "kh2fm.treasure.pride-lands.11",
+          "kh2fm.treasure.pride-lands.12",
+          "kh2fm.treasure.pride-lands.13",
+          "kh2fm.treasure.pride-lands.14",
+          "kh2fm.treasure.pride-lands.15",
+          "kh2fm.treasure.pride-lands.16",
+          "kh2fm.treasure.pride-lands.17",
+          "kh2fm.treasure.pride-lands.18",
+          "kh2fm.treasure.pride-lands.19",
+          "kh2fm.treasure.pride-lands.20",
+          "kh2fm.treasure.pride-lands.21",
+          "kh2fm.treasure.pride-lands.22",
+          "kh2fm.treasure.pride-lands.23",
+          "kh2fm.treasure.pride-lands.24",
+          "kh2fm.treasure.pride-lands.25"
+        ]
+      },
+      "roxasPrologue": {
+        "count": 16,
+        "path": "ai_docs/games/kh2fm/verified-prologue-chests.json",
+        "nativeNumberedSlots": 0,
+        "countedIn301": false,
+        "localOrderMeaning": "Checklist order, not Jiminy Journal number.",
+        "includes": "Two Dive to Heart chests plus 14 Twilight Town prologue chests.",
+        "recommendation": "Separate Roxas Prologue companion checklist/grid. Explicitly label local order; do not place into Sora TT 39-slot grid."
+      },
+      "cavern": {
+        "count": 24,
+        "nativeWorld": "Radiant Garden / Hollow Bastion",
+        "slotRange": [
+          23,
+          46
+        ],
+        "countedIn301": true,
+        "firstSlotReward": "AP Boost",
+        "lastSlotReward": "Proof of Nonexistence",
+        "caveat": "Opening Proof chest is separate from defeating all 13 Data battles. Do not make Cavern a second counted world."
+      },
+      "aliasCategories": {
+        "treasureRecordsWithAdditionalCategoryAliases": 43,
+        "instruction": "Maps, pages, charms and recipe-document views reference existing chest check IDs. Preserve 301 denominator."
+      },
+      "schemaGap": "CollectionEntry has id, world, character and generic order but no journalSlot, slot provenance, physical row/column or confidence fields. Add mapping metadata rather than parsing id/name. Generator currently copies source table number to order; renderer currently maps filtered array order without explicit native-slot layout.",
+      "sources": [
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://www.khwiki.com/Game:Radiant_Garden",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ],
+      "blockers": [
+        "Capture native Treasures pixels showing column count, incomplete/complete/selected cells, item detail placement and overflow for 46-slot Radiant Garden.",
+        "Certify the 112 mappings outside current explicit KHGuides coverage against focused numbered evidence or game captures; retain existing provenance and the Disney #7 conflict resolution.",
+        "Create explicit journal slot metadata and invariant tests; validate per-world uniqueness/range/count without using an ID suffix as proof."
+      ]
+    },
+    "bbsfm": {
+      "runtimeTreasureRecords": 383,
+      "countedChestCandidates": 382,
+      "acquisitionOnlyRecords": 1,
+      "duplicateIds": 0,
+      "recordsWithSources": 383,
+      "explicitJournalSlotFields": 0,
+      "certifiedNativeSlotsTargetEdition": 0,
+      "sourceSupportedChestNumberCandidates": 382,
+      "unknownOrNotApplicableNativeSlotRecords": 1,
+      "partitions": [
+        {
+          "characterScope": "Terra",
+          "world": "Land of Departure",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Land of Departure",
+          "runtimeRecords": 1,
+          "countedChestCandidates": 0,
+          "acquisitionOnly": 1,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 0,
+          "excludedIds": [
+            "bbsfm:ventus:land-of-departure:tutorial-treasure:tutorial"
+          ]
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Land of Departure",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Dwarf Woodlands",
+          "runtimeRecords": 13,
+          "countedChestCandidates": 13,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 13,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Dwarf Woodlands",
+          "runtimeRecords": 14,
+          "countedChestCandidates": 14,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 14,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Dwarf Woodlands",
+          "runtimeRecords": 18,
+          "countedChestCandidates": 18,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 18,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Castle of Dreams",
+          "runtimeRecords": 11,
+          "countedChestCandidates": 11,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 11,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Castle of Dreams",
+          "runtimeRecords": 13,
+          "countedChestCandidates": 13,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 13,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Castle of Dreams",
+          "runtimeRecords": 8,
+          "countedChestCandidates": 8,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 8,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Enchanted Dominion",
+          "runtimeRecords": 10,
+          "countedChestCandidates": 10,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 10,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Enchanted Dominion",
+          "runtimeRecords": 19,
+          "countedChestCandidates": 19,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 19,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Enchanted Dominion",
+          "runtimeRecords": 14,
+          "countedChestCandidates": 14,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 14,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Radiant Garden",
+          "runtimeRecords": 14,
+          "countedChestCandidates": 14,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 14,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Radiant Garden",
+          "runtimeRecords": 16,
+          "countedChestCandidates": 16,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 16,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Radiant Garden",
+          "runtimeRecords": 16,
+          "countedChestCandidates": 16,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 16,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Disney Town",
+          "runtimeRecords": 16,
+          "countedChestCandidates": 16,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 16,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Disney Town",
+          "runtimeRecords": 18,
+          "countedChestCandidates": 18,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 18,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Disney Town",
+          "runtimeRecords": 17,
+          "countedChestCandidates": 17,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 17,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Olympus Coliseum",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Olympus Coliseum",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Olympus Coliseum",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Deep Space",
+          "runtimeRecords": 19,
+          "countedChestCandidates": 19,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 19,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Deep Space",
+          "runtimeRecords": 16,
+          "countedChestCandidates": 16,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 16,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Deep Space",
+          "runtimeRecords": 14,
+          "countedChestCandidates": 14,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 14,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Neverland",
+          "runtimeRecords": 20,
+          "countedChestCandidates": 20,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 20,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Neverland",
+          "runtimeRecords": 17,
+          "countedChestCandidates": 17,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 17,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Neverland",
+          "runtimeRecords": 16,
+          "countedChestCandidates": 16,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 16,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Mysterious Tower",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Mysterious Tower",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Mysterious Tower",
+          "runtimeRecords": 4,
+          "countedChestCandidates": 4,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 4,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Keyblade Graveyard",
+          "runtimeRecords": 7,
+          "countedChestCandidates": 7,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 7,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Keyblade Graveyard",
+          "runtimeRecords": 9,
+          "countedChestCandidates": 9,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 9,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Keyblade Graveyard",
+          "runtimeRecords": 7,
+          "countedChestCandidates": 7,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 7,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Aqua · Secret Episode",
+          "world": "Realm of Darkness",
+          "runtimeRecords": 8,
+          "countedChestCandidates": 8,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 8,
+          "excludedIds": []
+        }
+      ],
+      "ambiguousSameRewardSameAreaGroups": [
+        {
+          "characterScope": "Ventus",
+          "world": "Dwarf Woodlands",
+          "area": "Mountain Trail",
+          "reward": "Potion",
+          "ids": [
+            "bbsfm:ventus:dwarf-woodlands:treasure:12",
+            "bbsfm:ventus:dwarf-woodlands:treasure:14"
+          ]
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Castle of Dreams",
+          "area": "Mousehole",
+          "reward": "Potion",
+          "ids": [
+            "bbsfm:ventus:castle-of-dreams:treasure:4",
+            "bbsfm:ventus:castle-of-dreams:treasure:8"
+          ]
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Radiant Garden",
+          "area": "Aqueduct",
+          "reward": "Hi-Potion",
+          "ids": [
+            "bbsfm:aqua:radiant-garden:treasure:3",
+            "bbsfm:aqua:radiant-garden:treasure:5"
+          ]
+        },
+        {
+          "characterScope": "Terra",
+          "world": "Disney Town",
+          "area": "Gizmo Gallery",
+          "reward": "Thunder",
+          "ids": [
+            "bbsfm:terra:disney-town:treasure:9",
+            "bbsfm:terra:disney-town:treasure:10"
+          ]
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Disney Town",
+          "area": "Gizmo Gallery",
+          "reward": "Mega-Potion",
+          "ids": [
+            "bbsfm:ventus:disney-town:treasure:9",
+            "bbsfm:ventus:disney-town:treasure:13"
+          ]
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Disney Town",
+          "area": "Gizmo Gallery",
+          "reward": "Thunder",
+          "ids": [
+            "bbsfm:ventus:disney-town:treasure:11",
+            "bbsfm:ventus:disney-town:treasure:12"
+          ]
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Disney Town",
+          "area": "Gizmo Gallery",
+          "reward": "Mega-Potion",
+          "ids": [
+            "bbsfm:aqua:disney-town:treasure:7",
+            "bbsfm:aqua:disney-town:treasure:12"
+          ]
+        },
+        {
+          "characterScope": "Aqua",
+          "world": "Disney Town",
+          "area": "Gizmo Gallery",
+          "reward": "Thunder",
+          "ids": [
+            "bbsfm:aqua:disney-town:treasure:9",
+            "bbsfm:aqua:disney-town:treasure:10"
+          ]
+        },
+        {
+          "characterScope": "Ventus",
+          "world": "Deep Space",
+          "area": "Ship Corridor",
+          "reward": "Hi-Potion",
+          "ids": [
+            "bbsfm:ventus:deep-space:treasure:2",
+            "bbsfm:ventus:deep-space:treasure:5"
+          ]
+        }
+      ],
+      "runtimePaths": [
+        "src/games/bbsfm/content.json",
+        "src/games/bbsfm/generate.py",
+        "src/journal/BbsJournal.tsx"
+      ],
+      "mainChestCandidates": 374,
+      "mainByCharacter": {
+        "Terra": 122,
+        "Ventus": 130,
+        "Aqua": 122
+      },
+      "secretEpisodeChestCandidates": 8,
+      "mainWorldPartitionsWithChests": 32,
+      "secretWorldPartitions": 1,
+      "stickerCountSeparate": 60,
+      "orderSemantics": "Global CSV extraction index enumerate(inv); ID suffix and source_position are source-table numbers only.",
+      "denominatorContract": "Main Reports: Terra 122, Ventus 130, Aqua 122. Exclude Ventus tutorial Sliding Dash (collectible=false) from every native grid/denominator, retain acquisition detail and canonical ID. Keep 8 Aqua Secret Episode chests separate; Final Episode has no runtime treasure records. Stickers and Xehanort Report aliases do not add chest cells.",
+      "sourcePath": "ai_docs/games/bbsfm/collectible-inventory.csv",
+      "currentCounterRisk": "BbsJournal count() calls checkableEntries, which does not exclude collectible=false; treasure-category count includes tutorial while worldCollectibles() correctly excludes it.",
+      "referenceGridGeometry": "PSP first-hand Reports transcript supports nine item positions per row; no BBS treasure screenshot was present/inspected; target HD column geometry remains unverified.",
+      "orderSources": [
+        "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/faqs/62875",
+        "https://wikiwiki.jp/kh_bbsfm/宝物リスト/テラ",
+        "https://wikiwiki.jp/kh_bbsfm/宝物リスト/ヴェントゥス",
+        "https://wikiwiki.jp/kh_bbsfm/宝物リスト/アクア"
+      ],
+      "reopenedBoundary": "BBS-002 in ai_docs/games/bbsfm/critical-reaudit-2026-10-03.md explicitly reopens when in-game Reports-slot lookup is approved."
+    },
+    "dddhd": {
+      "runtimeTreasureRecords": 438,
+      "countedChestCandidates": 438,
+      "acquisitionOnlyRecords": 0,
+      "duplicateIds": 0,
+      "recordsWithSources": 438,
+      "explicitJournalSlotFields": 0,
+      "certifiedNativeSlotsTargetEdition": 0,
+      "sourceSupportedChestNumberCandidates": 438,
+      "unknownOrNotApplicableNativeSlotRecords": 0,
+      "partitions": [
+        {
+          "characterScope": "Riku",
+          "world": "Traverse Town",
+          "runtimeRecords": 32,
+          "countedChestCandidates": 32,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 32,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "La Cité des Cloches",
+          "runtimeRecords": 49,
+          "countedChestCandidates": 49,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 49,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "The Grid",
+          "runtimeRecords": 42,
+          "countedChestCandidates": 42,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 42,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Riku",
+          "world": "The Grid",
+          "runtimeRecords": 45,
+          "countedChestCandidates": 45,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 45,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "Prankster's Paradise",
+          "runtimeRecords": 31,
+          "countedChestCandidates": 31,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 31,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Prankster's Paradise",
+          "runtimeRecords": 22,
+          "countedChestCandidates": 22,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 22,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "Country of the Musketeers",
+          "runtimeRecords": 32,
+          "countedChestCandidates": 32,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 32,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Country of the Musketeers",
+          "runtimeRecords": 31,
+          "countedChestCandidates": 31,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 31,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "Symphony of Sorcery",
+          "runtimeRecords": 22,
+          "countedChestCandidates": 22,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 22,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Symphony of Sorcery",
+          "runtimeRecords": 21,
+          "countedChestCandidates": 21,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 21,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "The World That Never Was",
+          "runtimeRecords": 15,
+          "countedChestCandidates": 15,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 15,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Riku",
+          "world": "The World That Never Was",
+          "runtimeRecords": 28,
+          "countedChestCandidates": 28,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 28,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Sora",
+          "world": "Traverse Town",
+          "runtimeRecords": 34,
+          "countedChestCandidates": 34,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 34,
+          "excludedIds": []
+        },
+        {
+          "characterScope": "Riku",
+          "world": "La Cité des Cloches",
+          "runtimeRecords": 34,
+          "countedChestCandidates": 34,
+          "acquisitionOnly": 0,
+          "targetEditionCertifiedSlotMappings": 0,
+          "sourceNumberSupportedCandidates": 34,
+          "excludedIds": []
+        }
+      ],
+      "ambiguousSameRewardSameAreaGroups": [
+        {
+          "characterScope": "Sora",
+          "world": "Traverse Town",
+          "area": "Fourth District",
+          "reward": "Potion",
+          "ids": [
+            "dddhd:treasure:sora:traverse-town:013",
+            "dddhd:treasure:sora:traverse-town:015"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Traverse Town",
+          "area": "Fourth District",
+          "reward": "Potion",
+          "ids": [
+            "dddhd:treasure:riku:traverse-town:008",
+            "dddhd:treasure:riku:traverse-town:013"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Traverse Town",
+          "area": "Fourth District",
+          "reward": "Confetti Candy",
+          "ids": [
+            "dddhd:treasure:riku:traverse-town:011",
+            "dddhd:treasure:riku:traverse-town:015"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Traverse Town",
+          "area": "Back Streets",
+          "reward": "Potion",
+          "ids": [
+            "dddhd:treasure:riku:traverse-town:025",
+            "dddhd:treasure:riku:traverse-town:029"
+          ]
+        },
+        {
+          "characterScope": "Sora",
+          "world": "La Cité des Cloches",
+          "area": "Nave",
+          "reward": "Drop-Me-Not",
+          "ids": [
+            "dddhd:treasure:sora:la-cite-des-cloches:008",
+            "dddhd:treasure:sora:la-cite-des-cloches:010"
+          ]
+        },
+        {
+          "characterScope": "Sora",
+          "world": "La Cité des Cloches",
+          "area": "Bell Tower",
+          "reward": "Drop-Me-Not",
+          "ids": [
+            "dddhd:treasure:sora:la-cite-des-cloches:012",
+            "dddhd:treasure:sora:la-cite-des-cloches:014"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "La Cité des Cloches",
+          "area": "Nave",
+          "reward": "Drop-Me-Not",
+          "ids": [
+            "dddhd:treasure:riku:la-cite-des-cloches:007",
+            "dddhd:treasure:riku:la-cite-des-cloches:010"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "La Cité des Cloches",
+          "area": "Bell Tower",
+          "reward": "Drop-Me-Not",
+          "ids": [
+            "dddhd:treasure:riku:la-cite-des-cloches:013",
+            "dddhd:treasure:riku:la-cite-des-cloches:014"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "Prankster's Paradise",
+          "area": "Monstro: Gullet",
+          "reward": "Shield Cookie 2",
+          "ids": [
+            "dddhd:treasure:riku:prankster-s-paradise:006",
+            "dddhd:treasure:riku:prankster-s-paradise:011"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "The World That Never Was",
+          "area": "Delusive Beginning",
+          "reward": "Dream Candy",
+          "ids": [
+            "dddhd:treasure:riku:the-world-that-never-was:001",
+            "dddhd:treasure:riku:the-world-that-never-was:009"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "The World That Never Was",
+          "area": "Delusive Beginning",
+          "reward": "Elixir",
+          "ids": [
+            "dddhd:treasure:riku:the-world-that-never-was:004",
+            "dddhd:treasure:riku:the-world-that-never-was:005",
+            "dddhd:treasure:riku:the-world-that-never-was:010"
+          ]
+        },
+        {
+          "characterScope": "Riku",
+          "world": "The World That Never Was",
+          "area": "Verge of Chaos",
+          "reward": "Elixir",
+          "ids": [
+            "dddhd:treasure:riku:the-world-that-never-was:022",
+            "dddhd:treasure:riku:the-world-that-never-was:028"
+          ]
+        }
+      ],
+      "runtimePaths": [
+        "src/games/dddhd/content.json",
+        "src/games/dddhd/generate.py",
+        "src/journal/DddJournal.tsx"
+      ],
+      "mainByCharacter": {
+        "Sora": 225,
+        "Riku": 213
+      },
+      "worldCharacterPartitions": 14,
+      "sharedChestRecords": 0,
+      "reportOwnership": "One shared Reports shell with separate Sora and Riku treasure grids/counts; Both is an aggregate view, never one merged native slot sequence.",
+      "orderSemantics": "KHWiki world-facts number copied to order and ID suffix. Runtime DddJournal currently leaves matchingEntries in content array order.",
+      "denominatorContract": "438 combined chest flags = 225 Sora + 213 Riku. Each chest counted once irrespective of reward quantity. Native Completion Rate/Items percentage is a different measure.",
+      "sourcePath": "src/games/dddhd/world-facts.json",
+      "routeJoin": {
+        "sameItemAreaAndSourceNumber": 400,
+        "quantityNormalization": 20,
+        "explicitHDReplacement": 16,
+        "uniqueItemAreaRemap": 2
+      },
+      "currentOrderExample": {
+        "scope": "Riku / The World That Never Was",
+        "firstArrayOrders": [
+          11,
+          23,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "referenceGridGeometry": "First-hand 3DS transcript explicitly describes five item positions per row; no HD Treasures screenshot present/inspected.",
+      "orderSources": [
+        "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64967",
+        "https://www.kh13.com/forums/topic/40565-treasure-list/"
+      ],
+      "targetedCorroboration": {
+        "scope": "Riku / The World That Never Was",
+        "supportedCurrentSourceSlots": {
+          "2": "Curaga",
+          "3": "Doubleflight"
+        },
+        "qualification": "3DS Report transcript supports current KHWiki ordering rather than older route list; not promoted to HD-certified."
+      }
+    },
+    "kh02": {
+      "runtimePath": "src/games/kh02/catalog.ts",
+      "generatorPath": "src/games/kh02/generate.py",
+      "inventoryPath": "ai_docs/games/kh02/collectibles.md",
+      "guidePath": "src/games/kh02.ts",
+      "runtimeTotalEntries": 177,
+      "chestCount": 41,
+      "ordinaryChestCount": 29,
+      "zodiacChestCount": 12,
+      "physicalFindsIncludingNonChests": 55,
+      "partitions": [
+        {
+          "world": "Castle Town",
+          "count": 10,
+          "ordinary": 6,
+          "zodiac": 4,
+          "nativeJournalSlots": null,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 7,
+          "duplicateRewardGroups": 2,
+          "rowsWithDuplicatedReward": 5,
+          "duplicateExtraRows": 3
+        },
+        {
+          "world": "The World Within",
+          "count": 13,
+          "ordinary": 8,
+          "zodiac": 5,
+          "nativeJournalSlots": null,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 11,
+          "duplicateRewardGroups": 1,
+          "rowsWithDuplicatedReward": 3,
+          "duplicateExtraRows": 2
+        },
+        {
+          "world": "Forest of Thorns",
+          "count": 12,
+          "ordinary": 10,
+          "zodiac": 2,
+          "nativeJournalSlots": null,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 7,
+          "duplicateRewardGroups": 4,
+          "rowsWithDuplicatedReward": 9,
+          "duplicateExtraRows": 5
+        },
+        {
+          "world": "Depths of Darkness",
+          "count": 6,
+          "ordinary": 5,
+          "zodiac": 1,
+          "nativeJournalSlots": null,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 5,
+          "duplicateRewardGroups": 1,
+          "rowsWithDuplicatedReward": 2,
+          "duplicateExtraRows": 1
+        }
+      ],
+      "duplicateRewards": {
+        "uniqueRewardStrings": 23,
+        "duplicateRewardGroups": 5,
+        "rowsWithDuplicatedReward": 23,
+        "duplicateExtraRows": 18
+      },
+      "nativeSlotMappingCoverage": {
+        "pixelCertified": 0,
+        "sourceSupported": 0,
+        "editorialRecords": 41,
+        "reason": "No native treasure grid established. Existing source explicitly calls IDs editorial, not Journal numbers."
+      },
+      "scopeNotes": [
+        "Castle Town companion partition includes Main Road 1 + objective Castle Town 9 = 10 chests; physical total 11 includes memory.",
+        "Objectives 37/39/44/48 count 9/13/12/6 respectively. Do not claim 10 Castle Town chests is objective 37 native denominator.",
+        "12 Zodiac chest rows carry categories:[zodiac] on same treasure IDs, not duplicated relic records.",
+        "7 gems, 3 flowers, 4 memories are physical but not chest slots. Homecoming has no physical treasure records.",
+        "All Aqua. Zodiac requires first clear/seeded NG+; preserve that text without hiding/reordering slots."
+      ],
+      "absenceEvidence": {
+        "url": "https://www.khinsider.com/editorials/What-if-Kingdom-Hearts-3-kept-0-2-as-its-prologue-10949",
+        "date": "2017-12-30",
+        "kind": "Contemporary first-hand editorial",
+        "observed": "Author explicitly reports no journal or treasure chest guide in 0.2.",
+        "confidence": "Supported absence in original release, corroborated by supplied reference set only showing Objectives and Story. Not an exhaustive Steam menu pixel inspection."
+      },
+      "visualEvidence": [
+        {
+          "path": "ai_docs/ui/references/kh02/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-64098.jpg",
+          "sourceUrl": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-64098.jpg",
+          "view": "Objectives",
+          "width": 1920,
+          "height": 1080,
+          "geometry": {
+            "objectivesPanel": [
+              160,
+              230,
+              1160,
+              800
+            ],
+            "rows": [
+              221,
+              302,
+              1099,
+              765
+            ],
+            "rewardPanel": [
+              1337,
+              164,
+              1810,
+              799
+            ],
+            "helpFooter": [
+              552,
+              886,
+              1919,
+              1080
+            ]
+          },
+          "observed": "Blue gradient/scanline technical frame; large italic MENU heading; red-orange Objectives tab; rounded numbered rows 1–10; No.2 selected with red outline and blue numbered tab, glove cursor and warm spark; yellow progress 13/45; reward preview Coil (Pink); footer location and objective instruction; Wardrobe control. This is not a chest collection grid."
+        },
+        {
+          "path": "ai_docs/ui/references/kh02/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-23659.jpg",
+          "view": "Story index",
+          "observed": "Dark cinematic background, grouped horizontal list, blue selection; no treasure list."
+        },
+        {
+          "path": "ai_docs/ui/references/kh02/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071048-51075.jpg",
+          "view": "Story text overlay",
+          "observed": "Orange selected entry; translucent lined right text panel; no treasure list."
+        }
+      ],
+      "visualProvenance": "Original local images directly inspected. Manifest URLs reconstructed from filenames/user source context, not independently fetched. Platform/build unknown. Additional KH0.2 screenshots remain open in references/kh02/README.md.",
+      "recommendations": [
+        "If square treasure grid is desired, label/order it as a companion chest checklist, not recreated native Journal. No native slot number should be fabricated.",
+        "Use KH0.2 blue technical Objectives styling for acquisition notes, clear area/title, selected entry and reward, footer-style location/instruction. Do not infer Wardrobe layout from its button.",
+        "Declare stable editorial ordering explicitly, preserve all 41 canonical IDs, and do not let Zodiac facet or completion filter collapse/reassign slot positions.",
+        "Keep Main Road distinct inside the Castle Town grid or as an explicit approach subsection, so objective 37 denominator remains 9."
+      ],
+      "finiteBlockers": [
+        "Need design acceptance of an editorial companion order because no native treasure-slot ordering exists in the inspected evidence.",
+        "Two content-to-landmark conflicts remain separate from slot ordering: kh02:ft-north-potion (Potion vs Steam guide Hi-Potion), kh02:ft-save-ether (Ether vs Steam guide Mega-Ether). Keep warnings.",
+        "No native chest grid screenshot to copy; do not hold implementation awaiting a presumed native screen."
+      ],
+      "uncertainChestIds": [
+        {
+          "entryId": "kh02:ft-north-potion",
+          "uncertainty": "The physical thicket dead-end route is supported by the PS4 HD guide and Destiny Islands. Both identify Potion; the Steam community guide calls the corresponding northwest-thicket chest Hi-Potion. No Steam item-popup verification is claimed."
+        },
+        {
+          "entryId": "kh02:ft-save-ether",
+          "uncertainty": "KHWiki and Destiny Islands say Ether; the Steam guide says Mega-Ether at the same save-point ivy."
+        }
+      ],
+      "editorialIdentities": [
+        {
+          "entryId": "kh02:ct-main-road",
+          "world": "Castle Town",
+          "area": "Main Road",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-map",
+          "world": "Castle Town",
+          "area": "Castle Town gate",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-alley-potion",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-rooftop-potion",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-house-ether",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-lower-ether",
+          "world": "Castle Town",
+          "area": "Castle Town lower passage",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-map",
+          "world": "The World Within",
+          "area": "World Within hub",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-pillar-potion",
+          "world": "The World Within",
+          "area": "Mirror-floor / pillar labyrinth",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-pillar-hi-potion",
+          "world": "The World Within",
+          "area": "Mirror-floor / pillar labyrinth",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-stairs-hi-potion",
+          "world": "The World Within",
+          "area": "Northern / endless-staircase mirror",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-mines-hi-potion",
+          "world": "The World Within",
+          "area": "Western / mines mirror",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-hub-mega-potion",
+          "world": "The World Within",
+          "area": "World Within hub",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-mirror-mega-ether",
+          "world": "The World Within",
+          "area": "Eastern chest-room mirror",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-mines-megalixir",
+          "world": "The World Within",
+          "area": "Western / mines mirror",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-map",
+          "world": "Forest of Thorns",
+          "area": "Uncertain Path",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-start-ledge-potion",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-north-potion",
+          "world": "Forest of Thorns",
+          "area": "Forest of Thorns",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-ring-potion",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path circular section",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-gap-hi-potion",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-left-hi-potion",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-spiral-mega-potion",
+          "world": "Forest of Thorns",
+          "area": "Uncertain Path spiral tree",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-ring-mega-potion",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-save-ether",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path save point",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-steps-ether",
+          "world": "Forest of Thorns",
+          "area": "Rocky Path stone steps",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:dd-map",
+          "world": "Depths of Darkness",
+          "area": "Depths entrance",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:dd-wide-hi-potion",
+          "world": "Depths of Darkness",
+          "area": "Depths main route",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:dd-low-mega-ether",
+          "world": "Depths of Darkness",
+          "area": "Depths lower cavern",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:dd-before-arena-mega-ether",
+          "world": "Depths of Darkness",
+          "area": "Depths main route",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:dd-end-elixir",
+          "world": "Depths of Darkness",
+          "area": "Depths final sandy area",
+          "zodiac": false,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-aquarius",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-aries",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-sagittarius",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ct-virgo",
+          "world": "Castle Town",
+          "area": "Castle Town",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-cancer",
+          "world": "The World Within",
+          "area": "World Within hub",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-gemini",
+          "world": "The World Within",
+          "area": "Pillar labyrinth",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-leo",
+          "world": "The World Within",
+          "area": "Mines",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-libra",
+          "world": "The World Within",
+          "area": "Mines",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ww-pisces",
+          "world": "The World Within",
+          "area": "Endless staircase",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-taurus",
+          "world": "Forest of Thorns",
+          "area": "Uncertain Path",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:ft-scorpio",
+          "world": "Forest of Thorns",
+          "area": "Uncertain Path",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        },
+        {
+          "entryId": "kh02:dd-capricorn",
+          "world": "Depths of Darkness",
+          "area": "Depths sandy end",
+          "zodiac": true,
+          "nativeSlotNumber": null
+        }
+      ]
+    },
+    "kh3": {
+      "runtimePath": "src/games/kh3/content.json",
+      "guidePath": "src/games/kh3.ts",
+      "commonSchemaPath": "src/games/types.ts",
+      "runtimeTotalEntries": 1954,
+      "baseChestCount": 245,
+      "remindChestCount": 9,
+      "explicitJournalSlotFields": 0,
+      "explicitOrderFields": 0,
+      "identityFormat": [
+        "kh3.base.<world>.chest.<nnn>",
+        "kh3.remind.scala-ad-caelum.chest.<nnn>"
+      ],
+      "identityWarning": "Numeric suffix and Chest NN name currently encode source numbers but are not a typed journal-slot contract. Persist checks under unchanged entry IDs; use explicit separate grid metadata.",
+      "partitions": [
+        {
+          "world": "Olympus",
+          "scope": "base",
+          "count": 32,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 32,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 19,
+          "duplicateRewardGroups": 5,
+          "rowsWithDuplicatedReward": 18,
+          "duplicateExtraRows": 13
+        },
+        {
+          "world": "Twilight Town",
+          "scope": "base",
+          "count": 10,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 10,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 8,
+          "duplicateRewardGroups": 1,
+          "rowsWithDuplicatedReward": 3,
+          "duplicateExtraRows": 2
+        },
+        {
+          "world": "Toy Box",
+          "scope": "base",
+          "count": 29,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 29,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 25,
+          "duplicateRewardGroups": 3,
+          "rowsWithDuplicatedReward": 7,
+          "duplicateExtraRows": 4
+        },
+        {
+          "world": "Kingdom of Corona",
+          "scope": "base",
+          "count": 28,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 28,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 25,
+          "duplicateRewardGroups": 3,
+          "rowsWithDuplicatedReward": 6,
+          "duplicateExtraRows": 3
+        },
+        {
+          "world": "Monstropolis",
+          "scope": "base",
+          "count": 22,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 22,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 19,
+          "duplicateRewardGroups": 2,
+          "rowsWithDuplicatedReward": 5,
+          "duplicateExtraRows": 3
+        },
+        {
+          "world": "Arendelle",
+          "scope": "base",
+          "count": 25,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 25,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 23,
+          "duplicateRewardGroups": 1,
+          "rowsWithDuplicatedReward": 3,
+          "duplicateExtraRows": 2
+        },
+        {
+          "world": "The Caribbean",
+          "scope": "base",
+          "count": 56,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 56,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 37,
+          "duplicateRewardGroups": 7,
+          "rowsWithDuplicatedReward": 26,
+          "duplicateExtraRows": 19
+        },
+        {
+          "world": "San Fransokyo",
+          "scope": "base",
+          "count": 36,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 36,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 25,
+          "duplicateRewardGroups": 8,
+          "rowsWithDuplicatedReward": 19,
+          "duplicateExtraRows": 11
+        },
+        {
+          "world": "Keyblade Graveyard",
+          "scope": "base",
+          "count": 6,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 6,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 6,
+          "duplicateRewardGroups": 0,
+          "rowsWithDuplicatedReward": 0,
+          "duplicateExtraRows": 0
+        },
+        {
+          "world": "The Final World",
+          "scope": "base",
+          "count": 1,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 1,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 1,
+          "duplicateRewardGroups": 0,
+          "rowsWithDuplicatedReward": 0,
+          "duplicateExtraRows": 0
+        },
+        {
+          "world": "Scala ad Caelum",
+          "scope": "remind",
+          "count": 9,
+          "minimumSourceNumber": 1,
+          "maximumSourceNumber": 9,
+          "missingSourceNumbers": [],
+          "duplicateSourceNumbers": 0,
+          "explicitJournalSlotFields": 0,
+          "explicitOrderFields": 0,
+          "uniqueRewardStrings": 9,
+          "duplicateRewardGroups": 0,
+          "rowsWithDuplicatedReward": 0,
+          "duplicateExtraRows": 0
+        }
+      ],
+      "baseDuplicateRewards": {
+        "uniqueRewardStrings": 132,
+        "duplicateRewardGroups": 23,
+        "rowsWithDuplicatedReward": 136,
+        "duplicateExtraRows": 113
+      },
+      "remindDuplicateRewards": {
+        "uniqueRewardStrings": 9,
+        "duplicateRewardGroups": 0,
+        "rowsWithDuplicatedReward": 0,
+        "duplicateExtraRows": 0
+      },
+      "provenance": {
+        "existing": "ai_docs/games/kh3/collectible-inventory.md and sources-and-conflicts.md record KHWiki numbered table extraction. All 245 base runtime chests cite world-specific PowerPyx guide; all 9 DLC rows cite KHWiki + GamerGuides.",
+        "orderEvidence": [
+          {
+            "url": "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+            "kind": "Author-produced guide with explicit numbering semantics",
+            "observed": "Guide explicitly says numbers are in-game Gummiphone order. Route starts #1,#2,#9,#4,#5,#3, so document/route sequence is not slot order."
+          },
+          {
+            "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580",
+            "kind": "Kalavinka first-hand Gummiphone transcript",
+            "edition": "PS4; version 1.1 updated 2020-09-26; introduction describes DLC-inclusive content accurate to game v1.10",
+            "observed": "Treasures GP09 contains all 245 base numbered rows plus Scala ad Caelum [DLC] 9 numbered rows."
+          }
+        ],
+        "comparison": {
+          "matchedAfterNormalization": 254,
+          "total": 254,
+          "exactRewardStringMatches": 248,
+          "mismatches": [],
+          "normalization": "World header uppercase; remove source THE prefix only for Keyblade Graveyard and [DLC] annotation for Scala; reward punctuation/spacing normalized; Petit/Petite Ribbon accepted as alias. No reward-based joining: join uses world and explicit source number.",
+          "normalizationExceptions": [
+            {
+              "id": "kh3.base.toy-box.chest.006",
+              "runtime": "Petit Ribbon",
+              "source": "Petite Ribbon"
+            },
+            {
+              "id": "kh3.base.the-caribbean.chest.017",
+              "runtime": "Map:Isla de los Mástiles",
+              "source": "Map: Isla de los Mástiles"
+            },
+            {
+              "id": "kh3.base.the-caribbean.chest.018",
+              "runtime": "Map:Ship's End",
+              "source": "Map: Ship's End"
+            },
+            {
+              "id": "kh3.base.the-caribbean.chest.019",
+              "runtime": "Map:Sandbar Isle",
+              "source": "Map: Sandbar Isle"
+            },
+            {
+              "id": "kh3.base.the-caribbean.chest.020",
+              "runtime": "Map:Huddled Isles",
+              "source": "Map: Huddled Isles"
+            },
+            {
+              "id": "kh3.base.the-caribbean.chest.051",
+              "runtime": "Map:Port Royal Waters",
+              "source": "Map: Port Royal Waters"
+            }
+          ]
+        },
+        "mappingCoverage": {
+          "pixelCertified": 1,
+          "sourceSupportedAdditional": 253,
+          "totalSourceSupportedIncludingPixelCertified": 254,
+          "unknownSourceNumberMappings": 0,
+          "sourceSupportedBase": 245,
+          "sourceSupportedDlc": 9
+        },
+        "dlcLimit": "Transcript groups Scala [DLC] beneath Treasures GP09 and shows 9/9 after The Final World; shared header still 245/245. [DLC] label, episode switching, simultaneous base/DLC display and total behavior are not certified from screenshot pixels. Do not conflate documentary group with captured native UI."
+      },
+      "visualEvidence": {
+        "path": "ai_docs/ui/references/kh3/Kingdom-Hearts-III04022021-124325-74189.jpg",
+        "manifest": "ai_docs/ui/references/kh3/source-manifest.json",
+        "sourceUrl": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-74189.jpg",
+        "sourceUrlProvenance": "Reconstructed manifest URL from user-supplied original; not independently fetched in this audit.",
+        "width": 1920,
+        "height": 1080,
+        "geometry": {
+          "header": [
+            128,
+            28,
+            1784,
+            119
+          ],
+          "body": [
+            128,
+            145,
+            1784,
+            868
+          ],
+          "footer": [
+            128,
+            892,
+            1784,
+            1035
+          ],
+          "splitX": 960,
+          "firstSlot": [
+            1032,
+            248,
+            1104,
+            320
+          ],
+          "slotPitch": 80,
+          "columns": 8,
+          "slotApproximateSize": 72,
+          "scrollbar": [
+            1672,
+            248,
+            1680,
+            800
+          ]
+        },
+        "observedStates": {
+          "globalFound": 117,
+          "globalTotal": 245,
+          "worlds": [
+            {
+              "world": "Olympus",
+              "found": 24,
+              "total": 32,
+              "visibleRows": 4
+            },
+            {
+              "world": "Twilight Town",
+              "found": 9,
+              "total": 10,
+              "visibleRows": 2
+            },
+            {
+              "world": "Toy Box",
+              "found": 18,
+              "total": 29,
+              "visibleRows": 1
+            }
+          ],
+          "selected": {
+            "world": "Olympus",
+            "row": 2,
+            "column": 1,
+            "oneBasedOrdinal": 9,
+            "reward": "Map: Mount Olympus",
+            "entryId": "kh3.base.olympus.chest.009"
+          },
+          "collected": "Colored red/gold CLOSED chest icon on square gray tile.",
+          "uncollected": "Muted gray CLOSED chest silhouette; selection is separate from found state.",
+          "selection": "Bright cyan square inset/outset outline, blue face/glow and small warm cursor light.",
+          "nativeSlotNumberLabels": false
+        },
+        "observedStructure": "All-world vertically grouped collection: world names/totals aligned to corresponding 8-column slot groups; single collection scrollbar. No screenshot support for independent equal-height world sidebar/list.",
+        "detailLimit": "Selected reward name at top only; no native acquisition instructions or opened detail panel shown."
+      },
+      "recommendations": [
+        "Use native digital record frame, per-world square slots in source-supported row-major order. Keep 8 columns when legible; narrower layout is deliberate web adaptation with stable ordinal.",
+        "Preserve native grouped overview if practical; a per-world selector is explicitly a companion navigation adaptation, not pixel-proven native structure.",
+        "Acquisition notes should be a matching digital notes panel/view with location, route, prerequisites, warnings and sources, returning to same selected slot; no paper/book binding.",
+        "Create explicit grid adapter containing entryId, scope, world, slotNumber, orderSource and evidenceClass. Validate contiguity/uniqueness; never derive authoritative order from generic array position or reward name.",
+        "Keep 245 base and 9 Re Mind separate; exclude Gummi treasure/spheres, Frozen Slider prizes, Lucky Emblems, ingredient/material rows and Herc figures from chest denominator. 100 Acre Wood has zero base chests; do not show a false completed 0/0 grid."
+      ],
+      "finiteBlockers": [
+        "Typed slot metadata/provenance and contiguity tests not implemented; source evidence itself is sufficient for a supported mapping.",
+        "Complete-world native seal state, focus on uncollected chest, all-world lower groups and DLC layout/episode behavior have not been inspected in pixels.",
+        "Runtime notes are companion acquisition help, not asserted native detail screen.",
+        "Platform/build of supplied Game UI Database screenshot unknown; no Steam-specific pixel parity or live gameplay verification."
+      ],
+      "proposedMappings": [
+        {
+          "entryId": "kh3.base.olympus.chest.001",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 3938,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.002",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 3939,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.003",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 3940,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.004",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 3941,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.005",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 3942,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.006",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 3943,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.007",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 3944,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.008",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 3945,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.009",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 3946,
+          "evidenceClass": "pixelCertified+sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.010",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 3947,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.011",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 3948,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.012",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 3949,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.013",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 3950,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.014",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 3951,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.015",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 3952,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.016",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 3953,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.017",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 3954,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.018",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 3955,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.019",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 3956,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.020",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 3957,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.021",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 3958,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.022",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 3959,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.023",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 23,
+          "sourceTranscriptLine": 3960,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.024",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 24,
+          "sourceTranscriptLine": 3961,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.025",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 25,
+          "sourceTranscriptLine": 3962,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.026",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 26,
+          "sourceTranscriptLine": 3963,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.027",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 27,
+          "sourceTranscriptLine": 3964,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.028",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 28,
+          "sourceTranscriptLine": 3965,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.029",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 29,
+          "sourceTranscriptLine": 3966,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.030",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 30,
+          "sourceTranscriptLine": 3967,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.031",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 31,
+          "sourceTranscriptLine": 3968,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.olympus.chest.032",
+          "scope": "base",
+          "world": "Olympus",
+          "proposedSlotNumber": 32,
+          "sourceTranscriptLine": 3969,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.001",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 3975,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.002",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 3976,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.003",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 3977,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.004",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 3978,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.005",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 3979,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.006",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 3980,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.007",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 3981,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.008",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 3982,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.009",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 3983,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.twilight-town.chest.010",
+          "scope": "base",
+          "world": "Twilight Town",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 3984,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.001",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 3990,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.002",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 3991,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.003",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 3992,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.004",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 3993,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.005",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 3994,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.006",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 3995,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.007",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 3996,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.008",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 3997,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.009",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 3998,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.010",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 3999,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.011",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 4000,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.012",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 4001,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.013",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 4002,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.014",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 4003,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.015",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 4004,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.016",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 4005,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.017",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 4006,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.018",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 4007,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.019",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 4008,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.020",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 4009,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.021",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 4010,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.022",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 4011,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.023",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 23,
+          "sourceTranscriptLine": 4012,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.024",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 24,
+          "sourceTranscriptLine": 4013,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.025",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 25,
+          "sourceTranscriptLine": 4014,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.026",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 26,
+          "sourceTranscriptLine": 4015,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.027",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 27,
+          "sourceTranscriptLine": 4016,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.028",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 28,
+          "sourceTranscriptLine": 4017,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.toy-box.chest.029",
+          "scope": "base",
+          "world": "Toy Box",
+          "proposedSlotNumber": 29,
+          "sourceTranscriptLine": 4018,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.001",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4024,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.002",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4025,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.003",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4026,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.004",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4027,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.005",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4028,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.006",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4029,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.007",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 4030,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.008",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 4031,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.009",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 4032,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.010",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 4033,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.011",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 4034,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.012",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 4035,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.013",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 4036,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.014",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 4037,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.015",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 4038,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.016",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 4039,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.017",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 4040,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.018",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 4041,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.019",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 4042,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.020",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 4043,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.021",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 4044,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.022",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 4045,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.023",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 23,
+          "sourceTranscriptLine": 4046,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.024",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 24,
+          "sourceTranscriptLine": 4047,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.025",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 25,
+          "sourceTranscriptLine": 4048,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.026",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 26,
+          "sourceTranscriptLine": 4049,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.027",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 27,
+          "sourceTranscriptLine": 4050,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.kingdom-of-corona.chest.028",
+          "scope": "base",
+          "world": "Kingdom of Corona",
+          "proposedSlotNumber": 28,
+          "sourceTranscriptLine": 4051,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.001",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4057,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.002",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4058,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.003",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4059,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.004",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4060,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.005",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4061,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.006",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4062,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.007",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 4063,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.008",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 4064,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.009",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 4065,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.010",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 4066,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.011",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 4067,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.012",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 4068,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.013",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 4069,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.014",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 4070,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.015",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 4071,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.016",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 4072,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.017",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 4073,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.018",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 4074,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.019",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 4075,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.020",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 4076,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.021",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 4077,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.monstropolis.chest.022",
+          "scope": "base",
+          "world": "Monstropolis",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 4078,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.001",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4084,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.002",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4085,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.003",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4086,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.004",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4087,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.005",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4088,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.006",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4089,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.007",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 4090,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.008",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 4091,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.009",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 4092,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.010",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 4093,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.011",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 4094,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.012",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 4095,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.013",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 4096,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.014",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 4097,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.015",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 4098,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.016",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 4099,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.017",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 4100,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.018",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 4101,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.019",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 4102,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.020",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 4103,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.021",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 4104,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.022",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 4105,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.023",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 23,
+          "sourceTranscriptLine": 4106,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.024",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 24,
+          "sourceTranscriptLine": 4107,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.arendelle.chest.025",
+          "scope": "base",
+          "world": "Arendelle",
+          "proposedSlotNumber": 25,
+          "sourceTranscriptLine": 4108,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.001",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4114,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.002",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4115,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.003",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4116,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.004",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4117,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.005",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4118,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.006",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4119,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.007",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 4120,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.008",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 4121,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.009",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 4122,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.010",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 4123,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.011",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 4124,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.012",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 4125,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.013",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 4126,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.014",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 4127,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.015",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 4128,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.016",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 4129,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.017",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 4130,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.018",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 4131,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.019",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 4132,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.020",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 4133,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.021",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 4134,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.022",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 4135,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.023",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 23,
+          "sourceTranscriptLine": 4136,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.024",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 24,
+          "sourceTranscriptLine": 4137,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.025",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 25,
+          "sourceTranscriptLine": 4138,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.026",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 26,
+          "sourceTranscriptLine": 4139,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.027",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 27,
+          "sourceTranscriptLine": 4140,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.028",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 28,
+          "sourceTranscriptLine": 4141,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.029",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 29,
+          "sourceTranscriptLine": 4142,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.030",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 30,
+          "sourceTranscriptLine": 4143,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.031",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 31,
+          "sourceTranscriptLine": 4144,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.032",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 32,
+          "sourceTranscriptLine": 4145,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.033",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 33,
+          "sourceTranscriptLine": 4146,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.034",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 34,
+          "sourceTranscriptLine": 4147,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.035",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 35,
+          "sourceTranscriptLine": 4148,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.036",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 36,
+          "sourceTranscriptLine": 4149,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.037",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 37,
+          "sourceTranscriptLine": 4150,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.038",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 38,
+          "sourceTranscriptLine": 4151,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.039",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 39,
+          "sourceTranscriptLine": 4152,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.040",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 40,
+          "sourceTranscriptLine": 4153,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.041",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 41,
+          "sourceTranscriptLine": 4154,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.042",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 42,
+          "sourceTranscriptLine": 4155,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.043",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 43,
+          "sourceTranscriptLine": 4156,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.044",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 44,
+          "sourceTranscriptLine": 4157,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.045",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 45,
+          "sourceTranscriptLine": 4158,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.046",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 46,
+          "sourceTranscriptLine": 4159,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.047",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 47,
+          "sourceTranscriptLine": 4160,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.048",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 48,
+          "sourceTranscriptLine": 4161,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.049",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 49,
+          "sourceTranscriptLine": 4162,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.050",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 50,
+          "sourceTranscriptLine": 4163,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.051",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 51,
+          "sourceTranscriptLine": 4164,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.052",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 52,
+          "sourceTranscriptLine": 4165,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.053",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 53,
+          "sourceTranscriptLine": 4166,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.054",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 54,
+          "sourceTranscriptLine": 4167,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.055",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 55,
+          "sourceTranscriptLine": 4168,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-caribbean.chest.056",
+          "scope": "base",
+          "world": "The Caribbean",
+          "proposedSlotNumber": 56,
+          "sourceTranscriptLine": 4169,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.001",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4175,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.002",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4176,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.003",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4177,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.004",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4178,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.005",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4179,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.006",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4180,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.007",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 4181,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.008",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 4182,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.009",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 4183,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.010",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 10,
+          "sourceTranscriptLine": 4184,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.011",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 11,
+          "sourceTranscriptLine": 4185,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.012",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 12,
+          "sourceTranscriptLine": 4186,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.013",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 13,
+          "sourceTranscriptLine": 4187,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.014",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 14,
+          "sourceTranscriptLine": 4188,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.015",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 15,
+          "sourceTranscriptLine": 4189,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.016",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 16,
+          "sourceTranscriptLine": 4190,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.017",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 17,
+          "sourceTranscriptLine": 4191,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.018",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 18,
+          "sourceTranscriptLine": 4192,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.019",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 19,
+          "sourceTranscriptLine": 4193,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.020",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 20,
+          "sourceTranscriptLine": 4194,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.021",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 21,
+          "sourceTranscriptLine": 4195,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.022",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 22,
+          "sourceTranscriptLine": 4196,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.023",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 23,
+          "sourceTranscriptLine": 4197,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.024",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 24,
+          "sourceTranscriptLine": 4198,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.025",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 25,
+          "sourceTranscriptLine": 4199,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.026",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 26,
+          "sourceTranscriptLine": 4200,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.027",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 27,
+          "sourceTranscriptLine": 4201,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.028",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 28,
+          "sourceTranscriptLine": 4202,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.029",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 29,
+          "sourceTranscriptLine": 4203,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.030",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 30,
+          "sourceTranscriptLine": 4204,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.031",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 31,
+          "sourceTranscriptLine": 4205,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.032",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 32,
+          "sourceTranscriptLine": 4206,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.033",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 33,
+          "sourceTranscriptLine": 4207,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.034",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 34,
+          "sourceTranscriptLine": 4208,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.035",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 35,
+          "sourceTranscriptLine": 4209,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.san-fransokyo.chest.036",
+          "scope": "base",
+          "world": "San Fransokyo",
+          "proposedSlotNumber": 36,
+          "sourceTranscriptLine": 4210,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.keyblade-graveyard.chest.001",
+          "scope": "base",
+          "world": "Keyblade Graveyard",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4216,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.keyblade-graveyard.chest.002",
+          "scope": "base",
+          "world": "Keyblade Graveyard",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4217,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.keyblade-graveyard.chest.003",
+          "scope": "base",
+          "world": "Keyblade Graveyard",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4218,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.keyblade-graveyard.chest.004",
+          "scope": "base",
+          "world": "Keyblade Graveyard",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4219,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.keyblade-graveyard.chest.005",
+          "scope": "base",
+          "world": "Keyblade Graveyard",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4220,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.keyblade-graveyard.chest.006",
+          "scope": "base",
+          "world": "Keyblade Graveyard",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4221,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.base.the-final-world.chest.001",
+          "scope": "base",
+          "world": "The Final World",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4226,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.001",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 1,
+          "sourceTranscriptLine": 4232,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.002",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 2,
+          "sourceTranscriptLine": 4233,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.003",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 3,
+          "sourceTranscriptLine": 4234,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.004",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 4,
+          "sourceTranscriptLine": 4235,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.005",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 5,
+          "sourceTranscriptLine": 4236,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.006",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 6,
+          "sourceTranscriptLine": 4237,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.007",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 7,
+          "sourceTranscriptLine": 4238,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.008",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 8,
+          "sourceTranscriptLine": 4239,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        },
+        {
+          "entryId": "kh3.remind.scala-ad-caelum.chest.009",
+          "scope": "remind",
+          "world": "Scala ad Caelum",
+          "proposedSlotNumber": 9,
+          "sourceTranscriptLine": 4240,
+          "evidenceClass": "sourceSupported",
+          "sourceUrl": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/78580"
+        }
+      ],
+      "mappingNote": "Documentation-only mapping proposals. Source transcript line is the line number in the text inspected during this audit; section GP09, world and explicit slot number are the stable lookup anchors. No runtime slot data was added."
+    }
+  },
+  "inspectedReferenceEvidence": [
+    {
+      "id": "KH1-R01",
+      "path": "ai_docs/ui/references/kh1fm/kh-hd-report-index.jpg",
+      "sourceUrl": "https://images.khinsider.com/KINGDOM%20HEARTS%20HD%20ReMIX/Screenshots/Square%20Enix%20-%20September%2012%202013/KH%20journal%201.jpg",
+      "pixelsInspected": true,
+      "size": [
+        650,
+        365
+      ],
+      "observed": "Green header/footer, indigo left leaf with Jiminy/help bubble, ruled cream right leaf, center black spiral, four report choices, glove selection and NEW markers; header 1/2. No treasure grid.",
+      "confidence": "Direct static-image observation; HD promo-era source, not current Steam capture."
+    },
+    {
+      "id": "KH1-R02",
+      "path": "ai_docs/ui/references/kh1fm/kh-hd-journal-detail.jpg",
+      "sourceUrl": "https://images.khinsider.com/KINGDOM%20HEARTS%20HD%20ReMIX/Screenshots/Square%20Enix%20-%20September%2012%202013/KH%20journal%202.jpg",
+      "pixelsInspected": true,
+      "size": [
+        650,
+        365
+      ],
+      "observed": "Equal pale ruled facing leaves, center binding, Donald biography split across pages, upper-right Donald portrait, green header full-view prompt. No treasure grid."
+    },
+    {
+      "id": "KH2-R01",
+      "sourceUrl": "https://www.youtube.com/watch?v=rw8c9l0K1vU",
+      "pixelsInspected": false,
+      "repoEvidencePath": "ai_docs/ui/references/kh2fm/README.md",
+      "repoPriorObservation": "Story at about 1:01 and 1:21 only; does not verify Treasures.",
+      "currentAuditAttempt": "Cloud browser loaded correct title and 17:23 duration. Video remained black/buffering at 0:00, 0:05 and 1:39. Cannot infer native grid geometry."
+    },
+    {
+      "id": "EXCLUDED-NON-GAME-EVIDENCE",
+      "paths": [
+        "ai_docs/contact_sheet_1.png",
+        "img/kh2fm.png",
+        "img/khfm.png",
+        "public/assets/kh2-journal/"
+      ],
+      "observation": "Contact sheet is generated concept art per its md; img/kh2fm.png is Roxas art, img/khfm.png is Heartless emblem, KH2 public assets are isolated art. None certifies native treasure layout."
+    },
+    {
+      "path": "ai_docs/ui/references/bbsfm/terra-reports-root.png",
+      "geometry": "1280x720; orange frame; dark book bound near x190; portrait left and violet menu right; no central book seam.",
+      "state": "Game Records focused by glove; Treasures has gold completion stamp; NEW is separate.",
+      "source": "User-supplied reference; PSN looneyteen95 visible; no exact external URL in local README."
+    },
+    {
+      "path": "ai_docs/ui/references/bbsfm/reports-unversed-missions.png",
+      "geometry": "516x387 photographed display; left ring binding; broad lined pale leaf; red category tabs; gray world bands.",
+      "state": "Mission records, not treasures; no chest shape or column count established.",
+      "source": "User-supplied photo; exact external URL unavailable."
+    },
+    {
+      "path": "ai_docs/ui/references/bbsfm/book-video-13-05.png",
+      "geometry": "1265x712 browser capture; game region x18-878,y67-551; ring binding near x130, narrow blank left fragment; broad lined index leaf, right scroll rail.",
+      "state": "World list with glove on Olympus Coliseum.",
+      "source": "https://www.youtube.com/watch?v=b-oo5gDa2A0&t=785s"
+    },
+    {
+      "path": "ai_docs/ui/references/bbsfm/book-video-01-32.png",
+      "geometry": "1265x712 browser capture; far-left rings; ruled text at left fading into blue illustration at right; no center seam.",
+      "state": "Cinderella detail with orange text scroll arrows and bottom turn-page prompt.",
+      "source": "https://www.youtube.com/watch?v=b-oo5gDa2A0&t=92s"
+    },
+    {
+      "path": "ai_docs/ui/references/dddhd/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105140-21456.jpg",
+      "geometry": "1920x1080; black book x220-1704, binding near x216; cover artwork left/menu right within one bound cover.",
+      "state": "Story selected; Treasures row with NEW, no treasure grid.",
+      "source": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105140-21456.jpg"
+    },
+    {
+      "path": "ai_docs/ui/references/dddhd/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105142-62749.jpg",
+      "geometry": "1920x1080; binding near x216; broad usable pale leaf x227-1695; magenta hierarchy plaques; lined rows and crown watermark.",
+      "state": "Character Files/Main Characters with Sora focused; NEW badges separate from selection.",
+      "source": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105142-62749.jpg"
+    },
+    {
+      "path": "ai_docs/ui/references/dddhd/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105141-39332.jpg",
+      "geometry": "1920x1080 same broad leaf; gray title strip; handwriting; internal scrollbar; magenta Glossary plaque.",
+      "state": "Keyblades detail; L2 Back/R2 Next shown, no Sora/Riku treasure switching established.",
+      "source": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105141-39332.jpg"
+    }
+  ],
+  "safetyContracts": [
+    "Preserve every existing progress ID; presentation reordering never migrates checks by index.",
+    "Keep character/episode/DLC and acquisition aliases explicit.",
+    "Search/status/area filters do not compact or renumber native slots.",
+    "Keep unmapped/unsupported order distinct from user-uncollected state."
+  ],
+  "limits": [
+    "Bounded research, not exhaustive native screen transcription or a new playthrough.",
+    "No production UI or current-device acceptance tests were run for this documentation change.",
+    "Reference images are documentation evidence, not authorization to republish them as runtime art."
+  ]
+}

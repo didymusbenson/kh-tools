@@ -20,6 +20,8 @@ The user has now authorized the same treatment for KH2 using its own journal men
 
 KH3 interface research now starts from the five supplied originals plus nine inspected public menu stills. The [Gummiphone research](./ui/kh3-interface-research.md) and [proposed implementation contract](./ui/kh3-new-ui-plan.md) distinguish native screen families, app adaptations and missing video/state evidence. This pass is documentation only; no KH3 implementation, merge or deployment is implied.
 
+Treasure-grid redesign research now audits all seven apps, separates native journal order from source/route order, and proposes game-specific world grids with acquisition details. The [cross-game proposal](./ui/treasure-grid-redesign-research-2026-10-04.md) and [mapping inventory](./ui/treasure-grid-mapping-inventory-2026-10-04.json) are documentation only; no redesign implementation, merge or deployment is implied.
+
 ## MVP scope rule
 
 All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. Explicit exceptions include the documented KH1 research deferrals/dropped question and production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features. The user subsequently authorized implementation of KH1FM and the shared application infrastructure.
