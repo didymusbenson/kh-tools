@@ -118,9 +118,17 @@ test('phone section and Details controls open the active visible page item',asyn
  await page.getByRole('navigation',{name:'Treasure world pages'}).getByRole('link').last().click();
  await expect(page.getByRole('navigation',{name:'Treasure world pages'})).toContainText('Worlds 2 /');
  await page.locator('.treasure-worlds > a').first().click();
+ const world=new URLSearchParams(new URL(page.url()).hash.split('?')[1]).get('world');
+ expect(world).toBeTruthy();
+ await page.goto(`./#/dddhd/treasures?world=${encodeURIComponent(world!)}`);
+ const nativePages=page.getByRole('navigation',{name:'Report pages',exact:true});
+ await expect(nativePages.getByRole('link',{name:'Grid',exact:true})).toHaveAttribute('aria-current','page');
+ await expect(nativePages.getByRole('link',{name:'Notes',exact:true})).not.toHaveAttribute('aria-current','page');
  const slot=page.locator('[data-treasure-id]:visible').first(),id=await slot.getAttribute('data-treasure-id');
  await slot.click();await page.getByRole('link',{name:'Notes ›',exact:true}).click();
  await expect(page.locator('.treasure-notes:visible')).toBeVisible();
+ await expect(nativePages.getByRole('link',{name:'Notes',exact:true})).toHaveAttribute('aria-current','page');
+ await expect(nativePages.getByRole('link',{name:'Grid',exact:true})).not.toHaveAttribute('aria-current','page');
  expect(new URLSearchParams(new URL(page.url()).hash.split('?')[1]).get('entry')).toBe(id);
  await page.getByRole('link',{name:'‹ Grid',exact:true}).click();await expect(page.locator(`[data-treasure-id="${id}"]`)).toBeFocused();await fit(page);
 });

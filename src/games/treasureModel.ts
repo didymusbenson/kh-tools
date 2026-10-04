@@ -36,7 +36,7 @@ export function slotLabel(cell:TreasureCell) {
 }
 export function treasureMatches(cell:TreasureCell, checks:Record<string,boolean>, filters:{q?:string;area?:string;status?:string;group?:string}) {
   const e=cell.entry;
-  return (!filters.q||[e.name,e.area,e.summary,e.instructions,e.reward].join(' ').toLowerCase().includes(filters.q.toLowerCase()))&&
+  return (!filters.q||[e.name,e.world,e.area,e.summary,e.instructions,e.reward,cell.metadata.character].join(' ').toLowerCase().includes(filters.q.toLowerCase()))&&
     (!filters.area||e.area===filters.area)&&(!filters.group||cell.metadata.group===filters.group)&&
     (!filters.status||filters.status==='all'||(filters.status==='done'?!!checks[e.id]:!checks[e.id]));
 }
@@ -69,5 +69,17 @@ export function normalizeTreasureRoute(game:string,route:string) {
   if(!record)return route;
   params.set('entry',record.id);params.delete('item');params.set('world',record.world);params.set('scope',record.scope);
   if(record.character)params.set('character',record.character);
+  if(game==='recom'&&record.character)params.set('campaign',record.character.toLowerCase());
   return `${game}/${game==='recom'?'rewards':'treasures'}?${params}`;
+}
+/** Find the adjacent match in canonical order, including after the selected cell stops matching. */
+export function adjacentTreasureMatch(cells:TreasureCell[],selectedId:string,checks:Record<string,boolean>,filters:Parameters<typeof treasureMatches>[2],direction:1|-1) {
+  if(!cells.length)return undefined;
+  const found=cells.findIndex(c=>c.entry.id===selectedId);
+  const start=found>=0?found:direction===1?-1:0;
+  for(let step=1;step<=cells.length;step++){
+    const candidate=cells[(start+direction*step+cells.length)%cells.length];
+    if(treasureMatches(candidate,checks,filters))return candidate;
+  }
+  return undefined;
 }

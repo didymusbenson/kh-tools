@@ -7,9 +7,16 @@ test('BBS character previews, pills, canonical chest checks and reload',async({p
  await expect(page.getByRole('button',{name:'Aqua',exact:true})).toHaveAttribute('aria-pressed','true');
  await page.goto('./#/bbsfm/melding?character=Aqua&item=Fira');
  const check=page.locator('.bbs-chest-source input').first();await expect(check).toBeVisible();await check.check();
- await page.locator('.bbs-chest-source .bbs-link').first().click();await expect(page.locator('.bbs-detail-leaf .bbs-record-check input')).toBeChecked();
- await page.reload();await expect(page.locator('.bbs-detail-leaf .bbs-record-check input')).toBeChecked();
- await page.getByRole('button',{name:'Terra',exact:true}).click();await expect(page.locator('.bbs-record-list input:checked')).toHaveCount(0);
+ await page.locator('.bbs-chest-source .bbs-link').first().click();
+ const chest=page.locator('.treasure-notes .treasure-check input');await expect(chest).toBeChecked();
+ const id=await page.locator('[data-treasure-id][aria-pressed=true]').getAttribute('data-treasure-id');expect(id).toBeTruthy();
+ await page.reload();await expect(chest).toBeChecked();
+ await expect(page.locator('[data-treasure-id][aria-pressed=true]')).toHaveAttribute('data-treasure-id',id!);
+ await page.getByRole('button',{name:'Terra',exact:true}).click();
+ await expect(page.getByTestId('treasure-summary').locator('.treasure-heading > span')).toHaveText('0 / 122 chests');
+ await page.locator('.treasure-worlds > a').first().click();
+ await expect(page.locator('.treasure-check:visible input').first()).not.toBeChecked();
+ await expect(page.locator('[data-treasure-id][aria-pressed=true]')).toHaveAttribute('aria-label',/^Terra,/);
 });
 test('BBS abilities reverse lookup, crystal source modal and independent plans',async({page})=>{
  await page.goto('./#/bbsfm/melding?character=Aqua&tab=abilities&item=Second%20Chance');

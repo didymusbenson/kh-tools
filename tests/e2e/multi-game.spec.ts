@@ -10,17 +10,25 @@ for (const [game, category] of guides)
   test(`${game} collections persist and fit`, async ({ page }) => {
     await page.goto(`./#/${game}/${category}`);
     await expect(page.getByRole("main")).toBeVisible();
-    if(game==='dddhd'){
-      const first=page.locator('.ddd-index-row').first();
-      const check=first.getByRole('checkbox');
+    if(['dddhd','kh02','kh3'].includes(game)){
+      if(game==='kh3')await page.getByTestId('treasure-grouped-overview').locator('.treasure-group-row button').first().click();
+      else await page.locator('.treasure-worlds > a').first().click();
+      await expect(page.getByTestId('treasure-board')).toBeVisible();
+      const selected=page.locator('[data-treasure-id][aria-pressed=true]');
+      const id=await selected.getAttribute('data-treasure-id');expect(id).toBeTruthy();
+      const check=page.locator('.treasure-preview:visible .treasure-check input');
       const label=await check.getAttribute('aria-label');
-      await expect(check).toBeEnabled();await check.check();
-      await expect(page.locator('.ddd-save')).toContainText('Record saved.');
-      await first.getByRole('link').click();
-      await expect(page.locator('.ddd-detail')).toBeVisible();
-      await page.reload();await expect(page.getByRole('checkbox',{name:label!,exact:true})).toBeChecked();
+      await expect(check).toBeEnabled();await check.click();
+      await expect(page.locator('.treasure-save:visible').first()).toContainText('Marked collected.');await expect(check).toBeChecked();
+      await page.locator('.treasure-preview:visible').getByRole('link',{name:'Notes ›',exact:true}).click();
+      await expect(page.locator('.treasure-notes:visible')).toBeVisible();
+      await page.reload();
+      await expect(page.locator('.treasure-notes:visible').getByRole('checkbox',{name:label!,exact:true})).toBeChecked();
+      await expect(selected).toHaveAttribute('data-treasure-id',id!);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-      await page.screenshot({path:`test-results/${test.info().project.name}-dddhd-guide.png`});
+      if(game!=='dddhd')expect(await page.locator('.digital-stage').evaluate(el=>parseFloat(getComputedStyle(el).paddingBottom))).toBeLessThan(50);
+      await page.screenshot({path:`test-results/${test.info().project.name}-${game}-guide.png`});
+      if(game!=='dddhd')await expect(page.locator('.jiminy-launcher')).toHaveCount(0);
       return;
     }
     const check = page.locator(".guide-check input").first();

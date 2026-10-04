@@ -2,7 +2,7 @@
 
 ## Result
 
-**92/92 browser cases passed against the final production build with offline checks enabled**, at 03:51 UTC on 2026-10-04. Playwright reported a 1.4-minute run with zero skips. This combines 60 focused treasure-grid cases with 32 existing DDD layout/regression cases across desktop Chromium and the configured iPhone 13 Chromium project.
+**104/104 browser cases passed against the final production build with CI-enabled offline checks**, verified at 04:28 UTC on 2026-10-04. Playwright reported a 1.9-minute run with zero skips. This combines 60 focused treasure-grid cases, 32 existing DDD regressions, and 12 migrated source-link/alias cases across desktop Chromium and the configured iPhone 13 Chromium project. A separate six-repeat-per-project keyboard stress pass was 12/12 green.
 
 The focused suite is `tests/e2e/treasure-grids.spec.ts`. It exercises all seven adapters through their real journal shells and IndexedDB stores. Additional viewport checks cover 320×568, 1440×900 and 844×390. Treasure-specific flows in `ddd-layout.spec.ts` and `ddd-reports-regression.spec.ts` were migrated from retired lists to world summaries, positional boards and Notes. Their original count, persistence, backup/recovery, offline, growth, focus and geometry assertions were retained; unrelated Spirit, material and root behavior remains covered unchanged.
 
@@ -14,13 +14,13 @@ The focused suite is `tests/e2e/treasure-grids.spec.ts`. It exercises all seven 
 - **Character/story separation:** KH2 Sora 301/Roxas 16; BBS Terra 122/Ventus 130/Aqua 122/Secret Episode 8; DDD Sora 225/Riku 213; KH3 base 245/Re Mind 9. Native BBS header pills and DDD character selection restore each character's prior world, selected ID and independent checks, including after reload.
 - **Concurrent state:** another tab receives collection changes in all seven games. Undo preserves newer unrelated checks and rejects a stale same-ID reversal without claiming success.
 - **Storage errors:** injected IndexedDB quota failures in both the guide store and KH1 store keep the saved acquisition unchecked and produce a retryable failure announcement, never a successful collection announcement.
-- **CoM:** native Worlds & Rewards → Traverse Town opens the positional reward board directly. Finite reward claims and card discovery use separate checks. Riku receives no fabricated reward board.
+- **CoM:** native Worlds & Rewards → Traverse Town opens the positional reward board directly. Finite reward claims and card discovery use separate checks. Reward Notes paginate to the preserved Card Reference link; following Lionheart leaves its card discovery unchecked, and browser Back returns to the same collected claim. Riku receives no fabricated reward board.
 - **KH0.2:** Zodiac filtering retains the original chest ID and physical position.
 - **KH1:** the postcard list, acquisition notes and original check control remain reachable, including the existing narrow-screen Overview tab.
 - **Search:** zero matches leave canonical slots and the denominator intact.
 - **Keyboard:** Space selects a square without saving; the separately focused checkbox marks it. The checks run with reduced motion.
 - **KH3:** the grouped overview opens canonical world boards and keeps Re Mind separate.
-- **DDD native frame:** exact book bounds remain equal across all journal destinations. The world summary paginates inside its fixed leaf without an internal scroll area, including short/zoom-equivalent viewports. Existing Spirit/material/recipe/root regressions and 44 px primary-target checks pass.
+- **DDD native frame:** exact book bounds remain equal across all journal destinations. The world summary paginates inside its fixed leaf without an internal scroll area, including short/zoom-equivalent viewports. The native Grid/Notes current-page marker matches both world-only and selected-entry routes. Existing Spirit/material/recipe/root regressions and 44 px primary-target checks pass.
 - **Reading:** short-landscape reflow leaves controls and numbered note continuations reachable. Marking and Undo preserve the current notes continuation page.
 - **Offline:** after production service-worker installation, all seven games reopen and fully reload with networking disabled, retaining saved checks and selected IDs.
 
@@ -40,8 +40,31 @@ The final passing run includes regression assertions for these fixes:
 8. Native BBS/DDD character controls initially bypassed board presentation memory. They now restore validated per-character IDs/worlds through the same identity-based route contract.
 9. DDD initially removed its reserved mobile page-control row on treasure routes, moving the book up 44 px and growing it 44 px. Its native Grid/Notes row now retains the original geometry. The short-landscape world summary also no longer inherits the selected board's 520 px readable-reflow height; its redundant inner character picker is omitted because the native outer picker remains available. A new no-summary-scroll assertion prevents hiding an oversized summary in a scroller.
 10. Re:CoM's native selected-world route initially bypassed the new board. Finite Sora reward worlds now enter their board directly.
+11. Re:CoM reward Notes initially omitted the original Card Reference anchors and the claim/discovery separation note. Both are restored, with actual paginated link navigation and browser Back coverage.
+12. DDD's native mobile Grid/Notes current-page marker did not identify Grid for a world-only route without a selected entry. It now matches the rendered view, with assertions before and after selecting Notes.
 
 No unresolved failures remain in this focused suite.
+
+## Legacy-flow migration checkpoint · 04:20 UTC
+
+The exact-head full CI run at `8b37dcf` reported **153 passed, 61 failed and 2 skipped**. Its 61 failures comprised the same 50 preexisting baseline failures plus 11 cases still targeting retired treasure-list controls. The four narrowly affected flows were migrated without changing those baseline cases or unrelated assertions:
+
+- `bbs-ux.spec.ts`: a melding source checkbox opens the same collected treasure through its source link; reload retains its canonical ID and check. Switching to Terra asserts zero of 122 collected and an unchecked Terra slot.
+- `multi-game.spec.ts`: only DDD, KH0.2 and KH3 collection cases now enter their world/overview board, save, open Notes and reload the same checked ID. Horizontal fit, the digital shell's bottom-padding bound and no-launcher assertions remain. KH2 and all unrelated tests are untouched.
+- `recom-ux.spec.ts`: only the Neverland reward-link destination checkbox selector changed to the board's Collected control. The records, source-link, Riku-preset and fit assertions are unchanged.
+- `research-expansion.spec.ts`: the map alias still saves through the original maps URL and opens the matching treasure ID after navigation and reload, using the board's Collected checkbox and confirmed-save message.
+
+**12/12 matching production project cases passed in 9.1 seconds, zero skips**, including all 11 additional failures and the Re:CoM mobile counterpart. This targeted run does not establish a green full repository CI result; the 50 preexisting baseline cases were neither repaired nor weakened in this migration.
+
+Reproduce this narrow checkpoint against the successful current production build:
+
+```sh
+CI=1 ARS_TEST_CHROMIUM=/tmp/chromium npx playwright test \
+  tests/e2e/bbs-ux.spec.ts tests/e2e/multi-game.spec.ts \
+  tests/e2e/recom-ux.spec.ts tests/e2e/research-expansion.spec.ts \
+  --grep 'BBS character previews|(?:dddhd|kh02|kh3) collections persist and fit|records, reward links|KH2 map aliases' \
+  --reporter=line
+```
 
 ## Reproduce
 
@@ -59,8 +82,21 @@ For development-only iteration, start Vite and Playwright in the same shell/proc
 
 ## Verification boundary
 
-- The final combined run covers **92/92 cases**: 60 focused treasure cases plus 32 DDD cases, with zero skips or failures.
+- The final combined run covers **104/104 cases**: 60 focused treasure cases, 32 DDD cases and 12 migrated cross-game cases, with zero skips or failures. The 12-case keyboard stress pass is additional.
 - `git diff --check` for the owned QA files passed.
 - The full preexisting E2E suite is **tracked separately from this focused QA run**. Older treasure-list selectors may require deliberate migration; they were not silently changed to make this suite pass.
 - Mapping, catalogue identity, backup-roundtrip and excluded/tutorial-record checks are covered separately by `tests/treasure-mapping.test.ts` and the implementation's domain tests.
 - Responsive browser checks establish interaction and layout behavior; they do not certify unsupported native journal-slot order or exact native artwork. The per-game evidence limits remain in the checked-in crosswalk documents.
+
+### Final acceptance command
+
+```sh
+CI=1 ARS_TEST_CHROMIUM=/tmp/chromium npx playwright test \
+  tests/e2e/treasure-grids.spec.ts tests/e2e/ddd-layout.spec.ts \
+  tests/e2e/ddd-reports-regression.spec.ts tests/e2e/bbs-ux.spec.ts \
+  tests/e2e/multi-game.spec.ts tests/e2e/recom-ux.spec.ts tests/e2e/research-expansion.spec.ts \
+  --grep 'treasure-grids|ddd-layout|ddd-reports-regression|BBS character previews|(?:dddhd|kh02|kh3) collections persist and fit|records, reward links|KH2 map aliases' \
+  --workers=2 --reporter=line
+```
+
+The final source also passes 232 unit tests, including nearest-canonical filtered navigation and original-world search terms, and retains unavailable-scope, keyboard focus and explicit story-selection coverage. No known legacy failure was skipped or weakened; full CI remains a separately reported baseline comparison.

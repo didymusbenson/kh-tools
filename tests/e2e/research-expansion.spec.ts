@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { entries } from '../../src/games/kh2fm/catalog';
+import { entryTitle } from '../../src/domain/entryPresentation';
 import { readFileSync } from 'node:fs';
 
 test('KH1 new item references are reachable from the equipment chapter', async ({ page }) => {
@@ -16,13 +17,15 @@ test('KH2 map aliases share treasure progress after navigation and reload', asyn
   const map = entries.find(e => e.category === 'treasures' && e.categories?.includes('maps'))!;
   expect(map).toBeDefined();
   await page.goto(`./#/kh2fm/maps?entry=${encodeURIComponent(map.id)}`);
-  const recorded = page.getByRole('checkbox', { name: 'Recorded', exact: true });
+  const recorded = page.locator('.treasure-notes').getByRole('checkbox', { name: `Collected ${entryTitle(map)}`, exact: true });
   await expect(recorded).toBeEnabled();
-  await recorded.check();
+  await recorded.click();
+  await expect(page.locator('.treasure-notes .treasure-save')).toContainText('Marked collected.');
   await page.goto(`./#/kh2fm/treasures?entry=${encodeURIComponent(map.id)}`);
   await expect(recorded).toBeChecked();
   await page.reload();
   await expect(recorded).toBeChecked();
+  await expect(page.locator('[data-treasure-id][aria-pressed=true]')).toHaveAttribute('data-treasure-id', map.id);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 

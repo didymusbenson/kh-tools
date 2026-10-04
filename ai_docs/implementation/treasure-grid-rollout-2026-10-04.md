@@ -16,9 +16,9 @@ Authorized implementation of the seven-game [approved direction](../ui/treasure-
 ## Final local validation
 
 - Production content/pack validation, TypeScript and Vite/PWA build passed.
-- All **231 unit tests** passed, including 38 new mapping/backup, 7 projection/route and 3 strict save-acknowledgment tests.
+- All **232 unit tests** passed, including 38 new mapping/backup, 8 projection/route and 3 strict save-acknowledgment tests.
 - Python pack **7/7** and seed **2/2** passed. The pinned Chroma dependency was installed in a temporary test environment; no dependency changes were required.
-- The complete combined production browser run passed **92/92** across desktop and mobile Chromium emulation, with offline enabled automatically under `CI=1`: 60 feature cases and 32 existing DDD regression cases migrated to the approved board interactions. Fixed native-frame and summary no-scroll assertions were preserved; a genuine 44px frame shift was repaired. Includes 320×568 marked/Undo/filter bounds, short landscape reflow, keyboard/reduced motion, ID-only deep links, Back/Forward/focus, native character restoration, cross-tab and failed storage.
+- The complete combined production browser run passed **104/104** across desktop and mobile Chromium emulation, with offline enabled automatically under `CI=1`: 60 feature cases, 32 existing DDD regression cases and 12 affected cross-game source-link/alias cases migrated to the approved board interactions. Fixed native-frame and summary no-scroll assertions were preserved; a genuine 44px frame shift was repaired. Includes 320×568 marked/Undo/filter bounds, short landscape reflow, keyboard/reduced motion, ID-only deep links, Back/Forward/focus, native character restoration, cross-tab and failed storage.
 - BBS/DDD and KH1/KH2/KH3 deterministic metadata checks passed. All checkable original IDs remain in their original catalogues; old backup maps preserve true/false and excluded tutorial records.
 - Representative desktop screenshots for all seven games plus KH2 phone and Re:CoM 320px were visually reviewed. Native references informed the framing; this does not certify unverified slot geometry or art parity.
 - `git diff --check` passed.
@@ -36,3 +36,5 @@ Known inherited baseline: full browser suite had 50 legacy failures and 2 skips 
 - Changes are on a feature branch. Master merge, Pages deployment and live-release verification require the separate release decision.
 
 The final entry-flow check also verifies that Re:CoM’s native Worlds & Rewards index opens finite Sora world boards directly. Riku and 100 Acre Wood remain in their original tracks.
+
+The final Notes pass preserves Re:CoM Card Reference navigation and independent card-discovery checks. Adjacent filtered matches follow canonical order even after the selected Remaining cell is collected; world/character search terms remain valid on board entry. Keyboard selection was additionally stressed six times per desktop/mobile project (12/12 passes) after replacing stale delayed focus with cancellable restoration that respects newer user focus. Inapplicable scopes show no misleading 0/0 badge.

@@ -6,7 +6,7 @@ import ddd from '../src/games/dddhd';
 import kh3 from '../src/games/kh3';
 import recom from '../src/games/recom';
 import kh02 from '../src/games/kh02';
-import {treasurePartitions,treasureMatches,slotLabel,hasTreasureBoard,normalizeTreasureRoute} from '../src/games/treasureModel';
+import {treasurePartitions,treasureMatches,slotLabel,hasTreasureBoard,normalizeTreasureRoute,adjacentTreasureMatch} from '../src/games/treasureModel';
 import type {GameData} from '../src/domain/types';
 const kh1=JSON.parse(readFileSync('public/data/kh1fm.json','utf8')) as GameData;
 describe('treasure presentation projections',()=>{
@@ -35,14 +35,25 @@ describe('treasure presentation projections',()=>{
  it('matches without changing partition order, count or selected identity',()=>{
   const p=treasurePartitions('kh2fm',kh2.entries)[0],cell=p.cells[0],ids=p.cells.map(c=>c.entry.id);
   expect(treasureMatches(cell,{}, {status:'remaining'})).toBe(true);
+  expect(treasureMatches(cell,{}, {q:cell.metadata.world})).toBe(true);
   expect(treasureMatches(cell,{[cell.entry.id]:true},{status:'remaining'})).toBe(false);
   expect(treasureMatches(cell,{}, {q:'no-such-treasure-name'})).toBe(false);
   expect(p.cells.map(c=>c.entry.id)).toEqual(ids);
+ });
+ it('moves to the nearest canonical match even when a selected Remaining cell was just collected',()=>{
+  const cells=treasurePartitions('kh2fm',kh2.entries)[0].cells;
+  const checks=Object.fromEntries(cells.map((c,i)=>[c.entry.id,i!==3&&i!==7]));
+  expect(adjacentTreasureMatch(cells,cells[5].entry.id,checks,{status:'remaining'},1)?.entry.id).toBe(cells[7].entry.id);
+  expect(adjacentTreasureMatch(cells,cells[5].entry.id,checks,{status:'remaining'},-1)?.entry.id).toBe(cells[3].entry.id);
+  expect(adjacentTreasureMatch(cells,cells.at(-1)!.entry.id,checks,{status:'remaining'},1)?.entry.id).toBe(cells[3].entry.id);
+  expect(adjacentTreasureMatch(cells,cells[0].entry.id,checks,{q:'no-such-item'},1)).toBeUndefined();
  });
  it('opens finite ReCoM world claims from native Worlds navigation without fabricating Riku rewards',()=>{
   expect(hasTreasureBoard('recom','recom/worlds?campaign=sora&world=Traverse%20Town')).toBe(true);
   expect(hasTreasureBoard('recom','recom/worlds?campaign=riku&world=Traverse%20Town')).toBe(false);
   expect(hasTreasureBoard('recom','recom/worlds?campaign=sora&world=100%20Acre%20Wood')).toBe(false);
+  const claim=treasurePartitions('recom',recom.entries)[0].cells[0];
+  expect(new URLSearchParams(normalizeTreasureRoute('recom',`recom/rewards?campaign=riku&entry=${claim.entry.id}`).split('?')[1]).get('campaign')).toBe('sora');
  });
  it('normalizes selected deep links into the owner, world and canonical treasure section',()=>{
   const cell=treasurePartitions('bbsfm',bbs.entries).find(p=>p.character==='Aqua')!.cells[0];

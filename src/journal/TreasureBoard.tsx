@@ -1,6 +1,6 @@
 import {useEffect,useLayoutEffect,useRef,useState,type CSSProperties,type ReactNode} from 'react';
 import {entryTitle} from '../domain/entryPresentation';
-import {scopeLabel,slotLabel,treasureMap,treasureMatches,treasurePartitions,type TreasureCell,type TreasureEntry,type TreasurePartition} from '../games/treasureModel';
+import {scopeLabel,slotLabel,treasureMap,treasureMatches,treasurePartitions,adjacentTreasureMatch,type TreasureCell,type TreasureEntry,type TreasurePartition} from '../games/treasureModel';
 import {JournalNotePages} from './JournalNotePages';
 import './treasure-board.css';
 
@@ -50,13 +50,14 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  }
  function go(changes:Record<string,string|undefined>) {location.hash=link(changes);}
  function select(cell:TreasureCell,nextView=view) {go({entry:cell.entry.id,board:undefined,world:cell.metadata.world,character:cell.metadata.character,scope:cell.metadata.scope,view:nextView,page:undefined});}
- function focusSelected() {requestAnimationFrame(()=>{const active=document.activeElement;if(active?.matches('input,select,textarea,button:not([data-treasure-id])'))return;gridRef.current?.querySelector<HTMLButtonElement>(`[data-treasure-id="${CSS.escape(selected?.entry.id||'')}"]`)?.focus({preventScroll:true});});}
+ function focusSelected(original:Element|null) {const active=document.activeElement;if(active!==original&&active!==document.body&&active?.tagName!=='MAIN')return;gridRef.current?.querySelector<HTMLButtonElement>(`[data-treasure-id="${CSS.escape(selected?.entry.id||'')}"]`)?.focus({preventScroll:true});}
  useEffect(()=>{setDraft(q);},[q]);
  useEffect(()=>{
    if(view!=='grid'||!selectedId)return;
    // Run after both native-shell effects and the hash navigation's default focus.
+   const original=document.activeElement;
    let frame=0;
-   const first=requestAnimationFrame(()=>{frame=requestAnimationFrame(()=>focusSelected());});
+   const first=requestAnimationFrame(()=>{frame=requestAnimationFrame(()=>focusSelected(original));});
    return()=>{cancelAnimationFrame(first);cancelAnimationFrame(frame);};
  },[route,view,selectedId,geometry.columns,geometry.rows]);
  useEffect(()=>{
@@ -103,14 +104,14 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  const statusRegion=(live=true)=><div className={`treasure-save ${failure?'treasure-save-error':''}`} role={live?(failure?'alert':'status'):undefined}><span>{message||(!ready?'Opening saved progress…':'Select a square to read. Mark collected separately.')}</span>{undo&&<button disabled={pending||!ready} onClick={()=>{const c=partitions.flatMap(p=>p.cells).find(c=>c.entry.id===undo.id);if(c)void mark(c,undo.before,true);}}>Undo</button>}</div>;
  const characters=[...new Set(partitions.map(p=>p.character).filter(Boolean))];
  const scopeChoices=[...new Set(partitions.filter(p=>!character||character==='all'||p.character===character).map(p=>p.scope))];
- function moveMatch(direction:number){const at=matches.findIndex(c=>c.entry.id===selected?.entry.id);const target=matches[(at+direction+matches.length)%matches.length];if(target)select(target,'grid');}
+ function moveMatch(direction:1|-1){const target=adjacentTreasureMatch(cells,selected?.entry.id||'',checks,{q,area,status,group},direction);if(target)select(target,'grid');}
  const controls=<div className="treasure-selectors">
    {characters.length>1&&game!=='dddhd'&&<label>Character<select aria-label="Treasure character" value={character} onChange={e=>changeCharacter(e.target.value)}><option value="">All characters</option>{characters.map(c=><option key={c}>{c}</option>)}</select></label>}
-   {scopeChoices.length>1&&<label>Story<select aria-label="Treasure story" value={scope} onChange={e=>go({scope:e.target.value,world:undefined,entry:undefined,board:undefined,page:undefined})}><option value="">All stories</option>{scopeChoices.map(s=><option value={s} key={s}>{scopeLabel(s)}</option>)}</select></label>}
+   {scopeChoices.length>1&&<label>Story<select aria-label="Treasure story" value={scope} onChange={e=>go({scope:e.target.value,world:undefined,entry:undefined,board:undefined,page:undefined})}>{!['kh2fm','kh3'].includes(game)&&<option value="">All stories</option>}{scopeChoices.map(s=><option value={s} key={s}>{scopeLabel(s)}</option>)}</select></label>}
  </div>;
  if(!partition&&game==='kh3'&&params.get('overview')!=='list')return <TreasureGroupedOverview partitions={scoped} checks={checks} header={<><div className="treasure-heading"><h2>Treasures</h2><strong>{done} / {total} {unit}</strong><a href={link({overview:'list'})}>World list</a></div>{controls}</>} open={cell=>select(cell,'grid')}/>;
  if(!partition)return <div className={`treasure-layout treasure-${game} treasure-summary ${single?'treasure-single':''}`} data-testid="treasure-summary">
-   <section className="treasure-leaf treasure-overview">{game==='kh3'&&<a href={link({overview:undefined})}>Grouped overview ›</a>}<div className="treasure-heading"><h2>{title}</h2><span>{done} / {total} {unit}</span></div>{controls}
+   <section className="treasure-leaf treasure-overview">{game==='kh3'&&<a href={link({overview:undefined})}>Grouped overview ›</a>}<div className="treasure-heading"><h2>{title}</h2>{total>0&&<span>{done} / {total} {unit}</span>}</div>{controls}
    <div className="treasure-worlds" ref={summaryRef}>{scoped.slice(summaryPage*summaryCapacity,(summaryPage+1)*summaryCapacity).map(p=><a key={p.id} href={link({board:p.id,world:p.world,character:p.character,scope:p.scope,entry:p.cells[0].entry.id,view:'grid',page:undefined})}><span>{p.world}<small>{[p.character,scopeLabel(p.scope),p.group].filter(Boolean).join(' · ')}</small></span><strong>{p.cells.filter(c=>checks[c.entry.id]).length} / {p.cells.length}</strong></a>)}</div>
    {!scoped.length&&<p>No treasure collection applies to this selection.</p>}
    <nav className="treasure-pagination" aria-label="Treasure world pages"><a aria-disabled={summaryPage===0} href={summaryPage?link({page:String(summaryPage-1)}):undefined}>‹</a><span>Worlds {summaryPage+1} / {Math.max(1,Math.ceil(scoped.length/summaryCapacity))}</span><a aria-disabled={(summaryPage+1)*summaryCapacity>=scoped.length} href={(summaryPage+1)*summaryCapacity<scoped.length?link({page:String(summaryPage+1)}):undefined}>›</a></nav>

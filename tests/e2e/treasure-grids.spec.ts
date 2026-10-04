@@ -99,6 +99,9 @@ test('character and episode scopes have independent denominators and checks',asy
    await open(page,game,record.id);await expect(check(page)).not.toBeChecked();await check(page).click();await expect(saved(page)).toContainText('Marked collected.');
   }
  }
+ await page.goto(route('bbsfm',{character:'Aqua · Final Episode'}));
+ await expect(page.getByTestId('treasure-summary')).toContainText('No treasure collection applies');
+ await expect(page.getByTestId('treasure-summary')).not.toContainText('0 / 0');
 });
 
 test('all seven stores synchronize another tab and Undo preserves newer unrelated checks',async({page,context})=>{
@@ -130,8 +133,22 @@ test('Re:CoM reward claims never mark card discovery or add a Riku reward board'
  await check(page).click();await expect(saved(page)).toContainText('Marked collected.');
  const card='recom-sora-card-attack-lionheart';
  expect((await profile(page,'recom')).checks[card]).not.toBe(true);
- await page.goto(`./#/recom/cards?campaign=sora&family=attack&entry=${card}`);
+ await page.locator('.treasure-preview:visible').getByRole('link',{name:'Notes ›',exact:true}).click();
+ const notes=page.locator('.treasure-notes:visible');await expect(notes).toBeVisible();
+ await expect(notes.getByRole('heading',{name:'Card reference',exact:true})).toHaveCount(1);
+ await expect(notes).toContainText('Reward checks and card discovery are separate records.');
+ const cardLink=notes.locator(`a.com-related[href*="${card}"]`),next=notes.getByRole('button',{name:'Next notes page',exact:true});
+ await expect(cardLink).toHaveCount(1);await page.evaluate(()=>document.fonts.ready);
+ let turns=0;
+ while(!await cardLink.evaluate(el=>{const r=el.getBoundingClientRect(),w=el.closest('.kh1-note-window')!.getBoundingClientRect();return r.left>=w.left-1&&r.right<=w.right+1&&r.top>=w.top-1&&r.bottom<=w.bottom+1;})){
+  await expect(next).toBeEnabled();await next.click();expect(++turns).toBeLessThan(60);
+ }
+ const notesURL=page.url();await cardLink.click();
  await expect(page.getByRole('checkbox',{name:'Complete Lionheart (Sora)',exact:true})).not.toBeChecked();
+ expect((await profile(page,'recom')).checks[card]).not.toBe(true);
+ await page.goBack();await expect(notes).toBeVisible();expect(page.url()).toBe(notesURL);
+ expect(new URLSearchParams(new URL(page.url()).hash.split('?')[1]).get('entry')).toBe(reward.id);
+ await expect(check(page)).toBeChecked();expect((await profile(page,'recom')).checks[reward.id]).toBe(true);
  await page.goto('./#/recom/rewards?campaign=riku');await expect(board(page)).toHaveCount(0);await expect(page.getByTestId('treasure-summary')).toHaveCount(0);
 });
 
@@ -227,6 +244,7 @@ test('keyboard selection never writes progress, and the separate checkbox works 
 test('KH3 grouped overview retains separate base and Re Mind boards',async({page})=>{
  await page.goto(route('kh3'));const overview=page.getByTestId('treasure-grouped-overview');await expect(overview).toBeVisible();
  await expect(overview.locator('.treasure-heading')).toContainText('0 / 245 chests');
+ await expect(overview.getByRole('combobox',{name:'Treasure story'}).locator('option')).toHaveText(['Main story','Re Mind']);
  await overview.locator('.treasure-group-row button').first().click();await expect(board(page)).toBeVisible();
  await expectSelected(page,first('kh3').id);await expect(check(page)).not.toBeChecked();
  await page.goto(route('kh3',{scope:'remind'}));await expect(overview).toBeVisible();await expect(overview.locator('.treasure-heading')).toContainText('0 / 9 chests');

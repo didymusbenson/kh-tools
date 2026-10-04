@@ -55,7 +55,7 @@ test('records, reward links and Riku presets work on narrow and wide screens',as
  await expect(page.getByRole('heading',{name:'Midnight Roar',exact:true}).last()).toBeVisible();
  await turnTo(page,page.getByRole('link',{name:/Neverland · Room of Rewards/}));
  await page.getByRole('link',{name:/Neverland · Room of Rewards/}).click();
- await expect(page.getByRole('checkbox',{name:'Complete Midnight Roar (Sora)'})).toBeVisible();
+ await expect(page.locator('.treasure-notes:visible').getByRole('checkbox',{name:'Collected Midnight Roar',exact:true})).toBeVisible();
  await page.goto(com('decks?campaign=riku'));
  await page.getByRole('link',{name:/Traverse Town/}).click();
  await expect(page.getByRole('heading',{name:'World deck · card order'})).toBeVisible();
