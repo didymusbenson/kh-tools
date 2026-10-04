@@ -116,6 +116,10 @@ test('short world headers never cover their own navigation', async ({ page }) =>
         return r.height>0 && !link.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));
       }).map(link=>link.textContent));
       expect(covered).toEqual([]);
+      const plaque = page.locator(game === 'kh2fm' ? '.kh2-header-controls a' : '.ddd-ribbons a').first();
+      await plaque.focus();
+      await expect(plaque).toBeFocused();
+      expect(await plaque.evaluate(el => getComputedStyle(el).textDecorationLine)).toContain('underline');
       if(game==='dddhd')await expect(page.getByRole('link',{name:'Reports contents',exact:true})).toBeVisible();
     }
   }
