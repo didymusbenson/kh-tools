@@ -1,3 +1,4 @@
+import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import {TreasureBoard} from './TreasureBoard';
 import {hasTreasureBoard,normalizeTreasureRoute} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
@@ -113,7 +114,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const done=collectionScope?progress.completed:scopeEntries.filter(e=>e.checkable&&player.state.checks[e.id]).length;
   return <div className={`kh1-native ${synthesis?'kh1-with-synthesis':''} ${synthesis&&parts[2]==='plan'?'kh1-farming':''} kh1-show-${leaf}`}>
     <a className="skip-link" href="#kh1-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
-    <div className="kh1-outer"><a href="#/">‹ Games</a><span>KINGDOM HEARTS · FINAL MIX</span><span className="kh1-pass">Journal MVP</span></div>
+    <JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX"/>
     <section className="kh1-volume" aria-label="Kingdom Hearts Final Mix journal">
       <header className="kh1-heading">
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>

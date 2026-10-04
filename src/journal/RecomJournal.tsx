@@ -1,3 +1,4 @@
+import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import {TreasureBoard,TreasureDirections} from './TreasureBoard';
 import {hasTreasureBoard} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
@@ -114,7 +115,7 @@ export function RecomJournal({guide,route,profile,ready,error,notice,updateNotic
   const treasureMode=hasTreasureBoard(guide.id,route);
   return <div className={`com-native com-${campaign} ${system?'com-system':''}`}>
     <a className="skip-link" href="#com-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
-    <div className="com-outer"><a href="#/">‹ Games</a><span>RE:CHAIN OF MEMORIES · HD 1.5 ReMIX</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div>
+    <JournalUtilityBar className="com-outer" game="RE:CHAIN OF MEMORIES · HD 1.5 ReMIX" tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}/>
     <section className="com-volume" aria-label={`${campaign==='sora'?'Sora’s Journal':'Riku’s D-Report'}`}>
       <header className="com-header">
         <nav className="com-campaigns" aria-label="Campaign"><a href={recomHref('contents','sora')} aria-current={campaign==='sora'?'page':undefined}>Sora</a><a href={recomHref('contents','riku')} aria-current={campaign==='riku'?'page':undefined}>Riku · Reverse/Rebirth</a></nav>

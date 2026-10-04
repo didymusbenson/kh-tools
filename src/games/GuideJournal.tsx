@@ -1,3 +1,4 @@
+import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import { FarmingMaterialRow, FarmingItinerary } from '../journal/FarmingPlan';
 import { useIndexCapacity } from '../journal/useIndexCapacity';
 import { buildGuideFarmingPlan } from './farmingPlan';
@@ -80,6 +81,8 @@ export default function GuideJournal({
       } catch {}
   }, [isBbs, character]);
   const [open, setOpen] = useState<Set<string>>(() => new Set());
+  const menuButton = useRef<HTMLButtonElement>(null);
+  const sidebar = useRef<HTMLElement>(null);
   const main = useRef<HTMLElement>(null),
     channel = useRef<BroadcastChannel | null>(null);
   const [path, search = ""] = route.split("?"),
@@ -142,6 +145,24 @@ export default function GuideJournal({
   useEffect(() => {
     setOpen(new Set());
   }, [query, status, character, world]);
+  useEffect(() => {
+    if (!menu) return;
+    const frame = requestAnimationFrame(() => sidebar.current?.querySelector<HTMLAnchorElement>('a')?.focus());
+    function keydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') { event.preventDefault(); setMenu(false); menuButton.current?.focus(); }
+      if (event.key === 'Tab') {
+        const links = Array.from(sidebar.current?.querySelectorAll<HTMLElement>('a[href], button, input, select') || []);
+        const first = links[0], last = links.at(-1);
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    }
+    const media = matchMedia('(max-width:930px)');
+    const resize = () => { if (!media.matches) setMenu(false); };
+    media.addEventListener('change', resize);
+    window.addEventListener('keydown', keydown);
+    return () => { cancelAnimationFrame(frame); window.removeEventListener('keydown', keydown); media.removeEventListener('change', resize); };
+  }, [menu]);
   async function update(
     change: (p: GuideProfile) => GuideProfile,
     recovery = false,
@@ -251,6 +272,8 @@ export default function GuideJournal({
       return list.length ? `${list.length} entries` : "World guide";
     return `${c.filter((e) => profile.checks[e.id]).length}/${c.length}`;
   };
+  const worldSectionCount = (list: CollectionEntry[]) => list.some(e => e.checkable !== false)
+    ? `${count(list)} recorded` : `${list.length} entries`;
   const filtered = entries.filter(
     (e) =>
       (section === "search" ||
@@ -635,7 +658,7 @@ export default function GuideJournal({
   const planPage = Math.max(0, Math.min(planPages - 1, planAnchorIndex >= 0 ? Math.floor(planAnchorIndex / planCapacity) : Math.floor(Number(routeParams.get('page'))) || 0));
   const shownPlan = filteredPlan.slice(planPage * planCapacity, (planPage + 1) * planCapacity);
   const farmingPlan = buildGuideFarmingPlan(guide, plannedMaterials, profile.owned, profile.targets);
-  if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><div className="digital-outer"><a href="#/">‹ Games</a><span>{guide.name} · {guide.edition}</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage">{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span></footer></div>;
+  if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><a className="skip-link" href="#digital-main" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal content</a><JournalUtilityBar className="digital-outer" game={`${guide.name} · ${guide.edition}`} tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}/><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage" id="digital-main" ref={main} tabIndex={-1}>{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span></footer></div>;
   if (guide.id === "dddhd") return <Suspense fallback={<div className="loading-page">Opening your reports…</div>}><DddJournal
     guide={guide} route={route} profile={profile} ready={ready}
     error={error} notice={notice} updateNotice={updateNotice}
@@ -692,6 +715,8 @@ export default function GuideJournal({
         </div>
         <button
           className="icon-button mobile-menu"
+          ref={menuButton}
+          aria-controls="guide-navigation"
           aria-label="Toggle journal navigation"
           aria-expanded={menu}
           onClick={() => setMenu(!menu)}
@@ -701,12 +726,27 @@ export default function GuideJournal({
       </header>
       <div className="journal-shell">
         <aside
+          ref={sidebar}
+          id="guide-navigation"
+          onClick={event => { if (menu && (event.target as Element).closest('a[href]')) { setMenu(false); requestAnimationFrame(() => main.current?.focus({preventScroll:true})); } }}
           className={`journal-sidebar ${menu ? "mobile-open" : ""}`}
           aria-label="Journal navigation"
         >
           <div className="sidebar-volume">
             <h2>{guide.name}</h2>
             <p>{guide.edition}</p>
+          </div>
+          <div className="sidebar-bottom">
+            <a href={href("search")}>Search this journal</a>
+            <a href={href("progress")}>Progress & backups</a>
+            <a href="#/">Change journal</a>
+            <span role="status">
+              {error
+                ? "Progress needs attention"
+                : ready
+                  ? "Progress saved on this device"
+                  : "Loading saved progress…"}
+            </span>
           </div>
           <nav className="chapter-nav" aria-label="Journal chapters">
             {[
@@ -740,24 +780,13 @@ export default function GuideJournal({
               World collectibles <strong>{count(collectible)}</strong>
             </div>
           )}
-          <div className="sidebar-bottom">
-            <a href={href("search")}>Search this journal</a>
-            <a href={href("progress")}>Progress & backups</a>
-            <a href="#/">Change journal</a>
-            <span role="status">
-              {error
-                ? "Progress needs attention"
-                : ready
-                  ? "Progress saved on this device"
-                  : "Loading saved progress…"}
-            </span>
-          </div>
+
         </aside>
         {menu && (
           <button
             className="nav-scrim"
             aria-label="Close navigation"
-            onClick={() => setMenu(false)}
+            onClick={() => { setMenu(false); menuButton.current?.focus(); }}
           />
         )}
         <main
@@ -791,8 +820,12 @@ export default function GuideJournal({
                 <span>Checks, stock and plans stay with their character.</span>
               </div>
             )}
-            <div className="guide-title">
-              <h1>{title}</h1>
+            <header className={`guide-title ${section === 'worlds' ? 'guide-world-heading' : ''}`}>
+              <div className="guide-heading-copy">
+                {selectedWorld && <a className="guide-back-worlds" href={href('worlds')}><Icon name="back" size={16}/> All worlds</a>}
+                <h1>{title}</h1>
+              </div>
+              {section === 'worlds' && <Icon name="world" size={38}/> }
               {category && (
                 <span>
                   {count(
@@ -806,7 +839,7 @@ export default function GuideJournal({
                   )}
                 </span>
               )}
-            </div>
+            </header>
             {error && (
               <div role="alert" className="save-alert">
                 {error}
@@ -830,21 +863,20 @@ export default function GuideJournal({
               <>
                 {selectedWorld ? (
                   <>
-                    <a href={href("worlds")}>All worlds</a>
                     {(!isBbs ||
                       !guide.worlds
                         .find((w) => w.name === selectedWorld)
                         ?.summary.startsWith(
                           "Character-specific treasure",
                         )) && (
-                      <p>
+                      <p className="guide-world-summary">
                         {
                           guide.worlds.find((w) => w.name === selectedWorld)
                             ?.summary
                         }
                       </p>
                     )}
-                    <div className="guide-world-links">
+                    <nav className="guide-world-links" aria-label="World sections">
                       {guide.categories
                         .filter((c) =>
                           entries.some(
@@ -865,7 +897,7 @@ export default function GuideJournal({
                             <Icon name={c.icon as IconName} />
                             <strong>{c.label}</strong>
                             <span>
-                              {count(
+                              {worldSectionCount(
                                 entries.filter(
                                   (e) =>
                                     (e.category === c.id ||
@@ -877,10 +909,10 @@ export default function GuideJournal({
                             </span>
                           </a>
                         ))}
-                    </div>
+                    </nav>
                   </>
                 ) : (
-                  <div className="guide-world-links">
+                  <nav className="guide-world-links" aria-label="Worlds">
                     {guide.worlds
                       .filter(
                         (w) =>
@@ -894,14 +926,13 @@ export default function GuideJournal({
                         >
                           <strong>{w.name}</strong>
                           <span>
-                            {count(
-                              collectible.filter((e) => e.world === w.name),
-                            )}
+                            {collectible.some(e => e.world === w.name)
+                              ? `${count(collectible.filter(e => e.world === w.name))} collected`
+                              : 'View guide'}
                           </span>
-                          <Icon name="arrow" />
                         </a>
                       ))}
-                  </div>
+                  </nav>
                 )}
               </>
             )}
