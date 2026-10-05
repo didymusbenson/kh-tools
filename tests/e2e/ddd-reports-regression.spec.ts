@@ -62,7 +62,9 @@ test('DDD displayed treasure totals do not shrink with search or completion filt
  await expect(worldTotal).toHaveText(worldFull);
  await page.getByRole('link',{name:'All treasure worlds',exact:true}).click();
  await expect(treasureTotal(page)).toHaveText(full);
+ await page.getByRole('button', {name:'Tools',exact:true}).click();
  await page.getByRole('combobox',{name:'Filter by character',exact:true}).selectOption('Riku');
+ await page.keyboard.press('Escape');
  await expect(treasureTotal(page)).toHaveText('0 / 213 chests');
 });
 

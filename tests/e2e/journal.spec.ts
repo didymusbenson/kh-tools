@@ -156,7 +156,8 @@ test("the cover resumes the last saved journal page", async ({ page }) => {
   await expect(page.getByRole("status").filter({ hasText: "Progress saved on this device" })).toContainText(
     "Progress saved on this device",
   );
-  await page.getByRole("link", { name: "‹ Games", exact: true }).click();
+  await page.getByRole("button", { name: "Tools", exact: true }).click();
+  await page.getByRole("link", { name: "‹ Ars Arcanum home", exact: true }).click();
   await expect(
     page.getByRole("link", { name: "Resume last page" }),
   ).toHaveAttribute("href", "#/kh1fm/synthesis/recipes");

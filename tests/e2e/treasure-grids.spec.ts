@@ -287,7 +287,7 @@ test('native BBS and DDD character controls restore each character\'s last treas
   await open(page,game,secondRecord.id,{character:secondCharacter});await expect(check(page)).not.toBeChecked();
   const switchNative=async(character:string)=>{
    if(game==='bbsfm')await page.getByRole('button',{name:character,exact:true}).click();
-   else await page.getByRole('combobox',{name:'Filter by character',exact:true}).selectOption(character);
+   else { await page.getByRole('button',{name:'Tools',exact:true}).click(); await page.getByRole('combobox',{name:'Filter by character',exact:true}).selectOption(character); await page.keyboard.press('Escape'); }
   };
   await switchNative(firstCharacter);await expectSelected(page,firstRecord.id);await expect(check(page)).toBeChecked();await expect(board(page).locator('.treasure-heading').first()).toContainText(firstRecord.world);
   await switchNative(secondCharacter);await expectSelected(page,secondRecord.id);await expect(check(page)).not.toBeChecked();await expect(board(page).locator('.treasure-heading').first()).toContainText(secondRecord.world);

@@ -38,8 +38,8 @@ html body .digital-treasure {position:relative;grid-template-rows:68px minmax(0,
    separate website header or a second padded canvas around the journal. */
 .journal-app.multi-guide {height:100dvh;min-height:0;padding:0;overflow:hidden;}
 .journal-app.multi-guide>.journal-shell {height:100%;width:100%;max-width:none;margin:0;overflow:hidden;align-items:stretch;}
-.journal-app.multi-guide .journal-sidebar {top:0;min-height:0;height:100%;overflow:auto;padding-top:max(16px,env(safe-area-inset-top));}
-.journal-app.multi-guide .journal-page-wrap {min-height:0;height:100%;padding:0;overflow:auto;overscroll-behavior:contain;}
+.journal-app.multi-guide .journal-sidebar {top:0;min-height:0;height:100%;max-height:none;overflow:auto;padding-top:max(16px,env(safe-area-inset-top));}
+.journal-app.multi-guide .journal-page-wrap {min-height:0;height:100%;padding:0;margin:0;overflow:auto;overscroll-behavior:contain;}
 .journal-app.multi-guide .journal-page {min-height:100%;margin:0;border:0;border-radius:0;box-shadow:none;padding:20px max(20px,env(safe-area-inset-right)) max(20px,env(safe-area-inset-bottom)) 20px;}
 .journal-app.multi-guide .binding {display:none;}
 .journal-app.multi-guide .journal-topbar {position:relative;top:auto;height:auto;min-height:44px;background:none;color:inherit;border:0;padding:0 0 12px;gap:12px;backdrop-filter:none;z-index:1;}
@@ -59,3 +59,20 @@ html body .digital-treasure {position:relative;grid-template-rows:68px minmax(0,
   .journal-inset-tools .journal-tools-toggle {min-height:32px;}
   html body :is(.kh1-save-line,.kh2-save,.bbs-save-status,.ddd-save,.com-save) {height:18px;min-height:18px;line-height:18px;padding-top:0;padding-bottom:env(safe-area-inset-bottom);}
 }
+
+/* Multiple urgent notices share one bounded, scrollable overlay. */
+.journal-notices {position:absolute;z-index:45;top:env(safe-area-inset-top);left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));display:grid;gap:6px;max-height:50dvh;overflow:auto;pointer-events:none;}
+.journal-notices:empty {display:none;}
+.journal-notices > :is(.app-update-notice,.kh1-save-error,.kh2-error,.bbs-error,.ddd-error,.com-error) {position:static;inset:auto;margin:0;max-height:none;pointer-events:auto;}
+.journal-app.multi-guide .journal-topbar {position:sticky;top:0;background:var(--paper);}
+/* Treasure boards already own a confirmed-save/Undo region on the active leaf. */
+:is(.kh1-volume,.kh2-volume,.bbs-volume,.ddd-volume,.com-volume):has(.treasure-layout) > :is(.kh1-save-line,.kh2-save,.bbs-save-status,.ddd-save,.com-save) {display:none;}
+/* Compact treasure views used to suppress the detached companion rail. */
+.com-native .journal-inset-tools .journal-tools-panel .com-utilities {display:flex;}
+/* BBS home cards and character portraits have a readable minimum size. On
+   short landscape screens, scroll inside their stage rather than clip links. */
+@media(max-height:500px) {
+  .bbs-native .bbs-main {overflow-y:auto;overscroll-behavior:contain;}
+}
+/* Reports remains available inside Tools at every breakpoint. */
+.ddd-native .journal-inset-tools .journal-tools-panel .ddd-compact-reports {display:flex;}

@@ -150,6 +150,7 @@ test('full-height phone primary controls have at least44 pixel hit areas',async(
  await page.setViewportSize({width:390,height:844});
  await page.goto('./#/dddhd/spirits?entry=dddhd:spirits:aura-lion');
  await expect(page.locator('.ddd-book')).toBeVisible();
+ await page.getByRole('button',{name:'Tools',exact:true}).click();
  for(const target of [page.getByRole('combobox',{name:'Filter by character'}),page.getByRole('link',{name:'Search',exact:true}),page.getByRole('link',{name:'Save & Settings',exact:true}),page.getByRole('link',{name:'Next entry',exact:true}),page.getByRole('button',{name:'Next notes page',exact:true})]){
   const box=await target.boundingBox();expect(box!.height).toBeGreaterThanOrEqual(44);expect(box!.width).toBeGreaterThanOrEqual(44);
  }

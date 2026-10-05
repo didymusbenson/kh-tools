@@ -48,7 +48,8 @@ test("cover resumes a collection type with its selected world", async ({ page })
   await page.goto(`./${hash}`);
   await expect(page.getByRole("combobox", { name: "Filter by world", exact: true })).toHaveValue(entry.world);
   await expect(page.getByRole("status").filter({ hasText: "Progress saved on this device" })).toHaveText("Progress saved on this device");
-  await page.getByRole("link", { name: "‹ Games", exact: true }).click();
+  await page.getByRole("button", { name: "Tools", exact: true }).click();
+  await page.getByRole("link", { name: "‹ Ars Arcanum home", exact: true }).click();
   await expect(page.getByRole("link", { name: "Resume last page", exact: true })).toHaveAttribute("href", hash);
   await page.reload();
   await page.getByRole("link", { name: "Resume last page", exact: true }).click();

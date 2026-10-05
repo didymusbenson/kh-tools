@@ -332,13 +332,17 @@ test('BBS keeps character targets and owned counts separate across switching and
 test('DDD filters character-specific sources without losing shared Dream Piece targets', async ({ page }) => {
   const plan = plans[3];
   await seed(page, plan);
+  await page.getByRole('button', {name:'Tools',exact:true}).click();
   await page.getByRole('combobox', { name: 'Filter by character', exact: true }).selectOption('Riku');
+  await page.keyboard.press('Escape');
   const riku = await routeSnapshot(page);
   expect(riku.text).toContain('Riku Special Portal');
   expect(riku.text).not.toContain('Sora Special Portal');
   await panel(page, 'Materials');
   await revealMaterial(page, plan.materials[1]);
+  await page.getByRole('button', {name:'Tools',exact:true}).click();
   await page.getByRole('combobox', { name: 'Filter by character', exact: true }).selectOption('Sora');
+  await page.keyboard.press('Escape');
   const sora = await routeSnapshot(page);
   expect(sora.text).toContain('Sora Special Portal');
   expect(sora.text).not.toContain('Riku Special Portal');

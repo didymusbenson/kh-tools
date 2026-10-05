@@ -121,8 +121,8 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span>{help}</span></div><h1>{entry?titles[section]||'Journal entry':title}</h1></div>
         <nav className="kh1-utilities" aria-label="Journal tools"><a href="#/kh1fm/search">Search</a><a href="#/kh1fm/progress">Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
       </header>
-      {updateNotice}
-      {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}
+      <div className="journal-notices">{updateNotice}
+      {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}</div>
       <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>
       <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>

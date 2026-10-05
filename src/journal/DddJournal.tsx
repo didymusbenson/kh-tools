@@ -148,11 +148,16 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
   const parent=!planMode&&selectedId?listBack:worldHub?href('worlds'):world?href(`worlds/${encodeURIComponent(world)}`):root?'#/':href('contents');
   const title=planMode?'Farming Plan':selectedRecipe?.name||selectedEntry&&entryTitle(selectedEntry)||heading;
   const parentLabel=!planMode&&selectedId?heading:worldHub?'Worlds':world?world:'Reports';
+  const focusedRoute = useRef<string | null>(null);
   useEffect(()=>{
+    // Reflowing a farming leaf is not navigation. Keep the quantity editor's
+    // restored focus when the larger viewport changes its measured capacity.
+    if (planMode && focusedRoute.current === route) return;
     setSearch(q);setMessage('');setActiveId('');setFiltersOpen(false);
     setHelp(planMode?'Edit material totals, then follow the world route.':root?rootSections[0][2]:selectedId?'Read the entry, record discoveries and turn the notes.':workshop?'Choose a recipe or look up Dream Pieces.':'Choose an entry to view its details.');
     document.title=`${heading} · Dream Drop Distance HD`;
     const frame=requestAnimationFrame(()=>{
+      focusedRoute.current = route;
       if(hasTreasureBoard(guide.id,route))return;
       const returnId=params.get('focus')||lastEntry.current;
       const link=!selectedId&&returnId?main.current?.querySelector<HTMLAnchorElement>(`[data-entry-id="${CSS.escape(returnId)}"]`):null;
@@ -207,7 +212,7 @@ export function DddJournal({guide,route,profile,ready,error,notice,updateNotice,
     
     <section className="ddd-volume" aria-label="Dream Drop Distance Reports">
       <header className={`ddd-header ${worldHub?'ddd-world-context':''}`}><nav className={`ddd-ribbons ${parentLabel==='Reports'?'ddd-top-level':''}`} aria-label="Report location">{!root&&parentLabel!=='Reports'&&<a href={parent}>{parentLabel}</a>}{!root&&<h1 title={title}>{planMode?'Farming Plan':selectedId?title:heading}</h1>}{root&&<h1 className="ddd-sr">Reports</h1>}</nav><a className="ddd-wordmark" href={href('contents')} aria-label="Reports contents">REPORTS</a></header>
-      {updateNotice}{error&&<div className="ddd-error" role="alert">{error}<button onClick={retry}>Retry saved progress</button></div>}
+      <div className="journal-notices">{updateNotice}{error&&<div className="ddd-error" role="alert">{error}<button onClick={retry}>Retry saved progress</button></div>}</div>
       <nav className="ddd-leaf-picker" aria-label="Report pages">{planMode?<><a href={changed({view:'materials',entry:'',item:''})} aria-current={planLeaf==='materials'?'page':undefined}>Materials</a><a href={changed({view:'route',entry:'',item:''})} aria-current={planLeaf==='route'?'page':undefined}>World route</a></>:treasureMode?<><a href={changed({view:'grid'})} aria-current={params.get('view')==='grid'||(params.get('view')!=='notes'&&!selectedId)?'page':undefined}>Grid</a><a href={selectedId||world?changed({view:'notes'}):undefined} aria-disabled={!selectedId&&!world} aria-current={params.get('view')==='notes'||(params.get('view')!=='grid'&&!!selectedId)?'page':undefined}>Notes</a></>:<><a href={root?href('contents'):selectedId?listBack:changed({entry:'',item:''})} aria-current={!selectedId?'page':undefined}>{root?'Reports':'Index'}</a><a aria-current={selectedId?'page':undefined} aria-disabled={!selectedId&&!visibleSelection} href={selectedId?changed({}):visibleSelection?.href}>{root?'Open section':'Details'}</a></>}</nav>
       <main ref={main} id="ddd-reading" tabIndex={-1} className={`ddd-book ${root?'ddd-cover':''}`}>
         <div className="ddd-rings" aria-hidden="true">{Array.from({length:13},(_,i)=><i key={i}/>)}</div>

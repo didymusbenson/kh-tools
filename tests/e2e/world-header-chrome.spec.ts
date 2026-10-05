@@ -13,26 +13,20 @@ const worldRoutes = [
 ] as const;
 
 for (const [game, route] of worldRoutes) {
-  test(`${game} outer tools reserve their hit area outside the journal`, async ({ page }) => {
+  test(`${game} tools reserve their hit area inside the journal footer`, async ({ page }) => {
     await page.setViewportSize({width:page.viewportSize()!.width,height:844});
     await page.goto(`./#/${game}/${route}`);
     const bar = page.locator('.journal-utility-bar');
     await expect(bar).toBeVisible();
     await page.evaluate(() => document.fonts.ready);
-    const bounds = await bar.evaluate(el => {
-      const rect = el.getBoundingClientRect();
-      return { top: rect.top, bottom: rect.bottom, links: [...el.querySelectorAll('a,select')].filter(link=>link.getBoundingClientRect().height>0).map(link => {
-        const r = link.getBoundingClientRect();
-        return {top: r.top, bottom: r.bottom, height: r.height};
-      }) };
-    });
-    for (const link of bounds.links) {
-      expect(link.height).toBeGreaterThanOrEqual(39);
-      expect(link.top).toBeGreaterThanOrEqual(bounds.top - 1);
-      expect(link.bottom).toBeLessThanOrEqual(bounds.bottom + 1);
+    await bar.getByRole('button', {name:'Tools',exact:true}).click();
+    const panel=bar.locator('.journal-tools-panel');
+    await expect(panel).toBeVisible();
+    for (const link of await panel.getByRole('link').all()) {
+      expect((await link.boundingBox())!.height).toBeGreaterThanOrEqual(44);
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
-    await expect(bar.getByRole('link', {name:'‹ Games',exact:true})).toHaveAttribute('href', '#/');
+    await expect(bar.getByRole('link', {name:'‹ Ars Arcanum home',exact:true})).toHaveAttribute('href', '#/');
   });
 }
 
@@ -117,10 +111,11 @@ test('short world headers never cover their own navigation', async ({ page }) =>
       }).map(link=>link.textContent));
       expect(covered).toEqual([]);
       const plaque = page.locator(game === 'kh2fm' ? '.kh2-header-controls a' : '.ddd-ribbons a').first();
+      await page.keyboard.press('Tab');
       await plaque.focus();
       await expect(plaque).toBeFocused();
       expect(await plaque.evaluate(el => getComputedStyle(el).textDecorationLine)).toContain('underline');
-      if(game==='dddhd')await expect(page.getByRole('link',{name:'Reports contents',exact:true})).toBeVisible();
+      if(game==='dddhd') { await page.getByRole('button',{name:'Tools',exact:true}).click(); await expect(page.locator('.journal-tools-panel').getByRole('link',{name:'Reports contents',exact:true})).toBeVisible(); }
     }
   }
 });

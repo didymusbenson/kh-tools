@@ -28,6 +28,10 @@ npm run test:e2e
 
 The production build is `dist/`. Use HTTPS or localhost for service workers. Hash routes work on static hosts. For a fixed subdirectory, use `BASE_URL=/kh-tools/ npm run build`; the default relative base also supports static subdirectories. Executed validation and reusable patterns are documented under `ai_docs/implementation/`.
 
+## Full-viewport journals
+
+All seven game interfaces fill the available screen. Companion Home/Search/Save controls live inside each journal; **Tools** opens the native-footer utilities. Book layouts, saved progress and page navigation remain game-specific. See [layout changes and verification](ai_docs/implementation/full-viewport-journals-2026-10-05.md).
+
 ## GitHub Pages
 
 Pages Source is set to **GitHub Actions**. The checked-in workflow validates and builds the app, then deploys automatically after a push or merge into `master`. It derives the deployment base path from Pages configuration and uploads only `dist/`. Implementation branches are validated without publishing. See [deployment setup and checks](ai_docs/implementation/github-pages.md).

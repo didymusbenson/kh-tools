@@ -230,3 +230,7 @@ Supersedes the fixed two-page contents decision: calculate the number of compact
 ### All indexes use available page space — 2026-09-23
 
 Apply adaptive row capacity to every journal index, not just Contents: worlds, collectibles, reference categories, search results, recipes, materials and farming targets. Measure the available list height after filters and page controls, then fit compact rows using their rendered height. Recalculate for viewport changes, font loading and wrapped labels. Keep the largest observed row height within a layout to prevent pagination oscillation. Supersedes the fixed five/seven-entry limits above.
+
+## Full-viewport interface — 2026-10-05
+
+The all-game full-viewport request supersedes the reserved **outer** navigation/save rows above. The native game interface now fills the viewport; companion Home/tools and save notices belong inside it. Preserve existing header/footer navigation, book insets and leaf ratios, adaptive row capacity, and stable interaction geometry. See [implementation and measured gains](../implementation/full-viewport-journals-2026-10-05.md).

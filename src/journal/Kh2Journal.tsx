@@ -130,8 +130,8 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
     
     <section className="kh2-volume" aria-label="Kingdom Hearts II Final Mix journal">
       <header className={`kh2-header ${world?'kh2-world-context':''} ${cover?'kh2-world-hub':''}`}><nav className="kh2-header-controls" aria-label="Journal navigation"><a href={href('worlds')}>Select World</a><h1>{world||'Jiminy’s Journal'}</h1><a href={href('contents')}>Collection</a></nav><span className="kh2-watermark" aria-hidden="true">JIMINY’S JOURNAL</span><nav className="kh2-ribbons" aria-label="Journal location">{!collection&&<a href={back} aria-label={`Back to ${parentLabel}`}>{parentLabel}</a>}<span aria-current="page">{currentBookmark}</span></nav></header>
-      {updateNotice}
-      {error&&<div className="kh2-error" role="alert">{error}<button onClick={retry}>Retry loading saved progress</button></div>}
+      <div className="journal-notices">{updateNotice}
+      {error&&<div className="kh2-error" role="alert">{error}<button onClick={retry}>Retry loading saved progress</button></div>}</div>
       <nav hidden={treasureMode} className="kh2-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{workshop&&tab==='plan'?'Materials':worlds?'Worlds':cover?'Sections':'Index'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{workshop&&tab==='plan'?'World route':worlds||cover?'Overview':progress?'Backups':'Notes'}</button></nav>
       <main ref={main} id="kh2-reading" tabIndex={-1} className={`kh2-book ${cover?'kh2-cover':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh2-rings" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
