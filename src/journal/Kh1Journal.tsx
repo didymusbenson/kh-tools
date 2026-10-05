@@ -114,7 +114,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const done=collectionScope?progress.completed:scopeEntries.filter(e=>e.checkable&&player.state.checks[e.id]).length;
   return <div className={`kh1-native ${synthesis?'kh1-with-synthesis':''} ${synthesis&&parts[2]==='plan'?'kh1-farming':''} kh1-show-${leaf}`}>
     <a className="skip-link" href="#kh1-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
-    <JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX"/>
+    
     <section className="kh1-volume" aria-label="Kingdom Hearts Final Mix journal">
       <header className={`kh1-heading ${world?'kh1-world-context':''}`}>
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>
@@ -160,9 +160,9 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         </div>
         </>}
       </main>
-      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a></footer>
+      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX"/></footer><div className="kh1-save-line"><span role="status">{(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}</span>{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</div>
     </section>
-    <div className="kh1-save-line"><span role="status">{(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}</span>{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</div>
+    
   </div>;
 }
 function decode(value:string){try{return decodeURIComponent(value);}catch{return value;}}

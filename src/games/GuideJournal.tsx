@@ -658,7 +658,7 @@ export default function GuideJournal({
   const planPage = Math.max(0, Math.min(planPages - 1, planAnchorIndex >= 0 ? Math.floor(planAnchorIndex / planCapacity) : Math.floor(Number(routeParams.get('page'))) || 0));
   const shownPlan = filteredPlan.slice(planPage * planCapacity, (planPage + 1) * planCapacity);
   const farmingPlan = buildGuideFarmingPlan(guide, plannedMaterials, profile.owned, profile.targets);
-  if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><a className="skip-link" href="#digital-main" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal content</a><JournalUtilityBar className="digital-outer" game={`${guide.name} · ${guide.edition}`} tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}/><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage" id="digital-main" ref={main} tabIndex={-1}>{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span></footer></div>;
+  if (['kh3','kh02'].includes(guide.id)&&hasTreasureBoard(guide.id,route))return <div className={`digital-treasure digital-${guide.id}`}><a className="skip-link" href="#digital-main" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal content</a><header className="digital-header"><h1>{guide.id==='kh3'?'TREASURES':'CHEST INDEX'}</h1><small>{guide.id==='kh3'?'GUMMIPHONE':'COMPANION GUIDE'}</small></header>{updateNotice}<main className="digital-stage" id="digital-main" ref={main} tabIndex={-1}>{error&&<div role="alert">{error}<button onClick={()=>void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError('');})}>Retry saved progress</button></div>}<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>details(byId.get(e.id)!)}/></main><footer className="digital-footer"><a href={href('worlds')}>‹ Worlds</a><span>{error?'Progress needs attention':ready?'Local progress':'Opening saved progress…'}</span><JournalUtilityBar className="digital-outer" game={`${guide.name} · ${guide.edition}`} tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}/></footer></div>;
   if (guide.id === "dddhd") return <Suspense fallback={<div className="loading-page">Opening your reports…</div>}><DddJournal
     guide={guide} route={route} profile={profile} ready={ready}
     error={error} notice={notice} updateNotice={updateNotice}
@@ -699,31 +699,7 @@ export default function GuideJournal({
       >
         Skip to journal content
       </a>
-      <header className="journal-topbar">
-        <a href="#/" className="brand journal-brand">
-          <span className="brand-seal">
-            <Icon name="spark" />
-          </span>
-          <span>
-            ARS ARCANUM<small>THE JOURNALS</small>
-          </span>
-        </a>
-        <div className="current-edition">
-          <strong>
-            {guide.name} <i>{guide.edition}</i>
-          </strong>
-        </div>
-        <button
-          className="icon-button mobile-menu"
-          ref={menuButton}
-          aria-controls="guide-navigation"
-          aria-label="Toggle journal navigation"
-          aria-expanded={menu}
-          onClick={() => setMenu(!menu)}
-        >
-          <Icon name={menu ? "close" : "menu"} />
-        </button>
-      </header>
+
       <div className="journal-shell">
         <aside
           ref={sidebar}
@@ -801,6 +777,31 @@ export default function GuideJournal({
             ))}
           </div>
           <div className="journal-page">
+      <header className="journal-topbar">
+        <a href="#/" className="brand journal-brand">
+          <span className="brand-seal">
+            <Icon name="spark" />
+          </span>
+          <span>
+            ARS ARCANUM<small>THE JOURNALS</small>
+          </span>
+        </a>
+        <div className="current-edition">
+          <strong>
+            {guide.name} <i>{guide.edition}</i>
+          </strong>
+        </div>
+        <button
+          className="icon-button mobile-menu"
+          ref={menuButton}
+          aria-controls="guide-navigation"
+          aria-label="Toggle journal navigation"
+          aria-expanded={menu}
+          onClick={() => setMenu(!menu)}
+        >
+          <Icon name={menu ? "close" : "menu"} />
+        </button>
+      </header>
             {updateNotice}
             {isBbs && (
               <div className="bbs-campaign">
