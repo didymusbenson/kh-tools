@@ -110,7 +110,7 @@ for (const width of [320, 390, 600, 601, 768, 844, 1440]) {
   });
 }
 
-for (const width of [320, 650, 651, 768, 1000, 1440]) {
+for (const width of [320, 650, 651, 700, 768, 1000, 1440]) {
   test(`KH2 display lettering clears breadcrumbs at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     for (const route of ['bestiary', 'maps', 'workshop/recipes', 'workshop/materials']) {
@@ -126,3 +126,34 @@ for (const width of [320, 650, 651, 768, 1000, 1440]) {
     }
   });
 }
+
+
+test('KH2 longest breadcrumbs do not gain overlap from wider display glyphs', async ({ page }) => {
+  test.setTimeout(90_000);
+  for (const width of [651, 700, 768, 1000, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    for (const route of ['gummi', 'prologue']) {
+      await page.goto(`./#/kh2fm/${route}`);
+      await expect(page.locator('.kh2-watermark')).toBeVisible();
+      await page.evaluate(() => document.fonts.ready);
+      const comparison = await page.evaluate(() => {
+        const label = document.querySelector<HTMLElement>('.kh2-watermark')!;
+        const ribbons = document.querySelector('.kh2-ribbons')!.getBoundingClientRect();
+        const overlap = () => {
+          const r = label.getBoundingClientRect();
+          return Math.min(r.bottom, ribbons.bottom) <= Math.max(r.top, ribbons.top) ? 0 :
+            Math.max(0, Math.min(r.right, ribbons.right) - Math.max(r.left, ribbons.left));
+        };
+        const current = overlap();
+        const saved = label.style.cssText;
+        label.style.fontFamily = 'KH2Menu'; label.style.fontSize = '24px';
+        label.style.fontStyle = 'italic'; label.style.fontWeight = '600';
+        const previous = overlap();
+        label.style.cssText = saved;
+        return { current, previous };
+      });
+      expect(comparison.current).toBeLessThanOrEqual(comparison.previous + 1);
+      if (width >= 700) expect(comparison.current).toBe(0);
+    }
+  }
+});
