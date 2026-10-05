@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles.css";
+import "./journal/display-lettering.css";
 import { initializeInstallation } from "./pwa";
 import { flushStaleCopperminds } from "./jiminy/flush-cache";
 

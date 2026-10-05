@@ -1,0 +1,23 @@
+/* Reference-matched display labels only. Never replace shared reading/menu faces. */
+@font-face {
+  font-family: KHDisplay;
+  src: url('../../public/assets/journal-fonts/KHGummi.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* KHGummi's slant and heavy strokes are drawn into the glyphs. */
+.kh1-native .kh1-heading-menu > span,
+.bbs-native .bbs-header .bbs-display-banner,
+.ddd-native .ddd-wordmark {
+  font-family: KHDisplay, 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-synthesis: none;
+}
+
+.ddd-native .ddd-wordmark {
+  transform: none;
+  -webkit-text-stroke: 0;
+}
