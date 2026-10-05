@@ -1,3 +1,4 @@
+import { JournalSaveStatus } from '../components/JournalSaveStatus';
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import {TreasureBoard} from './TreasureBoard';
 import {hasTreasureBoard,normalizeTreasureRoute} from '../games/treasureModel';
@@ -160,7 +161,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         </div>
         </>}
       </main>
-      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX"/></footer><div className="kh1-save-line"><span role="status">{(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}</span>{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</div>
+      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a><JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX">{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
     </section>
     
   </div>;

@@ -77,6 +77,7 @@ async function fullScreen(page: Page, screen: Screen) {
     expect(bookBounds.y + bookBounds.height).toBeLessThanOrEqual((await footer.boundingBox())!.y + 1);
     await expect(footer.getByRole('button', { name: 'Tools', exact: true })).toBeVisible();
     await expect(tools(page)).toHaveAttribute('aria-expanded', 'false');
+    await insideViewport(tools(page));
     expect(await tools(page).evaluate(el => {
       const r = el.getBoundingClientRect();
       return el.contains(document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2));
@@ -87,7 +88,11 @@ async function fullScreen(page: Page, screen: Screen) {
     }
   }
   if (screen.save) {
-    await expect(page.locator(`${screen.volume} > ${screen.save}`)).toHaveCount(1);
+    await expect(page.locator(`${screen.footer} > ${screen.save}`)).toHaveCount(1);
+    await expect(page.locator(`${screen.volume} > ${screen.save}`)).toHaveCount(0);
+    const footerBounds=(await page.locator(screen.footer!).boundingBox())!;
+    expect(Math.abs(footerBounds.y+footerBounds.height-page.viewportSize()!.height)).toBeLessThanOrEqual(1);
+
     if (await page.getByTestId('treasure-board').count()) {
       // Treasure boards own the live save feedback; their duplicate footer line
       // is intentionally hidden so it does not consume reading space.
@@ -304,4 +309,20 @@ test('DDD farming navigation focuses its stage and resizing preserves editor foc
   await field.focus();
   await page.setViewportSize({width:390,height:844});
   await expect(field).toBeFocused();
+});
+
+test('KH1 save feedback shares navigation and Undo remains reachable in Tools', async ({ page }) => {
+  await page.setViewportSize({width:320,height:568});
+  await page.goto('./#/kh1fm/ansem-reports');
+  const check=page.getByRole('checkbox',{name:'Acquired: Ansem’s Report 1',exact:true});
+  await expect(check).toBeEnabled(); await check.click(); await expect(check).toBeChecked();
+  const status=page.locator('.kh1-bottom .kh1-save-line');
+  await expect(status).toBeVisible();
+  await expect(page.locator('.kh1-volume > .kh1-save-line')).toHaveCount(0);
+  await tools(page).click();
+  await panel(page).getByRole('button',{name:'Undo',exact:true}).click();
+  await expect(check).not.toBeChecked();
+  await expect(status).toContainText('Last change undone.');
+  await expect(tools(page)).toBeFocused();
+  await expect(tools(page)).toHaveAttribute('aria-expanded','false');
 });

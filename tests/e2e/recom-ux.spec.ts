@@ -22,6 +22,7 @@ test('home order and campaign-specific report roots',async({page})=>{
  await page.getByRole('link',{name:'Riku · Reverse/Rebirth'}).click();
  await expect(page.getByRole('heading',{name:'D-Report',exact:true}).first()).toBeVisible();
  await expect(page.getByRole('link',{name:'Moogle Shop',exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:'Tools',exact:true}).click();
  await expect(page.getByRole('link',{name:'Review Decks',exact:true})).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.screenshot({path:`test-results/${test.info().project.name}-recom-riku.png`});
@@ -68,6 +69,7 @@ test('invalid entries recover, filters have an empty state, and saves expose bac
  await expect(page.getByRole('heading',{name:'Entry not found in this campaign'})).toBeVisible();
  await page.goto(com('search?campaign=sora&q=zzzznonexistent'));
  await expect(page.getByRole('heading',{name:'No matching entries'})).toBeVisible();
+ await page.getByRole('button',{name:'Tools',exact:true}).click();
  await page.getByRole('link',{name:'Save & Settings'}).click();
  await expect(page.getByRole('button',{name:'Export backup'})).toBeEnabled();
  await expect(page.getByText(/Sora’s 152-card collection and Riku’s 59-card collection/)).toBeVisible();

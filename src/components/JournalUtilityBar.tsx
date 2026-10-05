@@ -32,7 +32,11 @@ export function JournalUtilityBar({ className, game, children, tools }: {
   }}>
     <button ref={trigger} type="button" className="journal-tools-toggle" aria-expanded={open} aria-controls={id} onClick={() => setOpen(!open)}>Tools</button>
     {open && <div id={id} className="journal-tools-panel" aria-label="Journal tools" onClick={event => {
-      if ((event.target as Element).closest('a[href]')) setOpen(false);
+      const action = (event.target as Element).closest('a[href],button');
+      if (action) {
+        setOpen(false);
+        if (action.tagName === 'BUTTON') trigger.current?.focus();
+      }
     }}>
       <span className="journal-game-label">{game}</span>
       <a className="journal-games-link" href="#/">‹ Ars Arcanum home</a>

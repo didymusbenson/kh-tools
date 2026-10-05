@@ -1,3 +1,4 @@
+import { JournalSaveStatus } from '../components/JournalSaveStatus';
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import {TreasureBoard,TreasureDirections} from './TreasureBoard';
 import {hasTreasureBoard} from '../games/treasureModel';
@@ -143,7 +144,7 @@ export function RecomJournal({guide,route,profile,ready,error,notice,updateNotic
           {!matching.length&&<div className="com-empty"><h2>No matching entries</h2><p>Try another name or clear the filters.</p></div>}{pagination}
         </div>}
       </main>
-      <footer className="com-footer"><a href={root?'#/':back}>‹ {root?'Games':'Back'}</a>{campaign==='sora'&&<img src={asset+'jiminy-portrait-kh1.png'} alt=""/>}<span>{help}</span>{!root&&<a href={href('contents')}>Contents</a>}<JournalUtilityBar className="com-outer" game="RE:CHAIN OF MEMORIES · HD 1.5 ReMIX" tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}><nav className="com-utilities" aria-label="Companion tools">{utilityLinks.map(([s,label])=><a key={s} href={href(s)} aria-current={section===s?'page':undefined}>{label}</a>)}</nav></JournalUtilityBar></footer><p className="com-save" role="status">{error?'Progress needs attention':saving?'Saving record…':savedMessage||notice||(!ready?'Opening saved progress…':'Progress saved on this device')}</p>
+      <footer className="com-footer"><a href={root?'#/':back}>‹ {root?'Games':'Back'}</a>{campaign==='sora'&&<img src={asset+'jiminy-portrait-kh1.png'} alt=""/>}<span>{help}</span>{!root&&<a href={href('contents')}>Contents</a>}<JournalSaveStatus className="com-save" message={error?'Progress needs attention':saving?'Saving record…':savedMessage||notice||(!ready?'Opening saved progress…':'Progress saved on this device')}/><JournalUtilityBar className="com-outer" game="RE:CHAIN OF MEMORIES · HD 1.5 ReMIX" tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}><nav className="com-utilities" aria-label="Companion tools">{utilityLinks.map(([s,label])=><a key={s} href={href(s)} aria-current={section===s?'page':undefined}>{label}</a>)}</nav></JournalUtilityBar></footer>
     </section>
     
     

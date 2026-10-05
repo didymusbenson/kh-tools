@@ -1,3 +1,4 @@
+import { JournalSaveStatus } from '../components/JournalSaveStatus';
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import { FarmingMaterialRow, FarmingItinerary } from './FarmingPlan';
 import { buildGuideFarmingPlan } from '../games/farmingPlan';
@@ -172,7 +173,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
         </section>
         </>}
       </main>
-      <footer className="kh2-footer"><a href={back}>‹ Back</a><img src={asset+'jiminy-portrait-kh2.png'} alt=""/><span>{help}</span><a href={href('contents')}>Collection</a><JournalUtilityBar className="kh2-outer" game="KINGDOM HEARTS II · FINAL MIX" tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}/></footer><div className="kh2-save" role="status">{error?'Progress needs attention':notice||(!ready?'Opening your journal…':'Progress saved on this device')}</div>
+      <footer className="kh2-footer"><a href={back}>‹ Back</a><img src={asset+'jiminy-portrait-kh2.png'} alt=""/><span>{help}</span><a href={href('contents')}>Collection</a><JournalSaveStatus className="kh2-save" message={error?'Progress needs attention':notice||(!ready?'Opening your journal…':'Progress saved on this device')}/><JournalUtilityBar className="kh2-outer" game="KINGDOM HEARTS II · FINAL MIX" tools={<nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav>}/></footer>
     </section>
     
   </div>;
