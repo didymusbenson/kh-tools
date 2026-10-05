@@ -1,6 +1,9 @@
 import { test, expect } from '@playwright/test';
 
 const banners = [
+  { route: 'kh2fm/contents', selector: '.kh2-watermark', text: 'JIMINY’S JOURNAL' },
+  { route: 'recom/contents?campaign=sora', selector: '.com-wordmark', text: 'RE:CHAIN OF MEMORIES' },
+  { route: 'recom/contents?campaign=riku', selector: '.com-wordmark', text: 'RE:CHAIN OF MEMORIES' },
   { route: 'kh1fm/contents', selector: '.kh1-heading-menu > span', text: 'MENU' },
   { route: 'bbsfm/contents?character=Terra', selector: '.bbs-display-banner', text: 'REPORTS' },
   { route: 'bbsfm/melding?character=Aqua', selector: '.bbs-display-banner', text: 'MENU' },
@@ -36,7 +39,7 @@ test('display lettering stays out of body copy and unsupported headings', async 
     ['bbsfm/contents?character=Terra', '.bbs-portrait h2', 'Georgia'],
     ['bbsfm/home', '.bbs-header h1', 'BbsMenu'],
     ['bbsfm/final', '.bbs-header h1', 'BbsMenu'],
-    ['recom/contents', '.com-wordmark', 'CoMMenu'],
+    ['recom/contents', '.com-ribbons h1', 'CoMMenu'],
     ['kh2fm/contents', '.kh2-native', 'KH2Menu'],
   ];
   for (const [route, selector, family] of unchanged) {
@@ -77,3 +80,32 @@ test('a failed font request leaves display labels readable and navigation usable
   await expect(page.locator('.ddd-wordmark')).toBeVisible();
   await context.close();
 });
+
+
+test('KH2 world-cover summary uses upright menu text without changing paper text', async ({ page }) => {
+  await page.goto('./#/kh2fm/worlds/Port%20Royal');
+  await expect(page.locator('.kh2-cover .kh2-world-summary .kh1-note-flow')).toHaveCSS('font-family', /KH2Menu/);
+  await page.goto('./#/kh2fm/contents');
+  await expect(page.locator('.kh2-right .kh1-note-flow')).toHaveCSS('font-family', /KH2Hand/);
+});
+
+for (const width of [320, 390, 600, 601, 768, 844, 1440]) {
+  test(`long CoM wordmark respects adjacent controls at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 844 });
+    for (const route of ['contents?campaign=sora', 'contents?campaign=riku', 'collection?campaign=sora', 'cards?campaign=riku&family=enemy&entry=recom-riku-enemy-shadow']) {
+      await page.goto(`./#/recom/${route}`);
+      await expect(page.locator('.com-wordmark')).toBeVisible();
+      await page.evaluate(() => document.fonts.ready);
+      expect(await page.evaluate(() => {
+        const mark = document.querySelector('.com-wordmark')!.getBoundingClientRect();
+        return ['.com-switch-view', '.com-ribbons'].every(selector => {
+          const adjacent = document.querySelector(selector);
+          if (!adjacent) return true;
+          const r = adjacent.getBoundingClientRect();
+          return Math.min(mark.right, r.right) - Math.max(mark.left, r.left) <= 1 ||
+            Math.min(mark.bottom, r.bottom) - Math.max(mark.top, r.top) <= 1;
+        });
+      })).toBe(true);
+    }
+  });
+}

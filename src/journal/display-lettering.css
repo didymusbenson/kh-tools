@@ -10,6 +10,8 @@
 /* KHGummi's slant and heavy strokes are drawn into the glyphs. */
 .kh1-native .kh1-heading-menu > span,
 .bbs-native .bbs-header .bbs-display-banner,
+.kh2-native .kh2-watermark,
+.com-native .com-wordmark,
 .ddd-native .ddd-wordmark {
   font-family: KHDisplay, 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -20,4 +22,16 @@
 .ddd-native .ddd-wordmark {
   transform: none;
   -webkit-text-stroke: 0;
+}
+
+/* The companion's longer CoM watermark needs the display face's wider metrics
+   accounted for, without changing its wording or the surrounding grid. */
+.com-native .com-wordmark {
+  font-size: clamp(10px, 1.25vw, 15px);
+}
+
+/* KH2's green world-cover Summary is upright menu copy; the cream paper stays
+   handwritten. This reuses the existing menu substitute only in that panel. */
+.kh2-native .kh2-cover .kh2-world-summary .kh1-note-flow {
+  font-family: KH2Menu, Arial, sans-serif;
 }

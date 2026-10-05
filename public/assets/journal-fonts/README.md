@@ -8,5 +8,5 @@
 
 The upstream README describes a free archive and explicitly discusses public use, with credit appreciated but not required. This is that upstream permission statement, **not an OFL or MIT license claim**. Credit: Televo / Kingdom Hearts Re:Collection. Kingdom Hearts remains the property of its respective rights holders.
 
-Scope: KH1 MENU, Birth by Sleep REPORTS/MENU, and Dream Drop Distance REPORTS display labels only. The face already contains slanted glyphs; do not synthesize another italic, weight, or skew. It is a reference-matched recreation, not a claim to have extracted the original game font. Shared Chakra Petch menu aliases, Itim body copy, and BBS serif character names are unchanged.
+Scope: KH1 MENU, KH2 JIMINY’S JOURNAL, Re:CoM’s decorative journal wordmark, Birth by Sleep REPORTS/MENU, and Dream Drop Distance REPORTS display labels only. The face already contains slanted glyphs; do not synthesize another italic, weight, or skew. It is a reference-matched recreation, not a claim to have extracted the original game font. Shared Chakra Petch menu aliases, Itim body copy, and BBS serif character names are unchanged.
 95501ef02d760bcb41b21b0d4fd0e81f9e8beda6425ccbe038b9110a7260feb9  public/assets/journal-fonts/KHGummi.woff2
