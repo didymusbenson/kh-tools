@@ -18,4 +18,6 @@ Shared menu aliases, reading copy, layout, iconography, game data, completion st
 
 ## Validation
 
-To be updated with final executed results before publication. Added browser checks cover six viewport sizes, computed font selection and synthesis, text bounds, preservation of excluded headings/body faces, and service-worker offline reload. Existing full-viewport tests cover all seven games, tools/navigation and saved progress. Physical-device Safari remains untested.
+Executed: all 261 unit tests pass; production build (including TypeScript/content/pack/PWA) passes; 7 Python pack tests and 2 seed tests pass with the existing Chroma test environment. The 66 typography/full-viewport browser checks pass on desktop and mobile Chromium projects, covering six viewport sizes, computed font selection and synthesis, text bounds, excluded headings/body faces, offline reload, all seven games, tools/navigation and saved progress. Stronger loaded-face assertions pass separately (16 tests), and simulated font-download failure/navigation passes (2 tests). Independent final code and screenshot review found no material issue.
+
+The broader legacy suite is not claimed green: the preceding release had 298 browser passes, 50 known legacy failures and 2 skips. Feature CI and the aggregate rerun must be reviewed separately for new failures; existing unrelated failures are outside this narrow typography task. Physical-device Safari remains untested.

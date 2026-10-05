@@ -19,7 +19,7 @@ for (const size of [{ width:1440,height:900 }, { width:768,height:1024 }, { widt
       await expect(label).toHaveCSS('font-family', /KHDisplay/);
       await expect(label).toHaveCSS('font-style', 'normal');
       await expect(label).toHaveCSS('font-weight', '400');
-      expect(await page.evaluate(() => document.fonts.check('24px KHDisplay'))).toBe(true);
+      expect(await page.evaluate(() => Array.from(document.fonts).some(face => face.family === 'KHDisplay' && face.status === 'loaded'))).toBe(true);
       expect(await label.evaluate(el => {
         const range = document.createRange(); range.selectNodeContents(el);
         const r = range.getBoundingClientRect();
@@ -60,7 +60,20 @@ test('self-hosted display face is available after offline reload', async ({ page
   await page.reload();
   await expect(page.locator('.ddd-wordmark')).toHaveText('REPORTS');
   await page.evaluate(() => document.fonts.ready);
-  expect(await page.evaluate(() => document.fonts.check('24px KHDisplay'))).toBe(true);
+  expect(await page.evaluate(() => Array.from(document.fonts).some(face => face.family === 'KHDisplay' && face.status === 'loaded'))).toBe(true);
   await expect(page.locator('.ddd-wordmark')).toHaveCSS('font-family', /KHDisplay/);
   await context.setOffline(false);
+});
+
+test('a failed font request leaves display labels readable and navigation usable', async ({ browser }) => {
+  const context = await browser.newContext({ serviceWorkers: 'block' });
+  const page = await context.newPage();
+  await page.route('**/KHGummi*.woff2', route => route.abort());
+  await page.goto(test.info().project.use.baseURL + '#/dddhd/contents');
+  await expect(page.locator('.ddd-wordmark')).toHaveText('REPORTS');
+  await page.evaluate(() => document.fonts.ready);
+  expect(await page.evaluate(() => Array.from(document.fonts).some(face => face.family === 'KHDisplay' && face.status === 'loaded'))).toBe(false);
+  await page.locator('.ddd-root-index a').first().click();
+  await expect(page.locator('.ddd-wordmark')).toBeVisible();
+  await context.close();
 });
