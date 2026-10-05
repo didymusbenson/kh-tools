@@ -35,3 +35,11 @@
 .kh2-native .kh2-cover .kh2-world-summary .kh1-note-flow {
   font-family: KH2Menu, Arial, sans-serif;
 }
+
+/* KH2 breadcrumbs share the watermark row above the stacked-phone layout.
+   Fit the wider native-style glyphs without moving either navigation band. */
+@media (min-width: 651px) {
+  .kh2-native .kh2-watermark {
+    font-size: clamp(14px, 2.15vw, 24px);
+  }
+}

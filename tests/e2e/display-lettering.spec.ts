@@ -109,3 +109,20 @@ for (const width of [320, 390, 600, 601, 768, 844, 1440]) {
     }
   });
 }
+
+for (const width of [320, 650, 651, 768, 1000, 1440]) {
+  test(`KH2 display lettering clears breadcrumbs at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    for (const route of ['bestiary', 'maps', 'workshop/recipes', 'workshop/materials']) {
+      await page.goto(`./#/kh2fm/${route}`);
+      await expect(page.locator('.kh2-watermark')).toBeVisible();
+      await page.evaluate(() => document.fonts.ready);
+      expect(await page.evaluate(() => {
+        const mark = document.querySelector('.kh2-watermark')!.getBoundingClientRect();
+        const r = document.querySelector('.kh2-ribbons')!.getBoundingClientRect();
+        return Math.min(mark.right, r.right) - Math.max(mark.left, r.left) <= 1 ||
+          Math.min(mark.bottom, r.bottom) - Math.max(mark.top, r.top) <= 1;
+      })).toBe(true);
+    }
+  });
+}
