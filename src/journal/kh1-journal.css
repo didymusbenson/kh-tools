@@ -211,3 +211,13 @@
 /* A failed-save notice must not evict the count field being repaired. */
 .kh1-farming .kh1-volume{position:relative}
 .kh1-farming .kh1-save-error{position:absolute;z-index:15;inset:0 0 auto;padding:8px 4%;max-height:90px;overflow:auto;font-size:12px;line-height:1.35}
+
+/* Collection totals belong to the visible index, including one-leaf phones. */
+.kh1-collection-count{flex:none;margin:0 0 8px;font:14px/1.3 KH1Menu;color:var(--ink)}
+/* Keep families together; a very short leaf scrolls this index rather than
+   splitting a family or hiding its last member. The book geometry is unchanged. */
+.kh1-material-index{overflow-y:auto;overscroll-behavior:contain}
+.kh1-material-family{flex:none;padding-bottom:8px}
+.kh1-material-family h3{font:16px/24px KH1Menu;margin:0;color:#46674d}
+.kh1-material-family>a{position:relative;display:flex;justify-content:space-between;align-items:center;min-height:44px;padding:6px 3px;border-bottom:1px solid #839390;text-decoration:none;font:21px/1.2 KH1Hand}
+.kh1-material-family>a[aria-current=true]{background:#d7dfc966}

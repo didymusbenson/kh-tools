@@ -95,3 +95,7 @@ Browser measurements at 1280×720 confirmed identical outer frame (1248×624) an
 ## Shared adaptive index capacity — 2026-09-23
 
 Extracted Contents-only measurement into a shared hook used by all general journal lists and all three Synthesis indexes. Capacity accounts for filters, controls, actual row sizes and available leaf height. Compact spacing and fixed book geometry remain intact. Synthesis selected-item links take priority over stale page numbers when capacity changes. At 1280×1050, treasures displayed ten rows (32 pages instead of 64) and recipes displayed thirteen rows; both leaves remained free of vertical overflow. Verified treasure next-page navigation.
+
+## Synthesis lab design follow-up
+
+A dedicated [synthesis lab design session](../design/synthesis-lab-design-session.md) with the user is needed before redesigning material notes, nested crafting, or remaining/crafting quantities.

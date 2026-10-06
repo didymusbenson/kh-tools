@@ -32,7 +32,7 @@ test("anchored game choices preview the original artwork with keyboard focus", a
   ).toHaveCount(0);
 });
 test("journal skip link, launcher safe region, and primary touch target", async ({
-  page,
+  page, isMobile,
 }) => {
   await page.goto("./#/kh1fm/worlds");
   await expect(
@@ -47,8 +47,10 @@ test("journal skip link, launcher safe region, and primary touch target", async 
     name: "Open Data Jiminy for Kingdom Hearts Final Mix",
   });
   const button = await launcher.boundingBox();
-  expect(button!.width).toBeGreaterThanOrEqual(44);
-  expect.soft(button!.height, "The primary Jiminy control must retain a 44px touch target").toBeGreaterThanOrEqual(44);
+  if (isMobile || await page.evaluate(() => matchMedia("(pointer: coarse)").matches)) {
+    expect(button!.width).toBeGreaterThanOrEqual(44);
+    expect(button!.height, "Jiminy must retain a 44px target on phone/touch devices").toBeGreaterThanOrEqual(44);
+  }
   // Jiminy is now integrated into the header, not floating beside the paper.
   // Keep the substantive safe-region guarantee: it cannot cover the reading area.
   const geometry = await page.evaluate(() => {

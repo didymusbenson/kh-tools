@@ -139,7 +139,6 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
           </JournalNotePages>:<>
             <div className="kh1-speech">{section==='contents'?'What would you like to read?':section==='dalmatians'?'Let’s bring all the puppies home!':worldIndex?'Which world shall we visit?':`Let’s look through ${titles[section]?.toLowerCase()||'the journal'}.`}</div>
             <img className="kh1-jiminy-art" src={asset+'jiminy-official.png'} alt="Jiminy Cricket"/>
-            {section==='dalmatians'&&<p className="kh1-index-caption">{done} / {count} puppy groups found</p>}
           </>}
         </aside>}
         <div className={`kh1-leaf-right kh1-paper ${tool?'kh1-tool-page':''}`}>
@@ -149,6 +148,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
               {section!=='worlds'&&sectionWorlds.length>0&&<label>World<select aria-label="Filter by world" value={world} onChange={e=>setParam('world',e.target.value)}><option value="">All worlds</option>{sectionWorlds.map(w=><option key={w}>{w}</option>)}</select></label>}
               <label>Show<select aria-label="Filter by collection status" value={params.get('status')||''} onChange={e=>setParam('status',e.target.value)}><option value="">All entries</option><option value="remaining">Uncollected</option></select></label>
             </div>}
+            {collectionScope&&!items&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
             <nav ref={indexRef} className="kh1-index" aria-label={title+' index'}>
               {items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):shown.map(e=><div className="kh1-index-row" key={e.id}>
                 <a href={entryLink(e)} data-record-id={e.id} onFocus={()=>setHelp(e.area||e.summary||'Read this entry.')} onMouseEnter={()=>setHelp(e.area||e.summary||'Read this entry.')}><span>{entryTitle(e)}{e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>
