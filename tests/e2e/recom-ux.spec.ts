@@ -107,7 +107,9 @@ test('every journal destination keeps its frame and paged content inside the vie
    return {vertical:Math.max(0,document.documentElement.scrollHeight-innerHeight),horizontal:Math.max(0,document.documentElement.scrollWidth-innerWidth),book:Math.max(0,book.scrollHeight-book.clientHeight),index:Math.max(0,...indices.flatMap(index=>[...index.children].map(child=>Math.ceil(child.getBoundingClientRect().bottom-index.getBoundingClientRect().bottom))))};
   })).toEqual({vertical:0,horizontal:0,book:0,index:0});
   const current=await page.locator('.com-book').boundingBox();
-  if(frame)expect(current).toEqual(frame);else frame=current;
+  // Closed covers deliberately occupy one leaf on wide screens; open leaves
+  // retain a fixed frame independent of route content.
+  if(destination!=='contents'){if(frame)expect(current).toEqual(frame);else frame=current;}
   if(['contents','collection'].includes(destination))await page.screenshot({path:`test-results/${test.info().project.name}-recom-${destination}-revised.png`});
  }
 });

@@ -225,3 +225,18 @@
 .com-cp-values dt{font-size:.72rem;font-weight:400;white-space:nowrap}
 .com-cp-values dd{font-family:var(--font-ui);font-size:1rem;margin:4px 0 0}
 .com-cp-values small{font-size:.64rem;font-weight:400}
+
+/* Closed cover: half the 80%-wide reading stage, with its art and menu kept
+   together. The cover's two content columns do not imply a center spine. */
+@media(min-width:1101px){
+ .com-book.com-cover{width:calc((100% - 12% - 8%)/2);align-self:flex-end;margin-left:0;margin-right:8%;padding:20px 14px 20px 20px}
+ .com-cover .com-root-spread{grid-template-columns:minmax(0,.34fr) minmax(0,.66fr);gap:10px}
+ .com-cover .com-jiminy{padding:0 4px}
+ .com-cover .com-jiminy>p{font-size:16px;padding:8px 10px;text-align:center}
+ .com-cover .com-root-index{padding:26px 10px}
+ .com-cover .com-root-index h2{font-size:10px;margin-left:22px}
+ .com-cover .com-root-index nav a{font-size:clamp(16px,1.35vw,22px);padding-left:24px;padding-right:4px;gap:8px}
+ .com-cover .com-root-index nav a>span{min-width:0;overflow-wrap:break-word}
+ .com-cover .com-root-index small{font-size:11px;flex:none}
+ .com-cover .com-root-index nav a:is(:hover,:focus-visible)::before{width:28px;height:25px;left:-5px}
+}

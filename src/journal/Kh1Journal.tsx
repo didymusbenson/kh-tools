@@ -66,6 +66,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const synthesis=section==='synthesis';
   const treasureMode=hasTreasureBoard('kh1fm',route);
   const tool=section==='progress'&&!entry;
+  const closed=section==='contents'&&!entry;
   const known=!!titles[section]||section==='entry';
   const worlds=[...new Set(data.entries.filter(e=>e.world).map(e=>e.world!))];
   const categories=cataloguePages.find(p=>p.id===section)?.categories;
@@ -125,7 +126,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       <div className="journal-notices">{updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}</div>
       <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>
-      <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
+      <main id="kh1-reading" tabIndex={-1} ref={main} data-book-state={closed?'closed':tool?'open':'split'} className={`kh1-spread ${closed?'kh1-closed-stage':''} ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
         {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
