@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page, type Locator } from "@playwright/test";
 import { readFileSync } from "node:fs";
 test.use({ serviceWorkers: "block" });
 const original = JSON.parse(readFileSync("public/data/kh1fm.json", "utf8"));
@@ -16,9 +16,25 @@ async function fixture(page: any, media: any[]) {
   );
   await page.goto(`./#/kh1fm/entry/${entry.id}`);
   await expect(
-    page.locator(`#row-${entry.id} h3 button`),
+    page.locator(".entry-details-content"),
   ).toBeVisible();
   return entry;
+}
+// Notes are clipped into genuine book pages; visit each target's page before
+// asserting visibility or interacting, rather than reading off-page DOM content.
+async function turnTo(page: Page, target: Locator) {
+  const leaf = page.locator(".kh1-leaf-right");
+  for (let turn = 0; turn < 40; turn++) {
+    const box = await target.boundingBox();
+    const window = await leaf.locator(".kh1-note-window").boundingBox();
+    if (box && window && box.x >= window.x - 1 &&
+      box.x + box.width <= window.x + window.width + 1 &&
+      box.y >= window.y - 1 && box.y + box.height <= window.y + window.height + 1) return;
+    const next = leaf.getByRole("button", { name: "Next notes page" });
+    await expect(next, "Media content must be reachable through the note pages").toBeEnabled();
+    await next.click();
+  }
+  throw new Error("Media content was not reachable through the note pages");
 }
 const image = {
   id: "synthetic-screenshot",
@@ -38,9 +54,11 @@ test("entry without media has no empty gallery", async ({ page }) => {
   await expect(
     page.getByRole("region", { name: "Location images and maps" }),
   ).toHaveCount(0);
-  await expect(page.locator(`#row-${entry.id} .entry-inline-details`)).toContainText(
-    entry.instructions,
-  );
+  const directions = page.getByText(entry.instructions, { exact: true });
+  const previous = page.locator(".kh1-leaf-right").getByRole("button", { name: "Previous notes page" });
+  while (await previous.isEnabled()) await previous.click();
+  await turnTo(page, directions);
+  await expect(directions).toBeVisible();
 });
 test("image and map captions, zoom, focus restoration, and unclipped phone layout", async ({
   page,
@@ -62,12 +80,16 @@ test("image and map captions, zoom, focus restoration, and unclipped phone layou
       ],
     },
   ]);
-  await expect(
-    page.getByText("Synthetic desktop fixture", { exact: false }).first(),
-  ).toBeVisible();
+  const platform = page.getByText("Synthetic desktop fixture", { exact: false }).first();
+  await turnTo(page, platform);
+  await expect(platform).toBeVisible();
   const open = page.getByRole("button", {
     name: "Enlarge screenshot: Synthetic path fixture",
   });
+  // Rewind because the platform caption may be on the following notes page.
+  const previous = page.locator(".kh1-leaf-right").getByRole("button", { name: "Previous notes page" });
+  while (await previous.isEnabled()) await previous.click();
+  await turnTo(page, open);
   await open.click();
   const modal = page.getByRole("dialog", {
     name: "Enlarged screenshot: Synthetic path fixture",
@@ -81,16 +103,16 @@ test("image and map captions, zoom, focus restoration, and unclipped phone layou
   await page.keyboard.press("Escape");
   await expect(modal).not.toBeVisible();
   await expect(open).toBeFocused();
-  await expect(
-    page.getByText("Follow the marked path to the upper platform."),
-  ).toBeVisible();
+  const annotation = page.getByText("Follow the marked path to the upper platform.");
+  await turnTo(page, annotation);
+  await expect(annotation).toBeVisible();
   const width = await page.evaluate(() => ({
     viewport: innerWidth,
     actual: document.documentElement.scrollWidth,
   }));
   expect(width.actual).toBeLessThanOrEqual(width.viewport + 1);
   await page.screenshot({
-    path: `test-results/${test.info().project.name}-media.png`,
+    path: test.info().outputPath("media.png"),
     fullPage: true,
   });
 });
@@ -99,10 +121,13 @@ test("unavailable optional image keeps location directions readable", async ({
 }) => {
   await page.route("**/missing-fixture.png", (route) => route.abort());
   const entry = await fixture(page, [{ ...image, src: "missing-fixture.png" }]);
-  await expect(
-    page.getByText(/Image unavailable. If you’re offline/),
-  ).toBeVisible();
-  await expect(page.locator(`#row-${entry.id} .entry-inline-details`)).toContainText(
-    entry.instructions,
-  );
+  const fallback = page.getByText(/Image unavailable. If you’re offline/);
+  // Visit the gallery to trigger the lazy image request, then inspect fallback.
+  await turnTo(page, page.getByRole("region", { name: "Location images and maps" }));
+  await expect(fallback).toBeVisible();
+  const directions = page.getByText(entry.instructions, { exact: true });
+  const previous = page.locator(".kh1-leaf-right").getByRole("button", { name: "Previous notes page" });
+  while (await previous.isEnabled()) await previous.click();
+  await turnTo(page, directions);
+  await expect(directions).toBeVisible();
 });

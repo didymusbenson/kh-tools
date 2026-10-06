@@ -179,9 +179,20 @@ test('collection checks save in place, remain separate from opening a card, and 
  await expect(check).not.toBeChecked();
  await expect(page.getByTestId('com-card-progress')).toHaveText(count);
  await page.getByRole('combobox',{name:'Show',exact:true}).selectOption('remaining');
- await check.check();
+ // Completing an item removes this checkbox from Remaining. check() waits for
+ // checked-state after clicking, racing against that intentional DOM removal.
+ await check.click();
  await expect(check).toHaveCount(0);
+ await expect(page.locator('.com-save')).toHaveText('Record saved.');
+ await expect(page.getByTestId('com-card-progress')).toHaveText(count.replace(/^0/,'1'));
  await expect(page).not.toHaveURL(/entry=/);
+ await page.reload();
+ await expect(page.getByRole('combobox',{name:'Show',exact:true})).toHaveValue('remaining');
+ await expect(page.locator('.com-save')).toHaveText('Progress saved on this device');
+ await expect(check).toHaveCount(0);
+ await expect(page.getByTestId('com-card-progress')).toHaveText(count.replace(/^0/,'1'));
+ await page.getByRole('combobox',{name:'Show',exact:true}).selectOption('');
+ await expect(check).toBeChecked();
 });
 
 test('attack notes contain acquisition guidance without citations or research TODOs',async({page})=>{
