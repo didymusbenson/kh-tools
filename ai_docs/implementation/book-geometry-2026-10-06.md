@@ -31,7 +31,13 @@ KH2 world covers, BBS character Reports, Re:CoM Sora/Riku roots and DDD Reports 
 
 ## Validation
 
-Pending final review and regression results. Before/after captures are delivered separately, not added to production assets. Browser validation uses cloud Chromium desktop/mobile emulation; no physical iOS acceptance claim.
+- All 261 unit tests pass (25 files).
+- Production content build, Coppermind pack validation, TypeScript, Vite and PWA build pass.
+- New geometry tests plus existing KH1 treasure geometry tests pass **34/34** in both desktop and mobile Chromium contexts. Covers 768/1101/1440/2048 widths, 390/320 phones, 844 landscape, and 1101×390 long world-name fitting; verifies empty/populated pages, cover/open hinge stability, left bindings, treasury seams and responsive controls.
+- Broader six-suite regression initially passed182/186. All four failures exposed the same new KH1 treasure-ring cascade collision (old `translateX(-50%)` plus a new minus-half-ring offset). The correction excludes treasure hosts from the ordinary index rule; all four affected cases and the complete10-case KH1 treasure suite pass in the final34-case run. The other182 cases cover full viewport, world/header controls, seven-game treasure persistence/offline/Undo/cross-tab behavior, and CoM/DDD journal routes. This is not a claim that the inherited whole browser suite is green.
+- Independent review inspected78 screenshots/measurements across1440×900,1101×700,768×900,390×844,320×568 and844×390 plus targeted states. It caught the treasure collision and a short-wide KH2 long-title clip; both are fixed and covered by passing tests. It separately confirmed saved treasure checks survive reload in all five native journals. No document overflow was measured. Short BBS landscape retains its existing internal scrolling fallback.
+- Before/after native screenshots at1440×900 are saved to Library for KH1 contents/open index, KH2 contents/world cover, BBS, CoM and DDD. Research images and QA captures were not added to production assets.
+- Known baseline50 legacy browser failures and intermittent CoM disappearing-checkbox race are outside this geometry scope; no inherited assertions were weakened except the explicit cover-vs-open fixed-frame expectations in CoM/DDD. Physical iOS acceptance is not claimed.
 
 ## Publication boundary
 

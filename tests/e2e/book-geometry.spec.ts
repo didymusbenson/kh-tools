@@ -18,6 +18,10 @@ for(const width of [768,1440,2048]){
    await equalLeaves(page,'.kh1-spread','.kh1-leaf-left','.kh1-leaf-right','.kh1-spiral');
    const current=await page.locator('.kh1-spread').boundingBox();if(frame)expect(current).toEqual(frame);else frame=current;
   }
+  await open(page,'kh1fm/treasures','.treasure-layout');
+  await equalLeaves(page,'.kh1-spread','.treasure-overview','.treasure-intro','.kh1-spiral');
+  await open(page,'kh1fm/treasures?world=Traverse%20Town','.treasure-layout');
+  await equalLeaves(page,'.kh1-spread','.treasure-grid-leaf','.treasure-notes','.kh1-spiral');
   for(const route of ['contents','worlds','search','search?q=zzzzzznomatch','workshop/recipes','workshop/plan']){
    await open(page,'kh2fm/'+route,'.kh2-book');
    await equalLeaves(page,'.kh2-book','.kh2-left','.kh2-right','.kh2-rings');
@@ -38,7 +42,7 @@ const covers=[
  {closed:'bbsfm/contents?character=Terra',open:'bbsfm/worlds?character=Terra',book:'.bbs-contents-book',openBook:'.bbs-paper'},
  {closed:'dddhd/contents',open:'dddhd/worlds',book:'.ddd-book'},
 ];
-for(const viewport of [{width:1440,height:900},{width:2048,height:1152},{width:390,height:844},{width:320,height:568},{width:844,height:390}]){
+for(const viewport of [{width:1101,height:700},{width:1440,height:900},{width:2048,height:1152},{width:390,height:844},{width:320,height:568},{width:844,height:390}]){
  test(`closed covers retain art/menu and responsive geometry at ${viewport.width}×${viewport.height}`,async({page})=>{
   await page.setViewportSize(viewport);
   for(const screen of covers){
@@ -60,4 +64,10 @@ test('single leaves keep a left edge binding and no offstage phantom page',async
  }
  expect(await page.locator('.bbs-paper').count()).toBe(1);
  await open(page,'dddhd/worlds','.ddd-book');expect(await page.locator('.ddd-book').evaluate(e=>getComputedStyle(e,'::before').content)).toBe('none');
+});
+test('long world name remains inside a closed cover title at a short wide breakpoint',async({page})=>{
+ await page.setViewportSize({width:1101,height:390});
+ await open(page,'kh2fm/worlds/The%20World%20That%20Never%20Was','.kh2-cover');
+ const title=(await page.locator('.kh2-world-title').boundingBox())!,name=(await page.locator('.kh2-world-title h2').boundingBox())!;
+ expect(name.y).toBeGreaterThanOrEqual(title.y);expect(name.y+name.height).toBeLessThanOrEqual(title.y+title.height);
 });
