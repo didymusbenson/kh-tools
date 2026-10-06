@@ -52,14 +52,15 @@ test("material index keeps the complete Frost family together under its heading"
   while (!await frostGem.count()) {
     const next = page.getByRole("link", { name: "Next index page", exact: true });
     await expect(next).toBeVisible();
-    const previous = await index.innerText();
+    const target = Number(new URLSearchParams((await next.getAttribute('href'))!.split('?')[1]).get('page')) + 1;
     await next.click();
-    await expect(index).not.toHaveText(previous);
+    // Wait for the rendered index, not just the hash/history transition.
+    await expect(page.locator('.kh1-synthesis-index .kh1-page-controls>span').nth(1)).toHaveText(new RegExp(`^${target} / `));
   }
   await expect(frostGem).toBeVisible();
   await page.screenshot({ path: test.info().outputPath("material-frost-family.png"), fullPage: true });
   const heading = page.getByRole("heading", { name: "Frost", exact: true });
-  // This is intentionally a behavioral failure while the native index is ungrouped.
+  // Family grouping remains a behavioral contract at every viewport.
   await expect(heading, "Materials must retain a visible Frost family heading and contiguous family members").toBeVisible();
   const family = heading.locator("..");
   await expect(family).toHaveCount(1);

@@ -22,7 +22,10 @@ test('every material is reachable once in a complete ordered family',async({page
   }
   const next=page.getByRole('link',{name:'Next index page',exact:true});
   if(!await next.count())break;
-  const previous=await index.innerText();await next.click();await expect(index).not.toHaveText(previous);
+  const target=Number(new URLSearchParams((await next.getAttribute('href'))!.split('?')[1]).get('page'))+1;
+  await next.click();
+  // Hash navigation resolves before React commits the new index on slow devices.
+  await expect(page.locator('.kh1-synthesis-index .kh1-page-controls>span').nth(1)).toHaveText(new RegExp(`^${target} / `));
  }
  expect(found).toEqual(materials.map(e=>e.name));
  expect(new Set(found).size).toBe(materials.length);
