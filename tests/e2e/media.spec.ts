@@ -24,15 +24,24 @@ async function fixture(page: any, media: any[]) {
 // asserting visibility or interacting, rather than reading off-page DOM content.
 async function turnTo(page: Page, target: Locator) {
   const leaf = page.locator(".kh1-leaf-right");
+  await page.evaluate(() => document.fonts.ready);
   for (let turn = 0; turn < 40; turn++) {
+    // Lazy-image fallback changes column geometry after navigation. Let React's
+    // mutation-driven measurement settle, then choose the current direction.
+    await page.evaluate(() => new Promise<void>(resolve =>
+      requestAnimationFrame(() => requestAnimationFrame(() => resolve()))));
     const box = await target.boundingBox();
     const window = await leaf.locator(".kh1-note-window").boundingBox();
     if (box && window && box.x >= window.x - 1 &&
       box.x + box.width <= window.x + window.width + 1 &&
       box.y >= window.y - 1 && box.y + box.height <= window.y + window.height + 1) return;
-    const next = leaf.getByRole("button", { name: "Next notes page" });
-    await expect(next, "Media content must be reachable through the note pages").toBeEnabled();
-    await next.click();
+    const direction = box && window && box.x < window.x - 1 ? "Previous" : "Next";
+    const control = leaf.getByRole("button", { name: `${direction} notes page` });
+    await expect(control, "Media content must be reachable through the note pages").toBeEnabled();
+    const pagination = leaf.getByRole("navigation", { name: "Notes pages", exact: true });
+    const before = await pagination.innerText();
+    await control.click();
+    await expect(pagination).not.toHaveText(before);
   }
   throw new Error("Media content was not reachable through the note pages");
 }
