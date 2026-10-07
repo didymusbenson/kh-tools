@@ -11,9 +11,14 @@ const statusFilter = (page: import("@playwright/test").Page) =>
 
 test("category records open by keyboard and restore index focus and acquired state", async ({ page }) => {
   await page.goto(indexRoute);
+  // Initial route/player hydration schedules focus on the reading area. Wait for
+  // that startup focus before beginning the explicit keyboard navigation journey.
+  await expect(page.locator(".journal-footer-save")).toHaveAttribute("title", "Progress saved on this device");
+  await expect(page.locator("#kh1-reading")).toBeFocused();
   const record = kh1Record(page, entry.id);
   const originalUrl = page.url();
   await record.focus();
+  await expect(record).toBeFocused();
   await page.keyboard.press("Enter");
   await expect(page.locator(".entry-details-content")).toContainText(entry.instructions!);
   expect(new URLSearchParams(page.url().split("?")[1]).get("entry")).toBe(entry.id);

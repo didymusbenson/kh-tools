@@ -85,3 +85,7 @@ This table records the migration-stage contracts before the 2026-10-07 integrati
 ## Combined release validation
 
 See the [2026-10-07 integration record](journal-release-2026-10-07.md) for branch composition, current test inventory, visual review and required exact-commit CI/Pages verification.
+
+### Initial keyboard-focus synchronization
+
+The integrated keyboard-entry scenario waits for saved-state readiness and the initial reading-region focus before focusing its record, asserting that focus and pressing Enter. A delayed-frame reproduction showed the route-initialization callback could otherwise move focus back to the main region between the test’s focus and keypress. Keyboard-only entry/check/return, restored record focus, acquired state and reload persistence remain asserted; no behavior contract was retired.
