@@ -7,6 +7,7 @@ import type { GameData, GuideEntry } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
 import { cataloguePages } from '../domain/entryNavigation';
 import { collectibleProgress } from '../domain/progress';
+import { TRINITY_COLORS, compareTrinities, trinityColor, trinityTitle, type TrinitySort } from '../domain/trinityPresentation';
 import { entryTitle } from '../domain/entryPresentation';
 import { EntryDetails } from '../components/EntryDetails';
 import { DataJiminy } from '../components/DataJiminy';
@@ -53,6 +54,10 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const entry=focusId?data.entries.find(e=>e.id===focusId):undefined;
   const world=section==='worlds'&&parts[2]?decode(parts[2]):params.get('world')||'';
   const query=params.get('q')||'';
+  const trinities=section==='trinities';
+  const color=trinities?params.get('color')||'':'';
+  const trinitySort:TrinitySort=params.get('sort')==='world'?'world':params.get('sort')==='location'?'location':'color';
+  const listTitle=(e:GuideEntry)=>trinities?trinityTitle(e):entryTitle(e);
   const [search,setSearch]=useState(query);
   const [help,setHelp]=useState('Which part of the journal would you like to read?');
   const [notice,setNotice]=useState('');
@@ -61,7 +66,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const index=section==='contents'?contents:null;
   const worldIndex=section==='worlds'&&!world;
   const {ref:indexRef,capacity:pageSize}=useIndexCapacity(
-    `${section}:${world}:${query}:${params.get('status')||''}`, index||worldIndex?44:58);
+    `${section}:${world}:${query}:${params.get('status')||''}:${color}:${trinitySort}`, index||worldIndex?44:58, false, route.split('?')[0], trinities?'.kh1-index-row':undefined);
   const [leaf,setLeaf]=useState('left');
   const synthesis=section==='synthesis';
   const treasureMode=hasTreasureBoard('kh1fm',route);
@@ -79,9 +84,11 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   if(params.get('list')==='postcards')entries=entries.filter(e=>e.category==='postcard');
   const sectionWorlds=[...new Set(entries.filter(e=>e.world).map(e=>e.world!))];
   if(world&&section!=='worlds')entries=entries.filter(e=>e.world===world);
+  if(trinities&&color)entries=entries.filter(e=>trinityColor(e)===color);
   const scopeEntries=entries;
   if(params.get('status')==='remaining')entries=entries.filter(e=>e.checkable&&!player.state.checks[e.id]);
   if(section==='dalmatians')entries.sort((a,b)=>Number(a.facts?.puppyStart||0)-Number(b.facts?.puppyStart||0));
+  if(trinities)entries.sort((a,b)=>compareTrinities(a,b,trinitySort));
   const items=index|| (worldIndex?worlds.map(w=>['worlds/'+encodeURIComponent(w),w,'Read this world’s collection notes.']):null);
   const total=items?.length??entries.length;
   const pages=Math.max(1,Math.ceil(total/pageSize));
@@ -145,16 +152,18 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         <div className={`kh1-leaf-right kh1-paper ${tool?'kh1-tool-page':''}`}>
           {!player.ready?<p>Opening your saved journal…</p>:focusId&&!entry?<><h2>Entry not found</h2><p>This link does not match a journal entry.</p><a href="#/kh1fm/contents">Return to contents</a></>:!known?<><h2>Page not found</h2><a href="#/kh1fm/contents">Return to contents</a></>:tool?<JournalNotePages>{renderTool(section,parts[2])}</JournalNotePages>:entry?<><h2 className="kh1-detail-heading">Notes</h2><JournalNotePages key={entry.id}><EntryDetails data={data} state={player.state} entry={entry}/></JournalNotePages></>:<>
             {section==='search'&&<form className="kh1-search" onSubmit={e=>{e.preventDefault();setParam('q',search);}}><label htmlFor="kh1-query">Search the journal</label><div><input id="kh1-query" type="search" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Name, place or material"/><button type="submit">Search</button></div></form>}
-            {!items&&section!=='search'&&<div className="kh1-filters">
+            {!items&&section!=='search'&&<div className={`kh1-filters ${trinities?'kh1-trinity-filters':''}`}>
+              {trinities&&<><label>Sort<select aria-label="Sort Trinity marks" value={trinitySort} onChange={e=>setParam('sort',e.target.value)}><option value="color">Color</option><option value="world">World</option><option value="location">Location</option></select></label><label>Color<select aria-label="Filter by Trinity color" value={color} onChange={e=>setParam('color',e.target.value)}><option value="">All colors</option>{TRINITY_COLORS.map(c=><option key={c}>{c}</option>)}</select></label></>}
               {section!=='worlds'&&sectionWorlds.length>0&&<label>World<select aria-label="Filter by world" value={world} onChange={e=>setParam('world',e.target.value)}><option value="">All worlds</option>{sectionWorlds.map(w=><option key={w}>{w}</option>)}</select></label>}
               <label>Show<select aria-label="Filter by collection status" value={params.get('status')||''} onChange={e=>setParam('status',e.target.value)}><option value="">All entries</option><option value="remaining">Uncollected</option></select></label>
             </div>}
             {collectionScope&&!items&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
-            <nav ref={indexRef} className="kh1-index" aria-label={title+' index'}>
+            <nav ref={indexRef} className={`kh1-index ${trinities?'kh1-trinity-index':''}`} aria-label={title+' index'}>
               {items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):shown.map(e=><div className="kh1-index-row" key={e.id}>
-                <a href={entryLink(e)} data-record-id={e.id} onFocus={()=>setHelp(e.area||e.summary||'Read this entry.')} onMouseEnter={()=>setHelp(e.area||e.summary||'Read this entry.')}><span>{entryTitle(e)}{e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>
-                {e.checkable&&<input type="checkbox" aria-label={`Acquired: ${entryTitle(e)}`} checked={!!player.state.checks[e.id]} onChange={()=>void toggle(e)}/>}
+                <a href={entryLink(e)} data-record-id={e.id} onFocus={()=>setHelp(e.area||e.summary||'Read this entry.')} onMouseEnter={()=>setHelp(e.area||e.summary||'Read this entry.')}><span>{listTitle(e)}{trinities?<small>{trinityColor(e)} Trinity</small>:e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>
+                {e.checkable&&<input type="checkbox" aria-label={`Acquired: ${listTitle(e)}${trinities?` (${trinityColor(e)} Trinity)`: ''}`} checked={!!player.state.checks[e.id]} onChange={()=>void toggle(e)}/>}
               </div>)}
+              {trinities&&<div className="kh1-trinity-measure" aria-hidden="true">{scopeEntries.map(e=><div className="kh1-index-row" key={e.id}><span className="kh1-trinity-measure-title">{trinityTitle(e)}<small>{trinityColor(e)} Trinity</small></span><span className="kh1-trinity-measure-check"/></div>)}</div>}
             </nav>
             {!total&&<p className="kh1-empty">{section==='search'&&!query?'Search by name, world, location or material.':'No entries match this selection.'}</p>}
             <div className="kh1-page-controls"><span>{page>0?<a href={pageLink(page-1)} aria-label="Previous index page">◀</a>:null}</span><span>{page+1} / {pages}</span><span>{page+1<pages?<a href={pageLink(page+1)} aria-label="Next index page">▶</a>:null}</span></div>

@@ -248,3 +248,19 @@
 .kh1-material-family h3{font:16px/24px KH1Menu;margin:0;color:#46674d}
 .kh1-material-family>a{position:relative;display:flex;justify-content:space-between;align-items:center;min-height:44px;padding:6px 3px;border-bottom:1px solid #839390;text-decoration:none;font:21px/1.2 KH1Hand}
 .kh1-material-family>a[aria-current=true]{background:#d7dfc966}
+
+/* Trinity controls stay within the existing leaf. Measure the whole filtered
+   catalogue so a later wrapped location cannot change pagination mid-browse. */
+.kh1-trinity-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.kh1-trinity-filters label{min-width:0}
+.kh1-trinity-index{position:relative}
+.kh1-trinity-measure{position:absolute;inset:0 0 auto;visibility:hidden;pointer-events:none}
+.kh1-trinity-measure-title{flex:1;min-width:0;padding:8px 3px;font-size:21px;line-height:1.2}
+.kh1-trinity-measure-check{width:22px;flex:none;margin:8px 11px}
+@media(max-height:650px) and (min-width:651px){.kh1-trinity-measure-title{padding-top:4px;padding-bottom:4px}}
+
+@media(max-height:500px) and (min-width:651px){
+ .kh1-trinity-filters{gap:4px 10px}
+ .kh1-trinity-filters label{font-size:0;gap:0}
+ .kh1-trinity-filters select{height:34px;min-height:34px}
+}
