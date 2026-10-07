@@ -81,3 +81,7 @@ This table records the migration-stage contracts before the 2026-10-07 integrati
 | 23 | Cross-world collections/achievement separation | Split exact all-world and filtered Trinity sets, usable Postcard shortcut, all Postcard deep-link records, and separate challenge/achievement sets. Phone shortcut remains failing. |
 | 24 | Contents/legacy world-entry routes | Real Contents navigation replaces obsolete redirect assumption; old world entry route opens notes and returns to correct focused world record. |
 | 25 | Skip link/Jiminy safe region/touch target | Current skip link and reading target, unchanged route, no reading overlap or horizontal clipping, retained 44px target contract, dialog/Escape/restored focus. |
+
+## Combined release validation
+
+See the [2026-10-07 integration record](journal-release-2026-10-07.md) for branch composition, current test inventory, visual review and required exact-commit CI/Pages verification.

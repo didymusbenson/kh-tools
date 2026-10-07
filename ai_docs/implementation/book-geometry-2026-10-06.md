@@ -42,3 +42,7 @@ KH2 world covers, BBS character Reports, Re:CoM Sora/Riku roots and DDD Reports 
 ## Publication boundary
 
 Developed independently from master `62643025d81c291a83cbdd5bdbb539893f6ef43a` on `feat/book-geometry-20261006`. The separately validated typography branch is excluded. Default-branch merge/deployment remains pending the parent task's publication decision; this feature checkpoint does not bypass that gate.
+
+## Integration follow-up — 2026-10-07
+
+The branch-specific scope and validation above are historical. The [combined release record](journal-release-2026-10-07.md) documents integration with the other completed changes, approved test deferrals, the BBS short-landscape correction and final per-commit release gates.

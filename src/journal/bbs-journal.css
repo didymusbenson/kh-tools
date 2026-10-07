@@ -65,3 +65,11 @@
  .bbs-contents-book .bbs-contents-list a>span{min-width:0;overflow-wrap:break-word}
  .bbs-contents-book .bbs-contents-list small{font-size:11px;flex:none}
 }
+
+/* Short landscape keeps the portrait/name and scrollable menu on the cover. */
+@media(min-width:601px) and (max-height:500px){
+ .bbs-contents-book{grid-template-rows:minmax(0,1fr)}
+ .bbs-contents-book .bbs-portrait{min-height:0;padding:0;display:grid;grid-template-rows:minmax(0,1fr) auto;justify-items:center;gap:8px}
+ .bbs-contents-book .bbs-portrait img{height:100%;width:auto;max-width:100%;min-height:0;object-fit:contain}
+ .bbs-contents-book .bbs-portrait h2{font-size:22px}
+}

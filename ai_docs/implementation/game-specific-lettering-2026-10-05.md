@@ -35,3 +35,7 @@ Follow-up validation: all 261 application tests and the production/TypeScript/co
 An independent tablet review found that KH2's wider watermark could overlap long Synthesis breadcrumbs just above the 650px stacked-phone breakpoint. The correction changes only the watermark's font size above that breakpoint (`clamp(14px, calc(2.5vw - 11px), 24px)`), retaining the existing phone size and desktop maximum. Explicit breadcrumb-overlap tests now cover bestiary, maps and synthesis recipe/material headings at 320, 650, 651, 768, 1000 and 1440px. The separate all-game frame/CoM/world-chrome regression pass completed with 96 passes; the known unrelated CoM check-and-hide race was explicitly excluded from that focused pass.
 
 The watermark remains approximately its former width through 1000px and grows only on wider desktop screens. Long Gummi/Prologue breadcrumbs also receive non-regression coverage: their pre-existing 651px overlap is not expanded into previously clear widths. No breadcrumb geometry or wording is changed.
+
+## Integration follow-up — 2026-10-07
+
+The branch-specific scope and validation above are historical. The [combined release record](journal-release-2026-10-07.md) documents integration with the other completed changes, approved test deferrals, the BBS short-landscape correction and final per-commit release gates.

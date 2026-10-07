@@ -71,3 +71,25 @@ test('long world name remains inside a closed cover title at a short wide breakp
  const title=(await page.locator('.kh2-world-title').boundingBox())!,name=(await page.locator('.kh2-world-title h2').boundingBox())!;
  expect(name.y).toBeGreaterThanOrEqual(title.y);expect(name.y+name.height).toBeLessThanOrEqual(title.y+title.height);
 });
+
+for(const viewport of [{width:640,height:360},{width:844,height:390},{width:1101,height:390},{width:1440,height:390}]){
+ test(`BBS short landscape cover keeps its portrait and every menu item above the footer at ${viewport.width}×${viewport.height}`,async({page})=>{
+  await page.setViewportSize(viewport);
+  await open(page,'bbsfm/contents?character=Terra','.bbs-contents-book');
+  const cover=(await page.locator('.bbs-contents-book').boundingBox())!,footer=(await page.locator('.bbs-footer').boundingBox())!;
+  const insideCover=async(selector:string)=>{
+   const box=(await page.locator(selector).boundingBox())!;
+   expect(box.y).toBeGreaterThanOrEqual(cover.y);
+   expect(box.y+box.height).toBeLessThanOrEqual(Math.min(cover.y+cover.height,footer.y));
+  };
+  await expect(page.locator('.bbs-portrait h2')).toHaveText('TERRA');
+  await insideCover('.bbs-portrait img');await insideCover('.bbs-portrait h2');await insideCover('.bbs-contents-list');
+  for(const link of await page.locator('.bbs-contents-list a').all()){
+   await link.scrollIntoViewIfNeeded();
+   const box=(await link.boundingBox())!;
+   expect(box.y).toBeGreaterThanOrEqual(cover.y);
+   expect(box.y+box.height).toBeLessThanOrEqual(Math.min(cover.y+cover.height,footer.y));
+   await expect(link).toBeInViewport();
+  }
+ });
+}
