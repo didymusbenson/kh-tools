@@ -1,7 +1,7 @@
 # KH1FM faithful journal — MVP review pass
 
 **Date:** 2026-09-23  
-**Status:** Implemented locally for visual/interaction review; not deployed.  
+**Historical status (2026-09-23):** Implemented locally for visual/interaction review; not deployed at that stage. Later dated sections record subsequent changes, not proof of current deployment.
 **Plan:** [KH1FM new UI plan](../ui/kh1fm-new-ui-plan.md).
 
 ## Authorization and purpose
@@ -40,7 +40,7 @@ Local preview: **http://localhost:4179/#/kh1fm/contents**. The original three-ga
 | Q10 | Existing game selector preserved during this KH1-focused pass; KH1 opens Contents | Global cover redesign remains open |
 | Q11 | Itim/Chakra Petch approximations and prototype assets | Exact typography, textures and KH1 Jiminy artwork |
 
-## Validation performed
+## Historical validation performed (2026-09-23)
 
 - TypeScript compile passed during implementation.
 - All **76 existing unit tests across 9 files passed**, covering content, planner, persistence, material presentation, other-game data, PWA and Jiminy behavior.
@@ -60,7 +60,7 @@ Local preview: **http://localhost:4179/#/kh1fm/contents**. The original three-ga
 3. Backup workflows retain earlier controls inside the new frame. Synthesis was subsequently replaced with the facing-page design documented below.
 4. The body fonts and later-game Jiminy render are provisional. [Asset sources and font licenses](../../public/assets/kh1-journal/README.md) are checked in. Exact KH1 production art/typography still need review.
 5. Keyboard focus, readable phone reflow and reduced-motion styling are implemented, but physical iPhone/VoiceOver, 200% zoom, full browser Back/Forward regression, offline browser reload and exhaustive deep-link acceptance have not all been validated in this pass. PWA unit tests/build checks are not a substitute for those checks.
-6. The old browser test suite contains assumptions about the superseded sidebar/inline layout. It was not represented as passing against this redesign; update and rerun affected acceptance cases before production cutover.
+6. At this MVP stage, the old browser test suite contained assumptions about the superseded sidebar/inline layout and was not represented as passing against the redesign. See the subsequent [native browser-test migration](native-journal-test-migration-2026-10-06.md) for migrated coverage and approved deferrals; this historical section is not a current suite result.
 7. Native Chronicles and full character biographies remain a scope question. Their absence from this MVP is recorded, not disguised with placeholders.
 8. The former KH1 shell was replaced; some unused old view helpers/styles remain in the module pending the final content/tool redesign. Shared styles and other-game presentation were not broadly deleted.
 
@@ -95,3 +95,13 @@ Browser measurements at 1280×720 confirmed identical outer frame (1248×624) an
 ## Shared adaptive index capacity — 2026-09-23
 
 Extracted Contents-only measurement into a shared hook used by all general journal lists and all three Synthesis indexes. Capacity accounts for filters, controls, actual row sizes and available leaf height. Compact spacing and fixed book geometry remain intact. Synthesis selected-item links take priority over stale page numbers when capacity changes. At 1280×1050, treasures displayed ten rows (32 pages instead of 64) and recipes displayed thirteen rows; both leaves remained free of vertical overflow. Verified treasure next-page navigation.
+
+## Synthesis lab design follow-up
+
+A dedicated [synthesis lab design session](../design/synthesis-lab-design-session.md) with the user is needed before redesigning material notes, nested crafting, or remaining/crafting quantities.
+
+## Approved acceptance deferrals — 2026-10-07
+
+The user approved retiring exactly four browser scenario definitions (eight desktop/phone executions), while preserving other independent assertions. Three are tracked as [synthesis design TODOs](../design/synthesis-lab-design-session.md#deferred-acceptance-todos): nested Farming Plan ingredients, explicit recipe-workspace remaining quantities and direct material drop-rate/location summaries. Reference Weapons-category selection and retention has its own [Reference backlog](../design/reference-category-backlog.md).
+
+These are intentional gaps pending design decisions, not implemented features or passing tests. Direct recipe-entry quantity arithmetic, stock persistence, farming targets/source disclosures, Reference world/status filtering and material-family checks remain covered. The [migration record](native-journal-test-migration-2026-10-06.md#approved-deferrals-2026-10-07) names every removed scenario. Final integration validation and deployment must be verified separately; the original local MVP results above do not establish either.

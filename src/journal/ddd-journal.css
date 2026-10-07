@@ -251,3 +251,19 @@
  /* The panel tab already names this leaf; reserve its heading space for stock. */
  .ddd-plan-materials>h2{display:none}
 }
+
+/* Reports has one broad outside-left-bound reading leaf. An offscreen second
+   sheet would create an extra state outside the closed/open/split contract. */
+.ddd-book:not(.ddd-cover)::before{content:none}
+/* Closed cover: half the 77%-wide reading stage. Art and menu stay together;
+   the art keeps its intrinsic aspect ratio instead of acquiring a tall crop.
+   Existing narrower-screen cover layouts remain the readable fallback. */
+@media(min-width:1101px){
+ .ddd-book.ddd-cover{width:calc((100% - 11.5% - 11.5%)/2);align-self:flex-end;margin-left:0;margin-right:11.5%}
+ .ddd-cover .ddd-root-spread{grid-template-columns:minmax(0,.37fr) minmax(0,.63fr);gap:12px;padding:38px 15px 38px 26px}
+ .ddd-cover .ddd-cover-art{align-self:center;aspect-ratio:917/940;width:100%;height:auto}
+ .ddd-cover .ddd-cover-menu{padding:14px 6px}
+ .ddd-cover .ddd-root-index .ddd-index-row{min-height:44px}
+ .ddd-cover .ddd-root-index .ddd-index-row>a{font-size:clamp(16px,1.3vw,22px);min-height:44px;line-height:1.2;padding:7px 3px 7px 30px;white-space:normal;overflow-wrap:break-word}
+ .ddd-cover .ddd-root-index .ddd-index-row>a::before{width:28px;height:28px}
+}

@@ -22,3 +22,7 @@ See [asset source record](../../../../public/assets/kh2-journal/README.md). Port
 - Exact modern HD typography and platform-neutral replacement for controller prompts.
 
 The supplied video is usable. Ask for a specific missing screen when necessary; another general video is not currently required.
+
+## User-supplied in-game typography references — 2026-10-05
+
+Three new KH2 captures and an actual-font comparison are preserved here. See [typography review and source provenance](typography-review-2026-10-05.md). They are research references, not runtime artwork.

@@ -134,7 +134,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
       <div className="journal-notices">{updateNotice}
       {error&&<div className="kh2-error" role="alert">{error}<button onClick={retry}>Retry loading saved progress</button></div>}</div>
       <nav hidden={treasureMode} className="kh2-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{workshop&&tab==='plan'?'Materials':worlds?'Worlds':cover?'Sections':'Index'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{workshop&&tab==='plan'?'World route':worlds||cover?'Overview':progress?'Backups':'Notes'}</button></nav>
-      <main ref={main} id="kh2-reading" tabIndex={-1} className={`kh2-book ${cover?'kh2-cover':''} ${treasureMode?'treasure-host':''}`}>
+      <main ref={main} id="kh2-reading" tabIndex={-1} data-book-state={cover?'closed':'split'} className={`kh2-book ${cover?'kh2-cover':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh2-rings" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
         {treasureMode?<TreasureBoard game={guide.id} route={route} entries={entries} checks={profile.checks} ready={ready} save={(id,value,expected)=>update(p=>{if(expected!==undefined&&!!p.checks[id]!==expected)throw new Error('This treasure changed in another tab. Undo was not applied.');return {...p,checks:{...p.checks,[id]:value}};})} renderDetails={e=>renderDetails(byId.get(e.id)!)}/>:<>
         <section className="kh2-leaf kh2-left" aria-label={`${title} index`}>

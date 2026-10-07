@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 
 /** Keep compact rows, and spend the available leaf height on more entries. */
-export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = false, navigationKey = scope) {
+export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = false, navigationKey = scope, rowSelector?: string) {
   const ref = useRef<HTMLElement>(null);
   const [capacity, setCapacity] = useState(5);
   const [anchorId, setAnchorId] = useState('');
@@ -23,7 +23,7 @@ export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = fa
       // Retain the largest encountered row in this layout so wrapped titles cannot
       // cause the page size to oscillate as rows enter or leave the rendered page.
       const row = Math.max(minimumRowHeight, sameSpace ? previous.row : 0,
-        ...Array.from(node.children, child => child.getBoundingClientRect().height));
+        ...Array.from(rowSelector ? node.querySelectorAll(rowSelector) : node.children, child => child.getBoundingClientRect().height));
       measured.current = {scope, width, height, row};
       const style = getComputedStyle(node);
       const columns = grid ? style.gridTemplateColumns.split(' ').length : 1;

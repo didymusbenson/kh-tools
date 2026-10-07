@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { compareMaterials, materialFamily } from '../domain/materialPresentation';
 import type { GameData } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
 import { useIndexCapacity } from './useIndexCapacity';
@@ -26,15 +27,28 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
   const [busy,setBusy]=useState(false);
   useEffect(()=>setNotice(''),[route]);
   const state=player.state;
-  const materials=data.entries.filter(e=>e.category==='material').sort((a,b)=>a.name.localeCompare(b.name));
+  const materials=data.entries.filter(e=>e.category==='material').sort(compareMaterials);
   const recipes=data.recipes.filter(r=>(!set||r.set===Number(set))&&(!params.has('remaining')||!state.checks[r.entryId]));
   const items=(tab==='recipes'?recipes.map(r=>data.entries.find(e=>e.id===r.entryId)!).filter(Boolean):tab==='plan'?materials.filter(e=>(state.farmPlan?.[e.id]||0)>0):materials).filter(e=>e.name.toLowerCase().includes(query.toLowerCase()));
-  const {ref:indexRef,capacity:pageSize,anchorId,clearAnchor}=useIndexCapacity(`${tab}:${query}:${set}:${params.has('remaining')}`,tab==='plan'?116:36,false,route);
-  const pages=Math.max(1,Math.ceil(items.length/pageSize));
+  // A family is an indivisible index unit: resizing or pagination cannot strand
+  // a shard on a different page from its gems/stones. IDs and detail links stay canonical.
+  const groups = tab==='materials' ? [...new Set(items.map(materialFamily))].map(name=>({name, entries:items.filter(e=>materialFamily(e)===name)})) : [];
+  const {ref:indexRef,capacity:pageSize,anchorId,clearAnchor}=useIndexCapacity(`${tab}:${query}:${set}:${params.has('remaining')}`,tab==='plan'?116:tab==='materials'?44:36,false,route,tab==='materials'?':scope > section > a':undefined);
+  // Pack complete families into the measured leaf. One extra row pays for each
+  // heading; a family taller than the entire leaf stays together and can scroll.
+  const familyPages:typeof groups[]=[];
+  let used=0;
+  for(const group of groups){
+    const weight=group.entries.length+1;
+    if(!familyPages.length||used+weight>pageSize){familyPages.push([]);used=0;}
+    familyPages.at(-1)!.push(group);used+=weight;
+  }
+  const pages=Math.max(1,tab==='materials'?familyPages.length:Math.ceil(items.length/pageSize));
   const requested=(tab==='plan'&&anchorId)||params.get('item')||params.get('entry');
-  const requestedPage=Math.floor(Math.max(0,items.findIndex(e=>e.id===requested))/pageSize);
+  const requestedPage=tab==='materials'?Math.max(0,familyPages.findIndex(groups=>groups.some(g=>g.entries.some(e=>e.id===requested)))):Math.floor(Math.max(0,items.findIndex(e=>e.id===requested))/pageSize);
   const page=Math.min(pages-1,Math.max(0,Math.floor(Number(requested?requestedPage:params.get('page')??0))||0));
-  const shown=items.slice(page*pageSize,(page+1)*pageSize);
+  const shownGroups=familyPages[page]||[];
+  const shown=tab==='materials'?shownGroups.flatMap(g=>g.entries):items.slice(page*pageSize,(page+1)*pageSize);
   const selected=shown.find(e=>e.id===requested)||shown[0];
   const recipe=tab==='recipes'?data.recipes.find(r=>r.entryId===selected?.id):undefined;
   function link(changes:Record<string,string>) {const next=new URLSearchParams(params);next.delete('entry');for(const [key,value] of Object.entries(changes))value?next.set(key,value):next.delete(key);return `#/kh1fm/synthesis/${tab}${next.size?'?'+next:''}`;}
@@ -48,7 +62,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
       <form className="kh1-filters" onSubmit={e=>{e.preventDefault();location.hash=link({q:search,page:'',item:''});}}><label><span>Find {tab==='recipes'?'a recipe':'a material'}</span><input type="search" value={search} onChange={e=>setSearch(e.target.value)}/></label>
       {tab==='recipes'&&<label>Set<select value={set} onChange={e=>{location.hash=link({set:e.target.value,page:'',item:''});}}><option value="">All sets</option>{[...new Set(data.recipes.map(r=>r.set))].sort((a,b)=>a-b).map(n=><option key={n}>{n}</option>)}</select></label>}<button className="kh1-book-action" type="submit">Find</button></form>
       {tab==='recipes'&&<label className="kh1-remaining"><input type="checkbox" checked={params.has('remaining')} onChange={e=>{location.hash=link({remaining:e.target.checked?'1':'',page:'',item:''});}}/> Not yet crafted</label>}
-      <nav ref={indexRef} className="kh1-index" aria-label={`${tab} index`}>{shown.map(e=>tab==='plan'?<FarmingMaterialRow key={e.id} id={e.id} name={e.name} owned={state.inventory[e.id]} target={state.farmPlan?.[e.id]||0} ready={player.ready} max={9999} saveOwned={n=>save(()=>player.setInventory(e.id,n??null))} saveTarget={n=>save(()=>player.setFarmTarget(e.id,n||0))} remove={()=>save(()=>player.setFarmTarget(e.id,0))}/>:<a key={e.id} href={link({item:e.id})} aria-current={selected?.id===e.id?'true':undefined}><span>{e.name}</span><span aria-hidden="true">{tab==='recipes'&&state.checks[e.id]?'✓':'›'}</span></a>)}</nav>
+      <nav ref={indexRef} className={`kh1-index ${tab==='materials'?'kh1-material-index':''}`} aria-label={`${tab} index`}>{tab==='materials'?shownGroups.map(group=><section className="kh1-material-family" key={group.name}><h3>{group.name}</h3>{group.entries.map(e=><a key={e.id} href={link({item:e.id})} aria-current={selected?.id===e.id?'true':undefined}><span>{e.name}</span><span aria-hidden="true">›</span></a>)}</section>):shown.map(e=>tab==='plan'?<FarmingMaterialRow key={e.id} id={e.id} name={e.name} owned={state.inventory[e.id]} target={state.farmPlan?.[e.id]||0} ready={player.ready} max={9999} saveOwned={n=>save(()=>player.setInventory(e.id,n??null))} saveTarget={n=>save(()=>player.setFarmTarget(e.id,n||0))} remove={()=>save(()=>player.setFarmTarget(e.id,0))}/>:<a key={e.id} href={link({item:e.id})} aria-current={selected?.id===e.id?'true':undefined}><span>{e.name}</span><span aria-hidden="true">{tab==='recipes'&&state.checks[e.id]?'✓':'›'}</span></a>)}</nav>
       {!items.length&&<p className="kh1-small">{tab==='plan'?(query?'No planned materials match this name.':'Add recipe ingredients or a material to begin your farming plan.'):'No matching entries.'}</p>}
       {tab==='plan'&&<p className="farming-plan-help">Target = total stock to have. Blank Owned = unknown. Changes save on leaving the field. Search filters this list only.</p>}
       <div className="kh1-page-controls" onClick={e=>{if((e.target as Element).closest('a[href]'))clearAnchor();}}><span>{page>0&&<a aria-label="Previous index page" href={link({page:String(page-1),item:''})}>◀</a>}</span><span>{page+1} / {pages}</span><span>{page+1<pages&&<a aria-label="Next index page" href={link({page:String(page+1),item:''})}>▶</a>}</span></div>

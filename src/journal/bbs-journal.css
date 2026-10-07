@@ -52,3 +52,16 @@
 }
 .bbs-screen-plan .bbs-volume{position:relative}
 .bbs-screen-plan .bbs-error{position:absolute;z-index:15;inset:0 0 auto;max-height:90px;overflow:auto;font-size:12px;line-height:1.35}
+
+/* A closed Reports cover occupies one half of the ordinary reading stage.
+   Its portrait and section menu are cover artwork/layout, not facing leaves.
+   Narrower screens retain the readable full-width responsive composition. */
+@media(min-width:1101px){
+ .bbs-contents-book{width:calc((100% - 7% - 6%)/2);align-self:flex-end;margin-left:0;margin-right:6%;padding:18px 16px 18px 26px;grid-template-columns:minmax(0,.34fr) minmax(0,.66fr);gap:12px}
+ .bbs-contents-book .bbs-portrait{padding:0;gap:15px}
+ .bbs-contents-book .bbs-portrait h2{font-size:clamp(22px,1.8vw,32px)}
+ .bbs-contents-book .bbs-contents-list{padding:10px 8px}
+ .bbs-contents-book .bbs-contents-list a{font-size:clamp(16px,1.3vw,22px);line-height:1.25;min-height:36px;padding:5px 5px 5px 12px;gap:7px}
+ .bbs-contents-book .bbs-contents-list a>span{min-width:0;overflow-wrap:break-word}
+ .bbs-contents-book .bbs-contents-list small{font-size:11px;flex:none}
+}

@@ -66,6 +66,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const synthesis=section==='synthesis';
   const treasureMode=hasTreasureBoard('kh1fm',route);
   const tool=section==='progress'&&!entry;
+  const closed=section==='contents'&&!entry;
   const known=!!titles[section]||section==='entry';
   const worlds=[...new Set(data.entries.filter(e=>e.world).map(e=>e.world!))];
   const categories=cataloguePages.find(p=>p.id===section)?.categories;
@@ -125,7 +126,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       <div className="journal-notices">{updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}</div>
       <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>
-      <main id="kh1-reading" tabIndex={-1} ref={main} className={`kh1-spread ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
+      <main id="kh1-reading" tabIndex={-1} ref={main} data-book-state={closed?'closed':tool?'open':'split'} className={`kh1-spread ${closed?'kh1-closed-stage':''} ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
         {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
@@ -139,7 +140,6 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
           </JournalNotePages>:<>
             <div className="kh1-speech">{section==='contents'?'What would you like to read?':section==='dalmatians'?'Let’s bring all the puppies home!':worldIndex?'Which world shall we visit?':`Let’s look through ${titles[section]?.toLowerCase()||'the journal'}.`}</div>
             <img className="kh1-jiminy-art" src={asset+'jiminy-official.png'} alt="Jiminy Cricket"/>
-            {section==='dalmatians'&&<p className="kh1-index-caption">{done} / {count} puppy groups found</p>}
           </>}
         </aside>}
         <div className={`kh1-leaf-right kh1-paper ${tool?'kh1-tool-page':''}`}>
@@ -149,6 +149,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
               {section!=='worlds'&&sectionWorlds.length>0&&<label>World<select aria-label="Filter by world" value={world} onChange={e=>setParam('world',e.target.value)}><option value="">All worlds</option>{sectionWorlds.map(w=><option key={w}>{w}</option>)}</select></label>}
               <label>Show<select aria-label="Filter by collection status" value={params.get('status')||''} onChange={e=>setParam('status',e.target.value)}><option value="">All entries</option><option value="remaining">Uncollected</option></select></label>
             </div>}
+            {collectionScope&&!items&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
             <nav ref={indexRef} className="kh1-index" aria-label={title+' index'}>
               {items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):shown.map(e=><div className="kh1-index-row" key={e.id}>
                 <a href={entryLink(e)} data-record-id={e.id} onFocus={()=>setHelp(e.area||e.summary||'Read this entry.')} onMouseEnter={()=>setHelp(e.area||e.summary||'Read this entry.')}><span>{entryTitle(e)}{e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>

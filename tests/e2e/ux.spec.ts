@@ -11,7 +11,7 @@ test("anchored game choices preview the original artwork with keyboard focus", a
     /khfm\.jpg$/,
   );
   await page.screenshot({
-    path: `test-results/${test.info().project.name}-cover-final.png`,
+    path: test.info().outputPath("cover-final.png"),
     fullPage: true,
     animations: "disabled",
   });
@@ -32,48 +32,45 @@ test("anchored game choices preview the original artwork with keyboard focus", a
   ).toHaveCount(0);
 });
 test("journal skip link, launcher safe region, and primary touch target", async ({
-  page,
+  page, isMobile,
 }) => {
   await page.goto("./#/kh1fm/worlds");
   await expect(
     page.getByRole("heading", { name: "Worlds" }),
   ).toBeVisible();
-  const skip = page.getByRole("link", { name: "Skip to journal content" });
+  const skip = page.getByRole("link", { name: "Skip to journal" });
   await skip.focus();
   await page.keyboard.press("Enter");
   await expect(page).toHaveURL(/#\/kh1fm\/worlds$/);
-  await expect(page.locator("#journal-main")).toBeFocused();
+  await expect(page.locator("#kh1-reading")).toBeFocused();
   const launcher = page.getByRole("button", {
     name: "Open Data Jiminy for Kingdom Hearts Final Mix",
   });
   const button = await launcher.boundingBox();
-  expect(button!.width).toBeGreaterThanOrEqual(44);
-  expect(button!.height).toBeGreaterThanOrEqual(44);
+  if (isMobile || await page.evaluate(() => matchMedia("(pointer: coarse)").matches)) {
+    expect(button!.width).toBeGreaterThanOrEqual(44);
+    expect(button!.height, "Jiminy must retain a 44px target on phone/touch devices").toBeGreaterThanOrEqual(44);
+  }
+  // Jiminy is now integrated into the header, not floating beside the paper.
+  // Keep the substantive safe-region guarantee: it cannot cover the reading area.
   const geometry = await page.evaluate(() => {
-    const shell = document
-        .querySelector(".journal-shell")!
-        .getBoundingClientRect(),
-      paper = document.querySelector(".journal-page")!.getBoundingClientRect(),
-      launcher = document
-        .querySelector(".jiminy-launcher")!
-        .getBoundingClientRect();
+    const reading = document.querySelector("#kh1-reading")!.getBoundingClientRect();
+    const launcher = document.querySelector(".jiminy-launcher")!.getBoundingClientRect();
     return {
-      width: innerWidth,
-      scroll: document.documentElement.scrollWidth,
-      shellBottom: shell.bottom,
-      paperRight: paper.right,
-      launcherLeft: launcher.left,
-      launcherTop: launcher.top,
+      width: innerWidth, scroll: document.documentElement.scrollWidth,
+      readingTop: reading.top, launcherBottom: launcher.bottom,
+      launcherLeft: launcher.left, launcherRight: launcher.right,
     };
   });
   expect(geometry.scroll).toBeLessThanOrEqual(geometry.width + 1);
-  if (geometry.width <= 650)
-    expect(geometry.shellBottom).toBeLessThanOrEqual(geometry.launcherTop);
-  else expect(geometry.paperRight).toBeLessThan(geometry.launcherLeft);
+  expect(geometry.launcherBottom).toBeLessThanOrEqual(geometry.readingTop);
+  expect(geometry.launcherLeft).toBeGreaterThanOrEqual(0);
+  expect(geometry.launcherRight).toBeLessThanOrEqual(geometry.width);
   await launcher.click();
   await expect(
     page.getByRole("dialog", { name: "Data Jiminy", exact: true }),
   ).toBeVisible();
   await page.keyboard.press("Escape");
   await expect(launcher).toBeFocused();
+  await page.screenshot({ path: test.info().outputPath("journal-jiminy-target.png") });
 });
