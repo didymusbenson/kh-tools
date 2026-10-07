@@ -1,6 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import type { GameData } from "../../src/domain/types";
+import { compareTrinities } from "../../src/domain/trinityPresentation";
 import { expectKh1Records, kh1Record, showKh1Overview } from "./native-collection-helpers";
 
 const data: GameData = JSON.parse(readFileSync("public/data/kh1fm.json", "utf8"));
@@ -23,7 +24,7 @@ test("world hub opens a complete world-scoped record index", async ({ page }) =>
 
 test("collection indexes browse all worlds and filter to one world", async ({ page }) => {
   const trinities = data.entries.filter(item => item.category === "trinity");
-  const other = trinities.find(item => item.world !== entry.world)!;
+  const other = [...trinities].sort(compareTrinities).find(item => item.world !== entry.world)!;
   await page.goto("./#/kh1fm/trinities");
   await expectKh1Records(page, trinities.map(item => item.id));
   await page.getByRole("combobox", { name: "Filter by world", exact: true }).selectOption(other.world!);
@@ -61,7 +62,9 @@ test("contents and legacy world entry routes retain navigation and entry focus",
   const trinityLink = page.locator('main a[href="#/kh1fm/trinities"]');
   await expect(trinityLink).toBeVisible();
   await trinityLink.click();
-  await expect(kh1Record(page, entry.id)).toBeVisible();
+  // The unfiltered index now uses color, world and location ordering, not import order.
+  const firstTrinity = data.entries.filter(item => item.category === "trinity").sort(compareTrinities)[0];
+  await expect(kh1Record(page, firstTrinity.id)).toBeVisible();
 
   const worldRoute = `#/kh1fm/worlds/${encodeURIComponent(entry.world!)}`;
   await page.goto(`./${worldRoute}?entry=${entry.id}`);

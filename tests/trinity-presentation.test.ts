@@ -68,6 +68,22 @@ describe('KH1 Trinity presentation', () => {
     });
   }
 
+  it('uses the documented color, world, location and stable-ID tie order', () => {
+    const mark = (id: string, color: string, world: string, area: string): GuideEntry =>
+      ({ ...marks[0], id, world, area, facts: { color } });
+    const fixture = [mark('red-a', 'Red', 'Agrabah', 'Bazaar'),
+      mark('blue-z', 'Blue', 'Wonderland', 'Rabbit Hole'),
+      mark('blue-b', 'Blue', 'Agrabah', 'Silent Chamber'),
+      mark('blue-a2', 'Blue', 'Agrabah', 'Bazaar'),
+      mark('blue-a1', 'Blue', 'Agrabah', 'Bazaar')];
+    expect([...fixture].sort(compareTrinities).map(e => e.id))
+      .toEqual(['blue-a1', 'blue-a2', 'blue-b', 'blue-z', 'red-a']);
+    expect([...fixture].sort((a, b) => compareTrinities(a, b, 'world')).map(e => e.id))
+      .toEqual(['blue-a1', 'blue-a2', 'blue-b', 'red-a', 'blue-z']);
+    expect([...fixture].sort((a, b) => compareTrinities(a, b, 'location')).map(e => e.id))
+      .toEqual(['blue-a1', 'blue-a2', 'red-a', 'blue-z', 'blue-b']);
+  });
+
   it('defaults to color sorting and keeps separate marks in the same room distinct', () => {
     expect([...marks].sort(compareTrinities).map(e => e.id))
       .toEqual([...marks].sort((a, b) => compareTrinities(a, b, 'color')).map(e => e.id));

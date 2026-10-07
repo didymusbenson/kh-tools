@@ -46,9 +46,9 @@ test("world collection pages expose every record in a single column on each view
   const expected = data.entries.filter(item => item.category === "trinity" && item.world === entry.world);
   await expect(page.getByRole("button", { name: "Compact index", exact: true })).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Location details", exact: true })).toHaveCount(0);
-  await expect.poll(() => page.locator(".kh1-index-row").count()).toBeGreaterThan(1);
+  await expect.poll(() => page.locator(".kh1-index > .kh1-index-row").count()).toBeGreaterThan(1);
   await expectKh1Records(page, expected.map(item => item.id), async () => {
-    const boxes = await page.locator(".kh1-index-row").evaluateAll(rows => rows.map(row => {
+    const boxes = await page.locator(".kh1-index > .kh1-index-row").evaluateAll(rows => rows.map(row => {
       const box = row.getBoundingClientRect();
       return { left: box.left, top: box.top, bottom: box.bottom, right: box.right };
     }));
