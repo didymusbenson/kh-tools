@@ -182,6 +182,10 @@ for (const plan of plans) {
     for (const material of plan.materials) {
       const row = await revealMaterial(page, material);
       await expect(row).toBeVisible();
+      if (plan.game !== 'kh1fm') {
+        await expect(row).not.toHaveClass(/farming-material-row-compact/);
+        await expect(row.locator('.farming-remaining')).toBeVisible();
+      }
       await expect(row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true })).toHaveValue('');
       await expect(row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true })).toHaveValue('5');
     }
@@ -213,24 +217,35 @@ for (const plan of plans.filter(p => ['kh1fm', 'kh2fm'].includes(p.game))) {
     const material = plan.materials[0], row = await revealMaterial(page, material);
     const owned = row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true });
     const target = row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true });
-    await expect(row.locator('.farming-remaining strong')).toHaveText('?');
+    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    else await expect(row.locator('.farming-remaining strong')).toHaveText('?');
     await edit(owned, '2');
-    await expect(row.locator('.farming-remaining strong')).toHaveText('3');
+    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    else await expect(row.locator('.farming-remaining strong')).toHaveText('3');
     expect((await routeSnapshot(page)).text).toContain(material.name);
     await panel(page, 'Materials');
     await edit(owned, '8');
-    await expect(row.locator('.farming-remaining strong')).toHaveText('0');
+    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    else await expect(row.locator('.farming-remaining strong')).toHaveText('0');
     await expect(target).toHaveValue('5');
     const met = await routeSnapshot(page);
     expect(met.text).not.toContain(material.name);
     expect(met.text).toContain('already met');
     await panel(page, 'Materials');
     await edit(owned, '0');
-    await expect(row.locator('.farming-remaining strong')).toHaveText('5');
+    expect((await routeSnapshot(page)).text).toContain(material.name);
+    await panel(page, 'Materials');
+    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    else await expect(row.locator('.farming-remaining strong')).toHaveText('5');
     await page.reload();
     await expect(owned).toHaveValue('0');
     await edit(owned, '');
-    await expect(row.locator('.farming-remaining strong')).toHaveText('?');
+    const unknown = await routeSnapshot(page);
+    expect(unknown.text).toContain(material.name);
+    expect(unknown.text).toContain('unknown stock');
+    await panel(page, 'Materials');
+    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    else await expect(row.locator('.farming-remaining strong')).toHaveText('?');
     await edit(owned, '3');
     await edit(target, '0');
     await expect(row).toHaveCount(0);
@@ -252,7 +267,12 @@ for (const plan of plans) {
     await edit(target, invalid);
     await expect(target).toHaveAttribute('aria-invalid', 'true');
     await expect(row.getByRole('alert')).toContainText('whole number');
-    await expect(row.locator('.farming-remaining strong')).toHaveText('2');
+    if (plan.game === 'kh1fm') {
+      await expect(row.locator('.farming-remaining')).toHaveCount(0);
+      expect(await savedStock(page, plan.game, material.id, 'targets')).toBe(5);
+      expect((await routeSnapshot(page)).text).toContain(material.name);
+      await panel(page, 'Materials');
+    } else await expect(row.locator('.farming-remaining strong')).toHaveText('2');
     if (plan.game !== 'kh3') await fixedBounds(page);
   }
   await page.reload();
@@ -458,3 +478,99 @@ for (const plan of plans.filter(plan => plan.game !== 'kh3')) {
     }
   });
 }
+
+for (const size of [{ width: 1280, height: 800 }, { width: 320, height: 568 }, { width: 390, height: 844 }]) {
+  test(`KH1 compact farming rows keep name, Owned, Target and remove on one line at ${size.width}px`, async ({ page }) => {
+    await page.setViewportSize(size);
+    const data = JSON.parse(readFileSync('public/data/kh1fm.json', 'utf8'));
+    const longest: Material[] = data.entries
+      .filter((entry: { category: string }) => entry.category === 'material')
+      .sort((a: Material, b: Material) => b.name.length - a.name.length || a.name.localeCompare(b.name))
+      .slice(0, 3);
+    const plan = { ...plans[0], materials: longest };
+    const counts = Object.fromEntries(longest.map(material => [material.id, 9999]));
+    await seed(page, plan, counts, counts);
+    await page.evaluate(() => document.fonts.ready);
+    for (const material of longest) {
+      const row = await revealMaterial(page, material);
+      const name = row.locator('strong').first();
+      const owned = row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true });
+      const target = row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true });
+      const remove = row.getByRole('button', { name: `Remove ${material.name} from farming plan`, exact: true });
+      await expect(name).toHaveText(material.name);
+      await expect(name).toHaveAttribute('title', material.name);
+      await expect(page.locator('.kh1-farming-columns')).toContainText('Owned');
+      await expect(page.locator('.kh1-farming-columns')).toContainText('Target');
+      await expect(owned).toHaveValue('9999');
+      await expect(target).toHaveValue('9999');
+      await expect(remove).toBeVisible();
+      await expect(row.locator('.farming-remaining')).toHaveCount(0);
+      await expect(row).not.toContainText(/Remaining|Stock met/);
+      const boxes = await Promise.all([name, owned, target, remove].map(control => control.boundingBox()));
+      const rowBox = (await row.boundingBox())!;
+      for (const box of boxes) {
+        expect(box).not.toBeNull();
+        expect(box!.x).toBeGreaterThanOrEqual(rowBox.x - 1);
+        expect(box!.x + box!.width).toBeLessThanOrEqual(rowBox.x + rowBox.width + 1);
+        expect(box!.y).toBeGreaterThanOrEqual(rowBox.y - 1);
+        expect(box!.y + box!.height).toBeLessThanOrEqual(rowBox.y + rowBox.height + 1);
+      }
+      // Visual left-to-right order and shared vertical band prohibit a stacked row.
+      for (let index = 1; index < boxes.length; index++) {
+        expect(boxes[index - 1]!.x + boxes[index - 1]!.width).toBeLessThanOrEqual(boxes[index]!.x + 1);
+      }
+      const bandTop = Math.max(...boxes.map(box => box!.y));
+      const bandBottom = Math.min(...boxes.map(box => box!.y + box!.height));
+      expect(bandBottom - bandTop).toBeGreaterThan(8);
+      for (const box of boxes) {
+        expect(Math.abs((box!.y + box!.height / 2) - (boxes[1]!.y + boxes[1]!.height / 2))).toBeLessThanOrEqual(1);
+      }
+      expect(boxes[3]!.width).toBeGreaterThanOrEqual(44);
+      expect(boxes[3]!.height).toBeGreaterThanOrEqual(44);
+      expect(await row.evaluate(node => node.scrollWidth <= node.clientWidth + 1)).toBe(true);
+      for (const input of [owned, target]) {
+        expect(await input.evaluate(node => node.scrollWidth <= node.clientWidth + 1)).toBe(true);
+      }
+      // DOM/tab order follows the visual order, with distinct material-specific names.
+      await owned.focus();
+      await page.keyboard.press('Tab');
+      await expect(target).toBeFocused();
+      await page.keyboard.press('Tab');
+      await expect(remove).toBeFocused();
+      await fixedBounds(page);
+    }
+    await page.screenshot({ path: test.info().outputPath(`kh1-compact-farming-${size.width}.png`), fullPage: true });
+  });
+}
+
+test('KH1 compact farming edits, remove and Undo preserve saved inventory and route state', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const plan = plans[0], material = plan.materials[0];
+  await seed(page, plan);
+  const row = await revealMaterial(page, material);
+  const owned = row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true });
+  const target = row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true });
+  await edit(owned, '9999');
+  await edit(target, '9999');
+  await page.reload();
+  await revealMaterial(page, material);
+  await expect(owned).toHaveValue('9999');
+  await expect(target).toHaveValue('9999');
+  expect((await routeSnapshot(page)).text).not.toContain(material.name);
+  await panel(page, 'Materials');
+  await row.getByRole('button', { name: `Remove ${material.name} from farming plan`, exact: true }).click();
+  await expect(row).toHaveCount(0);
+  await expect(page.locator('.farming-material-row input').first()).toBeFocused();
+  expect(await savedStock(page, plan.game, material.id)).toBe(9999);
+  await page.getByRole('button', { name: 'Tools', exact: true }).click();
+  await page.getByRole('button', { name: 'Undo', exact: true }).click();
+  await page.keyboard.press('Escape');
+  await revealMaterial(page, material);
+  await expect(owned).toHaveValue('9999');
+  await expect(target).toHaveValue('9999');
+  await page.reload();
+  await revealMaterial(page, material);
+  await expect(target).toHaveValue('9999');
+  await edit(owned, '0');
+  expect((await routeSnapshot(page)).text).toContain(material.name);
+});
