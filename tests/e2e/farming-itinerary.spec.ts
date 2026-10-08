@@ -2,7 +2,8 @@ import { test, expect, type Page, type Locator } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
 type Material = { id: string; name: string; source: string; rate: string };
-type PlanCase = { game: string; route: string; world: string; materials: Material[] };
+type SourceTab = 'Enemy drops' | 'Other sources';
+type PlanCase = { game: string; route: string; world: string; materials: Material[]; sourceTab?: SourceTab };
 
 // These are real catalog records, deliberately chosen to share a destination.
 // The two store formats are the application's existing formats, not test-only APIs.
@@ -15,11 +16,11 @@ const plans: PlanCase[] = [
     { id: 'kh2fm.materials.dark-shard', name: 'Dark Shard', source: 'Shadow', rate: '4%' },
     { id: 'kh2fm.materials.bright-shard', name: 'Bright Shard', source: 'Soldier', rate: '4%' },
   ] },
-  { game: 'bbsfm', route: 'bbsfm/plan?character=Terra', world: 'Mirage Arena', materials: [
+  { game: 'bbsfm', route: 'bbsfm/plan?character=Terra', world: 'Mirage Arena', sourceTab: 'Other sources', materials: [
     { id: 'bbsfm:terra:material:fleeting-crystal', name: 'Fleeting Crystal', source: 'Medal shop', rate: 'Conditional' },
     { id: 'bbsfm:terra:material:shimmering-crystal', name: 'Shimmering Crystal', source: 'Medal shop', rate: 'Conditional' },
   ] },
-  { game: 'dddhd', route: 'dddhd/workshop/plan', world: 'Symphony of Sorcery', materials: [
+  { game: 'dddhd', route: 'dddhd/workshop/plan', world: 'Symphony of Sorcery', sourceTab: 'Other sources', materials: [
     { id: 'dddhd:materials:brilliant-fantasy', name: 'Brilliant Fantasy', source: 'Riku Special Portal 6', rate: '100%' },
     { id: 'dddhd:materials:wild-fantasy', name: 'Wild Fantasy', source: 'Sora Special Portal 6', rate: '100%' },
   ] },
@@ -29,9 +30,9 @@ const plans: PlanCase[] = [
   ] },
 ];
 
-async function seed(page: Page, plan: PlanCase, targets?: Record<string, number>, owned: Record<string, number> = {}) {
+async function seed(page: Page, plan: PlanCase, targets?: Record<string, number>, owned: Record<string, number> = {}, checks: Record<string, boolean> = {}) {
   await page.goto('./');
-  await page.evaluate(async ({ game, route, targets, owned }) => {
+  await page.evaluate(async ({ game, route, targets, owned, checks }) => {
     const request = indexedDB.open(game === 'kh1fm' ? 'ars-arcanum-player' : 'ars-arcanum-guides', 1);
     request.onupgradeneeded = () => request.result.createObjectStore('profiles');
     const db = await new Promise<IDBDatabase>((resolve, reject) => {
@@ -41,16 +42,16 @@ async function seed(page: Page, plan: PlanCase, targets?: Record<string, number>
     const transaction = db.transaction('profiles', 'readwrite');
     const profile = game === 'kh1fm' ? {
       revision: 1,
-      state: { schemaVersion: 1, game, checks: {}, inventoryEnabled: true, inventory: owned,
+      state: { schemaVersion: 1, game, checks, inventoryEnabled: true, inventory: owned,
         plan: {}, farmPlan: targets, planMode: 'selected', lastRoute: `#/${route}`, updatedAt: new Date().toISOString() },
-    } : { version: 1, game, checks: {}, owned, targets, route };
+    } : { version: 1, game, checks, owned, targets, route };
     transaction.objectStore('profiles').put(profile, game === 'kh1fm' ? 'kh1fm-current' : game);
     await new Promise<void>((resolve, reject) => {
       transaction.oncomplete = () => resolve();
       transaction.onerror = () => reject(transaction.error);
     });
     db.close();
-  }, { game: plan.game, route: plan.route, targets: targets ?? Object.fromEntries(plan.materials.map(m => [m.id, 5])), owned });
+  }, { game: plan.game, route: plan.route, targets: targets ?? Object.fromEntries(plan.materials.map(m => [m.id, 5])), owned, checks });
   await page.goto(`./#/${plan.route}`);
   await expect(page.locator('.farming-material-row').first()).toBeVisible();
   await expect(page.locator('.farming-material-row input').first()).toBeEnabled();
@@ -118,19 +119,31 @@ async function savedStock(page: Page, game: string, id: string, field: 'owned' |
 }
 
 async function visibleSource(page: Page) {
-  const index = await page.locator('.farming-itinerary').evaluate(route => {
-    const window = route.querySelector('.kh1-note-window')!.getBoundingClientRect();
-    return [...route.querySelectorAll<HTMLElement>('.farming-source-summary')].findIndex(button => {
-      const box = button.getBoundingClientRect();
-      return box.left >= window.left - 1 && box.right <= window.right + 1 && box.top >= window.top - 1 && box.bottom <= window.bottom + 1;
+  let index = -1;
+  // Font/viewport and tab changes remeasure columns on the next animation frame.
+  await expect.poll(async () => {
+    index = await page.locator('.farming-itinerary').evaluate(route => {
+      const window = route.querySelector('.kh1-note-window')!.getBoundingClientRect();
+      return [...route.querySelectorAll<HTMLElement>('.farming-source-summary')].findIndex(button => {
+        const box = button.getBoundingClientRect();
+        return box.left >= window.left - 1 && box.right <= window.right + 1 && box.top >= window.top - 1 && box.bottom <= window.bottom + 1;
+      });
     });
-  });
-  expect(index).toBeGreaterThanOrEqual(0);
+    return index;
+  }).toBeGreaterThanOrEqual(0);
   return page.locator('.farming-source').nth(index);
 }
 
-async function routeSnapshot(page: Page) {
+async function selectSourceTab(page: Page, name: SourceTab) {
+  const route = page.locator('.farming-itinerary');
+  await route.getByRole('tab', { name, exact: true }).click();
+  await expect(route.getByRole('tab', { name, exact: true })).toHaveAttribute('aria-selected', 'true');
+  await expect(route.getByRole('tabpanel', { name, exact: true })).toBeVisible();
+}
+
+async function routeSnapshot(page: Page, sourceTab: SourceTab = 'Enemy drops') {
   await panel(page, 'World route');
+  await selectSourceTab(page, sourceTab);
   const previous = page.getByRole('button', { name: 'Previous route page', exact: true });
   while (await previous.isVisible() && await previous.isEnabled()) await previous.click();
   const route = page.locator('.farming-itinerary');
@@ -189,7 +202,7 @@ for (const plan of plans) {
       await expect(row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true })).toHaveValue('');
       await expect(row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true })).toHaveValue('5');
     }
-    const route = await routeSnapshot(page);
+    const route = await routeSnapshot(page, plan.sourceTab);
     expect(route.text.toLowerCase()).toContain(plan.world.toLowerCase());
     for (const material of plan.materials) {
       expect(route.text).toContain(material.name);
@@ -355,7 +368,7 @@ test('DDD filters character-specific sources without losing shared Dream Piece t
   await page.getByRole('button', {name:'Tools',exact:true}).click();
   await page.getByRole('combobox', { name: 'Filter by character', exact: true }).selectOption('Riku');
   await page.keyboard.press('Escape');
-  const riku = await routeSnapshot(page);
+  const riku = await routeSnapshot(page, 'Other sources');
   expect(riku.text).toContain('Riku Special Portal');
   expect(riku.text).not.toContain('Sora Special Portal');
   await panel(page, 'Materials');
@@ -363,7 +376,7 @@ test('DDD filters character-specific sources without losing shared Dream Piece t
   await page.getByRole('button', {name:'Tools',exact:true}).click();
   await page.getByRole('combobox', { name: 'Filter by character', exact: true }).selectOption('Sora');
   await page.keyboard.press('Escape');
-  const sora = await routeSnapshot(page);
+  const sora = await routeSnapshot(page, 'Other sources');
   expect(sora.text).toContain('Sora Special Portal');
   expect(sora.text).not.toContain('Riku Special Portal');
 });
@@ -472,6 +485,7 @@ for (const plan of plans.filter(plan => plan.game !== 'kh3')) {
       await panel(page, 'Materials');
       await fixedBounds(page);
       await panel(page, 'World route');
+      await selectSourceTab(page, plan.sourceTab ?? 'Enemy drops');
       await fixedBounds(page);
       expect((await page.locator('.farming-itinerary .kh1-note-window').boundingBox())!.height).toBeGreaterThan(50);
       await visibleSource(page);
@@ -562,6 +576,9 @@ test('KH1 compact farming edits, remove and Undo preserve saved inventory and ro
   await expect(row).toHaveCount(0);
   await expect(page.locator('.farming-material-row input').first()).toBeFocused();
   expect(await savedStock(page, plan.game, material.id)).toBe(9999);
+  // Presentation-only tab changes must not replace the removal in the Undo history.
+  await routeSnapshot(page, 'Other sources');
+  await routeSnapshot(page, 'Enemy drops');
   await page.getByRole('button', { name: 'Tools', exact: true }).click();
   await page.getByRole('button', { name: 'Undo', exact: true }).click();
   await page.keyboard.press('Escape');
@@ -574,3 +591,223 @@ test('KH1 compact farming edits, remove and Undo preserve saved inventory and ro
   await edit(owned, '0');
   expect((await routeSnapshot(page)).text).toContain(material.name);
 });
+
+// Each game uses real catalog sources on both sides of the partition. A source's
+// notes may mention another acquisition method; its summary determines this check.
+const sourceTabPlans = plans.map(plan => {
+  if (plan.game === 'dddhd') return { ...plan, materials: [
+    { id: 'dddhd:materials:intrepid-figment', name: 'Intrepid Figment', source: 'Hebby Repp (Nightmare)', rate: '12%' },
+    ...plan.materials,
+  ] };
+  if (plan.game === 'kh3') return { ...plan, materials: [
+    { id: 'kh3.material.frost-shard', name: 'Frost Shard', source: 'Winterhorn', rate: '16%' },
+    ...plan.materials,
+  ] };
+  return plan;
+});
+const categorySources: Record<string, { enemy: RegExp; other: RegExp }> = {
+  kh1fm: { enemy: /· Red Nocturne/, other: /· Bambi gauge reward/ },
+  kh2fm: { enemy: /· Shadow/, other: /· Chest/ },
+  bbsfm: { enemy: /· Spiderchest/, other: /· Medal shop/ },
+  dddhd: { enemy: /· Hebby Repp \(Nightmare\)/, other: /· Riku Special Portal 6/ },
+  kh3: { enemy: /· Winterhorn/, other: /· Moogle Shop/ },
+};
+const savedCheckIds: Record<string, string> = {
+  kh1fm: 'kh1fm-treasure-destiny-islands-cove-protect-chain-09',
+  kh2fm: 'kh2fm.treasure.twilight-town.01',
+  bbsfm: 'bbsfm:terra:land-of-departure:treasure:1',
+  dddhd: 'dddhd:treasure:sora:traverse-town:001',
+  kh3: 'kh3.base.olympus.chest.001',
+};
+
+async function savedProgress(page: Page, game: string) {
+  return page.evaluate(async game => {
+    const request = indexedDB.open(game === 'kh1fm' ? 'ars-arcanum-player' : 'ars-arcanum-guides', 1);
+    const db = await new Promise<IDBDatabase>((resolve, reject) => {
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+    });
+    const get = db.transaction('profiles').objectStore('profiles').get(game === 'kh1fm' ? 'kh1fm-current' : game);
+    const profile = await new Promise<any>((resolve, reject) => {
+      get.onsuccess = () => resolve(get.result);
+      get.onerror = () => reject(get.error);
+    });
+    db.close();
+    return game === 'kh1fm'
+      ? { checks: profile.state.checks, owned: profile.state.inventory, targets: profile.state.farmPlan }
+      : { checks: profile.checks, owned: profile.owned, targets: profile.targets };
+  }, game);
+}
+
+async function expectSelectedSourceTab(page: Page, selected: SourceTab) {
+  const route = page.locator('.farming-itinerary');
+  const tabs = route.getByRole('tablist', { name: 'Farming source types', exact: true });
+  await expect(tabs.getByRole('tab')).toHaveCount(2);
+  await expect(tabs.getByRole('tab')).toHaveText(['Enemy drops', 'Other sources']);
+  for (const name of ['Enemy drops', 'Other sources'] as const) {
+    const tab = tabs.getByRole('tab', { name, exact: true });
+    await expect(tab).toHaveAttribute('aria-selected', String(name === selected));
+    await expect(tab).toHaveAttribute('tabindex', name === selected ? '0' : '-1');
+  }
+  const tab = tabs.getByRole('tab', { name: selected, exact: true });
+  const selectedPanel = route.getByRole('tabpanel', { name: selected, exact: true });
+  await expect(route.getByRole('tabpanel')).toHaveCount(1);
+  await expect(selectedPanel).toBeVisible();
+  await expect(selectedPanel).toHaveAttribute('id', (await tab.getAttribute('aria-controls'))!);
+  await expect(selectedPanel).toHaveAttribute('aria-labelledby', (await tab.getAttribute('id'))!);
+}
+
+for (const plan of sourceTabPlans) {
+  test(`${plan.game} source tabs partition real routes and preserve independent disclosures`, async ({ page }) => {
+    await seed(page, plan, undefined, { [plan.materials[0].id]: 1 }, { [savedCheckIds[plan.game]]: true });
+    await panel(page, 'World route');
+    await expectSelectedSourceTab(page, 'Enemy drops');
+    const before = await savedProgress(page, plan.game);
+    const url = page.url();
+    const snapshots = new Map<SourceTab, Awaited<ReturnType<typeof routeSnapshot>>>();
+    const opened = new Map<SourceTab, string>();
+    for (const [name, kind] of [['Enemy drops', 'enemy'], ['Other sources', 'other']] as const) {
+      const snapshot = await routeSnapshot(page, name);
+      snapshots.set(name, snapshot);
+      expect(snapshot.ids.length).toBeGreaterThan(0);
+      const route = page.getByRole('tabpanel', { name, exact: true });
+      await expect(route.locator(`.farming-source:not([data-source-kind="${kind}"])`)).toHaveCount(0);
+      expect(await route.locator('.farming-source-summary').filter({ hasText: categorySources[plan.game][kind] }).count()).toBeGreaterThan(0);
+      await expect(route.locator('.farming-source-summary').filter({ hasText: categorySources[plan.game][kind === 'enemy' ? 'other' : 'enemy'] })).toHaveCount(0);
+      const source = await visibleSource(page);
+      opened.set(name, (await source.getAttribute('data-source-id'))!);
+      const summary = source.locator('.farming-source-summary');
+      await summary.click();
+      await expect(summary).toHaveAttribute('aria-expanded', 'true');
+      await expect(source.locator('.farming-source-notes')).toContainText('Source option for');
+      expect(await source.locator('.farming-citations a[href^="https://"]').count()).toBeGreaterThan(0);
+    }
+    const enemyIds = snapshots.get('Enemy drops')!.ids;
+    const otherIds = snapshots.get('Other sources')!.ids;
+    expect(enemyIds.filter(id => otherIds.includes(id))).toEqual([]);
+    for (const name of ['Enemy drops', 'Other sources', 'Enemy drops'] as const) {
+      await selectSourceTab(page, name);
+      await expectSelectedSourceTab(page, name);
+      const source = page.locator(`.farming-source[data-source-id=${JSON.stringify(opened.get(name))}]`);
+      await expect(source.locator('.farming-source-summary')).toHaveAttribute('aria-expanded', 'true');
+      await expect(source.locator('.farming-source-notes')).toContainText('Source option for');
+      await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeDisabled();
+    }
+    expect(page.url()).toBe(url);
+    expect(await savedProgress(page, plan.game)).toEqual(before);
+  });
+
+  test(`${plan.game} both source tabs recompute remaining targets without changing saved checks`, async ({ page }) => {
+    const material = plan.materials[0];
+    const checks = { [savedCheckIds[plan.game]]: true };
+    await seed(page, plan, undefined, { [material.id]: 2 }, checks);
+    const row = await revealMaterial(page, material);
+    const owned = row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true });
+    const target = row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true });
+    for (const name of ['Enemy drops', 'Other sources'] as const) {
+      await routeSnapshot(page, name);
+      expect(await page.locator(`.farming-source[data-material-id="${material.id}"]`).count()).toBeGreaterThan(0);
+    }
+    await revealMaterial(page, material);
+    await edit(owned, '5');
+    for (const name of ['Enemy drops', 'Other sources'] as const) {
+      await routeSnapshot(page, name);
+      await expect(page.locator(`.farming-source[data-material-id="${material.id}"]`)).toHaveCount(0);
+      await expect(page.getByRole('tabpanel', { name, exact: true })).toContainText('already met');
+    }
+    await revealMaterial(page, material);
+    await edit(target, '6');
+    for (const name of ['Enemy drops', 'Other sources'] as const) {
+      await routeSnapshot(page, name);
+      expect(await page.locator(`.farming-source[data-material-id="${material.id}"]`).count()).toBeGreaterThan(0);
+    }
+    await page.reload();
+    await revealMaterial(page, material);
+    await expect(owned).toHaveValue('5');
+    await expect(target).toHaveValue('6');
+    expect((await savedProgress(page, plan.game)).checks).toEqual(checks);
+  });
+}
+
+test('source tabs automatically activate with arrows, Home and End and reset route paging', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await seed(page, plans[0]);
+  await panel(page, 'World route');
+  const route = page.locator('.farming-itinerary');
+  await route.getByRole('tab', { name: 'Enemy drops', exact: true }).focus();
+  for (const [key, name] of [
+    ['ArrowRight', 'Other sources'], ['ArrowRight', 'Enemy drops'],
+    ['ArrowLeft', 'Other sources'], ['Home', 'Enemy drops'], ['End', 'Other sources'],
+  ] as const) {
+    await page.keyboard.press(key);
+    await expectSelectedSourceTab(page, name);
+    await expect(route.getByRole('tab', { name, exact: true })).toBeFocused();
+  }
+  for (const name of ['Other sources', 'Enemy drops'] as const) {
+    await selectSourceTab(page, name);
+    const source = await visibleSource(page);
+    const summary = source.locator('.farming-source-summary');
+    await summary.click();
+    await expect(summary).toHaveAttribute('aria-expanded', 'true');
+    await expect(page.getByRole('button', { name: 'Next route page', exact: true })).toBeEnabled();
+    await page.getByRole('button', { name: 'Next route page', exact: true }).click();
+    await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeEnabled();
+    await selectSourceTab(page, name === 'Enemy drops' ? 'Other sources' : 'Enemy drops');
+    await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeDisabled();
+    await selectSourceTab(page, name);
+    await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeDisabled();
+    await expect(summary).toHaveAttribute('aria-expanded', 'true');
+  }
+});
+
+test('portal-only materials explain an empty Enemy tab and retain Other sources', async ({ page }) => {
+  await seed(page, plans[3]);
+  await panel(page, 'World route');
+  await expectSelectedSourceTab(page, 'Enemy drops');
+  await expect(page.getByRole('tabpanel', { name: 'Enemy drops', exact: true }).locator('.farming-empty')).toContainText('No enemy drops');
+  await expect(page.locator('.farming-source')).toHaveCount(0);
+  const other = await routeSnapshot(page, 'Other sources');
+  expect(other.text).toContain('Riku Special Portal 6');
+  expect(other.text).toContain('Sora Special Portal 6');
+  await selectSourceTab(page, 'Enemy drops');
+  await expect(page.locator('.farming-source')).toHaveCount(0);
+  expect(await savedStock(page, plans[3].game, plans[3].materials[0].id, 'targets')).toBe(5);
+});
+
+test('enemy-only materials explain an empty Other tab without hiding the enemy route', async ({ page }) => {
+  const plan = { ...plans[0], materials: [{ id: 'kh1fm-material-bright-crystal', name: 'Bright Crystal', source: 'Defender', rate: '2%' }] };
+  await seed(page, plan);
+  expect((await routeSnapshot(page)).text).toContain('Defender');
+  await selectSourceTab(page, 'Other sources');
+  await expect(page.getByRole('tabpanel', { name: 'Other sources', exact: true }).locator('.farming-empty')).toContainText('No other sources');
+  await expect(page.locator('.farming-source')).toHaveCount(0);
+  await selectSourceTab(page, 'Enemy drops');
+  await expect(page.locator('.farming-source-summary')).toContainText(['Defender', 'Defender']);
+});
+
+for (const plan of sourceTabPlans) {
+  test(`${plan.game} source tabs and both route panels fit narrow and landscape leaves`, async ({ page }) => {
+    await seed(page, plan);
+    for (const size of [{ width: 320, height: 568 }, { width: 390, height: 844 }, { width: 844, height: 390 }, { width: 640, height: 360 }]) {
+      await page.setViewportSize(size);
+      await panel(page, 'World route');
+      for (const name of ['Enemy drops', 'Other sources'] as const) {
+        await selectSourceTab(page, name);
+        await expectSelectedSourceTab(page, name);
+        await page.evaluate(() => document.fonts.ready);
+        const tabs = page.getByRole('tablist', { name: 'Farming source types', exact: true });
+        for (const tab of await tabs.getByRole('tab').all()) {
+          const box = (await tab.boundingBox())!;
+          expect(box.x).toBeGreaterThanOrEqual(0);
+          expect(box.y).toBeGreaterThanOrEqual(0);
+          expect(box.x + box.width).toBeLessThanOrEqual(size.width + 1);
+          expect(box.y + box.height).toBeLessThanOrEqual(size.height + 1);
+        }
+        expect((await page.locator('.farming-itinerary .kh1-note-window').boundingBox())!.height).toBeGreaterThan(50);
+        await visibleSource(page);
+        if (plan.game !== 'kh3') await fixedBounds(page);
+        else expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      }
+    }
+  });
+}
