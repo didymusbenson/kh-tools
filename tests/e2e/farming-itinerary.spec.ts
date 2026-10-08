@@ -119,14 +119,18 @@ async function savedStock(page: Page, game: string, id: string, field: 'owned' |
 }
 
 async function visibleSource(page: Page) {
-  const index = await page.locator('.farming-itinerary').evaluate(route => {
-    const window = route.querySelector('.kh1-note-window')!.getBoundingClientRect();
-    return [...route.querySelectorAll<HTMLElement>('.farming-source-summary')].findIndex(button => {
-      const box = button.getBoundingClientRect();
-      return box.left >= window.left - 1 && box.right <= window.right + 1 && box.top >= window.top - 1 && box.bottom <= window.bottom + 1;
+  let index = -1;
+  // Font/viewport and tab changes remeasure columns on the next animation frame.
+  await expect.poll(async () => {
+    index = await page.locator('.farming-itinerary').evaluate(route => {
+      const window = route.querySelector('.kh1-note-window')!.getBoundingClientRect();
+      return [...route.querySelectorAll<HTMLElement>('.farming-source-summary')].findIndex(button => {
+        const box = button.getBoundingClientRect();
+        return box.left >= window.left - 1 && box.right <= window.right + 1 && box.top >= window.top - 1 && box.bottom <= window.bottom + 1;
+      });
     });
-  });
-  expect(index).toBeGreaterThanOrEqual(0);
+    return index;
+  }).toBeGreaterThanOrEqual(0);
   return page.locator('.farming-source').nth(index);
 }
 
@@ -778,13 +782,13 @@ test('enemy-only materials explain an empty Other tab without hiding the enemy r
   await expect(page.getByRole('tabpanel', { name: 'Other sources', exact: true }).locator('.farming-empty')).toContainText('No other sources');
   await expect(page.locator('.farming-source')).toHaveCount(0);
   await selectSourceTab(page, 'Enemy drops');
-  await expect(page.locator('.farming-source-summary')).toContainText('Defender');
+  await expect(page.locator('.farming-source-summary')).toContainText(['Defender', 'Defender']);
 });
 
 for (const plan of sourceTabPlans) {
   test(`${plan.game} source tabs and both route panels fit narrow and landscape leaves`, async ({ page }) => {
     await seed(page, plan);
-    for (const size of [{ width: 320, height: 568 }, { width: 390, height: 844 }, { width: 844, height: 390 }]) {
+    for (const size of [{ width: 320, height: 568 }, { width: 390, height: 844 }, { width: 844, height: 390 }, { width: 640, height: 360 }]) {
       await page.setViewportSize(size);
       await panel(page, 'World route');
       for (const name of ['Enemy drops', 'Other sources'] as const) {

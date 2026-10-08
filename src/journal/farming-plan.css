@@ -50,3 +50,9 @@
 .farming-source-tabs [role=tab]:focus-visible,.farming-source-panel:focus-visible{outline:2px solid currentColor;outline-offset:-2px}
 .farming-source-panel{display:flex;flex-direction:column;flex:1;min-width:0;min-height:0}
 .farming-source-panel[hidden]{display:none}
+/* The leaf control names short landscape panels; keep help available to screen readers. */
+@media(max-height:500px){
+ .farming-source-tabs{margin-bottom:4px}
+ .farming-itinerary>h2,.farming-itinerary>.farming-route-help{position:absolute;width:1px;height:1px;padding:0;margin:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .farming-source-summary{padding:4px 0}
+}
