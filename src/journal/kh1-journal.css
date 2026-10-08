@@ -280,3 +280,17 @@
 .kh1-farming-index .farming-material-row-compact .farming-quantity input::-webkit-inner-spin-button,.kh1-farming-index .farming-material-row-compact .farming-quantity input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 .kh1-farming-index .farming-material-row-compact .farming-row-errors{grid-column:1/-1}
 @media(max-width:380px){.kh1-farming-index{--farm-quantity-width:48px;--farm-column-gap:3px}}
+
+/* Reports and puppies share a world heading instead of repeating a world on
+   every row. The measured slots reserve a heading alongside at least one row. */
+.kh1-world-index{position:relative;overflow-y:auto;overscroll-behavior:contain}
+.kh1-world-group{flex:none;min-width:0}
+.kh1-world-group h2{font:16px/1.25 KH1Menu;color:#46674d;margin:0;min-height:32px;padding:7px 3px 5px}
+.kh1-world-index .kh1-index-row{min-height:44px;gap:4px}
+.kh1-world-index .kh1-index-row>a,.kh1-world-measure .kh1-world-row-label{min-width:0;padding:5px 3px;font:21px/1.2 KH1Hand}
+.kh1-world-row-label{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.kh1-world-row-label>span{flex:none}
+.kh1-world-index .kh1-index-row small{font:13px/1.2 KH1Menu;margin:0;color:#64736a;overflow-wrap:anywhere}
+.kh1-world-index .kh1-index-row input{margin:8px 11px}
+.kh1-world-measure{position:absolute;inset:0 0 auto;height:0;overflow:hidden;visibility:hidden;pointer-events:none}
+.kh1-world-measure-check{width:22px;flex:none;margin:8px 11px}
