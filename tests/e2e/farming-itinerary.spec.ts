@@ -218,6 +218,8 @@ for (const plan of plans) {
     await summary.click();
     await expect(source.locator('.farming-source-summary')).toHaveAttribute('aria-expanded', 'true');
     expect(page.url()).toBe(url);
+    await expect(source.getByRole('button')).toHaveCount(1);
+    await expect(source.locator('.farming-source-notes')).toHaveCount(1);
     await summary.click();
     await expect(source.locator('.farming-source-summary')).toHaveAttribute('aria-expanded', 'false');
     await expect(summary).toBeFocused();
@@ -299,7 +301,7 @@ for (const plan of plans) {
  });
 }
 
-test('long source details turn pages and collapse back to the original keyboard focus', async ({ page }) => {
+test('long source details keep citations and page back to the name for keyboard collapse', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await seed(page, plans[0]);
   await panel(page, 'World route');
@@ -308,9 +310,11 @@ test('long source details turn pages and collapse back to the original keyboard 
   await summary.focus();
   await page.keyboard.press('Enter');
   await expect(summary).toHaveAttribute('aria-expanded', 'true');
-  const collapse = source.getByRole('button', { name: /^Collapse .* source$/ });
+  await expect(source.getByRole('button')).toHaveCount(1);
+  const citation = source.locator('.farming-citations a').last();
+  await expect(citation).toHaveAttribute('href', /^https?:/);
   let turns = 0;
-  while (!await collapse.evaluate(button => {
+  while (!await citation.evaluate(button => {
     const box = button.getBoundingClientRect(), window = button.closest('.kh1-note-window')!.getBoundingClientRect();
     return box.left >= window.left - 1 && box.right <= window.right + 1 && box.top >= window.top - 1 && box.bottom <= window.bottom + 1;
   })) {
@@ -318,11 +322,21 @@ test('long source details turn pages and collapse back to the original keyboard 
     expect(++turns).toBeLessThan(30);
   }
   expect(turns).toBeGreaterThan(0);
-  await collapse.click();
+  await expect(citation).toBeVisible();
+  const previous = page.getByRole('button', { name: 'Previous route page', exact: true });
+  while (await previous.isEnabled()) await previous.click();
+  await summary.focus();
+  await page.keyboard.press('Space');
   await expect(summary).toHaveAttribute('aria-expanded', 'false');
   await expect(summary).toBeFocused();
   expect(page.url()).toBe(url);
   await visibleSource(page);
+  await page.keyboard.press('Space');
+  await expect(summary).toHaveAttribute('aria-expanded', 'true');
+  await page.keyboard.press('Enter');
+  await expect(summary).toHaveAttribute('aria-expanded', 'false');
+  await expect(summary).toBeFocused();
+  await expect(source.locator('.farming-source-notes')).toHaveCount(0);
 });
 
 test('search narrows material rows while the world route explicitly retains the full plan', async ({ page }) => {
