@@ -29,3 +29,13 @@ conditional enemy sources, shared five-game browser behavior, keyboard switching
 disclosure restoration, empty categories, stock edits and reload, saved checks,
 Undo and compact desktop/phone layouts. Exact final run counts are recorded in
 the pull request and task handoff.
+
+## Source disclosure cleanup
+
+Expanded source notes end with their existing citations, without a duplicate
+Collapse button. Tap the material/source name again to close its notes. The
+same native button retains Enter/Space activation, `aria-expanded`, and focus;
+long notes still paginate, and returning to the name permits collapse. This
+shared change applies to all five farming-plan journals above. Regression
+coverage retains click toggling across games and checks keyboard toggling,
+focus, citations and return pagination without a separate footer control.

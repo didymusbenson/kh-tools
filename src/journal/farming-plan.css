@@ -34,7 +34,6 @@
 .farming-itinerary .farming-source-notes p{font:inherit;font-size:15px;line-height:1.45;margin:0 0 10px;orphans:2;widows:2;break-inside:auto}
 .farming-itinerary .farming-source-notes .farming-option-note,.farming-itinerary .farming-citations{font-size:12px}
 .farming-citations a{text-decoration:underline;text-underline-offset:2px}
-.farming-collapse{background:none;border:1px solid currentColor;color:inherit;min-height:44px;padding:5px 10px;font:inherit;font-size:13px;cursor:pointer;break-inside:avoid}
 .farming-itinerary .farming-stock-note,.farming-itinerary .farming-empty{font-size:14px;line-height:1.4;margin:12px 0}
 .farming-plan-help{font-size:12px;line-height:1.35;margin:5px 0 9px;flex:none}
 @media(max-width:650px){.farming-material-heading>strong{font-size:18px}.farming-quantity input{min-height:44px}.farming-counts{gap:7px}.farming-itinerary>.farming-route-help{font-size:12px;margin-bottom:10px}}
