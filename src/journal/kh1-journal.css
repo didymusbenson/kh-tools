@@ -264,3 +264,19 @@
  .kh1-trinity-filters label{font-size:0;gap:0}
  .kh1-trinity-filters select{height:34px;min-height:34px}
 }
+
+/* KH1 plan rows share one set of labels, with stock fields and remove kept
+   beside the material at every width. Other journals keep their existing rows. */
+.kh1-farming-index{--farm-quantity-width:58px;--farm-column-gap:6px}
+.kh1-farming-columns,.kh1-farming-index .farming-material-row-compact{display:grid;grid-template-columns:minmax(0,1fr) var(--farm-quantity-width) var(--farm-quantity-width) 44px;column-gap:var(--farm-column-gap);align-items:center}
+.kh1-farming-columns{flex:none;font:11px/1.3 KH1Menu;padding:2px 0 5px;border-bottom:1px solid #83939080}
+.kh1-farming-columns>span:not(:first-child){text-align:center}
+.kh1-farming-index .farming-material-row-compact{padding:4px 0;min-height:53px}
+.kh1-farming-index .farming-material-row-compact .farming-material-heading{min-height:0}
+.kh1-farming-index .farming-material-row-compact .farming-material-heading>strong{font-size:18px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kh1-farming-index .farming-material-row-compact .farming-counts{display:contents}
+.kh1-farming-index .farming-material-row-compact .farming-quantity>span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.kh1-farming-index .farming-material-row-compact .farming-quantity input{width:100%;height:44px;min-height:44px;font:16px/1.3 KH1Menu;font-variant-numeric:tabular-nums;text-align:center;padding:4px 2px;appearance:textfield}
+.kh1-farming-index .farming-material-row-compact .farming-quantity input::-webkit-inner-spin-button,.kh1-farming-index .farming-material-row-compact .farming-quantity input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.kh1-farming-index .farming-material-row-compact .farming-row-errors{grid-column:1/-1}
+@media(max-width:380px){.kh1-farming-index{--farm-quantity-width:48px;--farm-column-gap:3px}}

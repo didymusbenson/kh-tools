@@ -1,5 +1,20 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 import { editStock, expectJournalSaved, filterStockPlan, openStockWorkspace, revealStockNote, selectStockEntry, showStockLeaf } from "./stock-native-ui";
+
+async function expectBlazeRoute(page: Page, state: 'unknown' | 'pending' | 'met') {
+  await showStockLeaf(page, "World route");
+  const route = page.locator('.farming-itinerary');
+  const sources = route.locator('[data-material-id="kh1fm-material-blaze-shard"]');
+  if (state === 'met') {
+    await expect(sources).toHaveCount(0);
+    await expect(route).toContainText('already met');
+  } else {
+    expect(await sources.count()).toBeGreaterThan(0);
+    if (state === 'unknown') await expect(route).toContainText('unknown stock');
+    else await expect(route).not.toContainText('unknown stock');
+  }
+  await showStockLeaf(page, "Materials");
+}
 
 test("recipes add shared ingredients to targets without deducting owned stock", async ({ page }) => {
   await selectStockEntry(page, "materials", "Spirit Shard");
@@ -39,20 +54,22 @@ test("material farming targets keep unknown, partial and surplus stock separate 
   const target = row.getByRole("spinbutton", { name: "Target Blaze Shard", exact: true });
   const owned = row.getByRole("spinbutton", { name: "Owned Blaze Shard", exact: true });
   await expect(owned).toHaveValue("");
-  await expect(row.getByLabel("Blaze Shard: unknown remaining", { exact: true })).toBeVisible();
+  await expect(row.locator(".farming-remaining")).toHaveCount(0);
+  await expectBlazeRoute(page, "unknown");
   await editStock(target, "5");
   await editStock(owned, "2");
-  await expect(row.getByLabel("Blaze Shard: 3 remaining", { exact: true })).toBeVisible();
+  await expectBlazeRoute(page, "pending");
   await page.screenshot({ path: test.info().outputPath("farm-plan.png"), fullPage: true });
   await editStock(owned, "8");
   await expect(target).toHaveValue("5");
-  await expect(row.getByLabel("Blaze Shard: 0 remaining", { exact: true })).toBeVisible();
+  await expectBlazeRoute(page, "met");
   await page.reload();
   await expectJournalSaved(page);
   await expect(target).toHaveValue("5");
   await expect(owned).toHaveValue("8");
   await editStock(owned, "");
-  await expect(row.getByLabel("Blaze Shard: unknown remaining", { exact: true })).toBeVisible();
+  await expect(row.locator(".farming-remaining")).toHaveCount(0);
+  await expectBlazeRoute(page, "unknown");
 
   // Sources now have their own leaf within the same plan, rather than an inline row.
   const currentUrl = page.url();
