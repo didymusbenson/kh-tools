@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { buildGuideFarmingPlan, buildKh1FarmingPlan, SHARED_FARM_WORLD, UNSPECIFIED_FARM_WORLD } from '../src/games/farmingPlan';
+import { buildGuideFarmingPlan, buildKh1FarmingPlan, partitionFarmingSources, SHARED_FARM_WORLD, UNSPECIFIED_FARM_WORLD } from '../src/games/farmingPlan';
+import type { FarmingPlan } from '../src/games/farmingPlan';
 import type { GameGuide, CollectionEntry } from '../src/games/types';
 import type { GameData, GuideEntry } from '../src/domain/types';
 import kh2 from '../src/games/kh2fm';
@@ -257,5 +258,145 @@ describe('complete material catalogs', () => {
     expect(new Set(rows(plan).map(row => row.materialId)).size).toBe(34);
     expect(rows(plan).every(row => row.source && row.rate && row.sources.length)).toBe(true);
     expect(JSON.stringify(entries)).toBe(before);
+  });
+});
+
+describe('enemy and other source partitions', () => {
+  const allMaterialsPlan = (guide: GameGuide) => {
+    const entries = guide.entries.filter(entry => ['material', 'materials'].includes(entry.category));
+    return buildGuideFarmingPlan(guide, entries, {}, Object.fromEntries(entries.map(entry => [entry.id, 1])));
+  };
+  const kh1Entries = kh1.entries.filter(entry => entry.category === 'material');
+  const catalogs: { id: string; plan: FarmingPlan; enemyCount: number; otherCount: number; otherSources: string[] }[] = [
+    {
+      id: 'kh1fm',
+      plan: buildKh1FarmingPlan(kh1, kh1Entries, {}, Object.fromEntries(kh1Entries.map(entry => [entry.id, 1]))),
+      enemyCount: 54, otherCount: 69,
+      otherSources: ['Bambi gauge reward', 'Item Shop', 'Synthesis'],
+    },
+    {
+      id: 'kh2fm', plan: allMaterialsPlan(kh2), enemyCount: 172, otherCount: 167,
+      otherSources: ['Finite rewards', 'Synthesis'],
+    },
+    {
+      id: 'bbsfm', plan: allMaterialsPlan(bbs), enemyCount: 141, otherCount: 473,
+      otherSources: ['Medal shop', 'Command Shop', 'Command Board', 'Command melding'],
+    },
+    {
+      id: 'dddhd', plan: allMaterialsPlan(ddd), enemyCount: 343, otherCount: 263,
+      otherSources: ['Moogle Shop', 'Other acquisition',
+        'Sora Special Portal 1', 'Sora Special Portal 2', 'Sora Special Portal 3',
+        'Sora Special Portal 4', 'Sora Special Portal 5', 'Sora Special Portal 6',
+        'Riku Special Portal 1', 'Riku Special Portal 2', 'Riku Special Portal 3',
+        'Riku Special Portal 4', 'Riku Special Portal 5', 'Riku Special Portal 6'],
+    },
+    {
+      id: 'kh3', plan: allMaterialsPlan(kh3), enemyCount: 169, otherCount: 427,
+      otherSources: ['Ingredient pickup', 'Ingredient harvest route', 'Moogle Shop', 'Synthesis',
+        'Rocks', 'Blue rocks', 'Asteroids', 'Rewards', 'Other Methods', 'Other methods',
+        'Treasure Sphere β', 'Treasure Sphere γ', 'Treasure Sphere δ', 'Treasure Sphere ε',
+        'Treasure Sphere ζ', 'Treasure Sphere η', 'Treasure Sphere θ', 'Treasure Sphere ι'],
+    },
+  ];
+
+  it.each(catalogs)('classifies every $id catalog row, including all legacy non-enemy drops', ({ plan, enemyCount, otherCount, otherSources }) => {
+    // This expected catalog inventory is independent of the adapter metadata.
+    // All remaining source identities are enemy drops, including conditional ones.
+    const nonEnemySources = new Set(otherSources);
+    const allRows = rows(plan);
+    for (const row of allRows) {
+      const isChest = /^Chest(?: #\d+| \/ one-time reward)?$/.test(row.source);
+      expect(row.sourceKind, `${row.materialName}: ${row.source}`).toBe(isChest || nonEnemySources.has(row.source) ? 'other' : 'enemy');
+    }
+    expect(new Set(allRows.filter(row => row.sourceKind === 'other' && !row.source.startsWith('Chest')).map(row => row.source))).toEqual(nonEnemySources);
+    expect(allRows.filter(row => row.sourceKind === 'enemy')).toHaveLength(enemyCount);
+    expect(allRows.filter(row => row.sourceKind === 'other')).toHaveLength(otherCount);
+  });
+
+  it.each(catalogs)('partitions the entire $id catalog without losing, duplicating, reordering, or changing rows', ({ plan }) => {
+    const before = JSON.stringify(plan);
+    const originalRows = plan.groups.flatMap(group => group.rows);
+    const originalById = new Map(originalRows.map(row => [row.id, row]));
+    const partitions = (['enemy', 'other'] as const).map(kind => {
+      const groups = partitionFarmingSources(plan, kind);
+      expect(groups.every(group => group.rows.length > 0)).toBe(true);
+      expect(groups.map(group => group.world)).toEqual(plan.groups.filter(group => group.rows.some(row => row.sourceKind === kind)).map(group => group.world));
+      for (const group of groups) {
+        const original = plan.groups.find(candidate => candidate.world === group.world)!;
+        expect(group.rows).toEqual(original.rows.filter(row => row.sourceKind === kind));
+        for (const row of group.rows) expect(row).toBe(originalById.get(row.id));
+      }
+      return groups.flatMap(group => group.rows);
+    });
+    const combined = partitions.flat();
+    expect(combined).toHaveLength(originalRows.length);
+    expect(new Set(combined.map(row => row.id))).toEqual(new Set(originalRows.map(row => row.id)));
+    expect(new Set(combined.map(row => row.id)).size).toBe(combined.length);
+    expect(new Set(combined.map(row => row.materialId))).toEqual(new Set(originalRows.map(row => row.materialId)));
+    expect(JSON.stringify(plan)).toBe(before);
+  });
+
+  it('does not derive enemy classification from conditional rates, source wording, or portal locations', () => {
+    const entry: CollectionEntry = {
+      id: 'future-enemy', name: 'Future material', category: 'materials', summary: '',
+      drops: [{ enemy: 'Future Special Portal hunter', rate: 'Conditional reward', location: 'World A · Special Portal chamber', details: 'Available after visiting the shop.' }],
+    };
+    const plan = buildGuideFarmingPlan(fixture([entry]), [entry], {}, { [entry.id]: 2 });
+    expect(rows(plan)[0]).toMatchObject({ sourceKind: 'enemy', rate: 'Conditional reward', world: 'World A' });
+    expect(partitionFarmingSources(plan, 'other')).toEqual([]);
+    expect(plan).toMatchObject({ pendingCount: 1, unknownCount: 1, satisfiedCount: 0 });
+  });
+
+  it('keeps legacy classification scoped to the game, rather than applying a global label rule', () => {
+    const entry: CollectionEntry = { id: 'future', name: 'Future', category: 'materials', summary: '', drops: [{ enemy: 'Medal shop', rate: 'Unknown', location: 'World A' }] };
+    const plan = buildGuideFarmingPlan(fixture([entry]), [entry], {}, { future: 1 });
+    expect(rows(plan)[0].sourceKind).toBe('enemy');
+  });
+
+  it('preserves rare Nightmare drops as enemies even when the encounter is in a Special Portal', () => {
+    const plan = planFor(ddd, ['Dulcet Figment']);
+    const rare = rows(plan).filter(row => row.source === 'Necho Cat (Rare Nightmare)');
+    expect(rare).toHaveLength(1);
+    expect(rare[0]).toMatchObject({ sourceKind: 'enemy', world: 'La Cité des Cloches' });
+    expect(rare[0].location).toContain('Special Portal');
+    expect(partitionFarmingSources(plan, 'enemy').flatMap(group => group.rows)).toContainEqual(plan.groups.find(group => group.world === 'La Cité des Cloches')!.rows.find(row => row.id === rare[0].id));
+  });
+
+  it('retains the scoped DDD portal character and rate in Other sources', () => {
+    const plan = planFor(ddd, ['Brilliant Fantasy', 'Wild Fantasy'], { character: 'Riku' });
+    const other = partitionFarmingSources(plan, 'other').flatMap(group => group.rows);
+    expect(other.some(row => row.source === 'Riku Special Portal 6' && row.character === 'Riku' && row.rate === '100%')).toBe(true);
+    expect(other.some(row => row.source.startsWith('Sora Special Portal'))).toBe(false);
+    expect(partitionFarmingSources(plan, 'enemy').flatMap(group => group.rows).some(row => row.source.startsWith('Riku Special Portal'))).toBe(false);
+  });
+
+  it('places unverified sources and out-of-scope fallbacks in Other sources without inventing enemy drops', () => {
+    const entry: CollectionEntry = { id: 'future', name: 'Future', category: 'materials', summary: 'Source not verified' };
+    const plan = buildGuideFarmingPlan(fixture([entry]), [entry], {}, { future: 1 });
+    expect(rows(plan)[0]).toMatchObject({ sourceKind: 'other', rate: 'Unknown', world: UNSPECIFIED_FARM_WORLD });
+    expect(partitionFarmingSources(plan, 'enemy')).toEqual([]);
+
+    const portal = { ...entry, drops: [{ enemy: 'Riku Special Portal 1', rate: '33%', location: 'World A' }], sources: ['https://example.com/portal'] };
+    const scoped = buildGuideFarmingPlan({ ...fixture([portal]), id: 'dddhd' }, [portal], {}, { future: 1 }, { character: 'Sora' });
+    expect(rows(scoped)[0]).toMatchObject({ sourceKind: 'other', source: 'Source not documented for this scope', rate: 'Unknown', world: UNSPECIFIED_FARM_WORLD });
+    expect(scoped).toMatchObject({ pendingCount: 1, unknownCount: 1, satisfiedCount: 0 });
+    expect(partitionFarmingSources(scoped, 'other')[0].rows[0].sources).toEqual([{ label: 'portal', url: 'https://example.com/portal' }]);
+  });
+
+  it('retains target totals and empty states after world filtering, satisfaction, and repeated partitioning', () => {
+    const entries = ['Dark Shard', 'Bright Shard', 'Frost Gem'].map(name => material(kh2, name));
+    const targets = Object.fromEntries(entries.map(entry => [entry.id, 2]));
+    const plan = buildGuideFarmingPlan(kh2, entries, { [entries[1].id]: 2 }, targets, { world: 'Timeless River' });
+    const before = JSON.stringify(plan);
+    expect(plan).toMatchObject({ pendingCount: 2, unknownCount: 2, satisfiedCount: 1 });
+    expect(partitionFarmingSources(plan, 'enemy').map(group => group.world)).toEqual(['Timeless River']);
+    expect(partitionFarmingSources(plan, 'other')).toEqual([]);
+    expect(partitionFarmingSources(plan, 'enemy')).toEqual(partitionFarmingSources(plan, 'enemy'));
+    expect(JSON.stringify(plan)).toBe(before);
+
+    const satisfied = buildGuideFarmingPlan(kh2, entries, targets, targets);
+    expect(satisfied).toMatchObject({ pendingCount: 0, unknownCount: 0, satisfiedCount: 3 });
+    expect(partitionFarmingSources(satisfied, 'enemy')).toEqual([]);
+    expect(partitionFarmingSources(satisfied, 'other')).toEqual([]);
   });
 });

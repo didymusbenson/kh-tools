@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import type { buildGuideFarmingPlan } from '../games/farmingPlan';
+import { partitionFarmingSources, type buildGuideFarmingPlan } from '../games/farmingPlan';
 import { JournalNotePages } from './JournalNotePages';
 import './farming-plan.css';
 
@@ -55,24 +55,38 @@ export function FarmingMaterialRow({id, name, owned, target, ready, max=999999, 
 export function FarmingItinerary({plan, scopeLabel}: {plan:Plan; scopeLabel?:string}) {
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set());
   const instance = useId();
+  const [sourceKind, setSourceKind] = useState<'enemy' | 'other'>('enemy');
+  const tabs = [{kind: 'enemy', label: 'Enemy drops'}, {kind: 'other', label: 'Other sources'}] as const;
+  const groups = partitionFarmingSources(plan, sourceKind);
   function toggle(id:string) {setExpanded(old => {const next = new Set(old); next.has(id) ? next.delete(id) : next.add(id); return next;});}
   return <div className="farming-itinerary">
     <h2>World route</h2>
     <p className="farming-route-help">{scopeLabel ? `${scopeLabel}.` : 'All planned materials.'} Choose source options below; you don’t need every stop. Expand a line for its route.</p>
-    <JournalNotePages label="Route">
-      {plan.groups.map(group => <section className="farming-world" key={group.world} data-world={group.world} aria-label={group.world}>
+    <div className="farming-source-tabs" role="tablist" aria-label="Farming source types">
+      {tabs.map(({kind, label}, index) => <button key={kind} type="button" role="tab" id={`${instance}-${kind}-tab`} aria-controls={`${instance}-${kind}-panel`} aria-selected={sourceKind === kind} tabIndex={sourceKind === kind ? 0 : -1} onClick={() => setSourceKind(kind)} onKeyDown={event => {
+        const next = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : event.key === 'ArrowRight' ? (index + 1) % tabs.length : event.key === 'ArrowLeft' ? (index + tabs.length - 1) % tabs.length : undefined;
+        if (next === undefined) return;
+        event.preventDefault();
+        setSourceKind(tabs[next].kind);
+        document.getElementById(`${instance}-${tabs[next].kind}-tab`)?.focus();
+      }}>{label}</button>)}
+    </div>
+    {tabs.map(({kind}) => <div key={kind} className="farming-source-panel" role="tabpanel" id={`${instance}-${kind}-panel`} aria-labelledby={`${instance}-${kind}-tab`} hidden={sourceKind !== kind} tabIndex={0}>
+    {sourceKind === kind && <JournalNotePages label="Route">
+      {groups.map(group => <section className="farming-world" key={group.world} data-world={group.world} aria-label={group.world}>
         <h3>{group.world}</h3>
         {group.rows.map(row => {
           const open = expanded.has(row.id), controls = `${instance}-${encodeURIComponent(row.id)}`;
-          return <section className={`farming-source ${open ? 'farming-source-open' : ''}`} key={row.id} data-source-id={row.id} data-material-id={row.materialId}>
+          return <section className={`farming-source ${open ? 'farming-source-open' : ''}`} key={row.id} data-source-id={row.id} data-source-kind={row.sourceKind} data-material-id={row.materialId}>
             <button className="farming-source-summary" aria-expanded={open} id={`${controls}-toggle`} aria-controls={controls} onClick={() => toggle(row.id)}><span aria-hidden="true">{open ? '▾' : '▸'}</span><span><strong>{row.materialName}</strong><span> · {row.source}</span><small>{row.rate.length > 120 ? 'Conditional rate · see notes' : row.rate || 'Rate not recorded'}{row.character ? ` · ${row.character}` : ''}{row.alternative ? ' · option' : ''}</small></span></button>
             {open && <div id={controls} className="farming-source-notes"><p className="farming-option-note">Source option for {row.materialName}. Gather only the remaining amount.</p>{row.rate.length > 120 && <p><strong>Rate / reward:</strong> {row.rate}</p>}{row.location && <p><strong>Location:</strong> {row.location}</p>}{row.details.map((text,i) => <p key={i}>{text}</p>)}{row.sources.length > 0 && <p className="farming-citations">Sources: {row.sources.map((source,i) => <span key={source.url}>{i > 0 && ' · '}<a href={source.url} target="_blank" rel="noreferrer">{source.label}</a></span>)}</p>}<button className="farming-collapse" onClick={() => {toggle(row.id); requestAnimationFrame(() => document.getElementById(`${controls}-toggle`)?.focus());}}>Collapse {row.materialName} source</button></div>}
           </section>;
         })}
       </section>)}
-      {!plan.groups.length && <p className="farming-empty">{plan.satisfiedCount > 0 && plan.pendingCount === 0 ? 'All planned stock targets are met. No farming stops needed.' : plan.pendingCount > 0 ? 'No source options match this scope. Check the material notes or choose another character or world.' : 'Add materials or recipe ingredients to start your route.'}</p>}
+      {!groups.length && <p className="farming-empty">{plan.groups.length > 0 ? `No ${sourceKind === 'enemy' ? 'enemy drops' : 'other sources'} for the remaining materials in this scope. Check ${sourceKind === 'enemy' ? 'Other sources' : 'Enemy drops'}.` : plan.satisfiedCount > 0 && plan.pendingCount === 0 ? 'All planned stock targets are met. No farming stops needed.' : plan.pendingCount > 0 ? 'No source options match this scope. Check the material notes or choose another character or world.' : 'Add materials or recipe ingredients to start your route.'}</p>}
       {plan.unknownCount > 0 && <p className="farming-stock-note">{plan.unknownCount} {plan.unknownCount === 1 ? 'material has' : 'materials have'} unknown stock. Source options stay in the route until you enter Owned.</p>}
       {plan.satisfiedCount > 0 && <p className="farming-stock-note">{plan.satisfiedCount} {plan.satisfiedCount === 1 ? 'target is' : 'targets are'} already met and omitted from the route.</p>}
-    </JournalNotePages>
+    </JournalNotePages>}
+    </div>)}
   </div>;
 }

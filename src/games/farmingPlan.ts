@@ -5,11 +5,13 @@ import crystalSources from './bbsfm/crystal-sources.json';
 export const UNSPECIFIED_FARM_WORLD = 'Location not specified';
 export const SHARED_FARM_WORLD = 'Shops & synthesis';
 export interface FarmingSource { label: string; url: string }
+export type FarmingSourceKind = 'enemy' | 'other';
 export interface FarmingPlanRow {
   id: string;
   materialId: string;
   materialName: string;
   source: string;
+  sourceKind: FarmingSourceKind;
   /** Literal source rate, including conditions; never an estimated yield. */
   rate: string;
   location?: string;
@@ -27,6 +29,12 @@ export interface FarmingPlan {
   unknownCount: number;
 }
 export interface FarmingPlanOptions { character?: string; world?: string }
+
+/** Partition the view only: preserve world order and the complete row metadata. */
+export function partitionFarmingSources(plan: FarmingPlan, kind: FarmingSourceKind): FarmingPlan['groups'] {
+  return plan.groups.map(group => ({ ...group, rows: group.rows.filter(row => row.sourceKind === kind) })).filter(group => group.rows.length > 0);
+}
+
 type Stock = Readonly<Record<string, number | undefined>>;
 type Option = Omit<FarmingPlanRow, 'id' | 'materialId' | 'materialName' | 'alternative'> & { world: string };
 type ExtraEntry = CollectionEntry & {
@@ -39,6 +47,22 @@ type ExtraEntry = CollectionEntry & {
   chestRouteIds?: string[];
   sphereRewards?: { sphereId: string; quantity: number }[];
   fieldFarmEvidence?: { source: string; edition: string };
+};
+
+// The legacy catalogs also store these non-enemy acquisitions in `drops`.
+// Classify their exact authored source identities at the adapter boundary, not
+// from display text, rate wording, or a location that happens to mention a portal.
+// All other `drops` records retain the catalog's ordinary enemy-drop contract.
+const legacyDropMetadata: Record<string, Record<string, { sourceKind: FarmingSourceKind; character?: string }>> = {
+  kh2fm: { 'Finite rewards': { sourceKind: 'other' } },
+  bbsfm: { 'Medal shop': { sourceKind: 'other' } },
+  dddhd: Object.fromEntries(['Sora', 'Riku'].flatMap(character =>
+    Array.from({ length: 6 }, (_, index) => [`${character} Special Portal ${index + 1}`, { sourceKind: 'other', character }] as const))),
+  kh3: {
+    Rocks: { sourceKind: 'other' },
+    'Blue rocks': { sourceKind: 'other' },
+    Asteroids: { sourceKind: 'other' },
+  },
 };
 
 const unique = (values: (string | undefined)[]) => [...new Set(values.filter((v): v is string => !!v?.trim()))];
@@ -105,7 +129,7 @@ function finishPlan<T extends { id: string; name: string; character?: string }>(
     const merged = new Map<string, Option>();
     const allChoices = makeOptions(entry);
     const choices = allChoices.filter(option => inScope(option.character, options.character));
-    if (!choices.length) choices.push({ world: UNSPECIFIED_FARM_WORLD, source: 'Source not documented for this scope', rate: 'Unknown', details: ['The documented character-specific sources do not establish availability in this scope.'], sources: citations(allChoices.flatMap(option => option.sources)), character: entry.character });
+    if (!choices.length) choices.push({ world: UNSPECIFIED_FARM_WORLD, source: 'Source not documented for this scope', sourceKind: 'other', rate: 'Unknown', details: ['The documented character-specific sources do not establish availability in this scope.'], sources: citations(allChoices.flatMap(option => option.sources)), character: entry.character });
     for (const option of choices) {
       const key = JSON.stringify([option.world, option.source, option.rate, option.character || '']);
       const previous = merged.get(key);
@@ -148,18 +172,19 @@ function guideOptions(guide: GameGuide, entry: ExtraEntry, selected?: string): O
     'kh3.material.hungry-gem': 'Frost Serpent (Tail)',
   };
   const fieldRoute = entry.fieldFarmEvidence && entry.instructions?.match(/Field route: ([^,]+), ([\s\S]*)$/);
-  const add = (source: string, rate: string, location?: string, extra: string[] = [], character = entry.character, refs = sources, fallback?: string) => {
-    for (const place of locations(location, worlds, fallback)) result.push({ ...place, source, rate: rate.trim() || 'Unknown', details: unique([...extra, ...details]), sources: refs, character });
+  const add = (sourceKind: FarmingSourceKind, source: string, rate: string, location?: string, extra: string[] = [], character = entry.character, refs = sources, fallback?: string) => {
+    for (const place of locations(location, worlds, fallback)) result.push({ ...place, sourceKind, source, rate: rate.trim() || 'Unknown', details: unique([...extra, ...details]), sources: refs, character });
   };
-  const shared = (source: string, rate: string, extra: string[]) => result.push({ world: SHARED_FARM_WORLD, source, rate, details: unique([...extra, ...details]), sources, character: entry.character });
+  const shared = (source: string, rate: string, extra: string[]) => result.push({ world: SHARED_FARM_WORLD, sourceKind: 'other', source, rate, details: unique([...extra, ...details]), sources, character: entry.character });
 
   for (const drop of entry.drops || []) {
-    const portalCharacter = guide.id === 'dddhd' ? drop.enemy.match(/^(Sora|Riku)\s+Special Portal\b/)?.[1] : undefined;
+    const metadata = legacyDropMetadata[guide.id]?.[drop.enemy];
+    const portalCharacter = metadata?.character;
     const matchingRoute = entry.farmRoutes?.find(route => route.enemy === drop.enemy && route.rate === drop.rate);
     const gate = matchingRoute && guide.entries.find(e => e.id === matchingRoute.gateId);
     const routeDetails = matchingRoute ? unique([matchingRoute.directions, matchingRoute.prerequisite, matchingRoute.evidenceBasis, gate?.instructions]) : [];
     const field = fieldRoute && fieldEnemies[entry.id] === drop.enemy && worlds.includes(fieldRoute[1]);
-    add(drop.enemy || 'Acquisition source', drop.rate, field ? `${fieldRoute[1]} · ${fieldRoute[2]}` : drop.location, unique([
+    add(metadata?.sourceKind || 'enemy', drop.enemy || 'Acquisition source', drop.rate, field ? `${fieldRoute[1]} · ${fieldRoute[2]}` : drop.location, unique([
       field ? entry.fieldFarmEvidence?.edition : undefined,
       drop.details, ...routeDetails,
       // An entry's conditions are retained even when they qualify a nonnumeric rate.
@@ -172,13 +197,13 @@ function guideOptions(guide: GameGuide, entry: ExtraEntry, selected?: string): O
   for (const route of entry.farmRoutes || []) {
     if (entry.drops?.some(drop => drop.enemy === route.enemy && drop.rate === route.rate && locations(drop.location, worlds).some(place => place.world === route.world))) continue;
     const gate = guide.entries.find(e => e.id === route.gateId);
-    add(route.enemy, route.rate, `${route.world} · ${gate?.name || route.gateId.split('.').at(-1)}`, unique([route.directions, route.prerequisite, route.evidenceBasis, gate?.instructions]));
+    add('enemy', route.enemy, route.rate, `${route.world} · ${gate?.name || route.gateId.split('.').at(-1)}`, unique([route.directions, route.prerequisite, route.evidenceBasis, gate?.instructions]));
   }
-  for (const pickup of entry.pickupSources || []) add('Ingredient pickup', pickup.appearance ? `Node appearance: ${pickup.appearance}` : 'Unknown yield', `${pickup.world} · ${pickup.area}`, unique([
+  for (const pickup of entry.pickupSources || []) add('other', 'Ingredient pickup', pickup.appearance ? `Node appearance: ${pickup.appearance}` : 'Unknown yield', `${pickup.world} · ${pickup.area}`, unique([
     pickup.object, pickup.alternativeYields && `Possible yields: ${pickup.alternativeYields}.`,
     pickup.quantity !== undefined ? `Listed quantity: ${pickup.quantity}; node appearance does not guarantee this material's yield.` : undefined,
   ]));
-  for (const route of entry.harvestRoutes || []) add('Ingredient harvest route', 'Unknown yield', `${route.world} · ${route.area}`, [route.directions], entry.character, citations([...sources, ...(route.source ? [route.source] : [])]));
+  for (const route of entry.harvestRoutes || []) add('other', 'Ingredient harvest route', 'Unknown yield', `${route.world} · ${route.area}`, [route.directions], entry.character, citations([...sources, ...(route.source ? [route.source] : [])]));
   if (entry.shopStock) shared('Moogle Shop', `${entry.shopStock.priceMunny} munny`, unique([entry.shopStock.unlock, entry.shopStock.editionEvidence]));
   else if (entry.shop) shared('Moogle Shop', `${entry.shop.price} munny`, entry.shop.unlock || []);
 
@@ -186,10 +211,10 @@ function guideOptions(guide: GameGuide, entry: ExtraEntry, selected?: string): O
   const chests = guide.entries.filter(e => ['treasures', 'remind-treasures'].includes(e.category) &&
     (e.reward === entry.name || e.name === entry.name || entry.chestRouteIds?.includes(e.id)) &&
     inScope(e.character, entry.character) && inScope(e.character, selected));
-  for (const chest of chests) add(`Chest${chest.order !== undefined ? ` #${chest.order}` : ''}`, 'One-time reward', [chest.world, chest.area].filter(Boolean).join(' · '), unique([chest.instructions, chest.prerequisites, chest.missability, chest.uncertainty]), chest.character || entry.character, citations([...sources, ...(chest.sources || [])]));
+  for (const chest of chests) add('other', `Chest${chest.order !== undefined ? ` #${chest.order}` : ''}`, 'One-time reward', [chest.world, chest.area].filter(Boolean).join(' · '), unique([chest.instructions, chest.prerequisites, chest.missability, chest.uncertainty]), chest.character || entry.character, citations([...sources, ...(chest.sources || [])]));
   for (const reward of entry.sphereRewards || []) {
     const sphere = guide.entries.find(e => e.id === reward.sphereId);
-    if (sphere) add(sphere.name, `One-time reward ×${reward.quantity}`, [sphere.world, sphere.area].filter(Boolean).join(' · '), unique([sphere.instructions, sphere.prerequisites]), entry.character, citations([...sources, ...(sphere.sources || [])]));
+    if (sphere) add('other', sphere.name, `One-time reward ×${reward.quantity}`, [sphere.world, sphere.area].filter(Boolean).join(' · '), unique([sphere.instructions, sphere.prerequisites]), entry.character, citations([...sources, ...(sphere.sources || [])]));
   }
   for (const recipe of guide.recipes || []) {
     if (recipe.name !== entry.name || !inScope(recipe.character, entry.character) || !inScope(recipe.character, selected)) continue;
@@ -205,11 +230,11 @@ function guideOptions(guide: GameGuide, entry: ExtraEntry, selected?: string): O
       // An explicitly ordinary Flood is the ordinary table; giant Flood is not.
       const exactSource = crystalSources.find(source => source.crystal === entry.name && source.enemy === route[2].replace(/^ordinary /, ''));
       const quotedRate = route[3].match(/Mandrake drops Abounding Crystal at (Shop Levels [\s\S]*?%)\)\./)?.[1]?.concat(')');
-      add(route[2], exactSource?.rate || quotedRate || (route[3].includes('%') ? 'Conditional; see source notes' : 'Unknown'), route[1], [route[3]]);
+      add('enemy', route[2], exactSource?.rate || quotedRate || (route[3].includes('%') ? 'Conditional; see source notes' : 'Unknown'), route[1], [route[3]]);
     }
     for (const source of crystalSources.filter(source => source.crystal === entry.name)) {
       const exampleLocations = source.locations.map(location => location.world).join(', ');
-      result.push({ world: UNSPECIFIED_FARM_WORLD, source: source.enemy, rate: source.rate, location: exampleLocations ? `World examples, character route unverified: ${exampleLocations}` : undefined,
+      result.push({ world: UNSPECIFIED_FARM_WORLD, source: source.enemy, sourceKind: 'enemy', rate: source.rate, location: exampleLocations ? `World examples, character route unverified: ${exampleLocations}` : undefined,
         details: unique([source.conditions, 'These enemy-table examples do not establish an accessible route for the selected character.', ...details]), sources: citations([...sources, source.source]), character: entry.character });
     }
     if (!entry.drops?.length && !shop && !chests.length) {
@@ -221,14 +246,14 @@ function guideOptions(guide: GameGuide, entry: ExtraEntry, selected?: string): O
     const shop = entry.instructions?.match(/Moogle Shop: ([^.]+\.)/)?.[1];
     if (shop) shared('Moogle Shop', shop.match(/^\d[\d,]* munny\b/)?.[0] || 'Conditional', [shop]);
     const other = entry.instructions?.match(/Other source: ([^.]+\.)/)?.[1];
-    if (other) add('Other acquisition', 'Conditional', undefined, [other]);
+    if (other) add('other', 'Other acquisition', 'Conditional', undefined, [other]);
   }
   // Keep unnormalized reward/source facts available without guessing their world.
   for (const acquisition of entry.acquisitionSources || []) {
     if (acquisition.method === 'Drops' || (acquisition.method === 'Treasures' && chests.length)) continue;
-    add(acquisition.method, 'Conditional', undefined, [acquisition.details]);
+    add('other', acquisition.method, 'Conditional', undefined, [acquisition.details]);
   }
-  if (!result.length) add('Acquisition source', /conditional|reward|synthesi[sz]|craft|shop/i.test(`${entry.summary} ${entry.instructions}`) ? 'Conditional' : 'Unknown', [entry.world, entry.area].filter(Boolean).join(' · '), unique([entry.summary, entry.instructions]));
+  if (!result.length) add('other', 'Acquisition source', /conditional|reward|synthesi[sz]|craft|shop/i.test(`${entry.summary} ${entry.instructions}`) ? 'Conditional' : 'Unknown', [entry.world, entry.area].filter(Boolean).join(' · '), unique([entry.summary, entry.instructions]));
   return result;
 }
 
@@ -241,24 +266,24 @@ function kh1Options(data: GameData, entry: GuideEntry): Option[] {
   const worlds = unique(data.entries.map(e => e.world)).filter(world => !/various|multiple|all worlds/i.test(world));
   const result: Option[] = [];
   const sources = citations(entry.sources);
-  const add = (source: string, rate: string, world = entry.world, area = entry.area, extra: string[] = [], refs = sources) => {
-    for (const place of locations([world, area].filter(Boolean).join(' · '), worlds)) result.push({ ...place, source, rate: rate || 'Unknown', details: unique([...extra, ...baseDetails(entry)]), sources: refs });
+  const add = (sourceKind: FarmingSourceKind, source: string, rate: string, world = entry.world, area = entry.area, extra: string[] = [], refs = sources) => {
+    for (const place of locations([world, area].filter(Boolean).join(' · '), worlds)) result.push({ ...place, sourceKind, source, rate: rate || 'Unknown', details: unique([...extra, ...baseDetails(entry)]), sources: refs });
   };
   const enemy = (name: string) => data.entries.find(e => e.category === 'enemy' && e.name === name);
   const rules = String(entry.facts?.['drop rules'] || entry.summary);
   const reward = entry.facts?.['reward rule'];
   const ordinaryDrops = [...rules.matchAll(/(?:^|; )([^:;\n]+): (\d+(?:\.\d+)?%)(?=[.;]|$)/g)];
   if (typeof entry.facts?.['source enemy'] === 'string') {
-    add(entry.facts['source enemy'], typeof reward === 'string' ? reward : 'Conditional', entry.world, entry.area, [entry.instructions]);
+    add('enemy', entry.facts['source enemy'], typeof reward === 'string' ? reward : 'Conditional', entry.world, entry.area, [entry.instructions]);
   } else if (ordinaryDrops.length) {
     for (const [, name, rate] of ordinaryDrops) {
       const record = enemy(name);
       if (name === 'Barrel Spider' && entry.id === 'kh1fm-material-mythril-shard') {
         // The shared legacy enemy.world incorrectly repeats the material's Agrabah.
-        for (const world of ['Monstro', 'Neverland']) add(name, rate, world, 'Hostile barrels', [entry.instructions], citations([...sources, ...(record?.sources || [])]));
+        for (const world of ['Monstro', 'Neverland']) add('enemy', name, rate, world, 'Hostile barrels', [entry.instructions], citations([...sources, ...(record?.sources || [])]));
       } else if (name === 'Arch Behemoth' && entry.id === 'kh1fm-material-mythril-shard') {
-        add(name, `${rate} (Final Dimension; unaffected by Lucky Strike)`, record?.world, 'Final Dimension', unique([record?.instructions, 'Encounter-specific reward; not a permanent post-clear farming route.']), citations([...sources, ...(record?.sources || [])]));
-      } else add(name, rate, entry.world, entry.area, [entry.instructions], citations([...sources, ...(record?.sources || [])]));
+        add('enemy', name, `${rate} (Final Dimension; unaffected by Lucky Strike)`, record?.world, 'Final Dimension', unique([record?.instructions, 'Encounter-specific reward; not a permanent post-clear farming route.']), citations([...sources, ...(record?.sources || [])]));
+      } else add('enemy', name, rate, entry.world, entry.area, [entry.instructions], citations([...sources, ...(record?.sources || [])]));
     }
   } else if (entry.id === 'kh1fm-material-mystery-goo') {
     for (const id of entry.relatedIds) {
@@ -266,11 +291,11 @@ function kh1Options(data: GameData, entry: GuideEntry): Option[] {
       if (!record) continue;
       // The enemy Worlds field includes special/cup contexts; do not promote its
       // entire range to an unconditional Mystery Goo farming itinerary.
-      add(record.name, 'Conditional reward', record.world || '', record.area || '', unique([record.instructions, ...Object.entries(record.facts || {}).filter(([key]) => /Mixed correct|identical correct|^\d+ hits|Combo-finisher/.test(key)).map(([key, value]) => `${key}: ${value}`)]), citations([...sources, ...record.sources]));
+      add('enemy', record.name, 'Conditional reward', record.world || '', record.area || '', unique([record.instructions, ...Object.entries(record.facts || {}).filter(([key]) => /Mixed correct|identical correct|^\d+ hits|Combo-finisher/.test(key)).map(([key, value]) => `${key}: ${value}`)]), citations([...sources, ...record.sources]));
     }
   } else {
     const source = entry.id === 'kh1fm-material-orichalcum' ? 'Item Shop' : ['kh1fm-material-mythril', 'kh1fm-material-dark-matter'].includes(entry.id) ? 'Synthesis' : 'Acquisition source';
-    add(source, source === 'Item Shop' ? '5,000 munny; after rescuing Kairi' : source === 'Synthesis' ? 'Recipe requirements' : /conditional/i.test(rules) ? 'Conditional' : 'Unknown', entry.world, entry.area, [rules, entry.instructions]);
+    add('other', source, source === 'Item Shop' ? '5,000 munny; after rescuing Kairi' : source === 'Synthesis' ? 'Recipe requirements' : /conditional/i.test(rules) ? 'Conditional' : 'Unknown', entry.world, entry.area, [rules, entry.instructions]);
   }
   // Exact enemy joins against authored repeatable-room routes. The route text
   // supplies story phase, ordinary/special encounter variants, and reset details.
@@ -289,12 +314,12 @@ function kh1Options(data: GameData, entry: GuideEntry): Option[] {
     const directions = record?.facts?.['Repeatable room route'];
     if (typeof directions !== 'string') continue;
     for (const source of [...result].filter(option => route.enemies.includes(option.source))) {
-      add(source.source, source.rate, route.world, route.area, unique([directions, ...source.details]), citations([...source.sources, ...(record?.sources || [])]));
+      add(source.sourceKind, source.source, source.rate, route.world, route.area, unique([directions, ...source.details]), citations([...source.sources, ...(record?.sources || [])]));
     }
   }
   if (entry.id === 'kh1fm-material-power-gem') {
     const battleship = enemy('Battleship');
-    if (battleship) add('Battleship', 'Component-specific; see source notes', entry.world, entry.area, unique([battleship.instructions, String(battleship.facts?.['Base rewards'] || '')]), citations([...sources, ...battleship.sources]));
+    if (battleship) add('enemy', 'Battleship', 'Component-specific; see source notes', entry.world, entry.area, unique([battleship.instructions, String(battleship.facts?.['Base rewards'] || '')]), citations([...sources, ...battleship.sources]));
   }
   // Bambi has material-specific reward checkpoints, rather than enemy kill rates.
   for (const record of data.entries.filter(e => e.id.startsWith('kh1fm-guide-bambi-rewards-') && e.relatedIds.includes(entry.id))) {
@@ -303,11 +328,11 @@ function kh1Options(data: GameData, entry: GuideEntry): Option[] {
       const reward = value.split('; ').find(part => part.startsWith(`${entry.name} `));
       return reward ? [`${reward.slice(entry.name.length + 1)} at ${checkpoint}`] : [];
     });
-    if (checkpointRates.length) add('Bambi gauge reward', checkpointRates.join('; '), record.world, '', [record.instructions], citations([...sources, ...record.sources]));
+    if (checkpointRates.length) add('other', 'Bambi gauge reward', checkpointRates.join('; '), record.world, '', [record.instructions], citations([...sources, ...record.sources]));
   }
-  if (entry.id === 'kh1fm-material-mythril-shard' && String(entry.facts?.['Repeatable room route']).includes('separate Mythril Shard drop is 20%')) add('Pot Scorpion', '20% (Mythril Shard roll)', 'Agrabah', 'Palace Gates', [String(entry.facts!['Repeatable room route'])]);
+  if (entry.id === 'kh1fm-material-mythril-shard' && String(entry.facts?.['Repeatable room route']).includes('separate Mythril Shard drop is 20%')) add('enemy', 'Pot Scorpion', '20% (Mythril Shard roll)', 'Agrabah', 'Palace Gates', [String(entry.facts!['Repeatable room route'])]);
   for (const chest of data.entries.filter(e => e.category === 'treasure' && e.reward === entry.name)) {
-    add('Chest / one-time reward', 'One-time reward', chest.world || '', chest.area || '', unique([chest.instructions, chest.prerequisites, chest.missability, chest.uncertainty]), citations([...sources, ...chest.sources]));
+    add('other', 'Chest / one-time reward', 'One-time reward', chest.world || '', chest.area || '', unique([chest.instructions, chest.prerequisites, chest.missability, chest.uncertainty]), citations([...sources, ...chest.sources]));
   }
   return result;
 }
