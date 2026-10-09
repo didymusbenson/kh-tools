@@ -58,6 +58,7 @@ for (const [game, guide, prefix] of [['kh2fm', kh2Guide, 'kh2'], ['dddhd', dddGu
       const indexLink = page.locator('.ddd-leaf-picker').getByRole('link', { name: 'Index', exact: true });
       if (await indexButton.isVisible()) await indexButton.click();
       else if (await indexLink.isVisible()) await indexLink.click();
+      else if (game === 'dddhd') await page.getByRole('navigation', { name: 'Report location', exact: true }).getByRole('link', { name: 'Spirit Creation', exact: true }).click();
       await expect(search).toHaveValue(family);
       await expect(headings).toHaveText([family]);
       await expect(index.getByRole('link', { name: selected.name, exact: true })).toBeVisible();
