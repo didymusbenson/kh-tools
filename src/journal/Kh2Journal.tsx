@@ -1,6 +1,6 @@
 import { JournalSaveStatus } from '../components/JournalSaveStatus';
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
-import { FarmingMaterialRow, FarmingItinerary } from './FarmingPlan';
+import { FarmingMaterialRow, FarmingItinerary, FarmingPlanColumns } from './FarmingPlan';
 import { buildGuideFarmingPlan } from '../games/farmingPlan';
 import {TreasureBoard} from './TreasureBoard';
 import {hasTreasureBoard} from '../games/treasureModel';
@@ -8,8 +8,9 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { CollectionEntry, CollectionRecipe, GameGuide } from '../games/types';
 import { addTargets, type GuideProfile } from '../games/profile';
 import { entryTitle } from '../domain/entryPresentation';
-import { inWorld, sortMaterials } from '../games/presentation';
+import { inWorld, materialFamily, sortMaterials } from '../games/presentation';
 import { JournalNotePages } from './JournalNotePages';
+import { groupMaterialFamilies, materialFamilyPages } from '../games/materialPages';
 import { useIndexCapacity } from './useIndexCapacity';
 import './kh2-journal.css';
 
@@ -43,6 +44,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   const params=new URLSearchParams(queryString);
   const workshop=section==='workshop';
   const tab=workshop&&['materials','plan'].includes(parts[2])?parts[2]:'recipes';
+  const inventoryMode=workshop&&tab==='materials';
   const requestedWorld=section==='worlds'&&parts[2]?decode(parts.slice(2).join('/')):params.get('world')||'';
   const world=workshop&&tab==='plan'?'':requestedWorld==='all'?'':requestedWorld;
   const worldData=guide.worlds.find(w=>w.name===world);
@@ -61,7 +63,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   const [leaf,setLeaf]=useState('left');
   const main=useRef<HTMLElement>(null);
   const selectedId=params.get('entry')||params.get('item');
-  const {ref:indexRef,capacity,anchorId,clearAnchor}=useIndexCapacity(`${section}:${tab}:${world}:${q}:${status}`,workshop&&tab==='plan'?116:44,false,route);
+  const {ref:indexRef,capacity,anchorId,clearAnchor}=useIndexCapacity(`${section}:${tab}:${world}:${q}:${status}`,workshop&&tab==='plan'?53:44,false,route,inventoryMode?'.kh2-index-row':undefined);
   const entries=guide.entries;
   const treasureMode=hasTreasureBoard(guide.id,route);
   const byId=new Map(entries.map(e=>[e.id,e]));
@@ -95,10 +97,13 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
     indexItems=matchingEntries.map(e=>({id:e.id,name:entryTitle(e),meta:workshop?'':world?e.area:[e.world,e.area].filter(Boolean).join(' · '),href:withParams({entry:e.id}),checkId:!workshop&&e.checkable!==false?e.id:undefined}));
   }
   const farmingPlan=buildGuideFarmingPlan(guide,materials,profile.owned,profile.targets);
-  const pages=Math.max(1,Math.ceil(indexItems.length/capacity));
+  const familyOf=(item:IndexItem)=>materialFamily(byId.get(item.id)!);
+  const familyPages=inventoryMode?materialFamilyPages(indexItems,capacity,familyOf):undefined;
+  const pages=familyPages?.length||Math.max(1,Math.ceil(indexItems.length/capacity));
   const selectedIndex=indexItems.findIndex(e=>e.id===((workshop&&tab==='plan'&&anchorId)||selectedId));
-  const page=Math.min(pages-1,Math.max(0,selectedIndex>=0?Math.floor(selectedIndex/capacity):Math.floor(Number(params.get('page')))||0));
-  const shown=indexItems.slice(page*capacity,(page+1)*capacity);
+  const selectedPage=selectedIndex<0?-1:familyPages?familyPages.findIndex(items=>items.some(item=>item.id===selectedId)):Math.floor(selectedIndex/capacity);
+  const page=Math.min(pages-1,Math.max(0,selectedPage>=0?selectedPage:Math.floor(Number(params.get('page')))||0));
+  const shown=familyPages?.[page]||indexItems.slice(page*capacity,(page+1)*capacity);
   const selected=shown.find(e=>e.id===selectedId)||shown[0];
   const record=selected?byId.get(selected.id):undefined;
   const recipe=workshop&&tab==='recipes'?matchingRecipes.find(r=>r.id===selected?.id):undefined;
@@ -122,6 +127,10 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
     return update(p=>{const values={...p[field]};if(value===undefined)delete values[id];else values[id]=value;return {...p,[field]:values};});
   }
   const currentBookmark=workshop?`Synthesis · ${{recipes:'Recipes',materials:'Materials',plan:'Farming Plan'}[tab]}`:title;
+  const indexRow=(item:IndexItem)=>workshop&&tab==='plan'?<FarmingMaterialRow compact key={item.id} id={item.id} name={item.name} owned={profile.owned[item.id]} target={profile.targets[item.id]||0} ready={ready} saveOwned={n=>saveQuantity('owned',item.id,n)} saveTarget={n=>saveQuantity('targets',item.id,n)} remove={()=>saveQuantity('targets',item.id,undefined)}/>:<div className="kh2-index-row" key={item.id}>
+            <a href={item.href} aria-current={(!cover&&!collection&&!worlds&&!progress&&selected?.id===item.id)?'true':undefined} onMouseEnter={()=>setHelp(item.meta||`Read ${item.name}.`)} onFocus={()=>setHelp(item.meta||`Read ${item.name}.`)}><span>{item.name}{item.meta&&<small>{item.meta}</small>}</span>{!item.checkId&&<span aria-hidden="true">›</span>}</a>
+            {item.checkId&&<input type="checkbox" aria-label={`${recipe?'Crafted':'Complete'} ${item.name}`} checked={!!profile.checks[item.checkId]} disabled={!ready} onChange={()=>toggle(item.checkId!)}/>}
+          </div>;
   const pageControls=<nav className="kh2-pagination" aria-label="Index pages" onClick={e=>{if((e.target as Element).closest('a[href]'))clearAnchor();}}><a aria-label="Previous index page" aria-disabled={page===0} tabIndex={page===0?-1:undefined} href={page===0?undefined:withParams({page:String(page-1),entry:'',item:''})}>◀</a><span>{page+1} / {pages}</span><a aria-label="Next index page" aria-disabled={page+1>=pages} tabIndex={page+1>=pages?-1:undefined} href={page+1>=pages?undefined:withParams({page:String(page+1),entry:'',item:''})}>▶</a></nav>;
   function worldArt() {
     return <div className={`kh2-world-picture ${worldPreview?.name==='Port Royal'?'':'kh2-world-emblem'}`}><img src={asset+(worldPreview?.name==='Port Royal'?'port-royal-world.png':'gold-crown.png')} alt={worldPreview?.name==='Port Royal'?'Port Royal':''}/>{worldPreview?.name!=='Port Royal'&&<span>{worldPreview?.name||'Jiminy’s Journal'}</span>}</div>;
@@ -145,10 +154,8 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
             {(!workshop||tab==='materials')&&<label>World<select value={world} onChange={e=>{location.hash=withParams({world:e.target.value,page:'',entry:''});}}><option value="">All worlds</option>{guide.worlds.map(w=><option key={w.name}>{w.name}</option>)}</select></label>}
             {(!workshop||tab==='recipes')&&<label>Show<select value={status} onChange={e=>{location.hash=withParams({status:e.target.value,page:'',entry:''});}}><option value="">All entries</option><option value="remaining">Remaining</option><option value="done">Completed</option></select></label>}
           </form>}
-          <nav ref={indexRef} className="kh2-index" aria-label={`${title} records`}>{shown.map(item=>workshop&&tab==='plan'?<FarmingMaterialRow key={item.id} id={item.id} name={item.name} owned={profile.owned[item.id]} target={profile.targets[item.id]||0} ready={ready} saveOwned={n=>saveQuantity('owned',item.id,n)} saveTarget={n=>saveQuantity('targets',item.id,n)} remove={()=>saveQuantity('targets',item.id,undefined)}/>:<div className="kh2-index-row" key={item.id}>
-            <a href={item.href} aria-current={(!cover&&!collection&&!worlds&&!progress&&selected?.id===item.id)?'true':undefined} onMouseEnter={()=>setHelp(item.meta||`Read ${item.name}.`)} onFocus={()=>setHelp(item.meta||`Read ${item.name}.`)}><span>{item.name}{item.meta&&<small>{item.meta}</small>}</span>{!item.checkId&&<span aria-hidden="true">›</span>}</a>
-            {item.checkId&&<input type="checkbox" aria-label={`${recipe?'Crafted':'Complete'} ${item.name}`} checked={!!profile.checks[item.checkId]} disabled={!ready} onChange={()=>toggle(item.checkId!)}/>}
-          </div>)}</nav>
+          {workshop&&tab==='plan'&&<FarmingPlanColumns/>}
+          <nav ref={indexRef} className={`kh2-index ${inventoryMode?'kh2-material-index':''}`} aria-label={`${title} records`}>{inventoryMode?groupMaterialFamilies(shown,familyOf).map(({family,items})=><section className="material-family" key={family} aria-label={`${family} materials`}><h3 className="kh2-material-family">{family}</h3>{items.map(indexRow)}</section>):shown.map(indexRow)}</nav>
           {!indexItems.length&&<p className="kh2-empty">{workshop&&tab==='plan'?(q?'No planned materials match this name.':'Add recipe ingredients or materials to begin your farming plan.'):section==='search'&&!q?'Search by name, world or location.':'No entries match this selection.'}</p>}
           {workshop&&tab==='plan'&&<p className="farming-plan-help">Target = total stock to have. Blank Owned = unknown. Changes save on leaving the field. Search filters this list only.</p>}
           {pageControls}

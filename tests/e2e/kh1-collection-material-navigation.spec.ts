@@ -55,6 +55,8 @@ for(const viewport of [{width:320,height:568},{width:390,height:844},{width:844,
   await page.getByRole('button',{name:'Tools',exact:true}).click();
   await page.getByRole('button',{name:'Undo',exact:true}).click();
   await expect(page.locator('.kh1-collection-count')).toHaveText('0 / 9 collection actions');
+  // The counter is optimistic; Undo announces completion after its IndexedDB transaction.
+  await expect(page.locator('.journal-footer-save')).toHaveAttribute('title','Last change undone.');
   await page.reload();
   await expect(page.locator('.kh1-collection-count')).toHaveText('0 / 9 collection actions');
   await page.goto('./#/kh1fm/synthesis/materials?q=Frost');

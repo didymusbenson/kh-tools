@@ -55,3 +55,20 @@
  .farming-itinerary>h2,.farming-itinerary>.farming-route-help{position:absolute;width:1px;height:1px;padding:0;margin:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
  .farming-source-summary{padding:4px 0}
 }
+
+/* Compact stock ledgers share the journal's own ink and typeface. The name can
+   wrap, including character context, without sacrificing 44px touch targets. */
+.farming-plan-columns,.farming-material-row-compact{display:grid;grid-template-columns:minmax(0,1fr) 64px 64px 44px;column-gap:6px;align-items:center}
+.farming-plan-columns{flex:none;font-size:11px;line-height:1.3;padding:2px 0 5px;border-bottom:1px solid currentColor}
+.farming-plan-columns>span:not(:first-child){text-align:center}
+.farming-material-row.farming-material-row-compact{padding:4px 0;min-height:53px}
+.farming-material-row-compact .farming-material-heading{min-height:0;display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.farming-material-row-compact .farming-material-heading>strong{font-size:16px;line-height:1.2;max-width:100%}
+.farming-material-row-compact .farming-material-heading>small{max-width:100%;font-size:10px}
+.farming-material-row-compact .farming-counts{display:contents}
+.farming-material-row-compact .farming-quantity>span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.farming-material-row-compact .farming-quantity input{width:100%;height:44px;min-height:44px;font-size:16px;line-height:1.3;font-variant-numeric:tabular-nums;text-align:center;padding:4px 2px;appearance:textfield}
+.farming-material-row-compact .farming-quantity input::-webkit-inner-spin-button,.farming-material-row-compact .farming-quantity input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.farming-material-row-compact .farming-remove{min-height:44px}
+.farming-material-row-compact .farming-row-errors{grid-column:1/-1}
+@media(max-width:380px){.farming-plan-columns,.farming-material-row-compact{grid-template-columns:minmax(0,1fr) 64px 64px 44px;column-gap:3px}}

@@ -1,5 +1,9 @@
 import { test, expect, type Page, type Locator } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import kh2Guide from '../../src/games/kh2fm';
+const bbsGuide = JSON.parse(readFileSync('src/games/bbsfm/content.json', 'utf8'));
+const dddGuide = JSON.parse(readFileSync('src/games/dddhd/content.json', 'utf8'));
+const kh3Guide = JSON.parse(readFileSync('src/games/kh3/content.json', 'utf8'));
 
 type Material = { id: string; name: string; source: string; rate: string };
 type SourceTab = 'Enemy drops' | 'Other sources';
@@ -195,10 +199,8 @@ for (const plan of plans) {
     for (const material of plan.materials) {
       const row = await revealMaterial(page, material);
       await expect(row).toBeVisible();
-      if (plan.game !== 'kh1fm') {
-        await expect(row).not.toHaveClass(/farming-material-row-compact/);
-        await expect(row.locator('.farming-remaining')).toBeVisible();
-      }
+      await expect(row).toHaveClass(/farming-material-row-compact/);
+      await expect(row.locator('.farming-remaining')).toHaveCount(0);
       await expect(row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true })).toHaveValue('');
       await expect(row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true })).toHaveValue('5');
     }
@@ -226,45 +228,40 @@ for (const plan of plans) {
   });
 }
 
-for (const plan of plans.filter(p => ['kh1fm', 'kh2fm'].includes(p.game))) {
+for (const plan of plans) {
   test(`${plan.game} preserves unknown, surplus and zero stock while updating the route`, async ({ page }) => {
     await seed(page, plan);
     const material = plan.materials[0], row = await revealMaterial(page, material);
     const owned = row.getByRole('spinbutton', { name: `Owned ${material.name}`, exact: true });
     const target = row.getByRole('spinbutton', { name: `Target ${material.name}`, exact: true });
-    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
-    else await expect(row.locator('.farming-remaining strong')).toHaveText('?');
+    await expect(row.locator('.farming-remaining')).toHaveCount(0);
     await edit(owned, '2');
-    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
-    else await expect(row.locator('.farming-remaining strong')).toHaveText('3');
-    expect((await routeSnapshot(page)).text).toContain(material.name);
+    await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    expect((await routeSnapshot(page, plan.sourceTab)).text).toContain(material.name);
     await panel(page, 'Materials');
     await edit(owned, '8');
-    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
-    else await expect(row.locator('.farming-remaining strong')).toHaveText('0');
+    await expect(row.locator('.farming-remaining')).toHaveCount(0);
     await expect(target).toHaveValue('5');
-    const met = await routeSnapshot(page);
+    const met = await routeSnapshot(page, plan.sourceTab);
     expect(met.text).not.toContain(material.name);
     expect(met.text).toContain('already met');
     await panel(page, 'Materials');
     await edit(owned, '0');
-    expect((await routeSnapshot(page)).text).toContain(material.name);
+    expect((await routeSnapshot(page, plan.sourceTab)).text).toContain(material.name);
     await panel(page, 'Materials');
-    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
-    else await expect(row.locator('.farming-remaining strong')).toHaveText('5');
+    await expect(row.locator('.farming-remaining')).toHaveCount(0);
     await page.reload();
     await expect(owned).toHaveValue('0');
     await edit(owned, '');
-    const unknown = await routeSnapshot(page);
+    const unknown = await routeSnapshot(page, plan.sourceTab);
     expect(unknown.text).toContain(material.name);
     expect(unknown.text).toContain('unknown stock');
     await panel(page, 'Materials');
-    if (plan.game === 'kh1fm') await expect(row.locator('.farming-remaining')).toHaveCount(0);
-    else await expect(row.locator('.farming-remaining strong')).toHaveText('?');
+    await expect(row.locator('.farming-remaining')).toHaveCount(0);
     await edit(owned, '3');
     await edit(target, '0');
     await expect(row).toHaveCount(0);
-    expect((await routeSnapshot(page)).text).not.toContain(material.name);
+    expect((await routeSnapshot(page, plan.sourceTab)).text).not.toContain(material.name);
     await page.reload();
     await panel(page, 'Materials');
     await expect(row).toHaveCount(0);
@@ -282,12 +279,10 @@ for (const plan of plans) {
     await edit(target, invalid);
     await expect(target).toHaveAttribute('aria-invalid', 'true');
     await expect(row.getByRole('alert')).toContainText('whole number');
-    if (plan.game === 'kh1fm') {
-      await expect(row.locator('.farming-remaining')).toHaveCount(0);
-      expect(await savedStock(page, plan.game, material.id, 'targets')).toBe(5);
-      expect((await routeSnapshot(page)).text).toContain(material.name);
-      await panel(page, 'Materials');
-    } else await expect(row.locator('.farming-remaining strong')).toHaveText('2');
+    await expect(row.locator('.farming-remaining')).toHaveCount(0);
+    expect(await savedStock(page, plan.game, material.id, 'targets')).toBe(5);
+    expect((await routeSnapshot(page, plan.sourceTab)).text).toContain(material.name);
+    await panel(page, 'Materials');
     if (plan.game !== 'kh3') await fixedBounds(page);
   }
   await page.reload();
@@ -507,16 +502,18 @@ for (const plan of plans.filter(plan => plan.game !== 'kh3')) {
   });
 }
 
-for (const size of [{ width: 1280, height: 800 }, { width: 320, height: 568 }, { width: 390, height: 844 }]) {
-  test(`KH1 compact farming rows keep name, Owned, Target and remove on one line at ${size.width}px`, async ({ page }) => {
+for (const original of plans) for (const size of [{ width: 1280, height: 800 }, { width: 320, height: 568 }, { width: 390, height: 844 }]) {
+  test(`${original.game} compact farming rows keep name, Owned, Target and remove on one line at ${size.width}px`, async ({ page }) => {
     await page.setViewportSize(size);
-    const data = JSON.parse(readFileSync('public/data/kh1fm.json', 'utf8'));
+    const data = original.game === 'kh1fm' ? JSON.parse(readFileSync('public/data/kh1fm.json', 'utf8')) : ({ kh2fm: kh2Guide, bbsfm: bbsGuide, dddhd: dddGuide, kh3: kh3Guide } as const)[original.game as 'kh2fm' | 'bbsfm' | 'dddhd' | 'kh3'];
     const longest: Material[] = data.entries
-      .filter((entry: { category: string }) => entry.category === 'material')
+      .filter((entry: { category: string; character?: string }) => ['material', 'materials'].includes(entry.category) && (original.game !== 'bbsfm' || entry.character === 'Terra'))
       .sort((a: Material, b: Material) => b.name.length - a.name.length || a.name.localeCompare(b.name))
       .slice(0, 3);
-    const plan = { ...plans[0], materials: longest };
-    const counts = Object.fromEntries(longest.map(material => [material.id, 9999]));
+    const plan = { ...original, materials: longest };
+    expect(longest).toHaveLength(3);
+    const quantity = plan.game === 'kh1fm' ? 9999 : 999999;
+    const counts = Object.fromEntries(longest.map(material => [material.id, quantity]));
     await seed(page, plan, counts, counts);
     await page.evaluate(() => document.fonts.ready);
     for (const material of longest) {
@@ -527,14 +524,14 @@ for (const size of [{ width: 1280, height: 800 }, { width: 320, height: 568 }, {
       const remove = row.getByRole('button', { name: `Remove ${material.name} from farming plan`, exact: true });
       await expect(name).toHaveText(material.name);
       await expect(name).toHaveAttribute('title', material.name);
-      await expect(page.locator('.kh1-farming-columns')).toContainText('Owned');
-      await expect(page.locator('.kh1-farming-columns')).toContainText('Target');
-      await expect(owned).toHaveValue('9999');
-      await expect(target).toHaveValue('9999');
+      await expect(page.locator('.kh1-farming-columns, .farming-plan-columns')).toContainText('Owned');
+      await expect(page.locator('.kh1-farming-columns, .farming-plan-columns')).toContainText('Target');
+      await expect(owned).toHaveValue(String(quantity));
+      await expect(target).toHaveValue(String(quantity));
       await expect(remove).toBeVisible();
       await expect(row.locator('.farming-remaining')).toHaveCount(0);
       await expect(row).not.toContainText(/Remaining|Stock met/);
-      const boxes = await Promise.all([name, owned, target, remove].map(control => control.boundingBox()));
+      const boxes = await Promise.all([row.locator('.farming-material-heading'), owned, target, remove].map(control => control.boundingBox()));
       const rowBox = (await row.boundingBox())!;
       for (const box of boxes) {
         expect(box).not.toBeNull();
@@ -565,9 +562,10 @@ for (const size of [{ width: 1280, height: 800 }, { width: 320, height: 568 }, {
       await expect(target).toBeFocused();
       await page.keyboard.press('Tab');
       await expect(remove).toBeFocused();
-      await fixedBounds(page);
+      if (plan.game !== 'kh3') await fixedBounds(page);
+      else expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
     }
-    await page.screenshot({ path: test.info().outputPath(`kh1-compact-farming-${size.width}.png`), fullPage: true });
+    await page.screenshot({ path: test.info().outputPath(`${plan.game}-compact-farming-${size.width}.png`), fullPage: true });
   });
 }
 
@@ -743,9 +741,9 @@ for (const plan of sourceTabPlans) {
   });
 }
 
-test('source tabs automatically activate with arrows, Home and End and reset route paging', async ({ page }) => {
+for (const plan of sourceTabPlans) test(`${plan.game} source tabs automatically activate with arrows, Home and End and reset route paging`, async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await seed(page, plans[0]);
+  await seed(page, plan);
   await panel(page, 'World route');
   const route = page.locator('.farming-itinerary');
   await route.getByRole('tab', { name: 'Enemy drops', exact: true }).focus();
@@ -763,13 +761,21 @@ test('source tabs automatically activate with arrows, Home and End and reset rou
     const summary = source.locator('.farming-source-summary');
     await summary.click();
     await expect(summary).toHaveAttribute('aria-expanded', 'true');
-    await expect(page.getByRole('button', { name: 'Next route page', exact: true })).toBeEnabled();
-    await page.getByRole('button', { name: 'Next route page', exact: true }).click();
-    await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeEnabled();
+    const next = page.getByRole('button', { name: 'Next route page', exact: true });
+    if (await next.isEnabled()) {
+      await next.click();
+      await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeEnabled();
+    }
     await selectSourceTab(page, name === 'Enemy drops' ? 'Other sources' : 'Enemy drops');
     await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeDisabled();
     await selectSourceTab(page, name);
     await expect(page.getByRole('button', { name: 'Previous route page', exact: true })).toBeDisabled();
+    await expect(summary).toHaveAttribute('aria-expanded', 'true');
+    await summary.focus();
+    await page.keyboard.press('Space');
+    await expect(summary).toHaveAttribute('aria-expanded', 'false');
+    await expect(summary).toBeFocused();
+    await page.keyboard.press('Enter');
     await expect(summary).toHaveAttribute('aria-expanded', 'true');
   }
 });
@@ -823,5 +829,28 @@ for (const plan of sourceTabPlans) {
         else expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       }
     }
+  });
+}
+
+for (const sample of [
+  { plan: plans[1], width: 1440, height: 900 },
+  { plan: plans[1], width: 390, height: 844 },
+  { plan: plans[3], width: 390, height: 844 },
+]) {
+  test(`${sample.plan.game} typical pending stock presentation at ${sample.width}px`, async ({ page }) => {
+    const { plan, width, height } = sample;
+    await page.setViewportSize({ width, height });
+    await seed(page, plan, undefined, Object.fromEntries(plan.materials.map(material => [material.id, 2])));
+    await page.evaluate(() => document.fonts.ready);
+    await fixedBounds(page);
+    await expect(page.locator('.farming-material-row')).toHaveCount(2);
+    await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
+    await page.screenshot({ path: test.info().outputPath(`${plan.game}-pending-materials-${width}.png`), fullPage: true });
+    await panel(page, 'World route');
+    await selectSourceTab(page, plan.sourceTab ?? 'Enemy drops');
+    await visibleSource(page);
+    await fixedBounds(page);
+    await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
+    await page.screenshot({ path: test.info().outputPath(`${plan.game}-pending-route-${width}.png`), fullPage: true });
   });
 }

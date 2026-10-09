@@ -1,5 +1,5 @@
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
-import { FarmingMaterialRow, FarmingItinerary } from '../journal/FarmingPlan';
+import { FarmingMaterialRow, FarmingItinerary, FarmingPlanColumns } from '../journal/FarmingPlan';
 import { useIndexCapacity } from '../journal/useIndexCapacity';
 import { buildGuideFarmingPlan } from './farmingPlan';
 import {TreasureBoard} from '../journal/TreasureBoard';
@@ -95,7 +95,7 @@ export default function GuideJournal({
   const planLeaf = routeParams.get('view') === 'route' ? 'route' : 'materials';
   const [planDraft, setPlanDraft] = useState(planQuery);
   useEffect(() => { setPlanDraft(planQuery); }, [planQuery]);
-  const {ref: planIndexRef, capacity: planCapacity, anchorId: planAnchor, clearAnchor: clearPlanAnchor} = useIndexCapacity(`${guide.id}:plan:${planQuery}`, 116, false, route);
+  const {ref: planIndexRef, capacity: planCapacity, anchorId: planAnchor, clearAnchor: clearPlanAnchor} = useIndexCapacity(`${guide.id}:plan:${planQuery}`, 53, false, route);
   function planHref(changes:Record<string,string>) {
     const next = new URLSearchParams(search);
     for (const [key,value] of Object.entries(changes)) value ? next.set(key,value) : next.delete(key);
@@ -1153,8 +1153,9 @@ export default function GuideJournal({
                           {planQuery&&<a href={planHref({q:'',page:''})}>Clear</a>}
                         </form>
                         <p className="farming-plan-help">Search filters materials only; the route covers the full plan.</p>
+                        <FarmingPlanColumns/>
                         <nav ref={planIndexRef} className="guide-plan-material-list" aria-label="Planned material counts">
-                          {shownPlan.map(e=><FarmingMaterialRow key={e.id} id={e.id} name={e.name} owned={profile.owned[e.id]} target={profile.targets[e.id]} ready={ready} saveOwned={n=>update(p=>{const owned={...p.owned};if(n===undefined)delete owned[e.id];else owned[e.id]=n;return {...p,owned};})} saveTarget={n=>update(p=>{const targets={...p.targets};if(n===undefined)delete targets[e.id];else targets[e.id]=n;return {...p,targets};})} remove={()=>update(p=>{const targets={...p.targets};delete targets[e.id];return {...p,targets};})}/>) }
+                          {shownPlan.map(e=><FarmingMaterialRow compact key={e.id} id={e.id} name={e.name} owned={profile.owned[e.id]} target={profile.targets[e.id]} ready={ready} saveOwned={n=>update(p=>{const owned={...p.owned};if(n===undefined)delete owned[e.id];else owned[e.id]=n;return {...p,owned};})} saveTarget={n=>update(p=>{const targets={...p.targets};if(n===undefined)delete targets[e.id];else targets[e.id]=n;return {...p,targets};})} remove={()=>update(p=>{const targets={...p.targets};delete targets[e.id];return {...p,targets};})}/>) }
                         </nav>
                         {!shownPlan.length&&<p>{plannedMaterials.length?'No planned materials match this name.':'Your farming plan is empty. Add materials or recipe ingredients to set targets.'}</p>}
                         <nav className="guide-plan-pagination" aria-label="Material pages" onClick={e=>{if((e.target as Element).closest('a[href]'))clearPlanAnchor();}}><a aria-label="Previous material page" aria-disabled={planPage===0} tabIndex={planPage===0?-1:undefined} href={planPage>0?planHref({page:String(planPage-1)}):undefined}>‹</a><span>{planPage+1} / {planPages}</span><a aria-label="Next material page" aria-disabled={planPage+1>=planPages} tabIndex={planPage+1>=planPages?-1:undefined} href={planPage+1<planPages?planHref({page:String(planPage+1)}):undefined}>›</a></nav>

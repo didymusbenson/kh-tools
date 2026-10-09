@@ -266,7 +266,8 @@
 }
 
 /* KH1 plan rows share one set of labels, with stock fields and remove kept
-   beside the material at every width. Other journals keep their existing rows. */
+   beside the material at every width. Its four-digit limit uses narrower fields
+   than the shared six-digit ledger used by the other journals. */
 .kh1-farming-index{--farm-quantity-width:58px;--farm-column-gap:6px}
 .kh1-farming-columns,.kh1-farming-index .farming-material-row-compact{display:grid;grid-template-columns:minmax(0,1fr) var(--farm-quantity-width) var(--farm-quantity-width) 44px;column-gap:var(--farm-column-gap);align-items:center}
 .kh1-farming-columns{flex:none;font:11px/1.3 KH1Menu;padding:2px 0 5px;border-bottom:1px solid #83939080}

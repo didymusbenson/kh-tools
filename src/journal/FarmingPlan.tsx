@@ -35,6 +35,11 @@ function FarmQuantity({label, name, value, ready, max, save, report}: {label:str
   return <label ref={field} className="farming-quantity"><span>{label}</span><input type="number" inputMode="numeric" min="0" max={max} step="1" placeholder="?" aria-label={`${label} ${name}`} aria-invalid={!!error} aria-describedby={error ? errorId : undefined} value={draft} disabled={!ready || saving} onChange={e => {anchorMaterial(field.current); setDraft(e.target.value);}} onBlur={() => void commit()} onKeyDown={e => { if (e.key === 'Enter') e.currentTarget.blur(); }}/></label>;
 }
 
+/** Shared visible labels; every input retains its material-specific accessible name. */
+export function FarmingPlanColumns() {
+  return <div className="farming-plan-columns" aria-hidden="true"><span>Material</span><span>Owned</span><span>Target</span><span/></div>;
+}
+
 /** Keep all quantity semantics beside the material, independent of source expansion. */
 export function FarmingMaterialRow({id, name, owned, target, ready, max=999999, saveOwned, saveTarget, remove, character, compact=false}: {id:string; name:string; owned?:number; target:number; ready:boolean; max?:number; saveOwned:Save; saveTarget:Save; remove:()=>Promise<boolean>; character?:string; compact?:boolean}) {
   const [error, setError] = useState('');
