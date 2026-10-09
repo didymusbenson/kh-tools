@@ -213,4 +213,4 @@
 /* Keep the material action beside its title without stretching across the leaf. */
 .kh2-record-heading{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;flex:none;margin-bottom:12px;min-width:0}
 .kh2-record-heading h2{flex:0 1 auto;min-width:0;max-width:100%;overflow-wrap:anywhere;margin:0}
-.kh2-record-heading .kh2-action{flex:0 0 auto;width:auto;max-width:100%;margin-left:auto;min-height:44px}
+.kh2-record-heading .kh2-action{flex:0 0 auto;width:auto;max-width:100%;margin-left:auto;min-height:44px;font:16px KH2Hand}
