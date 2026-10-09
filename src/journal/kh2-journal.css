@@ -209,3 +209,8 @@
 .kh2-material-index{overflow-y:auto;overflow-x:hidden;scrollbar-gutter:stable}
 .kh2-material-index .kh2-material-family{flex:none;margin:0;padding:5px 3px;font:400 19px/1.3 KH2Hand;color:#515e3b;border-bottom:2px solid #a4b183;background:#d7dfb577}
 .kh2-material-index>.material-family{flex:none;min-width:0}
+
+/* Keep the material action beside its title without stretching across the leaf. */
+.kh2-record-heading{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;flex:none;margin-bottom:12px;min-width:0}
+.kh2-record-heading h2{flex:0 1 auto;min-width:0;max-width:100%;overflow-wrap:anywhere;margin:0}
+.kh2-record-heading .kh2-action{flex:0 0 auto;width:auto;max-width:100%;margin-left:auto;min-height:44px}
