@@ -294,3 +294,13 @@
 .kh1-world-index .kh1-index-row input{margin:8px 11px}
 .kh1-world-measure{position:absolute;inset:0 0 auto;height:0;overflow:hidden;visibility:hidden;pointer-events:none}
 .kh1-world-measure-check{width:22px;flex:none;margin:8px 11px}
+
+/* Original Re:Collection Minimal marks replace the repeated color subtitle.
+   Their color names remain in link/checkbox names and the icon tooltip. */
+.kh1-trinity-index .kh1-index-row{min-height:44px}
+.kh1-trinity-index .kh1-index-row>a,.kh1-trinity-measure-title{padding:5px 3px}
+.kh1-trinity-row-label{display:flex;align-items:center;gap:8px;min-width:0}
+.kh1-trinity-row-label>span:last-child{min-width:0}
+.kh1-trinity-icon,.kh1-trinity-icon-fallback{width:32px;height:32px;object-fit:contain;flex:none}
+.kh1-trinity-icon-fallback{display:grid;place-items:center;font:18px KH1Menu}
+.kh1-trinity-measure{height:0;overflow:hidden}
