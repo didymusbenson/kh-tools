@@ -512,7 +512,8 @@ for (const original of plans) for (const size of [{ width: 1280, height: 800 }, 
       .slice(0, 3);
     const plan = { ...original, materials: longest };
     expect(longest).toHaveLength(3);
-    const counts = Object.fromEntries(longest.map(material => [material.id, 9999]));
+    const quantity = plan.game === 'kh1fm' ? 9999 : 999999;
+    const counts = Object.fromEntries(longest.map(material => [material.id, quantity]));
     await seed(page, plan, counts, counts);
     await page.evaluate(() => document.fonts.ready);
     for (const material of longest) {
@@ -525,12 +526,12 @@ for (const original of plans) for (const size of [{ width: 1280, height: 800 }, 
       await expect(name).toHaveAttribute('title', material.name);
       await expect(page.locator('.kh1-farming-columns, .farming-plan-columns')).toContainText('Owned');
       await expect(page.locator('.kh1-farming-columns, .farming-plan-columns')).toContainText('Target');
-      await expect(owned).toHaveValue('9999');
-      await expect(target).toHaveValue('9999');
+      await expect(owned).toHaveValue(String(quantity));
+      await expect(target).toHaveValue(String(quantity));
       await expect(remove).toBeVisible();
       await expect(row.locator('.farming-remaining')).toHaveCount(0);
       await expect(row).not.toContainText(/Remaining|Stock met/);
-      const boxes = await Promise.all([name, owned, target, remove].map(control => control.boundingBox()));
+      const boxes = await Promise.all([row.locator('.farming-material-heading'), owned, target, remove].map(control => control.boundingBox()));
       const rowBox = (await row.boundingBox())!;
       for (const box of boxes) {
         expect(box).not.toBeNull();

@@ -33,7 +33,7 @@ for (const [game, guide, prefix] of [['kh2fm', kh2Guide, 'kh2'], ['dddhd', dddGu
         }
         expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(viewport.width + 1);
         const next = page.getByRole('link', { name: 'Next index page', exact: true });
-        if (!await next.isEnabled()) break;
+        if (!await next.count() || !await next.isEnabled()) break;
         const first = await links.first().getAttribute('href');
         await next.click();
         await expect(links.first()).not.toHaveAttribute('href', first!);
