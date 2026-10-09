@@ -831,3 +831,26 @@ for (const plan of sourceTabPlans) {
     }
   });
 }
+
+for (const sample of [
+  { plan: plans[1], width: 1440, height: 900 },
+  { plan: plans[1], width: 390, height: 844 },
+  { plan: plans[3], width: 390, height: 844 },
+]) {
+  test(`${sample.plan.game} typical pending stock presentation at ${sample.width}px`, async ({ page }) => {
+    const { plan, width, height } = sample;
+    await page.setViewportSize({ width, height });
+    await seed(page, plan, undefined, Object.fromEntries(plan.materials.map(material => [material.id, 2])));
+    await page.evaluate(() => document.fonts.ready);
+    await fixedBounds(page);
+    await expect(page.locator('.farming-material-row')).toHaveCount(2);
+    await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
+    await page.screenshot({ path: test.info().outputPath(`${plan.game}-pending-materials-${width}.png`), fullPage: true });
+    await panel(page, 'World route');
+    await selectSourceTab(page, plan.sourceTab ?? 'Enemy drops');
+    await visibleSource(page);
+    await fixedBounds(page);
+    await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
+    await page.screenshot({ path: test.info().outputPath(`${plan.game}-pending-route-${width}.png`), fullPage: true });
+  });
+}
