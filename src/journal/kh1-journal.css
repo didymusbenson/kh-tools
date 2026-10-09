@@ -304,3 +304,5 @@
 .kh1-trinity-icon,.kh1-trinity-icon-fallback{width:32px;height:32px;object-fit:contain;flex:none}
 .kh1-trinity-icon-fallback{display:grid;place-items:center;font:18px KH1Menu}
 .kh1-trinity-measure{height:0;overflow:hidden}
+/* A light edge keeps the pale original White mark legible on journal paper. */
+.kh1-trinity-icon[title="White Trinity"]{filter:drop-shadow(0 1px 1px #30485966)}

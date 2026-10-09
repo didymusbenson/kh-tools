@@ -201,9 +201,10 @@ test('all five Minimal icons keep visible hover, keyboard focus and independent 
     expect(page.url(), 'checking a mark must not follow its detail link').toBe(route);
     await expect(record).toHaveAccessibleName(name);
     await expect(icon).toBeVisible();
-    await testInfo.attach(`trinity-${selected.toLowerCase()}-${isMobile ? 'phone' : 'desktop'}`, {
-      body: await page.screenshot(), contentType: 'image/png',
-    });
+    const screenshotName = `trinity-${selected.toLowerCase()}-${isMobile ? 'phone' : 'desktop'}`;
+    const screenshotPath = testInfo.outputPath(`${screenshotName}.png`);
+    await page.screenshot({ path: screenshotPath });
+    await testInfo.attach(screenshotName, { path: screenshotPath, contentType: 'image/png' });
     await checkbox.uncheck();
   }
 });
