@@ -204,3 +204,8 @@
  .kh2-cover .kh2-world-title{height:auto;min-height:70px}
  .kh2-cover .kh2-world-title h2{font-size:20px;line-height:1.15;overflow-wrap:anywhere}
 }
+
+/* Inventory pages keep each material family intact, even on a short leaf. */
+.kh2-material-index{overflow-y:auto;overflow-x:hidden;scrollbar-gutter:stable}
+.kh2-material-index .kh2-material-family{flex:none;margin:0;padding:5px 3px;font:400 19px/1.3 KH2Hand;color:#515e3b;border-bottom:2px solid #a4b183;background:#d7dfb577}
+.kh2-material-index>.material-family{flex:none;min-width:0}
