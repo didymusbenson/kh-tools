@@ -29,13 +29,22 @@ async function expectOrderedMarks(page: Page, expected: GuideEntry[], checkPage?
     for (const id of ids) {
       const entry = marks.find(mark => mark.id === id)!;
       const record = kh1Record(page, id);
-      await expect(record.locator('small')).toHaveText(`${entry.facts?.color} Trinity`);
-      const title = await record.evaluate(node => {
-        const clone = node.cloneNode(true) as HTMLElement;
-        clone.querySelectorAll('small').forEach(small => small.remove());
-        return clone.textContent?.trim();
-      });
-      expect(title).toBe(`${entry.world} — ${entry.area}`);
+      const title = `${entry.world} — ${entry.area}`;
+      const colorName = `${entry.facts?.color} Trinity`;
+      const icon = record.locator('img.kh1-trinity-icon');
+      await expect(record.locator('small')).toHaveCount(0);
+      await expect(record).toHaveText(title);
+      await expect(record).toHaveAccessibleName(`${title} (${colorName})`);
+      await expect(kh1Row(page, id).getByRole('checkbox'))
+        .toHaveAccessibleName(`Acquired: ${title} (${colorName})`);
+      await expect(icon).toHaveAttribute('src', new RegExp(`assets/kh1-journal/trinity-${String(entry.facts?.color).toLowerCase()}\\.png$`));
+      await expect(icon).toHaveAttribute('alt', '');
+      await expect(icon).toHaveAttribute('title', colorName);
+      await expect(icon).toBeVisible();
+      await expect.poll(() => icon.evaluate(image => {
+        const png = image as HTMLImageElement;
+        return png.complete && png.naturalWidth === 500 && png.naturalHeight === 500;
+      })).toBe(true);
     }
     if (checkPage) await checkPage();
     found.push(...ids);
@@ -105,7 +114,7 @@ test('same-room marks keep independent canonical completion through sorting, Und
   await expect(kh1Record(page, second)).toBeVisible();
 });
 
-for (const viewport of [{ width: 320, height: 568 }, { width: 390, height: 844 }, { width: 844, height: 390 }]) {
+for (const viewport of [{ width: 320, height: 568 }, { width: 390, height: 844 }, { width: 844, height: 390 }, { width: 1440, height: 900 }]) {
   test(`Trinity controls and long location names fit at ${viewport.width}x${viewport.height}`, async ({ page }) => {
     await page.setViewportSize(viewport);
     await page.goto('./#/kh1fm/trinities?world=Olympus%20Coliseum');
@@ -126,14 +135,76 @@ for (const viewport of [{ width: 320, height: 568 }, { width: 390, height: 844 }
       const box = row.getBoundingClientRect();
       const text = row.querySelector('a')!.getBoundingClientRect();
       const check = row.querySelector('input')!.getBoundingClientRect();
-      return { left: box.left, right: box.right, textRight: text.right, checkLeft: check.left, scroll: row.scrollWidth, width: row.clientWidth };
+      const icon = row.querySelector('.kh1-trinity-icon')!.getBoundingClientRect();
+      const label = row.querySelector('.kh1-trinity-row-label > span')!.getBoundingClientRect();
+      return {
+        left: box.left, right: box.right, height: box.height, textRight: text.right,
+        checkLeft: check.left, scroll: row.scrollWidth, width: row.clientWidth,
+        iconLeft: icon.left, iconRight: icon.right, iconWidth: icon.width, iconHeight: icon.height,
+        labelLeft: label.left, labelHeight: label.height,
+        verticalOffset: Math.abs(icon.y + icon.height / 2 - label.y - label.height / 2),
+      };
     }));
     for (const row of geometry) {
       expect(row.left).toBeGreaterThanOrEqual(0);
       expect(row.right).toBeLessThanOrEqual(viewport.width + 1);
       expect(row.textRight).toBeLessThanOrEqual(row.checkLeft);
       expect(row.scroll).toBeLessThanOrEqual(row.width + 1);
+      expect(row.iconLeft).toBeGreaterThanOrEqual(row.left);
+      expect(row.iconRight).toBeLessThan(row.labelLeft);
+      expect(row.iconWidth).toBeGreaterThanOrEqual(24);
+      expect(row.iconWidth).toBeLessThanOrEqual(36);
+      expect(row.iconHeight).toBe(row.iconWidth);
+      expect(row.verticalOffset).toBeLessThanOrEqual(1);
+      expect(row.height).toBeGreaterThanOrEqual(44);
+      expect(row.height, 'compact rows add no subtitle-height band')
+        .toBeLessThanOrEqual(Math.max(44, row.labelHeight + 12));
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(viewport.width + 1);
   });
 }
+
+
+test('all five Minimal icons keep visible hover, keyboard focus and independent selection', async ({ page, isMobile }, testInfo) => {
+  await page.goto('./#/kh1fm/trinities');
+  for (const selected of TRINITY_COLORS) {
+    await color(page).selectOption(selected);
+    const entry = marks.filter(mark => mark.facts?.color === selected).sort(compareTrinities)[0];
+    const record = kh1Record(page, entry.id);
+    const checkbox = kh1Row(page, entry.id).getByRole('checkbox');
+    const icon = record.locator('img.kh1-trinity-icon');
+    const name = `${entry.world} — ${entry.area} (${selected} Trinity)`;
+    await expect(record).toHaveAccessibleName(name);
+    await expect(checkbox).toHaveAccessibleName(`Acquired: ${name}`);
+    await expect(icon).toHaveAttribute('title', `${selected} Trinity`);
+    await expect.poll(() => icon.evaluate(node => (node as HTMLImageElement).naturalWidth)).toBe(500);
+    await page.mouse.move(0, 0);
+    await page.evaluate(() => document.fonts.ready);
+    await expect(record).toBeVisible();
+    const plainBackground = await record.evaluate(node => getComputedStyle(node).backgroundColor);
+    if (!isMobile) {
+      await record.hover();
+      expect(await record.evaluate(node => getComputedStyle(node).backgroundColor)).not.toBe(plainBackground);
+      await expect(icon).toBeVisible();
+      await page.mouse.move(0, 0);
+    }
+    // Enter keyboard modality before focusing the native record link.
+    await page.keyboard.press('Tab');
+    await record.focus();
+    await expect(record).toBeFocused();
+    expect(await record.evaluate(node => node.matches(':focus-visible'))).toBe(true);
+    expect(await record.evaluate(node => getComputedStyle(node).outlineStyle)).not.toBe('none');
+    await expect(icon).toBeVisible();
+    const route = page.url();
+    await checkbox.check();
+    await expect(checkbox).toBeChecked();
+    expect(page.url(), 'checking a mark must not follow its detail link').toBe(route);
+    await expect(record).toHaveAccessibleName(name);
+    await expect(icon).toBeVisible();
+    const screenshotName = `trinity-${selected.toLowerCase()}-${isMobile ? 'phone' : 'desktop'}`;
+    const screenshotPath = testInfo.outputPath(`${screenshotName}.png`);
+    await page.screenshot({ path: screenshotPath });
+    await testInfo.attach(screenshotName, { path: screenshotPath, contentType: 'image/png' });
+    await checkbox.uncheck();
+  }
+});

@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
 import type { GameData, GuideEntry } from '../src/domain/types';
 import { TRINITY_COLORS, compareTrinities, trinityColor, trinityTitle } from '../src/domain/trinityPresentation';
@@ -8,6 +9,25 @@ const marks = data.entries.filter(entry => entry.category === 'trinity');
 const modes = ['color', 'world', 'location'] as const;
 
 describe('KH1 Trinity presentation', () => {
+  it('ships all five unmodified, transparent Re:Collection Minimal PNG assets', () => {
+    const hashes = {
+      Blue: 'e0d4030db91f0153ab3d32ad2d3aa8fb49c0d5416f827520608b2d2100ebbed8',
+      Red: '908bb15d078df3e7cc3bf0100a3b98fccc4f4263037f44a26bf13a4c620d3b06',
+      Green: 'b3906daecc9921dee4b7bb91f20fbc389c1b5827968f55616affc721d5234cd6',
+      Yellow: 'ccde07aab72f55d0ea668216effe363e6c8d6fea4a12f016a8b6a41f583c1c97',
+      White: 'e0bc2cfc48d799a0721f7885e0707dd8d3eee26e6f98631c81a5b1ebebadb453',
+    };
+    for (const color of TRINITY_COLORS) {
+      const png = readFileSync(`public/assets/kh1-journal/trinity-${color.toLowerCase()}.png`);
+      expect(png.subarray(0, 8).toString('hex')).toBe('89504e470d0a1a0a');
+      expect(png.subarray(12, 16).toString()).toBe('IHDR');
+      expect(png.readUInt32BE(16)).toBe(500);
+      expect(png.readUInt32BE(20)).toBe(500);
+      expect(png[25], `${color} preserves RGBA transparency`).toBe(6);
+      expect(createHash('sha256').update(png).digest('hex')).toBe(hashes[color]);
+    }
+  });
+
   it('preserves all 46 canonical, checkable marks and their unlock-color order', () => {
     expect(TRINITY_COLORS).toEqual(['Blue', 'Red', 'Green', 'Yellow', 'White']);
     expect(marks).toHaveLength(46);

@@ -33,7 +33,7 @@ test('KH1 closed cover occupies exactly the right leaf and opens without moving 
  const stage=(await page.locator('.kh1-spread').boundingBox())!,cover=(await page.locator('.kh1-leaf-right').boundingBox())!,rings=(await page.locator('.kh1-spiral').boundingBox())!;
  expect(Math.abs(cover.width-stage.width/2)).toBeLessThan(1);expect(Math.abs(cover.x-stage.x-stage.width/2)).toBeLessThan(1);
  expect(await page.locator('.kh1-index-art').evaluate(e=>getComputedStyle(e).backgroundColor)).toBe('rgba(0, 0, 0, 0)');
- await page.getByRole('link',{name:'Ansem’s Report',exact:false}).click();await equalLeaves(page,'.kh1-spread','.kh1-leaf-left','.kh1-leaf-right','.kh1-spiral');
+ await page.getByRole('link',{name:'Ansem’s Reports',exact:false}).click();await equalLeaves(page,'.kh1-spread','.kh1-leaf-left','.kh1-leaf-right','.kh1-spiral');
  expect(await page.locator('.kh1-spiral').boundingBox()).toEqual(rings);expect(await page.locator('.kh1-spread').boundingBox()).toEqual(stage);
 });
 const covers=[
