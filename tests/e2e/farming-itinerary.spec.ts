@@ -66,6 +66,8 @@ function materialRow(page: Page, material: Material) {
 }
 
 async function panel(page: Page, name: 'Materials' | 'World route') {
+  // A reload can still be opening the profile; do not skip its mobile tab controls.
+  await page.locator('.farming-material-row').first().waitFor({ state: 'attached' });
   const button = page.getByRole('button', { name, exact: true });
   const link = page.locator('.ddd-leaf-picker, .guide-plan-switch').getByRole('link', { name, exact: true });
   if (await button.isVisible()) await button.click();

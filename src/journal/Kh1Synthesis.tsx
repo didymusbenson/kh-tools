@@ -29,7 +29,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
   const state=player.state;
   const materials=data.entries.filter(e=>e.category==='material').sort(compareMaterials);
   const recipes=data.recipes.filter(r=>(!set||r.set===Number(set))&&(!params.has('remaining')||!state.checks[r.entryId]));
-  const items=(tab==='recipes'?recipes.map(r=>data.entries.find(e=>e.id===r.entryId)!).filter(Boolean):tab==='plan'?materials.filter(e=>(state.farmPlan?.[e.id]||0)>0):materials).filter(e=>e.name.toLowerCase().includes(query.toLowerCase()));
+  const items=(tab==='recipes'?recipes.map(r=>data.entries.find(e=>e.id===r.entryId)!).filter(Boolean):tab==='plan'?materials.filter(e=>(state.farmPlan?.[e.id]||0)>0):materials).filter(e=>(!params.get('world')||e.world===params.get('world'))&&e.name.toLowerCase().includes(query.toLowerCase()));
   // A family is an indivisible index unit: resizing or pagination cannot strand
   // a shard on a different page from its gems/stones. IDs and detail links stay canonical.
   const groups = tab==='materials' ? [...new Set(items.map(materialFamily))].map(name=>({name, entries:items.filter(e=>materialFamily(e)===name)})) : [];

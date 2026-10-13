@@ -195,6 +195,8 @@ for (const collection of collections) {
     // This row disappears under Uncollected, so assert removal after the click.
     await kh1Row(page, first.id).getByRole('checkbox').click();
     await expect(page.locator('.kh1-collection-count')).toHaveText(`1 / ${expected.length} ${collection.unit}`);
+    // Counts update optimistically; reload only after the durable save completes.
+    await expect(page.locator(".journal-footer-save")).toHaveAttribute("title", `${entryTitle(first)} updated.`);
     await page.reload();
     await expect(worldFilter(page)).toHaveValue(selectedWorld);
     await expect(statusFilter(page)).toHaveValue('remaining');
@@ -222,6 +224,8 @@ for (const collection of collections) {
     await page.getByRole('button', { name: 'Undo', exact: true }).click();
     await expect(groups(page)).toHaveCount(1);
     await expect(kh1Row(page, only[0].id).getByRole('checkbox')).not.toBeChecked();
+    // Counts update optimistically; reload only after the durable save completes.
+    await expect(page.locator(".journal-footer-save")).toHaveAttribute("title", "Last change undone.");
     await page.reload();
     await expect(kh1Row(page, only[0].id).getByRole('checkbox')).not.toBeChecked();
     await expect(page.locator('.kh1-collection-count')).toHaveText(`0 / 1 ${collection.unit}`);
@@ -251,6 +255,8 @@ for (const collection of collections) {
     await expect(kh1Record(page, id)).toBeFocused();
     await expect(kh1Row(page, id).getByRole('checkbox')).toBeChecked();
     await expect(kh1Record(page, id).locator('xpath=ancestor::section[1]')).toHaveAttribute('data-world', entry.world!);
+    // Counts update optimistically; reload only after the durable save completes.
+    await expect(page.locator(".journal-footer-save")).toHaveAttribute("title", `${entryTitle(entry)} updated.`);
     await page.reload();
     await expect(kh1Row(page, id).getByRole('checkbox')).toBeChecked();
     await expect.poll(() => new URL(page.url()).hash).toBe(originalHash);
