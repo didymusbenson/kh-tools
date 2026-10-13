@@ -318,3 +318,20 @@
 @media(max-width:650px){.kh1-world-categories>a{font-size:21px;min-height:58px}.kh1-world-category-progress{font-size:14px;gap:7px}}
 .kh1-world-art{flex:1;min-height:0;width:min(100%,500px);height:auto;max-height:80%;object-fit:contain;margin:auto;filter:drop-shadow(0 4px 4px #1c233b40)}
 .kh1-world-art-credit{flex:none;margin:0;text-align:center;font:11px/1.3 KH1Menu;color:#d7dfcb}
+
+/* Heartless combat values stay in short context-labelled tables, not one block per stat. */
+.kh1-native .kh1-enemy-stat-table{width:100%;table-layout:fixed;border-collapse:collapse;margin:0 0 14px;break-inside:avoid;font:17px/1.3 KH1Hand;color:var(--ink)}
+.kh1-native .kh1-enemy-stat-table caption{text-align:left;font:17px/1.3 KH1Menu;padding:6px 0;color:#304859;break-after:avoid}
+.kh1-native .kh1-enemy-stat-table th,.kh1-native .kh1-enemy-stat-table td{text-align:left;vertical-align:top;padding:4px 6px;border-bottom:1px solid #aeb9ab70;overflow-wrap:anywhere;font-weight:400}
+.kh1-native .kh1-enemy-stat-table thead{display:table-header-group;background:#dce4d5;font:15px/1.25 KH1Menu}
+.kh1-native .kh1-enemy-stat-table th:first-child{width:48%}
+.kh1-native .kh1-enemy-stat-table tbody th{font:15px/1.4 KH1Menu;color:#607166}
+.kh1-native .kh1-enemy-stat-table td{color:#5a7049}
+.kh1-native .kh1-enemy-stat-table tr{break-inside:avoid}
+.kh1-native .kh1-enemy-matrix th:first-child{width:29%}
+.kh1-native .kh1-enemy-matrix th,.kh1-native .kh1-enemy-matrix td{padding:4px 3px}
+.kh1-native .kh1-enemy-matrix thead{font-size:15px}
+.kh1-native .kh1-enemy-matrix th:first-child{width:30%}
+.kh1-native .kh1-enemy-matrix th:nth-child(5){width:24%}
+.kh1-native .kh1-enemy-matrix abbr{text-decoration:none}
+.kh1-native .kh1-stat-key{display:block;font:15px/1.3 KH1Menu;color:#607166;margin-top:3px}

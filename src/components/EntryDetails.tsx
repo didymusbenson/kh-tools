@@ -4,6 +4,8 @@ import { recipeRequirements } from "../domain/planner";
 import { entryHref } from "../domain/entryNavigation";
 import { materialDetailEntry, materialDropLines, materialDropLocation } from "../domain/materialPresentation";
 import { EntryMedia } from "./EntryMedia";
+import { kh1EnemyStats } from "../domain/kh1EnemyStats";
+import { Kh1EnemyStats } from "./Kh1EnemyStats";
 import "./EntryDetails.css";
 
 const internalFacts = new Set([
@@ -31,6 +33,7 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
     : [];
   const related = data.entries.filter((e) => entry.relatedIds.includes(e.id));
   const facts = Object.entries(entry.facts || {}).filter(([key, value]) => !internalFacts.has(key) && !(key === "color" && entry.name.toLowerCase().includes(String(value).toLowerCase())));
+  const enemyStats = kh1EnemyStats(entry, facts);
   const location = compactMaterial ? "" : [entry.world, entry.area].filter(Boolean).join(" · ");
   const fields = [
     ["Location", location],
@@ -105,9 +108,10 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
           {option.uncertainty && <p><strong>Recipe note:</strong> {option.uncertainty}</p>}
         </section>
       ))}
-      {facts.length > 0 && (
+      {(enemyStats.groups.length > 0 || enemyStats.multipliers.length > 0) && <Kh1EnemyStats groups={enemyStats.groups} multipliers={enemyStats.multipliers}/>}
+      {enemyStats.remaining.length > 0 && (
         <dl className="entry-details-facts">
-          {facts.map(([key, value]) => <div key={key}>
+          {enemyStats.remaining.map(([key, value]) => <div key={key}>
             <dt>{key.replace(/([a-z])([A-Z])/g, "$1 $2").replaceAll("_", " ")}</dt>
             <dd>{String(value)}</dd>
           </div>)}
