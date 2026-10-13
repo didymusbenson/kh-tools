@@ -161,7 +161,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
             {entry.category==='dalmatian'&&<p className="kh1-small">One chest · three puppies</p>}
             <a className="kh1-return" href={parent}>‹ Return to index</a>
           </JournalNotePages>:<>
-            <div className="kh1-speech">{section==='contents'?'What would you like to read?':section==='dalmatians'?'Let’s bring all the puppies home!':worldIndex?'Which world shall we visit?':worldDetail?'Choose a category to explore this world.':`Let’s look through ${titles[section]?.toLowerCase()||'the journal'}.`}</div>
+            {!worldArt&&<div className="kh1-speech">{section==='contents'?'What would you like to read?':section==='dalmatians'?'Let’s bring all the puppies home!':worldIndex?'Which world shall we visit?':`Let’s look through ${titles[section]?.toLowerCase()||'the journal'}.`}</div>}
             <img className={worldArt?"kh1-world-art":"kh1-jiminy-art"} src={asset+(worldArt?"worlds/"+worldArt.file:"jiminy-official.png")} alt={worldArt?world+" world emblem":"Jiminy Cricket"}/>{worldArt&&<p className="kh1-world-art-credit">World artwork: <a href="https://github.com/Televo/kingdom-hearts-recollection" target="_blank" rel="noreferrer">Televo · Re:Collection</a></p>}
           </>}
         </aside>}
