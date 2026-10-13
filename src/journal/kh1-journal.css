@@ -332,8 +332,8 @@
 .kh1-native .kh1-enemy-stat-table tbody th{font:15px/1.4 KH1Menu;color:#607166}
 .kh1-native .kh1-enemy-stat-table td{color:#5a7049}
 .kh1-native .kh1-enemy-stat-table tr{break-inside:avoid}
-.kh1-native .kh1-enemy-matrix th:first-child{width:30%}
-.kh1-native .kh1-enemy-matrix th:nth-child(5){width:24%}
+.kh1-native .kh1-enemy-matrix th:first-child{width:28%}
+.kh1-native .kh1-enemy-matrix th:nth-child(5){width:21%}
 .kh1-native .kh1-enemy-matrix abbr{text-decoration:none}
 .kh1-native .kh1-stat-key{display:block;font:15px/1.3 KH1Menu;color:#607166;margin-top:3px}
 .kh1-native .kh1-enemy-matrix th,.kh1-native .kh1-enemy-matrix td{padding:3px}
@@ -341,3 +341,5 @@
 .kh1-native .kh1-stat-conditions h3{font:17px/1.3 KH1Menu;margin:8px 0;break-after:avoid}
 .kh1-native .kh1-stat-condition h4{font:15px/1.3 KH1Menu;color:#607166;margin:10px 0 4px;break-after:avoid}
 .kh1-native .kh1-stat-condition-value{font:17px/1.4 KH1Hand;orphans:2;widows:2}
+
+.kh1-native .kh1-enemy-matrix thead th{padding-left:2px;padding-right:2px}
