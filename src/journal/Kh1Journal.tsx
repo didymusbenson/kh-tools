@@ -1,3 +1,4 @@
+import { KH1_WORLD_CATEGORIES, kh1WorldCategories, kh1WorldCategoryHref, kh1CategoryFor, kh1InWorld, kh1EntryWorlds } from '../domain/kh1WorldCategories';
 import { JournalSaveStatus } from '../components/JournalSaveStatus';
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
 import {TreasureBoard} from './TreasureBoard';
@@ -13,6 +14,7 @@ import { entryTitle } from '../domain/entryPresentation';
 import { EntryDetails } from '../components/EntryDetails';
 import { DataJiminy } from '../components/DataJiminy';
 import './kh1-journal.css';
+import worldArtwork from '../../public/assets/kh1-journal/worlds/manifest.json';
 import { useIndexCapacity } from './useIndexCapacity';
 import { JournalNotePages } from './JournalNotePages';
 import { Kh1Synthesis } from './Kh1Synthesis';
@@ -67,8 +69,12 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const lastEntry=useRef<string|null>(null);
   const index=section==='contents'?contents:null;
   const worldIndex=section==='worlds'&&!world;
+  const worldDetail=section==='worlds'&&!!world&&!entry;
+  const selectedCategory=KH1_WORLD_CATEGORIES.find(c=>c.id===params.get('worldCategory'));
+  const worldCategories=worldDetail?kh1WorldCategories(data.entries,world,player.state.checks):[];
+  const worldArt=worldDetail?worldArtwork.assets.find(a=>a.world===world):undefined;
   const {ref:indexRef,capacity:pageSize}=useIndexCapacity(
-    `${section}:${world}:${query}:${params.get('status')||''}:${color}:${trinitySort}`, index||worldIndex||grouped||trinities?44:58, false, route.split('?')[0], trinities||grouped?'.kh1-index-row':undefined);
+    `${section}:${world}:${query}:${params.get('status')||''}:${color}:${trinitySort}`, worldDetail?58:index||worldIndex||grouped||trinities?44:58, false, route.split('?')[0], trinities||grouped?'.kh1-index-row':undefined);
   const [leaf,setLeaf]=useState('left');
   const synthesis=section==='synthesis';
   const treasureMode=hasTreasureBoard('kh1fm',route);
@@ -83,16 +89,17 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     : section==='minigames'?e.category==='minigame'
     : section==='equipment'?['weapon','accessory','item','ability','summon'].includes(e.category)
     : categories?categories.includes(e.category):section==='reference');
+  if(selectedCategory)entries=data.entries.filter(e=>kh1CategoryFor(e).id===selectedCategory.id);
   if(params.get('list')==='postcards')entries=entries.filter(e=>e.category==='postcard');
-  const sectionWorlds=[...new Set(entries.filter(e=>e.world).map(e=>e.world!))];
-  if(world&&section!=='worlds')entries=entries.filter(e=>e.world===world);
+  const sectionWorlds=[...new Set(entries.flatMap(kh1EntryWorlds))];
+  if(world&&section!=='worlds')entries=entries.filter(e=>kh1InWorld(e,world));
   if(trinities&&color)entries=entries.filter(e=>trinityColor(e)===color);
   const scopeEntries=entries;
   if(params.get('status')==='remaining')entries=entries.filter(e=>e.checkable&&!player.state.checks[e.id]);
   if(section==='dalmatians')entries.sort((a,b)=>Number(a.facts?.puppyStart||0)-Number(b.facts?.puppyStart||0));
   if(trinities)entries.sort((a,b)=>compareTrinities(a,b,trinitySort));
   const items=index|| (worldIndex?worlds.map(w=>['worlds/'+encodeURIComponent(w),w,'Read this world’s collection notes.']):null);
-  const total=items?.length??entries.length;
+  const total=worldDetail?worldCategories.length:items?.length??entries.length;
   const worldPages=grouped?paginateWorldGroups(groupEntriesByWorld(entries),pageSize):[];
   const pages=Math.max(1,grouped?worldPages.length:Math.ceil(total/pageSize));
   const page=Math.min(pages-1,Math.max(0,Math.floor(Number(params.get('page')))||0));
@@ -101,7 +108,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const title=entry?entryTitle(entry):world||titles[section]||'Entry not found';
   const listParams=new URLSearchParams(params);listParams.delete('entry');
   const parent=entry?(section==='entry'?'#/kh1fm/contents':href(parts.slice(1).join('/'),listParams)):
-    world&&section==='worlds'?'#/kh1fm/worlds':'#/kh1fm/contents';
+    world&&section==='worlds'?'#/kh1fm/worlds':params.get('fromWorld')?'#/kh1fm/worlds/'+encodeURIComponent(params.get('fromWorld')!):'#/kh1fm/contents';
   const setParam=(key:string,value:string)=>{const next=new URLSearchParams(params); next.delete('entry');next.delete('page');value?next.set(key,value):next.delete(key);location.hash=href(parts.slice(1).join('/'),next);};
   const pageLink=(n:number)=>{const next=new URLSearchParams(params);next.set('page',String(n));return href(parts.slice(1).join('/'),next);};
   function entryLink(e:GuideEntry){const next=new URLSearchParams(params);next.set('entry',e.id);return href(parts.slice(1).join('/'),next);}
@@ -114,7 +121,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   useEffect(()=>{setSearch(query);},[query]);
   useEffect(()=>{
     setLeaf(entry||params.has('item')?'right':section==='synthesis'?'left':'right');
-    setHelp(entry?'Read the entry and record your discoveries.':section==='contents'?'Which part of the journal would you like to read?':'Choose an entry to read.');
+    setHelp(entry?'Read the entry and record your discoveries.':worldDetail?'Choose a category to explore this world.':section==='contents'?'Which part of the journal would you like to read?':'Choose an entry to read.');
     if(player.ready) void player.rememberRoute('#/'+route);
     document.title=`${title} · KH1FM Journal`;
     const frame=requestAnimationFrame(()=>{
@@ -154,21 +161,21 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
             {entry.category==='dalmatian'&&<p className="kh1-small">One chest · three puppies</p>}
             <a className="kh1-return" href={parent}>‹ Return to index</a>
           </JournalNotePages>:<>
-            <div className="kh1-speech">{section==='contents'?'What would you like to read?':section==='dalmatians'?'Let’s bring all the puppies home!':worldIndex?'Which world shall we visit?':`Let’s look through ${titles[section]?.toLowerCase()||'the journal'}.`}</div>
-            <img className="kh1-jiminy-art" src={asset+'jiminy-official.png'} alt="Jiminy Cricket"/>
+            <div className="kh1-speech">{section==='contents'?'What would you like to read?':section==='dalmatians'?'Let’s bring all the puppies home!':worldIndex?'Which world shall we visit?':worldDetail?'Choose a category to explore this world.':`Let’s look through ${titles[section]?.toLowerCase()||'the journal'}.`}</div>
+            <img className={worldArt?"kh1-world-art":"kh1-jiminy-art"} src={asset+(worldArt?"worlds/"+worldArt.file:"jiminy-official.png")} alt={worldArt?world+" world emblem":"Jiminy Cricket"}/>{worldArt&&<p className="kh1-world-art-credit">World artwork: <a href="https://github.com/Televo/kingdom-hearts-recollection" target="_blank" rel="noreferrer">Televo · Re:Collection</a></p>}
           </>}
         </aside>}
         <div className={`kh1-leaf-right kh1-paper ${tool?'kh1-tool-page':''}`}>
           {!player.ready?<p>Opening your saved journal…</p>:focusId&&!entry?<><h2>Entry not found</h2><p>This link does not match a journal entry.</p><a href="#/kh1fm/contents">Return to contents</a></>:!known?<><h2>Page not found</h2><a href="#/kh1fm/contents">Return to contents</a></>:tool?<JournalNotePages>{renderTool(section,parts[2])}</JournalNotePages>:entry?<><h2 className="kh1-detail-heading">Notes</h2><JournalNotePages key={entry.id}><EntryDetails data={data} state={player.state} entry={entry}/></JournalNotePages></>:<>
             {section==='search'&&<form className="kh1-search" onSubmit={e=>{e.preventDefault();setParam('q',search);}}><label htmlFor="kh1-query">Search the journal</label><div><input id="kh1-query" type="search" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Name, place or material"/><button type="submit">Search</button></div></form>}
-            {!items&&section!=='search'&&<div className={`kh1-filters ${trinities?'kh1-trinity-filters':''}`}>
+            {!worldDetail&&!items&&section!=='search'&&<div className={`kh1-filters ${trinities?'kh1-trinity-filters':''}`}>
               {trinities&&<><label>Sort<select aria-label="Sort Trinity marks" value={trinitySort} onChange={e=>setParam('sort',e.target.value)}><option value="color">Color</option><option value="world">World</option><option value="location">Location</option></select></label><label>Color<select aria-label="Filter by Trinity color" value={color} onChange={e=>setParam('color',e.target.value)}><option value="">All colors</option>{TRINITY_COLORS.map(c=><option key={c}>{c}</option>)}</select></label></>}
               {section!=='worlds'&&sectionWorlds.length>0&&<label>World<select aria-label="Filter by world" value={world} onChange={e=>setParam('world',e.target.value)}><option value="">All worlds</option>{sectionWorlds.map(w=><option key={w}>{w}</option>)}</select></label>}
               <label>Show<select aria-label="Filter by collection status" value={params.get('status')||''} onChange={e=>setParam('status',e.target.value)}><option value="">All entries</option><option value="remaining">Uncollected</option></select></label>
             </div>}
-            {collectionScope&&!items&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
-            <nav ref={indexRef} className={`kh1-index ${trinities?'kh1-trinity-index':''} ${grouped?'kh1-world-index':''}`} aria-label={title+' index'}>
-              {items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):grouped?shownGroups.map(group=><section className="kh1-world-group" data-world={group.world} key={group.world} aria-label={group.world}>
+            {collectionScope&&!items&&!worldDetail&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
+            <nav ref={indexRef} className={`kh1-index ${trinities?'kh1-trinity-index':''} ${grouped?'kh1-world-index':''} ${worldDetail?'kh1-world-categories':''}`} aria-label={title+' index'}>
+              {worldDetail?worldCategories.slice(page*pageSize,(page+1)*pageSize).map(category=><a key={category.id} data-world-category={category.id} data-complete={category.complete} href={kh1WorldCategoryHref(category,world)} onFocus={()=>setHelp(category.description)} onMouseEnter={()=>setHelp(category.description)}><span className="kh1-world-category-name">{category.title}</span><span className="kh1-world-category-progress">{category.total?<><span className="kh1-category-check" aria-label={category.complete?'Complete':'Incomplete'}>{category.complete?'✓':'□'}</span><span>{category.completed} / {category.total}{category.references>0&&<small>+ {category.references} reference{category.references===1?'':'s'}</small>}</span></>:<span>{category.references?`${category.references} reference${category.references===1?'':'s'}`:'0 items'}</span>}<span aria-hidden="true">›</span></span></a>):items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):grouped?shownGroups.map(group=><section className="kh1-world-group" data-world={group.world} key={group.world} aria-label={group.world}>
                 <h2>{group.world}</h2>{group.entries.map(renderRow)}
               </section>):shown.map(renderRow)}
               {grouped&&<div className="kh1-world-measure" aria-hidden="true">{scopeEntries.map(e=><div className="kh1-index-row" key={e.id}><span className="kh1-world-row-label"><span>{listTitle(e)}</span>{e.category==='dalmatian'&&e.area&&<small>{e.area}</small>}</span><span className="kh1-world-measure-check"/></div>)}</div>}
@@ -180,7 +187,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         </div>
         </>}
       </main>
-      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a><JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX">{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
+      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):worldDetail?'Choose a category. Checks show recorded progress.':items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a><JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX">{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
     </section>
     
   </div>;

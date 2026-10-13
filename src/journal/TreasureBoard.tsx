@@ -18,8 +18,9 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  const selectedPartition=partitions.find(p=>p.cells.some(c=>c.entry.id===selectedId));
  const character=selectedPartition?.character||params.get('character')||'';
  const scope=selectedPartition?.scope||params.get('scope')||((game==='kh3'||game==='kh2fm')?(character==='Roxas'?'prologue':'main'):'');
- const scoped=partitions.filter(p=>(!character||character==='all'||p.character===character||p.character.replace(': ',' · ')===character)&&(!scope||p.scope===scope));
- const partition=selectedPartition||scoped.find(p=>p.id===params.get('board'))||scoped.find(p=>p.world===params.get('world'));
+ const worldOverview=game==='kh1fm'&&params.get('overview')==='world'&&!selectedId&&!params.get('board');
+ const scoped=partitions.filter(p=>(!worldOverview||p.world===params.get('world'))&&(!character||character==='all'||p.character===character||p.character.replace(': ',' · ')===character)&&(!scope||p.scope===scope));
+ const partition=selectedPartition||scoped.find(p=>p.id===params.get('board'))||(!worldOverview?scoped.find(p=>p.world===params.get('world')):undefined);
  const cells=partition?.cells||[];
  const selected=cells.find(c=>c.entry.id===selectedId)||cells[0];
  const view=params.get('view')==='notes'||(selectedId&&!params.has('view'))?'notes':'grid';
@@ -114,8 +115,8 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  </div>;
  if(!partition&&game==='kh3'&&params.get('overview')!=='list')return <TreasureGroupedOverview partitions={scoped} checks={checks} header={<><div className="treasure-heading"><h2>Treasures</h2><strong>{done} / {total} {unit}</strong><a href={link({overview:'list'})}>World list</a></div>{controls}</>} open={cell=>select(cell,'grid')}/>;
  if(!partition)return <div className={`treasure-layout treasure-${game} treasure-summary ${single?'treasure-single':''}`} data-testid="treasure-summary">
-   <section className="treasure-leaf treasure-overview">{game==='kh3'&&<a href={link({overview:undefined})}>Grouped overview ›</a>}<div className="treasure-heading"><h2>{title}</h2>{total>0&&<span>{done} / {total} {unit}</span>}</div>{controls}
-   {game==='kh1fm'&&<a className="treasure-collection-shortcut" href="#/kh1fm/treasures?list=postcards">Postcard collection ›</a>}
+   <section className="treasure-leaf treasure-overview">{game==='kh3'&&<a href={link({overview:undefined})}>Grouped overview ›</a>}<div className="treasure-heading"><h2>{worldOverview?params.get('world')+' · Treasures':title}</h2>{total>0&&<span>{done} / {total} {unit}</span>}</div>{controls}
+   {game==='kh1fm'&&!worldOverview&&<a className="treasure-collection-shortcut" href="#/kh1fm/treasures?list=postcards">Postcard collection ›</a>}
    <div className="treasure-worlds" ref={summaryRef}>{scoped.slice(summaryPage*summaryCapacity,(summaryPage+1)*summaryCapacity).map(p=><a key={p.id} href={link({board:p.id,world:p.world,character:p.character,scope:p.scope,entry:p.cells[0].entry.id,view:'grid',page:undefined})}><span>{p.world}<small>{[p.character,scopeLabel(p.scope),p.group].filter(Boolean).join(' · ')}</small></span><strong>{p.cells.filter(c=>checks[c.entry.id]).length} / {p.cells.length}</strong></a>)}</div>
    {!scoped.length&&<p>No treasure collection applies to this selection.</p>}
    <nav className="treasure-pagination" aria-label="Treasure world pages"><a aria-disabled={summaryPage===0} href={summaryPage?link({page:String(summaryPage-1)}):undefined}>‹</a><span>Worlds {summaryPage+1} / {Math.max(1,Math.ceil(scoped.length/summaryCapacity))}</span><a aria-disabled={(summaryPage+1)*summaryCapacity>=scoped.length} href={(summaryPage+1)*summaryCapacity<scoped.length?link({page:String(summaryPage+1)}):undefined}>›</a></nav>
@@ -123,7 +124,7 @@ export function TreasureBoard({game,route,entries,checks,ready,save,renderDetail
  </div>;
  return <div className={`treasure-layout treasure-${game} treasure-view-${view} ${single?'treasure-single':''}`} data-testid="treasure-board" data-partition={partition.id}>
  <section className="treasure-leaf treasure-grid-leaf" aria-label="Treasure grid">
-   <div className="treasure-heading"><h2>{partition.world}</h2>{worldFilters&&<button className="treasure-compact-filter" aria-label="Find & filter" aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Filter</button>}<a href={link({world:undefined,board:undefined,entry:undefined,view:undefined,page:undefined,q:undefined,area:undefined,group:undefined})} aria-label={game==='kh1fm'?'Back to Worlds':'All treasure worlds'}>{game==='kh1fm'?'‹ Worlds':'Worlds'}</a></div>
+   <div className="treasure-heading"><h2>{partition.world}</h2>{worldFilters&&<button className="treasure-compact-filter" aria-label="Find & filter" aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Filter</button>}<a href={link({world:params.get('fromWorld')||undefined,overview:params.get('fromWorld')?'world':undefined,board:undefined,entry:undefined,view:undefined,page:undefined,q:undefined,area:undefined,group:undefined})} aria-label={game==='kh1fm'?'Back to Worlds':'All treasure worlds'}>{game==='kh1fm'?'‹ Worlds':'Worlds'}</a></div>
    <div className="treasure-caption"><span>{[partition.character,scopeLabel(partition.scope),partition.group].filter(Boolean).join(' · ')}</span><strong data-testid="treasure-count">{cells.filter(c=>checks[c.entry.id]).length} / {cells.length} {unit}</strong></div>
    {worldFilters&&<div className="treasure-toolbar"><button aria-expanded={filtersOpen} aria-controls="treasure-filters" onClick={()=>setFiltersOpen(!filtersOpen)}>Find & filter</button><span>{matches.length} matches</span><button disabled={!matches.length} aria-label="Previous matching treasure" onClick={()=>moveMatch(-1)}>‹ Match</button><button disabled={!matches.length} aria-label="Next matching treasure" onClick={()=>moveMatch(1)}>Match ›</button></div>}
    {worldFilters&&filtersOpen&&<form id="treasure-filters" className="treasure-filters" onSubmit={e=>{e.preventDefault();go({q:draft});setFiltersOpen(false);}}>

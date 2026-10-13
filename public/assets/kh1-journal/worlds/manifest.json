@@ -1,0 +1,87 @@
+{
+  "creator": "Televo",
+  "archive": "Kingdom Hearts Re:Collection",
+  "revision": "3a712e83ecbb95e871109a52396d3fda8e7cc67a",
+  "repository": "https://github.com/Televo/kingdom-hearts-recollection",
+  "imported": "2026-10-13",
+  "assets": [
+    {
+      "world": "Destiny Islands",
+      "file": "destiny-islands.png",
+      "sourcePath": "Detailed/Worlds/Destiny Islands.png",
+      "sha256": "cca31a7b9c30fd72e7ab4b12f38b0bcf2008825f46f9de79ef20886598e0bbf5"
+    },
+    {
+      "world": "Traverse Town",
+      "file": "traverse-town.png",
+      "sourcePath": "Detailed/Worlds/Traverse Town KH1.png",
+      "sha256": "494e5fe0b6d6d3422f43521de51cdcee773ee03020b9a57a1984a8b09960dd85"
+    },
+    {
+      "world": "Wonderland",
+      "file": "wonderland.png",
+      "sourcePath": "Detailed/Worlds/Wonderland.png",
+      "sha256": "8a68fbe6f16d7549d0cba124012a84ad3af765c09e12629a509d9bf55c316cf1"
+    },
+    {
+      "world": "Olympus Coliseum",
+      "file": "olympus-coliseum.png",
+      "sourcePath": "Detailed/Worlds/Olympus Coliseum KH1.png",
+      "sha256": "a6aa193604b21c424eb8535375f78148538d66d69dc3a1c4165d8e94e30fcc0e"
+    },
+    {
+      "world": "Deep Jungle",
+      "file": "deep-jungle.png",
+      "sourcePath": "Detailed/Worlds/Deep Jungle.png",
+      "sha256": "8a32326fdebdc9eb964b3a199b188bc51d5d4953cac4b30458bed31f9d2c8a90"
+    },
+    {
+      "world": "Agrabah",
+      "file": "agrabah.png",
+      "sourcePath": "Detailed/Worlds/Agrabah KH1.png",
+      "sha256": "6e3fa4a0e107d6f5a634778be9a031a53b13a2ff34f19c426b2379f23d471f78"
+    },
+    {
+      "world": "Monstro",
+      "file": "monstro.png",
+      "sourcePath": "Detailed/Worlds/Monstro.png",
+      "sha256": "ba8a608bd379332ba48ddaa0c49f7138cda6556e7aaa5179a043a6e9caed1847"
+    },
+    {
+      "world": "Atlantica",
+      "file": "atlantica.png",
+      "sourcePath": "Detailed/Worlds/Atlantica KH1.png",
+      "sha256": "804077408a3cb3d2197df51eb941f127a4d02621dffcc28b08b19af89c084957"
+    },
+    {
+      "world": "Halloween Town",
+      "file": "halloween-town.png",
+      "sourcePath": "Detailed/Worlds/Halloween Town KH1.png",
+      "sha256": "e2472233c83762fac7bd4e829f73d5c47997f2550e067724de804c642532b99f"
+    },
+    {
+      "world": "Neverland",
+      "file": "neverland.png",
+      "sourcePath": "Detailed/Worlds/Neverland KH1.png",
+      "sha256": "bed922c2515a966fc21143e3c9007452677b28565d67aa32c29e8c79e760cc46"
+    },
+    {
+      "world": "Hollow Bastion",
+      "file": "hollow-bastion.png",
+      "sourcePath": "Detailed/Worlds/Hollow Bastion KH1.png",
+      "sha256": "eaacd28832b8ac399b99565886e11ace4d1f805f7fbb12ff66ec367fbb4c0e27"
+    },
+    {
+      "world": "End of the World",
+      "file": "end-of-the-world.png",
+      "sourcePath": "Detailed/Worlds/End of the World.png",
+      "sha256": "75ea4b11139ae55070ab7a3af2071f261762b5c55ddf6439dd49dd4cb0b80840"
+    },
+    {
+      "world": "100 Acre Wood",
+      "file": "100-acre-wood.png",
+      "sourcePath": "Detailed/Worlds/100 Acre Wood KH1.png",
+      "sha256": "084c32403c216190f6af8c3a3e99fd1f04148769cdabf8c7e518694f9600039c"
+    }
+  ]
+}
