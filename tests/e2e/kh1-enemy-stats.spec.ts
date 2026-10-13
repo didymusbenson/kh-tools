@@ -26,6 +26,12 @@ for(const width of [undefined,320,844]) {
         return [...range.getClientRects()].map((_,index)=>`${element.getAttribute('data-stat-key')}:line:${index}`);
       }));
       while(true){
+        const headerless=await notes.evaluate(root=>{
+          const window=root.querySelector('.kh1-note-window')!.getBoundingClientRect();
+          const inside=(box:DOMRect)=>box.left>=window.left-1&&box.right<=window.right+1&&box.top>=window.top-1&&box.bottom<=window.bottom+1;
+          return [...root.querySelectorAll('tbody tr')].filter(row=>inside(row.getBoundingClientRect())&&!inside(row.closest('table')!.querySelector('thead')!.getBoundingClientRect())).map(row=>row.textContent);
+        });
+        expect(headerless,`${slug}: visible table rows must retain their column headings`).toEqual([]);
         await page.waitForTimeout(40);
         for(const key of await notes.evaluate(root=>{
           const window=root.querySelector('.kh1-note-window')!.getBoundingClientRect();
