@@ -126,7 +126,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     document.title=`${title} · KH1FM Journal`;
     const frame=requestAnimationFrame(()=>{
       if(treasureMode)return;
-      if(!entry&&lastEntry.current){const link=main.current?.querySelector<HTMLAnchorElement>(`[data-record-id="${CSS.escape(lastEntry.current)}"]`);if(link){link.focus();return;}}
+      if(!entry&&lastEntry.current){const link=main.current?.querySelector<HTMLAnchorElement>(`[data-record-id="${CSS.escape(lastEntry.current)}"]`);if(link){link.focus();return;}if(worldDetail){const previous=data.entries.find(e=>e.id===lastEntry.current);const categoryLink=previous?main.current?.querySelector<HTMLAnchorElement>(`[data-world-category="${kh1CategoryFor(previous).id}"]`):null;if(categoryLink){categoryLink.focus();return;}}}
       window.scrollTo({top:0,behavior:"instant"});
       main.current?.focus({preventScroll:true});
     });

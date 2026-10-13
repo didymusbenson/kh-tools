@@ -7,16 +7,20 @@ import { expectKh1Records, kh1Record, showKh1Overview } from "./native-collectio
 const data: GameData = JSON.parse(readFileSync("public/data/kh1fm.json", "utf8"));
 const entry = data.entries.find(item => item.category === "trinity" && item.checkable)!;
 
-test("world hub opens a complete world-scoped record index", async ({ page }) => {
+test("world hub opens categories leading to a complete world-scoped record index", async ({ page }) => {
   await page.goto("./#/kh1fm/worlds");
   // The native heading includes a decorative CSS numeral in its accessible name.
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Worlds");
   await page.locator(`a[href="#/kh1fm/worlds/${encodeURIComponent(entry.world!)}"]`).first().click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(entry.world!);
   const expected = data.entries.filter(item => item.world === entry.world);
-  await expectKh1Records(page, expected.map(item => item.id));
+  await expect(page.locator(".kh1-world-categories")).toBeVisible();
+  await expect(page.locator(".kh1-index-row")).toHaveCount(0);
+  await page.locator('[data-world-category="trinities"]').click();
+  await expect(page.getByRole("combobox", { name: "Filter by world", exact: true })).toHaveValue(entry.world!);
+  await expectKh1Records(page, expected.filter(item => item.category === "trinity").map(item => item.id));
 
-  // Saved collection links still select the world even though world indexes no longer have shortcut cards.
+  // Saved collection links still select the world independently of its directory.
   await page.goto(`./#/kh1fm/trinities?world=${encodeURIComponent(entry.world!)}`);
   await expect(page.getByRole("combobox", { name: "Filter by world", exact: true })).toHaveValue(entry.world!);
   await expectKh1Records(page, expected.filter(item => item.category === "trinity").map(item => item.id));
@@ -72,8 +76,8 @@ test("contents and legacy world entry routes retain navigation and entry focus",
   await showKh1Overview(page);
   await page.getByRole("link", { name: "‹ Return to index", exact: true }).click();
   expect(new URL(page.url()).hash).toBe(worldRoute);
-  await expect(kh1Record(page, entry.id)).toBeVisible();
-  await expect(kh1Record(page, entry.id)).toBeFocused();
+  await expect(page.locator('[data-world-category="trinities"]')).toBeVisible();
+  await expect(page.locator('[data-world-category="trinities"]')).toBeFocused();
 });
 
 test("cover resumes a collection type with its selected world", async ({ page }) => {
