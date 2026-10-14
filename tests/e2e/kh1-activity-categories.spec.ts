@@ -45,15 +45,29 @@ test('old combined deep links open the new section and retain world context', as
 test('Contents links reach each activity section and world links return to their directory', async ({ page }) => {
   for(const [section,title] of [['coliseum','Coliseum'],['gummi','Gummi'],['challenges','Challenges']]) {
     await page.goto('./#/kh1fm/contents');
+    await expect(page.getByRole('heading',{level:1})).toHaveText('Contents');
+    await page.evaluate(async()=>{await document.fonts.ready; await new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));});
     const link = page.locator(`main a[href="#/kh1fm/${section}"]`);
-    while(await link.count() === 0) await page.getByRole('link',{name:'Next index page',exact:true}).click();
+    while(await link.count() === 0) {
+      const first = page.locator('.kh1-index > a').first();
+      const previous = await first.getAttribute('href');
+      await page.getByRole('link',{name:'Next index page',exact:true}).click();
+      await expect(first).not.toHaveAttribute('href',previous!);
+    }
     await link.click();
     await expect(page.getByRole('heading',{level:1})).toHaveText(title);
   }
   for(const [world,section] of [['Olympus Coliseum','coliseum'],['Traverse Town','gummi'],['Destiny Islands','challenges']]) {
     await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(world)}`);
+    await expect(page.getByRole('heading',{level:1})).toHaveText(world);
+    await page.evaluate(async()=>{await document.fonts.ready; await new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));});
     const link = page.locator(`[data-world-category="${section}"]`);
-    while(await link.count() === 0) await page.getByRole('link',{name:'Next index page',exact:true}).click();
+    while(await link.count() === 0) {
+      const first = page.locator('.kh1-index > a').first();
+      const previous = await first.getAttribute('href');
+      await page.getByRole('link',{name:'Next index page',exact:true}).click();
+      await expect(first).not.toHaveAttribute('href',previous!);
+    }
     await link.click();
     await expect(page.getByRole('combobox',{name:'Filter by world',exact:true})).toHaveValue(world);
     await expectKh1Records(page,data.entries.filter(e=>kh1ActivitySection(e)===section&&e.world===world).map(e=>e.id));
