@@ -164,7 +164,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
           {entry?<JournalNotePages key={entry.id}>
-            <p className="kh1-entry-category">{entry.world||entry.category.replaceAll('-',' ')}</p><h2>{entryTitle(entry)}</h2>
+            <p className="kh1-entry-category">{entry.world||(kh1GummiPage(entry)?'Gummi Ship':entry.category.replaceAll('-',' '))}</p><h2>{entryTitle(entry)}</h2>
             {entry.area&&<p className="kh1-area">{entry.area}</p>}
             {entry.summary&&<p className="kh1-summary">{entry.summary}</p>}
             {entry.checkable&&<label className="kh1-acquired"><input type="checkbox" checked={!!player.state.checks[entry.id]} disabled={!player.ready} onChange={()=>void toggle(entry)}/>{entry.category==='recipe'?'Crafted':'Acquired'}</label>}

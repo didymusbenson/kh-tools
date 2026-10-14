@@ -89,7 +89,7 @@ for (const collection of collections.slice(1)) {
     await expect(page.getByRole('checkbox', { name: 'Acquired', exact: true })).toBeChecked();
     await page.getByRole('link', { name: '‹ Return to index', exact: true }).click();
     await page.getByRole('combobox', { name: 'Filter by collection status', exact: true }).selectOption('remaining');
-    await expectKh1Records(page, collection.entries.filter(e => e.id !== entry.id).map(e => e.id));
+    await expectKh1Records(page, collection.entries.filter(e => e.checkable && e.id !== entry.id).map(e => e.id));
     await page.goto('./#/kh1fm/gummi');
     await expect(page.locator(`[data-gummi-page="${collection.path}"]`)).toContainText(`1 / ${collection.path === 'missions' ? 30 : 48}`);
   });
@@ -109,11 +109,16 @@ test('legacy Gummi and combined Challenges links normalize every subgroup withou
 test('world categories enter the scoped hub and return through the subgroup to the world', async ({ page }) => {
   const world = 'Traverse Town';
   await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(world)}`);
+  await expect(heading(page)).toHaveText(world);
+  await expect(page.locator('.kh1-world-categories > a').first()).toBeVisible();
+  await page.evaluate(async () => { await document.fonts.ready; await new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))); });
   const link = page.locator('[data-world-category="gummi"]');
   while (!await link.count()) {
     const next = page.getByRole('link', { name: 'Next index page', exact: true });
     await expect(next).toBeVisible();
+    const before = await page.locator('.kh1-world-categories > a').first().getAttribute('href');
     await next.click();
+    await expect(page.locator('.kh1-world-categories > a').first()).not.toHaveAttribute('href', before!);
   }
   await link.click();
   await expect(heading(page)).toHaveText('Gummi Ship');
@@ -137,7 +142,7 @@ test('search and related entries link directly to canonical Gummi subpages', asy
   }
   const target = data.entries.find(e => e.facts?.subtype === 'gummi-mission' && data.entries.some(source => source.relatedIds.includes(e.id)))!;
   const source = data.entries.find(e => e.relatedIds.includes(target.id))!;
-  await page.goto(`./#/kh1fm/entry?entry=${source.id}`);
+  await page.goto(`./#/kh1fm/gummi/parts?entry=${source.id}`);
   await showKh1Notes(page);
   const related = page.locator(`.entry-details-related a[href*="entry=${target.id}"]`);
   await expect(related).toHaveAttribute('href', new RegExp('^#/kh1fm/gummi/missions\\?'));
@@ -145,4 +150,48 @@ test('search and related entries link directly to canonical Gummi subpages', asy
   await related.click();
   await expect(page).toHaveURL(/\/gummi\/missions\?/);
   expect(params(page).get('entry')).toBe(target.id);
+});
+
+test('subpage detail return preserves the selected native index page', async ({ page }) => {
+  for (const collection of collections) {
+    await page.goto(`./#/kh1fm/gummi/${collection.path}`);
+    await page.getByRole('link', { name: 'Next index page', exact: true }).click();
+    const first = page.locator('.kh1-index a[data-record-id]').first();
+    await expect(first).toBeVisible();
+    await page.evaluate(async () => { await document.fonts.ready; await new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))); });
+    const id = (await first.getAttribute('data-record-id'))!;
+    const indexHash = new URL(page.url()).hash;
+    await first.click();
+    await expect(page.locator('.kh1-entry-spread')).toBeVisible();
+    const overview = page.getByRole('button', { name: 'Overview', exact: true });
+    if (await overview.isVisible()) await overview.click();
+    await page.getByRole('link', { name: '‹ Return to index', exact: true }).click();
+    await expect.poll(() => new URL(page.url()).hash).toBe(indexHash);
+    await expect(kh1Record(page, id)).toBeVisible();
+    await page.getByRole('link', { name: '‹ Back', exact: true }).click();
+    await expect(heading(page)).toHaveText('Gummi Ship');
+    expect(params(page).has('page')).toBe(false);
+  }
+});
+
+test('Gummi pages retain readable first-page geometry', async ({ page }) => {
+  for (const path of ['', '/parts', '/missions']) {
+    await page.goto(`./#/kh1fm/gummi${path}`);
+    await expect(page.locator('.kh1-index a').first()).toBeVisible();
+    await page.evaluate(async () => { await document.fonts.ready; await new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))); });
+    await page.screenshot({ path: test.info().outputPath(`gummi-${path.slice(1) || 'hub'}.png`) });
+    const bounds = await page.locator('.kh1-index').evaluate(index => {
+      const box = index.getBoundingClientRect();
+      return [...index.querySelectorAll('a')].map(node => {
+        const r = node.getBoundingClientRect();
+        return { left: r.left - box.left, top: r.top - box.top, right: r.right - box.right, bottom: r.bottom - box.bottom };
+      });
+    });
+    for (const row of bounds) {
+      expect(row.left).toBeGreaterThanOrEqual(-1);
+      expect(row.top).toBeGreaterThanOrEqual(-1);
+      expect(row.right).toBeLessThanOrEqual(1);
+      expect(row.bottom).toBeLessThanOrEqual(1);
+    }
+  }
 });
