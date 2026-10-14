@@ -6,6 +6,8 @@ export const kh1Row = (page: Page, id: string) =>
   page.locator(`.kh1-index-row:has(a[data-record-id="${id}"])`);
 
 export async function showKh1Overview(page: Page) {
+  // Reload can finish before React restores the entry and saved-player controls.
+  await expect(page.locator(".kh1-entry-spread .kh1-acquired input")).toBeAttached();
   const overview = page.getByRole("button", { name: "Overview", exact: true });
   if (await overview.isVisible()) await overview.click();
   await expect(page.getByRole("checkbox", { name: "Acquired", exact: true })).toBeVisible();
