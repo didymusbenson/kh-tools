@@ -195,3 +195,14 @@ test('Gummi pages retain readable first-page geometry', async ({ page }) => {
     }
   }
 });
+
+
+test('legacy remaining status never hides reference-only Parts after returning from details', async ({ page }) => {
+  const entry = collections[0].entries[0];
+  await page.goto(`./#/kh1fm/gummi?entry=${entry.id}&status=remaining`);
+  await expect(page).toHaveURL(/\/gummi\/parts\?/);
+  await showKh1Overview(page);
+  await page.getByRole('link', { name: '‹ Return to index', exact: true }).click();
+  expect(params(page).get('status')).toBe('remaining');
+  await expectKh1Records(page, collections[0].entries.map(e => e.id));
+});

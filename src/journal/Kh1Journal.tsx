@@ -103,7 +103,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   if(world&&section!=='worlds')entries=entries.filter(e=>kh1InWorld(e,world));
   if(trinities&&color)entries=entries.filter(e=>trinityColor(e)===color);
   const scopeEntries=entries;
-  if(params.get('status')==='remaining')entries=entries.filter(e=>e.checkable&&!player.state.checks[e.id]);
+  if(params.get('status')==='remaining'&&gummiPage?.id!=='parts')entries=entries.filter(e=>e.checkable&&!player.state.checks[e.id]);
   if(section==='dalmatians')entries.sort((a,b)=>Number(a.facts?.puppyStart||0)-Number(b.facts?.puppyStart||0));
   if(trinities)entries.sort((a,b)=>compareTrinities(a,b,trinitySort));
   const items=index|| (worldIndex?worlds.map(w=>['worlds/'+encodeURIComponent(w),w,'Read this world’s collection notes.']):null);
