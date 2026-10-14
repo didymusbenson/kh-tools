@@ -1,3 +1,4 @@
+import { kh1ActivitySection } from '../../src/domain/kh1Activities';
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import type { GameData } from "../../src/domain/types";
@@ -55,7 +56,7 @@ test("postcard deep links expose every record on each viewport", async ({ page }
 
 test("challenge indexes keep achievements in their own collection", async ({ page }) => {
   await page.goto("./#/kh1fm/challenges");
-  await expectKh1Records(page, data.entries.filter(item => ["cup", "boss", "minigame", "gummi"].includes(item.category)).map(item => item.id));
+  await expectKh1Records(page, data.entries.filter(item => kh1ActivitySection(item) === 'challenges').map(item => item.id));
   await page.goto("./#/kh1fm/achievements");
   await expectKh1Records(page, data.entries.filter(item => item.category === "achievement").map(item => item.id));
 });

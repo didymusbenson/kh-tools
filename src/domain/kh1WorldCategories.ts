@@ -1,3 +1,4 @@
+import { kh1ActivitySection } from './kh1Activities';
 import type { GuideEntry } from './types';
 import { collectibleProgress } from './progress';
 
@@ -9,7 +10,9 @@ export const KH1_WORLD_CATEGORIES: WorldCategory[] = [
   {id:'trinities',title:'Trinities',section:'trinities',categories:['trinity'],description:'Trinity marks and their rewards.'},
   {id:'upgrades',title:'Upgrades',section:'reference',categories:['magic','ability','summon'],description:'Magic, abilities and summons.'},
   {id:'enemies',title:'Heartless / Enemies',section:'bestiary',categories:['enemy'],description:'Enemy encounters, stats and drops. Reference only.'},
-  {id:'challenges',title:'Challenges',section:'challenges',categories:['boss','cup','minigame','gummi'],description:'Bosses, cups, mini-games and Gummi missions.'},
+  {id:'coliseum',title:'Coliseum',section:'coliseum',categories:['cup'],description:'Coliseum cups, training, special matches and rewards.'},
+  {id:'gummi',title:'Gummi',section:'gummi',categories:['gummi'],description:'Gummi missions, blueprints and ship records.'},
+  {id:'challenges',title:'Challenges',section:'challenges',categories:['boss','minigame'],description:'Boss challenges, mini-games and records.'},
   {id:'reports',title:'Ansem’s Reports',section:'ansem-reports',categories:['report'],description:'Report acquisitions.'},
   {id:'dalmatians',title:'Dalmatians',section:'dalmatians',categories:['dalmatian'],description:'Puppy groups; each chest is one collection action.'},
   {id:'torn-pages',title:'Torn Pages',section:'torn-pages',categories:['torn-page'],description:'Pages for Merlin’s book.'},
@@ -31,6 +34,8 @@ export function kh1EntryWorlds(entry: GuideEntry): string[] {
 }
 export function kh1InWorld(entry: GuideEntry, world: string) { return kh1EntryWorlds(entry).includes(world); }
 export function kh1CategoryFor(entry: GuideEntry) {
+  const activity = kh1ActivitySection(entry);
+  if(activity) return KH1_WORLD_CATEGORIES.find(c=>c.id===activity)!;
   if (entry.id.startsWith('kh1fm-postcard-mail-')) return KH1_WORLD_CATEGORIES.find(c=>c.id==='postcards')!;
   return KH1_WORLD_CATEGORIES.find(c=>c.categories.includes(entry.category)) || KH1_WORLD_CATEGORIES.at(-1)!;
 }

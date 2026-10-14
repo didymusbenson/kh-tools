@@ -72,6 +72,7 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 - [First-class synthesis and optional inventory](./content/synthesis-and-inventory.md)
 - [App testing and content validation](./testing-and-content-validation.md)
 
+- [KH1 pagination review — deferred options and pre-split baseline](./ui/kh1-pagination-review-2026-10-14.md)
 - [KH1FM new UI plan — active draft](./ui/kh1fm-new-ui-plan.md)
 - [KH1FM reference images and gaps](./ui/references/kh1fm/README.md)
 - [KH2FM new UI plan and open questions](./ui/kh2fm-new-ui-plan.md)
