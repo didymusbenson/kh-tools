@@ -201,7 +201,9 @@ test('legacy remaining status never hides reference-only Parts after returning f
   const entry = collections[0].entries[0];
   await page.goto(`./#/kh1fm/gummi?entry=${entry.id}&status=remaining`);
   await expect(page).toHaveURL(/\/gummi\/parts\?/);
-  await showKh1Overview(page);
+  await expect(page.locator('.kh1-entry-spread')).toBeVisible();
+  const overview = page.getByRole('button', { name: 'Overview', exact: true });
+  if (await overview.isVisible()) await overview.click();
   await page.getByRole('link', { name: '‹ Return to index', exact: true }).click();
   expect(params(page).get('status')).toBe('remaining');
   await expectKh1Records(page, collections[0].entries.map(e => e.id));
