@@ -11,7 +11,7 @@ import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
 import { EntryDetails } from "./components/EntryDetails";
 import { compareMaterials, materialFamily, materialDropLines, materialDropLocation } from "./domain/materialPresentation";
-import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
+import { cataloguePages, cataloguePageIncludesEntry, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
 import "./ui-polish.css";
 import "./title-screen.css";
@@ -68,7 +68,7 @@ const categories: Record<string, string> = {
 const catalogueIcons: Record<string, IconName> = {
   bestiary: "monster", treasures: "chest", trinities: "trinity",
   dalmatians: "paw", "magic-upgrades": "wand", "torn-pages": "torn-page",
-  "ansem-reports": "scroll", challenges: "cup", achievements: "medal",
+  "ansem-reports": "scroll", coliseum: "cup", gummi: "world", challenges: "medal", achievements: "medal",
 };
 const nav: { id: string; label: string; icon: IconName; chapter: string }[] = [
   {id:"worlds", label:"Worlds", icon:"world", chapter:""},
@@ -434,7 +434,7 @@ function Contents({ data, state, onToggle, world }: Common & {world?:string}) {
   const worlds = overviewEntries.map(e=>e.world!);
   const overview = overviewEntries.find(e=>e.world === world);
   const worldEntries = data.entries.filter(e=>e.world === world);
-  const shortcuts = cataloguePages.map(page=>({page, entries: worldEntries.filter(e=>page.categories.includes(e.category))})).filter(item=>item.entries.length);
+  const shortcuts = cataloguePages.map(page=>({page, entries: worldEntries.filter(e=>cataloguePageIncludesEntry(page,e))})).filter(item=>item.entries.length);
   return <>
     {world && <a href="#/kh1fm/worlds" className="text-back">All worlds</a>}
     <PageTitle title={world || "Worlds"} />
@@ -458,7 +458,7 @@ function Catalogue({data,state,onToggle,page,route}: Common & {page: {id:string;
   const [status,setStatus] = useStoredChoice<string>(`ars-arcanum:${page.id}:status`, "all");
   const queryWorld = new URLSearchParams(route.split("?")[1] || "").get("world");
   useEffect(()=>{ if(queryWorld) setWorld(queryWorld); },[queryWorld]);
-  const entries = data.entries.filter(e=>page.categories.includes(e.category));
+  const entries = data.entries.filter(e=>cataloguePageIncludesEntry(page,e));
   const worldOrder = data.entries.filter(e=>e.category === "guide" && e.id.startsWith("kh1fm-guide-") && e.id.endsWith("-collectibles")).map(e=>e.world!);
   const worlds = uniq([...worldOrder, ...entries.map(e=>e.world || "General")]).filter(w=>entries.some(e=>(e.world || "General") === w));
   const filtered = entries.filter(e=>e.id === focusId || ((world === "all" || (e.world || "General") === world) && ((expanded.has(e.id) && retained.has(e.id)) || status === "all" || (e.checkable && (status === "completed" ? !!state.checks[e.id] : !state.checks[e.id])))));

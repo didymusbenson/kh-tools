@@ -6,7 +6,7 @@ import {hasTreasureBoard,normalizeTreasureRoute} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { GameData, GuideEntry } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
-import { cataloguePages } from '../domain/entryNavigation';
+import { cataloguePages, cataloguePageIncludesEntry, normalizeKh1ActivityRoute } from '../domain/entryNavigation';
 import { collectibleProgress } from '../domain/progress';
 import { TRINITY_COLORS, compareTrinities, trinityColor, trinityTitle, type TrinitySort } from '../domain/trinityPresentation';
 import { groupEntriesByWorld, paginateWorldGroups, groupedEntryTitle } from '../domain/worldGrouping';
@@ -34,7 +34,9 @@ const guideChapters = [
   ['torn-pages','Torn Pages','Find the missing pages of the book.'],
   ['magic-upgrades','Magic','Find every spell upgrade.'],
   ['equipment','Equipment, Items & Abilities','Weapons, accessories, consumables, rare items, abilities and summons.'],
-  ['challenges','Challenges & Gummi','Coliseum cups, optional bosses and Gummi missions.'],
+  ['coliseum','Coliseum','Coliseum cups, training, special matches and rewards.'],
+  ['gummi','Gummi','Gummi missions, blueprints and ship records.'],
+  ['challenges','Challenges','Boss challenges, mini-games and records.'],
   ['achievements','Steam Achievements','Keep track of your completion goals.'],
   ['reference','All Reference Entries','Browse the complete reference collection.'],
 ];
@@ -48,8 +50,8 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   renderTool:(section:string, tab?:string)=>ReactNode; updateNotice:ReactNode;
 }) {
   // Keep saved links to the retired submenu useful.
-  const route=normalizeTreasureRoute('kh1fm',requestedRoute.replace(/^kh1fm\/notes(?:\?.*)?$/, 'kh1fm/contents'));
-  useEffect(()=>{if(requestedRoute.startsWith('kh1fm/notes'))location.replace('#/'+route);},[route,requestedRoute]);
+  const route=normalizeKh1ActivityRoute(normalizeTreasureRoute('kh1fm',requestedRoute.replace(/^kh1fm\/notes(?:\?.*)?$/, 'kh1fm/contents')),data.entries);
+  useEffect(()=>{if(requestedRoute.startsWith('kh1fm/notes')||normalizeKh1ActivityRoute(requestedRoute,data.entries)!==requestedRoute)location.replace('#/'+route);},[route,requestedRoute]);
   const parts=route.split('?')[0].split('/');
   const section=parts[1]||'contents';
   const params=new URLSearchParams(route.split('?')[1]||'');
@@ -82,13 +84,13 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const closed=section==='contents'&&!entry;
   const known=!!titles[section]||section==='entry';
   const worlds=[...new Set(data.entries.filter(e=>e.world).map(e=>e.world!))];
-  const categories=cataloguePages.find(p=>p.id===section)?.categories;
+  const catalogue=cataloguePages.find(p=>p.id===section);
   let entries=data.entries.filter(e=>section==='search'
     ? !!query.trim()&&[e.name,e.world,e.area,e.summary,e.instructions,...(e.aliases||[])].join(' ').toLowerCase().includes(query.trim().toLowerCase())
     : section==='worlds'?e.world===world
     : section==='minigames'?e.category==='minigame'
     : section==='equipment'?['weapon','accessory','item','ability','summon'].includes(e.category)
-    : categories?categories.includes(e.category):section==='reference');
+    : catalogue?cataloguePageIncludesEntry(catalogue,e):section==='reference');
   if(selectedCategory)entries=data.entries.filter(e=>kh1CategoryFor(e).id===selectedCategory.id);
   if(params.get('list')==='postcards')entries=entries.filter(e=>e.category==='postcard');
   const sectionWorlds=[...new Set(entries.flatMap(kh1EntryWorlds))];
