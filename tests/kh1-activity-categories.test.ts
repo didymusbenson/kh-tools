@@ -1,3 +1,4 @@
+import { kh1GummiPage } from '../src/domain/kh1Gummi';
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { cataloguePages, cataloguePageIncludesEntry, entryHref, normalizeKh1ActivityRoute } from '../src/domain/entryNavigation';
@@ -6,15 +7,15 @@ import type { GameData } from '../src/domain/types';
 const data = JSON.parse(readFileSync('public/data/kh1fm.json', 'utf8')) as GameData;
 const sections = ['coliseum', 'gummi', 'challenges'];
 describe('KH1 separate activity categories', () => {
-  it('partitions all 293 original records without changing IDs or orphaning entries', () => {
-    const old = data.entries.filter(e => ['cup', 'gummi', 'boss', 'minigame'].includes(e.category));
+  it('partitions all 293 original records plus four Gummi strategy guides without changing IDs or orphaning entries', () => {
+    const old = data.entries.filter(e => ['cup', 'gummi', 'boss', 'minigame'].includes(e.category) || kh1GummiPage(e));
     const partitions = sections.map(id => data.entries.filter(e => cataloguePageIncludesEntry(cataloguePages.find(p => p.id === id)!,e)));
-    expect(partitions.map(p => p.length)).toEqual([100, 165, 28]);
+    expect(partitions.map(p => p.length)).toEqual([100, 169, 28]);
     expect(partitions.flat().map(e => e.id).sort()).toEqual(old.map(e => e.id).sort());
-    expect(new Set(partitions.flat().map(e => e.id)).size).toBe(293);
+    expect(new Set(partitions.flat().map(e => e.id)).size).toBe(297);
     partitions.forEach((entries, i) => entries.forEach(e => {
       expect(kh1CategoryFor(e).id).toBe(sections[i]);
-      expect(entryHref(e)).toBe(`#/kh1fm/${sections[i]}?entry=${encodeURIComponent(e.id)}`);
+      expect(entryHref(e)).toBe(`#/kh1fm/${sections[i]}${kh1GummiPage(e)?'/'+kh1GummiPage(e):''}?entry=${encodeURIComponent(e.id)}`);
     }));
   });
   it('keeps existing check IDs and counts independently in world categories', () => {
@@ -31,7 +32,7 @@ describe('KH1 separate activity categories', () => {
       const entry = data.entries.find(e => e.category === category && e.world)!;
       const query = new URLSearchParams({entry:entry.id, world:entry.world!, fromWorld:entry.world!, worldCategory:'challenges', status:'remaining', page:'14'});
       const route = normalizeKh1ActivityRoute(`kh1fm/challenges?${query}`, data.entries);
-      expect(route.startsWith(`kh1fm/${section}?`)).toBe(true);
+      expect(route.startsWith(`kh1fm/${section}${kh1GummiPage(entry)?'/'+kh1GummiPage(entry):''}?`)).toBe(true);
       const params = new URLSearchParams(route.split('?')[1]);
       expect(params.get('entry')).toBe(entry.id);
       expect(params.get('world')).toBe(entry.world);

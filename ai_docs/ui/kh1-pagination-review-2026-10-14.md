@@ -27,3 +27,7 @@ Possible direction for later consideration: scrollable lists and detail panels w
 ## Separate category change
 
 The approved priority is to replace the combined category with Coliseum (96 cup records, Ice Titan, Sephiroth, and both Phil’s Training tests: 100 total), Gummi (165 records), and Challenges (20 other mini-games plus 8 other boss records: 28 total). All 293 IDs and their recorded state remain intact. Existing focused links from Challenges to a cup or Gummi entry are routed to the new category, retaining world and collection filters. The Mini-Games shortcut remains available.
+
+## Gummi Ship organization
+
+The Gummi Ship chapter now opens a three-page directory: Parts (80 blocks and 7 tools, reference-only), Missions (30 checkable missions grouped by destination, plus 4 separately labelled build/strategy guides), and Blueprints (48 checkable records). Parts retain visible class headings with a Tools subsection. This is a category split using existing pagination, not a scrolling redesign. All original IDs and checks remain unchanged. Focused legacy Gummi and Challenges links open the matching subpage and preserve world/collection context; search and related links use canonical subpages.

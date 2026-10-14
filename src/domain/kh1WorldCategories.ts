@@ -11,7 +11,7 @@ export const KH1_WORLD_CATEGORIES: WorldCategory[] = [
   {id:'upgrades',title:'Upgrades',section:'reference',categories:['magic','ability','summon'],description:'Magic, abilities and summons.'},
   {id:'enemies',title:'Heartless / Enemies',section:'bestiary',categories:['enemy'],description:'Enemy encounters, stats and drops. Reference only.'},
   {id:'coliseum',title:'Coliseum',section:'coliseum',categories:['cup'],description:'Coliseum cups, training, special matches and rewards.'},
-  {id:'gummi',title:'Gummi',section:'gummi',categories:['gummi'],description:'Gummi missions, blueprints and ship records.'},
+  {id:'gummi',title:'Gummi Ship',section:'gummi',categories:['gummi'],description:'Ship parts, missions and blueprints.'},
   {id:'challenges',title:'Challenges',section:'challenges',categories:['boss','minigame'],description:'Boss challenges, mini-games and records.'},
   {id:'reports',title:'Ansem’s Reports',section:'ansem-reports',categories:['report'],description:'Report acquisitions.'},
   {id:'dalmatians',title:'Dalmatians',section:'dalmatians',categories:['dalmatian'],description:'Puppy groups; each chest is one collection action.'},
