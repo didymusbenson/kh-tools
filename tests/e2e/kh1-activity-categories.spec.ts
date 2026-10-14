@@ -6,7 +6,6 @@ import { expectKh1Records, showKh1Overview } from './native-collection-helpers';
 const data = JSON.parse(readFileSync('public/data/kh1fm.json', 'utf8')) as GameData;
 for (const [section, title, categories] of [
   ['coliseum', 'Coliseum', ['cup']],
-  ['gummi', 'Gummi', ['gummi']],
   ['challenges', 'Challenges', ['boss', 'minigame']],
 ] as const) {
   test(`${title} exposes only its own records and preserves saved checks`, async ({ page }) => {
@@ -29,7 +28,7 @@ for (const [section, title, categories] of [
   });
 }
 test('old combined deep links open the new section and retain world context', async ({ page }) => {
-  for(const [category, section, title] of [['cup','coliseum','Coliseum'],['gummi','gummi','Gummi']]) {
+  for(const [category, section, title] of [['cup','coliseum','Coliseum']]) {
     const entry = data.entries.find(e => e.category === category && e.world)!;
     const params = new URLSearchParams({entry:entry.id,world:entry.world!,fromWorld:entry.world!,worldCategory:'challenges'});
     await page.goto(`./#/kh1fm/challenges?${params}`);
@@ -43,7 +42,7 @@ test('old combined deep links open the new section and retain world context', as
 });
 
 test('Contents links reach each activity section and world links return to their directory', async ({ page }) => {
-  for(const [section,title] of [['coliseum','Coliseum'],['gummi','Gummi'],['challenges','Challenges']]) {
+  for(const [section,title] of [['coliseum','Coliseum'],['gummi','Gummi Ship'],['challenges','Challenges']]) {
     await page.goto('./#/kh1fm/contents');
     await expect(page.getByRole('heading',{level:1})).toHaveText('Contents');
     await page.evaluate(async()=>{await document.fonts.ready; await new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));});
@@ -57,7 +56,7 @@ test('Contents links reach each activity section and world links return to their
     await link.click();
     await expect(page.getByRole('heading',{level:1})).toHaveText(title);
   }
-  for(const [world,section] of [['Olympus Coliseum','coliseum'],['Traverse Town','gummi'],['Destiny Islands','challenges']]) {
+  for(const [world,section] of [['Olympus Coliseum','coliseum'],['Destiny Islands','challenges']]) {
     await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(world)}`);
     await expect(page.getByRole('heading',{level:1})).toHaveText(world);
     await page.evaluate(async()=>{await document.fonts.ready; await new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));});

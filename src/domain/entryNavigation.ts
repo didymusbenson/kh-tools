@@ -1,3 +1,4 @@
+import { kh1GummiPage } from './kh1Gummi';
 import { kh1ActivitySection } from './kh1Activities';
 import type { GameData, GuideEntry } from "./types";
 
@@ -10,7 +11,7 @@ export const cataloguePages: { id: string; title: string; categories: string[] }
   { id: "torn-pages", title: "Torn Pages", categories: ["torn-page"] },
   { id: "ansem-reports", title: "Ansem Reports", categories: ["report"] },
   { id: "coliseum", title: "Coliseum", categories: ["cup"] },
-  { id: "gummi", title: "Gummi", categories: ["gummi"] },
+  { id: "gummi", title: "Gummi Ship", categories: ["gummi"] },
   { id: "challenges", title: "Challenges", categories: ["boss", "minigame"] },
   { id: "achievements", title: "Steam Achievements", categories: ["achievement"] },
 ];
@@ -23,6 +24,8 @@ export function entryHref(entry: GuideEntry): string {
   if (entry.category === "recipe") return `${base}/synthesis/recipes${query}`;
   if (entry.category === "material") return `${base}/synthesis/materials${query}`;
   if (entry.game !== 'kh1fm' && ['cup', 'boss', 'minigame', 'gummi'].includes(entry.category)) return `${base}/challenges${query}`;
+  const gummiPage = kh1GummiPage(entry);
+  if (gummiPage) return `${base}/gummi/${gummiPage}${query}`;
   const catalogue = cataloguePages.find((page) => cataloguePageIncludesEntry(page, entry));
   if (catalogue) return `${base}/${catalogue.id}${query}`;
   return `${base}/reference${query}`;
@@ -36,7 +39,7 @@ export function resolveEntryHref(data: GameData, id: string): string {
 /** Keep pre-split cup/Gummi bookmarks useful, including their world and status filters. */
 export function normalizeKh1ActivityRoute(route: string, entries: GuideEntry[]): string {
   const [path, query = ''] = route.split('?');
-  if (path !== 'kh1fm/challenges') return route;
+  if (!['kh1fm/challenges', 'kh1fm/gummi'].includes(path)) return route;
   const params = new URLSearchParams(query);
   const entry = entries.find(e => e.id === params.get('entry'));
   const section = entry && kh1ActivitySection(entry);
@@ -44,7 +47,8 @@ export function normalizeKh1ActivityRoute(route: string, entries: GuideEntry[]):
   if (params.get('worldCategory') === 'challenges') params.set('worldCategory', section);
   // The old combined-list page number has no meaning in the smaller category.
   params.delete('page');
-  return `kh1fm/${section}?${params}`;
+  const gummiPage = entry && kh1GummiPage(entry);
+  return `kh1fm/${section}${gummiPage ? '/' + gummiPage : ''}?${params}`;
 }
 
 export function cataloguePageIncludesEntry(page: {id:string; categories:string[]}, entry: GuideEntry): boolean {

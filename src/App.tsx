@@ -61,7 +61,7 @@ const categories: Record<string, string> = {
   cup: "Coliseum cups",
   boss: "Optional bosses",
   minigame: "Minigames",
-  gummi: "Gummi missions",
+  gummi: "Gummi Ship",
   achievement: "Achievements",
   guide: "Field notes",
 };

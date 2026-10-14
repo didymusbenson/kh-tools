@@ -1,3 +1,4 @@
+import { GUMMI_PAGES, kh1GummiPage, gummiEntryTitle, groupGummiEntries } from '../domain/kh1Gummi';
 import { KH1_WORLD_CATEGORIES, kh1WorldCategories, kh1WorldCategoryHref, kh1CategoryFor, kh1InWorld, kh1EntryWorlds } from '../domain/kh1WorldCategories';
 import { JournalSaveStatus } from '../components/JournalSaveStatus';
 import { JournalUtilityBar } from '../components/JournalUtilityBar';
@@ -35,7 +36,7 @@ const guideChapters = [
   ['magic-upgrades','Magic','Find every spell upgrade.'],
   ['equipment','Equipment, Items & Abilities','Weapons, accessories, consumables, rare items, abilities and summons.'],
   ['coliseum','Coliseum','Coliseum cups, training, special matches and rewards.'],
-  ['gummi','Gummi','Gummi missions, blueprints and ship records.'],
+  ['gummi','Gummi Ship','Ship parts, missions and blueprints.'],
   ['challenges','Challenges','Boss challenges, mini-games and records.'],
   ['achievements','Steam Achievements','Keep track of your completion goals.'],
   ['reference','All Reference Entries','Browse the complete reference collection.'],
@@ -60,10 +61,14 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const world=section==='worlds'&&parts[2]?decode(parts[2]):params.get('world')||'';
   const query=params.get('q')||'';
   const trinities=section==='trinities';
-  const grouped=section==='ansem-reports'||section==='dalmatians';
+  const gummi=section==='gummi';
+  const gummiPage=gummi?GUMMI_PAGES.find(p=>p.id===parts[2]):undefined;
+  const gummiHub=gummi&&!parts[2];
+  const gummiGrouped=gummiPage?.id==='parts'||gummiPage?.id==='missions';
+  const grouped=section==='ansem-reports'||section==='dalmatians'||gummiGrouped;
   const color=trinities?params.get('color')||'':'';
   const trinitySort:TrinitySort=params.get('sort')==='world'?'world':params.get('sort')==='location'?'location':'color';
-  const listTitle=(e:GuideEntry)=>trinities?trinityTitle(e):grouped?groupedEntryTitle(e):entryTitle(e);
+  const listTitle=(e:GuideEntry)=>trinities?trinityTitle(e):gummiGrouped?gummiEntryTitle(e):grouped?groupedEntryTitle(e):entryTitle(e);
   const [search,setSearch]=useState(query);
   const [help,setHelp]=useState('Which part of the journal would you like to read?');
   const [notice,setNotice]=useState('');
@@ -82,7 +87,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const treasureMode=hasTreasureBoard('kh1fm',route);
   const tool=section==='progress'&&!entry;
   const closed=section==='contents'&&!entry;
-  const known=!!titles[section]||section==='entry';
+  const known=(!!titles[section]||section==='entry')&&(!gummi||gummiHub||!!gummiPage);
   const worlds=[...new Set(data.entries.filter(e=>e.world).map(e=>e.world!))];
   const catalogue=cataloguePages.find(p=>p.id===section);
   let entries=data.entries.filter(e=>section==='search'
@@ -92,28 +97,31 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     : section==='equipment'?['weapon','accessory','item','ability','summon'].includes(e.category)
     : catalogue?cataloguePageIncludesEntry(catalogue,e):section==='reference');
   if(selectedCategory)entries=data.entries.filter(e=>kh1CategoryFor(e).id===selectedCategory.id);
+  if(gummiPage)entries=entries.filter(e=>kh1GummiPage(e)===gummiPage.id);
   if(params.get('list')==='postcards')entries=entries.filter(e=>e.category==='postcard');
   const sectionWorlds=[...new Set(entries.flatMap(kh1EntryWorlds))];
   if(world&&section!=='worlds')entries=entries.filter(e=>kh1InWorld(e,world));
   if(trinities&&color)entries=entries.filter(e=>trinityColor(e)===color);
   const scopeEntries=entries;
-  if(params.get('status')==='remaining')entries=entries.filter(e=>e.checkable&&!player.state.checks[e.id]);
+  if(params.get('status')==='remaining'&&gummiPage?.id!=='parts')entries=entries.filter(e=>e.checkable&&!player.state.checks[e.id]);
   if(section==='dalmatians')entries.sort((a,b)=>Number(a.facts?.puppyStart||0)-Number(b.facts?.puppyStart||0));
   if(trinities)entries.sort((a,b)=>compareTrinities(a,b,trinitySort));
   const items=index|| (worldIndex?worlds.map(w=>['worlds/'+encodeURIComponent(w),w,'Read this world’s collection notes.']):null);
-  const total=worldDetail?worldCategories.length:items?.length??entries.length;
-  const worldPages=grouped?paginateWorldGroups(groupEntriesByWorld(entries),pageSize):[];
+  const gummiPages=GUMMI_PAGES.map(p=>{const members=scopeEntries.filter(e=>kh1GummiPage(e)===p.id);const tracked=members.filter(e=>e.checkable);return {...p, members, total:tracked.length, completed:tracked.filter(e=>player.state.checks[e.id]).length, references:members.length-tracked.length};});
+  const total=gummiHub?gummiPages.length:worldDetail?worldCategories.length:items?.length??entries.length;
+  const worldPages=grouped?paginateWorldGroups(gummiGrouped?groupGummiEntries(entries,gummiPage!.id):groupEntriesByWorld(entries),pageSize):[];
   const pages=Math.max(1,grouped?worldPages.length:Math.ceil(total/pageSize));
   const page=Math.min(pages-1,Math.max(0,Math.floor(Number(params.get('page')))||0));
   const shown=entries.slice(page*pageSize,(page+1)*pageSize);
   const shownGroups=worldPages[page]||[];
-  const title=entry?entryTitle(entry):world||titles[section]||'Entry not found';
+  const sectionTitle=gummiPage?`Gummi Ship · ${gummiPage.title}`:titles[section];
+  const title=entry?entryTitle(entry):gummi?sectionTitle:world||sectionTitle||'Entry not found';
   const listParams=new URLSearchParams(params);listParams.delete('entry');
   const parent=entry?(section==='entry'?'#/kh1fm/contents':href(parts.slice(1).join('/'),listParams)):
-    world&&section==='worlds'?'#/kh1fm/worlds':params.get('fromWorld')?'#/kh1fm/worlds/'+encodeURIComponent(params.get('fromWorld')!):'#/kh1fm/contents';
+    gummiPage?href('gummi',new URLSearchParams([...listParams].filter(([key])=>key!=='page'))):world&&section==='worlds'?'#/kh1fm/worlds':params.get('fromWorld')?'#/kh1fm/worlds/'+encodeURIComponent(params.get('fromWorld')!):'#/kh1fm/contents';
   const setParam=(key:string,value:string)=>{const next=new URLSearchParams(params); next.delete('entry');next.delete('page');value?next.set(key,value):next.delete(key);location.hash=href(parts.slice(1).join('/'),next);};
   const pageLink=(n:number)=>{const next=new URLSearchParams(params);next.set('page',String(n));return href(parts.slice(1).join('/'),next);};
-  function entryLink(e:GuideEntry){const next=new URLSearchParams(params);next.set('entry',e.id);return href(parts.slice(1).join('/'),next);}
+  function entryLink(e:GuideEntry){const next=new URLSearchParams(params);next.set('entry',e.id);const target=kh1GummiPage(e);if(target){next.delete('q');if(!gummiPage||target!==gummiPage.id)next.delete('page');return href('gummi/'+target,next);}return href(parts.slice(1).join('/'),next);}
   function trinityIcon(e:GuideEntry){const color=trinityColor(e);return TRINITY_COLORS.some(c=>c===color)?<img className="kh1-trinity-icon" src={asset+`trinity-${color.toLowerCase()}.png`} alt="" title={`${color} Trinity`}/>:<span className="kh1-trinity-icon-fallback" title={`${color} Trinity`}>?</span>;}
   function renderRow(e:GuideEntry){return <div className="kh1-index-row" key={e.id}>
     <a href={entryLink(e)} data-record-id={e.id} aria-label={trinities?`${trinityTitle(e)} (${trinityColor(e)} Trinity)`:undefined} onFocus={()=>setHelp(e.area||e.summary||'Read this entry.')} onMouseEnter={()=>setHelp(e.area||e.summary||'Read this entry.')}><span className={grouped?'kh1-world-row-label':trinities?'kh1-trinity-row-label':undefined}>{trinities&&trinityIcon(e)}<span>{listTitle(e)}</span>{trinities?null:grouped?(e.category==='dalmatian'&&e.area&&<small>{e.area}</small>):e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>
@@ -145,7 +153,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     <section className="kh1-volume" aria-label="Kingdom Hearts Final Mix journal">
       <header className={`kh1-heading ${world?'kh1-world-context':''}`}>
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>
-        <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span>{help}</span></div><h1>{entry?titles[section]||'Journal entry':title}</h1></div>
+        <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span>{help}</span></div><h1>{entry?sectionTitle||'Journal entry':title}</h1></div>
         <nav className="kh1-utilities" aria-label="Journal tools"><a href="#/kh1fm/search">Search</a><a href="#/kh1fm/progress">Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
       </header>
       <div className="journal-notices">{updateNotice}
@@ -156,7 +164,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
           {entry?<JournalNotePages key={entry.id}>
-            <p className="kh1-entry-category">{entry.world||entry.category.replaceAll('-',' ')}</p><h2>{entryTitle(entry)}</h2>
+            <p className="kh1-entry-category">{entry.world||(kh1GummiPage(entry)?'Gummi Ship':entry.category.replaceAll('-',' '))}</p><h2>{entryTitle(entry)}</h2>
             {entry.area&&<p className="kh1-area">{entry.area}</p>}
             {entry.summary&&<p className="kh1-summary">{entry.summary}</p>}
             {entry.checkable&&<label className="kh1-acquired"><input type="checkbox" checked={!!player.state.checks[entry.id]} disabled={!player.ready} onChange={()=>void toggle(entry)}/>{entry.category==='recipe'?'Crafted':'Acquired'}</label>}
@@ -170,14 +178,16 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         <div className={`kh1-leaf-right kh1-paper ${tool?'kh1-tool-page':''}`}>
           {!player.ready?<p>Opening your saved journal…</p>:focusId&&!entry?<><h2>Entry not found</h2><p>This link does not match a journal entry.</p><a href="#/kh1fm/contents">Return to contents</a></>:!known?<><h2>Page not found</h2><a href="#/kh1fm/contents">Return to contents</a></>:tool?<JournalNotePages>{renderTool(section,parts[2])}</JournalNotePages>:entry?<><h2 className="kh1-detail-heading">Notes</h2><JournalNotePages key={entry.id}><EntryDetails data={data} state={player.state} entry={entry}/></JournalNotePages></>:<>
             {section==='search'&&<form className="kh1-search" onSubmit={e=>{e.preventDefault();setParam('q',search);}}><label htmlFor="kh1-query">Search the journal</label><div><input id="kh1-query" type="search" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Name, place or material"/><button type="submit">Search</button></div></form>}
-            {!worldDetail&&!items&&section!=='search'&&<div className={`kh1-filters ${trinities?'kh1-trinity-filters':''}`}>
+            {!worldDetail&&!items&&!gummiHub&&section!=='search'&&<div className={`kh1-filters ${trinities?'kh1-trinity-filters':''}`}>
               {trinities&&<><label>Sort<select aria-label="Sort Trinity marks" value={trinitySort} onChange={e=>setParam('sort',e.target.value)}><option value="color">Color</option><option value="world">World</option><option value="location">Location</option></select></label><label>Color<select aria-label="Filter by Trinity color" value={color} onChange={e=>setParam('color',e.target.value)}><option value="">All colors</option>{TRINITY_COLORS.map(c=><option key={c}>{c}</option>)}</select></label></>}
-              {section!=='worlds'&&sectionWorlds.length>0&&<label>World<select aria-label="Filter by world" value={world} onChange={e=>setParam('world',e.target.value)}><option value="">All worlds</option>{sectionWorlds.map(w=><option key={w}>{w}</option>)}</select></label>}
-              <label>Show<select aria-label="Filter by collection status" value={params.get('status')||''} onChange={e=>setParam('status',e.target.value)}><option value="">All entries</option><option value="remaining">Uncollected</option></select></label>
+              {section!=='worlds'&&(sectionWorlds.length>0||!!world)&&<label>World<select aria-label="Filter by world" value={world} onChange={e=>setParam('world',e.target.value)}><option value="">All worlds</option>{world&&!sectionWorlds.includes(world)&&<option>{world}</option>}{sectionWorlds.map(w=><option key={w}>{w}</option>)}</select></label>}
+              {gummiPage?.id!=='parts'&&<label>Show<select aria-label="Filter by collection status" value={params.get('status')||''} onChange={e=>setParam('status',e.target.value)}><option value="">All entries</option><option value="remaining">Uncollected</option></select></label>}
             </div>}
+            {gummiHub&&world&&<p className="kh1-collection-count">{world}</p>}
+            {gummiPage&&<p className="kh1-collection-count">{gummiPage.id==='parts'?`${scopeEntries.length} parts & tools · Reference only`:gummiPage.id==='missions'?`${done} / ${count} missions completed · ${scopeEntries.filter(e=>e.category==='guide').length} strategy guides`:`${done} / ${count} blueprints collected`}</p>}
             {collectionScope&&!items&&!worldDetail&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
-            <nav ref={indexRef} className={`kh1-index ${trinities?'kh1-trinity-index':''} ${grouped?'kh1-world-index':''} ${worldDetail?'kh1-world-categories':''}`} aria-label={title+' index'}>
-              {worldDetail?worldCategories.slice(page*pageSize,(page+1)*pageSize).map(category=><a key={category.id} data-world-category={category.id} data-complete={category.complete} href={kh1WorldCategoryHref(category,world)} onFocus={()=>setHelp(category.description)} onMouseEnter={()=>setHelp(category.description)}><span className="kh1-world-category-name">{category.title}</span><span className="kh1-world-category-progress">{category.total?<><span className="kh1-category-check" aria-label={category.complete?'Complete':'Incomplete'}>{category.complete?'✓':'□'}</span><span>{category.completed} / {category.total}{category.references>0&&<small>+ {category.references} reference{category.references===1?'':'s'}</small>}</span></>:<span>{category.references?`${category.references} reference${category.references===1?'':'s'}`:'0 items'}</span>}<span aria-hidden="true">›</span></span></a>):items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):grouped?shownGroups.map(group=><section className="kh1-world-group" data-world={group.world} key={group.world} aria-label={group.world}>
+            <nav ref={indexRef} className={`kh1-index ${trinities?'kh1-trinity-index':''} ${grouped?'kh1-world-index':''} ${worldDetail||gummiHub?'kh1-world-categories':''}`} aria-label={title+' index'}>
+              {gummiHub?gummiPages.slice(page*pageSize,(page+1)*pageSize).map(p=><a key={p.id} data-gummi-page={p.id} href={href('gummi/'+p.id,new URLSearchParams([...listParams].filter(([key])=>key!=='page'&&(p.id!=='parts'||key!=='status'))))} onFocus={()=>setHelp(p.description)} onMouseEnter={()=>setHelp(p.description)}><span className="kh1-world-category-name">{p.title}</span><span className="kh1-world-category-progress">{p.total?<><span className="kh1-category-check" aria-label={p.completed===p.total?'Complete':'Incomplete'}>{p.completed===p.total?'✓':'□'}</span><span>{p.completed} / {p.total}{p.references>0&&<small>+ {p.references} guides</small>}</span></>:<span>{p.references} reference{p.references===1?'':'s'}</span>}<span aria-hidden="true">›</span></span></a>):worldDetail?worldCategories.slice(page*pageSize,(page+1)*pageSize).map(category=><a key={category.id} data-world-category={category.id} data-complete={category.complete} href={kh1WorldCategoryHref(category,world)} onFocus={()=>setHelp(category.description)} onMouseEnter={()=>setHelp(category.description)}><span className="kh1-world-category-name">{category.title}</span><span className="kh1-world-category-progress">{category.total?<><span className="kh1-category-check" aria-label={category.complete?'Complete':'Incomplete'}>{category.complete?'✓':'□'}</span><span>{category.completed} / {category.total}{category.references>0&&<small>+ {category.references} reference{category.references===1?'':'s'}</small>}</span></>:<span>{category.references?`${category.references} reference${category.references===1?'':'s'}`:'0 items'}</span>}<span aria-hidden="true">›</span></span></a>):items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):grouped?shownGroups.map(group=><section className="kh1-world-group" data-world={group.world} key={group.world} aria-label={group.world}>
                 <h2>{group.world}</h2>{group.entries.map(renderRow)}
               </section>):shown.map(renderRow)}
               {grouped&&<div className="kh1-world-measure" aria-hidden="true">{scopeEntries.map(e=><div className="kh1-index-row" key={e.id}><span className="kh1-world-row-label"><span>{listTitle(e)}</span>{e.category==='dalmatian'&&e.area&&<small>{e.area}</small>}</span><span className="kh1-world-measure-check"/></div>)}</div>}
