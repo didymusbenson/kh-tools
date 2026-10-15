@@ -63,6 +63,24 @@ jobs:
       - name: Install Chromium for browser checks
         run: npx playwright install --with-deps chromium
 
+      - name: Exercise KH1 chrome regressions first
+        run: >-
+          npx playwright test
+          tests/e2e/kh1-chrome-navigation.spec.ts
+          tests/e2e/kh1-frame-geometry.spec.ts
+          tests/e2e/kh1-treasure-layout.spec.ts
+          tests/e2e/farming-itinerary.spec.ts
+          --grep "KH1 native frame|KH1 section marker|Search utility|search to Gummi|utilities restore|synthesis item|guidance is|KH1 phone treasures|kh1fm source tabs and both"
+
+      - name: Retain KH1 frame reference captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kh1-frame-reference-captures
+          path: test-results/**/kh1-frame-*.png
+          if-no-files-found: ignore
+          retention-days: 7
+
       - name: Exercise desktop and mobile journal flows
         # Heavy model download/inference acceptance remains an explicit, separate check.
         run: npm run test:e2e
@@ -75,14 +93,5 @@ jobs:
           path: |
             test-results/
             playwright-report/
-          if-no-files-found: ignore
-          retention-days: 7
-
-      - name: Retain KH1 frame reference captures
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: kh1-frame-reference-captures
-          path: test-results/**/kh1-frame-*.png
           if-no-files-found: ignore
           retention-days: 7

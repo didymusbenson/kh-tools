@@ -23,10 +23,14 @@ export function DataJiminy({
   data,
   state,
   compactLauncher = false,
+  requestOpen = 0,
+  externalReturnFocus,
 }: {
   data: GameData;
   state: PlayerState;
   compactLauncher?: boolean;
+  requestOpen?: number;
+  externalReturnFocus?: () => HTMLElement | null | undefined;
 }) {
   const [open, setOpen] = useState(false),
     [question, setQuestion] = useState(""),
@@ -40,7 +44,11 @@ export function DataJiminy({
     questionRef = useRef<HTMLTextAreaElement>(null),
     threadRef = useRef<HTMLDivElement>(null),
     alive = useRef(true),
-    serial = useRef(0);
+    serial = useRef(0),
+    externalLaunch = useRef(false);
+  useEffect(() => {
+    if (requestOpen > 0) { externalLaunch.current = true; setOpen(true); }
+  }, [requestOpen]);
   useEffect(() => {
     alive.current = true;
     jiminy.activateGame("kh1fm");
@@ -59,7 +67,7 @@ export function DataJiminy({
       void jiminy.restore(data);
     } else if (dialog.current?.open) {
       dialog.current.close();
-      launcher.current?.focus();
+      (externalLaunch.current ? externalReturnFocus?.() || launcher.current : launcher.current)?.focus();
     }
   }, [open]);
   useEffect(() => {
@@ -125,7 +133,7 @@ export function DataJiminy({
           className="jiminy-bubble"
           aria-label="Open Data Jiminy for Kingdom Hearts Final Mix"
           aria-haspopup="dialog"
-          onClick={() => setOpen(true)}
+          onClick={() => { externalLaunch.current = false; setOpen(true); }}
         >
           {compactLauncher ? "Ask Jiminy" : "…"}
         </button>

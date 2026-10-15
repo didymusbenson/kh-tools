@@ -57,7 +57,14 @@ test('guidance is associated with its entry and resets when focus leaves the ind
 
 test('Search utility reopens the search form from a search-result detail', async ({page}) => {
   await page.goto('./#/kh1fm/search?q=Shadow');
-  await page.locator('.kh1-index a[data-record-id]').first().click();
+  const shadow=page.locator('.kh1-index a[data-record-id="kh1fm-enemy-shadow"]');
+  await expect(page.locator('.kh1-index a[data-record-id]').first()).toBeVisible();
+  while(!await shadow.count()){
+    const before=new URL(page.url()).hash;
+    await page.getByRole('link',{name:'Next index page',exact:true}).click();
+    await expect.poll(()=>new URL(page.url()).hash).not.toBe(before);
+  }
+  await shadow.click();
   await expect(page.locator('.kh1-entry-spread')).toBeVisible();
   const origin=new URL(page.url()).hash;
   await page.locator('.kh1-utilities').getByRole('link',{name:'Search',exact:true}).click();

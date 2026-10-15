@@ -73,6 +73,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const [search,setSearch]=useState(query);
   const [help,setHelp]=useState('');
   const [notice,setNotice]=useState('');
+  const [jiminyRequest,setJiminyRequest]=useState(0);
   const main=useRef<HTMLElement>(null);
   const lastEntry=useRef<string|null>(null);
   const index=section==='contents'?contents:null;
@@ -156,7 +157,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       <header className={`kh1-heading ${world?'kh1-world-context':''}`}>
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>
         <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span id="kh1-context-help">{help||defaultHelp}</span></div><h1>{entry?sectionTitle||'Journal entry':title}</h1></div>
-        <nav className="kh1-utilities" aria-label="Journal tools"><a href={section==='search'&&!focusId?'#/'+route:kh1WithOrigin("#/kh1fm/search",route)}>Search</a><a href={section==='progress'&&!focusId?'#/'+route:kh1WithOrigin("#/kh1fm/progress",route)}>Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
+        <nav className="kh1-utilities" aria-label="Journal tools"><a href={section==='search'&&!focusId?'#/'+route:kh1WithOrigin("#/kh1fm/search",route)}>Search</a><a href={section==='progress'&&!focusId?'#/'+route:kh1WithOrigin("#/kh1fm/progress",route)}>Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher requestOpen={jiminyRequest} externalReturnFocus={()=>main.current?.closest('.kh1-volume')?.querySelector<HTMLButtonElement>('.journal-tools-toggle')}/></nav>
       </header>
       <div className="journal-notices">{updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}</div>
@@ -201,7 +202,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         </div>
         </>}
       </main>
-      <footer className="kh1-bottom">{section!=='contents'&&<a className="kh1-back" href={parent}>‹ {parentLabel}</a>}<span>{entry?entryTitle(entry):worldDetail?world:items?'Journal · '+title:count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search the journal':title}</span>{section!=='contents'&&parent!=='#/kh1fm/contents'&&<a href="#/kh1fm/contents">Contents</a>}<JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX">{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
+      <footer className="kh1-bottom">{section!=='contents'&&<a className="kh1-back" href={parent}>‹ {parentLabel}</a>}<span>{entry?entryTitle(entry):worldDetail?world:items?'Journal · '+title:count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search the journal':title}</span>{section!=='contents'&&parent!=='#/kh1fm/contents'&&<a href="#/kh1fm/contents">Contents</a>}<JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX" tools={<div className="kh1-compact-tools"><a href={kh1WithOrigin('#/kh1fm/search',route)}>Search</a><a href={kh1WithOrigin('#/kh1fm/progress',route)}>Save & Settings</a><button onClick={()=>setJiminyRequest(n=>n+1)} aria-haspopup="dialog">Ask Jiminy</button></div>}>{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
     </section>
     
   </div>;

@@ -28,7 +28,7 @@ for (const viewport of [
   test(`KH1 native frame contains its controls at ${viewport.width}x${viewport.height}`, async ({ page }, testInfo) => {
     test.setTimeout(90_000);
     await page.setViewportSize(viewport);
-    for (const route of ['contents', 'gummi/parts', 'worlds/End%20of%20the%20World', 'synthesis/plan']) {
+    for (const route of ['contents', 'gummi/parts', 'gummi/parts?entry=kh1fm-gummi-part-cure-g', 'worlds/End%20of%20the%20World', 'synthesis/plan']) {
       await page.goto(`./#/kh1fm/${route}`);
       const header = page.locator('.kh1-heading');
       const footer = page.locator('.kh1-bottom');
@@ -39,9 +39,9 @@ for (const viewport of [
         await document.fonts.ready;
         await new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
       });
-      await page.screenshot({path:testInfo.outputPath(`kh1-frame-${route.replaceAll('/', '-')}.png`)});
+      await page.screenshot({path:testInfo.outputPath(`kh1-frame-${route.replace(/[^a-zA-Z0-9-]/g, '-')}.png`)});
       for (const control of await page.locator('.kh1-heading-menu a,.kh1-utilities>a,.kh1-utilities .jiminy-bubble').all()) {
-        await containedControl(control, header);
+        if(await control.isVisible())await containedControl(control, header);
       }
       for (const control of await footer.locator(':scope>a,.journal-tools-toggle').all()) {
         await containedControl(control, footer);
@@ -54,6 +54,23 @@ for (const viewport of [
       expect(footerBounds.y + footerBounds.height).toBeLessThanOrEqual(viewport.height + 1);
       expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(viewport.width);
 
+      if(viewport.width<=1000&&viewport.height<=500){
+        expect(headerBounds.height).toBeLessThanOrEqual(60);
+        expect(footerBounds.height).toBeLessThanOrEqual(32);
+        await expect(page.locator('.kh1-utilities > a').first()).toBeHidden();
+        if(route==='gummi/parts'&&viewport.width===844)expect(await page.locator('.kh1-index a[data-record-id]').count()).toBeGreaterThanOrEqual(3);
+        if(route==='contents'){
+          const tools=footer.getByRole('button',{name:'Tools',exact:true});
+          await tools.click();
+          const utilities=page.locator('.kh1-compact-tools');
+          await expect(utilities.getByRole('link',{name:'Search',exact:true})).toBeVisible();
+          await expect(utilities.getByRole('link',{name:'Save & Settings',exact:true})).toBeVisible();
+          await utilities.getByRole('button',{name:'Ask Jiminy',exact:true}).click();
+          await expect(page.locator('.jiminy-dialog')).toBeVisible();
+          await page.getByRole('button',{name:'Close Data Jiminy',exact:true}).click();
+          await expect(tools).toBeFocused();
+        }
+      }
       if (viewport.width <= 650 && viewport.height > 500) {
         for (const control of await page.locator('.kh1-utilities>a,.kh1-utilities .jiminy-bubble').all()) {
           expect((await control.boundingBox())!.height).toBeGreaterThanOrEqual(44);
@@ -67,7 +84,7 @@ for (const viewport of [
         expect(headerBounds.height).toBe(106);
         expect(footerBounds.height).toBe(44);
       }
-      if (route !== 'synthesis/plan') await expect(page.locator('.kh1-leaf-picker')).toHaveCount(0);
+      if (route !== 'synthesis/plan'&&!route.includes('?entry=')) await expect(page.locator('.kh1-leaf-picker')).toHaveCount(0);
       if (route === 'worlds/End%20of%20the%20World' && viewport.width <= 650) {
         const title = header.locator('h1');
         await expect(title).toHaveText('End of the World');
