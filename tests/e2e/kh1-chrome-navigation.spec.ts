@@ -59,10 +59,15 @@ test('Search utility reopens the search form from a search-result detail', async
   await page.goto('./#/kh1fm/search?q=Shadow');
   const shadow=page.locator('.kh1-index a[data-record-id="kh1fm-enemy-shadow"]');
   await expect(page.locator('.kh1-index a[data-record-id]').first()).toBeVisible();
+  await page.evaluate(async()=>{await document.fonts.ready;await new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));});
+  const pageCounter=page.locator('.kh1-page-controls > span').nth(1);
   while(!await shadow.count()){
     const before=new URL(page.url()).hash;
+    const beforePage=await pageCounter.innerText();
     await page.getByRole('link',{name:'Next index page',exact:true}).click();
     await expect.poll(()=>new URL(page.url()).hash).not.toBe(before);
+    // Hash navigation finishes before React commits the new index rows.
+    await expect(pageCounter).not.toHaveText(beforePage);
   }
   await shadow.click();
   await expect(page.locator('.kh1-entry-spread')).toBeVisible();

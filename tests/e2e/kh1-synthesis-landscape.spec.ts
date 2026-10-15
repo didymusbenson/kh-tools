@@ -251,6 +251,47 @@ test('KH1 short landscape synthesis keeps unfiltered farming rows reachable at 8
   expect([...seen].sort()).toEqual(ultima.ingredients.map(ingredient => ingredient.itemId).sort());
 });
 
+async function workspaceParity(page: Page) {
+  return page.evaluate(() => {
+    const node = (selector: string) => document.querySelector<HTMLElement>(selector)!;
+    const box = (element: Element) => {
+      const rect = element.getBoundingClientRect();
+      return { x: rect.x, y: rect.y, width: rect.width, height: rect.height, bottom: rect.bottom };
+    };
+    const css = (element: Element, properties: string[]) => {
+      const style = getComputedStyle(element);
+      return Object.fromEntries(properties.map(property => [property, style.getPropertyValue(property)]));
+    };
+    const visibleWithin = (element: Element, container: Element) => {
+      const rect = element.getBoundingClientRect(), bounds = container.getBoundingClientRect();
+      const style = getComputedStyle(element);
+      return style.display !== 'none' && style.visibility !== 'hidden' && rect.width > 0 && rect.height > 0
+        && rect.left >= bounds.left - 1 && rect.right <= bounds.right + 1
+        && rect.top >= bounds.top - 1 && rect.bottom <= bounds.bottom + 1;
+    };
+    const index = node('.kh1-synthesis-index');
+    const tabs = node('.kh1-book-tabs');
+    const search = node('.kh1-filters input[type=search]');
+    const searchLabel = search.closest('label')!.querySelector('span')!;
+    const count = node('.kh1-synthesis-index-footer > .kh1-small');
+    const pager = node('.kh1-synthesis-index .kh1-page-controls');
+    const notePager = node('.kh1-synthesis-detail .kh1-note-pagination');
+    return {
+      header: box(node('.kh1-heading')), book: box(node('.kh1-spread')),
+      indexPadding: css(index, ['padding-top', 'padding-right', 'padding-bottom', 'padding-left']),
+      tabs: box(tabs), tabStyle: css(tabs, ['font-family', 'font-size', 'line-height', 'gap', 'padding', 'margin']),
+      tabLinks: [...tabs.querySelectorAll('a')].map(link => ({ bounds: box(link), styles: css(link, ['font-family', 'font-size', 'line-height', 'padding', 'margin']) })),
+      searchLabelVisible: visibleWithin(searchLabel, index), searchHeight: box(search).height,
+      countVisible: visibleWithin(count, index), countBottom: box(count).bottom,
+      footerBottom: Math.max(box(count).bottom, box(pager).bottom),
+      pagerVisible: visibleWithin(pager, index), pagerStyle: css(pager, ['font-family', 'font-size', 'line-height']),
+      pagerButtonHeights: [...pager.querySelectorAll('a')].map(link => box(link).height),
+      notePagerStyle: css(notePager, ['min-height', 'font-family', 'font-size', 'line-height']),
+      noteButtonHeights: [...notePager.querySelectorAll('button')].map(button => box(button).height),
+    };
+  });
+}
+
 for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 650 }, { width: 844, height: 350 }]) {
   test(`KH1 synthesis comparison captures all workspaces at ${viewport.width}x${viewport.height}`, async ({ page }, testInfo) => {
     await page.setViewportSize(viewport);
@@ -261,8 +302,9 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 650 }
     await expect(page.getByRole('status').filter({ hasText: 'Ingredients added to your farming plan.' })).toBeVisible();
     await settle(page);
 
-    // Capture the three genuine workspaces at identical sizes. This first pass
-    // records differences without imposing visual parity on their distinct data.
+    const samples: { tab: string; leaf: string; metrics: Awaited<ReturnType<typeof workspaceParity>> }[] = [];
+    // Keep every comparison capture before assertions so failures retain all
+    // three workspaces, including their intentionally different functional data.
     for (const tab of ['recipes', 'materials', 'plan'] as const) {
       await page.goto(`./#/kh1fm/synthesis/${tab}`);
       await settle(page);
@@ -299,8 +341,43 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 650 }
           ]));
           return { url: location.href, viewport: { width: innerWidth, height: innerHeight, devicePixelRatio }, nodes };
         });
-        await testInfo.attach(`${name}.json`, { body: JSON.stringify(geometry, null, 2), contentType: 'application/json' });
+        const metrics = await workspaceParity(page);
+        samples.push({ tab, leaf, metrics });
+        await testInfo.attach(`${name}.json`, { body: JSON.stringify({ ...geometry, parityMetrics: metrics }, null, 2), contentType: 'application/json' });
       }
+    }
+    const indexes = samples.filter(sample => sample.leaf === 'index');
+    const baseline = indexes[0].metrics;
+    const equalBox = (actual: Record<string, number>, expected: Record<string, number>, label: string) => {
+      for (const key of Object.keys(expected)) expect(actual[key], `${label}: ${key}`).toBeCloseTo(expected[key], 0);
+    };
+    const indexButtonHeight = indexes.flatMap(sample => sample.metrics.pagerButtonHeights)[0];
+    expect(indexButtonHeight, 'At least one populated index must expose native pagination').toBeDefined();
+    for (const { tab, metrics } of indexes) {
+      equalBox(metrics.header, baseline.header, `${tab} header`);
+      equalBox(metrics.book, baseline.book, `${tab} book`);
+      expect(metrics.indexPadding, `${tab} index padding`).toEqual(baseline.indexPadding);
+      equalBox(metrics.tabs, baseline.tabs, `${tab} workspace tabs`);
+      expect(metrics.tabStyle, `${tab} tab typography and spacing`).toEqual(baseline.tabStyle);
+      expect(metrics.tabLinks).toHaveLength(baseline.tabLinks.length);
+      metrics.tabLinks.forEach((link, index) => {
+        equalBox(link.bounds, baseline.tabLinks[index].bounds, `${tab} tab ${index}`);
+        expect(link.styles).toEqual(baseline.tabLinks[index].styles);
+      });
+      expect(metrics.searchLabelVisible, `${tab} search label remains readable`).toBe(true);
+      expect(metrics.searchHeight, `${tab} search input height`).toBeCloseTo(baseline.searchHeight, 0);
+      expect(metrics.countVisible, `${tab} distinct count remains readable`).toBe(true);
+      expect(metrics.pagerVisible, `${tab} native index pager remains readable`).toBe(true);
+      expect(metrics.countBottom, `${tab} count baseline`).toBeCloseTo(baseline.countBottom, 0);
+      expect(metrics.footerBottom, `${tab} footer bottom`).toBeCloseTo(baseline.footerBottom, 0);
+      expect(metrics.pagerStyle, `${tab} index pager typography`).toEqual(baseline.pagerStyle);
+      for (const height of metrics.pagerButtonHeights) expect(height, `${tab} index page-button height`).toBeCloseTo(indexButtonHeight, 0);
+    }
+    const details = samples.filter(sample => sample.leaf === 'detail');
+    const detailBaseline = details[0].metrics;
+    for (const { tab, metrics } of details) {
+      expect(metrics.notePagerStyle, `${tab} Notes/Route pager minimum height and typography`).toEqual(detailBaseline.notePagerStyle);
+      expect(metrics.noteButtonHeights, `${tab} Notes/Route page-button heights`).toEqual(detailBaseline.noteButtonHeights);
     }
   });
 }

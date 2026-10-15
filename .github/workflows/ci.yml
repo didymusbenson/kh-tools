@@ -90,7 +90,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: kh1-synthesis-reference-captures
-          path: test-results/**/kh1-synthesis-*.png
+          path: |
+            test-results/**/kh1-synthesis-*.png
+            test-results/**/*.json
           if-no-files-found: ignore
           retention-days: 7
 

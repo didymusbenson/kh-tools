@@ -18,3 +18,9 @@ An iPhone landscape capture showed only one recipe per index page and an Ingredi
 
 Local application tests: 323 passed. Production build and committed pack verification passed.
 Browser acceptance uses the GitHub Actions runner because local Chromium process startup is restricted in this executor. The dedicated synthesis regression spec captures realistic 844×350 and 844×390 content viewports plus portrait/desktop references, checks actual readable content rather than frame fit alone, and exercises ingredient pagination and persisted craft/plan actions. CI retains `kh1-synthesis-*.png` alongside the frame captures.
+
+## Cross-workspace mobile consistency
+
+The follow-up review compares Recipes, Materials, and Farming Plan at identical 390×844, 390×650, and 844×350 viewports, including both portrait leaves. Legacy plan-only header, paper margin, inner padding, binding-ring, tab, search-label, count, and pager overrides made the third workspace look like a different notebook. Those exceptions are removed; the native workshop framing now applies to all three. Notes and Route controls share mobile dimensions, and material names use the same compact landscape size as recipe names.
+
+Recipe completion/set controls, material families and stock, and the farming quantity ledger/source tabs remain specific to their jobs. The plan's contextual help now describes editing stock targets and choosing gathering sources. No data calculations or navigation model are changed.
