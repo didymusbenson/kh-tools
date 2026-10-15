@@ -403,3 +403,32 @@
  .kh1-native .kh1-bottom .journal-tools-toggle{min-height:32px}
  .kh1-native .kh1-bottom .journal-tools-panel .kh1-compact-tools{display:flex;flex-direction:column;gap:0}
 }
+
+/* Phone browser chrome leaves less paper than a nominal landscape viewport.
+   Compact only the workshop furniture; the existing measured index and note
+   columns receive the recovered space. Desktop and portrait sizes stay native. */
+@media(min-width:651px) and (max-width:1000px) and (max-height:500px){
+ .kh1-synthesis-spread>.kh1-leaf-left,.kh1-synthesis-spread>.kh1-leaf-right{padding-top:8px;padding-bottom:8px}
+ .kh1-synthesis-spread .kh1-entry-category{display:none}
+ .kh1-synthesis-spread .kh1-book-tabs{flex:none;gap:4px 10px;margin-bottom:4px;padding-bottom:2px;font-size:16px;line-height:1.2}
+ .kh1-synthesis-spread .kh1-book-tabs a{padding:4px 0}
+ .kh1-synthesis-index .kh1-filters{gap:8px;margin-bottom:4px;flex-wrap:nowrap}
+ .kh1-synthesis-index .kh1-filters label{min-width:0;gap:1px;font-size:12px;line-height:1.2}
+ .kh1-synthesis-index .kh1-filters input,.kh1-synthesis-index .kh1-filters select{height:28px;min-height:28px;padding:2px 0}
+ .kh1-synthesis-spread .kh1-book-action{min-height:30px;padding:3px 8px;line-height:1.2}
+ .kh1-synthesis-index .kh1-remaining{min-height:26px;flex:none;margin:0 0 4px;font-size:12px}
+ .kh1-synthesis-index .kh1-page-controls{padding-top:2px;line-height:1.2;font-size:13px}
+ .kh1-synthesis-index .kh1-page-controls a{height:28px;width:36px}
+ .kh1-synthesis-index>.kh1-small{font-size:12px;line-height:1.2;margin:2px 0 0;flex:none}
+ .kh1-synthesis-detail h2{font-size:23px;line-height:1.15;margin-bottom:4px;flex:none}
+ .kh1-synthesis-detail .kh1-acquired{min-height:28px;font-size:17px;flex:none}
+ .kh1-synthesis-detail>.kh1-small{font-size:12px;line-height:1.2;margin:2px 0 5px;flex:none}
+ .kh1-synthesis-detail .kh1-synthesis-notice{min-height:0;padding:2px 0;font-size:12px}
+ .kh1-synthesis-detail .kh1-synthesis-notice:empty{padding:0;height:4px}
+ .kh1-synthesis-detail .kh1-note-pagination{padding-top:2px;font-size:13px}
+ .kh1-synthesis-detail .kh1-note-pagination button{height:28px}
+ .kh1-synthesis-detail .kh1-recipe-notes h3{font-size:17px;line-height:1.2}
+ .kh1-synthesis-detail .kh1-recipe-notes>.kh1-small{font-size:12px;line-height:1.2;margin:2px 0 4px;break-after:avoid}
+ .kh1-synthesis-detail .kh1-recipe-notes ul{break-before:avoid;margin-top:0}
+ .kh1-synthesis-detail .kh1-recipe-notes li:first-child{break-before:avoid}
+}

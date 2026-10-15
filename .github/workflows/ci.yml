@@ -72,12 +72,17 @@ jobs:
           tests/e2e/farming-itinerary.spec.ts
           --grep "KH1 native frame|KH1 section marker|Search utility|search to Gummi|utilities restore|synthesis item|guidance is|KH1 phone treasures|kh1fm source tabs and both"
 
+      - name: Exercise short landscape synthesis content
+        run: npx playwright test tests/e2e/kh1-synthesis-landscape.spec.ts
+
       - name: Retain KH1 frame reference captures
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: kh1-frame-reference-captures
-          path: test-results/**/kh1-frame-*.png
+          path: |
+            test-results/**/kh1-frame-*.png
+            test-results/**/kh1-synthesis-*.png
           if-no-files-found: ignore
           retention-days: 7
 

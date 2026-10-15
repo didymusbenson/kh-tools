@@ -35,7 +35,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
   // A family is an indivisible index unit: resizing or pagination cannot strand
   // a shard on a different page from its gems/stones. IDs and detail links stay canonical.
   const groups = tab==='materials' ? [...new Set(items.map(materialFamily))].map(name=>({name, entries:items.filter(e=>materialFamily(e)===name)})) : [];
-  const {ref:indexRef,capacity:pageSize,anchorId,clearAnchor}=useIndexCapacity(`${tab}:${query}:${set}:${params.has('remaining')}`,tab==='plan'?53:tab==='materials'?44:36,false,route,tab==='materials'?':scope > section > a':undefined);
+  const {ref:indexRef,capacity:pageSize,anchorId,clearAnchor}=useIndexCapacity(`${tab}:${query}:${set}:${params.has('remaining')}`,tab==='plan'?53:tab==='materials'?44:28,false,route,tab==='materials'?':scope > section > a':undefined);
   // Pack complete families into the measured leaf. One extra row pays for each
   // heading; a family taller than the entire leaf stays together and can scroll.
   const familyPages:typeof groups[]=[];
