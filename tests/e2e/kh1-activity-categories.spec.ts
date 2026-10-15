@@ -70,7 +70,7 @@ test('Contents links reach each activity section and world links return to their
     await link.click();
     await expect(page.getByRole('combobox',{name:'Filter by world',exact:true})).toHaveValue(world);
     await expectKh1Records(page,data.entries.filter(e=>kh1ActivitySection(e)===section&&e.world===world).map(e=>e.id));
-    await page.getByRole('link',{name:'‹ Back',exact:true}).click();
+    await page.locator('.kh1-back').click();
     await expect(page.getByRole('heading',{level:1})).toHaveText(world);
     await expect(page.locator('.kh1-world-categories')).toBeVisible();
   }

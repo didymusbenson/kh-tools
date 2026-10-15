@@ -1,3 +1,4 @@
+import { kh1ParentRoute, kh1RouteLabel, kh1WithOrigin } from '../domain/kh1Navigation';
 import { GUMMI_PAGES, kh1GummiPage, gummiEntryTitle, groupGummiEntries } from '../domain/kh1Gummi';
 import { KH1_WORLD_CATEGORIES, kh1WorldCategories, kh1WorldCategoryHref, kh1CategoryFor, kh1InWorld, kh1EntryWorlds } from '../domain/kh1WorldCategories';
 import { JournalSaveStatus } from '../components/JournalSaveStatus';
@@ -56,7 +57,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const parts=route.split('?')[0].split('/');
   const section=parts[1]||'contents';
   const params=new URLSearchParams(route.split('?')[1]||'');
-  const focusId=section==='entry'?decode(parts.slice(2).join('/')):params.get('entry');
+  const focusId=section==='entry'?decode(parts.slice(2).join('/')):params.get('entry')||(section==='synthesis'?params.get('item'):null);
   const entry=focusId?data.entries.find(e=>e.id===focusId):undefined;
   const world=section==='worlds'&&parts[2]?decode(parts[2]):params.get('world')||'';
   const query=params.get('q')||'';
@@ -70,7 +71,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const trinitySort:TrinitySort=params.get('sort')==='world'?'world':params.get('sort')==='location'?'location':'color';
   const listTitle=(e:GuideEntry)=>trinities?trinityTitle(e):gummiGrouped?gummiEntryTitle(e):grouped?groupedEntryTitle(e):entryTitle(e);
   const [search,setSearch]=useState(query);
-  const [help,setHelp]=useState('Which part of the journal would you like to read?');
+  const [help,setHelp]=useState('');
   const [notice,setNotice]=useState('');
   const main=useRef<HTMLElement>(null);
   const lastEntry=useRef<string|null>(null);
@@ -117,21 +118,22 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
   const sectionTitle=gummiPage?`Gummi Ship · ${gummiPage.title}`:titles[section];
   const title=entry?entryTitle(entry):gummi?sectionTitle:world||sectionTitle||'Entry not found';
   const listParams=new URLSearchParams(params);listParams.delete('entry');
-  const parent=entry?(section==='entry'?'#/kh1fm/contents':href(parts.slice(1).join('/'),listParams)):
-    gummiPage?href('gummi',new URLSearchParams([...listParams].filter(([key])=>key!=='page'))):world&&section==='worlds'?'#/kh1fm/worlds':params.get('fromWorld')?'#/kh1fm/worlds/'+encodeURIComponent(params.get('fromWorld')!):'#/kh1fm/contents';
+  const parent='#/'+kh1ParentRoute(route);
+  const parentLabel=kh1RouteLabel(parent.slice(2));
+  const defaultHelp=entry?`Read ${entryTitle(entry)}${entry.checkable?' and record your progress.':'.'}`:worldDetail?'Choose a category to explore this world.':section==='contents'?'Which part of the journal would you like to read?':section==='search'?'Search by name, world, location or material.':synthesis?'Choose a recipe or material to read its notes.':'Choose an entry to read.';
   const setParam=(key:string,value:string)=>{const next=new URLSearchParams(params); next.delete('entry');next.delete('page');value?next.set(key,value):next.delete(key);location.hash=href(parts.slice(1).join('/'),next);};
   const pageLink=(n:number)=>{const next=new URLSearchParams(params);next.set('page',String(n));return href(parts.slice(1).join('/'),next);};
-  function entryLink(e:GuideEntry){const next=new URLSearchParams(params);next.set('entry',e.id);const target=kh1GummiPage(e);if(target){next.delete('q');if(!gummiPage||target!==gummiPage.id)next.delete('page');return href('gummi/'+target,next);}return href(parts.slice(1).join('/'),next);}
+  function entryLink(e:GuideEntry){const next=new URLSearchParams(params);next.set('entry',e.id);const target=kh1GummiPage(e);if(target){next.delete('q');if(!gummiPage||target!==gummiPage.id)next.delete('page');return kh1WithOrigin(href('gummi/'+target,next),route);}return kh1WithOrigin(href(parts.slice(1).join('/'),next),route);}
   function trinityIcon(e:GuideEntry){const color=trinityColor(e);return TRINITY_COLORS.some(c=>c===color)?<img className="kh1-trinity-icon" src={asset+`trinity-${color.toLowerCase()}.png`} alt="" title={`${color} Trinity`}/>:<span className="kh1-trinity-icon-fallback" title={`${color} Trinity`}>?</span>;}
   function renderRow(e:GuideEntry){return <div className="kh1-index-row" key={e.id}>
-    <a href={entryLink(e)} data-record-id={e.id} aria-label={trinities?`${trinityTitle(e)} (${trinityColor(e)} Trinity)`:undefined} onFocus={()=>setHelp(e.area||e.summary||'Read this entry.')} onMouseEnter={()=>setHelp(e.area||e.summary||'Read this entry.')}><span className={grouped?'kh1-world-row-label':trinities?'kh1-trinity-row-label':undefined}>{trinities&&trinityIcon(e)}<span>{listTitle(e)}</span>{trinities?null:grouped?(e.category==='dalmatian'&&e.area&&<small>{e.area}</small>):e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>
+    <a href={entryLink(e)} data-record-id={e.id} aria-label={trinities?`${trinityTitle(e)} (${trinityColor(e)} Trinity)`:undefined} aria-describedby="kh1-context-help" onFocus={()=>setHelp(`Open ${listTitle(e)}${e.world?' · '+e.world:''}.`)} onMouseEnter={()=>setHelp(`Open ${listTitle(e)}${e.world?' · '+e.world:''}.`)}><span className={grouped?'kh1-world-row-label':trinities?'kh1-trinity-row-label':undefined}>{trinities&&trinityIcon(e)}<span>{listTitle(e)}</span>{trinities?null:grouped?(e.category==='dalmatian'&&e.area&&<small>{e.area}</small>):e.world&&section!=='worlds'&&<small>{e.world}</small>}</span></a>
     {e.checkable&&<input type="checkbox" aria-label={`Acquired: ${grouped?entryTitle(e):listTitle(e)}${trinities?` (${trinityColor(e)} Trinity)`: ''}`} checked={!!player.state.checks[e.id]} onChange={()=>void toggle(e)}/>}
   </div>;}
   async function toggle(e:GuideEntry){try{await player.toggleCheck(e.id);setNotice(`${entryTitle(e)} updated.`);}catch{setNotice('The change could not be saved. Use Retry save below.');}}
   useEffect(()=>{setSearch(query);},[query]);
   useEffect(()=>{
     setLeaf(entry||params.has('item')?'right':section==='synthesis'?'left':'right');
-    setHelp(entry?'Read the entry and record your discoveries.':worldDetail?'Choose a category to explore this world.':section==='contents'?'Which part of the journal would you like to read?':'Choose an entry to read.');
+    setHelp('');
     if(player.ready) void player.rememberRoute('#/'+route);
     document.title=`${title} · KH1FM Journal`;
     const frame=requestAnimationFrame(()=>{
@@ -153,13 +155,21 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     <section className="kh1-volume" aria-label="Kingdom Hearts Final Mix journal">
       <header className={`kh1-heading ${world?'kh1-world-context':''}`}>
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>
-        <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span>{help}</span></div><h1>{entry?sectionTitle||'Journal entry':title}</h1></div>
-        <nav className="kh1-utilities" aria-label="Journal tools"><a href="#/kh1fm/search">Search</a><a href="#/kh1fm/progress">Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
+        <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span id="kh1-context-help">{help||defaultHelp}</span></div><h1>{entry?sectionTitle||'Journal entry':title}</h1></div>
+        <nav className="kh1-utilities" aria-label="Journal tools"><a href={section==='search'?'#/'+route:kh1WithOrigin("#/kh1fm/search",route)}>Search</a><a href={section==='progress'?'#/'+route:kh1WithOrigin("#/kh1fm/progress",route)}>Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
       </header>
       <div className="journal-notices">{updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}</div>
-      <nav hidden={treasureMode} style={{visibility:synthesis||entry?'visible':'hidden'}} className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>
-      <main id="kh1-reading" tabIndex={-1} ref={main} data-book-state={closed?'closed':tool?'open':'split'} className={`kh1-spread ${closed?'kh1-closed-stage':''} ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
+      {!treasureMode&&(synthesis||entry)&&<nav className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>}
+      <main onClick={event=>{
+        // Related-entry links inside shared note renderers also return to this exact leaf.
+        const link=(event.target as Element).closest<HTMLAnchorElement>('a[href]');
+        const target=link?.getAttribute('href');
+        if(target?.startsWith('#/kh1fm/')&&link&&!link.classList.contains('kh1-return')){
+          const targetParams=new URLSearchParams(target.split('?')[1]||'');
+          if((targetParams.has('entry')||targetParams.has('item')||target.startsWith('#/kh1fm/entry/'))&&!targetParams.has('returnTo'))link.href=kh1WithOrigin(target,route);
+        }
+      }} id="kh1-reading" tabIndex={-1} ref={main} data-book-state={closed?'closed':tool?'open':'split'} className={`kh1-spread ${closed?'kh1-closed-stage':''} ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
         {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
@@ -186,8 +196,8 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
             {gummiHub&&world&&<p className="kh1-collection-count">{world}</p>}
             {gummiPage&&<p className="kh1-collection-count">{gummiPage.id==='parts'?`${scopeEntries.length} parts & tools · Reference only`:gummiPage.id==='missions'?`${done} / ${count} missions completed · ${scopeEntries.filter(e=>e.category==='guide').length} strategy guides`:`${done} / ${count} blueprints collected`}</p>}
             {collectionScope&&!items&&!worldDetail&&<p className="kh1-collection-count">{done} / {count} {section==='dalmatians'?'puppy groups found':'collection actions'}</p>}
-            <nav ref={indexRef} className={`kh1-index ${trinities?'kh1-trinity-index':''} ${grouped?'kh1-world-index':''} ${worldDetail||gummiHub?'kh1-world-categories':''}`} aria-label={title+' index'}>
-              {gummiHub?gummiPages.slice(page*pageSize,(page+1)*pageSize).map(p=><a key={p.id} data-gummi-page={p.id} href={href('gummi/'+p.id,new URLSearchParams([...listParams].filter(([key])=>key!=='page'&&(p.id!=='parts'||key!=='status'))))} onFocus={()=>setHelp(p.description)} onMouseEnter={()=>setHelp(p.description)}><span className="kh1-world-category-name">{p.title}</span><span className="kh1-world-category-progress">{p.total?<><span className="kh1-category-check" aria-label={p.completed===p.total?'Complete':'Incomplete'}>{p.completed===p.total?'✓':'□'}</span><span>{p.completed} / {p.total}{p.references>0&&<small>+ {p.references} guides</small>}</span></>:<span>{p.references} reference{p.references===1?'':'s'}</span>}<span aria-hidden="true">›</span></span></a>):worldDetail?worldCategories.slice(page*pageSize,(page+1)*pageSize).map(category=><a key={category.id} data-world-category={category.id} data-complete={category.complete} href={kh1WorldCategoryHref(category,world)} onFocus={()=>setHelp(category.description)} onMouseEnter={()=>setHelp(category.description)}><span className="kh1-world-category-name">{category.title}</span><span className="kh1-world-category-progress">{category.total?<><span className="kh1-category-check" aria-label={category.complete?'Complete':'Incomplete'}>{category.complete?'✓':'□'}</span><span>{category.completed} / {category.total}{category.references>0&&<small>+ {category.references} reference{category.references===1?'':'s'}</small>}</span></>:<span>{category.references?`${category.references} reference${category.references===1?'':'s'}`:'0 items'}</span>}<span aria-hidden="true">›</span></span></a>):items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={href(id)} onFocus={()=>setHelp(description)} onMouseEnter={()=>setHelp(description)}><span>{name}</span><span aria-hidden="true">›</span></a>):grouped?shownGroups.map(group=><section className="kh1-world-group" data-world={group.world} key={group.world} aria-label={group.world}>
+            <nav ref={indexRef} onMouseLeave={()=>setHelp('')} onBlur={()=>setHelp('')} className={`kh1-index ${trinities?'kh1-trinity-index':''} ${grouped?'kh1-world-index':''} ${worldDetail||gummiHub?'kh1-world-categories':''}`} aria-label={title+' index'}>
+              {gummiHub?gummiPages.slice(page*pageSize,(page+1)*pageSize).map(p=><a key={p.id} data-gummi-page={p.id} href={kh1WithOrigin(href('gummi/'+p.id,new URLSearchParams([...listParams].filter(([key])=>key!=='page'&&(p.id!=='parts'||key!=='status')))),route)} aria-describedby="kh1-context-help" onFocus={()=>setHelp(`${p.title}: ${p.description}`)} onMouseEnter={()=>setHelp(`${p.title}: ${p.description}`)}><span className="kh1-world-category-name">{p.title}</span><span className="kh1-world-category-progress">{p.total?<><span className="kh1-category-check" aria-label={p.completed===p.total?'Complete':'Incomplete'}>{p.completed===p.total?'✓':'□'}</span><span>{p.completed} / {p.total}{p.references>0&&<small>+ {p.references} guides</small>}</span></>:<span>{p.references} reference{p.references===1?'':'s'}</span>}<span aria-hidden="true">›</span></span></a>):worldDetail?worldCategories.slice(page*pageSize,(page+1)*pageSize).map(category=><a key={category.id} data-world-category={category.id} data-complete={category.complete} href={kh1WithOrigin(kh1WorldCategoryHref(category,world),route)} aria-describedby="kh1-context-help" onFocus={()=>setHelp(`${category.title}: ${category.description}`)} onMouseEnter={()=>setHelp(`${category.title}: ${category.description}`)}><span className="kh1-world-category-name">{category.title}</span><span className="kh1-world-category-progress">{category.total?<><span className="kh1-category-check" aria-label={category.complete?'Complete':'Incomplete'}>{category.complete?'✓':'□'}</span><span>{category.completed} / {category.total}{category.references>0&&<small>+ {category.references} reference{category.references===1?'':'s'}</small>}</span></>:<span>{category.references?`${category.references} reference${category.references===1?'':'s'}`:'0 items'}</span>}<span aria-hidden="true">›</span></span></a>):items?items.slice(page*pageSize,(page+1)*pageSize).map(([id,name,description])=><a key={id} href={kh1WithOrigin(href(id),route)} aria-describedby="kh1-context-help" onFocus={()=>setHelp(`${name}: ${description}`)} onMouseEnter={()=>setHelp(`${name}: ${description}`)}><span>{name}</span><span aria-hidden="true">›</span></a>):grouped?shownGroups.map(group=><section className="kh1-world-group" data-world={group.world} key={group.world} aria-label={group.world}>
                 <h2>{group.world}</h2>{group.entries.map(renderRow)}
               </section>):shown.map(renderRow)}
               {grouped&&<div className="kh1-world-measure" aria-hidden="true">{scopeEntries.map(e=><div className="kh1-index-row" key={e.id}><span className="kh1-world-row-label"><span>{listTitle(e)}</span>{e.category==='dalmatian'&&e.area&&<small>{e.area}</small>}</span><span className="kh1-world-measure-check"/></div>)}</div>}
@@ -199,7 +209,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
         </div>
         </>}
       </main>
-      <footer className="kh1-bottom"><a href={parent}>{section==='contents'?'Contents':'‹ Back'}</a><span>{entry?entryTitle(entry):worldDetail?'Choose a category. Checks show recorded progress.':items?'Select an entry.':count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search your discoveries.':'Read your journal.'}</span><a href="#/kh1fm/contents">Contents</a><JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX">{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
+      <footer className="kh1-bottom">{section!=='contents'&&<a className="kh1-back" href={parent}>‹ {parentLabel}</a>}<span>{entry?entryTitle(entry):worldDetail?world:items?'Journal · '+title:count?`${done} / ${count} ${collectionScope ? "collection actions" : "recorded"}`:section==='search'?'Search the journal':title}</span>{section!=='contents'&&parent!=='#/kh1fm/contents'&&<a href="#/kh1fm/contents">Contents</a>}<JournalSaveStatus className="kh1-save-line" message={(player.status==='error'||player.status==='memory'?null:notice)||({saved:'Progress saved on this device',saving:'Saving…',loading:'Loading saved progress…',memory:'Progress is in memory only',error:'Progress could not be saved'}[player.status])}/><JournalUtilityBar className="kh1-outer" game="KINGDOM HEARTS · FINAL MIX">{player.canUndo&&<button onClick={async()=>{try{await player.undo();setNotice('Last change undone.');}catch{setNotice('Unable to undo. Check save status.');}}}>Undo</button>}</JournalUtilityBar></footer>
     </section>
     
   </div>;

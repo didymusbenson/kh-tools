@@ -77,3 +77,12 @@ jobs:
             playwright-report/
           if-no-files-found: ignore
           retention-days: 7
+
+      - name: Retain KH1 frame reference captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kh1-frame-reference-captures
+          path: test-results/**/kh1-frame-*.png
+          if-no-files-found: ignore
+          retention-days: 7
