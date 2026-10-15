@@ -8,7 +8,7 @@ import {hasTreasureBoard,normalizeTreasureRoute} from '../games/treasureModel';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { GameData, GuideEntry } from '../domain/types';
 import type { PlayerController } from '../state/usePlayerState';
-import { cataloguePages, cataloguePageIncludesEntry, normalizeKh1ActivityRoute } from '../domain/entryNavigation';
+import { cataloguePages, cataloguePageIncludesEntry, normalizeKh1ActivityRoute, entryHref } from '../domain/entryNavigation';
 import { collectibleProgress } from '../domain/progress';
 import { TRINITY_COLORS, compareTrinities, trinityColor, trinityTitle, type TrinitySort } from '../domain/trinityPresentation';
 import { groupEntriesByWorld, paginateWorldGroups, groupedEntryTitle } from '../domain/worldGrouping';
@@ -156,22 +156,14 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
       <header className={`kh1-heading ${world?'kh1-world-context':''}`}>
         <div className="kh1-heading-menu"><span>MENU</span><a href="#/kh1fm/contents">Journal</a></div>
         <div className="kh1-heading-context"><div className="kh1-help"><img src={asset+'jiminy-portrait-kh1.png'} alt=""/><span id="kh1-context-help">{help||defaultHelp}</span></div><h1>{entry?sectionTitle||'Journal entry':title}</h1></div>
-        <nav className="kh1-utilities" aria-label="Journal tools"><a href={section==='search'?'#/'+route:kh1WithOrigin("#/kh1fm/search",route)}>Search</a><a href={section==='progress'?'#/'+route:kh1WithOrigin("#/kh1fm/progress",route)}>Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
+        <nav className="kh1-utilities" aria-label="Journal tools"><a href={section==='search'&&!focusId?'#/'+route:kh1WithOrigin("#/kh1fm/search",route)}>Search</a><a href={section==='progress'&&!focusId?'#/'+route:kh1WithOrigin("#/kh1fm/progress",route)}>Save & Settings</a><DataJiminy data={data} state={player.state} compactLauncher/></nav>
       </header>
       <div className="journal-notices">{updateNotice}
       {player.error&&<div className="kh1-save-error" role="alert">{player.error} <button onClick={()=>void player.retry()}>Retry save</button></div>}</div>
       {!treasureMode&&(synthesis||entry)&&<nav className="kh1-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{synthesis?(parts[2]==='plan'?'Materials':'Index'):'Overview'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{synthesis?(parts[2]==='plan'?'World route':'Details'):'Notes'}</button></nav>}
-      <main onClick={event=>{
-        // Related-entry links inside shared note renderers also return to this exact leaf.
-        const link=(event.target as Element).closest<HTMLAnchorElement>('a[href]');
-        const target=link?.getAttribute('href');
-        if(target?.startsWith('#/kh1fm/')&&link&&!link.classList.contains('kh1-return')){
-          const targetParams=new URLSearchParams(target.split('?')[1]||'');
-          if((targetParams.has('entry')||targetParams.has('item')||target.startsWith('#/kh1fm/entry/'))&&!targetParams.has('returnTo'))link.href=kh1WithOrigin(target,route);
-        }
-      }} id="kh1-reading" tabIndex={-1} ref={main} data-book-state={closed?'closed':tool?'open':'split'} className={`kh1-spread ${closed?'kh1-closed-stage':''} ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
+      <main id="kh1-reading" tabIndex={-1} ref={main} data-book-state={closed?'closed':tool?'open':'split'} className={`kh1-spread ${closed?'kh1-closed-stage':''} ${tool?'kh1-tool-spread':''} ${entry?'kh1-entry-spread':''} ${synthesis?'kh1-synthesis-spread':''} ${treasureMode?'treasure-host':''}`}>
         <div className="kh1-spiral" aria-hidden="true">{Array.from({length:16},(_,i)=><i key={i}/>)}</div>
-        {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
+        {treasureMode?<TreasureBoard game="kh1fm" route={route} entries={data.entries} checks={player.state.checks} ready={player.ready} save={async(id,value,expected)=>{try{await player.setCheckConfirmed(id,value,expected);return true;}catch{return false;}}} renderDetails={e=><EntryDetails entryLink={e=>kh1WithOrigin(entryHref(e),route)} data={data} state={player.state} entry={data.entries.find(row=>row.id===e.id)!}/>}/>:synthesis?<Kh1Synthesis data={data} player={player} route={route}/>:<>
         {!tool&&<aside className={`kh1-leaf-left ${entry?'kh1-paper':'kh1-index-art'}`} aria-label={entry?'Entry overview':'Journal guide'}>
           {entry?<JournalNotePages key={entry.id}>
             <p className="kh1-entry-category">{entry.world||(kh1GummiPage(entry)?'Gummi Ship':entry.category.replaceAll('-',' '))}</p><h2>{entryTitle(entry)}</h2>
@@ -186,7 +178,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
           </>}
         </aside>}
         <div className={`kh1-leaf-right kh1-paper ${tool?'kh1-tool-page':''}`}>
-          {!player.ready?<p>Opening your saved journal…</p>:focusId&&!entry?<><h2>Entry not found</h2><p>This link does not match a journal entry.</p><a href="#/kh1fm/contents">Return to contents</a></>:!known?<><h2>Page not found</h2><a href="#/kh1fm/contents">Return to contents</a></>:tool?<JournalNotePages>{renderTool(section,parts[2])}</JournalNotePages>:entry?<><h2 className="kh1-detail-heading">Notes</h2><JournalNotePages key={entry.id}><EntryDetails data={data} state={player.state} entry={entry}/></JournalNotePages></>:<>
+          {!player.ready?<p>Opening your saved journal…</p>:focusId&&!entry?<><h2>Entry not found</h2><p>This link does not match a journal entry.</p><a href="#/kh1fm/contents">Return to contents</a></>:!known?<><h2>Page not found</h2><a href="#/kh1fm/contents">Return to contents</a></>:tool?<JournalNotePages>{renderTool(section,parts[2])}</JournalNotePages>:entry?<><h2 className="kh1-detail-heading">Notes</h2><JournalNotePages key={entry.id}><EntryDetails entryLink={e=>kh1WithOrigin(entryHref(e),route)} data={data} state={player.state} entry={entry}/></JournalNotePages></>:<>
             {section==='search'&&<form className="kh1-search" onSubmit={e=>{e.preventDefault();setParam('q',search);}}><label htmlFor="kh1-query">Search the journal</label><div><input id="kh1-query" type="search" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Name, place or material"/><button type="submit">Search</button></div></form>}
             {!worldDetail&&!items&&!gummiHub&&section!=='search'&&<div className={`kh1-filters ${trinities?'kh1-trinity-filters':''}`}>
               {trinities&&<><label>Sort<select aria-label="Sort Trinity marks" value={trinitySort} onChange={e=>setParam('sort',e.target.value)}><option value="color">Color</option><option value="world">World</option><option value="location">Location</option></select></label><label>Color<select aria-label="Filter by Trinity color" value={color} onChange={e=>setParam('color',e.target.value)}><option value="">All colors</option>{TRINITY_COLORS.map(c=><option key={c}>{c}</option>)}</select></label></>}

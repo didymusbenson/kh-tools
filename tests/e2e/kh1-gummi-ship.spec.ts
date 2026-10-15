@@ -146,6 +146,7 @@ test('search and related entries link directly to canonical Gummi subpages', asy
   await showKh1Notes(page);
   const related = page.locator(`.entry-details-related a[href*="entry=${target.id}"]`);
   await expect(related).toHaveAttribute('href', new RegExp('^#/kh1fm/gummi/missions\\?'));
+  expect(new URLSearchParams((await related.getAttribute('href'))!.split('?')[1]).get('returnTo')).toBe(new URL(page.url()).hash.slice(2));
   await revealJournalNote(page, related);
   await related.click();
   await expect(page).toHaveURL(/\/gummi\/missions\?/);

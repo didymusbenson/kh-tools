@@ -53,3 +53,15 @@ test('guidance is associated with its entry and resets when focus leaves the ind
   await expect(page.locator('.kh1-bottom > a')).toHaveCount(0);
   await expect(page.locator('.kh1-leaf-picker')).toHaveCount(0);
 });
+
+
+test('Search utility reopens the search form from a search-result detail', async ({page}) => {
+  await page.goto('./#/kh1fm/search?q=Shadow');
+  await page.locator('.kh1-index a[data-record-id]').first().click();
+  await expect(page.locator('.kh1-entry-spread')).toBeVisible();
+  const origin=new URL(page.url()).hash;
+  await page.locator('.kh1-utilities').getByRole('link',{name:'Search',exact:true}).click();
+  await expect(page.getByRole('searchbox')).toBeVisible();
+  await page.locator('.kh1-back').click();
+  await expect.poll(()=>new URL(page.url()).hash).toBe(origin);
+});

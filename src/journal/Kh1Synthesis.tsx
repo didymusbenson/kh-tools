@@ -1,3 +1,4 @@
+import { entryHref } from '../domain/entryNavigation';
 import { kh1WithOrigin } from '../domain/kh1Navigation';
 import { useEffect, useState } from 'react';
 import { compareMaterials, materialFamily } from '../domain/materialPresentation';
@@ -92,7 +93,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
           <p><strong>Unlock:</strong> {selected.prerequisites||recipe.unlock}</p>
           <p><strong>Makes:</strong> {recipe.name} ×{recipe.outputQuantity}</p>
           {(recipe.uncertainty||selected.uncertainty)&&<p>{recipe.uncertainty||selected.uncertainty}</p>}
-        </div>:<EntryDetails data={data} state={state} entry={selected} compactMaterial/>}</JournalNotePages>
+        </div>:<EntryDetails entryLink={e=>kh1WithOrigin(entryHref(e),route)} data={data} state={state} entry={selected} compactMaterial/>}</JournalNotePages>
       </>:<p className="kh1-summary">Try another search or filter to find an entry.</p>}
       </>}
     </section>
