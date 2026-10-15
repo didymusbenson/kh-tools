@@ -404,6 +404,9 @@
  .kh1-native .kh1-bottom .journal-tools-panel .kh1-compact-tools{display:flex;flex-direction:column;gap:0}
 }
 
+.kh1-synthesis-index-footer{display:contents}
+.kh1-synthesis-index-footer>.kh1-small{margin-bottom:0}
+
 /* Phone browser chrome leaves less paper than a nominal landscape viewport.
    Compact only the workshop furniture; the existing measured index and note
    columns receive the recovered space. Desktop and portrait sizes stay native. */
@@ -419,7 +422,10 @@
  .kh1-synthesis-index .kh1-remaining{min-height:26px;flex:none;margin:0 0 4px;font-size:12px}
  .kh1-synthesis-index .kh1-page-controls{padding-top:2px;line-height:1.2;font-size:13px}
  .kh1-synthesis-index .kh1-page-controls a{height:28px;width:36px}
- .kh1-synthesis-index>.kh1-small{font-size:12px;line-height:1.2;margin:2px 0 0;flex:none}
+ .kh1-synthesis-index-footer{display:flex;flex:none;align-items:center;justify-content:space-between;gap:6px;min-height:30px}
+ .kh1-synthesis-index-footer .kh1-page-controls{order:1;margin:0;padding:0;gap:6px}
+ .kh1-farming .kh1-synthesis-index-footer .kh1-page-controls{margin-inline:auto}
+ .kh1-synthesis-index-footer>.kh1-small{font-size:12px;line-height:1.2;margin:0;flex:none}
  .kh1-synthesis-detail h2{font-size:23px;line-height:1.15;margin-bottom:4px;flex:none}
  .kh1-synthesis-detail .kh1-acquired{min-height:28px;font-size:17px;flex:none}
  .kh1-synthesis-detail>.kh1-small{font-size:12px;line-height:1.2;margin:2px 0 5px;flex:none}
@@ -432,3 +438,5 @@
  .kh1-synthesis-detail .kh1-recipe-notes ul{break-before:avoid;margin-top:0}
  .kh1-synthesis-detail .kh1-recipe-notes li:first-child{break-before:avoid}
 }
+
+@media(max-height:500px) and (min-width:651px), (max-width:650px) and (max-height:700px){.kh1-farming .kh1-synthesis-index-footer>.kh1-small{display:none}}

@@ -8,6 +8,10 @@ const ultima = data.recipes.find(recipe => recipe.name === 'Ultima Weapon')!;
 
 test.use({ serviceWorkers: 'block' });
 
+test.afterEach(async ({ page }, testInfo) => {
+  if (testInfo.status !== testInfo.expectedStatus) await page.screenshot({ path: testInfo.outputPath('kh1-synthesis-failure.png') });
+});
+
 async function settle(page: Page) {
   await expectJournalSaved(page);
   await page.evaluate(async () => {
@@ -158,3 +162,91 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
     await page.screenshot({ path: testInfo.outputPath(`kh1-synthesis-${viewport.width}x${viewport.height}-notes.png`) });
   });
 }
+
+async function compactWorkspaceControls(page: Page) {
+  await expect.poll(() => page.evaluate(() => ({
+    x: Math.max(0, document.documentElement.scrollWidth - innerWidth),
+    y: Math.max(0, document.documentElement.scrollHeight - innerHeight),
+  }))).toEqual({ x: 0, y: 0 });
+  const index = page.locator('.kh1-synthesis-index');
+  const detail = page.locator('.kh1-synthesis-detail');
+  for (const leaf of [index, detail]) await expect(leaf).toBeInViewport({ ratio: 1 });
+  for (const control of await index.locator('.kh1-book-tabs, .kh1-filters, .kh1-index, .kh1-page-controls').all()) {
+    await expect.poll(() => fullyInside(control, index)).toBe(true);
+  }
+  for (const control of await detail.locator('.kh1-stock-fields, button.kh1-book-action, .farming-source-tabs, .kh1-note-window, .kh1-note-pagination').all()) {
+    if (await control.isVisible()) await expect.poll(() => fullyInside(control, detail)).toBe(true);
+  }
+  const listBox = await index.locator('.kh1-index').boundingBox();
+  const filtersBox = await index.locator('.kh1-filters').boundingBox();
+  const pagerBox = await index.locator('.kh1-page-controls').boundingBox();
+  expect(listBox!.y).toBeGreaterThanOrEqual(filtersBox!.y + filtersBox!.height - 1);
+  expect(listBox!.y + listBox!.height).toBeLessThanOrEqual(pagerBox!.y + 1);
+}
+
+test('KH1 short landscape synthesis keeps crowded material families usable at 844x350', async ({ page }, testInfo) => {
+  await page.setViewportSize({ width: 844, height: 350 });
+  await page.goto('./#/kh1fm/synthesis/materials?entry=kh1fm-material-power-crystal');
+  await settle(page);
+  const index = page.getByRole('navigation', { name: 'materials index', exact: true });
+  const family = index.locator('.kh1-material-family').filter({ has: page.getByRole('heading', { name: 'Power', exact: true }) });
+  await expect(family).toHaveCount(1);
+  const names = ['Power Shard', 'Power Gem', 'Power Crystal', 'Power Stone'];
+  await expect(family.getByRole('link')).toHaveCount(names.length);
+  await compactWorkspaceControls(page);
+  for (const name of names) {
+    const link = family.getByRole('link', { name, exact: true });
+    // Whole families deliberately stay together; inner index scrolling is allowed.
+    await link.scrollIntoViewIfNeeded();
+    await expect.poll(() => fullyInside(link, index)).toBe(true);
+    await compactWorkspaceControls(page);
+  }
+  await page.getByRole('spinbutton', { name: 'Power Crystal owned', exact: true }).fill('3');
+  await page.getByRole('spinbutton', { name: 'Power Crystal owned', exact: true }).press('Tab');
+  await settle(page);
+  await expect(page.getByRole('spinbutton', { name: 'Power Crystal owned', exact: true })).toHaveValue('3');
+  await page.screenshot({ path: testInfo.outputPath('kh1-synthesis-844x350-material-family.png') });
+});
+
+test('KH1 short landscape synthesis keeps unfiltered farming rows reachable at 844x350', async ({ page }, testInfo) => {
+  await page.setViewportSize({ width: 844, height: 350 });
+  await page.goto(`./#/kh1fm/synthesis/recipes?item=${ultima.entryId}`);
+  await settle(page);
+  await page.getByRole('button', { name: 'Add ingredients to farming plan', exact: true }).click();
+  await expect(page.getByRole('status').filter({ hasText: 'Ingredients added to your farming plan.' })).toBeVisible();
+  await settle(page);
+  await page.goto('./#/kh1fm/synthesis/plan');
+  await settle(page);
+  await expect(page.getByRole('searchbox', { name: 'Find a material', exact: true })).toHaveValue('');
+  const index = page.getByRole('navigation', { name: 'plan index', exact: true });
+  const seen = new Set<string>();
+  const visited = new Set<string>();
+  while (true) {
+    await compactWorkspaceControls(page);
+    const pagination = page.locator('.kh1-synthesis-index .kh1-page-controls');
+    const label = await pagination.innerText();
+    expect(visited.has(label), 'Farming index pagination must not loop').toBe(false);
+    visited.add(label);
+    const rows = index.locator('.farming-material-row');
+    expect(await rows.count()).toBeGreaterThan(0);
+    for (const row of await rows.all()) {
+      const id = (await row.getAttribute('data-material-id'))!;
+      const ingredient = ultima.ingredients.find(item => item.itemId === id)!;
+      expect(ingredient).toBeDefined();
+      await expect.poll(() => fullyInside(row, index)).toBe(true);
+      for (const control of await row.locator('input, button').all()) {
+        await expect.poll(() => fullyInside(control, row)).toBe(true);
+        await expect(control).toBeEnabled();
+      }
+      await expect(row.getByRole('spinbutton', { name: `Target ${ingredient.name}`, exact: true })).toHaveValue(String(ingredient.quantity));
+      seen.add(id);
+    }
+    await page.screenshot({ path: testInfo.outputPath(`kh1-synthesis-844x350-farming-page-${visited.size}.png`) });
+    const next = page.getByRole('link', { name: 'Next index page', exact: true });
+    if (!await next.count()) break;
+    await next.click();
+    await expect(pagination).not.toHaveText(label);
+    await settle(page);
+  }
+  expect([...seen].sort()).toEqual(ultima.ingredients.map(ingredient => ingredient.itemId).sort());
+});
