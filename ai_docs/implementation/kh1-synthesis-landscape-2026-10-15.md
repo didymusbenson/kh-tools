@@ -7,7 +7,8 @@ An iPhone landscape capture showed only one recipe per index page and an Ingredi
 ## Scope
 
 - Compact synthesis furniture only at widths 651–1000px and heights up to 500px.
-- Remove repeated workshop/category captions at that breakpoint; keep tabs, recipe title, filters, craft status, stock guidance, and actions.
+- Remove the repeated workshop caption at that breakpoint and keep the recipe set caption compact; preserve tabs, recipe title, filters, craft status, stock guidance, and actions.
+- Share the index count and pager on one compact footer line, preserving their normal presentation at other sizes.
 - Reclaim empty status spacing and excess margins; reserve the existing status element for announcements.
 - Let the index's existing measurement use the actual compact 28px recipe row floor. Normal desktop/portrait rows are still measured at their existing rendered heights.
 - Keep the ingredient heading, stock key, and first ingredient together through existing CSS column-break rules.

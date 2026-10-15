@@ -412,7 +412,8 @@
    columns receive the recovered space. Desktop and portrait sizes stay native. */
 @media(min-width:651px) and (max-width:1000px) and (max-height:500px){
  .kh1-synthesis-spread>.kh1-leaf-left,.kh1-synthesis-spread>.kh1-leaf-right{padding-top:8px;padding-bottom:8px}
- .kh1-synthesis-spread .kh1-entry-category{display:none}
+ .kh1-synthesis-index>.kh1-entry-category{display:none}
+ .kh1-synthesis-detail>.kh1-entry-category{font-size:10px;line-height:1.2;margin:0 0 2px;flex:none}
  .kh1-synthesis-spread .kh1-book-tabs{flex:none;gap:4px 10px;margin-bottom:4px;padding-bottom:2px;font-size:16px;line-height:1.2}
  .kh1-synthesis-spread .kh1-book-tabs a{padding:4px 0}
  .kh1-synthesis-index .kh1-filters{gap:8px;margin-bottom:4px;flex-wrap:nowrap}
