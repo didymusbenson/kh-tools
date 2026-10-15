@@ -20,7 +20,10 @@ for(const mode of ['hover','keyboard'] as const){
   // Give the decorative layers hit testing temporarily: their overlap must
   // resolve to the glove's link, proving actual paint order, not just numbers.
   await page.addStyleTag({content:'.kh1-spiral{pointer-events:auto!important}.kh1-index a::before{pointer-events:auto!important}'});
-  const overlap=await link.evaluate(el=>{
+  // Keyboard focus need not wait for the native 150ms leaf fade. During that
+  // fade, opacity temporarily creates a stacking context around the glove.
+  // Wait for the same real paint-order assertion instead of sampling mid-frame.
+  await expect.poll(()=>link.evaluate(el=>{
    const s=getComputedStyle(el,'::before'),row=el.parentElement!.getBoundingClientRect(),r=el.getBoundingClientRect();
    const left=row.left+parseFloat(s.left),top=r.top+(r.height-parseFloat(s.height))/2;
    for(const ring of document.querySelectorAll('.kh1-spiral i')){
@@ -28,8 +31,7 @@ for(const mode of ['hover','keyboard'] as const){
     if(x<Math.min(left+36,b.right)&&y<Math.min(top+36,b.bottom))return document.elementFromPoint(x,y)===el;
    }
    return null;
-  });
-  expect(overlap).toBe(true);
+  })).toBe(true);
   await page.locator('style').last().evaluate(el=>el.remove());
   if(mode==='keyboard')await page.keyboard.press('Enter');else await link.click();
   await expect(page.locator('.kh1-entry-spread')).toBeVisible();

@@ -68,9 +68,10 @@ jobs:
           npx playwright test
           tests/e2e/kh1-chrome-navigation.spec.ts
           tests/e2e/kh1-frame-geometry.spec.ts
+          tests/e2e/kh1-hand-layering.spec.ts
           tests/e2e/kh1-treasure-layout.spec.ts
           tests/e2e/farming-itinerary.spec.ts
-          --grep "KH1 native frame|KH1 section marker|Search utility|search to Gummi|utilities restore|synthesis item|guidance is|KH1 phone treasures|kh1fm source tabs and both"
+          --grep "KH1 (hover|keyboard) glove|KH1 native frame|KH1 section marker|Search utility|search to Gummi|utilities restore|synthesis item|guidance is|KH1 phone treasures|kh1fm source tabs and both"
 
       - name: Retain KH1 frame reference captures
         if: always()
@@ -78,6 +79,20 @@ jobs:
         with:
           name: kh1-frame-reference-captures
           path: test-results/**/kh1-frame-*.png
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Exercise short landscape synthesis content
+        run: npx playwright test tests/e2e/kh1-synthesis-landscape.spec.ts
+
+      - name: Retain KH1 synthesis reference captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kh1-synthesis-reference-captures
+          path: |
+            test-results/**/kh1-synthesis-*.png
+            test-results/**/*.json
           if-no-files-found: ignore
           retention-days: 7
 
