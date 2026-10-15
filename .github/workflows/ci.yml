@@ -68,9 +68,10 @@ jobs:
           npx playwright test
           tests/e2e/kh1-chrome-navigation.spec.ts
           tests/e2e/kh1-frame-geometry.spec.ts
+          tests/e2e/kh1-hand-layering.spec.ts
           tests/e2e/kh1-treasure-layout.spec.ts
           tests/e2e/farming-itinerary.spec.ts
-          --grep "KH1 native frame|KH1 section marker|Search utility|search to Gummi|utilities restore|synthesis item|guidance is|KH1 phone treasures|kh1fm source tabs and both"
+          --grep "KH1 (hover|keyboard) glove|KH1 native frame|KH1 section marker|Search utility|search to Gummi|utilities restore|synthesis item|guidance is|KH1 phone treasures|kh1fm source tabs and both"
 
       - name: Retain KH1 frame reference captures
         if: always()
