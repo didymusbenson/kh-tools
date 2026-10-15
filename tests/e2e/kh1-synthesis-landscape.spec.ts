@@ -277,6 +277,20 @@ async function workspaceParity(page: Page) {
     const pager = node('.kh1-synthesis-index .kh1-page-controls');
     const notePager = node('.kh1-synthesis-detail .kh1-note-pagination');
     return {
+      farmingRows: [...index.querySelectorAll('.farming-material-row')].map(row => ({
+        id: row.getAttribute('data-material-id'), bounds: box(row),
+        insideIndex: visibleWithin(row, node('.kh1-synthesis-index .kh1-index')),
+        controlsInsideRow: [...row.querySelectorAll('input, button')].every(control => visibleWithin(control, row)),
+      })),
+      recipeFirstPage: (() => {
+        const heading = document.querySelector('.kh1-recipe-notes h3');
+        const ingredient = document.querySelector('.kh1-recipe-notes li');
+        const window = document.querySelector('.kh1-synthesis-detail .kh1-note-window');
+        return heading && ingredient && window ? {
+          headingInsideWindow: visibleWithin(heading, window),
+          firstIngredientInsideWindow: visibleWithin(ingredient, window),
+        } : null;
+      })(),
       header: box(node('.kh1-heading')), book: box(node('.kh1-spread')),
       indexPadding: css(index, ['padding-top', 'padding-right', 'padding-bottom', 'padding-left']),
       tabs: box(tabs), tabStyle: css(tabs, ['font-family', 'font-size', 'line-height', 'gap', 'padding', 'margin']),
@@ -292,7 +306,7 @@ async function workspaceParity(page: Page) {
   });
 }
 
-for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 650 }, { width: 844, height: 350 }]) {
+for (const viewport of [{ width: 320, height: 568 }, { width: 390, height: 844 }, { width: 390, height: 650 }, { width: 844, height: 350 }]) {
   test(`KH1 synthesis comparison captures all workspaces at ${viewport.width}x${viewport.height}`, async ({ page }, testInfo) => {
     await page.setViewportSize(viewport);
     await page.goto(`./#/kh1fm/synthesis/recipes?item=${ultima.entryId}`);
@@ -347,6 +361,18 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 650 }
       }
     }
     const indexes = samples.filter(sample => sample.leaf === 'index');
+    const farming = indexes.find(sample => sample.tab === 'plan')!.metrics;
+    expect(farming.farmingRows.length, 'The populated unfiltered farming index must expose actual rows').toBeGreaterThan(0);
+    for (const row of farming.farmingRows) {
+      expect(row.insideIndex, `${row.id} must fit entirely inside the measured farming index`).toBe(true);
+      expect(row.controlsInsideRow, `${row.id} stock and removal controls must fit inside their row`).toBe(true);
+    }
+    if (viewport.width === 320) {
+      const recipe = samples.find(sample => sample.tab === 'recipes' && sample.leaf === 'detail')!.metrics.recipeFirstPage;
+      expect(recipe, 'The first recipe must retain its ingredient content').not.toBeNull();
+      expect(recipe!.headingInsideWindow, 'Ingredients heading must be readable on the first note page at 320×568').toBe(true);
+      expect(recipe!.firstIngredientInsideWindow, 'Ingredients heading must have a complete ingredient beside it on the first note page at 320×568').toBe(true);
+    }
     const baseline = indexes[0].metrics;
     const equalBox = (actual: Record<string, number>, expected: Record<string, number>, label: string) => {
       for (const key of Object.keys(expected)) expect(actual[key], `${label}: ${key}`).toBeCloseTo(expected[key], 0);
