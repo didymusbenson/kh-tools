@@ -46,7 +46,7 @@ test('Contents links reach each activity section and world links return to their
     await page.goto('./#/kh1fm/contents');
     await expect(page.getByRole('heading',{level:1})).toHaveText('Contents');
     await page.evaluate(async()=>{await document.fonts.ready; await new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve())));});
-    const link = page.locator(`main a[href="#/kh1fm/${section}"]`);
+    const link = page.locator('main').getByRole('link',{name:title,exact:true});
     while(await link.count() === 0) {
       const first = page.locator('.kh1-index > a').first();
       const previous = await first.getAttribute('href');
@@ -70,7 +70,7 @@ test('Contents links reach each activity section and world links return to their
     await link.click();
     await expect(page.getByRole('combobox',{name:'Filter by world',exact:true})).toHaveValue(world);
     await expectKh1Records(page,data.entries.filter(e=>kh1ActivitySection(e)===section&&e.world===world).map(e=>e.id));
-    await page.getByRole('link',{name:'‹ Back',exact:true}).click();
+    await page.locator('.kh1-back').click();
     await expect(page.getByRole('heading',{level:1})).toHaveText(world);
     await expect(page.locator('.kh1-world-categories')).toBeVisible();
   }

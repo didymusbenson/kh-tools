@@ -71,7 +71,7 @@ test('Gummi Ship hub shows three distinct cards with reference and completion to
   for (const collection of collections) {
     await page.locator(`[data-gummi-page="${collection.path}"]`).click();
     await expect(heading(page)).toHaveText(`Gummi Ship · ${collection.title}`);
-    await page.getByRole('link', { name: '‹ Back', exact: true }).click();
+    await page.locator('.kh1-back').click();
     await expect(heading(page)).toHaveText('Gummi Ship');
   }
 });
@@ -125,9 +125,9 @@ test('world categories enter the scoped hub and return through the subgroup to t
   await page.locator('[data-gummi-page="missions"]').click();
   await expect(page.getByRole('combobox', { name: 'Filter by world', exact: true })).toHaveValue(world);
   await expectKh1Records(page, collections[1].entries.filter(e => e.world === world).map(e => e.id));
-  await page.getByRole('link', { name: '‹ Back', exact: true }).click();
+  await page.locator('.kh1-back').click();
   await expect(heading(page)).toHaveText('Gummi Ship');
-  await page.getByRole('link', { name: '‹ Back', exact: true }).click();
+  await page.locator('.kh1-back').click();
   await expect(heading(page)).toHaveText(world);
 });
 
@@ -146,6 +146,7 @@ test('search and related entries link directly to canonical Gummi subpages', asy
   await showKh1Notes(page);
   const related = page.locator(`.entry-details-related a[href*="entry=${target.id}"]`);
   await expect(related).toHaveAttribute('href', new RegExp('^#/kh1fm/gummi/missions\\?'));
+  expect(new URLSearchParams((await related.getAttribute('href'))!.split('?')[1]).get('returnTo')).toBe(new URL(page.url()).hash.slice(2));
   await revealJournalNote(page, related);
   await related.click();
   await expect(page).toHaveURL(/\/gummi\/missions\?/);
@@ -168,7 +169,7 @@ test('subpage detail return preserves the selected native index page', async ({ 
     await page.getByRole('link', { name: '‹ Return to index', exact: true }).click();
     await expect.poll(() => new URL(page.url()).hash).toBe(indexHash);
     await expect(kh1Record(page, id)).toBeVisible();
-    await page.getByRole('link', { name: '‹ Back', exact: true }).click();
+    await page.locator('.kh1-back').click();
     await expect(heading(page)).toHaveText('Gummi Ship');
     expect(params(page).has('page')).toBe(false);
   }

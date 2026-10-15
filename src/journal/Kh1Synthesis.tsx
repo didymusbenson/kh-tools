@@ -1,3 +1,5 @@
+import { entryHref } from '../domain/entryNavigation';
+import { kh1WithOrigin } from '../domain/kh1Navigation';
 import { useEffect, useState } from 'react';
 import { compareMaterials, materialFamily } from '../domain/materialPresentation';
 import type { GameData } from '../domain/types';
@@ -51,7 +53,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
   const shown=tab==='materials'?shownGroups.flatMap(g=>g.entries):items.slice(page*pageSize,(page+1)*pageSize);
   const selected=shown.find(e=>e.id===requested)||shown[0];
   const recipe=tab==='recipes'?data.recipes.find(r=>r.entryId===selected?.id):undefined;
-  function link(changes:Record<string,string>) {const next=new URLSearchParams(params);next.delete('entry');for(const [key,value] of Object.entries(changes))value?next.set(key,value):next.delete(key);return `#/kh1fm/synthesis/${tab}${next.size?'?'+next:''}`;}
+  function link(changes:Record<string,string>) {const next=new URLSearchParams(params);next.delete('entry');for(const [key,value] of Object.entries(changes))value?next.set(key,value):next.delete(key);const target=`#/kh1fm/synthesis/${tab}${next.size?'?'+next:''}`;return changes.item?kh1WithOrigin(target,route):target;}
   async function act(action:()=>Promise<void>,message:string) {setBusy(true);try{await action();setNotice(message);}catch{setNotice('Could not save the change. Please try again.');}finally{setBusy(false);}}
   async function save(action:()=>Promise<void>) {try {await action();return true;}catch{return false;}}
   const farmingPlan=buildKh1FarmingPlan(data,materials,state.inventory,state.farmPlan||{});
@@ -87,11 +89,11 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
         <div role="status" className="kh1-synthesis-notice">{notice}</div>
         <JournalNotePages key={selected.id+tab}>{recipe?<div className="kh1-recipe-notes">
           <h3>Ingredients</h3><p className="kh1-small">Owned / required · ? means unknown</p>
-          <ul>{recipe.ingredients.map(i=><li key={i.itemId}><a href={`#/kh1fm/synthesis/materials?entry=${encodeURIComponent(i.itemId)}`}>{i.name}</a><span>{state.inventory[i.itemId]??'?'} / {i.quantity}</span></li>)}</ul>
+          <ul>{recipe.ingredients.map(i=><li key={i.itemId}><a href={kh1WithOrigin(`#/kh1fm/synthesis/materials?entry=${encodeURIComponent(i.itemId)}`,route)}>{i.name}</a><span>{state.inventory[i.itemId]??'?'} / {i.quantity}</span></li>)}</ul>
           <p><strong>Unlock:</strong> {selected.prerequisites||recipe.unlock}</p>
           <p><strong>Makes:</strong> {recipe.name} ×{recipe.outputQuantity}</p>
           {(recipe.uncertainty||selected.uncertainty)&&<p>{recipe.uncertainty||selected.uncertainty}</p>}
-        </div>:<EntryDetails data={data} state={state} entry={selected} compactMaterial/>}</JournalNotePages>
+        </div>:<EntryDetails entryLink={e=>kh1WithOrigin(entryHref(e),route)} data={data} state={state} entry={selected} compactMaterial/>}</JournalNotePages>
       </>:<p className="kh1-summary">Try another search or filter to find an entry.</p>}
       </>}
     </section>

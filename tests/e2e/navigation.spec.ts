@@ -10,9 +10,9 @@ const entry = data.entries.find(item => item.category === "trinity" && item.chec
 
 test("world hub opens categories leading to a complete world-scoped record index", async ({ page }) => {
   await page.goto("./#/kh1fm/worlds");
-  // The native heading includes a decorative CSS numeral in its accessible name.
+  // The drawn native marker does not add text to the accessible heading.
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Worlds");
-  await page.locator(`a[href="#/kh1fm/worlds/${encodeURIComponent(entry.world!)}"]`).first().click();
+  await page.locator('.kh1-index').getByRole('link',{name:entry.world!,exact:true}).click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(entry.world!);
   const expected = data.entries.filter(item => item.world === entry.world);
   await expect(page.locator(".kh1-world-categories")).toBeVisible();
@@ -64,7 +64,7 @@ test("challenge indexes keep achievements in their own collection", async ({ pag
 test("contents and legacy world entry routes retain navigation and entry focus", async ({ page }) => {
   await page.goto("./#/kh1fm/contents");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Contents");
-  const trinityLink = page.locator('main a[href="#/kh1fm/trinities"]');
+  const trinityLink = page.locator('main').getByRole('link',{name:'Trinity Marks',exact:true});
   await expect(trinityLink).toBeVisible();
   await trinityLink.click();
   // The unfiltered index now uses color, world and location ordering, not import order.

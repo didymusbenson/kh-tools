@@ -1,6 +1,7 @@
 import {test,expect,type Page} from '@playwright/test';
 import {readFileSync} from 'node:fs';
 import type {GameData} from '../../src/domain/types';
+import {kh1WithOrigin} from '../../src/domain/kh1Navigation';
 import {kh1WorldCategories,kh1WorldCategoryHref} from '../../src/domain/kh1WorldCategories';
 const data=JSON.parse(readFileSync('public/data/kh1fm.json','utf8')) as GameData;
 test.use({serviceWorkers:'block'});
@@ -13,7 +14,7 @@ test('every world has a clean, complete category directory and usable category t
   for(;;){
    for(const row of await page.locator('[data-world-category]').all()){
     const id=(await row.getAttribute('data-world-category'))!;seen.push(id);const cat=expected.find(c=>c.id===id)!;
-    expect(cat).toBeTruthy();expect(cat.members.length).toBeGreaterThan(0);await expect(row).toHaveAttribute('href',kh1WorldCategoryHref(cat,world));await expect(row).toHaveAttribute('data-complete','false');
+    expect(cat).toBeTruthy();expect(cat.members.length).toBeGreaterThan(0);await expect(row).toHaveAttribute('href',kh1WithOrigin(kh1WorldCategoryHref(cat,world),new URL(page.url()).hash.slice(2)));await expect(row).toHaveAttribute('data-complete','false');
     await expect(row).toContainText(cat.total?'0 / '+cat.total:cat.references+' reference');
     const box=await row.boundingBox();expect(box!.height).toBeGreaterThanOrEqual(44);
    }

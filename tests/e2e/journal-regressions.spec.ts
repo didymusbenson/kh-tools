@@ -75,7 +75,7 @@ test("reference filters survive native entry visits and same-route reloads", asy
   await status.selectOption("remaining");
   await page.locator(".kh1-index-row a[data-record-id]").first().click();
   await expect(page.getByRole("heading", { name: "Notes", exact: true })).toBeVisible();
-  await page.getByRole("link", { name: "‹ Back", exact: true }).click();
+  await page.locator('.kh1-back').click();
   await expect(world).toHaveValue("Traverse Town");
   await expect(status).toHaveValue("remaining");
   await page.reload();
@@ -91,7 +91,7 @@ test("challenge filters survive entry visits and same-route reloads", async ({ p
   await status.selectOption("remaining");
   await page.locator(".kh1-index-row a[data-record-id]").first().click();
   await expect(page.getByRole("heading", { name: "Notes", exact: true })).toBeVisible();
-  await page.getByRole("link", { name: "‹ Back", exact: true }).click();
+  await page.locator('.kh1-back').click();
   await expect(status).toHaveValue("remaining");
   await page.reload();
   await savedJournal(page);

@@ -15,12 +15,13 @@ const internalFacts = new Set([
 ]);
 
 /** The complete entry content, shared by inline lists and linked destinations. */
-export function EntryDetails({ data, state, entry: originalEntry, compactMaterial = false, visitedMaterialIds = [] }: {
+export function EntryDetails({ data, state, entry: originalEntry, compactMaterial = false, visitedMaterialIds = [], entryLink = entryHref }: {
   data: GameData;
   state: PlayerState;
   entry: GuideEntry;
   compactMaterial?: boolean;
   visitedMaterialIds?: string[];
+  entryLink?: (entry: GuideEntry) => string;
 }) {
   const cleaned = originalEntry.category === "material" ? materialDetailEntry(originalEntry) : originalEntry;
   const entry = originalEntry.category === "material" && !compactMaterial ? {...cleaned, summary: originalEntry.summary} : cleaned;
@@ -60,7 +61,7 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
             {recipeRequirements(recipe, 1, state.inventory, state.inventoryEnabled).map((ingredient) => {
               const target = data.entries.find((e) => e.id === ingredient.itemId);
               return <li key={ingredient.itemId}>
-                {target ? <a href={entryHref(target)}>{ingredient.name}</a> : <span>{ingredient.name}</span>}
+                {target ? <a href={entryLink(target)}>{ingredient.name}</a> : <span>{ingredient.name}</span>}
                 <span aria-label={state.inventoryEnabled
                   ? `${ingredient.owned === null ? "Unknown" : ingredient.owned} owned, ${ingredient.required} required; ${ingredient.missing === null ? "unknown" : ingredient.missing} remaining`
                   : `${ingredient.required} required`}>
@@ -99,7 +100,7 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
                   </div>
                   {canExpand(target.id) ? <details className="material-source-details">
                     <summary>More info about {target.name}</summary>
-                    <EntryDetails data={data} state={state} entry={target} compactMaterial visitedMaterialIds={visited} />
+                    <EntryDetails data={data} state={state} entry={target} compactMaterial visitedMaterialIds={visited} entryLink={entryLink} />
                   </details> : <p>Already described in this material's requirements.</p>}
                 </>}
               </li>;
@@ -125,9 +126,9 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
             {isMaterial && ["enemy", "guide"].includes(target.category) && canExpand(target.id)
               ? <details className="material-source-details">
                   <summary>More info about {target.name}</summary>
-                  <EntryDetails data={data} state={state} entry={target} visitedMaterialIds={visited} />
+                  <EntryDetails data={data} state={state} entry={target} visitedMaterialIds={visited} entryLink={entryLink} />
                 </details>
-              : <a href={entryHref(target)}>{target.name}</a>}
+              : <a href={entryLink(target)}>{target.name}</a>}
           </li>)}</ul>
         </div>
       )}
