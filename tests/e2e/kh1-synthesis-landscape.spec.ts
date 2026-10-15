@@ -250,3 +250,57 @@ test('KH1 short landscape synthesis keeps unfiltered farming rows reachable at 8
   }
   expect([...seen].sort()).toEqual(ultima.ingredients.map(ingredient => ingredient.itemId).sort());
 });
+
+for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 650 }, { width: 844, height: 350 }]) {
+  test(`KH1 synthesis comparison captures all workspaces at ${viewport.width}x${viewport.height}`, async ({ page }, testInfo) => {
+    await page.setViewportSize(viewport);
+    await page.goto(`./#/kh1fm/synthesis/recipes?item=${ultima.entryId}`);
+    await settle(page);
+    await showStockLeaf(page, 'Details');
+    await page.getByRole('button', { name: 'Add ingredients to farming plan', exact: true }).click();
+    await expect(page.getByRole('status').filter({ hasText: 'Ingredients added to your farming plan.' })).toBeVisible();
+    await settle(page);
+
+    // Capture the three genuine workspaces at identical sizes. This first pass
+    // records differences without imposing visual parity on their distinct data.
+    for (const tab of ['recipes', 'materials', 'plan'] as const) {
+      await page.goto(`./#/kh1fm/synthesis/${tab}`);
+      await settle(page);
+      for (const leaf of ['index', 'detail'] as const) {
+        await showStockLeaf(page, tab === 'plan'
+          ? leaf === 'index' ? 'Materials' : 'World route'
+          : leaf === 'index' ? 'Index' : 'Details');
+        await settle(page);
+        const name = `kh1-synthesis-compare-${viewport.width}x${viewport.height}-${tab}-${leaf}`;
+        await page.screenshot({ path: testInfo.outputPath(`${name}.png`) });
+        const geometry = await page.evaluate(() => {
+          const selectors = {
+            header: '.kh1-heading', book: '.kh1-spread', volume: '.kh1-volume',
+            picker: '.kh1-leaf-picker', tabs: '.kh1-book-tabs', filters: '.kh1-filters',
+            indexLeaf: '.kh1-synthesis-index', detailLeaf: '.kh1-synthesis-detail',
+            index: '.kh1-synthesis-index .kh1-index', indexPager: '.kh1-page-controls',
+            noteWindow: '.kh1-note-window', notePager: '.kh1-note-pagination',
+            indexFooter: '.kh1-synthesis-index-footer', routeTabs: '.farming-source-tabs',
+          };
+          const nodes = Object.fromEntries(Object.entries(selectors).map(([key, selector]) => [key,
+            [...document.querySelectorAll(selector)].map(element => {
+              const rect = element.getBoundingClientRect();
+              const style = getComputedStyle(element);
+              return {
+                selector, text: element.textContent?.trim(),
+                bounds: { x: rect.x, y: rect.y, width: rect.width, height: rect.height },
+                clientWidth: element.clientWidth, clientHeight: element.clientHeight,
+                scrollWidth: element.scrollWidth, scrollHeight: element.scrollHeight,
+                styles: Object.fromEntries(['display', 'visibility', 'position', 'font-family', 'font-size', 'line-height',
+                  'padding', 'margin', 'gap', 'min-height', 'height', 'max-height', 'overflow-x', 'overflow-y',
+                  'flex-direction', 'grid-template-columns', 'grid-template-rows'].map(property => [property, style.getPropertyValue(property)])),
+              };
+            }),
+          ]));
+          return { url: location.href, viewport: { width: innerWidth, height: innerHeight, devicePixelRatio }, nodes };
+        });
+        await testInfo.attach(`${name}.json`, { body: JSON.stringify(geometry, null, 2), contentType: 'application/json' });
+      }
+    }
+  });
+}
