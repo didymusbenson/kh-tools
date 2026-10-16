@@ -100,7 +100,84 @@
 .kh1-outer,.kh1-save-line{margin:0;min-width:0}
 .kh1-save-line>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .kh1-volume{min-height:0;display:flex;flex-direction:column}
-.kh1-heading{height:106px;min-height:106px;flex:none;padding-top:9px;p…1184 tokens truncated…dex .kh1-index{flex:1;min-height:0}
+.kh1-heading{height:106px;min-height:106px;flex:none;padding-top:9px;padding-bottom:9px}
+.kh1-heading h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kh1-volume>.kh1-spread{flex:1;min-height:0;height:auto;max-height:none;grid-template-rows:minmax(0,1fr);margin:12px 7%;grid-template-columns:43% 57%}
+.kh1-volume>.kh1-tool-spread{display:flex}
+.kh1-spread>.kh1-leaf-left,.kh1-spread>.kh1-leaf-right{min-height:0;height:auto;max-height:none;padding-top:18px;padding-bottom:16px}
+.kh1-entry-spread>.kh1-leaf-left{display:flex;flex-direction:column}
+.kh1-tool-page{width:100%;min-height:0}
+.kh1-bottom{height:44px;min-height:44px;flex:none;padding-top:6px;padding-bottom:6px}
+.kh1-spiral,.kh1-synthesis-spread>.kh1-spiral{left:calc(43% - 22px);width:44px}
+.kh1-index-art{overflow:hidden}
+.kh1-jiminy-art{height:auto;min-height:0;max-height:65%;flex:1;object-fit:contain;margin-top:12px}
+.kh1-speech{flex:none;font-size:22px;padding:14px 16px}
+.kh1-index-caption{flex:none;font-size:16px}
+.kh1-index{min-height:0}
+.kh1-index>a,.kh1-index-row{min-height:0}
+.kh1-index-row{flex:1}
+.kh1-index>a,.kh1-index-row>a{padding:6px 3px;font-size:21px;line-height:1.2}
+.kh1-index-row small{font-size:13px}
+.kh1-page-controls{margin-top:10px;flex:none;font-size:16px}
+.kh1-page-controls a{height:34px;width:34px}
+.kh1-filters{flex:none;gap:10px;margin-bottom:8px}
+.kh1-filters select{min-height:34px;font-size:14px}
+.kh1-leaf-picker{display:none}
+.kh1-note-flow .kh1-summary{font:400 20px/1.5 KH1Hand;background:none}
+.kh1-note-flow .kh1-return{margin-top:16px}
+.kh1-note-flow .settings-grid,.kh1-note-flow .progress-summary-grid{display:block}
+.kh1-note-flow .settings-card{break-inside:auto}
+@media(max-width:1000px){.kh1-heading{height:128px;min-height:128px;row-gap:8px}.kh1-volume>.kh1-spread{margin:10px 4%}.kh1-speech{font-size:20px}.kh1-book-tabs{gap:6px 10px}}
+@media(max-width:650px){
+ .kh1-native{padding:8px;grid-template-rows:20px minmax(0,1fr) 32px;gap:6px}
+ .kh1-heading{height:110px;min-height:110px;padding:8px 15px}
+ .kh1-volume>.kh1-spread{display:grid;grid-template-columns:minmax(0,1fr);margin:8px 12px}
+ .kh1-spread>.kh1-leaf-left,.kh1-spread>.kh1-leaf-right{grid-column:1;grid-row:1;min-height:0;height:auto;padding:18px 20px}
+ .kh1-spread>.kh1-index-art{display:none}
+ .kh1-show-left .kh1-spread>.kh1-leaf-right{display:none}
+ .kh1-show-right .kh1-spread>.kh1-leaf-left{display:none}
+ .kh1-leaf-picker{display:flex;flex:none;height:36px;justify-content:center;gap:24px}
+ .kh1-leaf-picker button{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;padding:4px 12px;color:#304859;font:16px KH1Menu}
+ .kh1-leaf-picker button[aria-pressed=true]{border-color:#304859}
+ .kh1-entry-spread .kh1-leaf-left{border-bottom:0}
+ .kh1-synthesis-index .kh1-index>a{min-height:36px}
+ .kh1-bottom{height:40px;min-height:40px}
+ .kh1-note-pagination button{height:32px}
+ .kh1-synthesis-index{border-bottom:0}
+}
+@media(max-height:650px) and (min-width:651px){
+ .kh1-native{padding-top:6px;padding-bottom:6px;gap:4px;grid-template-rows:20px minmax(0,1fr) 28px}
+ .kh1-heading{height:88px;min-height:88px}.kh1-utilities{gap:2px}
+ .kh1-volume>.kh1-spread{margin-top:6px;margin-bottom:6px}
+ .kh1-spread>.kh1-leaf-left,.kh1-spread>.kh1-leaf-right{padding-top:10px;padding-bottom:10px}
+ .kh1-synthesis-index .kh1-index>a{min-height:28px;padding:3px;font-size:18px}
+ .kh1-book-tabs{margin-bottom:6px;padding-bottom:5px}
+}
+
+/* Spare page height belongs below the index, not inside each row. */
+.kh1-index{flex:1;justify-content:flex-start}
+.kh1-index>a,.kh1-index-row{flex:0 0 auto;min-height:44px}
+.kh1-index>a,.kh1-index-row>a{padding:8px 3px}
+.kh1-index-row>a{flex:1;min-width:0}
+.kh1-index-row{min-height:58px}
+.kh1-index-row input{margin-top:8px;margin-bottom:8px}
+.kh1-synthesis-index .kh1-index{flex:1}
+.kh1-synthesis-index .kh1-index>a{flex:0 0 auto}
+@media(max-height:650px) and (min-width:651px){
+ .kh1-index>a{min-height:34px;padding-top:5px;padding-bottom:5px}
+ .kh1-index-row{min-height:48px}
+ .kh1-index-row>a{padding-top:4px;padding-bottom:4px}
+}
+
+/* Facing content pages share equal paper widths and mirrored inner margins. */
+@media(min-width:651px){
+ .kh1-volume>.kh1-entry-spread,.kh1-volume>.kh1-synthesis-spread{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .kh1-entry-spread>.kh1-spiral,.kh1-synthesis-spread>.kh1-spiral{left:calc(50% - 22px)}
+ .kh1-entry-spread>.kh1-leaf-left,.kh1-synthesis-spread>.kh1-leaf-left{padding-left:34px;padding-right:43px}
+ .kh1-entry-spread>.kh1-leaf-right,.kh1-synthesis-spread>.kh1-leaf-right{padding-left:43px;padding-right:34px}
+}
+/* The plan keeps editable quantities on the index leaf and source routes opposite. */
+.kh1-synthesis-index.kh1-farming-index .kh1-index{flex:1;min-height:0}
 .kh1-farming-index .farming-material-row{border-color:#83939080}
 .kh1-synthesis-spread .farming-material-heading>strong{font-family:KH1Hand}
 .kh1-farming-index .farming-counts,.kh1-farming-index .farming-plan-help{font-family:KH1Menu}
