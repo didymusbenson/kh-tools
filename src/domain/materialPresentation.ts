@@ -87,3 +87,44 @@ export function materialDropLocation(entry: GuideEntry, line: string): string {
   if (entry.id === "kh1fm-material-mythril-shard" && line.startsWith("Barrel Spider:")) return "Monstro / Neverland";
   return [entry.world, entry.area].filter(Boolean).join(" · ");
 }
+
+export interface MaterialSource {
+  rule: string;
+  enemy?: GuideEntry;
+  location: string;
+  condition: string;
+  worlds: string;
+}
+
+/** Standalone material details must supply the source context that compact rows omit.
+ * Use exact authored rules. Never turn a conditional reward into a kill-drop rate.
+ * Enemy locations are suggested farming spots, not an exhaustive spawn table.
+ */
+export function materialSources(entry: GuideEntry, entries: GuideEntry[]): MaterialSource[] {
+  const source = entry.facts?.["source enemy"];
+  const reward = entry.facts?.["reward rule"];
+  const rules = typeof source === "string" && typeof reward === "string"
+    ? `${source}: ${reward}` : String(entry.facts?.["drop rules"] || entry.summary);
+  const enemies = entries.filter(e => e.category === "enemy" && entry.relatedIds.includes(e.id));
+  // Only split at an explicitly named linked enemy; preserve component/phase clauses.
+  // Power Gem's material summary omits the rates for individual Battleship parts;
+  // these values are recorded in its linked enemy's Base rewards table.
+  const chunks = entry.id === "kh1fm-material-power-gem"
+    ? ["Pirate: 4%.", "Air Pirate: 4%.", "Battleship: body 4%; destroyed parts 8%."]
+    : typeof source === "string" ? [rules] : rules.split("; ").reduce<string[]>((parts, part) => {
+      if (!parts.length || enemies.some(enemy => part.startsWith(`${enemy.name}:`))) parts.push(part);
+      else parts[parts.length - 1] += `; ${part}`;
+      return parts;
+    }, []);
+  return chunks.map(rule => {
+    const enemy = enemies.find(e => rule.startsWith(`${e.name}:`));
+    const location = enemy?.name === "Arch Behemoth"
+      ? "End of the World · Final Dimension"
+      : enemy?.name === "Barrel Spider"
+      ? "Monstro / Neverland"
+      : [enemy?.world, enemy?.area].filter(Boolean).join(" · ");
+    return { rule, enemy, location,
+      condition: enemy?.name === "Arch Behemoth" ? "Fixed roll, unaffected by Lucky Strike. This reward belongs to Final Dimension; do not treat Linked Worlds as a permanent farm." : "",
+      worlds: enemy?.facts?.Worlds ? [...new Set(String(enemy.facts.Worlds).split(",").map(world => world.trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b)).join(", ") : "" };
+  }).filter(row => row.rule);
+}

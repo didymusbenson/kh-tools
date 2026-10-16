@@ -2,7 +2,7 @@ import { chestReference } from "../domain/entryPresentation";
 import type { GameData, GuideEntry, PlayerState } from "../domain/types";
 import { recipeRequirements } from "../domain/planner";
 import { entryHref } from "../domain/entryNavigation";
-import { materialDetailEntry, materialDropLines, materialDropLocation } from "../domain/materialPresentation";
+import { materialDetailEntry, materialDropLines, materialDropLocation, materialSources } from "../domain/materialPresentation";
 import { EntryMedia } from "./EntryMedia";
 import { kh1EnemyStats } from "../domain/kh1EnemyStats";
 import { Kh1EnemyStats } from "./Kh1EnemyStats";
@@ -15,11 +15,12 @@ const internalFacts = new Set([
 ]);
 
 /** The complete entry content, shared by inline lists and linked destinations. */
-export function EntryDetails({ data, state, entry: originalEntry, compactMaterial = false, visitedMaterialIds = [], entryLink = entryHref }: {
+export function EntryDetails({ data, state, entry: originalEntry, compactMaterial = false, showMaterialSources = false, visitedMaterialIds = [], entryLink = entryHref }: {
   data: GameData;
   state: PlayerState;
   entry: GuideEntry;
   compactMaterial?: boolean;
+  showMaterialSources?: boolean;
   visitedMaterialIds?: string[];
   entryLink?: (entry: GuideEntry) => string;
 }) {
@@ -45,6 +46,16 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
   ].filter(([, value]) => Boolean(value));
   return (
     <div className="entry-details-content">
+      {showMaterialSources && isMaterial && <section className="material-primary-sources" aria-label="Material sources">
+        <h3>Where to find it</h3>
+        {materialSources(originalEntry, data.entries).map((source, index) => <div className="material-primary-source" key={index}>
+          <p className="material-source-rule">{source.enemy ? <><a href={entryLink(source.enemy)}>{source.enemy.name}</a>{source.rule.slice(source.enemy.name.length)}</> : source.rule}</p>
+          {source.location && <p className="material-source-location">{source.enemy ? "Farming spot" : "Reference location"}: {source.location}</p>}
+          {source.condition && <p className="material-source-condition">{source.condition}</p>}
+          {source.worlds && <p className="material-source-worlds">Recorded worlds: {source.worlds}</p>}
+        </div>)}
+      </section>}
+      {showMaterialSources && isMaterial && <h3 className="material-notes-heading">Notes</h3>}
       {!entry.collectible && entry.summary && entry.summary !== entry.instructions && <p>{entry.summary}</p>}
       {entry.instructions && <p>{entry.instructions}</p>}
       {fields.length > 0 && (

@@ -407,3 +407,41 @@ for (const viewport of [{ width: 320, height: 568 }, { width: 390, height: 844 }
     }
   });
 }
+
+for (const viewport of [{width:1199,height:610},{width:390,height:650},{width:844,height:350}]) {
+  test(`KH1 source-first material details stay compact at ${viewport.width}x${viewport.height}`, async ({page}) => {
+    await page.setViewportSize(viewport);
+    await page.goto('./#/kh1fm/synthesis/materials?item=kh1fm-material-blaze-shard');
+    await showStockLeaf(page, 'Details');
+    await settle(page);
+    const heading=page.locator('.kh1-synthesis-heading');
+    const action=heading.getByRole('button',{name:'Add to farming plan',exact:true});
+    await expect(action).toBeVisible();
+    const headingBox=(await heading.boundingBox())!;
+    const actionBox=(await action.boundingBox())!;
+    expect(actionBox.width).toBeLessThan(headingBox.width-20);
+    expect(Math.abs(actionBox.x+actionBox.width-headingBox.x-headingBox.width)).toBeLessThan(2);
+    const first=page.locator('.material-primary-source').first();
+    await expect(first).toContainText('Red Nocturne: 6%.');
+    await expect(first).toContainText('Wonderland · Bizarre Room');
+    await expect(first).toContainText('Recorded worlds: Agrabah');
+    await expect.poll(()=>fullyInside(first,page.locator('.kh1-note-window'))).toBe(true);
+    await containedFrame(page);
+    await page.screenshot({path:test.info().outputPath(`kh1-synthesis-material-blaze-${viewport.width}.png`)});
+    await action.focus();
+    await page.keyboard.press('Enter');
+    await expect(heading.getByRole('button',{name:'In farming plan',exact:true})).toBeDisabled();
+    await page.reload();
+    await showStockLeaf(page,'Details');
+    await settle(page);
+    await expect(heading.getByRole('button',{name:'In farming plan',exact:true})).toBeDisabled();
+    await page.goto('./#/kh1fm/synthesis/materials?item=kh1fm-material-stormy-stone');
+    await showStockLeaf(page,'Details');
+    await settle(page);
+    await expect(first).toContainText('35% on the seventh qualifying Neoshadow, not each enemy.');
+    await expect(first).toContainText('End of the World · Linked Worlds');
+    await expect.poll(()=>fullyInside(first,page.locator('.kh1-note-window'))).toBe(true);
+    await containedFrame(page);
+    await page.screenshot({path:test.info().outputPath(`kh1-synthesis-material-stormy-${viewport.width}.png`)});
+  });
+}
