@@ -431,6 +431,10 @@ for (const viewport of [{width:1199,height:610},{width:390,height:650},{width:84
     await action.focus();
     await page.keyboard.press('Enter');
     await expect(heading.getByRole('button',{name:'In farming plan',exact:true})).toBeDisabled();
+    // The target/button update is optimistic. Reload only after IndexedDB commits;
+    // otherwise a fast browser can abort the still-pending write during teardown.
+    await expect(page.locator('.kh1-synthesis-notice')).toHaveText('Material added to your farming plan.');
+    await expectJournalSaved(page);
     await page.reload();
     await showStockLeaf(page,'Details');
     await settle(page);

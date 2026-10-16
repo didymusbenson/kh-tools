@@ -17,3 +17,7 @@ Other synthesis actions were inspected: KH2 already has compact heading actions,
 - New browser coverage verifies first-source visibility, compact right alignment, keyboard add, reload persistence and containment at 1199×610, 390×650 and 844×350; captures Blaze Shard and conditional Stormy Stone.
 - All 46 synthesis, material stock, farming plan and KH2 compact-action browser regressions pass across both desktop and mobile projects.
 - New captures use `kh1-synthesis-material-*.png`, retained by the existing early synthesis CI artifact step.
+
+### CI reload-race correction
+
+The initial CI run caught a race in the new persistence assertion: `playerStore.enqueue` publishes the optimistic target immediately, so the disabled “In farming plan” button does not prove that IndexedDB has committed. Reloading at that point can abort the pending write. The test now waits for the completed-action notice and the Saved footer before reloading, then separately verifies the persisted disabled state. No production persistence behavior changed.
