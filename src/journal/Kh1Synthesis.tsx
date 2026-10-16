@@ -74,17 +74,17 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
     <section key={tab==='plan'?'plan':selected?.id||tab} className="kh1-leaf-right kh1-paper kh1-synthesis-detail" aria-label="Synthesis notes">
       {tab==='plan'?<FarmingItinerary plan={farmingPlan}/>:<>
       <p className="kh1-entry-category">{recipe?`Synthesis · Set ${recipe.set}`:'Material notes'}</p>
-      <h2>{selected?.name||'No matching entries'}</h2>
+      <div className="kh1-synthesis-heading">
+        <h2>{selected?.name||'No matching entries'}</h2>
+        {selected&&<button className="kh1-book-action" disabled={!player.ready||busy||(!recipe&&(state.farmPlan?.[selected.id]||0)>0)} onClick={()=>void act(()=>recipe?player.addRecipeToFarmPlan(recipe.id):player.addMaterialToFarmPlan(selected.id),recipe?'Ingredients added to your farming plan.':'Material added to your farming plan.')}>{recipe?'Add ingredients to farming plan':(state.farmPlan?.[selected.id]||0)>0?'In farming plan':'Add to farming plan'}</button>}
+      </div>
       {selected?<>
         {recipe?<>
           <label className="kh1-acquired"><input type="checkbox" checked={!!state.checks[selected.id]} disabled={!player.ready||busy} onChange={()=>void act(()=>player.toggleCheck(selected.id),'Crafting record saved.')}/>Crafted</label>
           <p className="kh1-small">Marking a recipe crafted does not deduct stock.</p>
-          <button className="kh1-book-action" disabled={busy} onClick={()=>void act(()=>player.addRecipeToFarmPlan(recipe.id),'Ingredients added to your farming plan.')}>Add ingredients to farming plan</button>
         </>:<>
           <div className="kh1-stock-fields"><Stock key={selected.id+'owned'} label={`${selected.name} owned`} value={state.inventory[selected.id]} save={n=>player.setInventory(selected.id,n??null)}/>
 </div>
-          <p className="kh1-small">Blank stock means unknown. Changes save when you leave the field.</p>
-          <button className="kh1-book-action" disabled={busy||(state.farmPlan?.[selected.id]||0)>0} onClick={()=>void act(()=>player.addMaterialToFarmPlan(selected.id),'Material added to your farming plan.')}>{(state.farmPlan?.[selected.id]||0)>0?'In farming plan':'Add to farming plan'}</button>
         </>}
         <div role="status" className="kh1-synthesis-notice">{notice}</div>
         <JournalNotePages key={selected.id+tab}>{recipe?<div className="kh1-recipe-notes">
@@ -93,7 +93,7 @@ export function Kh1Synthesis({data,player,route}: {data:GameData;player:PlayerCo
           <p><strong>Unlock:</strong> {selected.prerequisites||recipe.unlock}</p>
           <p><strong>Makes:</strong> {recipe.name} ×{recipe.outputQuantity}</p>
           {(recipe.uncertainty||selected.uncertainty)&&<p>{recipe.uncertainty||selected.uncertainty}</p>}
-        </div>:<EntryDetails entryLink={e=>kh1WithOrigin(entryHref(e),route)} data={data} state={state} entry={selected} compactMaterial/>}</JournalNotePages>
+        </div>:<><EntryDetails entryLink={e=>kh1WithOrigin(entryHref(e),route)} data={data} state={state} entry={selected} compactMaterial showMaterialSources/><p className="kh1-small">Blank stock means unknown. Changes save when you leave the field.</p></>}</JournalNotePages>
       </>:<p className="kh1-summary">Try another search or filter to find an entry.</p>}
       </>}
     </section>
